@@ -1,0 +1,115 @@
+- AAA
+    - Authentication
+    - Authorization
+    - Audit
+- Access Control
+    - Discretionary Access Control
+    - Mandatory Access Control
+    - Role-Based Access Control
+- Cryptographics
+    - Symetric
+    - Asymetric
+        - PKI
+    - Hashing
+        - MD5
+        - Sha-256,512
+        - Algorithms
+        - AES
+        - Diffie-Hellman KX
+- Security Analysis
+    - Network Flow Analysis
+        - NetFlow
+        - IPFIX
+    - SIEM
+        - User Behavior Analysis
+    - IDS and IPS
+        - Network-based
+        - Host-based
+    - Security Operations Center
+        - Mean Time to Identify (MTTI)
+        - Mean Time to Contain (MTTC)
+        - Indicators of Compromise (IoC)
+    - Firewall
+        - Stateless Inspection
+        - Stateful Inspection
+        - Application-level
+    - File Integrity Monitoring
+    - Data Loss Prevention
+    - Network Access Control
+    - Endpoint Detection and Response
+    - Extended Detection and Response
+    - Network Segmentation
+        - Bastion
+        - Tri-homed
+        - DMZ
+        - Multi-tiered
+    - Point-to-Point Tunneling Protocol
+    - Layer 2 Tunneling Protocol
+    - SASE (Security Access Service Edge)
+- Database Management System
+    - SQL
+        - Queries
+            - Data Definition Language
+                - Define the DB schema, interacting directly with structures instead of data (CREATE, ALTER, TRUNCATE, DROP)
+            - Data Management Language
+                - Access and manipulate data directly (INSERT, DELETE, UPDATE, DELETE)
+            - Dada Control Language
+                - Creates and modifies the structure of objects in the database (GRANT, REVOKE)
+    - NoSQL
+        - Key-Value Store
+        - Document Based
+        - Column Based
+        - Graph Based
+- OWASP
+    - OWASP Top 10
+    - OWASP Application Security Verification Standard (ASVS)
+    - Mobile Application Security Verification Standard (MASVS)
+    - OWASP Software Assurance Maturity Model (SAMM)
+    - OWASP Testing Guide
+    - OWASP Cheat Sheet Series
+- Pentest
+    - Planning: defines test's scope and rules of engagement
+        - Blackbox, whitebox and greybox, internal and external
+        - Scope: scope specification, ressource allocation, risk assessment, communication plan, legal and compliance considerations
+        - Rules of engagement: scope definition, testing methods, timing and duration, authorized personnel, communication protocols, legal and ethical considerations, incident response plan, post-testing procedures
+    - Discovery: information gathering and vulnerability analysis
+        - Passive and active reconnaissance
+    - Attack: Execute attack, exploit vulnerabilities and continue with the vulnerability chaining
+    - Verification: verify efficiency and impact of exploitations, assess security response
+    - Cleanup and Reporting: cover traces and elaborate a report
+- Attack Phase
+    - Exploiting
+        - pcap, libpcap, pcapng, npcap
+    - Bypass defenses
+    - Elevate privileges
+    - Post-Attack
+        - NIST Scope: Misconfiguration, Kernel Flaw, Insufficient Input Validation, symbolic link flaws, file descriptor erros, race conditions, buffer overflows, incorrect file and directory permissions
+    - IANA ports
+    - App pentests
+        - SAST, DAST, IAST, MAPT, WAPT
+        - SNYK
+    - PTES Framework
+- Threat Hunting
+    - IoA and IoC
+    - CERT
+    - STIX and TAXII
+    - MITRE ATT&CK Framework
+    - Tactical, Operational, Strategic, Technical
+- CTI Frameworks
+- Cyber Kill Chain
+    - Reconnaissance
+    - Weaponization
+    - Delivery
+    - Exploitation
+    - Installation
+    - Command and control
+    - Actions and objectives
+- Incident Response
+    - Preparation
+    - Detection and Analysis
+    - Containment, Erradication and Recovery
+    - Post-Incident Activity
+- Leis:
+	- Lei Carolina Dieckmann
+	- Marco Civil da Internet
+	- LGPD

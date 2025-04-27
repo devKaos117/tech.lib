@@ -1,0 +1,58 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "pv2L5x3kobWSdBJry0yLM",
+      "name": "In-Progress",
+      "value": "#0000ff"
+    },
+    {
+      "id": "1V1_EHArlneT-3ql99AWX",
+      "name": "Incomplete",
+      "value": "#ff3d3d"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Devices.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Commands",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/GRC.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/IANA.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/Networking Protocols.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Compendium/Routing Protocols.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/RFC.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Compendium/Protocols/ARP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/Protocols/IP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/Protocols/DHCP.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    }
+  ]
+}
