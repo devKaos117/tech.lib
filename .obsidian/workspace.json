@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Compendium/Protocols/TCP.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -263,7 +263,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "ebd6f8f2be39c38f",
   "lastOpenFiles": [
     "Compendium/RFC.md",
     "Compendium/Protocols/TCP.md",
