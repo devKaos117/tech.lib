@@ -1,0 +1,317 @@
+{
+  "main": {
+    "id": "47dcdfc1e1ec570b",
+    "type": "split",
+    "children": [
+      {
+        "id": "be21512a55875d98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "708d6e46a75d0ecc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compendium/RFC.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "RFC"
+            }
+          },
+          {
+            "id": "7447ac394e65ff47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compendium/Networking Protocols.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Networking Protocols"
+            }
+          },
+          {
+            "id": "ebd6f8f2be39c38f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compendium/Protocols/TCP.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TCP"
+            }
+          },
+          {
+            "id": "712785efc1cb25e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compendium/TCP-IP Model.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "TCP-IP Model"
+            }
+          },
+          {
+            "id": "eb542629defdbb3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Commands/Missing.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Missing"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e3997bc78e485a65",
+    "type": "split",
+    "children": [
+      {
+        "id": "64281130564cea07",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "becca221a6cb9839",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3dc2fbee43439374",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "boot",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cf755fad13495b1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b20849d32e86033d",
+    "type": "split",
+    "children": [
+      {
+        "id": "67144503f1853ac5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "deef1548018c3060",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "8f54b1fc8b0fe883",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "5eb4ea7a445f1392",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4182ebe74c8ad161",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GPT Prompt Engineering.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GPT Prompt Engineering"
+            }
+          },
+          {
+            "id": "2b8d37688261b4c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "b6fc66ce16a0e324",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7caaea2c6b8dc887",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "becca221a6cb9839",
+  "lastOpenFiles": [
+    "Compendium/RFC.md",
+    "Compendium/Protocols/TCP.md",
+    "Compendium/Protocols/UDP.md",
+    "Compendium/Protocols/Ethernet.md",
+    "Linux/Commands/Missing.md",
+    "Compendium/TCP-IP Model.md",
+    "Compendium/Protocols/IP.md",
+    "Compendium/Networking Protocols.md",
+    "Compendium/OSI Model.md",
+    "Compendium/Protocols/DHCP.md",
+    "Compendium/Protocols/SSH.md",
+    "Devices.md",
+    "Compendium/Protocols/ARP.md",
+    "GPT Prompt Engineering.md",
+    "attachments/icon/tailsOS.svg",
+    "attachments/BIOS_logo-removebg-preview.png",
+    "attachments/snapcraft.svg",
+    "attachments/dnf.png",
+    "attachments/1280px-7-Zip_Icon.svg.png",
+    "attachments/IBM.png",
+    "attachments/api.png",
+    "attachments/uefi_logo_red.png",
+    "attachments/ecc0ce00c4f2fe640cf948dc3ced7490.png",
+    "attachments/node.png",
+    "attachments/icon",
+    "Pages Conclusion.md",
+    "Compendium/Routing Protocols.md",
+    "Compendium/GRC.md",
+    "Compendium/Regulatory Compliance.md",
+    "Notes.md",
+    "templates/NOTE_TEMPLATE.md",
+    "Compendium/IANA.md",
+    "Compendium/REST.md",
+    "Compendium/Boot Loader.md",
+    "Compendium/GPT.md",
+    "Compendium/MBR.md",
+    "Compendium/Information.md",
+    "HTML import",
+    "Notion/Notes",
+    "Notion/Linux/File Hierarchy Standard/var",
+    "Notion/Linux/File Hierarchy Standard/usr",
+    "Notion/Linux/File Hierarchy Standard/run",
+    "Notion/Linux/File Hierarchy Standard/dev",
+    "Notion/Linux/File Hierarchy Standard",
+    "Notion/Linux/Distros/Ubuntu",
+    "Notion/Linux/Distros/TailsOS",
+    "Notion/Culinária/Receitas/Untitled.canvas",
+    "Untitled.canvas"
+  ]
+}
