@@ -1,7 +1,8 @@
 ---
 package: openssh-client
+category: command
 tags:
-  - Command/Network
+  - network
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
@@ -72,7 +73,7 @@ ESCAPE CHARACTERS
 
 	~?
 		Display a list of escape characters
-	
+
 	~.
 		Disconnect
 	~R

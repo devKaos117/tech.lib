@@ -1,7 +1,9 @@
 ---
 package: coreutils
+category: command
 tags:
- - Command/Files/Navigation
+ - files
+ - navigation
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

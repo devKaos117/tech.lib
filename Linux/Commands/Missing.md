@@ -1,3 +1,8 @@
+tree
+updatedb
+ranger
+scp
+
 macchanger
 route
 ipcalc
@@ -6,3 +11,13 @@ arp
 seq
 hping3
 netcat
+openssl
+socat
+/dev/tcp
+urlcrazy
+exiftool
+lynx
+dig
+dnsenum
+dnsrecon
+fierce
