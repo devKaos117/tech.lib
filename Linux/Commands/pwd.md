@@ -32,4 +32,4 @@ pwd [-P|-L]
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/pwd)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html#pwd-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/pwd-invocation.html#pwd-invocation)

@@ -77,4 +77,4 @@ cp [OPTIONS]... [SOURCE]... [DESTINY]
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/cp)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html#cp-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html#cp-invocation)

@@ -48,4 +48,4 @@ mv [OPTIONS]... [SOURCE]... [DESTINY]
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/mv)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html#mv-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html#mv-invocation)

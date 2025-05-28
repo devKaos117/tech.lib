@@ -38,4 +38,4 @@ touch [OPTIONS]... [PATH]...
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/touch)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html#touch-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html#touch-invocation)

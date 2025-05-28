@@ -31,4 +31,4 @@ mkdir [OPTIONS]... [PATH]...
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/mkdir)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html#mkdir-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html#mkdir-invocation)

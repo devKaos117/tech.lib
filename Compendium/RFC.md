@@ -35,5 +35,3 @@ tags:
 #### ARP
 - [**RFC 826:** ARP - Converting Network Protocol Addresses](https://datatracker.ietf.org/doc/html/rfc826)
 - [**RFC 903:** ARP - Reverse Address Resolution Protocol](https://datatracker.ietf.org/doc/html/rfc903)
-
-## External References

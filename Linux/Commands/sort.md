@@ -57,4 +57,4 @@ sort [OPTION]... [PATH]...
 
 ## Links
 [linux.die.net](https://linux.die.net/man/1/sort)
-[www.gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html#sort-invocation)
+[gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html#sort-invocation)
