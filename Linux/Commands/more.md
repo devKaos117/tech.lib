@@ -9,11 +9,13 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+> [!warning] Superseeded by [[less]]
+
 > [!package] util-linux-core
 
 > [!info] File paginator
 
-filter for paging through text one screenful at a time. Superseded by [[less]]
+filter for paging through text one screenful at a time
 
 ## Favorite Uses
 ```sh
