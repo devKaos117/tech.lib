@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bad41d96a3c2c1c7",
+            "id": "f7fc95c64010bee1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/ssh -.md",
-                "mode": "source",
+                "file": "Linux/Commands/sed.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ssh -"
+              "title": "sed"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,34 +206,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bad41d96a3c2c1c7",
+  "active": "f7fc95c64010bee1",
   "lastOpenFiles": [
-    "Linux/Commands/curl.md",
-    "Linux/Commands/ssh -.md",
-    "Linux/Commands/wget.md",
-    "tech.lib/Compendium/Protocols/TCP.md",
-    "tech.lib/Compendium/Protocols/UDP.md",
-    "tech.lib/Compendium/Protocols/DHCP.md",
-    "tech.lib/Compendium/Protocols/Ethernet.md",
-    "tech.lib/Compendium/REST.md",
-    "tech.lib/Compendium/UEFI.md",
-    "tech.lib/Compendium/TCP-IP Model.md",
-    "tech.lib/templates/COMMAND_TEMPLATE.md",
-    "Compendium/Protocols/TCP.md",
-    "Linux/Commands/netstat.md",
     "Linux/Commands Index.md",
-    "Linux/Commands/more.md",
-    "Linux/Commands/ping.md",
-    "Compendium/Protocols/ICMP.md",
-    "Linux/Commands/ss.md",
-    "Linux/Commands/sudo.md",
-    "Linux/Commands/lscpu.md",
-    "Linux/Commands/lspci.md",
-    "Linux/Commands/lsusb.md",
+    "Linux/Commands/sed.md",
+    "Linux/Commands/test.md",
+    "Linux/Commands/history.md",
     "Linux/File Hierarchy Standard.md",
-    "tech.lib/Linux/File Hierarchy Standard.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/tar.md",
+    "Linux/Commands/alias.md",
+    "Linux/Commands/whereis.md",
+    "Linux/Commands/whatis.md",
+    "Linux/Commands/man.md",
+    "Linux/Commands/which.md",
+    "Linux/Commands/type.md",
+    "Linux/Commands/tldr.md",
+    "Linux/Commands/info.md",
+    "Linux/Commands/mariadb.md",
+    "Linux/Commands/env.md",
+    "Linux/Commands/export.md",
+    "Linux/Commands/unset.md",
+    "Linux/Commands/cd.md",
+    "Linux/Commands/bash.md",
+    "Linux/Commands/npm.md",
+    "Linux/Commands/apt.md",
+    "Linux/Commands/nvm.md",
+    "Linux/Commands/node.md",
+    "Linux/Commands/git.md",
+    "Linux/Commands/pv.md",
+    "Linux/Commands/tee.md",
     "attachments/icon/tailsOS.svg",
     "attachments/BIOS_logo-removebg-preview.png",
     "attachments/snapcraft.svg",

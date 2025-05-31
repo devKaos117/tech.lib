@@ -19,10 +19,6 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Linux/Commands",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Compendium/GRC.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
@@ -68,6 +64,14 @@
     },
     {
       "path": "Compendium/Protocols/ICMP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Commands/test.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Commands/sed.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
