@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/sed.md",
+                "file": "Linux/Commands/ssh.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "sed"
+              "title": "ssh"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cd",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -208,8 +208,10 @@
   },
   "active": "f7fc95c64010bee1",
   "lastOpenFiles": [
-    "Linux/Commands Index.md",
+    "Linux/Commands/ssh.md",
+    "Linux/Commands/ssh.md",
     "Linux/Commands/sed.md",
+    "Linux/Commands Index.md",
     "Linux/Commands/test.md",
     "Linux/Commands/history.md",
     "Linux/File Hierarchy Standard.md",
@@ -232,8 +234,6 @@
     "Linux/Commands/nvm.md",
     "Linux/Commands/node.md",
     "Linux/Commands/git.md",
-    "Linux/Commands/pv.md",
-    "Linux/Commands/tee.md",
     "attachments/icon/tailsOS.svg",
     "attachments/BIOS_logo-removebg-preview.png",
     "attachments/snapcraft.svg",

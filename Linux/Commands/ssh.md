@@ -3,6 +3,8 @@ package: openssh-client
 category: command
 tags:
   - network
+  - connection
+  - remote
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
@@ -10,21 +12,14 @@ tags:
 
 > [!info] OpenSSH client
 
-secure protocol designed to login and execute commands remotely through secure encrypted communications, even within an insecure network
-
-## Favorite Uses
-
-```Sh
-command options arguments
-```
+A secure protocol designed to login and execute commands remotely through secure encrypted communications, even within an insecure network
 
 ## Command
-
-```sh
+```txt
 ssh [OPTION]... [USER@HOST] [COMMAND] [ARGUMENT]...
 
 OPTIONS
-	
+
 	-4
 		Forces ssh to use IPv4 addresses only
 	-6
@@ -73,7 +68,7 @@ ESCAPE CHARACTERS
 
 	~?
 		Display a list of escape characters
-
+	
 	~.
 		Disconnect
 	~R
@@ -97,11 +92,9 @@ ESCAPE CHARACTERS
 ```
 
 ## Exit Status
-
-- Exits with the exit status of the remote command or with 255 if an error occurred
+Exits with the exit status of the remote command or with 255 if an error occurred
 
 ## Links
 [openssh.com](https://www.openssh.com/)
 [openssh.com/manual](https://www.openssh.com/manual.html)
 [linux.die.net](https://linux.die.net/man/1/ssh)
-[ssh.com](https://www.ssh.com/academy)
