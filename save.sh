@@ -45,15 +45,15 @@ read -p "Push to origin main? (yes / no): " response
 
 case "$response" in
     [yY]|[yY][eE][sS])
-        echo "Pushing to origin main..."
+        echo "Pushing to origin main...\n"
         git push origin main
         ;;
     [nN]|[nN][oO])
-        echo "Aborting push and removing commit from history..."
+        echo "Aborting push and removing commit from history...\n"
         git reset --soft HEAD~1
         ;;
     *)
-        echo "Invalid response. Aborting push and removing commit from history..."
+        echo "Invalid response. Aborting push and removing commit from history...\n"
         git reset --soft HEAD~1
         ;;
 esac
