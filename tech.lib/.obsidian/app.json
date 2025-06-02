@@ -1,0 +1,12 @@
+{
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "propertiesInDocument": "source",
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "attachments",
+  "promptDelete": false,
+  "readableLineLength": true
+}
