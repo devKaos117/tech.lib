@@ -2,9 +2,7 @@
 package: info
 category: command
 tags:
-  - cli
-  - manual
-  - help
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

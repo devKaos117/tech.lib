@@ -2,8 +2,11 @@
 package: tar
 category: command
 tags:
-  - files
-  - archiving
+  - file
+  - file/manage
+  - file/archiving
+  - file/compression
+  - file/backup
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,10 +2,7 @@
 package: wget
 category: command
 tags:
-  - network
-  - web
-  - connection
-  - download
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

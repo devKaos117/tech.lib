@@ -2,10 +2,11 @@
 package: neovim
 category: command
 tags:
-  - files
-  - read
-  - write
-  - text
+  - file
+  - file/read
+  - file/write
+  - cli
+  - cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

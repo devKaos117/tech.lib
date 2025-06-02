@@ -2,9 +2,7 @@
 package: nodejs-npm
 category: command
 tags:
-  - files
-  - development
-  - packages
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

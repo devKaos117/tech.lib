@@ -2,10 +2,10 @@
 package: util-linux-core
 category: command
 tags:
-  - files
-  - read
-  - text
-  - deprecated
+  - file
+  - file/read
+  - cli
+  - cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

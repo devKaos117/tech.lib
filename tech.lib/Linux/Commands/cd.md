@@ -2,8 +2,8 @@
 package: Bash built-in
 category: command
 tags:
-  - files
-  - navigation
+  - file
+  - file/navigate
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,9 +2,7 @@
 package: coreutils
 category: command
 tags:
-  - text
-  - flow
-  - operation
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

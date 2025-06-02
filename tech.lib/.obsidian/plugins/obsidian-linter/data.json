@@ -281,7 +281,7 @@
   "filesToIgnore": [
     {
       "label": "specific case",
-      "match": "Commands Index",
+      "match": "Linux/Commands/Indexation/.+",
       "flags": "i"
     }
   ],

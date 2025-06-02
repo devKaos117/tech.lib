@@ -2,8 +2,7 @@
 package: dnf
 category: command
 tags:
-  - files
-  - packages
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

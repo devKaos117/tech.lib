@@ -2,9 +2,7 @@
 package: sed
 category: command
 tags:
-  - text
-  - write
-  - stream
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

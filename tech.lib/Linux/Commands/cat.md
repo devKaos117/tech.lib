@@ -2,10 +2,10 @@
 package: coreutils
 category: command
 tags:
-  - files
-  - operation
-  - text
-  - read
+  - file
+  - file/read
+  - cli
+  - cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

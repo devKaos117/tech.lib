@@ -2,9 +2,7 @@
 package: curl
 category: command
 tags:
-  - network
-  - web
-  - connection
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

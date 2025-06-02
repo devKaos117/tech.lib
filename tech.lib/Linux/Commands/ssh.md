@@ -2,9 +2,7 @@
 package: openssh-client
 category: command
 tags:
-  - network
-  - network/connection
-  - network/remote_access
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,7 +2,7 @@
 package: iputils-ping
 category: command
 tags:
-  - NULL
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

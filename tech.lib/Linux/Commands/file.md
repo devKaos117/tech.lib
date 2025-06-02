@@ -2,8 +2,9 @@
 package: POSIX
 category: command
 tags:
-  - files
-  - inspection
+  - file
+  - file/inspect
+  - operation/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

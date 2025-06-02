@@ -2,10 +2,7 @@
 package: pv
 category: command
 tags:
-  - read
-  - write
-  - stream
-  - inspection
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

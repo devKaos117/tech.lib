@@ -2,9 +2,7 @@
 package: iproute2
 category: command
 tags:
-  - system
-  - network
-  - inspection
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

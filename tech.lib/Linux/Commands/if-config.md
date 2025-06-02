@@ -2,10 +2,7 @@
 package: net-tools
 category: command
 tags:
-  - system
-  - hardware
-  - network
-  - inspection
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

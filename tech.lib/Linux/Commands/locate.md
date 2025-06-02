@@ -2,8 +2,9 @@
 package: plocate
 category: command
 tags:
-  - files
-  - search
+  - file
+  - file/search
+  - operation/filtering
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

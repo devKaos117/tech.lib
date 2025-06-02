@@ -1,98 +1,18 @@
-## file
-### read
-Reading the contents of a file
-### write
-Writing to the contents of a file
-### manage
-Creation, deletion, relocation and property alteration of a file
-### navigate
-Navigating through a filesystem
-### inspect
-Analysis of a file
-### archiving
-Processes related to file archives
-### compression
-Compression of files
-### search
-Search for a file
-### backup
-Creation and management of a copy
+---
+subjects:
+  - tags
+tags:
+  - list
+---
 
-## operation
-### comparison
-Finding differences and similarities
-### conversion
-Converting or translating
-### transformation
-Transforming in a largely irreversible way
-### filtering
-Filtering something
-### encoding
-Converting data into code
-### decoding
-Converting code into data
-### manipulation
-Modifying and altering
-### transfering
-Relocating
-### analyzing
-Analyzing and inspecting
-
-## network
-### connection
-Host connection establishment and management
-### local
-Local network management (wifi, bt)
-### monitoring
-Network monitoring
-### configuration
-Network and interfaces configuration
-### sending
-Information sending
-### recieving
-Information recieving
-### tunneling
-Network tunneling with VPN's and proxies
-
-## system
-### user
-Users, groups and privileges management
-### process
-Process monitoring and management
-### service
-Services management
-### power
-Power monitoring and management
-### time
-Time related
-### information
-Analysis, logs and inspection
-### hardware
-Hardware related
-### package
-Package management
-
-## cli
-
-## stream
-
-## security
-### offsec
-### defsec
-### forensics
+- [[file]]
+- [[operation]]
+- [[network]]
+- [[system]]
+- [[cli]]
+- [[security]]
 
 
-### info_gather
-### analysis
-### attack
-### vulnerability
-### web_app
-### password
-### wireless
-### rev_eng
-### forensics
-### post_exploit
-### exploit
 
 # Missing
 arp

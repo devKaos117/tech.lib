@@ -2,16 +2,16 @@
 package: bat
 category: command
 tags:
-  - files
-  - operation
-  - text
-  - read
+  - file
+  - file/read
+  - cli
+  - cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
 > [!package] bat
 
-> [!info] [[cat]] clone with syntax highlighting and [[git]] integration
+> [!info] cat clone with syntax highlighting and git integration
 
 Prints the syntax-highlighted content of a collection of files to the terminal. If no file is specified, it reads from standard input. Batcat supports numerous programming and markup languages, and it also communicates with [[git]] to show modifications with respect to it's index
 

@@ -2,10 +2,7 @@
 package: grep
 category: command
 tags:
-  - text
-  - read
-  - stream
-  - search
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

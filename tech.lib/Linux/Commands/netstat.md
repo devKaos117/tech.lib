@@ -2,10 +2,7 @@
 package: net-tools
 category: command
 tags:
-  - system
-  - network
-  - inspection
-  - deprecated
+  - NONE
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
