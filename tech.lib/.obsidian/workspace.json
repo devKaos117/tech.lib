@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "87575c6c6346caf4",
+        "id": "f75f6a5fdeccdfab",
         "type": "tabs",
         "children": [
           {
-            "id": "89503148bb5d687e",
+            "id": "c1de01b7709e41ff",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#file/backup",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,33 +191,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "89503148bb5d687e",
+  "active": "becca221a6cb9839",
   "lastOpenFiles": [
-    "updatedb.md",
-    "Linux/Commands/type.md",
-    "Linux/Commands/Indexation/file.md",
-    "Linux/Commands/file.md",
-    "Linux/Commands/awk.md",
-    "Linux/Commands/Indexation/operation.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/tar.md",
-    "Linux/Commands/sed.md",
-    "Linux/Commands/ssh.md",
-    "Linux/Commands/test.md",
-    "Linux/Commands/history.md",
-    "Linux/Commands/alias.md",
+    "Linux/Commands/Indexation/cli.md",
+    "Linux/Commands/which.md",
+    "Linux/Commands/Indexation/cmds.md",
     "Linux/Commands/whereis.md",
     "Linux/Commands/whatis.md",
-    "Linux/Commands/which.md",
-    "Linux/Commands/tldr.md",
-    "Linux/Commands/info.md",
-    "Linux/Commands/man.md",
+    "Linux/Commands/wget.md",
+    "Linux/Commands/Indexation/operation.md",
+    "Linux/Commands/Indexation/network.md",
+    "Linux/Commands/Indexation/file.md",
+    "Linux/Commands/wc.md",
+    "Linux/Commands/type.md",
     "Linux/Commands/unset.md",
-    "Linux/Commands/export.md",
-    "Linux/Commands/env.md",
-    "Linux/Commands/bash.md",
-    "Linux/Commands/mariadb.md",
-    "Linux/Commands/npm.md",
+    "Linux/Commands/tr.md",
+    "Linux/Commands/tldr.md",
+    "Linux/Commands/test.md",
+    "Linux/Commands/tee.md",
+    "Linux/Commands/sudo.md",
+    "Linux/Commands/Indexation/system.md",
+    "Linux/Commands/ssh.md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/sort.md",
+    "Linux/Commands/snap.md",
+    "Linux/Commands/sed.md",
+    "Linux/Commands/pv.md",
+    "Linux/Commands/ping.md",
     "Linux/Commands/nvm.md",
     "Linux/Commands/Indexation",
     "attachments/icon/tailsOS.svg",

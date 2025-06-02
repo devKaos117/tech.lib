@@ -2,7 +2,8 @@
 package: bash
 category: command
 tags:
-  - NONE
+  - cli
+  - cli/shell
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

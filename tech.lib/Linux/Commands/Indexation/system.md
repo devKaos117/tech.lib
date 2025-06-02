@@ -8,8 +8,12 @@ tags:
 ## user
 Users, groups and privileges management
 
+- [[sudo]]
+
 ## process
 Process monitoring and management
+
+- [[pv]]
 
 ## service
 Services management
@@ -23,8 +27,28 @@ Time related
 ## information
 Analysis, logs and inspection
 
+- [[ifconfig]]
+- [[lscpu]]
+- [[lspci]]
+- [[lsusb]]
+- [[netstat]]
+- [[ss]]
+
+## disk
+Filesystem, disk and storage devices management
+
 ## hardware
 Hardware related
 
+- [[lscpu]]
+- [[lspci]]
+- [[lsusb]]
+
 ## package
 Package management
+
+- [[apt]]
+- [[dnf]]
+- [[nvm]]
+- [[npm]]
+- [[snap]]

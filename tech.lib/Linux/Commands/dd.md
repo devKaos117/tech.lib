@@ -2,7 +2,13 @@
 package: coreutils
 category: command
 tags:
-  - NONE
+  - file
+  - file/write
+  - file/manage
+  - operation
+  - operation/transfering
+  - system
+  - system/disk
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,7 +2,8 @@
 package: snapd
 category: command
 tags:
-  - NONE
+  - system
+  - system/package
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

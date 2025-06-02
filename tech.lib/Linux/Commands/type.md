@@ -2,7 +2,10 @@
 package: Bash built-in
 category: command
 tags:
-  - NONE
+  - cli
+  - cli/help
+  - operation
+  - operation/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

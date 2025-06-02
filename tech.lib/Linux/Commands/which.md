@@ -2,7 +2,9 @@
 package: which
 category: command
 tags:
-  - NONE
+  - cli
+  - cli/environment
+  - cli/help
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

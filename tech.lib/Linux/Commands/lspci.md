@@ -2,7 +2,9 @@
 package: pciutils
 category: command
 tags:
-  - NONE
+  - system
+  - system/information
+  - system/hardware
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

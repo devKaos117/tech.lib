@@ -13,6 +13,13 @@
         "a": 1,
         "rgb": 46080
       }
+    },
+    {
+      "query": "path:Linux  ",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
     }
   ],
   "collapse-display": false,

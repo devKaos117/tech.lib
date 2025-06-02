@@ -2,7 +2,8 @@
 package: sudo
 category: command
 tags:
-  - NONE
+  - system
+  - system/user
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

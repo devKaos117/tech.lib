@@ -2,7 +2,11 @@
 package: coreutils
 category: command
 tags:
-  - NONE
+  - cli
+  - cli/utilities
+  - operation
+  - operation/comparison
+  - operation/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,7 +2,8 @@
 package: mariadb
 category: command
 tags:
-  - NONE
+  - cli
+  - cli/development
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

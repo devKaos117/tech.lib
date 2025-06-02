@@ -2,7 +2,10 @@
 package: pv
 category: command
 tags:
-  - NONE
+  - operation
+  - operation/analysis
+  - system
+  - system/process
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

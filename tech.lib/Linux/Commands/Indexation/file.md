@@ -19,6 +19,7 @@ Reading the contents of a file
 Writing to the contents of a file
 
 - [[nvim]]
+- [[dd]]
 
 ## manage
 Creation, deletion, relocation and property alteration of a file
@@ -29,6 +30,7 @@ Creation, deletion, relocation and property alteration of a file
 - [[cp]]
 - [[mkdir]]
 - [[ln]]
+- [[dd]]
 - [[tar]]
 - [[7z]]
 
@@ -44,6 +46,7 @@ Analysis of a file
 
 - [[ls]]
 - [[Linux/Commands/file|file]]
+- - [[wc]]
 
 ## archiving
 Processes related to file archives
