@@ -36,9 +36,6 @@ git commit -m "$COMMIT_MSG"
 echo "============ Git logs ============"
 git log -1 --oneline
 echo "================================"
-echo "Files altered: $FILES_ALTERED"
-echo "Commit message: $COMMIT_MSG"
-echo "================================"
 
 # Ask for confirmation to push
 read -p "Push to origin main? (yes / no): " response
