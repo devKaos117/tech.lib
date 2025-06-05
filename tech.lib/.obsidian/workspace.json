@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1de01b7709e41ff",
+            "id": "65a9d4f2cec48dca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Commands/rsync.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "rsync"
             }
           }
         ]
@@ -191,34 +195,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "65a9d4f2cec48dca",
   "lastOpenFiles": [
-    "Linux/Commands/Indexation/cli.md",
-    "Linux/Commands/which.md",
+    "Linux/Commands/Indexation/file.md",
+    "Linux/Commands/rsync.md",
+    "Linux/Commands/Indexation/network.md",
+    "Linux/Commands/Indexation/operation.md",
     "Linux/Commands/Indexation/cmds.md",
+    "Linux/Commands/Indexation/system.md",
+    "Linux/Commands/Indexation/cli.md",
+    "Linux/Commands/Indexation/security.md",
+    "Linux/Commands/awk.md",
+    "Linux/Commands/sed.md",
+    "Compendium/Protocols/IP.md",
+    "Compendium/Protocols/ARP.md",
+    "Compendium/Protocols/UDP.md",
+    "Compendium/Protocols/SSH.md",
+    "Compendium/Protocols/ICMP.md",
+    "Compendium/Protocols/TCP.md",
+    "Compendium/Protocols/DHCP.md",
+    "Linux/Commands/which.md",
     "Linux/Commands/whereis.md",
     "Linux/Commands/whatis.md",
     "Linux/Commands/wget.md",
-    "Linux/Commands/Indexation/operation.md",
-    "Linux/Commands/Indexation/network.md",
-    "Linux/Commands/Indexation/file.md",
     "Linux/Commands/wc.md",
     "Linux/Commands/type.md",
     "Linux/Commands/unset.md",
     "Linux/Commands/tr.md",
-    "Linux/Commands/tldr.md",
-    "Linux/Commands/test.md",
-    "Linux/Commands/tee.md",
-    "Linux/Commands/sudo.md",
-    "Linux/Commands/Indexation/system.md",
-    "Linux/Commands/ssh.md",
-    "Linux/Commands/ss.md",
-    "Linux/Commands/sort.md",
-    "Linux/Commands/snap.md",
-    "Linux/Commands/sed.md",
-    "Linux/Commands/pv.md",
-    "Linux/Commands/ping.md",
-    "Linux/Commands/nvm.md",
     "Linux/Commands/Indexation",
     "attachments/icon/tailsOS.svg",
     "attachments/BIOS_logo-removebg-preview.png",

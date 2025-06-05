@@ -44,6 +44,7 @@ Relocating
 - [[dd]]
 - [[mv]]
 - [[tee]]
+- [[rsync]]
 
 ## analysis
 Analyzing and inspecting

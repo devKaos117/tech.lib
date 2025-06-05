@@ -30,12 +30,14 @@ Information sending
 - [[curl]]
 - [[ping]]
 - [[ssh]]
+- [[rsync]]
 
 ## recieving
 Information recieving
 
 - [[ssh]]
 - [[wget]]
+- [[rsync]]
 
 ## tunneling
 Network tunneling with VPN's and proxies

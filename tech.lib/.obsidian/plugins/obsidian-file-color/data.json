@@ -39,20 +39,12 @@
       "color": "pv2L5x3kobWSdBJry0yLM"
     },
     {
-      "path": "Compendium/Protocols/ARP.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Compendium/Protocols/IP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
       "path": "Compendium/Protocols/DHCP.md",
       "color": "pv2L5x3kobWSdBJry0yLM"
-    },
-    {
-      "path": "Compendium/Protocols/UDP.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
       "path": "Compendium/Protocols/TCP.md",
@@ -72,6 +64,10 @@
     },
     {
       "path": "Linux/Commands/sed.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Compendium/Protocols/SSH.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

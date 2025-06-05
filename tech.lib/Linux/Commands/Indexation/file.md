@@ -73,3 +73,4 @@ Creation and management of a copy
 - [[tar]]
 - [[7z]]
 - [[git]]
+- [[rsync]]

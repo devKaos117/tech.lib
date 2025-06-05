@@ -28,7 +28,8 @@ The size of the ARP frame depends on the link layer and network layer address si
 9. **[TPA]{Target Protocol Address} \[0x08 + 2$\cdot$HLEN + PLEN: PLEN\]:** The [[OSI Model#2. Data Link|Data Link]] protocol address of the requested device
 
 ## ARPSec
-
+ARPSec is an extension to the ARP introducing mechanisms to validate ARP messages and the identity of the communicating hosts, mitigating fabricated ARP replies and ARP cache poisoning vulnerabilities.
+It has not been formally defined yet.
 
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
