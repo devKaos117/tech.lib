@@ -25,13 +25,60 @@ command options arguments
 
 ## Command
 ```txt
-command [OPTION]... [ARGUMENT]...
+rsync [OPTION]... [[USER@][HOST:]SRC]... [[USER@][HOST:]DEST]...
 
 [BYTES] = [0-9]{1,}[[c|w|b]|[K|M|G|T|P|E|Z|Y|R|Q][B|iB]]
 
+--no-[OPTION]
+	Turn off one or more options
+
+-p, --perms
+	The receiving rsync sets the destination permissions to mimic the source
+--chmod=[MODE]
+	Apply one or more comma-separated modes to the permission of the files in the transfer
+-o, --owner
+	Set the owner of the destination file to be the same as the source (recieving sudo required)
+-g, --group
+	Set the group of the destination file to be the same as the source (recieving sudo required)
+-t, --times
+	Transfer modification times along with the files and update them on the remote system
+-U, --atimes
+	Update the destination access times to mimic the source
+-N, --crtimes
+	Update the destination creation times to mimic the source
+-A, --acls
+	Update the destination ACLs to mimic the source
+-E, --executability
+	Preserve the executability (or non-executability) of regular files
+-X, --xattrs
+	Update the destination extended attributes to mimic the source
+
+-a, --archive
+	Quick way of saying you want recursion and want to preserve almost everything. Equivalent to -rlptgoD
+-r, --recursive
+	copy directories recursively
+-R, --relative
+	Use relative paths. This effectively sends the full path names specified on the command line 
+--no-implied-dirs
+	Affects the default behavior of --relative, not including the attributes of the implied directories from the source names
+-d, --dirs
+	Include any directories that are encountered
+--mkpath
+	Create all missing path components of the destination path
+-D
+	Equivalent to --devices --specials
+--specials
+	Transfer special files
+--devices
+	Transfer character and block device files to the remote system to recreate these devices
+--copy-devices
+	Treat a device on the sending side as a regular file, allowing it to be copied to a normal destination file
+--write-devices
+	Treat a device on the receiving side as a regular file, allowing the writing of file data into a device
+
 -h, --help
 	Display the help information and exit 
--v, --version
+-V, --version
 	Output version information and exit
 ```
 
