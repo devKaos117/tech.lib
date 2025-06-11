@@ -12,7 +12,9 @@ tags:
 - [[cli]]
 - [[security]]
 
-
+```
+[BYTES] (default: 512) = [0-9]{1,}[[c|w|b]|[K|M|G|T|P|E|Z|Y|R|Q][B|iB]]
+```
 
 # Missing
 arp

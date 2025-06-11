@@ -20,8 +20,6 @@ Shows the progress of data through a pipeline. Its standard input will be passed
 pv [OPTION]... [PATH]...
 pv -pterb
 
-[BYTES] (default: 512) = [0-9]{1,}[[c|w|b]|[K|M|G|T|P|E|Z|Y|R|Q][B|iB]]
-
 DISPLAY SWITCHES
 	-p, --progress
 		Turn the progress bar on

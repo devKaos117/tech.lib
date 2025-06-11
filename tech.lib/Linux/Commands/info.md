@@ -13,11 +13,6 @@ tags:
 
 Reads documentation stored in the info format
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 info [OPTION]... [STRING]

@@ -13,11 +13,6 @@ tags:
 
 The snap command lets you install, configure, refresh and remove snaps, packages that work across many different Linux distributions, enabling secure delivery and operation of the latest apps and utilities
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 snap [OPTION]... [COMMAND [OPTION]...]

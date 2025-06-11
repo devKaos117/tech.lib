@@ -10,11 +10,16 @@ tags:
 Open source intelligence
 
 ### reconnaissance
-#### active
-Gathering information through direct interaction
+#### info_gather
+Information gathering process
 
-#### passive
-Gathering information without direct interaction
+#### scanning
+Target and network scanning
+
+- [[nmap]]
+
+#### enumerating
+Protocol, directory, addresses and other enumeration
 
 ### analysis
 #### static
@@ -22,6 +27,9 @@ Vulnerability assessment and analysis without target execution
 
 #### dynamic
 Vulnerability assessment and analysis on live environments
+
+#### web
+Vulnerability assessment and analysis on web applications
 
 ### spoofing
 Creating deceptive imitations

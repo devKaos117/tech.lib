@@ -13,11 +13,6 @@ tags:
 
 Executes a single command or open a terminal session as another user. The system administrator can use it to delegate authority, according to the policies specified in the [[Linux/File Hierarchy Standard#/etc|/etc/sudoers]] file, and allow users to run commands as root or another user while providing an audit trail of the commands and their arguments
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 sudo [OPTIONS]... [COMMAND]

@@ -14,11 +14,6 @@ tags:
 
 Utility for displaying information about USB buses in the system and the devices connected to them. It uses [[udev]]'s hardware database to associate a full human-readable name to the vendor ID and the product ID
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 lsusb [OPTION]...

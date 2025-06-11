@@ -13,11 +13,6 @@ tags:
 
 Free utility for non-interactive download of files from the Web. Supporting [[Compendium/Protocols/HTTP|HTTP]], [[Compendium/Protocols/HTTP#HTTPS|HTTPS]], and [[Compendium/Protocols/FTP|FTP]] protocols, as well as retrieval through [[Compendium/Protocols/HTTP|HTTP]] proxies, it has been designed for robustness over slow or unstable network connections
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 wget [OPTIONS]... [LINK]

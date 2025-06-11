@@ -31,6 +31,7 @@ Information sending
 - [[ping]]
 - [[ssh]]
 - [[rsync]]
+- [[nmap]]
 
 ## recieving
 Information recieving

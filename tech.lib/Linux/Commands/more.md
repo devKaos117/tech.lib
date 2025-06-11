@@ -17,11 +17,6 @@ tags:
 
 filter for paging through text one screenful at a time
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 more [OPTION]... [PATH]

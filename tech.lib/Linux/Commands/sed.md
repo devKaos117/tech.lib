@@ -16,11 +16,6 @@ tags:
 
 A stream editor is used to perform basic text transformations on an input stream. While in some ways similar to an editor which permits scripted edits sed works by making only one pass over the input(s), and is consequently more efficient
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 sed [OPTION]... [PATH]

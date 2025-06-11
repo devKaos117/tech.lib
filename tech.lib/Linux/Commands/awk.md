@@ -16,16 +16,10 @@ tags:
 
 Synopsis
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
 ```txt
 command [OPTION]... [ARGUMENT]...
 
-[BYTES] = [0-9]{1,}[[c|w|b]|[K|M|G|T|P|E|Z|Y|R|Q][B|iB]]
 
 -h, --help
 	Display the help information and exit 
