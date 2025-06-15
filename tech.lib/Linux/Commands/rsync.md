@@ -5,8 +5,7 @@ tags:
   - file
   - file/backup
   - network
-  - network/sending
-  - network/recieving
+  - network/connection
   - operation
   - operation/transfering
 ---

@@ -3,7 +3,6 @@ package: pciutils
 category: command
 tags:
   - system
-  - system/information
   - system/hardware
 ---
 

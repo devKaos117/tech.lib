@@ -14,9 +14,16 @@ Finding differences and similarities
 Converting or translating
 
 - [[tr]]
+- [[snmptranslate]]
 
 ## transformation
 Transforming in a largely irreversible way
+
+- [[sha1sum]]
+- [[sha256sum]]
+- [[sha512sum]]
+- [[shasum]]
+- [[md5sum]]
 
 ## filtering
 Filtering something
@@ -29,8 +36,16 @@ Filtering something
 ## encoding
 Converting data into code
 
+- [[base32]]
+- [[base64]]
+- [[basenc]]
+- [[ascii]]
 ## decoding
 Converting code into data
+
+- [[base32]]
+- [[base64]]
+- [[basenc]]
 
 ## manipulation
 Modifying and altering
@@ -54,3 +69,13 @@ Analyzing and inspecting
 - [[type]]
 - [[wc]]
 - [[nmap]]
+- [[dmesg]]
+- [[journalctl]]
+- [[traceroute]]
+- [[hwinfo]]
+- [[lscpu]]
+- [[lspci]]
+- [[lsusb]]
+- [[lshw]]
+- [[lsscsi]]
+- [[neofetch]]

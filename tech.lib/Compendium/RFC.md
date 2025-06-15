@@ -13,6 +13,7 @@ tags:
 ## RFC's
 ### Standards
 - [**RFC 7841:** RFC Streams, Headers, and Boilerplates](https://datatracker.ietf.org/doc/html/rfc7841)
+- [**RFC 4880:** OpenPGP Message Format](https://datatracker.ietf.org/doc/html/rfc4880)
 
 ### Networking
 #### Layers and Modelling

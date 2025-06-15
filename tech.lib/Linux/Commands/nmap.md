@@ -8,7 +8,6 @@ tags:
   - security/offsec/reconnaissance
   - security/offsec/reconnaissance/scanning
   - network
-  - network/sending
   - operation
   - operation/analysis
 ---
@@ -22,7 +21,8 @@ Nmap was designed to rapidly scan large networks using raw [[IP]] packets in nov
 
 ## Favorite Uses
 ```sh
-command options arguments
+nmap -sS -Pn -p- TARGET
+nmap -A -T5 -Pn -D RND:7 TARGET
 ```
 
 ## Command
@@ -95,6 +95,54 @@ HOST DISCOVERY
         (Ignore RST replies) Ignore RST packets during host discovery to "bypass" a firewall behaviour of spoofing TCP RST replies in response to probes to unoccupied or disallowed addresses
     --traceroute
         (Trace path to host) Performed a post-scan traceroute using information from the scan results to determine the port and protocol most likely to reach the target. Does not work with connect nor idle scans
+
+PORT SCANNING TECHNIQUES
+
+    --scanflags [[FLAG_VALUE]|[URG|ACK|PSH|RST|SYN|FIN]...]
+        (Custom TCP scan) Allows you to design your own scan by specifying arbitrary TCP flags
+    -sO
+        (IP protocol scan) Determine which IP protocols are supported by target machines
+    -sS
+        (TCP SYN scan) Stealh half-open scanning
+    -sT
+        (TCP connect scan) Uses the OS syscalls to stablish a connection with the target machine and port. Useful when out of raw packet privileges
+    -sU
+        (UDP scans) Send a empty UDP packet to every targeted port. Some ports may have protocol-specific payload to increase response rate. Can be combined with a TCP scan to check both protocols during the same run
+    -sY
+        (SCTP INIT scan) Stealh half-open SCTP scanning
+    -sN
+        (TCP NULL scan) Sends empty TCP packets without any of the header's bits set
+    -sF
+        (TCP FIN scan) Sends empty TCP FIN packets
+    -sX
+        (TCP Xmas scan) Sends empty TCP packets with three flags in the header, FIN PSH URG, lighting the packet up like a Christmas tree
+    -sA
+        (TCP ACK scan) Sends empty TCP ACK packets. Useful only to map out firewall rulesets, determining whether they are stateful or not and which ports are filtered
+    -sW
+        (TCP Window scan) Similar to TCP ACK scan, except that it examines the TCP Window field of the RST packets returned to try and differentiate open ports from closed ones
+    -sM
+        (TCP Maimon scan) Sends empty FIN ACK packets
+    -sZ
+        (SCTP COOKIE ECHO scan) Advanced SCTP scan. Based on the fact that SCTP implementations should silently drop packets containing COOKIE ECHO chunks on open ports, but send an ABORT if the port is closed
+    -sI [HOST]
+        (idle scan) Advanced scan method that probes a zombie host, keeping track of its IP ID, and then proceeds to forge a packet sent by the zombie to the target, probing the zombie again and finding if the target responded
+    -b [HOST]
+        (FTP bounce scan) Probe the target by proxy FTP connections. Connect to one FTP server, then ask that files be sent to the target
+
+	PORT SPECIFICATION AND SCAN ORDER
+
+    -p [PORT]...
+        (Only scan specified ports) Specifies which ports you want to scan and overrides the default. To multiple protocols scans, precedes the numbers by T, U, S or P to specify TCP, UDP, SCTP or IP. For IP protocol scanning, this specifies the protocol numbers you wish to scan for (0–255)
+    --exclude-ports [PORT]...
+        (Exclude the specified ports from scanning) Specifies ports for nmap to exclude from scanning
+    -F
+        (Fast limited port scan) Scan fewer ports than the default, from the top 1,000 ports down to 100
+    -r
+        (Don't randomize ports) Scan the ports sequentialy instead of randomly
+    --port-ratio [NUMBER]
+        Scans all ports in nmap-services file with a ratio greater than the one given. The ratio must be between 0.0 and 1.0.
+    --top-ports [NUMBER]
+        Scans the n highest-ratio ports found in nmap-services file after excluding all ports specified by
 
     MISCELLANEOUS OPTIONS
 

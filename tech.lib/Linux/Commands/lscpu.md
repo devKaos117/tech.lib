@@ -3,7 +3,6 @@ package: util-linux
 category: command
 tags:
   - system
-  - system/information
   - system/hardware
 ---
 

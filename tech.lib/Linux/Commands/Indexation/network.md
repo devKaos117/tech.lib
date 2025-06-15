@@ -9,15 +9,29 @@ tags:
 Host connection establishment and management
 
 - [[ssh]]
+- [[telnet]]
+- [[rsync]]
+- [[nc]]
+- [[ncat]]
+- [[netcat]]
+- [[cryptcat]]
+- [[smbclient]]
+- [[rpcclient]]
 
 ## local
 Local network management (wifi, bt)
+
+- [[arp]]
+- [[arp-scan]]
+- [[nslookup]]
+- [[route]]
 
 ## monitoring
 Network monitoring
 
 - [[netstat]]
 - [[ss]]
+- [[traceroute]]
 
 ## configuration
 Network and interfaces configuration
@@ -29,16 +43,15 @@ Information sending
 
 - [[curl]]
 - [[ping]]
-- [[ssh]]
-- [[rsync]]
-- [[nmap]]
+- [[hping3]]
+- [[fping]]
+- [[snmpset]]
 
 ## recieving
 Information recieving
 
 - [[ssh]]
 - [[wget]]
-- [[rsync]]
 
 ## tunneling
 Network tunneling with VPN's and proxies

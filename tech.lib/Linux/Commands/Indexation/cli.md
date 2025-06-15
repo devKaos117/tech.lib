@@ -22,6 +22,11 @@ Environment changes
 - [[history]]
 - [[unset]]
 - [[which]]
+- [[disown]]
+- [[bg]]
+- [[chroot]]
+- [[fg]]
+- [[set]]
 
 ## text
 Text related
@@ -33,6 +38,11 @@ Text related
 - [[sed]]
 - [[sort]]
 - [[wc]]
+- [[base32]]
+- [[base64]]
+- [[basenc]]
+- [[ascii]]
+- [[seq]]
 
 ## help
 Manuals and help commands
@@ -52,6 +62,9 @@ Development related
 - [[node]]
 - [[nvm]]
 - [[npm]]
+- [[mysql]]
+- [[gcc]]
+- [[nasm]]
 
 ## utilites
 Utilities
@@ -59,6 +72,12 @@ Utilities
 - [[tee]]
 - [[test]]
 - [[tr]]
+- [[ipcalc]]
+- [[lynx]]
+- [[snmptranslate]]
 
 ## random
 Random shit
+
+- [[cowsay]]
+- [[fortune]]
