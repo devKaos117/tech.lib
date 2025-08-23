@@ -11,10 +11,14 @@
             "id": "b2f07ab0b8f64369",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Devices.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Devices"
             }
           }
         ]
@@ -153,8 +157,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -180,6 +184,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,16 +198,20 @@
   },
   "active": "b2f07ab0b8f64369",
   "lastOpenFiles": [
+    "Notes.md",
+    "Devices.md",
+    "GPT Prompt Engineering.md",
+    "Linux/Commands/nmap.md",
+    "Linux/Commands/Indexation/security.md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/Indexation/network.md",
     "Linux/Commands/Indexation/operation.md",
     "Linux/Commands/Indexation/cli.md",
     "Linux/Commands/Indexation/system.md",
-    "Linux/Commands/Indexation/network.md",
-    "Linux/Commands/Indexation/security.md",
     "Linux/Commands/Indexation/file.md",
     "Linux/Commands/7z.md",
     "Linux/Commands/tar.md",
     "Linux/Commands/Indexation/cmds.md",
-    "Linux/Commands/nmap.md",
     "Compendium/RFC.md",
     "Linux/Commands/ifconfig.md",
     "Linux/Commands/apt.md",
@@ -215,10 +224,6 @@
     "templates/COMMAND_TEMPLATE.md",
     "Linux/Commands/ls.md",
     "Linux/Commands/cd.md",
-    "Linux/Commands/find.md",
-    "Linux/Commands/locate.md",
-    "Linux/Commands/rm.md",
-    "Linux/Commands/mv.md",
     "Linux/Commands/Indexation",
     "attachments/icon/tailsOS.svg",
     "attachments/BIOS_logo-removebg-preview.png",
