@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Devices.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -198,11 +198,11 @@
   },
   "active": "b2f07ab0b8f64369",
   "lastOpenFiles": [
-    "Notes.md",
+    "Linux/Commands/Indexation/security.md",
     "Devices.md",
+    "Notes.md",
     "GPT Prompt Engineering.md",
     "Linux/Commands/nmap.md",
-    "Linux/Commands/Indexation/security.md",
     "Linux/Commands/ss.md",
     "Linux/Commands/Indexation/network.md",
     "Linux/Commands/Indexation/operation.md",
