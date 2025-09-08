@@ -31,7 +31,7 @@ Zen 5, 8 cores 16 threads
 120W (95°C Max)
 
 #### Benchmark
-- CPU-z Multi Thread: 
+- CPU-z Multi Thread: 8656
 - [UserBenchmark](https://cpu.userbenchmark.com/)
 
 ### GPU
