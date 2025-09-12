@@ -15,6 +15,7 @@ Converting or translating
 
 - [[tr]]
 - [[snmptranslate]]
+- [[dos2unix]]
 
 ## transformation
 Transforming in a largely irreversible way

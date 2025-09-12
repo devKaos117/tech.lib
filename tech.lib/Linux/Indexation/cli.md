@@ -43,6 +43,7 @@ Text related
 - [[basenc]]
 - [[ascii]]
 - [[seq]]
+- [[dos2unix]]
 
 ## help
 Manuals and help commands

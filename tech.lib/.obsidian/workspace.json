@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Cmds.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -198,8 +198,10 @@
   },
   "active": "556d8065d17ffb2d",
   "lastOpenFiles": [
-    "attachments/icon/gnome.svg",
+    "Linux/Indexation/operation.md",
+    "Linux/Indexation/cli.md",
     "Linux/Cmds.md",
+    "attachments/icon/gnome.svg",
     "Compendium/GPT.md",
     "Linux/Indexation/security.md",
     "Linux/Commands/test.md",
@@ -218,8 +220,6 @@
     "Linux/Commands/apt.md",
     "Linux/Commands/batcat.md",
     "Linux/Indexation/network.md",
-    "Linux/Indexation/operation.md",
-    "Linux/Indexation/cli.md",
     "Linux/Indexation/system.md",
     "Linux/Indexation/cmds.md",
     "Devices.md",
@@ -234,7 +234,6 @@
     "attachments/1280px-7-Zip_Icon.svg.png",
     "attachments/IBM.png",
     "attachments/api.png",
-    "attachments/uefi_logo_red.png",
     "attachments/icon",
     "HTML import",
     "Notion/Notes",
