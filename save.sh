@@ -40,7 +40,7 @@ echo "================================"
 # Ask for confirmation to push
 read -p "Push to origin main? (yes / no): " response
 
-case "$response" in
+case $response in
     [yY]|[yY][eE][sS])
         echo "Pushing to origin main..."
         git push origin main

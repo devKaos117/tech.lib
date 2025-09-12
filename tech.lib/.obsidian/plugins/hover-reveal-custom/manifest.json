@@ -1,0 +1,10 @@
+{
+	"id": "hover-reveal-custom",
+	"name": "Hover Reveal (Custom)",
+	"version": "1.0.5",
+	"minAppVersion": "0.15.0",
+	"description": "Shows hidden text in tooltips when hovering over marked elements using [visibleText]{tooltipText} syntax. Custom version with code block exclusion.",
+	"author": "Shawn Yang",
+	"authorUrl": "https://github.com/Asrieal",
+	"isDesktopOnly": false
+}
