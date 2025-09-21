@@ -2,10 +2,8 @@
 package: nvm-sh
 category: command
 tags:
-  - cli
-  - cli/development
-  - system
-  - system/package
+  - linux/cmds/cli/development
+  - linux/cmds/system/package
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

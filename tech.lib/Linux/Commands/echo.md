@@ -2,8 +2,7 @@
 package: coreutils
 category: command
 tags:
-  - cli
-  - cli/text
+  - linux/cmds/cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

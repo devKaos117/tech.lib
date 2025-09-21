@@ -2,9 +2,8 @@
 package: coreutils
 category: command
 tags:
-  - file
-  - file/manage
-  - operation/transfering
+  - linux/cmds/file/manage
+  - linux/cmds/operation/transfering
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

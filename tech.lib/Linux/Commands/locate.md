@@ -2,9 +2,8 @@
 package: plocate
 category: command
 tags:
-  - file
-  - file/search
-  - operation/filtering
+  - linux/cmds/file/search
+  - linux/cmds/operation/filtering
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -2,8 +2,7 @@
 package: util-linux
 category: command
 tags:
-  - system
-  - system/hardware
+  - linux/cmds/system/hardware
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

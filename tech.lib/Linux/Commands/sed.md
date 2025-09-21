@@ -2,11 +2,9 @@
 package: sed
 category: command
 tags:
-  - cli
-  - cli/text
-  - operation
-  - operation/filtering
-  - operation/manipulation
+  - linux/cmds/cli/text
+  - linux/cmds/operation/filtering
+  - linux/cmds/operation/manipulation
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

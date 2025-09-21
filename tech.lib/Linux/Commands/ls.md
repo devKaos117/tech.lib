@@ -2,9 +2,8 @@
 package: coreutils
 category: command
 tags:
- - file
- - file/navigate
- - file/inspect
+ - linux/cmds/file/navigate
+ - linux/cmds/file/inspect
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

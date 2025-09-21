@@ -2,10 +2,8 @@
 package: git
 category: command
 tags:
-  - file
-  - file/backup
-  - network
-  - network/sending
+  - linux/cmds/file/backup
+  - linux/cmds/network/sending
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

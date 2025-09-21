@@ -2,8 +2,7 @@
 package: man-db
 category: command
 tags:
-  - cli
-  - cli/help
+  - linux/cmds/cli/help
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

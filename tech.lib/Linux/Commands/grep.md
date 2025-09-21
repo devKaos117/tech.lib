@@ -2,10 +2,8 @@
 package: grep
 category: command
 tags:
-  - cli
-  - cli/text
-  - operation
-  - operation/filtering
+  - linux/cmds/cli/text
+  - linux/cmds/operation/filtering
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

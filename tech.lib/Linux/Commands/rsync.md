@@ -2,12 +2,9 @@
 package: rsync
 category: command
 tags:
-  - file
-  - file/backup
-  - network
-  - network/connection
-  - operation
-  - operation/transfering
+  - linux/cmds/file/backup
+  - linux/cmds/network/connection
+  - linux/cmds/operation/transfering
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

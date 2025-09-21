@@ -2,12 +2,9 @@
 package: coreutils
 category: command
 tags:
-  - cli
-  - cli/text
-  - file
-  - file/inspect
-  - operation
-  - operation/analysis
+  - linux/cmds/cli/text
+  - linux/cmds/file/inspect
+  - linux/cmds/operation/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

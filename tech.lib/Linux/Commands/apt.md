@@ -2,8 +2,7 @@
 package: apt
 category: command
 tags:
-  - system
-  - system/package
+  - linux/cmds/system/package
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

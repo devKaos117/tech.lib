@@ -2,9 +2,8 @@
 package: net-tools
 category: command
 tags:
-  - network
-  - network/configuration
-  - system
+  - linux/cmds/network/configuration
+  - linux/cmds/system
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

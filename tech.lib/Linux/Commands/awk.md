@@ -2,11 +2,9 @@
 package: NULL
 category: command
 tags:
-  - operation
-  - operation/filtering
-  - operation/manipulation
-  - cli
-  - cli/text
+  - linux/cmds/operation/filtering
+  - linux/cmds/operation/manipulation
+  - linux/cmds/cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

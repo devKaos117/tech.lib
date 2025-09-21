@@ -2,14 +2,10 @@
 package: nmap
 category: command
 tags:
-  - security
-  - security/offsec
-  - security/offsec/
-  - security/offsec/reconnaissance
-  - security/offsec/reconnaissance/scanning
-  - network
-  - operation
-  - operation/analysis
+  - linux/cmds/security/offsec/reconnaissance/scanning
+  - linux/cmds/network
+  - linux/cmds/operation
+  - linux/cmds/operation/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

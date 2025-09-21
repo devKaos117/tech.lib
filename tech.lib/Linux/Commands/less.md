@@ -2,10 +2,8 @@
 package: less
 category: command
 tags:
-  - file
-  - file/read
-  - cli
-  - cli/text
+  - linux/cmds/file/read
+  - linux/cmds/cli/text
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

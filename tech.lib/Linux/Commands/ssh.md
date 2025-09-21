@@ -2,10 +2,10 @@
 package: openssh-client
 category: command
 tags:
-  - network/connection
-  - network/sending
-  - network/recieving
-  - network/tunneling
+  - linux/cmds/network/connection
+  - linux/cmds/network/sending
+  - linux/cmds/network/recieving
+  - linux/cmds/network/tunneling
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

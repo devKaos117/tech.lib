@@ -2,9 +2,8 @@
 package: tar
 category: command
 tags:
-  - file
-  - file/archiving
-  - file/compression
+  - linux/cmds/file/archiving
+  - linux/cmds/file/compression
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

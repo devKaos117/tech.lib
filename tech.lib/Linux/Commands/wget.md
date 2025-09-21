@@ -2,8 +2,7 @@
 package: wget
 category: command
 tags:
-  - network
-  - network/recieving
+  - linux/cmds/network/recieving
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

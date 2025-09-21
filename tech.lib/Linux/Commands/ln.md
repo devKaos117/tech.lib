@@ -2,8 +2,7 @@
 package: coreutils
 category: command
 tags:
-  - file
-  - file/manage
+  - linux/cmds/file/manage
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
