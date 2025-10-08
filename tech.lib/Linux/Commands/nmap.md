@@ -17,8 +17,10 @@ Nmap was designed to rapidly scan large networks using raw [[IP]] packets in nov
 
 ## Favorite Uses
 ```sh
+nmap -sS NETWORK
 nmap -sS -Pn -p- TARGET
 nmap -A -T5 -Pn -D RND:7 TARGET
+nmap -sV --script vuln TARGET
 ```
 
 ## Command

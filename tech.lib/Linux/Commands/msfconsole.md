@@ -1,16 +1,19 @@
 ---
-package: NULL
+package: metasploit-framework
 category: command
 tags:
-  - NULL
+  - linux/cmds/security/offsec/analysis
+  - linux/cmds/security/offsec/spoofing
+  - linux/cmds/security/offsec/exploitation
+  - linux/cmds/security/offsec/post_exploit
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
-> [!package] package
+> [!package] metasploit-framework
 
-> [!info] Résumé
+> [!info] Console for the Metasploit Framework
 
-Synopsis. [[msfdb]]
+The Metasploit Framework is an open-source tool developed for pentesting. It's better used when in conjunction with [[msfdb]].
 
 ## Favorite Uses
 ```sh
@@ -19,7 +22,7 @@ command options arguments
 
 ## Command
 ```txt
-command [OPTION]... [ARGUMENT]...
+msfconsole [OPTION]... [ARGUMENT]...
 
 -h, --help
 	Display the help information and exit 
@@ -27,11 +30,7 @@ command [OPTION]... [ARGUMENT]...
 	Output version information and exit
 ```
 
-## Exit Status
-- n - status
-
 ## Links
-[github.com](github)
-[](site)
-[](man)
-[gnu.org](GNU)
+[github.com](https://github.com/rapid7/metasploit-framework)
+[metasploit.com](https://www.metasploit.com/)
+[docs.metasploit.com](https://docs.metasploit.com/)

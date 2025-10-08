@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e7e0f1272cde50d5",
+        "id": "153ac1c16895f90e",
         "type": "tabs",
         "children": [
           {
-            "id": "556d8065d17ffb2d",
+            "id": "0102b48a0b589cc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Indexation/security.md",
+                "file": "Linux/Commands/msfconsole.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "security"
+              "title": "msfconsole"
             }
           }
         ]
@@ -196,34 +196,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "556d8065d17ffb2d",
+  "active": "0102b48a0b589cc0",
   "lastOpenFiles": [
-    "Linux/Indexation/operation.md",
-    "Linux/Kernel.md",
-    "Linux/Bash.md",
-    "Linux/File Hierarchy Standard.md",
-    "Linux/Boot.md",
+    "Linux/Commands/searchsploit.md",
+    "Linux/Commands/msfconsole.md",
+    "Linux/Commands/msfvenom.md",
+    "Linux/Commands/wfuzz.md",
+    "Linux/Commands/ssh.md",
+    "Linux/Commands/curl.md",
+    "Linux/Commands/msfdb.md",
     "Linux/Command Tags.md",
-    "Linux/Commands/echo.md",
-    "Linux/Commands/sort.md",
-    "Linux/Commands/mariadb.md",
-    "Linux/Commands/node.md",
-    "Linux/Commands/env.md",
-    "Linux/Commands/export.md",
-    "Linux/Commands/history.md",
-    "Linux/Commands/alias.md",
-    "Linux/Commands/info.md",
-    "Linux/Commands/man.md",
-    "Linux/Commands/tldr.md",
-    "Linux/Commands/whatis.md",
-    "Linux/Commands/whereis.md",
-    "Linux/Commands/which.md",
-    "Linux/Commands/unset.md",
-    "Linux/Commands/bash.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/tar.md",
     "Linux/Commands/cd.md",
-    "Linux/Commands/ls.md",
+    "Linux/Indexation/security.md",
+    "Linux/Commands/find.md",
+    "Linux/Commands/ss.md",
+    "Linux/Indexation/file.md",
+    "Linux/Commands/7z.md",
+    "Linux/Indexation/zip.md",
+    "Linux/Commands/cat.md",
+    "Linux/Commands/history.md",
+    "Linux/Commands/man.md",
+    "Linux/Commands/apt.md",
+    "Linux/Commands/nmap.md",
+    "Content.base",
+    "Untitled.md",
+    "GPT Prompt Engineering.md",
+    "Linux/Untitled.md",
+    "Linux/Commands/Untitled.base",
+    "Devices.md",
+    "Linux/Commands/lspci.md",
+    "Linux/Indexation/operation.md",
     "attachments/icon/gnome.svg",
     "attachments/icon/debian.svg",
     "attachments/icon/archlinux.svg",
@@ -242,8 +244,6 @@
     "Notion/Linux/File Hierarchy Standard/usr",
     "Notion/Linux/File Hierarchy Standard/run",
     "Notion/Linux/File Hierarchy Standard/dev",
-    "Notion/Linux/File Hierarchy Standard",
-    "Notion/Linux/Distros/Ubuntu",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]
