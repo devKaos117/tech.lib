@@ -16,7 +16,7 @@ M.2_1 2280 (PCIe 5.0 x4), 2x M.2 2242/2260/2280 (PCIe 4.0 x4)
 3xUSB 10Gbps, 4x 5Gbps, 4x 2.0
 
 #### Wireless
-2x2 Wi-Fi 6E (802.11ax)  
+2x2 Wi-Fi 6E (802.11ax)	 
 Supports 2.4/5/6GHz
 Bluetooth v5.3
 

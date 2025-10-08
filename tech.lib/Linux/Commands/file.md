@@ -27,7 +27,7 @@ command options arguments
 file [OPTIONS]... [FILE]...
 
 -k, --keep-going
-	Don't  stop  at  the first match, keep going
+	Don't  stop	 at	 the first match, keep going
 -l, --list
 	Shows a list of patterns and their strength sorted descending
 --extension

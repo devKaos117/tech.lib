@@ -7,20 +7,20 @@
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
-    {
-      "query": "[\"category\":command]",
-      "color": {
-        "a": 1,
-        "rgb": 46080
-      }
-    },
-    {
-      "query": "path:Linux  ",
-      "color": {
-        "a": 1,
-        "rgb": 255
-      }
-    }
+	{
+	  "query": "[\"category\":command]",
+	  "color": {
+		"a": 1,
+		"rgb": 46080
+	  }
+	},
+	{
+	  "query": "path:Linux	",
+	  "color": {
+		"a": 1,
+		"rgb": 255
+	  }
+	}
   ],
   "collapse-display": false,
   "showArrow": true,

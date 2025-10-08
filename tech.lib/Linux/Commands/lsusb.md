@@ -26,7 +26,7 @@ lsusb [OPTION]...
 -s [[BUS]:[DEVICE_NUMBER]]
 	Show only devices in specified BUS and/or DEVICE_NUMBER. Both IDs are given in decimal
 -d [[VENDOR]:[PRODUCT_ID]]
-	Show only devices with the specified VENDOR and PRODUCT_ID.  Both IDs are given in hexadecimal
+	Show only devices with the specified VENDOR and PRODUCT_ID.	 Both IDs are given in hexadecimal
 
 -h, --help
 	Display the help information and exit 

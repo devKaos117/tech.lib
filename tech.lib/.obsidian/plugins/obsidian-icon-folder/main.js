@@ -28,105 +28,105 @@ PERFORMANCE OF THIS SOFTWARE.
 
 
 function __awaiter(thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
+	function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+	return new (P || (P = Promise))(function (resolve, reject) {
+		function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+		function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+		function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+		step((generator = generator.apply(thisArg, _arguments || [])).next());
+	});
 }
 
 typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
-    var e = new Error(message);
-    return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+	var e = new Error(message);
+	return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
 };
 
 const iconPacks$1 = {
-    faBrands: {
-        name: 'font-awesome-brands',
-        displayName: 'FontAwesome Brands',
-        path: 'fontawesome-free-6.5.1-web/svgs/brands/',
-        downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
-    },
-    faRegular: {
-        name: 'font-awesome-regular',
-        displayName: 'FontAwesome Regular',
-        path: 'fontawesome-free-6.5.1-web/svgs/regular/',
-        downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
-    },
-    faSolid: {
-        name: 'font-awesome-solid',
-        displayName: 'FontAwesome Solid',
-        path: 'fontawesome-free-6.5.1-web/svgs/solid/',
-        downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
-    },
-    remixIcons: {
-        name: 'remix-icons',
-        displayName: 'Remix Icons',
-        path: '',
-        downloadLink: 'https://github.com/Remix-Design/RemixIcon/releases/download/v4.2.0/RemixIcon_Svg_v4.2.0.zip',
-    },
-    iconBrew: {
-        name: 'icon-brew',
-        displayName: 'Icon Brew',
-        path: '',
-        downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/icon-brew.zip',
-    },
-    /** @source https://simpleicons.org/ */
-    simpleIcons: {
-        name: 'simple-icons',
-        displayName: 'Simple Icons',
-        path: 'simple-icons-11.10.0/icons/',
-        downloadLink: 'https://github.com/simple-icons/simple-icons/archive/refs/tags/11.10.0.zip',
-    },
-    lucide: {
-        name: 'lucide-icons',
-        displayName: 'Lucide',
-        path: '',
-        downloadLink: 'https://github.com/lucide-icons/lucide/releases/download/0.363.0/lucide-icons-0.363.0.zip',
-    },
-    tablerIcons: {
-        name: 'tabler-icons',
-        displayName: 'Tabler Icons',
-        path: 'svg',
-        downloadLink: 'https://github.com/tabler/tabler-icons/releases/download/v3.1.0/tabler-icons-3.1.0.zip',
-    },
-    /** @source https://boxicons.com/ */
-    boxicons: {
-        name: 'boxicons',
-        displayName: 'Boxicons',
-        path: 'svg',
-        downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/boxicons.zip',
-    },
-    /** @source http://nagoshiashumari.github.io/Rpg-Awesome/ */
-    rpgAwesome: {
-        name: 'rpg-awesome',
-        displayName: 'RPG Awesome',
-        path: '',
-        downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/rpg-awesome.zip',
-    },
-    /** @source https://coolicons.cool/ */
-    coolicons: {
-        name: 'coolicons',
-        displayName: 'Coolicons',
-        path: 'cooliocns SVG',
-        downloadLink: 'https://github.com/krystonschwarze/coolicons/releases/download/v4.1/coolicons.v4.1.zip',
-    },
-    /** @source https://feathericons.com/ */
-    feathericons: {
-        name: 'feather-icons',
-        displayName: 'Feather Icons',
-        path: 'feather-4.29.1/icons/',
-        downloadLink: 'https://github.com/feathericons/feather/archive/refs/tags/v4.29.1.zip',
-    },
-    /** @source https://github.com/primer/octicons */
-    octicons: {
-        name: 'octicons',
-        displayName: 'Octicons',
-        path: 'octicons-19.8.0/icons/',
-        downloadLink: 'https://github.com/primer/octicons/archive/refs/tags/v19.8.0.zip',
-    },
+	faBrands: {
+		name: 'font-awesome-brands',
+		displayName: 'FontAwesome Brands',
+		path: 'fontawesome-free-6.5.1-web/svgs/brands/',
+		downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
+	},
+	faRegular: {
+		name: 'font-awesome-regular',
+		displayName: 'FontAwesome Regular',
+		path: 'fontawesome-free-6.5.1-web/svgs/regular/',
+		downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
+	},
+	faSolid: {
+		name: 'font-awesome-solid',
+		displayName: 'FontAwesome Solid',
+		path: 'fontawesome-free-6.5.1-web/svgs/solid/',
+		downloadLink: 'https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.1/fontawesome-free-6.5.1-web.zip',
+	},
+	remixIcons: {
+		name: 'remix-icons',
+		displayName: 'Remix Icons',
+		path: '',
+		downloadLink: 'https://github.com/Remix-Design/RemixIcon/releases/download/v4.2.0/RemixIcon_Svg_v4.2.0.zip',
+	},
+	iconBrew: {
+		name: 'icon-brew',
+		displayName: 'Icon Brew',
+		path: '',
+		downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/icon-brew.zip',
+	},
+	/** @source https://simpleicons.org/ */
+	simpleIcons: {
+		name: 'simple-icons',
+		displayName: 'Simple Icons',
+		path: 'simple-icons-11.10.0/icons/',
+		downloadLink: 'https://github.com/simple-icons/simple-icons/archive/refs/tags/11.10.0.zip',
+	},
+	lucide: {
+		name: 'lucide-icons',
+		displayName: 'Lucide',
+		path: '',
+		downloadLink: 'https://github.com/lucide-icons/lucide/releases/download/0.363.0/lucide-icons-0.363.0.zip',
+	},
+	tablerIcons: {
+		name: 'tabler-icons',
+		displayName: 'Tabler Icons',
+		path: 'svg',
+		downloadLink: 'https://github.com/tabler/tabler-icons/releases/download/v3.1.0/tabler-icons-3.1.0.zip',
+	},
+	/** @source https://boxicons.com/ */
+	boxicons: {
+		name: 'boxicons',
+		displayName: 'Boxicons',
+		path: 'svg',
+		downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/boxicons.zip',
+	},
+	/** @source http://nagoshiashumari.github.io/Rpg-Awesome/ */
+	rpgAwesome: {
+		name: 'rpg-awesome',
+		displayName: 'RPG Awesome',
+		path: '',
+		downloadLink: 'https://github.com/FlorianWoelki/obsidian-iconize/raw/main/iconPacks/rpg-awesome.zip',
+	},
+	/** @source https://coolicons.cool/ */
+	coolicons: {
+		name: 'coolicons',
+		displayName: 'Coolicons',
+		path: 'cooliocns SVG',
+		downloadLink: 'https://github.com/krystonschwarze/coolicons/releases/download/v4.1/coolicons.v4.1.zip',
+	},
+	/** @source https://feathericons.com/ */
+	feathericons: {
+		name: 'feather-icons',
+		displayName: 'Feather Icons',
+		path: 'feather-4.29.1/icons/',
+		downloadLink: 'https://github.com/feathericons/feather/archive/refs/tags/v4.29.1.zip',
+	},
+	/** @source https://github.com/primer/octicons */
+	octicons: {
+		name: 'octicons',
+		displayName: 'Octicons',
+		path: 'octicons-19.8.0/icons/',
+		downloadLink: 'https://github.com/primer/octicons/archive/refs/tags/v19.8.0.zip',
+	},
 };
 /**
  * Returns a possible path to the icon pack.
@@ -135,9 +135,9 @@ const iconPacks$1 = {
  * exist.
  */
 const getExtraPath = (iconPackName) => {
-    var _a;
-    const path = (_a = Object.values(iconPacks$1).find((iconPack) => iconPack.name === iconPackName)) === null || _a === void 0 ? void 0 : _a.path;
-    return (path === null || path === void 0 ? void 0 : path.length) === 0 ? undefined : path;
+	var _a;
+	const path = (_a = Object.values(iconPacks$1).find((iconPack) => iconPack.name === iconPackName)) === null || _a === void 0 ? void 0 : _a.path;
+	return (path === null || path === void 0 ? void 0 : path.length) === 0 ? undefined : path;
 };
 
 // This library file does not include any other dependency and is a standalone file that
@@ -149,37 +149,37 @@ const getExtraPath = (iconPackName) => {
  * @returns Cleaned up and formatted SVG string.
  */
 const extract = (svgString) => {
-    var _a, _b;
-    // Removes unnecessary spaces and newlines.
-    svgString = svgString.replace(/(\r\n|\n|\r)/gm, '');
-    svgString = svgString.replace(/>\s+</gm, '><');
-    // Create a parser for better parsing of HTML.
-    const parser = new DOMParser();
-    const svg = parser
-        .parseFromString(svgString, 'text/html')
-        .querySelector('svg');
-    // Removes `width` and `height` from the `style` attribute.
-    if (svg.hasAttribute('style')) {
-        svg.style.width = '';
-        svg.style.height = '';
-    }
-    // Add `viewbox`, if it is not already a attribute.
-    if (svg.viewBox.baseVal.width === 0 && svg.viewBox.baseVal.height === 0) {
-        const width = (_a = svg.width.baseVal.value) !== null && _a !== void 0 ? _a : 16;
-        const height = (_b = svg.height.baseVal.value) !== null && _b !== void 0 ? _b : 16;
-        svg.viewBox.baseVal.width = width;
-        svg.viewBox.baseVal.height = height;
-    }
-    if (!svg.hasAttribute('fill')) {
-        svg.setAttribute('fill', 'currentColor');
-    }
-    const possibleTitle = svg.querySelector('title');
-    if (possibleTitle) {
-        possibleTitle.remove();
-    }
-    svg.setAttribute('width', '16px');
-    svg.setAttribute('height', '16px');
-    return svg.outerHTML;
+	var _a, _b;
+	// Removes unnecessary spaces and newlines.
+	svgString = svgString.replace(/(\r\n|\n|\r)/gm, '');
+	svgString = svgString.replace(/>\s+</gm, '><');
+	// Create a parser for better parsing of HTML.
+	const parser = new DOMParser();
+	const svg = parser
+		.parseFromString(svgString, 'text/html')
+		.querySelector('svg');
+	// Removes `width` and `height` from the `style` attribute.
+	if (svg.hasAttribute('style')) {
+		svg.style.width = '';
+		svg.style.height = '';
+	}
+	// Add `viewbox`, if it is not already a attribute.
+	if (svg.viewBox.baseVal.width === 0 && svg.viewBox.baseVal.height === 0) {
+		const width = (_a = svg.width.baseVal.value) !== null && _a !== void 0 ? _a : 16;
+		const height = (_b = svg.height.baseVal.value) !== null && _b !== void 0 ? _b : 16;
+		svg.viewBox.baseVal.width = width;
+		svg.viewBox.baseVal.height = height;
+	}
+	if (!svg.hasAttribute('fill')) {
+		svg.setAttribute('fill', 'currentColor');
+	}
+	const possibleTitle = svg.querySelector('title');
+	if (possibleTitle) {
+		possibleTitle.remove();
+	}
+	svg.setAttribute('width', '16px');
+	svg.setAttribute('height', '16px');
+	return svg.outerHTML;
 };
 /**
  * Sets the font size of an SVG string by modifying its width and/or height attributes.
@@ -189,15 +189,15 @@ const extract = (svgString) => {
  * @returns Modified SVG string.
  */
 const setFontSize = (svgString, fontSize) => {
-    const widthRe = new RegExp(/width="[\d.]+(px)?"/);
-    const heightRe = new RegExp(/height="[\d.]+(px)?"/);
-    if (svgString.match(widthRe)) {
-        svgString = svgString.replace(widthRe, `width="${fontSize}px"`);
-    }
-    if (svgString.match(heightRe)) {
-        svgString = svgString.replace(heightRe, `height="${fontSize}px"`);
-    }
-    return svgString;
+	const widthRe = new RegExp(/width="[\d.]+(px)?"/);
+	const heightRe = new RegExp(/height="[\d.]+(px)?"/);
+	if (svgString.match(widthRe)) {
+		svgString = svgString.replace(widthRe, `width="${fontSize}px"`);
+	}
+	if (svgString.match(heightRe)) {
+		svgString = svgString.replace(heightRe, `height="${fontSize}px"`);
+	}
+	return svgString;
 };
 /**
  * Replaces the fill or stroke color of an SVG string with a given color.
@@ -206,29 +206,29 @@ const setFontSize = (svgString, fontSize) => {
  * @returns The modified SVG string.
  */
 const colorize = (svgString, color) => {
-    if (!color) {
-        color = 'currentColor';
-    }
-    const parser = new DOMParser();
-    // Tries to parse the string into a HTML node.
-    const parsedNode = parser.parseFromString(svgString, 'text/html');
-    const svg = parsedNode.querySelector('svg');
-    if (svg) {
-        if (svg.hasAttribute('fill') && svg.getAttribute('fill') !== 'none') {
-            svg.setAttribute('fill', color);
-        }
-        else if (svg.hasAttribute('stroke') &&
-            svg.getAttribute('stroke') !== 'none') {
-            svg.setAttribute('stroke', color);
-        }
-        return svg.outerHTML;
-    }
-    return svgString;
+	if (!color) {
+		color = 'currentColor';
+	}
+	const parser = new DOMParser();
+	// Tries to parse the string into a HTML node.
+	const parsedNode = parser.parseFromString(svgString, 'text/html');
+	const svg = parsedNode.querySelector('svg');
+	if (svg) {
+		if (svg.hasAttribute('fill') && svg.getAttribute('fill') !== 'none') {
+			svg.setAttribute('fill', color);
+		}
+		else if (svg.hasAttribute('stroke') &&
+			svg.getAttribute('stroke') !== 'none') {
+			svg.setAttribute('stroke', color);
+		}
+		return svg.outerHTML;
+	}
+	return svgString;
 };
 var svg = {
-    extract,
-    colorize,
-    setFontSize,
+	extract,
+	colorize,
+	setFontSize,
 };
 
 var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
@@ -270,9 +270,9 @@ var jszip_minExports = requireJszip_min();
  * @returns ArrayBuffer of the zip file.
  */
 const downloadZipFile = (url) => __awaiter(void 0, void 0, void 0, function* () {
-    const fetched = yield obsidian.requestUrl({ url });
-    const bytes = fetched.arrayBuffer;
-    return bytes;
+	const fetched = yield obsidian.requestUrl({ url });
+	const bytes = fetched.arrayBuffer;
+	return bytes;
 });
 /**
  * Transforms a JSZip file into a File object.
@@ -280,9 +280,9 @@ const downloadZipFile = (url) => __awaiter(void 0, void 0, void 0, function* () 
  * @returns File object of the JSZip file.
  */
 const getFileFromJSZipFile = (file) => __awaiter(void 0, void 0, void 0, function* () {
-    const fileData = yield file.async('blob');
-    const filename = file.name.split('/').pop();
-    return new File([fileData], filename);
+	const fileData = yield file.async('blob');
+	const filename = file.name.split('/').pop();
+	return new File([fileData], filename);
 });
 /**
  * Read a zip file and return the files inside it.
@@ -292,23 +292,23 @@ const getFileFromJSZipFile = (file) => __awaiter(void 0, void 0, void 0, functio
  * @returns Array of loaded files inside the zip file.
  */
 const readZipFile = (bytes_1, ...args_1) => __awaiter(void 0, [bytes_1, ...args_1], void 0, function* (bytes, extraPath = '') {
-    const unzippedFiles = yield jszip_minExports.loadAsync(bytes);
-    return Promise.resolve(unzippedFiles).then((unzipped) => {
-        if (!Object.keys(unzipped.files).length) {
-            return Promise.reject('No file was found');
-        }
-        const files = [];
-        // Regex for retrieving the files inside the zip file or inside the directory of a
-        // zip file.
-        const regex = new RegExp(extraPath + '(.+)\\.svg', 'g');
-        Object.entries(unzippedFiles.files).forEach(([_, v]) => {
-            const matched = v.name.match(regex);
-            if (!v.dir && matched && matched.length > 0) {
-                files.push(v);
-            }
-        });
-        return files;
-    });
+	const unzippedFiles = yield jszip_minExports.loadAsync(bytes);
+	return Promise.resolve(unzippedFiles).then((unzipped) => {
+		if (!Object.keys(unzipped.files).length) {
+			return Promise.reject('No file was found');
+		}
+		const files = [];
+		// Regex for retrieving the files inside the zip file or inside the directory of a
+		// zip file.
+		const regex = new RegExp(extraPath + '(.+)\\.svg', 'g');
+		Object.entries(unzippedFiles.files).forEach(([_, v]) => {
+			const matched = v.name.match(regex);
+			if (!v.dir && matched && matched.length > 0) {
+				files.push(v);
+			}
+		});
+		return files;
+	});
 });
 
 const PLUGIN_NAME = 'iconize';
@@ -320,2397 +320,2397 @@ const INLINE_TITLE_WRAPPER_CLASS = 'iconize-inline-title-wrapper';
  */
 const ICON_ATTRIBUTE_NAME = 'data-icon';
 var config = {
-    PLUGIN_NAME,
-    TITLE_ICON_CLASS,
-    INLINE_TITLE_WRAPPER_CLASS,
-    ICON_ATTRIBUTE_NAME,
+	PLUGIN_NAME,
+	TITLE_ICON_CLASS,
+	INLINE_TITLE_WRAPPER_CLASS,
+	ICON_ATTRIBUTE_NAME,
 };
 
 var LoggerPrefix;
 (function (LoggerPrefix) {
-    LoggerPrefix["Outline"] = "Outline";
+	LoggerPrefix["Outline"] = "Outline";
 })(LoggerPrefix || (LoggerPrefix = {}));
 class ConsoleLogger {
-    constructor(projectPrefix, enabled = false) {
-        this.logLevels = {
-            log: { label: 'LOG:' },
-            info: { label: 'INFO:' },
-            warn: { label: 'WARN:' },
-            error: { label: 'ERROR:' },
-        };
-        this.projectPrefix = projectPrefix;
-        this.enabled = enabled;
-    }
-    formatMessage(level, message, prefix, optionalParams) {
-        const timestamp = new Date().toISOString();
-        const { label } = this.logLevels[level];
-        const prefixAsStr = !prefix ? '' : `/${prefix}`;
-        return [
-            `${this.projectPrefix}${prefixAsStr}: [${timestamp}] ${label} ${message}`,
-            ...optionalParams,
-        ];
-    }
-    log(message, prefix, ...optionalParams) {
-        if (this.enabled) {
-            console.log(...this.formatMessage('log', message, prefix, optionalParams));
-        }
-    }
-    info(message, prefix, ...optionalParams) {
-        if (this.enabled) {
-            console.info(...this.formatMessage('info', message, prefix, optionalParams));
-        }
-    }
-    warn(message, prefix, ...optionalParams) {
-        if (this.enabled) {
-            console.warn(...this.formatMessage('warn', message, prefix, optionalParams));
-        }
-    }
-    error(message, prefix, ...optionalParams) {
-        if (this.enabled) {
-            console.error(...this.formatMessage('error', message, prefix, optionalParams));
-        }
-    }
-    toggleLogging(enabled) {
-        this.enabled = enabled;
-    }
+	constructor(projectPrefix, enabled = false) {
+		this.logLevels = {
+			log: { label: 'LOG:' },
+			info: { label: 'INFO:' },
+			warn: { label: 'WARN:' },
+			error: { label: 'ERROR:' },
+		};
+		this.projectPrefix = projectPrefix;
+		this.enabled = enabled;
+	}
+	formatMessage(level, message, prefix, optionalParams) {
+		const timestamp = new Date().toISOString();
+		const { label } = this.logLevels[level];
+		const prefixAsStr = !prefix ? '' : `/${prefix}`;
+		return [
+			`${this.projectPrefix}${prefixAsStr}: [${timestamp}] ${label} ${message}`,
+			...optionalParams,
+		];
+	}
+	log(message, prefix, ...optionalParams) {
+		if (this.enabled) {
+			console.log(...this.formatMessage('log', message, prefix, optionalParams));
+		}
+	}
+	info(message, prefix, ...optionalParams) {
+		if (this.enabled) {
+			console.info(...this.formatMessage('info', message, prefix, optionalParams));
+		}
+	}
+	warn(message, prefix, ...optionalParams) {
+		if (this.enabled) {
+			console.warn(...this.formatMessage('warn', message, prefix, optionalParams));
+		}
+	}
+	error(message, prefix, ...optionalParams) {
+		if (this.enabled) {
+			console.error(...this.formatMessage('error', message, prefix, optionalParams));
+		}
+	}
+	toggleLogging(enabled) {
+		this.enabled = enabled;
+	}
 }
 const logger = new ConsoleLogger(config.PLUGIN_NAME);
 
 const LUCIDE_ICON_PACK_NAME = 'lucide-icons';
 let path;
 const getPath = () => {
-    return path;
+	return path;
 };
 const setPath = (newPath) => {
-    if (newPath === 'plugins/obsidian-icon-folder/icons') {
-        newPath = '.obsidian/plugins/obsidian-icon-folder/icons';
-        new obsidian.Notice(`[${config.PLUGIN_NAME}] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.`, 8000);
-    }
-    path = newPath;
+	if (newPath === 'plugins/obsidian-icon-folder/icons') {
+		newPath = '.obsidian/plugins/obsidian-icon-folder/icons';
+		new obsidian.Notice(`[${config.PLUGIN_NAME}] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.`, 8000);
+	}
+	path = newPath;
 };
 let preloadedIcons = [];
 const getPreloadedIcons = () => {
-    return preloadedIcons;
+	return preloadedIcons;
 };
 const resetPreloadedIcons = () => {
-    preloadedIcons = [];
+	preloadedIcons = [];
 };
 let iconPacks = [];
 const addLucideIconsPack = (plugin) => {
-    iconPacks.push({
-        name: LUCIDE_ICON_PACK_NAME,
-        prefix: 'Li',
-        custom: false,
-        icons: plugin.doesUseNativeLucideIconPack()
-            ? obsidian.getIconIds()
-                .map((iconId) => iconId.replace(/^lucide-/, ''))
-                .map((iconId) => {
-                const iconEl = obsidian.getIcon(iconId);
-                iconEl.removeClass('svg-icon'); // Removes native `svg-icon` class.
-                return {
-                    name: getNormalizedName(iconId),
-                    filename: iconId,
-                    prefix: 'Li',
-                    svgElement: iconEl === null || iconEl === void 0 ? void 0 : iconEl.outerHTML,
-                    svgContent: iconEl === null || iconEl === void 0 ? void 0 : iconEl.innerHTML,
-                    svgViewbox: '',
-                    iconPackName: LUCIDE_ICON_PACK_NAME,
-                };
-            })
-            : [],
-    });
+	iconPacks.push({
+		name: LUCIDE_ICON_PACK_NAME,
+		prefix: 'Li',
+		custom: false,
+		icons: plugin.doesUseNativeLucideIconPack()
+			? obsidian.getIconIds()
+				.map((iconId) => iconId.replace(/^lucide-/, ''))
+				.map((iconId) => {
+				const iconEl = obsidian.getIcon(iconId);
+				iconEl.removeClass('svg-icon'); // Removes native `svg-icon` class.
+				return {
+					name: getNormalizedName(iconId),
+					filename: iconId,
+					prefix: 'Li',
+					svgElement: iconEl === null || iconEl === void 0 ? void 0 : iconEl.outerHTML,
+					svgContent: iconEl === null || iconEl === void 0 ? void 0 : iconEl.innerHTML,
+					svgViewbox: '',
+					iconPackName: LUCIDE_ICON_PACK_NAME,
+				};
+			})
+			: [],
+	});
 };
 const addCustomLucideIconPack = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    const iconPackIndex = iconPacks.findIndex((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
-    if (iconPackIndex > -1) {
-        iconPacks.splice(iconPackIndex);
-    }
-    const iconPack = iconPacks$1['lucide'];
-    const arrayBuffer = yield downloadZipFile(iconPack.downloadLink);
-    yield createZipFile(plugin, `${iconPack.name}.zip`, arrayBuffer);
-    yield registerIconPack(iconPack.name, arrayBuffer);
+	const iconPackIndex = iconPacks.findIndex((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
+	if (iconPackIndex > -1) {
+		iconPacks.splice(iconPackIndex);
+	}
+	const iconPack = iconPacks$1['lucide'];
+	const arrayBuffer = yield downloadZipFile(iconPack.downloadLink);
+	yield createZipFile(plugin, `${iconPack.name}.zip`, arrayBuffer);
+	yield registerIconPack(iconPack.name, arrayBuffer);
 });
 const removeCustomLucideIconPack = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    const iconPackIndex = iconPacks.findIndex((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
-    if (iconPackIndex > -1) {
-        iconPacks.splice(iconPackIndex);
-    }
-    yield deleteIconPack(plugin, LUCIDE_ICON_PACK_NAME);
+	const iconPackIndex = iconPacks.findIndex((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
+	if (iconPackIndex > -1) {
+		iconPacks.splice(iconPackIndex);
+	}
+	yield deleteIconPack(plugin, LUCIDE_ICON_PACK_NAME);
 });
 const moveIconPackDirectories = (plugin, from, to) => __awaiter(void 0, void 0, void 0, function* () {
-    // Tries to move all icon packs to the new folder.
-    for (let i = 0; i < iconPacks.length; i++) {
-        const iconPack = iconPacks[i];
-        if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}`)) {
-            // Tries to create a new directory in the new path.
-            const doesDirExist = yield createDirectory(plugin, iconPack.name);
-            if (doesDirExist) {
-                new obsidian.Notice(`Directory with name ${iconPack.name} already exists.`);
-                continue;
-            }
-        }
-        new obsidian.Notice(`Moving ${iconPack.name}...`);
-        // Move the zip file.
-        if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}.zip`)) {
-            yield plugin.app.vault.adapter.copy(`${from}/${iconPack.name}.zip`, `${to}/${iconPack.name}.zip`);
-        }
-        // Move all other files inside of the iconpack directory.
-        const filesInDirectory = yield getFilesInDirectory(plugin, `${from}/${iconPack.name}`);
-        for (const file of filesInDirectory) {
-            const fileName = file.split('/').pop();
-            yield plugin.app.vault.adapter.copy(`${from}/${iconPack.name}/${fileName}`, `${to}/${iconPack.name}/${fileName}`);
-        }
-        new obsidian.Notice(`...moved ${iconPack.name}`);
-    }
-    // Removes all the existing icon packs in the `from` directory.
-    for (let i = 0; i < iconPacks.length; i++) {
-        const iconPack = iconPacks[i];
-        if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}`)) {
-            yield plugin.app.vault.adapter.rmdir(`${from}/${iconPack.name}`, true);
-        }
-    }
-    // Remove root directory that contains all the icon packs.
-    if (!to.startsWith(from)) {
-        yield plugin.app.vault.adapter.rmdir(`${from}`, true);
-    }
+	// Tries to move all icon packs to the new folder.
+	for (let i = 0; i < iconPacks.length; i++) {
+		const iconPack = iconPacks[i];
+		if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}`)) {
+			// Tries to create a new directory in the new path.
+			const doesDirExist = yield createDirectory(plugin, iconPack.name);
+			if (doesDirExist) {
+				new obsidian.Notice(`Directory with name ${iconPack.name} already exists.`);
+				continue;
+			}
+		}
+		new obsidian.Notice(`Moving ${iconPack.name}...`);
+		// Move the zip file.
+		if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}.zip`)) {
+			yield plugin.app.vault.adapter.copy(`${from}/${iconPack.name}.zip`, `${to}/${iconPack.name}.zip`);
+		}
+		// Move all other files inside of the iconpack directory.
+		const filesInDirectory = yield getFilesInDirectory(plugin, `${from}/${iconPack.name}`);
+		for (const file of filesInDirectory) {
+			const fileName = file.split('/').pop();
+			yield plugin.app.vault.adapter.copy(`${from}/${iconPack.name}/${fileName}`, `${to}/${iconPack.name}/${fileName}`);
+		}
+		new obsidian.Notice(`...moved ${iconPack.name}`);
+	}
+	// Removes all the existing icon packs in the `from` directory.
+	for (let i = 0; i < iconPacks.length; i++) {
+		const iconPack = iconPacks[i];
+		if (yield plugin.app.vault.adapter.exists(`${from}/${iconPack.name}`)) {
+			yield plugin.app.vault.adapter.rmdir(`${from}/${iconPack.name}`, true);
+		}
+	}
+	// Remove root directory that contains all the icon packs.
+	if (!to.startsWith(from)) {
+		yield plugin.app.vault.adapter.rmdir(`${from}`, true);
+	}
 });
 const createCustomIconPackDirectory = (plugin, dir) => __awaiter(void 0, void 0, void 0, function* () {
-    yield createDirectory(plugin, dir);
-    const prefix = createIconPackPrefix(dir);
-    iconPacks.push({ name: dir, icons: [], prefix, custom: true });
+	yield createDirectory(plugin, dir);
+	const prefix = createIconPackPrefix(dir);
+	iconPacks.push({ name: dir, icons: [], prefix, custom: true });
 });
 const deleteIconPack = (plugin, dir) => __awaiter(void 0, void 0, void 0, function* () {
-    iconPacks = iconPacks.filter((iconPack) => iconPack.name !== dir);
-    // Check for the icon pack directory and delete it.
-    if (yield plugin.app.vault.adapter.exists(`${path}/${dir}`)) {
-        yield plugin.app.vault.adapter.rmdir(`${path}/${dir}`, true);
-    }
-    // Check for the icon pack zip file and delete it.
-    if (yield plugin.app.vault.adapter.exists(`${path}/${dir}.zip`)) {
-        yield plugin.app.vault.adapter.remove(`${path}/${dir}.zip`);
-    }
+	iconPacks = iconPacks.filter((iconPack) => iconPack.name !== dir);
+	// Check for the icon pack directory and delete it.
+	if (yield plugin.app.vault.adapter.exists(`${path}/${dir}`)) {
+		yield plugin.app.vault.adapter.rmdir(`${path}/${dir}`, true);
+	}
+	// Check for the icon pack zip file and delete it.
+	if (yield plugin.app.vault.adapter.exists(`${path}/${dir}.zip`)) {
+		yield plugin.app.vault.adapter.remove(`${path}/${dir}.zip`);
+	}
 });
 const doesIconPackExist = (plugin, iconPackName) => {
-    return plugin.app.vault.adapter.exists(`${path}/${iconPackName}`);
+	return plugin.app.vault.adapter.exists(`${path}/${iconPackName}`);
 };
 const createDirectory = (plugin, dir) => __awaiter(void 0, void 0, void 0, function* () {
-    const doesDirExist = yield plugin.app.vault.adapter.exists(`${path}/${dir}`);
-    if (!doesDirExist) {
-        yield plugin.app.vault.adapter.mkdir(`${path}/${dir}`);
-    }
-    return doesDirExist;
+	const doesDirExist = yield plugin.app.vault.adapter.exists(`${path}/${dir}`);
+	if (!doesDirExist) {
+		yield plugin.app.vault.adapter.mkdir(`${path}/${dir}`);
+	}
+	return doesDirExist;
 });
 const getNormalizedName = (s) => {
-    return s
-        .split(/[ -]|[ _]/g)
-        .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-        .join('');
+	return s
+		.split(/[ -]|[ _]/g)
+		.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+		.join('');
 };
 // export const normalizeFileName = async (plugin: Plugin, oldPath: string) => {
-//   const fileName = oldPath.split('/').pop();
-//   const newPath = oldPath.substring(0, oldPath.indexOf(fileName)) + getNormalizedName(fileName);
-//   await plugin.app.vault.adapter.rename(oldPath, newPath);
+//	 const fileName = oldPath.split('/').pop();
+//	 const newPath = oldPath.substring(0, oldPath.indexOf(fileName)) + getNormalizedName(fileName);
+//	 await plugin.app.vault.adapter.rename(oldPath, newPath);
 // };
 const createZipFile = (plugin, filename, buffer) => __awaiter(void 0, void 0, void 0, function* () {
-    yield plugin.app.vault.adapter.writeBinary(`${path}/${filename}`, buffer);
+	yield plugin.app.vault.adapter.writeBinary(`${path}/${filename}`, buffer);
 });
 const createFile = (plugin, iconPackName, filename, content, absoluteFilename) => __awaiter(void 0, void 0, void 0, function* () {
-    const normalizedFilename = getNormalizedName(filename);
-    const exists = yield plugin.app.vault.adapter.exists(`${path}/${iconPackName}/${normalizedFilename}`);
-    if (exists) {
-        const folderSplit = absoluteFilename.split('/');
-        if (folderSplit.length >= 2) {
-            const folderName = folderSplit[folderSplit.length - 2];
-            const newFilename = folderName + normalizedFilename;
-            yield plugin.app.vault.adapter.write(`${path}/${iconPackName}/${newFilename}`, content);
-            logger.info(`Renamed old file ${normalizedFilename} to ${newFilename} due to duplication`);
-            new obsidian.Notice(`[${config.PLUGIN_NAME}] Renamed ${normalizedFilename} to ${newFilename} to avoid duplication.`, 8000);
-        }
-        else {
-            logger.warn(`Could not create icons with duplicated file names (file name: ${normalizedFilename})`);
-            new obsidian.Notice(`[${config.PLUGIN_NAME}] Could not create duplicated icon name (${normalizedFilename})`, 8000);
-        }
-    }
-    else {
-        yield plugin.app.vault.adapter.write(`${path}/${iconPackName}/${normalizedFilename}`, content);
-    }
+	const normalizedFilename = getNormalizedName(filename);
+	const exists = yield plugin.app.vault.adapter.exists(`${path}/${iconPackName}/${normalizedFilename}`);
+	if (exists) {
+		const folderSplit = absoluteFilename.split('/');
+		if (folderSplit.length >= 2) {
+			const folderName = folderSplit[folderSplit.length - 2];
+			const newFilename = folderName + normalizedFilename;
+			yield plugin.app.vault.adapter.write(`${path}/${iconPackName}/${newFilename}`, content);
+			logger.info(`Renamed old file ${normalizedFilename} to ${newFilename} due to duplication`);
+			new obsidian.Notice(`[${config.PLUGIN_NAME}] Renamed ${normalizedFilename} to ${newFilename} to avoid duplication.`, 8000);
+		}
+		else {
+			logger.warn(`Could not create icons with duplicated file names (file name: ${normalizedFilename})`);
+			new obsidian.Notice(`[${config.PLUGIN_NAME}] Could not create duplicated icon name (${normalizedFilename})`, 8000);
+		}
+	}
+	else {
+		yield plugin.app.vault.adapter.write(`${path}/${iconPackName}/${normalizedFilename}`, content);
+	}
 });
 const createDefaultDirectory = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    yield createDirectory(plugin, '');
+	yield createDirectory(plugin, '');
 });
 const getAllIconPacks = () => {
-    return iconPacks;
+	return iconPacks;
 };
 const getFilesInDirectory = (plugin, dir) => __awaiter(void 0, void 0, void 0, function* () {
-    if (!(yield plugin.app.vault.adapter.exists(dir))) {
-        return [];
-    }
-    return (yield plugin.app.vault.adapter.list(dir)).files;
+	if (!(yield plugin.app.vault.adapter.exists(dir))) {
+		return [];
+	}
+	return (yield plugin.app.vault.adapter.list(dir)).files;
 });
 const validIconName = /^[(A-Z)|(0-9)]/;
 const svgViewboxRegex = /viewBox="([^"]*)"/g;
 const svgContentRegex = /<svg.*>(.*?)<\/svg>/g;
 const generateIcon = (iconPackName, iconName, content) => {
-    if (content.length === 0) {
-        return;
-    }
-    content = content.replace(/(\r\n|\n|\r)/gm, '');
-    content = content.replace(/>\s+</gm, '><');
-    const normalizedName = iconName.charAt(0).toUpperCase() + iconName.substring(1);
-    if (!validIconName.exec(normalizedName)) {
-        logger.info(`Skipping icon with invalid name: ${iconName}`);
-        return null;
-    }
-    const svgViewboxMatch = content.match(svgViewboxRegex);
-    let svgViewbox = '';
-    if (svgViewboxMatch && svgViewboxMatch.length !== 0) {
-        svgViewbox = svgViewboxMatch[0];
-    }
-    const svgContentMatch = content.match(svgContentRegex);
-    if (!svgContentMatch) {
-        logger.info(`Skipping icon with invalid svg content: ${iconName}`);
-        return null;
-    }
-    const svgContent = svgContentMatch.map((val) => val.replace(/<\/?svg>/g, '').replace(/<svg.+?>/g, ''))[0];
-    const iconPackPrefix = createIconPackPrefix(iconPackName);
-    const icon = {
-        name: normalizedName.split('.svg')[0],
-        prefix: iconPackPrefix,
-        iconPackName,
-        filename: iconName,
-        svgContent,
-        svgViewbox,
-        svgElement: svg.extract(content),
-    };
-    return icon;
+	if (content.length === 0) {
+		return;
+	}
+	content = content.replace(/(\r\n|\n|\r)/gm, '');
+	content = content.replace(/>\s+</gm, '><');
+	const normalizedName = iconName.charAt(0).toUpperCase() + iconName.substring(1);
+	if (!validIconName.exec(normalizedName)) {
+		logger.info(`Skipping icon with invalid name: ${iconName}`);
+		return null;
+	}
+	const svgViewboxMatch = content.match(svgViewboxRegex);
+	let svgViewbox = '';
+	if (svgViewboxMatch && svgViewboxMatch.length !== 0) {
+		svgViewbox = svgViewboxMatch[0];
+	}
+	const svgContentMatch = content.match(svgContentRegex);
+	if (!svgContentMatch) {
+		logger.info(`Skipping icon with invalid svg content: ${iconName}`);
+		return null;
+	}
+	const svgContent = svgContentMatch.map((val) => val.replace(/<\/?svg>/g, '').replace(/<svg.+?>/g, ''))[0];
+	const iconPackPrefix = createIconPackPrefix(iconPackName);
+	const icon = {
+		name: normalizedName.split('.svg')[0],
+		prefix: iconPackPrefix,
+		iconPackName,
+		filename: iconName,
+		svgContent,
+		svgViewbox,
+		svgElement: svg.extract(content),
+	};
+	return icon;
 };
 const createIconPackPrefix = (iconPackName) => {
-    if (iconPackName.includes('-')) {
-        const splitted = iconPackName.split('-');
-        let result = splitted[0].charAt(0).toUpperCase();
-        for (let i = 1; i < splitted.length; i++) {
-            result += splitted[i].charAt(0).toLowerCase();
-        }
-        return result;
-    }
-    return (iconPackName.charAt(0).toUpperCase() + iconPackName.charAt(1).toLowerCase());
+	if (iconPackName.includes('-')) {
+		const splitted = iconPackName.split('-');
+		let result = splitted[0].charAt(0).toUpperCase();
+		for (let i = 1; i < splitted.length; i++) {
+			result += splitted[i].charAt(0).toLowerCase();
+		}
+		return result;
+	}
+	return (iconPackName.charAt(0).toUpperCase() + iconPackName.charAt(1).toLowerCase());
 };
 const loadUsedIcons = (plugin, icons) => __awaiter(void 0, void 0, void 0, function* () {
-    const iconPacks = (yield listPath(plugin)).folders.map((iconPack) => iconPack.split('/').pop());
-    if (plugin.doesUseNativeLucideIconPack()) {
-        iconPacks.push(LUCIDE_ICON_PACK_NAME);
-    }
-    for (let i = 0; i < icons.length; i++) {
-        const entry = icons[i];
-        if (!entry) {
-            continue;
-        }
-        yield loadIcon(plugin, iconPacks, entry);
-    }
+	const iconPacks = (yield listPath(plugin)).folders.map((iconPack) => iconPack.split('/').pop());
+	if (plugin.doesUseNativeLucideIconPack()) {
+		iconPacks.push(LUCIDE_ICON_PACK_NAME);
+	}
+	for (let i = 0; i < icons.length; i++) {
+		const entry = icons[i];
+		if (!entry) {
+			continue;
+		}
+		yield loadIcon(plugin, iconPacks, entry);
+	}
 });
 const listPath = (plugin, listPath) => {
-    return plugin.app.vault.adapter.list(path);
+	return plugin.app.vault.adapter.list(path);
 };
 const getIconPackNameByPrefix = (prefix) => {
-    var _a;
-    return (_a = iconPacks.find((iconPack) => iconPack.prefix === prefix)) === null || _a === void 0 ? void 0 : _a.name;
+	var _a;
+	return (_a = iconPacks.find((iconPack) => iconPack.prefix === prefix)) === null || _a === void 0 ? void 0 : _a.name;
 };
 const nextIdentifier = (iconName) => {
-    return iconName.substring(1).search(/[(A-Z)|(0-9)]/) + 1;
+	return iconName.substring(1).search(/[(A-Z)|(0-9)]/) + 1;
 };
 const loadIcon = (plugin, iconPackNames, iconName) => __awaiter(void 0, void 0, void 0, function* () {
-    const nextLetter = nextIdentifier(iconName);
-    const prefix = iconName.substring(0, nextLetter);
-    const name = iconName.substring(nextLetter);
-    const iconPack = iconPackNames.find((folder) => {
-        const folderPrefix = createIconPackPrefix(folder);
-        return prefix === folderPrefix;
-    });
-    if (!iconPack) {
-        // Ignore because background check automatically adds the icons and icon pack
-        // directories.
-        if (!plugin.getSettings().iconsBackgroundCheckEnabled) {
-            new obsidian.Notice(`Seems like you do not have an icon pack installed. (${iconName})`, 5000);
-        }
-        return;
-    }
-    if (iconPack === LUCIDE_ICON_PACK_NAME &&
-        plugin.doesUseNativeLucideIconPack()) {
-        // Native lucide icons already exist for Obsidian.
-        const lucideIcons = iconPacks.find((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
-        const icon = lucideIcons.icons.find((icon) => icon.name === name);
-        if (!icon) {
-            logger.warn(`Icon ${icon} does not exist in the native Lucide icon pack.`);
-            return;
-        }
-        preloadedIcons.push(icon);
-        return;
-    }
-    const fullPath = path + '/' + iconPack + '/' + name + '.svg';
-    if (!(yield plugin.app.vault.adapter.exists(fullPath))) {
-        logger.info(`Icon with name '${name}' was not found (full path: ${fullPath})`);
-        return;
-    }
-    const content = yield plugin.app.vault.adapter.read(fullPath);
-    const icon = generateIcon(iconPack, name, content);
-    preloadedIcons.push(icon);
+	const nextLetter = nextIdentifier(iconName);
+	const prefix = iconName.substring(0, nextLetter);
+	const name = iconName.substring(nextLetter);
+	const iconPack = iconPackNames.find((folder) => {
+		const folderPrefix = createIconPackPrefix(folder);
+		return prefix === folderPrefix;
+	});
+	if (!iconPack) {
+		// Ignore because background check automatically adds the icons and icon pack
+		// directories.
+		if (!plugin.getSettings().iconsBackgroundCheckEnabled) {
+			new obsidian.Notice(`Seems like you do not have an icon pack installed. (${iconName})`, 5000);
+		}
+		return;
+	}
+	if (iconPack === LUCIDE_ICON_PACK_NAME &&
+		plugin.doesUseNativeLucideIconPack()) {
+		// Native lucide icons already exist for Obsidian.
+		const lucideIcons = iconPacks.find((iconPack) => iconPack.name === LUCIDE_ICON_PACK_NAME);
+		const icon = lucideIcons.icons.find((icon) => icon.name === name);
+		if (!icon) {
+			logger.warn(`Icon ${icon} does not exist in the native Lucide icon pack.`);
+			return;
+		}
+		preloadedIcons.push(icon);
+		return;
+	}
+	const fullPath = path + '/' + iconPack + '/' + name + '.svg';
+	if (!(yield plugin.app.vault.adapter.exists(fullPath))) {
+		logger.info(`Icon with name '${name}' was not found (full path: ${fullPath})`);
+		return;
+	}
+	const content = yield plugin.app.vault.adapter.read(fullPath);
+	const icon = generateIcon(iconPack, name, content);
+	preloadedIcons.push(icon);
 });
 const initIconPacks = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    // Remove the beginning slash because paths which start with `/` are the same as without
-    // a slash.
-    if (path.startsWith('/')) {
-        path = path.slice(1);
-    }
-    const loadedIconPacks = yield plugin.app.vault.adapter.list(path);
-    // Extract all zip files which will be downloaded icon packs.
-    const zipFiles = {};
-    for (let i = 0; i < loadedIconPacks.files.length; i++) {
-        const fileName = loadedIconPacks.files[i];
-        if (fileName.endsWith('.zip')) {
-            const arrayBuffer = yield plugin.app.vault.adapter.readBinary(fileName);
-            const files = yield readZipFile(arrayBuffer);
-            const iconPackName = fileName.split('/').pop().split('.zip')[0];
-            zipFiles[iconPackName] = files;
-        }
-    }
-    // Check for custom-made icon packs.
-    for (let i = 0; i < loadedIconPacks.folders.length; i++) {
-        const folderName = loadedIconPacks.folders[i].split('/').pop();
-        // Continue if the icon pack does have a zip file.
-        if (zipFiles[folderName]) {
-            continue;
-        }
-        const files = yield getFilesInDirectory(plugin, `${path}/${folderName}`);
-        const loadedIcons = [];
-        // Convert files into loaded svgs.
-        for (let j = 0; j < files.length; j++) {
-            const iconNameRegex = files[j].match(new RegExp(path + '/' + folderName + '/(.*)'));
-            const iconName = getNormalizedName(iconNameRegex[1]);
-            const iconContent = yield plugin.app.vault.adapter.read(files[j]);
-            const icon = generateIcon(folderName, iconName, iconContent);
-            if (icon) {
-                loadedIcons.push(icon);
-            }
-        }
-        const prefix = createIconPackPrefix(folderName);
-        if (!iconPacks.some((iconPack) => iconPack.name === folderName)) {
-            iconPacks.push({
-                name: folderName,
-                icons: loadedIcons,
-                prefix,
-                custom: true,
-            });
-            logger.info(`Loaded icon pack '${folderName}' (amount of icons: ${loadedIcons.length})`);
-        }
-    }
-    // Extract all files from the zip files.
-    for (const zipFile in zipFiles) {
-        const files = zipFiles[zipFile];
-        const loadedIcons = yield getLoadedIconsFromZipFile(zipFile, files);
-        const prefix = createIconPackPrefix(zipFile);
-        if (zipFile === LUCIDE_ICON_PACK_NAME &&
-            !plugin.doesUseCustomLucideIconPack()) {
-            continue;
-        }
-        if (!iconPacks.some((iconPack) => iconPack.name === zipFile)) {
-            iconPacks.push({
-                name: zipFile,
-                icons: loadedIcons,
-                prefix,
-                custom: false,
-            });
-            logger.info(`Loaded icon pack '${zipFile}' (amount of icons: ${loadedIcons.length})`);
-        }
-    }
+	// Remove the beginning slash because paths which start with `/` are the same as without
+	// a slash.
+	if (path.startsWith('/')) {
+		path = path.slice(1);
+	}
+	const loadedIconPacks = yield plugin.app.vault.adapter.list(path);
+	// Extract all zip files which will be downloaded icon packs.
+	const zipFiles = {};
+	for (let i = 0; i < loadedIconPacks.files.length; i++) {
+		const fileName = loadedIconPacks.files[i];
+		if (fileName.endsWith('.zip')) {
+			const arrayBuffer = yield plugin.app.vault.adapter.readBinary(fileName);
+			const files = yield readZipFile(arrayBuffer);
+			const iconPackName = fileName.split('/').pop().split('.zip')[0];
+			zipFiles[iconPackName] = files;
+		}
+	}
+	// Check for custom-made icon packs.
+	for (let i = 0; i < loadedIconPacks.folders.length; i++) {
+		const folderName = loadedIconPacks.folders[i].split('/').pop();
+		// Continue if the icon pack does have a zip file.
+		if (zipFiles[folderName]) {
+			continue;
+		}
+		const files = yield getFilesInDirectory(plugin, `${path}/${folderName}`);
+		const loadedIcons = [];
+		// Convert files into loaded svgs.
+		for (let j = 0; j < files.length; j++) {
+			const iconNameRegex = files[j].match(new RegExp(path + '/' + folderName + '/(.*)'));
+			const iconName = getNormalizedName(iconNameRegex[1]);
+			const iconContent = yield plugin.app.vault.adapter.read(files[j]);
+			const icon = generateIcon(folderName, iconName, iconContent);
+			if (icon) {
+				loadedIcons.push(icon);
+			}
+		}
+		const prefix = createIconPackPrefix(folderName);
+		if (!iconPacks.some((iconPack) => iconPack.name === folderName)) {
+			iconPacks.push({
+				name: folderName,
+				icons: loadedIcons,
+				prefix,
+				custom: true,
+			});
+			logger.info(`Loaded icon pack '${folderName}' (amount of icons: ${loadedIcons.length})`);
+		}
+	}
+	// Extract all files from the zip files.
+	for (const zipFile in zipFiles) {
+		const files = zipFiles[zipFile];
+		const loadedIcons = yield getLoadedIconsFromZipFile(zipFile, files);
+		const prefix = createIconPackPrefix(zipFile);
+		if (zipFile === LUCIDE_ICON_PACK_NAME &&
+			!plugin.doesUseCustomLucideIconPack()) {
+			continue;
+		}
+		if (!iconPacks.some((iconPack) => iconPack.name === zipFile)) {
+			iconPacks.push({
+				name: zipFile,
+				icons: loadedIcons,
+				prefix,
+				custom: false,
+			});
+			logger.info(`Loaded icon pack '${zipFile}' (amount of icons: ${loadedIcons.length})`);
+		}
+	}
 });
 const getLoadedIconsFromZipFile = (iconPackName, files) => __awaiter(void 0, void 0, void 0, function* () {
-    const loadedIcons = [];
-    const extraPath = getExtraPath(iconPackName);
-    for (let j = 0; j < files.length; j++) {
-        // Checks if the icon pack has an extra path. Also ignores files which do not start
-        // with the extra path.
-        if (extraPath && !files[j].name.startsWith(extraPath)) {
-            continue;
-        }
-        const file = yield getFileFromJSZipFile(files[j]);
-        const iconContent = yield file.text();
-        const iconName = getNormalizedName(file.name);
-        const icon = generateIcon(iconPackName, iconName, iconContent);
-        if (icon) {
-            loadedIcons.push(icon);
-        }
-    }
-    return loadedIcons;
+	const loadedIcons = [];
+	const extraPath = getExtraPath(iconPackName);
+	for (let j = 0; j < files.length; j++) {
+		// Checks if the icon pack has an extra path. Also ignores files which do not start
+		// with the extra path.
+		if (extraPath && !files[j].name.startsWith(extraPath)) {
+			continue;
+		}
+		const file = yield getFileFromJSZipFile(files[j]);
+		const iconContent = yield file.text();
+		const iconName = getNormalizedName(file.name);
+		const icon = generateIcon(iconPackName, iconName, iconContent);
+		if (icon) {
+			loadedIcons.push(icon);
+		}
+	}
+	return loadedIcons;
 });
 const addIconToIconPack = (iconPackName, iconName, iconContent) => {
-    // Normalize the icon name to remove `-` or `_` in the name.
-    iconName = getNormalizedName(iconName);
-    const icon = generateIcon(iconPackName, iconName, iconContent);
-    if (!icon) {
-        logger.warn(`Icon could not be generated (icon: ${iconName}, content: ${iconContent})`);
-        return undefined;
-    }
-    const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
-    if (!iconPack) {
-        logger.warn(`Iconpack with name '${iconPackName}' was not found`);
-        return undefined;
-    }
-    iconPack.icons.push(icon);
-    return icon;
+	// Normalize the icon name to remove `-` or `_` in the name.
+	iconName = getNormalizedName(iconName);
+	const icon = generateIcon(iconPackName, iconName, iconContent);
+	if (!icon) {
+		logger.warn(`Icon could not be generated (icon: ${iconName}, content: ${iconContent})`);
+		return undefined;
+	}
+	const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
+	if (!iconPack) {
+		logger.warn(`Iconpack with name '${iconPackName}' was not found`);
+		return undefined;
+	}
+	iconPack.icons.push(icon);
+	return icon;
 };
 const removeIconFromIconPackDirectory = (plugin, iconPackName, iconName) => {
-    const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
-    // Checks if icon pack is custom-made.
-    if (!iconPack.custom) {
-        return plugin.app.vault.adapter.rmdir(`${path}/${iconPackName}/${iconName}.svg`, true);
-    }
+	const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
+	// Checks if icon pack is custom-made.
+	if (!iconPack.custom) {
+		return plugin.app.vault.adapter.rmdir(`${path}/${iconPackName}/${iconName}.svg`, true);
+	}
 };
 const extractIconToIconPack = (plugin, icon, iconContent) => __awaiter(void 0, void 0, void 0, function* () {
-    const doesIconPackDirExist = yield plugin.app.vault.adapter.exists(`${path}/${icon.iconPackName}`);
-    if (!doesIconPackDirExist) {
-        yield plugin.app.vault.adapter.mkdir(`${path}/${icon.iconPackName}`);
-    }
-    const doesIconFileExists = yield plugin.app.vault.adapter.exists(`${path}/${icon.iconPackName}/${icon.name}.svg`);
-    if (!doesIconFileExists) {
-        yield createFile(plugin, icon.iconPackName, `${icon.name}.svg`, iconContent);
-    }
+	const doesIconPackDirExist = yield plugin.app.vault.adapter.exists(`${path}/${icon.iconPackName}`);
+	if (!doesIconPackDirExist) {
+		yield plugin.app.vault.adapter.mkdir(`${path}/${icon.iconPackName}`);
+	}
+	const doesIconFileExists = yield plugin.app.vault.adapter.exists(`${path}/${icon.iconPackName}/${icon.name}.svg`);
+	if (!doesIconFileExists) {
+		yield createFile(plugin, icon.iconPackName, `${icon.name}.svg`, iconContent);
+	}
 });
 const getAllLoadedIconNames = () => {
-    return iconPacks.reduce((total, iconPack) => {
-        total.push(...iconPack.icons);
-        return total;
-    }, []);
+	return iconPacks.reduce((total, iconPack) => {
+		total.push(...iconPack.icons);
+		return total;
+	}, []);
 };
 const registerIconPack = (name, arrayBuffer) => __awaiter(void 0, void 0, void 0, function* () {
-    const files = yield readZipFile(arrayBuffer);
-    const loadedIcons = yield getLoadedIconsFromZipFile(name, files);
-    const prefix = createIconPackPrefix(name);
-    iconPacks.push({ name, icons: loadedIcons, prefix, custom: false });
-    logger.info(`Loaded icon pack ${name} (amount of icons: ${loadedIcons.length})`);
+	const files = yield readZipFile(arrayBuffer);
+	const loadedIcons = yield getLoadedIconsFromZipFile(name, files);
+	const prefix = createIconPackPrefix(name);
+	iconPacks.push({ name, icons: loadedIcons, prefix, custom: false });
+	logger.info(`Loaded icon pack ${name} (amount of icons: ${loadedIcons.length})`);
 });
 const doesIconExists = (iconName) => {
-    const icons = getAllLoadedIconNames();
-    return (icons.find((icon) => icon.name === iconName || icon.prefix + icon.name === iconName) !== undefined);
+	const icons = getAllLoadedIconNames();
+	return (icons.find((icon) => icon.name === iconName || icon.prefix + icon.name === iconName) !== undefined);
 };
 const getIconsFromIconPack = (iconPackName) => {
-    return iconPacks.find((iconPack) => iconPack.name === iconPackName);
+	return iconPacks.find((iconPack) => iconPack.name === iconPackName);
 };
 const getIconFromIconPack = (iconPackName, iconPrefix, iconName) => {
-    const foundIcon = preloadedIcons.find((icon) => icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
-        icon.name.toLowerCase() === iconName.toLowerCase());
-    if (foundIcon) {
-        return foundIcon;
-    }
-    const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
-    if (!iconPack) {
-        return undefined;
-    }
-    return iconPack.icons.find((icon) => getNormalizedName(icon.name) === iconName);
+	const foundIcon = preloadedIcons.find((icon) => icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
+		icon.name.toLowerCase() === iconName.toLowerCase());
+	if (foundIcon) {
+		return foundIcon;
+	}
+	const iconPack = iconPacks.find((iconPack) => iconPack.name === iconPackName);
+	if (!iconPack) {
+		return undefined;
+	}
+	return iconPack.icons.find((icon) => getNormalizedName(icon.name) === iconName);
 };
 const getSvgFromLoadedIcon = (iconPrefix, iconName) => {
-    let icon = '';
-    let foundIcon = preloadedIcons.find((icon) => icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
-        icon.name.toLowerCase() === iconName.toLowerCase());
-    if (!foundIcon) {
-        iconPacks.forEach((iconPack) => {
-            const icon = iconPack.icons.find((icon) => {
-                return (icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
-                    getNormalizedName(icon.name).toLowerCase() === iconName.toLowerCase());
-            });
-            if (icon) {
-                foundIcon = icon;
-            }
-        });
-    }
-    if (foundIcon) {
-        icon = foundIcon.svgElement;
-    }
-    return icon;
+	let icon = '';
+	let foundIcon = preloadedIcons.find((icon) => icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
+		icon.name.toLowerCase() === iconName.toLowerCase());
+	if (!foundIcon) {
+		iconPacks.forEach((iconPack) => {
+			const icon = iconPack.icons.find((icon) => {
+				return (icon.prefix.toLowerCase() === iconPrefix.toLowerCase() &&
+					getNormalizedName(icon.name).toLowerCase() === iconName.toLowerCase());
+			});
+			if (icon) {
+				foundIcon = icon;
+			}
+		});
+	}
+	if (foundIcon) {
+		icon = foundIcon.svgElement;
+	}
+	return icon;
 };
 
 /*! Copyright Twitter Inc. and other contributors. Licensed under MIT */
 var twemoji=function(){var twemoji={base:"https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/",ext:".png",size:"72x72",className:"emoji",convert:{fromCodePoint:fromCodePoint,toCodePoint:toCodePoint},onerror:function onerror(){if(this.parentNode){this.parentNode.replaceChild(createText(this.alt,false),this);}},parse:parse,replace:replace,test:test},escaper={"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"},re=/(?:\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c[\udffc-\udfff]|\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c[\udffb\udffd-\udfff]|\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c[\udffb\udffc\udffe\udfff]|\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c[\udffb-\udffd\udfff]|\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83e\uddd1\ud83c[\udffb-\udffe]|\ud83d\udc68\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc68\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc68\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc68\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc68\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc68\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffc-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffd-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb\udffc\udffe\udfff]|\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffd\udfff]|\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc68\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83d\udc69\ud83c[\udffb-\udfff]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc68\ud83c[\udffb-\udffe]|\ud83d\udc69\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83d\udc69\ud83c[\udffb-\udffe]|\ud83e\uddd1\ud83c\udffb\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c[\udffc-\udfff]|\ud83e\uddd1\ud83c\udffb\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffc\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c[\udffb\udffd-\udfff]|\ud83e\uddd1\ud83c\udffc\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffd\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c[\udffb\udffc\udffe\udfff]|\ud83e\uddd1\ud83c\udffd\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udffe\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c[\udffb-\udffd\udfff]|\ud83e\uddd1\ud83c\udffe\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83e\uddd1\ud83c\udfff\u200d\u2764\ufe0f\u200d\ud83e\uddd1\ud83c[\udffb-\udffe]|\ud83e\uddd1\ud83c\udfff\u200d\ud83e\udd1d\u200d\ud83e\uddd1\ud83c[\udffb-\udfff]|\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d\udc68|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d\udc8b\u200d\ud83d[\udc68\udc69]|\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c[\udffc-\udfff]|\ud83e\udef1\ud83c\udffc\u200d\ud83e\udef2\ud83c[\udffb\udffd-\udfff]|\ud83e\udef1\ud83c\udffd\u200d\ud83e\udef2\ud83c[\udffb\udffc\udffe\udfff]|\ud83e\udef1\ud83c\udffe\u200d\ud83e\udef2\ud83c[\udffb-\udffd\udfff]|\ud83e\udef1\ud83c\udfff\u200d\ud83e\udef2\ud83c[\udffb-\udffe]|\ud83d\udc68\u200d\u2764\ufe0f\u200d\ud83d\udc68|\ud83d\udc69\u200d\u2764\ufe0f\u200d\ud83d[\udc68\udc69]|\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1|\ud83d\udc6b\ud83c[\udffb-\udfff]|\ud83d\udc6c\ud83c[\udffb-\udfff]|\ud83d\udc6d\ud83c[\udffb-\udfff]|\ud83d\udc8f\ud83c[\udffb-\udfff]|\ud83d\udc91\ud83c[\udffb-\udfff]|\ud83e\udd1d\ud83c[\udffb-\udfff]|\ud83d[\udc6b-\udc6d\udc8f\udc91]|\ud83e\udd1d)|(?:\ud83d[\udc68\udc69]|\ud83e\uddd1)(?:\ud83c[\udffb-\udfff])?\u200d(?:\u2695\ufe0f|\u2696\ufe0f|\u2708\ufe0f|\ud83c[\udf3e\udf73\udf7c\udf84\udf93\udfa4\udfa8\udfeb\udfed]|\ud83d[\udcbb\udcbc\udd27\udd2c\ude80\ude92]|\ud83e[\uddaf-\uddb3\uddbc\uddbd])(?:\u200d\u27a1\ufe0f)?|(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75]|\u26f9)((?:\ud83c[\udffb-\udfff]|\ufe0f)\u200d[\u2640\u2642]\ufe0f(?:\u200d\u27a1\ufe0f)?)|(?:\ud83c[\udfc3\udfc4\udfca]|\ud83d[\udc6e\udc70\udc71\udc73\udc77\udc81\udc82\udc86\udc87\ude45-\ude47\ude4b\ude4d\ude4e\udea3\udeb4-\udeb6]|\ud83e[\udd26\udd35\udd37-\udd39\udd3d\udd3e\uddb8\uddb9\uddcd-\uddcf\uddd4\uddd6-\udddd])(?:\ud83c[\udffb-\udfff])?\u200d[\u2640\u2642]\ufe0f(?:\u200d\u27a1\ufe0f)?|(?:\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2|\ud83d\udc68\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc68\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d\udc66\u200d\ud83d\udc66|\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83e\uddd1\u200d\ud83e\uddd1\u200d\ud83e\uddd2|\ud83e\uddd1\u200d\ud83e\uddd2\u200d\ud83e\uddd2|\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f|\ud83c\udff3\ufe0f\u200d\ud83c\udf08|\ud83d\ude36\u200d\ud83c\udf2b\ufe0f|\u26d3\ufe0f\u200d\ud83d\udca5|\u2764\ufe0f\u200d\ud83d\udd25|\u2764\ufe0f\u200d\ud83e\ude79|\ud83c\udf44\u200d\ud83d\udfeb|\ud83c\udf4b\u200d\ud83d\udfe9|\ud83c\udff4\u200d\u2620\ufe0f|\ud83d\udc15\u200d\ud83e\uddba|\ud83d\udc26\u200d\ud83d\udd25|\ud83d\udc3b\u200d\u2744\ufe0f|\ud83d\udc41\u200d\ud83d\udde8|\ud83d\udc68\u200d\ud83d[\udc66\udc67]|\ud83d\udc69\u200d\ud83d[\udc66\udc67]|\ud83d\udc6f\u200d\u2640\ufe0f|\ud83d\udc6f\u200d\u2642\ufe0f|\ud83d\ude2e\u200d\ud83d\udca8|\ud83d\ude35\u200d\ud83d\udcab|\ud83d\ude42\u200d\u2194\ufe0f|\ud83d\ude42\u200d\u2195\ufe0f|\ud83e\udd3c\u200d\u2640\ufe0f|\ud83e\udd3c\u200d\u2642\ufe0f|\ud83e\uddd1\u200d\ud83e\uddd2|\ud83e\uddde\u200d\u2640\ufe0f|\ud83e\uddde\u200d\u2642\ufe0f|\ud83e\udddf\u200d\u2640\ufe0f|\ud83e\udddf\u200d\u2642\ufe0f|\ud83d\udc08\u200d\u2b1b|\ud83d\udc26\u200d\u2b1b)|[#*0-9]\ufe0f?\u20e3|(?:[©®\u2122\u265f]\ufe0f)|(?:\ud83c[\udc04\udd70\udd71\udd7e\udd7f\ude02\ude1a\ude2f\ude37\udf21\udf24-\udf2c\udf36\udf7d\udf96\udf97\udf99-\udf9b\udf9e\udf9f\udfcd\udfce\udfd4-\udfdf\udff3\udff5\udff7]|\ud83d[\udc3f\udc41\udcfd\udd49\udd4a\udd6f\udd70\udd73\udd76-\udd79\udd87\udd8a-\udd8d\udda5\udda8\uddb1\uddb2\uddbc\uddc2-\uddc4\uddd1-\uddd3\udddc-\uddde\udde1\udde3\udde8\uddef\uddf3\uddfa\udecb\udecd-\udecf\udee0-\udee5\udee9\udef0\udef3]|[\u203c\u2049\u2139\u2194-\u2199\u21a9\u21aa\u231a\u231b\u2328\u23cf\u23ed-\u23ef\u23f1\u23f2\u23f8-\u23fa\u24c2\u25aa\u25ab\u25b6\u25c0\u25fb-\u25fe\u2600-\u2604\u260e\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262a\u262e\u262f\u2638-\u263a\u2640\u2642\u2648-\u2653\u2660\u2663\u2665\u2666\u2668\u267b\u267f\u2692-\u2697\u2699\u269b\u269c\u26a0\u26a1\u26a7\u26aa\u26ab\u26b0\u26b1\u26bd\u26be\u26c4\u26c5\u26c8\u26cf\u26d1\u26d3\u26d4\u26e9\u26ea\u26f0-\u26f5\u26f8\u26fa\u26fd\u2702\u2708\u2709\u270f\u2712\u2714\u2716\u271d\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u2764\u27a1\u2934\u2935\u2b05-\u2b07\u2b1b\u2b1c\u2b50\u2b55\u3030\u303d\u3297\u3299])(?:\ufe0f|(?!\ufe0e))|(?:(?:\ud83c[\udfcb\udfcc]|\ud83d[\udd74\udd75\udd90]|\ud83e\udef0|[\u261d\u26f7\u26f9\u270c\u270d])(?:\ufe0f|(?!\ufe0e))|(?:\ud83c\udfc3|\ud83d\udeb6|\ud83e\uddce)(?:\ud83c[\udffb-\udfff])?(?:\u200d\u27a1\ufe0f)?|(?:\ud83c[\udf85\udfc2\udfc4\udfc7\udfca]|\ud83d[\udc42\udc43\udc46-\udc50\udc66-\udc69\udc6e\udc70-\udc78\udc7c\udc81-\udc83\udc85-\udc87\udcaa\udd7a\udd95\udd96\ude45-\ude47\ude4b-\ude4f\udea3\udeb4\udeb5\udec0\udecc]|\ud83e[\udd0c\udd0f\udd18-\udd1c\udd1e\udd1f\udd26\udd30-\udd39\udd3d\udd3e\udd77\uddb5\uddb6\uddb8\uddb9\uddbb\uddcd\uddcf\uddd1-\udddd\udec3-\udec5\udef1-\udef8]|[\u270a\u270b]))(?:\ud83c[\udffb-\udfff])?|(?:\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f|\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f|\ud83c\udde6\ud83c[\udde8-\uddec\uddee\uddf1\uddf2\uddf4\uddf6-\uddfa\uddfc\uddfd\uddff]|\ud83c\udde7\ud83c[\udde6\udde7\udde9-\uddef\uddf1-\uddf4\uddf6-\uddf9\uddfb\uddfc\uddfe\uddff]|\ud83c\udde8\ud83c[\udde6\udde8\udde9\uddeb-\uddee\uddf0-\uddf5\uddf7\uddfa-\uddff]|\ud83c\udde9\ud83c[\uddea\uddec\uddef\uddf0\uddf2\uddf4\uddff]|\ud83c\uddea\ud83c[\udde6\udde8\uddea\uddec\udded\uddf7-\uddfa]|\ud83c\uddeb\ud83c[\uddee-\uddf0\uddf2\uddf4\uddf7]|\ud83c\uddec\ud83c[\udde6\udde7\udde9-\uddee\uddf1-\uddf3\uddf5-\uddfa\uddfc\uddfe]|\ud83c\udded\ud83c[\uddf0\uddf2\uddf3\uddf7\uddf9\uddfa]|\ud83c\uddee\ud83c[\udde8-\uddea\uddf1-\uddf4\uddf6-\uddf9]|\ud83c\uddef\ud83c[\uddea\uddf2\uddf4\uddf5]|\ud83c\uddf0\ud83c[\uddea\uddec-\uddee\uddf2\uddf3\uddf5\uddf7\uddfc\uddfe\uddff]|\ud83c\uddf1\ud83c[\udde6-\udde8\uddee\uddf0\uddf7-\uddfb\uddfe]|\ud83c\uddf2\ud83c[\udde6\udde8-\udded\uddf0-\uddff]|\ud83c\uddf3\ud83c[\udde6\udde8\uddea-\uddec\uddee\uddf1\uddf4\uddf5\uddf7\uddfa\uddff]|\ud83c\uddf4\ud83c\uddf2|\ud83c\uddf5\ud83c[\udde6\uddea-\udded\uddf0-\uddf3\uddf7-\uddf9\uddfc\uddfe]|\ud83c\uddf6\ud83c\udde6|\ud83c\uddf7\ud83c[\uddea\uddf4\uddf8\uddfa\uddfc]|\ud83c\uddf8\ud83c[\udde6-\uddea\uddec-\uddf4\uddf7-\uddf9\uddfb\uddfd-\uddff]|\ud83c\uddf9\ud83c[\udde6\udde8\udde9\uddeb-\udded\uddef-\uddf4\uddf7\uddf9\uddfb\uddfc\uddff]|\ud83c\uddfa\ud83c[\udde6\uddec\uddf2\uddf3\uddf8\uddfe\uddff]|\ud83c\uddfb\ud83c[\udde6\udde8\uddea\uddec\uddee\uddf3\uddfa]|\ud83c\uddfc\ud83c[\uddeb\uddf8]|\ud83c\uddfd\ud83c\uddf0|\ud83c\uddfe\ud83c[\uddea\uddf9]|\ud83c\uddff\ud83c[\udde6\uddf2\uddfc]|\ud83c[\udccf\udd8e\udd91-\udd9a\udde6-\uddff\ude01\ude32-\ude36\ude38-\ude3a\ude50\ude51\udf00-\udf20\udf2d-\udf35\udf37-\udf7c\udf7e-\udf84\udf86-\udf93\udfa0-\udfc1\udfc5\udfc6\udfc8\udfc9\udfcf-\udfd3\udfe0-\udff0\udff4\udff8-\udfff]|\ud83d[\udc00-\udc3e\udc40\udc44\udc45\udc51-\udc65\udc6a\udc6f\udc79-\udc7b\udc7d-\udc80\udc84\udc88-\udc8e\udc90\udc92-\udca9\udcab-\udcfc\udcff-\udd3d\udd4b-\udd4e\udd50-\udd67\udda4\uddfb-\ude44\ude48-\ude4a\ude80-\udea2\udea4-\udeb3\udeb7-\udebf\udec1-\udec5\uded0-\uded2\uded5-\uded7\udedc-\udedf\udeeb\udeec\udef4-\udefc\udfe0-\udfeb\udff0]|\ud83e[\udd0d\udd0e\udd10-\udd17\udd20-\udd25\udd27-\udd2f\udd3a\udd3c\udd3f-\udd45\udd47-\udd76\udd78-\uddb4\uddb7\uddba\uddbc-\uddcc\uddd0\uddde-\uddff\ude70-\ude7c\ude80-\ude88\ude90-\udebd\udebf-\udec2\udece-\udedb\udee0-\udee8]|[\u23e9-\u23ec\u23f0\u23f3\u267e\u26ce\u2705\u2728\u274c\u274e\u2753-\u2755\u2795-\u2797\u27b0\u27bf\ue50a])|\ufe0f/g,UFE0Fg=/\uFE0F/g,U200D=String.fromCharCode(8205),rescaper=/[&<>'"]/g,shouldntBeParsed=/^(?:iframe|noframes|noscript|script|select|style|textarea)$/,fromCharCode=String.fromCharCode;return twemoji;function createText(text,clean){return document.createTextNode(clean?text.replace(UFE0Fg,""):text)}function escapeHTML(s){return s.replace(rescaper,replacer)}function defaultImageSrcGenerator(icon,options){return "".concat(options.base,options.size,"/",icon,options.ext)}function grabAllTextNodes(node,allText){var childNodes=node.childNodes,length=childNodes.length,subnode,nodeType;while(length--){subnode=childNodes[length];nodeType=subnode.nodeType;if(nodeType===3){allText.push(subnode);}else if(nodeType===1&&!("ownerSVGElement"in subnode)&&!shouldntBeParsed.test(subnode.nodeName.toLowerCase())){grabAllTextNodes(subnode,allText);}}return allText}function grabTheRightIcon(rawText){return toCodePoint(rawText.indexOf(U200D)<0?rawText.replace(UFE0Fg,""):rawText)}function parseNode(node,options){var allText=grabAllTextNodes(node,[]),length=allText.length,attrib,attrname,modified,fragment,subnode,text,match,i,index,img,rawText,iconId,src;while(length--){modified=false;fragment=document.createDocumentFragment();subnode=allText[length];text=subnode.nodeValue;i=0;while(match=re.exec(text)){index=match.index;if(index!==i){fragment.appendChild(createText(text.slice(i,index),true));}rawText=match[0];iconId=grabTheRightIcon(rawText);i=index+rawText.length;src=options.callback(iconId,options);if(iconId&&src){img=new Image;img.onerror=options.onerror;img.setAttribute("draggable","false");attrib=options.attributes(rawText,iconId);for(attrname in attrib){if(attrib.hasOwnProperty(attrname)&&attrname.indexOf("on")!==0&&!img.hasAttribute(attrname)){img.setAttribute(attrname,attrib[attrname]);}}img.className=options.className;img.alt=rawText;img.src=src;modified=true;fragment.appendChild(img);}if(!img)fragment.appendChild(createText(rawText,false));img=null;}if(modified){if(i<text.length){fragment.appendChild(createText(text.slice(i),true));}subnode.parentNode.replaceChild(fragment,subnode);}}return node}function parseString(str,options){return replace(str,function(rawText){var ret=rawText,iconId=grabTheRightIcon(rawText),src=options.callback(iconId,options),attrib,attrname;if(iconId&&src){ret="<img ".concat('class="',options.className,'" ','draggable="false" ','alt="',rawText,'"',' src="',src,'"');attrib=options.attributes(rawText,iconId);for(attrname in attrib){if(attrib.hasOwnProperty(attrname)&&attrname.indexOf("on")!==0&&ret.indexOf(" "+attrname+"=")===-1){ret=ret.concat(" ",attrname,'="',escapeHTML(attrib[attrname]),'"');}}ret=ret.concat("/>");}return ret})}function replacer(m){return escaper[m]}function returnNull(){return null}function toSizeSquaredAsset(value){return typeof value==="number"?value+"x"+value:value}function fromCodePoint(codepoint){var code=typeof codepoint==="string"?parseInt(codepoint,16):codepoint;if(code<65536){return fromCharCode(code)}code-=65536;return fromCharCode(55296+(code>>10),56320+(code&1023))}function parse(what,how){if(!how||typeof how==="function"){how={callback:how};}return (typeof what==="string"?parseString:parseNode)(what,{callback:how.callback||defaultImageSrcGenerator,attributes:typeof how.attributes==="function"?how.attributes:returnNull,base:typeof how.base==="string"?how.base:twemoji.base,ext:how.ext||twemoji.ext,size:how.folder||toSizeSquaredAsset(how.size||twemoji.size),className:how.className||twemoji.className,onerror:how.onerror||twemoji.onerror})}function replace(text,callback){return String(text).replace(re,callback)}function test(text){re.lastIndex=0;var result=re.test(text);re.lastIndex=0;return result}function toCodePoint(unicodeSurrogates,sep){var r=[],c=0,p=0,i=0;while(i<unicodeSurrogates.length){c=unicodeSurrogates.charCodeAt(i++);if(p){r.push((65536+(p-55296<<10)+(c-56320)).toString(16));p=0;}else if(55296<=c&&c<=56319){p=c;}else {r.push(c.toString(16));}}return r.join(sep||"-")}}();
 
 const getRegex = () => {
-    return new RegExp(/[#*0-9]\uFE0F?\u20E3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23ED-\u23EF\u23F1\u23F2\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26AA\u26B0\u26B1\u26BD\u26BE\u26C4\u26C8\u26CF\u26D1\u26E9\u26F0-\u26F5\u26F7\u26F8\u26FA\u2702\u2708\u2709\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u27A1\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B55\u3030\u303D\u3297\u3299]\uFE0F?|[\u261D\u270C\u270D](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\u270A\u270B](?:\uD83C[\uDFFB-\uDFFF])?|[\u23E9-\u23EC\u23F0\u23F3\u25FD\u2693\u26A1\u26AB\u26C5\u26CE\u26D4\u26EA\u26FD\u2705\u2728\u274C\u274E\u2753-\u2755\u2795-\u2797\u27B0\u27BF\u2B50]|\u26D3\uFE0F?(?:\u200D\uD83D\uDCA5)?|\u26F9(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\u2764\uFE0F?(?:\u200D(?:\uD83D\uDD25|\uD83E\uDE79))?|\uD83C(?:[\uDC04\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99-\uDF9B\uDF9E\uDF9F\uDFCD\uDFCE\uDFD4-\uDFDF\uDFF5\uDFF7]\uFE0F?|[\uDF85\uDFC2\uDFC7](?:\uD83C[\uDFFB-\uDFFF])?|[\uDFC4\uDFCA](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDFCB\uDFCC](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF43\uDF45-\uDF4A\uDF4C-\uDF7C\uDF7E-\uDF84\uDF86-\uDF93\uDFA0-\uDFC1\uDFC5\uDFC6\uDFC8\uDFC9\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF8-\uDFFF]|\uDDE6\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF]|\uDDE7\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF]|\uDDE8\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF]|\uDDE9\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF]|\uDDEA\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA]|\uDDEB\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7]|\uDDEC\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE]|\uDDED\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA]|\uDDEE\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9]|\uDDEF\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5]|\uDDF0\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF]|\uDDF1\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE]|\uDDF2\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF]|\uDDF3\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF]|\uDDF4\uD83C\uDDF2|\uDDF5\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE]|\uDDF6\uD83C\uDDE6|\uDDF7\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC]|\uDDF8\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF]|\uDDF9\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF]|\uDDFA\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF]|\uDDFB\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA]|\uDDFC\uD83C[\uDDEB\uDDF8]|\uDDFD\uD83C\uDDF0|\uDDFE\uD83C[\uDDEA\uDDF9]|\uDDFF\uD83C[\uDDE6\uDDF2\uDDFC]|\uDF44(?:\u200D\uD83D\uDFEB)?|\uDF4B(?:\u200D\uD83D\uDFE9)?|\uDFC3(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?|\uDFF3\uFE0F?(?:\u200D(?:\u26A7\uFE0F?|\uD83C\uDF08))?|\uDFF4(?:\u200D\u2620\uFE0F?|\uDB40\uDC67\uDB40\uDC62\uDB40(?:\uDC65\uDB40\uDC6E\uDB40\uDC67|\uDC73\uDB40\uDC63\uDB40\uDC74|\uDC77\uDB40\uDC6C\uDB40\uDC73)\uDB40\uDC7F)?)|\uD83D(?:[\uDC3F\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73\uDD76-\uDD79\uDD87\uDD8A-\uDD8D\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD-\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3]\uFE0F?|[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC6B-\uDC6D\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDC8F\uDC91\uDCAA\uDD7A\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC](?:\uD83C[\uDFFB-\uDFFF])?|[\uDC6E\uDC70\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4\uDEB5](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD74\uDD90](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\uDC00-\uDC07\uDC09-\uDC14\uDC16-\uDC25\uDC27-\uDC3A\uDC3C-\uDC3E\uDC40\uDC44\uDC45\uDC51-\uDC65\uDC6A\uDC79-\uDC7B\uDC7D-\uDC80\uDC84\uDC88-\uDC8E\uDC90\uDC92-\uDCA9\uDCAB-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDDA4\uDDFB-\uDE2D\uDE2F-\uDE34\uDE37-\uDE41\uDE43\uDE44\uDE48-\uDE4A\uDE80-\uDEA2\uDEA4-\uDEB3\uDEB7-\uDEBF\uDEC1-\uDEC5\uDED0-\uDED2\uDED5-\uDED7\uDEDC-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uDC08(?:\u200D\u2B1B)?|\uDC15(?:\u200D\uD83E\uDDBA)?|\uDC26(?:\u200D(?:\u2B1B|\uD83D\uDD25))?|\uDC3B(?:\u200D\u2744\uFE0F?)?|\uDC41\uFE0F?(?:\u200D\uD83D\uDDE8\uFE0F?)?|\uDC68(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDC68\uDC69]\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFE])))?))?|\uDC69(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?[\uDC68\uDC69]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?|\uDC69\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?))|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFE])))?))?|\uDC6F(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDD75(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDE2E(?:\u200D\uD83D\uDCA8)?|\uDE35(?:\u200D\uD83D\uDCAB)?|\uDE36(?:\u200D\uD83C\uDF2B\uFE0F?)?|\uDE42(?:\u200D[\u2194\u2195]\uFE0F?)?|\uDEB6(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?)|\uD83E(?:[\uDD0C\uDD0F\uDD18-\uDD1F\uDD30-\uDD34\uDD36\uDD77\uDDB5\uDDB6\uDDBB\uDDD2\uDDD3\uDDD5\uDEC3-\uDEC5\uDEF0\uDEF2-\uDEF8](?:\uD83C[\uDFFB-\uDFFF])?|[\uDD26\uDD35\uDD37-\uDD39\uDD3D\uDD3E\uDDB8\uDDB9\uDDCD\uDDCF\uDDD4\uDDD6-\uDDDD](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDDDE\uDDDF](?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD0D\uDD0E\uDD10-\uDD17\uDD20-\uDD25\uDD27-\uDD2F\uDD3A\uDD3F-\uDD45\uDD47-\uDD76\uDD78-\uDDB4\uDDB7\uDDBA\uDDBC-\uDDCC\uDDD0\uDDE0-\uDDFF\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC2\uDECE-\uDEDB\uDEE0-\uDEE8]|\uDD3C(?:\u200D[\u2640\u2642]\uFE0F?|\uD83C[\uDFFB-\uDFFF])?|\uDDCE(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?|\uDDD1(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1|\uDDD1\u200D\uD83E\uDDD2(?:\u200D\uD83E\uDDD2)?|\uDDD2(?:\u200D\uD83E\uDDD2)?))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFC-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFD-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFD\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFE]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?))?|\uDEF1(?:\uD83C(?:\uDFFB(?:\u200D\uD83E\uDEF2\uD83C[\uDFFC-\uDFFF])?|\uDFFC(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFD-\uDFFF])?|\uDFFD(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])?|\uDFFE(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFD\uDFFF])?|\uDFFF(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFE])?))?)/, 'g');
+	return new RegExp(/[#*0-9]\uFE0F?\u20E3|[\xA9\xAE\u203C\u2049\u2122\u2139\u2194-\u2199\u21A9\u21AA\u231A\u231B\u2328\u23CF\u23ED-\u23EF\u23F1\u23F2\u23F8-\u23FA\u24C2\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FE\u2600-\u2604\u260E\u2611\u2614\u2615\u2618\u2620\u2622\u2623\u2626\u262A\u262E\u262F\u2638-\u263A\u2640\u2642\u2648-\u2653\u265F\u2660\u2663\u2665\u2666\u2668\u267B\u267E\u267F\u2692\u2694-\u2697\u2699\u269B\u269C\u26A0\u26A7\u26AA\u26B0\u26B1\u26BD\u26BE\u26C4\u26C8\u26CF\u26D1\u26E9\u26F0-\u26F5\u26F7\u26F8\u26FA\u2702\u2708\u2709\u270F\u2712\u2714\u2716\u271D\u2721\u2733\u2734\u2744\u2747\u2757\u2763\u27A1\u2934\u2935\u2B05-\u2B07\u2B1B\u2B1C\u2B55\u3030\u303D\u3297\u3299]\uFE0F?|[\u261D\u270C\u270D](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\u270A\u270B](?:\uD83C[\uDFFB-\uDFFF])?|[\u23E9-\u23EC\u23F0\u23F3\u25FD\u2693\u26A1\u26AB\u26C5\u26CE\u26D4\u26EA\u26FD\u2705\u2728\u274C\u274E\u2753-\u2755\u2795-\u2797\u27B0\u27BF\u2B50]|\u26D3\uFE0F?(?:\u200D\uD83D\uDCA5)?|\u26F9(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\u2764\uFE0F?(?:\u200D(?:\uD83D\uDD25|\uD83E\uDE79))?|\uD83C(?:[\uDC04\uDD70\uDD71\uDD7E\uDD7F\uDE02\uDE37\uDF21\uDF24-\uDF2C\uDF36\uDF7D\uDF96\uDF97\uDF99-\uDF9B\uDF9E\uDF9F\uDFCD\uDFCE\uDFD4-\uDFDF\uDFF5\uDFF7]\uFE0F?|[\uDF85\uDFC2\uDFC7](?:\uD83C[\uDFFB-\uDFFF])?|[\uDFC4\uDFCA](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDFCB\uDFCC](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDCCF\uDD8E\uDD91-\uDD9A\uDE01\uDE1A\uDE2F\uDE32-\uDE36\uDE38-\uDE3A\uDE50\uDE51\uDF00-\uDF20\uDF2D-\uDF35\uDF37-\uDF43\uDF45-\uDF4A\uDF4C-\uDF7C\uDF7E-\uDF84\uDF86-\uDF93\uDFA0-\uDFC1\uDFC5\uDFC6\uDFC8\uDFC9\uDFCF-\uDFD3\uDFE0-\uDFF0\uDFF8-\uDFFF]|\uDDE6\uD83C[\uDDE8-\uDDEC\uDDEE\uDDF1\uDDF2\uDDF4\uDDF6-\uDDFA\uDDFC\uDDFD\uDDFF]|\uDDE7\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEF\uDDF1-\uDDF4\uDDF6-\uDDF9\uDDFB\uDDFC\uDDFE\uDDFF]|\uDDE8\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDEE\uDDF0-\uDDF5\uDDF7\uDDFA-\uDDFF]|\uDDE9\uD83C[\uDDEA\uDDEC\uDDEF\uDDF0\uDDF2\uDDF4\uDDFF]|\uDDEA\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDED\uDDF7-\uDDFA]|\uDDEB\uD83C[\uDDEE-\uDDF0\uDDF2\uDDF4\uDDF7]|\uDDEC\uD83C[\uDDE6\uDDE7\uDDE9-\uDDEE\uDDF1-\uDDF3\uDDF5-\uDDFA\uDDFC\uDDFE]|\uDDED\uD83C[\uDDF0\uDDF2\uDDF3\uDDF7\uDDF9\uDDFA]|\uDDEE\uD83C[\uDDE8-\uDDEA\uDDF1-\uDDF4\uDDF6-\uDDF9]|\uDDEF\uD83C[\uDDEA\uDDF2\uDDF4\uDDF5]|\uDDF0\uD83C[\uDDEA\uDDEC-\uDDEE\uDDF2\uDDF3\uDDF5\uDDF7\uDDFC\uDDFE\uDDFF]|\uDDF1\uD83C[\uDDE6-\uDDE8\uDDEE\uDDF0\uDDF7-\uDDFB\uDDFE]|\uDDF2\uD83C[\uDDE6\uDDE8-\uDDED\uDDF0-\uDDFF]|\uDDF3\uD83C[\uDDE6\uDDE8\uDDEA-\uDDEC\uDDEE\uDDF1\uDDF4\uDDF5\uDDF7\uDDFA\uDDFF]|\uDDF4\uD83C\uDDF2|\uDDF5\uD83C[\uDDE6\uDDEA-\uDDED\uDDF0-\uDDF3\uDDF7-\uDDF9\uDDFC\uDDFE]|\uDDF6\uD83C\uDDE6|\uDDF7\uD83C[\uDDEA\uDDF4\uDDF8\uDDFA\uDDFC]|\uDDF8\uD83C[\uDDE6-\uDDEA\uDDEC-\uDDF4\uDDF7-\uDDF9\uDDFB\uDDFD-\uDDFF]|\uDDF9\uD83C[\uDDE6\uDDE8\uDDE9\uDDEB-\uDDED\uDDEF-\uDDF4\uDDF7\uDDF9\uDDFB\uDDFC\uDDFF]|\uDDFA\uD83C[\uDDE6\uDDEC\uDDF2\uDDF3\uDDF8\uDDFE\uDDFF]|\uDDFB\uD83C[\uDDE6\uDDE8\uDDEA\uDDEC\uDDEE\uDDF3\uDDFA]|\uDDFC\uD83C[\uDDEB\uDDF8]|\uDDFD\uD83C\uDDF0|\uDDFE\uD83C[\uDDEA\uDDF9]|\uDDFF\uD83C[\uDDE6\uDDF2\uDDFC]|\uDF44(?:\u200D\uD83D\uDFEB)?|\uDF4B(?:\u200D\uD83D\uDFE9)?|\uDFC3(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?|\uDFF3\uFE0F?(?:\u200D(?:\u26A7\uFE0F?|\uD83C\uDF08))?|\uDFF4(?:\u200D\u2620\uFE0F?|\uDB40\uDC67\uDB40\uDC62\uDB40(?:\uDC65\uDB40\uDC6E\uDB40\uDC67|\uDC73\uDB40\uDC63\uDB40\uDC74|\uDC77\uDB40\uDC6C\uDB40\uDC73)\uDB40\uDC7F)?)|\uD83D(?:[\uDC3F\uDCFD\uDD49\uDD4A\uDD6F\uDD70\uDD73\uDD76-\uDD79\uDD87\uDD8A-\uDD8D\uDDA5\uDDA8\uDDB1\uDDB2\uDDBC\uDDC2-\uDDC4\uDDD1-\uDDD3\uDDDC-\uDDDE\uDDE1\uDDE3\uDDE8\uDDEF\uDDF3\uDDFA\uDECB\uDECD-\uDECF\uDEE0-\uDEE5\uDEE9\uDEF0\uDEF3]\uFE0F?|[\uDC42\uDC43\uDC46-\uDC50\uDC66\uDC67\uDC6B-\uDC6D\uDC72\uDC74-\uDC76\uDC78\uDC7C\uDC83\uDC85\uDC8F\uDC91\uDCAA\uDD7A\uDD95\uDD96\uDE4C\uDE4F\uDEC0\uDECC](?:\uD83C[\uDFFB-\uDFFF])?|[\uDC6E\uDC70\uDC71\uDC73\uDC77\uDC81\uDC82\uDC86\uDC87\uDE45-\uDE47\uDE4B\uDE4D\uDE4E\uDEA3\uDEB4\uDEB5](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD74\uDD90](?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?|[\uDC00-\uDC07\uDC09-\uDC14\uDC16-\uDC25\uDC27-\uDC3A\uDC3C-\uDC3E\uDC40\uDC44\uDC45\uDC51-\uDC65\uDC6A\uDC79-\uDC7B\uDC7D-\uDC80\uDC84\uDC88-\uDC8E\uDC90\uDC92-\uDCA9\uDCAB-\uDCFC\uDCFF-\uDD3D\uDD4B-\uDD4E\uDD50-\uDD67\uDDA4\uDDFB-\uDE2D\uDE2F-\uDE34\uDE37-\uDE41\uDE43\uDE44\uDE48-\uDE4A\uDE80-\uDEA2\uDEA4-\uDEB3\uDEB7-\uDEBF\uDEC1-\uDEC5\uDED0-\uDED2\uDED5-\uDED7\uDEDC-\uDEDF\uDEEB\uDEEC\uDEF4-\uDEFC\uDFE0-\uDFEB\uDFF0]|\uDC08(?:\u200D\u2B1B)?|\uDC15(?:\u200D\uD83E\uDDBA)?|\uDC26(?:\u200D(?:\u2B1B|\uD83D\uDD25))?|\uDC3B(?:\u200D\u2744\uFE0F?)?|\uDC41\uFE0F?(?:\u200D\uD83D\uDDE8\uFE0F?)?|\uDC68(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDC68\uDC69]\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?)|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?\uDC68\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D\uDC68\uD83C[\uDFFB-\uDFFE])))?))?|\uDC69(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:\uDC8B\u200D\uD83D)?[\uDC68\uDC69]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D(?:[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?|\uDC69\u200D\uD83D(?:\uDC66(?:\u200D\uD83D\uDC66)?|\uDC67(?:\u200D\uD83D[\uDC66\uDC67])?))|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFC-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFD-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFD\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D\uD83D(?:[\uDC68\uDC69]|\uDC8B\u200D\uD83D[\uDC68\uDC69])\uD83C[\uDFFB-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83D[\uDC68\uDC69]\uD83C[\uDFFB-\uDFFE])))?))?|\uDC6F(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDD75(?:\uFE0F|\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|\uDE2E(?:\u200D\uD83D\uDCA8)?|\uDE35(?:\u200D\uD83D\uDCAB)?|\uDE36(?:\u200D\uD83C\uDF2B\uFE0F?)?|\uDE42(?:\u200D[\u2194\u2195]\uFE0F?)?|\uDEB6(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?)|\uD83E(?:[\uDD0C\uDD0F\uDD18-\uDD1F\uDD30-\uDD34\uDD36\uDD77\uDDB5\uDDB6\uDDBB\uDDD2\uDDD3\uDDD5\uDEC3-\uDEC5\uDEF0\uDEF2-\uDEF8](?:\uD83C[\uDFFB-\uDFFF])?|[\uDD26\uDD35\uDD37-\uDD39\uDD3D\uDD3E\uDDB8\uDDB9\uDDCD\uDDCF\uDDD4\uDDD6-\uDDDD](?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDDDE\uDDDF](?:\u200D[\u2640\u2642]\uFE0F?)?|[\uDD0D\uDD0E\uDD10-\uDD17\uDD20-\uDD25\uDD27-\uDD2F\uDD3A\uDD3F-\uDD45\uDD47-\uDD76\uDD78-\uDDB4\uDDB7\uDDBA\uDDBC-\uDDCC\uDDD0\uDDE0-\uDDFF\uDE70-\uDE7C\uDE80-\uDE88\uDE90-\uDEBD\uDEBF-\uDEC2\uDECE-\uDEDB\uDEE0-\uDEE8]|\uDD3C(?:\u200D[\u2640\u2642]\uFE0F?|\uD83C[\uDFFB-\uDFFF])?|\uDDCE(?:\uD83C[\uDFFB-\uDFFF])?(?:\u200D(?:[\u2640\u2642]\uFE0F?(?:\u200D\u27A1\uFE0F?)?|\u27A1\uFE0F?))?|\uDDD1(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1|\uDDD1\u200D\uD83E\uDDD2(?:\u200D\uD83E\uDDD2)?|\uDDD2(?:\u200D\uD83E\uDDD2)?))|\uD83C(?:\uDFFB(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFC-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFC(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFD-\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFD(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFE(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFD\uDFFF]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?|\uDFFF(?:\u200D(?:[\u2695\u2696\u2708]\uFE0F?|\u2764\uFE0F?\u200D(?:\uD83D\uDC8B\u200D)?\uD83E\uDDD1\uD83C[\uDFFB-\uDFFE]|\uD83C[\uDF3E\uDF73\uDF7C\uDF84\uDF93\uDFA4\uDFA8\uDFEB\uDFED]|\uD83D[\uDCBB\uDCBC\uDD27\uDD2C\uDE80\uDE92]|\uD83E(?:[\uDDAF\uDDBC\uDDBD](?:\u200D\u27A1\uFE0F?)?|[\uDDB0-\uDDB3]|\uDD1D\u200D\uD83E\uDDD1\uD83C[\uDFFB-\uDFFF])))?))?|\uDEF1(?:\uD83C(?:\uDFFB(?:\u200D\uD83E\uDEF2\uD83C[\uDFFC-\uDFFF])?|\uDFFC(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFD-\uDFFF])?|\uDFFD(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB\uDFFC\uDFFE\uDFFF])?|\uDFFE(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFD\uDFFF])?|\uDFFF(?:\u200D\uD83E\uDEF2\uD83C[\uDFFB-\uDFFE])?))?)/, 'g');
 };
 const shortNames = {
-    '😀': 'grinning face',
-    '😃': 'grinning face with big eyes',
-    '😄': 'grinning face with smiling eyes',
-    '😁': 'beaming face with smiling eyes',
-    '😆': 'grinning squinting face',
-    '😅': 'grinning face with sweat',
-    '🤣': 'rolling on the floor laughing',
-    '😂': 'face with tears of joy',
-    '🙂': 'slightly smiling face',
-    '🙃': 'upside-down face',
-    '🫠': '⊛ melting face',
-    '😉': 'winking face',
-    '😊': 'smiling face with smiling eyes',
-    '😇': 'smiling face with halo',
-    '🥰': 'smiling face with hearts',
-    '😍': 'smiling face with heart-eyes',
-    '🤩': 'star-struck',
-    '😘': 'face blowing a kiss',
-    '😗': 'kissing face',
-    '☺': 'smiling face',
-    '😚': 'kissing face with closed eyes',
-    '😙': 'kissing face with smiling eyes',
-    '🥲': 'smiling face with tear',
-    '😋': 'face savoring food',
-    '😛': 'face with tongue',
-    '😜': 'winking face with tongue',
-    '🤪': 'zany face',
-    '😝': 'squinting face with tongue',
-    '🤑': 'money-mouth face',
-    '🤗': 'smiling face with open hands',
-    '🤭': 'face with hand over mouth',
-    '🫢': '⊛ face with open eyes and hand over mouth',
-    '🫣': '⊛ face with peeking eye',
-    '🤫': 'shushing face',
-    '🤔': 'thinking face',
-    '🫡': '⊛ saluting face',
-    '🤐': 'zipper-mouth face',
-    '🤨': 'face with raised eyebrow',
-    '😐': 'neutral face',
-    '😑': 'expressionless face',
-    '😶': 'face without mouth',
-    '🫥': '⊛ dotted line face',
-    '😶‍🌫️': 'face in clouds',
-    '😏': 'smirking face',
-    '😒': 'unamused face',
-    '🙄': 'face with rolling eyes',
-    '😬': 'grimacing face',
-    '😮‍💨': 'face exhaling',
-    '🤥': 'lying face',
-    '😌': 'relieved face',
-    '😔': 'pensive face',
-    '😪': 'sleepy face',
-    '🤤': 'drooling face',
-    '😴': 'sleeping face',
-    '😷': 'face with medical mask',
-    '🤒': 'face with thermometer',
-    '🤕': 'face with head-bandage',
-    '🤢': 'nauseated face',
-    '🤮': 'face vomiting',
-    '🤧': 'sneezing face',
-    '🥵': 'hot face',
-    '🥶': 'cold face',
-    '🥴': 'woozy face',
-    '😵': 'face with crossed-out eyes',
-    '😵‍💫': 'face with spiral eyes',
-    '🤯': 'exploding head',
-    '🤠': 'cowboy hat face',
-    '🥳': 'partying face',
-    '🥸': 'disguised face',
-    '😎': 'smiling face with sunglasses',
-    '🤓': 'nerd face',
-    '🧐': 'face with monocle',
-    '😕': 'confused face',
-    '🫤': '⊛ face with diagonal mouth',
-    '😟': 'worried face',
-    '🙁': 'slightly frowning face',
-    '☹': 'frowning face',
-    '😮': 'face with open mouth',
-    '😯': 'hushed face',
-    '😲': 'astonished face',
-    '😳': 'flushed face',
-    '🥺': 'pleading face',
-    '🥹': '⊛ face holding back tears',
-    '😦': 'frowning face with open mouth',
-    '😧': 'anguished face',
-    '😨': 'fearful face',
-    '😰': 'anxious face with sweat',
-    '😥': 'sad but relieved face',
-    '😢': 'crying face',
-    '😭': 'loudly crying face',
-    '😱': 'face screaming in fear',
-    '😖': 'confounded face',
-    '😣': 'persevering face',
-    '😞': 'disappointed face',
-    '😓': 'downcast face with sweat',
-    '😩': 'weary face',
-    '😫': 'tired face',
-    '🥱': 'yawning face',
-    '😤': 'face with steam from nose',
-    '😡': 'pouting face',
-    '😠': 'angry face',
-    '🤬': 'face with symbols on mouth',
-    '😈': 'smiling face with horns',
-    '👿': 'angry face with horns',
-    '💀': 'skull',
-    '☠': 'skull and crossbones',
-    '💩': 'pile of poo',
-    '🤡': 'clown face',
-    '👹': 'ogre',
-    '👺': 'goblin',
-    '👻': 'ghost',
-    '👽': 'alien',
-    '👾': 'alien monster',
-    '🤖': 'robot',
-    '😺': 'grinning cat',
-    '😸': 'grinning cat with smiling eyes',
-    '😹': 'cat with tears of joy',
-    '😻': 'smiling cat with heart-eyes',
-    '😼': 'cat with wry smile',
-    '😽': 'kissing cat',
-    '🙀': 'weary cat',
-    '😿': 'crying cat',
-    '😾': 'pouting cat',
-    '🙈': 'see-no-evil monkey',
-    '🙉': 'hear-no-evil monkey',
-    '🙊': 'speak-no-evil monkey',
-    '💋': 'kiss mark',
-    '💌': 'love letter',
-    '💘': 'heart with arrow',
-    '💝': 'heart with ribbon',
-    '💖': 'sparkling heart',
-    '💗': 'growing heart',
-    '💓': 'beating heart',
-    '💞': 'revolving hearts',
-    '💕': 'two hearts',
-    '💟': 'heart decoration',
-    '❣': 'heart exclamation',
-    '💔': 'broken heart',
-    '❤️‍🔥': 'heart on fire',
-    '❤️‍🩹': 'mending heart',
-    '❤': 'red heart',
-    '🧡': 'orange heart',
-    '💛': 'yellow heart',
-    '💚': 'green heart',
-    '💙': 'blue heart',
-    '💜': 'purple heart',
-    '🤎': 'brown heart',
-    '🖤': 'black heart',
-    '🤍': 'white heart',
-    '💯': 'hundred points',
-    '💢': 'anger symbol',
-    '💥': 'collision',
-    '💫': 'dizzy',
-    '💦': 'sweat droplets',
-    '💨': 'dashing away',
-    '🕳': 'hole',
-    '💣': 'bomb',
-    '💬': 'speech balloon',
-    '👁️‍🗨️': 'eye in speech bubble',
-    '🗨': 'left speech bubble',
-    '🗯': 'right anger bubble',
-    '💭': 'thought balloon',
-    '💤': 'zzz',
-    '👋': 'waving hand',
-    '🤚': 'raised back of hand',
-    '🖐': 'hand with fingers splayed',
-    '✋': 'raised hand',
-    '🖖': 'vulcan salute',
-    '🫱': '⊛ rightwards hand',
-    '🫲': '⊛ leftwards hand',
-    '🫳': '⊛ palm down hand',
-    '🫴': '⊛ palm up hand',
-    '👌': 'OK hand',
-    '🤌': 'pinched fingers',
-    '🤏': 'pinching hand',
-    '✌': 'victory hand',
-    '🤞': 'crossed fingers',
-    '🫰': '⊛ hand with index finger and thumb crossed',
-    '🤟': 'love-you gesture',
-    '🤘': 'sign of the horns',
-    '🤙': 'call me hand',
-    '👈': 'backhand index pointing left',
-    '👉': 'backhand index pointing right',
-    '👆': 'backhand index pointing up',
-    '🖕': 'middle finger',
-    '👇': 'backhand index pointing down',
-    '☝': 'index pointing up',
-    '🫵': '⊛ index pointing at the viewer',
-    '👍': 'thumbs up',
-    '👎': 'thumbs down',
-    '✊': 'raised fist',
-    '👊': 'oncoming fist',
-    '🤛': 'left-facing fist',
-    '🤜': 'right-facing fist',
-    '👏': 'clapping hands',
-    '🙌': 'raising hands',
-    '🫶': '⊛ heart hands',
-    '👐': 'open hands',
-    '🤲': 'palms up together',
-    '🤝': 'handshake',
-    '🙏': 'folded hands',
-    '✍': 'writing hand',
-    '💅': 'nail polish',
-    '🤳': 'selfie',
-    '💪': 'flexed biceps',
-    '🦾': 'mechanical arm',
-    '🦿': 'mechanical leg',
-    '🦵': 'leg',
-    '🦶': 'foot',
-    '👂': 'ear',
-    '🦻': 'ear with hearing aid',
-    '👃': 'nose',
-    '🧠': 'brain',
-    '🫀': 'anatomical heart',
-    '🫁': 'lungs',
-    '🦷': 'tooth',
-    '🦴': 'bone',
-    '👀': 'eyes',
-    '👁': 'eye',
-    '👅': 'tongue',
-    '👄': 'mouth',
-    '🫦': '⊛ biting lip',
-    '👶': 'baby',
-    '🧒': 'child',
-    '👦': 'boy',
-    '👧': 'girl',
-    '🧑': 'person',
-    '👱': 'person: blond hair',
-    '👨': 'man',
-    '🧔': 'person: beard',
-    '🧔‍♂️': 'man: beard',
-    '🧔‍♀️': 'woman: beard',
-    '👨‍🦰': 'man: red hair',
-    '👨‍🦱': 'man: curly hair',
-    '👨‍🦳': 'man: white hair',
-    '👨‍🦲': 'man: bald',
-    '👩': 'woman',
-    '👩‍🦰': 'woman: red hair',
-    '🧑‍🦰': 'person: red hair',
-    '👩‍🦱': 'woman: curly hair',
-    '🧑‍🦱': 'person: curly hair',
-    '👩‍🦳': 'woman: white hair',
-    '🧑‍🦳': 'person: white hair',
-    '👩‍🦲': 'woman: bald',
-    '🧑‍🦲': 'person: bald',
-    '👱‍♀️': 'woman: blond hair',
-    '👱‍♂️': 'man: blond hair',
-    '🧓': 'older person',
-    '👴': 'old man',
-    '👵': 'old woman',
-    '🙍': 'person frowning',
-    '🙍‍♂️': 'man frowning',
-    '🙍‍♀️': 'woman frowning',
-    '🙎': 'person pouting',
-    '🙎‍♂️': 'man pouting',
-    '🙎‍♀️': 'woman pouting',
-    '🙅': 'person gesturing NO',
-    '🙅‍♂️': 'man gesturing NO',
-    '🙅‍♀️': 'woman gesturing NO',
-    '🙆': 'person gesturing OK',
-    '🙆‍♂️': 'man gesturing OK',
-    '🙆‍♀️': 'woman gesturing OK',
-    '💁': 'person tipping hand',
-    '💁‍♂️': 'man tipping hand',
-    '💁‍♀️': 'woman tipping hand',
-    '🙋': 'person raising hand',
-    '🙋‍♂️': 'man raising hand',
-    '🙋‍♀️': 'woman raising hand',
-    '🧏': 'deaf person',
-    '🧏‍♂️': 'deaf man',
-    '🧏‍♀️': 'deaf woman',
-    '🙇': 'person bowing',
-    '🙇‍♂️': 'man bowing',
-    '🙇‍♀️': 'woman bowing',
-    '🤦': 'person facepalming',
-    '🤦‍♂️': 'man facepalming',
-    '🤦‍♀️': 'woman facepalming',
-    '🤷': 'person shrugging',
-    '🤷‍♂️': 'man shrugging',
-    '🤷‍♀️': 'woman shrugging',
-    '🧑‍⚕️': 'health worker',
-    '👨‍⚕️': 'man health worker',
-    '👩‍⚕️': 'woman health worker',
-    '🧑‍🎓': 'student',
-    '👨‍🎓': 'man student',
-    '👩‍🎓': 'woman student',
-    '🧑‍🏫': 'teacher',
-    '👨‍🏫': 'man teacher',
-    '👩‍🏫': 'woman teacher',
-    '🧑‍⚖️': 'judge',
-    '👨‍⚖️': 'man judge',
-    '👩‍⚖️': 'woman judge',
-    '🧑‍🌾': 'farmer',
-    '👨‍🌾': 'man farmer',
-    '👩‍🌾': 'woman farmer',
-    '🧑‍🍳': 'cook',
-    '👨‍🍳': 'man cook',
-    '👩‍🍳': 'woman cook',
-    '🧑‍🔧': 'mechanic',
-    '👨‍🔧': 'man mechanic',
-    '👩‍🔧': 'woman mechanic',
-    '🧑‍🏭': 'factory worker',
-    '👨‍🏭': 'man factory worker',
-    '👩‍🏭': 'woman factory worker',
-    '🧑‍💼': 'office worker',
-    '👨‍💼': 'man office worker',
-    '👩‍💼': 'woman office worker',
-    '🧑‍🔬': 'scientist',
-    '👨‍🔬': 'man scientist',
-    '👩‍🔬': 'woman scientist',
-    '🧑‍💻': 'technologist',
-    '👨‍💻': 'man technologist',
-    '👩‍💻': 'woman technologist',
-    '🧑‍🎤': 'singer',
-    '👨‍🎤': 'man singer',
-    '👩‍🎤': 'woman singer',
-    '🧑‍🎨': 'artist',
-    '👨‍🎨': 'man artist',
-    '👩‍🎨': 'woman artist',
-    '🧑‍✈️': 'pilot',
-    '👨‍✈️': 'man pilot',
-    '👩‍✈️': 'woman pilot',
-    '🧑‍🚀': 'astronaut',
-    '👨‍🚀': 'man astronaut',
-    '👩‍🚀': 'woman astronaut',
-    '🧑‍🚒': 'firefighter',
-    '👨‍🚒': 'man firefighter',
-    '👩‍🚒': 'woman firefighter',
-    '👮': 'police officer',
-    '👮‍♂️': 'man police officer',
-    '👮‍♀️': 'woman police officer',
-    '🕵': 'detective',
-    '🕵️‍♂️': 'man detective',
-    '🕵️‍♀️': 'woman detective',
-    '💂': 'guard',
-    '💂‍♂️': 'man guard',
-    '💂‍♀️': 'woman guard',
-    '🥷': 'ninja',
-    '👷': 'construction worker',
-    '👷‍♂️': 'man construction worker',
-    '👷‍♀️': 'woman construction worker',
-    '🫅': '⊛ person with crown',
-    '🤴': 'prince',
-    '👸': 'princess',
-    '👳': 'person wearing turban',
-    '👳‍♂️': 'man wearing turban',
-    '👳‍♀️': 'woman wearing turban',
-    '👲': 'person with skullcap',
-    '🧕': 'woman with headscarf',
-    '🤵': 'person in tuxedo',
-    '🤵‍♂️': 'man in tuxedo',
-    '🤵‍♀️': 'woman in tuxedo',
-    '👰': 'person with veil',
-    '👰‍♂️': 'man with veil',
-    '👰‍♀️': 'woman with veil',
-    '🤰': 'pregnant woman',
-    '🫃': '⊛ pregnant man',
-    '🫄': '⊛ pregnant person',
-    '🤱': 'breast-feeding',
-    '👩‍🍼': 'woman feeding baby',
-    '👨‍🍼': 'man feeding baby',
-    '🧑‍🍼': 'person feeding baby',
-    '👼': 'baby angel',
-    '🎅': 'Santa Claus',
-    '🤶': 'Mrs. Claus',
-    '🧑‍🎄': 'mx claus',
-    '🦸': 'superhero',
-    '🦸‍♂️': 'man superhero',
-    '🦸‍♀️': 'woman superhero',
-    '🦹': 'supervillain',
-    '🦹‍♂️': 'man supervillain',
-    '🦹‍♀️': 'woman supervillain',
-    '🧙': 'mage',
-    '🧙‍♂️': 'man mage',
-    '🧙‍♀️': 'woman mage',
-    '🧚': 'fairy',
-    '🧚‍♂️': 'man fairy',
-    '🧚‍♀️': 'woman fairy',
-    '🧛': 'vampire',
-    '🧛‍♂️': 'man vampire',
-    '🧛‍♀️': 'woman vampire',
-    '🧜': 'merperson',
-    '🧜‍♂️': 'merman',
-    '🧜‍♀️': 'mermaid',
-    '🧝': 'elf',
-    '🧝‍♂️': 'man elf',
-    '🧝‍♀️': 'woman elf',
-    '🧞': 'genie',
-    '🧞‍♂️': 'man genie',
-    '🧞‍♀️': 'woman genie',
-    '🧟': 'zombie',
-    '🧟‍♂️': 'man zombie',
-    '🧟‍♀️': 'woman zombie',
-    '🧌': '⊛ troll',
-    '💆': 'person getting massage',
-    '💆‍♂️': 'man getting massage',
-    '💆‍♀️': 'woman getting massage',
-    '💇': 'person getting haircut',
-    '💇‍♂️': 'man getting haircut',
-    '💇‍♀️': 'woman getting haircut',
-    '🚶': 'person walking',
-    '🚶‍♂️': 'man walking',
-    '🚶‍♀️': 'woman walking',
-    '🧍': 'person standing',
-    '🧍‍♂️': 'man standing',
-    '🧍‍♀️': 'woman standing',
-    '🧎': 'person kneeling',
-    '🧎‍♂️': 'man kneeling',
-    '🧎‍♀️': 'woman kneeling',
-    '🧑‍🦯': 'person with white cane',
-    '👨‍🦯': 'man with white cane',
-    '👩‍🦯': 'woman with white cane',
-    '🧑‍🦼': 'person in motorized wheelchair',
-    '👨‍🦼': 'man in motorized wheelchair',
-    '👩‍🦼': 'woman in motorized wheelchair',
-    '🧑‍🦽': 'person in manual wheelchair',
-    '👨‍🦽': 'man in manual wheelchair',
-    '👩‍🦽': 'woman in manual wheelchair',
-    '🏃': 'person running',
-    '🏃‍♂️': 'man running',
-    '🏃‍♀️': 'woman running',
-    '💃': 'woman dancing',
-    '🕺': 'man dancing',
-    '🕴': 'person in suit levitating',
-    '👯': 'people with bunny ears',
-    '👯‍♂️': 'men with bunny ears',
-    '👯‍♀️': 'women with bunny ears',
-    '🧖': 'person in steamy room',
-    '🧖‍♂️': 'man in steamy room',
-    '🧖‍♀️': 'woman in steamy room',
-    '🧗': 'person climbing',
-    '🧗‍♂️': 'man climbing',
-    '🧗‍♀️': 'woman climbing',
-    '🤺': 'person fencing',
-    '🏇': 'horse racing',
-    '⛷': 'skier',
-    '🏂': 'snowboarder',
-    '🏌': 'person golfing',
-    '🏌️‍♂️': 'man golfing',
-    '🏌️‍♀️': 'woman golfing',
-    '🏄': 'person surfing',
-    '🏄‍♂️': 'man surfing',
-    '🏄‍♀️': 'woman surfing',
-    '🚣': 'person rowing boat',
-    '🚣‍♂️': 'man rowing boat',
-    '🚣‍♀️': 'woman rowing boat',
-    '🏊': 'person swimming',
-    '🏊‍♂️': 'man swimming',
-    '🏊‍♀️': 'woman swimming',
-    '⛹': 'person bouncing ball',
-    '⛹️‍♂️': 'man bouncing ball',
-    '⛹️‍♀️': 'woman bouncing ball',
-    '🏋': 'person lifting weights',
-    '🏋️‍♂️': 'man lifting weights',
-    '🏋️‍♀️': 'woman lifting weights',
-    '🚴': 'person biking',
-    '🚴‍♂️': 'man biking',
-    '🚴‍♀️': 'woman biking',
-    '🚵': 'person mountain biking',
-    '🚵‍♂️': 'man mountain biking',
-    '🚵‍♀️': 'woman mountain biking',
-    '🤸': 'person cartwheeling',
-    '🤸‍♂️': 'man cartwheeling',
-    '🤸‍♀️': 'woman cartwheeling',
-    '🤼': 'people wrestling',
-    '🤼‍♂️': 'men wrestling',
-    '🤼‍♀️': 'women wrestling',
-    '🤽': 'person playing water polo',
-    '🤽‍♂️': 'man playing water polo',
-    '🤽‍♀️': 'woman playing water polo',
-    '🤾': 'person playing handball',
-    '🤾‍♂️': 'man playing handball',
-    '🤾‍♀️': 'woman playing handball',
-    '🤹': 'person juggling',
-    '🤹‍♂️': 'man juggling',
-    '🤹‍♀️': 'woman juggling',
-    '🧘': 'person in lotus position',
-    '🧘‍♂️': 'man in lotus position',
-    '🧘‍♀️': 'woman in lotus position',
-    '🛀': 'person taking bath',
-    '🛌': 'person in bed',
-    '🧑‍🤝‍🧑': 'people holding hands',
-    '👭': 'women holding hands',
-    '👫': 'woman and man holding hands',
-    '👬': 'men holding hands',
-    '💏': 'kiss',
-    '👩‍❤️‍💋‍👨': 'kiss: woman, man',
-    '👨‍❤️‍💋‍👨': 'kiss: man, man',
-    '👩‍❤️‍💋‍👩': 'kiss: woman, woman',
-    '💑': 'couple with heart',
-    '👩‍❤️‍👨': 'couple with heart: woman, man',
-    '👨‍❤️‍👨': 'couple with heart: man, man',
-    '👩‍❤️‍👩': 'couple with heart: woman, woman',
-    '👪': 'family',
-    '👨‍👩‍👦': 'family: man, woman, boy',
-    '👨‍👩‍👧': 'family: man, woman, girl',
-    '👨‍👩‍👧‍👦': 'family: man, woman, girl, boy',
-    '👨‍👩‍👦‍👦': 'family: man, woman, boy, boy',
-    '👨‍👩‍👧‍👧': 'family: man, woman, girl, girl',
-    '👨‍👨‍👦': 'family: man, man, boy',
-    '👨‍👨‍👧': 'family: man, man, girl',
-    '👨‍👨‍👧‍👦': 'family: man, man, girl, boy',
-    '👨‍👨‍👦‍👦': 'family: man, man, boy, boy',
-    '👨‍👨‍👧‍👧': 'family: man, man, girl, girl',
-    '👩‍👩‍👦': 'family: woman, woman, boy',
-    '👩‍👩‍👧': 'family: woman, woman, girl',
-    '👩‍👩‍👧‍👦': 'family: woman, woman, girl, boy',
-    '👩‍👩‍👦‍👦': 'family: woman, woman, boy, boy',
-    '👩‍👩‍👧‍👧': 'family: woman, woman, girl, girl',
-    '👨‍👦': 'family: man, boy',
-    '👨‍👦‍👦': 'family: man, boy, boy',
-    '👨‍👧': 'family: man, girl',
-    '👨‍👧‍👦': 'family: man, girl, boy',
-    '👨‍👧‍👧': 'family: man, girl, girl',
-    '👩‍👦': 'family: woman, boy',
-    '👩‍👦‍👦': 'family: woman, boy, boy',
-    '👩‍👧': 'family: woman, girl',
-    '👩‍👧‍👦': 'family: woman, girl, boy',
-    '👩‍👧‍👧': 'family: woman, girl, girl',
-    '🗣': 'speaking head',
-    '👤': 'bust in silhouette',
-    '👥': 'busts in silhouette',
-    '🫂': 'people hugging',
-    '👣': 'footprints',
-    '🦰': 'red hair',
-    '🦱': 'curly hair',
-    '🦳': 'white hair',
-    '🦲': 'bald',
-    '🐵': 'monkey face',
-    '🐒': 'monkey',
-    '🦍': 'gorilla',
-    '🦧': 'orangutan',
-    '🐶': 'dog face',
-    '🐕': 'dog',
-    '🦮': 'guide dog',
-    '🐕‍🦺': 'service dog',
-    '🐩': 'poodle',
-    '🐺': 'wolf',
-    '🦊': 'fox',
-    '🦝': 'raccoon',
-    '🐱': 'cat face',
-    '🐈': 'cat',
-    '🐈‍⬛': 'black cat',
-    '🦁': 'lion',
-    '🐯': 'tiger face',
-    '🐅': 'tiger',
-    '🐆': 'leopard',
-    '🐴': 'horse face',
-    '🐎': 'horse',
-    '🦄': 'unicorn',
-    '🦓': 'zebra',
-    '🦌': 'deer',
-    '🦬': 'bison',
-    '🐮': 'cow face',
-    '🐂': 'ox',
-    '🐃': 'water buffalo',
-    '🐄': 'cow',
-    '🐷': 'pig face',
-    '🐖': 'pig',
-    '🐗': 'boar',
-    '🐽': 'pig nose',
-    '🐏': 'ram',
-    '🐑': 'ewe',
-    '🐐': 'goat',
-    '🐪': 'camel',
-    '🐫': 'two-hump camel',
-    '🦙': 'llama',
-    '🦒': 'giraffe',
-    '🐘': 'elephant',
-    '🦣': 'mammoth',
-    '🦏': 'rhinoceros',
-    '🦛': 'hippopotamus',
-    '🐭': 'mouse face',
-    '🐁': 'mouse',
-    '🐀': 'rat',
-    '🐹': 'hamster',
-    '🐰': 'rabbit face',
-    '🐇': 'rabbit',
-    '🐿': 'chipmunk',
-    '🦫': 'beaver',
-    '🦔': 'hedgehog',
-    '🦇': 'bat',
-    '🐻': 'bear',
-    '🐻‍❄️': 'polar bear',
-    '🐨': 'koala',
-    '🐼': 'panda',
-    '🦥': 'sloth',
-    '🦦': 'otter',
-    '🦨': 'skunk',
-    '🦘': 'kangaroo',
-    '🦡': 'badger',
-    '🐾': 'paw prints',
-    '🦃': 'turkey',
-    '🐔': 'chicken',
-    '🐓': 'rooster',
-    '🐣': 'hatching chick',
-    '🐤': 'baby chick',
-    '🐥': 'front-facing baby chick',
-    '🐦': 'bird',
-    '🐧': 'penguin',
-    '🕊': 'dove',
-    '🦅': 'eagle',
-    '🦆': 'duck',
-    '🦢': 'swan',
-    '🦉': 'owl',
-    '🦤': 'dodo',
-    '🪶': 'feather',
-    '🦩': 'flamingo',
-    '🦚': 'peacock',
-    '🦜': 'parrot',
-    '🐸': 'frog',
-    '🐊': 'crocodile',
-    '🐢': 'turtle',
-    '🦎': 'lizard',
-    '🐍': 'snake',
-    '🐲': 'dragon face',
-    '🐉': 'dragon',
-    '🦕': 'sauropod',
-    '🦖': 'T-Rex',
-    '🐳': 'spouting whale',
-    '🐋': 'whale',
-    '🐬': 'dolphin',
-    '🦭': 'seal',
-    '🐟': 'fish',
-    '🐠': 'tropical fish',
-    '🐡': 'blowfish',
-    '🦈': 'shark',
-    '🐙': 'octopus',
-    '🐚': 'spiral shell',
-    '🪸': '⊛ coral',
-    '🐌': 'snail',
-    '🦋': 'butterfly',
-    '🐛': 'bug',
-    '🐜': 'ant',
-    '🐝': 'honeybee',
-    '🪲': 'beetle',
-    '🐞': 'lady beetle',
-    '🦗': 'cricket',
-    '🪳': 'cockroach',
-    '🕷': 'spider',
-    '🕸': 'spider web',
-    '🦂': 'scorpion',
-    '🦟': 'mosquito',
-    '🪰': 'fly',
-    '🪱': 'worm',
-    '🦠': 'microbe',
-    '💐': 'bouquet',
-    '🌸': 'cherry blossom',
-    '💮': 'white flower',
-    '🪷': '⊛ lotus',
-    '🏵': 'rosette',
-    '🌹': 'rose',
-    '🥀': 'wilted flower',
-    '🌺': 'hibiscus',
-    '🌻': 'sunflower',
-    '🌼': 'blossom',
-    '🌷': 'tulip',
-    '🌱': 'seedling',
-    '🪴': 'potted plant',
-    '🌲': 'evergreen tree',
-    '🌳': 'deciduous tree',
-    '🌴': 'palm tree',
-    '🌵': 'cactus',
-    '🌾': 'sheaf of rice',
-    '🌿': 'herb',
-    '☘': 'shamrock',
-    '🍀': 'four leaf clover',
-    '🍁': 'maple leaf',
-    '🍂': 'fallen leaf',
-    '🍃': 'leaf fluttering in wind',
-    '🪹': '⊛ empty nest',
-    '🪺': '⊛ nest with eggs',
-    '🍇': 'grapes',
-    '🍈': 'melon',
-    '🍉': 'watermelon',
-    '🍊': 'tangerine',
-    '🍋': 'lemon',
-    '🍌': 'banana',
-    '🍍': 'pineapple',
-    '🥭': 'mango',
-    '🍎': 'red apple',
-    '🍏': 'green apple',
-    '🍐': 'pear',
-    '🍑': 'peach',
-    '🍒': 'cherries',
-    '🍓': 'strawberry',
-    '🫐': 'blueberries',
-    '🥝': 'kiwi fruit',
-    '🍅': 'tomato',
-    '🫒': 'olive',
-    '🥥': 'coconut',
-    '🥑': 'avocado',
-    '🍆': 'eggplant',
-    '🥔': 'potato',
-    '🥕': 'carrot',
-    '🌽': 'ear of corn',
-    '🌶': 'hot pepper',
-    '🫑': 'bell pepper',
-    '🥒': 'cucumber',
-    '🥬': 'leafy green',
-    '🥦': 'broccoli',
-    '🧄': 'garlic',
-    '🧅': 'onion',
-    '🍄': 'mushroom',
-    '🥜': 'peanuts',
-    '🫘': '⊛ beans',
-    '🌰': 'chestnut',
-    '🍞': 'bread',
-    '🥐': 'croissant',
-    '🥖': 'baguette bread',
-    '🫓': 'flatbread',
-    '🥨': 'pretzel',
-    '🥯': 'bagel',
-    '🥞': 'pancakes',
-    '🧇': 'waffle',
-    '🧀': 'cheese wedge',
-    '🍖': 'meat on bone',
-    '🍗': 'poultry leg',
-    '🥩': 'cut of meat',
-    '🥓': 'bacon',
-    '🍔': 'hamburger',
-    '🍟': 'french fries',
-    '🍕': 'pizza',
-    '🌭': 'hot dog',
-    '🥪': 'sandwich',
-    '🌮': 'taco',
-    '🌯': 'burrito',
-    '🫔': 'tamale',
-    '🥙': 'stuffed flatbread',
-    '🧆': 'falafel',
-    '🥚': 'egg',
-    '🍳': 'cooking',
-    '🥘': 'shallow pan of food',
-    '🍲': 'pot of food',
-    '🫕': 'fondue',
-    '🥣': 'bowl with spoon',
-    '🥗': 'green salad',
-    '🍿': 'popcorn',
-    '🧈': 'butter',
-    '🧂': 'salt',
-    '🥫': 'canned food',
-    '🍱': 'bento box',
-    '🍘': 'rice cracker',
-    '🍙': 'rice ball',
-    '🍚': 'cooked rice',
-    '🍛': 'curry rice',
-    '🍜': 'steaming bowl',
-    '🍝': 'spaghetti',
-    '🍠': 'roasted sweet potato',
-    '🍢': 'oden',
-    '🍣': 'sushi',
-    '🍤': 'fried shrimp',
-    '🍥': 'fish cake with swirl',
-    '🥮': 'moon cake',
-    '🍡': 'dango',
-    '🥟': 'dumpling',
-    '🥠': 'fortune cookie',
-    '🥡': 'takeout box',
-    '🦀': 'crab',
-    '🦞': 'lobster',
-    '🦐': 'shrimp',
-    '🦑': 'squid',
-    '🦪': 'oyster',
-    '🍦': 'soft ice cream',
-    '🍧': 'shaved ice',
-    '🍨': 'ice cream',
-    '🍩': 'doughnut',
-    '🍪': 'cookie',
-    '🎂': 'birthday cake',
-    '🍰': 'shortcake',
-    '🧁': 'cupcake',
-    '🥧': 'pie',
-    '🍫': 'chocolate bar',
-    '🍬': 'candy',
-    '🍭': 'lollipop',
-    '🍮': 'custard',
-    '🍯': 'honey pot',
-    '🍼': 'baby bottle',
-    '🥛': 'glass of milk',
-    '☕': 'hot beverage',
-    '🫖': 'teapot',
-    '🍵': 'teacup without handle',
-    '🍶': 'sake',
-    '🍾': 'bottle with popping cork',
-    '🍷': 'wine glass',
-    '🍸': 'cocktail glass',
-    '🍹': 'tropical drink',
-    '🍺': 'beer mug',
-    '🍻': 'clinking beer mugs',
-    '🥂': 'clinking glasses',
-    '🥃': 'tumbler glass',
-    '🫗': '⊛ pouring liquid',
-    '🥤': 'cup with straw',
-    '🧋': 'bubble tea',
-    '🧃': 'beverage box',
-    '🧉': 'mate',
-    '🧊': 'ice',
-    '🥢': 'chopsticks',
-    '🍽': 'fork and knife with plate',
-    '🍴': 'fork and knife',
-    '🥄': 'spoon',
-    '🔪': 'kitchen knife',
-    '🫙': '⊛ jar',
-    '🏺': 'amphora',
-    '🌍': 'globe showing Europe-Africa',
-    '🌎': 'globe showing Americas',
-    '🌏': 'globe showing Asia-Australia',
-    '🌐': 'globe with meridians',
-    '🗺': 'world map',
-    '🗾': 'map of Japan',
-    '🧭': 'compass',
-    '🏔': 'snow-capped mountain',
-    '⛰': 'mountain',
-    '🌋': 'volcano',
-    '🗻': 'mount fuji',
-    '🏕': 'camping',
-    '🏖': 'beach with umbrella',
-    '🏜': 'desert',
-    '🏝': 'desert island',
-    '🏞': 'national park',
-    '🏟': 'stadium',
-    '🏛': 'classical building',
-    '🏗': 'building construction',
-    '🧱': 'brick',
-    '🪨': 'rock',
-    '🪵': 'wood',
-    '🛖': 'hut',
-    '🏘': 'houses',
-    '🏚': 'derelict house',
-    '🏠': 'house',
-    '🏡': 'house with garden',
-    '🏢': 'office building',
-    '🏣': 'Japanese post office',
-    '🏤': 'post office',
-    '🏥': 'hospital',
-    '🏦': 'bank',
-    '🏨': 'hotel',
-    '🏩': 'love hotel',
-    '🏪': 'convenience store',
-    '🏫': 'school',
-    '🏬': 'department store',
-    '🏭': 'factory',
-    '🏯': 'Japanese castle',
-    '🏰': 'castle',
-    '💒': 'wedding',
-    '🗼': 'Tokyo tower',
-    '🗽': 'Statue of Liberty',
-    '⛪': 'church',
-    '🕌': 'mosque',
-    '🛕': 'hindu temple',
-    '🕍': 'synagogue',
-    '⛩': 'shinto shrine',
-    '🕋': 'kaaba',
-    '⛲': 'fountain',
-    '⛺': 'tent',
-    '🌁': 'foggy',
-    '🌃': 'night with stars',
-    '🏙': 'cityscape',
-    '🌄': 'sunrise over mountains',
-    '🌅': 'sunrise',
-    '🌆': 'cityscape at dusk',
-    '🌇': 'sunset',
-    '🌉': 'bridge at night',
-    '♨': 'hot springs',
-    '🎠': 'carousel horse',
-    '🛝': '⊛ playground slide',
-    '🎡': 'ferris wheel',
-    '🎢': 'roller coaster',
-    '💈': 'barber pole',
-    '🎪': 'circus tent',
-    '🚂': 'locomotive',
-    '🚃': 'railway car',
-    '🚄': 'high-speed train',
-    '🚅': 'bullet train',
-    '🚆': 'train',
-    '🚇': 'metro',
-    '🚈': 'light rail',
-    '🚉': 'station',
-    '🚊': 'tram',
-    '🚝': 'monorail',
-    '🚞': 'mountain railway',
-    '🚋': 'tram car',
-    '🚌': 'bus',
-    '🚍': 'oncoming bus',
-    '🚎': 'trolleybus',
-    '🚐': 'minibus',
-    '🚑': 'ambulance',
-    '🚒': 'fire engine',
-    '🚓': 'police car',
-    '🚔': 'oncoming police car',
-    '🚕': 'taxi',
-    '🚖': 'oncoming taxi',
-    '🚗': 'automobile',
-    '🚘': 'oncoming automobile',
-    '🚙': 'sport utility vehicle',
-    '🛻': 'pickup truck',
-    '🚚': 'delivery truck',
-    '🚛': 'articulated lorry',
-    '🚜': 'tractor',
-    '🏎': 'racing car',
-    '🏍': 'motorcycle',
-    '🛵': 'motor scooter',
-    '🦽': 'manual wheelchair',
-    '🦼': 'motorized wheelchair',
-    '🛺': 'auto rickshaw',
-    '🚲': 'bicycle',
-    '🛴': 'kick scooter',
-    '🛹': 'skateboard',
-    '🛼': 'roller skate',
-    '🚏': 'bus stop',
-    '🛣': 'motorway',
-    '🛤': 'railway track',
-    '🛢': 'oil drum',
-    '⛽': 'fuel pump',
-    '🛞': '⊛ wheel',
-    '🚨': 'police car light',
-    '🚥': 'horizontal traffic light',
-    '🚦': 'vertical traffic light',
-    '🛑': 'stop sign',
-    '🚧': 'construction',
-    '⚓': 'anchor',
-    '🛟': '⊛ ring buoy',
-    '⛵': 'sailboat',
-    '🛶': 'canoe',
-    '🚤': 'speedboat',
-    '🛳': 'passenger ship',
-    '⛴': 'ferry',
-    '🛥': 'motor boat',
-    '🚢': 'ship',
-    '✈': 'airplane',
-    '🛩': 'small airplane',
-    '🛫': 'airplane departure',
-    '🛬': 'airplane arrival',
-    '🪂': 'parachute',
-    '💺': 'seat',
-    '🚁': 'helicopter',
-    '🚟': 'suspension railway',
-    '🚠': 'mountain cableway',
-    '🚡': 'aerial tramway',
-    '🛰': 'satellite',
-    '🚀': 'rocket',
-    '🛸': 'flying saucer',
-    '🛎': 'bellhop bell',
-    '🧳': 'luggage',
-    '⌛': 'hourglass done',
-    '⏳': 'hourglass not done',
-    '⌚': 'watch',
-    '⏰': 'alarm clock',
-    '⏱': 'stopwatch',
-    '⏲': 'timer clock',
-    '🕰': 'mantelpiece clock',
-    '🕛': 'twelve o’clock',
-    '🕧': 'twelve-thirty',
-    '🕐': 'one o’clock',
-    '🕜': 'one-thirty',
-    '🕑': 'two o’clock',
-    '🕝': 'two-thirty',
-    '🕒': 'three o’clock',
-    '🕞': 'three-thirty',
-    '🕓': 'four o’clock',
-    '🕟': 'four-thirty',
-    '🕔': 'five o’clock',
-    '🕠': 'five-thirty',
-    '🕕': 'six o’clock',
-    '🕡': 'six-thirty',
-    '🕖': 'seven o’clock',
-    '🕢': 'seven-thirty',
-    '🕗': 'eight o’clock',
-    '🕣': 'eight-thirty',
-    '🕘': 'nine o’clock',
-    '🕤': 'nine-thirty',
-    '🕙': 'ten o’clock',
-    '🕥': 'ten-thirty',
-    '🕚': 'eleven o’clock',
-    '🕦': 'eleven-thirty',
-    '🌑': 'new moon',
-    '🌒': 'waxing crescent moon',
-    '🌓': 'first quarter moon',
-    '🌔': 'waxing gibbous moon',
-    '🌕': 'full moon',
-    '🌖': 'waning gibbous moon',
-    '🌗': 'last quarter moon',
-    '🌘': 'waning crescent moon',
-    '🌙': 'crescent moon',
-    '🌚': 'new moon face',
-    '🌛': 'first quarter moon face',
-    '🌜': 'last quarter moon face',
-    '🌡': 'thermometer',
-    '☀': 'sun',
-    '🌝': 'full moon face',
-    '🌞': 'sun with face',
-    '🪐': 'ringed planet',
-    '⭐': 'star',
-    '🌟': 'glowing star',
-    '🌠': 'shooting star',
-    '🌌': 'milky way',
-    '☁': 'cloud',
-    '⛅': 'sun behind cloud',
-    '⛈': 'cloud with lightning and rain',
-    '🌤': 'sun behind small cloud',
-    '🌥': 'sun behind large cloud',
-    '🌦': 'sun behind rain cloud',
-    '🌧': 'cloud with rain',
-    '🌨': 'cloud with snow',
-    '🌩': 'cloud with lightning',
-    '🌪': 'tornado',
-    '🌫': 'fog',
-    '🌬': 'wind face',
-    '🌀': 'cyclone',
-    '🌈': 'rainbow',
-    '🌂': 'closed umbrella',
-    '☂': 'umbrella',
-    '☔': 'umbrella with rain drops',
-    '⛱': 'umbrella on ground',
-    '⚡': 'high voltage',
-    '❄': 'snowflake',
-    '☃': 'snowman',
-    '⛄': 'snowman without snow',
-    '☄': 'comet',
-    '🔥': 'fire',
-    '💧': 'droplet',
-    '🌊': 'water wave',
-    '🎃': 'jack-o-lantern',
-    '🎄': 'Christmas tree',
-    '🎆': 'fireworks',
-    '🎇': 'sparkler',
-    '🧨': 'firecracker',
-    '✨': 'sparkles',
-    '🎈': 'balloon',
-    '🎉': 'party popper',
-    '🎊': 'confetti ball',
-    '🎋': 'tanabata tree',
-    '🎍': 'pine decoration',
-    '🎎': 'Japanese dolls',
-    '🎏': 'carp streamer',
-    '🎐': 'wind chime',
-    '🎑': 'moon viewing ceremony',
-    '🧧': 'red envelope',
-    '🎀': 'ribbon',
-    '🎁': 'wrapped gift',
-    '🎗': 'reminder ribbon',
-    '🎟': 'admission tickets',
-    '🎫': 'ticket',
-    '🎖': 'military medal',
-    '🏆': 'trophy',
-    '🏅': 'sports medal',
-    '🥇': '1st place medal',
-    '🥈': '2nd place medal',
-    '🥉': '3rd place medal',
-    '⚽': 'soccer ball',
-    '⚾': 'baseball',
-    '🥎': 'softball',
-    '🏀': 'basketball',
-    '🏐': 'volleyball',
-    '🏈': 'american football',
-    '🏉': 'rugby football',
-    '🎾': 'tennis',
-    '🥏': 'flying disc',
-    '🎳': 'bowling',
-    '🏏': 'cricket game',
-    '🏑': 'field hockey',
-    '🏒': 'ice hockey',
-    '🥍': 'lacrosse',
-    '🏓': 'ping pong',
-    '🏸': 'badminton',
-    '🥊': 'boxing glove',
-    '🥋': 'martial arts uniform',
-    '🥅': 'goal net',
-    '⛳': 'flag in hole',
-    '⛸': 'ice skate',
-    '🎣': 'fishing pole',
-    '🤿': 'diving mask',
-    '🎽': 'running shirt',
-    '🎿': 'skis',
-    '🛷': 'sled',
-    '🥌': 'curling stone',
-    '🎯': 'bullseye',
-    '🪀': 'yo-yo',
-    '🪁': 'kite',
-    '🎱': 'pool 8 ball',
-    '🔮': 'crystal ball',
-    '🪄': 'magic wand',
-    '🧿': 'nazar amulet',
-    '🪬': '⊛ hamsa',
-    '🎮': 'video game',
-    '🕹': 'joystick',
-    '🎰': 'slot machine',
-    '🎲': 'game die',
-    '🧩': 'puzzle piece',
-    '🧸': 'teddy bear',
-    '🪅': 'piñata',
-    '🪩': '⊛ mirror ball',
-    '🪆': 'nesting dolls',
-    '♠': 'spade suit',
-    '♥': 'heart suit',
-    '♦': 'diamond suit',
-    '♣': 'club suit',
-    '♟': 'chess pawn',
-    '🃏': 'joker',
-    '🀄': 'mahjong red dragon',
-    '🎴': 'flower playing cards',
-    '🎭': 'performing arts',
-    '🖼': 'framed picture',
-    '🎨': 'artist palette',
-    '🧵': 'thread',
-    '🪡': 'sewing needle',
-    '🧶': 'yarn',
-    '🪢': 'knot',
-    '👓': 'glasses',
-    '🕶': 'sunglasses',
-    '🥽': 'goggles',
-    '🥼': 'lab coat',
-    '🦺': 'safety vest',
-    '👔': 'necktie',
-    '👕': 't-shirt',
-    '👖': 'jeans',
-    '🧣': 'scarf',
-    '🧤': 'gloves',
-    '🧥': 'coat',
-    '🧦': 'socks',
-    '👗': 'dress',
-    '👘': 'kimono',
-    '🥻': 'sari',
-    '🩱': 'one-piece swimsuit',
-    '🩲': 'briefs',
-    '🩳': 'shorts',
-    '👙': 'bikini',
-    '👚': 'woman’s clothes',
-    '👛': 'purse',
-    '👜': 'handbag',
-    '👝': 'clutch bag',
-    '🛍': 'shopping bags',
-    '🎒': 'backpack',
-    '🩴': 'thong sandal',
-    '👞': 'man’s shoe',
-    '👟': 'running shoe',
-    '🥾': 'hiking boot',
-    '🥿': 'flat shoe',
-    '👠': 'high-heeled shoe',
-    '👡': 'woman’s sandal',
-    '🩰': 'ballet shoes',
-    '👢': 'woman’s boot',
-    '👑': 'crown',
-    '👒': 'woman’s hat',
-    '🎩': 'top hat',
-    '🎓': 'graduation cap',
-    '🧢': 'billed cap',
-    '🪖': 'military helmet',
-    '⛑': 'rescue worker’s helmet',
-    '📿': 'prayer beads',
-    '💄': 'lipstick',
-    '💍': 'ring',
-    '💎': 'gem stone',
-    '🔇': 'muted speaker',
-    '🔈': 'speaker low volume',
-    '🔉': 'speaker medium volume',
-    '🔊': 'speaker high volume',
-    '📢': 'loudspeaker',
-    '📣': 'megaphone',
-    '📯': 'postal horn',
-    '🔔': 'bell',
-    '🔕': 'bell with slash',
-    '🎼': 'musical score',
-    '🎵': 'musical note',
-    '🎶': 'musical notes',
-    '🎙': 'studio microphone',
-    '🎚': 'level slider',
-    '🎛': 'control knobs',
-    '🎤': 'microphone',
-    '🎧': 'headphone',
-    '📻': 'radio',
-    '🎷': 'saxophone',
-    '🪗': 'accordion',
-    '🎸': 'guitar',
-    '🎹': 'musical keyboard',
-    '🎺': 'trumpet',
-    '🎻': 'violin',
-    '🪕': 'banjo',
-    '🥁': 'drum',
-    '🪘': 'long drum',
-    '📱': 'mobile phone',
-    '📲': 'mobile phone with arrow',
-    '☎': 'telephone',
-    '📞': 'telephone receiver',
-    '📟': 'pager',
-    '📠': 'fax machine',
-    '🔋': 'battery',
-    '🪫': '⊛ low battery',
-    '🔌': 'electric plug',
-    '💻': 'laptop',
-    '🖥': 'desktop computer',
-    '🖨': 'printer',
-    '⌨': 'keyboard',
-    '🖱': 'computer mouse',
-    '🖲': 'trackball',
-    '💽': 'computer disk',
-    '💾': 'floppy disk',
-    '💿': 'optical disk',
-    '📀': 'dvd',
-    '🧮': 'abacus',
-    '🎥': 'movie camera',
-    '🎞': 'film frames',
-    '📽': 'film projector',
-    '🎬': 'clapper board',
-    '📺': 'television',
-    '📷': 'camera',
-    '📸': 'camera with flash',
-    '📹': 'video camera',
-    '📼': 'videocassette',
-    '🔍': 'magnifying glass tilted left',
-    '🔎': 'magnifying glass tilted right',
-    '🕯': 'candle',
-    '💡': 'light bulb',
-    '🔦': 'flashlight',
-    '🏮': 'red paper lantern',
-    '🪔': 'diya lamp',
-    '📔': 'notebook with decorative cover',
-    '📕': 'closed book',
-    '📖': 'open book',
-    '📗': 'green book',
-    '📘': 'blue book',
-    '📙': 'orange book',
-    '📚': 'books',
-    '📓': 'notebook',
-    '📒': 'ledger',
-    '📃': 'page with curl',
-    '📜': 'scroll',
-    '📄': 'page facing up',
-    '📰': 'newspaper',
-    '🗞': 'rolled-up newspaper',
-    '📑': 'bookmark tabs',
-    '🔖': 'bookmark',
-    '🏷': 'label',
-    '💰': 'money bag',
-    '🪙': 'coin',
-    '💴': 'yen banknote',
-    '💵': 'dollar banknote',
-    '💶': 'euro banknote',
-    '💷': 'pound banknote',
-    '💸': 'money with wings',
-    '💳': 'credit card',
-    '🧾': 'receipt',
-    '💹': 'chart increasing with yen',
-    '✉': 'envelope',
-    '📧': 'e-mail',
-    '📨': 'incoming envelope',
-    '📩': 'envelope with arrow',
-    '📤': 'outbox tray',
-    '📥': 'inbox tray',
-    '📦': 'package',
-    '📫': 'closed mailbox with raised flag',
-    '📪': 'closed mailbox with lowered flag',
-    '📬': 'open mailbox with raised flag',
-    '📭': 'open mailbox with lowered flag',
-    '📮': 'postbox',
-    '🗳': 'ballot box with ballot',
-    '✏': 'pencil',
-    '✒': 'black nib',
-    '🖋': 'fountain pen',
-    '🖊': 'pen',
-    '🖌': 'paintbrush',
-    '🖍': 'crayon',
-    '📝': 'memo',
-    '💼': 'briefcase',
-    '📁': 'file folder',
-    '📂': 'open file folder',
-    '🗂': 'card index dividers',
-    '📅': 'calendar',
-    '📆': 'tear-off calendar',
-    '🗒': 'spiral notepad',
-    '🗓': 'spiral calendar',
-    '📇': 'card index',
-    '📈': 'chart increasing',
-    '📉': 'chart decreasing',
-    '📊': 'bar chart',
-    '📋': 'clipboard',
-    '📌': 'pushpin',
-    '📍': 'round pushpin',
-    '📎': 'paperclip',
-    '🖇': 'linked paperclips',
-    '📏': 'straight ruler',
-    '📐': 'triangular ruler',
-    '✂': 'scissors',
-    '🗃': 'card file box',
-    '🗄': 'file cabinet',
-    '🗑': 'wastebasket',
-    '🔒': 'locked',
-    '🔓': 'unlocked',
-    '🔏': 'locked with pen',
-    '🔐': 'locked with key',
-    '🔑': 'key',
-    '🗝': 'old key',
-    '🔨': 'hammer',
-    '🪓': 'axe',
-    '⛏': 'pick',
-    '⚒': 'hammer and pick',
-    '🛠': 'hammer and wrench',
-    '🗡': 'dagger',
-    '⚔': 'crossed swords',
-    '🔫': 'water pistol',
-    '🪃': 'boomerang',
-    '🏹': 'bow and arrow',
-    '🛡': 'shield',
-    '🪚': 'carpentry saw',
-    '🔧': 'wrench',
-    '🪛': 'screwdriver',
-    '🔩': 'nut and bolt',
-    '⚙': 'gear',
-    '🗜': 'clamp',
-    '⚖': 'balance scale',
-    '🦯': 'white cane',
-    '🔗': 'link',
-    '⛓': 'chains',
-    '🪝': 'hook',
-    '🧰': 'toolbox',
-    '🧲': 'magnet',
-    '🪜': 'ladder',
-    '⚗': 'alembic',
-    '🧪': 'test tube',
-    '🧫': 'petri dish',
-    '🧬': 'dna',
-    '🔬': 'microscope',
-    '🔭': 'telescope',
-    '📡': 'satellite antenna',
-    '💉': 'syringe',
-    '🩸': 'drop of blood',
-    '💊': 'pill',
-    '🩹': 'adhesive bandage',
-    '🩼': '⊛ crutch',
-    '🩺': 'stethoscope',
-    '🩻': '⊛ x-ray',
-    '🚪': 'door',
-    '🛗': 'elevator',
-    '🪞': 'mirror',
-    '🪟': 'window',
-    '🛏': 'bed',
-    '🛋': 'couch and lamp',
-    '🪑': 'chair',
-    '🚽': 'toilet',
-    '🪠': 'plunger',
-    '🚿': 'shower',
-    '🛁': 'bathtub',
-    '🪤': 'mouse trap',
-    '🪒': 'razor',
-    '🧴': 'lotion bottle',
-    '🧷': 'safety pin',
-    '🧹': 'broom',
-    '🧺': 'basket',
-    '🧻': 'roll of paper',
-    '🪣': 'bucket',
-    '🧼': 'soap',
-    '🫧': '⊛ bubbles',
-    '🪥': 'toothbrush',
-    '🧽': 'sponge',
-    '🧯': 'fire extinguisher',
-    '🛒': 'shopping cart',
-    '🚬': 'cigarette',
-    '⚰': 'coffin',
-    '🪦': 'headstone',
-    '⚱': 'funeral urn',
-    '🗿': 'moai',
-    '🪧': 'placard',
-    '🪪': '⊛ identification card',
-    '🏧': 'ATM sign',
-    '🚮': 'litter in bin sign',
-    '🚰': 'potable water',
-    '♿': 'wheelchair symbol',
-    '🚹': 'men’s room',
-    '🚺': 'women’s room',
-    '🚻': 'restroom',
-    '🚼': 'baby symbol',
-    '🚾': 'water closet',
-    '🛂': 'passport control',
-    '🛃': 'customs',
-    '🛄': 'baggage claim',
-    '🛅': 'left luggage',
-    '⚠': 'warning',
-    '🚸': 'children crossing',
-    '⛔': 'no entry',
-    '🚫': 'prohibited',
-    '🚳': 'no bicycles',
-    '🚭': 'no smoking',
-    '🚯': 'no littering',
-    '🚱': 'non-potable water',
-    '🚷': 'no pedestrians',
-    '📵': 'no mobile phones',
-    '🔞': 'no one under eighteen',
-    '☢': 'radioactive',
-    '☣': 'biohazard',
-    '⬆': 'up arrow',
-    '↗': 'up-right arrow',
-    '➡': 'right arrow',
-    '↘': 'down-right arrow',
-    '⬇': 'down arrow',
-    '↙': 'down-left arrow',
-    '⬅': 'left arrow',
-    '↖': 'up-left arrow',
-    '↕': 'up-down arrow',
-    '↔': 'left-right arrow',
-    '↩': 'right arrow curving left',
-    '↪': 'left arrow curving right',
-    '⤴': 'right arrow curving up',
-    '⤵': 'right arrow curving down',
-    '🔃': 'clockwise vertical arrows',
-    '🔄': 'counterclockwise arrows button',
-    '🔙': 'BACK arrow',
-    '🔚': 'END arrow',
-    '🔛': 'ON! arrow',
-    '🔜': 'SOON arrow',
-    '🔝': 'TOP arrow',
-    '🛐': 'place of worship',
-    '⚛': 'atom symbol',
-    '🕉': 'om',
-    '✡': 'star of David',
-    '☸': 'wheel of dharma',
-    '☯': 'yin yang',
-    '✝': 'latin cross',
-    '☦': 'orthodox cross',
-    '☪': 'star and crescent',
-    '☮': 'peace symbol',
-    '🕎': 'menorah',
-    '🔯': 'dotted six-pointed star',
-    '♈': 'Aries',
-    '♉': 'Taurus',
-    '♊': 'Gemini',
-    '♋': 'Cancer',
-    '♌': 'Leo',
-    '♍': 'Virgo',
-    '♎': 'Libra',
-    '♏': 'Scorpio',
-    '♐': 'Sagittarius',
-    '♑': 'Capricorn',
-    '♒': 'Aquarius',
-    '♓': 'Pisces',
-    '⛎': 'Ophiuchus',
-    '🔀': 'shuffle tracks button',
-    '🔁': 'repeat button',
-    '🔂': 'repeat single button',
-    '▶': 'play button',
-    '⏩': 'fast-forward button',
-    '⏭': 'next track button',
-    '⏯': 'play or pause button',
-    '◀': 'reverse button',
-    '⏪': 'fast reverse button',
-    '⏮': 'last track button',
-    '🔼': 'upwards button',
-    '⏫': 'fast up button',
-    '🔽': 'downwards button',
-    '⏬': 'fast down button',
-    '⏸': 'pause button',
-    '⏹': 'stop button',
-    '⏺': 'record button',
-    '⏏': 'eject button',
-    '🎦': 'cinema',
-    '🔅': 'dim button',
-    '🔆': 'bright button',
-    '📶': 'antenna bars',
-    '📳': 'vibration mode',
-    '📴': 'mobile phone off',
-    '♀': 'female sign',
-    '♂': 'male sign',
-    '⚧': 'transgender symbol',
-    '✖': 'multiply',
-    '➕': 'plus',
-    '➖': 'minus',
-    '➗': 'divide',
-    '🟰': '⊛ heavy equals sign',
-    '♾': 'infinity',
-    '‼': 'double exclamation mark',
-    '⁉': 'exclamation question mark',
-    '❓': 'red question mark',
-    '❔': 'white question mark',
-    '❕': 'white exclamation mark',
-    '❗': 'red exclamation mark',
-    '〰': 'wavy dash',
-    '💱': 'currency exchange',
-    '💲': 'heavy dollar sign',
-    '⚕': 'medical symbol',
-    '♻': 'recycling symbol',
-    '⚜': 'fleur-de-lis',
-    '🔱': 'trident emblem',
-    '📛': 'name badge',
-    '🔰': 'Japanese symbol for beginner',
-    '⭕': 'hollow red circle',
-    '✅': 'check mark button',
-    '☑': 'check box with check',
-    '✔': 'check mark',
-    '❌': 'cross mark',
-    '❎': 'cross mark button',
-    '➰': 'curly loop',
-    '➿': 'double curly loop',
-    '〽': 'part alternation mark',
-    '✳': 'eight-spoked asterisk',
-    '✴': 'eight-pointed star',
-    '❇': 'sparkle',
-    '©': 'copyright',
-    '®': 'registered',
-    '™': 'trade mark',
-    '#️⃣': 'keycap: #',
-    '*️⃣': 'keycap: *',
-    '0️⃣': 'keycap: 0',
-    '1️⃣': 'keycap: 1',
-    '2️⃣': 'keycap: 2',
-    '3️⃣': 'keycap: 3',
-    '4️⃣': 'keycap: 4',
-    '5️⃣': 'keycap: 5',
-    '6️⃣': 'keycap: 6',
-    '7️⃣': 'keycap: 7',
-    '8️⃣': 'keycap: 8',
-    '9️⃣': 'keycap: 9',
-    '🔟': 'keycap: 10',
-    '🔠': 'input latin uppercase',
-    '🔡': 'input latin lowercase',
-    '🔢': 'input numbers',
-    '🔣': 'input symbols',
-    '🔤': 'input latin letters',
-    '🅰': 'A button (blood type)',
-    '🆎': 'AB button (blood type)',
-    '🅱': 'B button (blood type)',
-    '🆑': 'CL button',
-    '🆒': 'COOL button',
-    '🆓': 'FREE button',
-    ℹ: 'information',
-    '🆔': 'ID button',
-    'Ⓜ': 'circled M',
-    '🆕': 'NEW button',
-    '🆖': 'NG button',
-    '🅾': 'O button (blood type)',
-    '🆗': 'OK button',
-    '🅿': 'P button',
-    '🆘': 'SOS button',
-    '🆙': 'UP! button',
-    '🆚': 'VS button',
-    '🈁': 'Japanese “here” button',
-    '🈂': 'Japanese “service charge” button',
-    '🈷': 'Japanese “monthly amount” button',
-    '🈶': 'Japanese “not free of charge” button',
-    '🈯': 'Japanese “reserved” button',
-    '🉐': 'Japanese “bargain” button',
-    '🈹': 'Japanese “discount” button',
-    '🈚': 'Japanese “free of charge” button',
-    '🈲': 'Japanese “prohibited” button',
-    '🉑': 'Japanese “acceptable” button',
-    '🈸': 'Japanese “application” button',
-    '🈴': 'Japanese “passing grade” button',
-    '🈳': 'Japanese “vacancy” button',
-    '㊗': 'Japanese “congratulations” button',
-    '㊙': 'Japanese “secret” button',
-    '🈺': 'Japanese “open for business” button',
-    '🈵': 'Japanese “no vacancy” button',
-    '🔴': 'red circle',
-    '🟠': 'orange circle',
-    '🟡': 'yellow circle',
-    '🟢': 'green circle',
-    '🔵': 'blue circle',
-    '🟣': 'purple circle',
-    '🟤': 'brown circle',
-    '⚫': 'black circle',
-    '⚪': 'white circle',
-    '🟥': 'red square',
-    '🟧': 'orange square',
-    '🟨': 'yellow square',
-    '🟩': 'green square',
-    '🟦': 'blue square',
-    '🟪': 'purple square',
-    '🟫': 'brown square',
-    '⬛': 'black large square',
-    '⬜': 'white large square',
-    '◼': 'black medium square',
-    '◻': 'white medium square',
-    '◾': 'black medium-small square',
-    '◽': 'white medium-small square',
-    '▪': 'black small square',
-    '▫': 'white small square',
-    '🔶': 'large orange diamond',
-    '🔷': 'large blue diamond',
-    '🔸': 'small orange diamond',
-    '🔹': 'small blue diamond',
-    '🔺': 'red triangle pointed up',
-    '🔻': 'red triangle pointed down',
-    '💠': 'diamond with a dot',
-    '🔘': 'radio button',
-    '🔳': 'white square button',
-    '🔲': 'black square button',
-    '🏁': 'chequered flag',
-    '🚩': 'triangular flag',
-    '🎌': 'crossed flags',
-    '🏴': 'black flag',
-    '🏳': 'white flag',
-    '🏳️‍🌈': 'rainbow flag',
-    '🏳️‍⚧️': 'transgender flag',
-    '🏴‍☠️': 'pirate flag',
-    '🇦🇨': 'flag: Ascension Island',
-    '🇦🇩': 'flag: Andorra',
-    '🇦🇪': 'flag: United Arab Emirates',
-    '🇦🇫': 'flag: Afghanistan',
-    '🇦🇬': 'flag: Antigua & Barbuda',
-    '🇦🇮': 'flag: Anguilla',
-    '🇦🇱': 'flag: Albania',
-    '🇦🇲': 'flag: Armenia',
-    '🇦🇴': 'flag: Angola',
-    '🇦🇶': 'flag: Antarctica',
-    '🇦🇷': 'flag: Argentina',
-    '🇦🇸': 'flag: American Samoa',
-    '🇦🇹': 'flag: Austria',
-    '🇦🇺': 'flag: Australia',
-    '🇦🇼': 'flag: Aruba',
-    '🇦🇽': 'flag: Åland Islands',
-    '🇦🇿': 'flag: Azerbaijan',
-    '🇧🇦': 'flag: Bosnia & Herzegovina',
-    '🇧🇧': 'flag: Barbados',
-    '🇧🇩': 'flag: Bangladesh',
-    '🇧🇪': 'flag: Belgium',
-    '🇧🇫': 'flag: Burkina Faso',
-    '🇧🇬': 'flag: Bulgaria',
-    '🇧🇭': 'flag: Bahrain',
-    '🇧🇮': 'flag: Burundi',
-    '🇧🇯': 'flag: Benin',
-    '🇧🇱': 'flag: St. Barthélemy',
-    '🇧🇲': 'flag: Bermuda',
-    '🇧🇳': 'flag: Brunei',
-    '🇧🇴': 'flag: Bolivia',
-    '🇧🇶': 'flag: Caribbean Netherlands',
-    '🇧🇷': 'flag: Brazil',
-    '🇧🇸': 'flag: Bahamas',
-    '🇧🇹': 'flag: Bhutan',
-    '🇧🇻': 'flag: Bouvet Island',
-    '🇧🇼': 'flag: Botswana',
-    '🇧🇾': 'flag: Belarus',
-    '🇧🇿': 'flag: Belize',
-    '🇨🇦': 'flag: Canada',
-    '🇨🇨': 'flag: Cocos (Keeling) Islands',
-    '🇨🇩': 'flag: Congo - Kinshasa',
-    '🇨🇫': 'flag: Central African Republic',
-    '🇨🇬': 'flag: Congo - Brazzaville',
-    '🇨🇭': 'flag: Switzerland',
-    '🇨🇮': 'flag: Côte d’Ivoire',
-    '🇨🇰': 'flag: Cook Islands',
-    '🇨🇱': 'flag: Chile',
-    '🇨🇲': 'flag: Cameroon',
-    '🇨🇳': 'flag: China',
-    '🇨🇴': 'flag: Colombia',
-    '🇨🇵': 'flag: Clipperton Island',
-    '🇨🇷': 'flag: Costa Rica',
-    '🇨🇺': 'flag: Cuba',
-    '🇨🇻': 'flag: Cape Verde',
-    '🇨🇼': 'flag: Curaçao',
-    '🇨🇽': 'flag: Christmas Island',
-    '🇨🇾': 'flag: Cyprus',
-    '🇨🇿': 'flag: Czechia',
-    '🇩🇪': 'flag: Germany',
-    '🇩🇬': 'flag: Diego Garcia',
-    '🇩🇯': 'flag: Djibouti',
-    '🇩🇰': 'flag: Denmark',
-    '🇩🇲': 'flag: Dominica',
-    '🇩🇴': 'flag: Dominican Republic',
-    '🇩🇿': 'flag: Algeria',
-    '🇪🇦': 'flag: Ceuta & Melilla',
-    '🇪🇨': 'flag: Ecuador',
-    '🇪🇪': 'flag: Estonia',
-    '🇪🇬': 'flag: Egypt',
-    '🇪🇭': 'flag: Western Sahara',
-    '🇪🇷': 'flag: Eritrea',
-    '🇪🇸': 'flag: Spain',
-    '🇪🇹': 'flag: Ethiopia',
-    '🇪🇺': 'flag: European Union',
-    '🇫🇮': 'flag: Finland',
-    '🇫🇯': 'flag: Fiji',
-    '🇫🇰': 'flag: Falkland Islands',
-    '🇫🇲': 'flag: Micronesia',
-    '🇫🇴': 'flag: Faroe Islands',
-    '🇫🇷': 'flag: France',
-    '🇬🇦': 'flag: Gabon',
-    '🇬🇧': 'flag: United Kingdom',
-    '🇬🇩': 'flag: Grenada',
-    '🇬🇪': 'flag: Georgia',
-    '🇬🇫': 'flag: French Guiana',
-    '🇬🇬': 'flag: Guernsey',
-    '🇬🇭': 'flag: Ghana',
-    '🇬🇮': 'flag: Gibraltar',
-    '🇬🇱': 'flag: Greenland',
-    '🇬🇲': 'flag: Gambia',
-    '🇬🇳': 'flag: Guinea',
-    '🇬🇵': 'flag: Guadeloupe',
-    '🇬🇶': 'flag: Equatorial Guinea',
-    '🇬🇷': 'flag: Greece',
-    '🇬🇸': 'flag: South Georgia & South Sandwich Islands',
-    '🇬🇹': 'flag: Guatemala',
-    '🇬🇺': 'flag: Guam',
-    '🇬🇼': 'flag: Guinea-Bissau',
-    '🇬🇾': 'flag: Guyana',
-    '🇭🇰': 'flag: Hong Kong SAR China',
-    '🇭🇲': 'flag: Heard & McDonald Islands',
-    '🇭🇳': 'flag: Honduras',
-    '🇭🇷': 'flag: Croatia',
-    '🇭🇹': 'flag: Haiti',
-    '🇭🇺': 'flag: Hungary',
-    '🇮🇨': 'flag: Canary Islands',
-    '🇮🇩': 'flag: Indonesia',
-    '🇮🇪': 'flag: Ireland',
-    '🇮🇱': 'flag: Israel',
-    '🇮🇲': 'flag: Isle of Man',
-    '🇮🇳': 'flag: India',
-    '🇮🇴': 'flag: British Indian Ocean Territory',
-    '🇮🇶': 'flag: Iraq',
-    '🇮🇷': 'flag: Iran',
-    '🇮🇸': 'flag: Iceland',
-    '🇮🇹': 'flag: Italy',
-    '🇯🇪': 'flag: Jersey',
-    '🇯🇲': 'flag: Jamaica',
-    '🇯🇴': 'flag: Jordan',
-    '🇯🇵': 'flag: Japan',
-    '🇰🇪': 'flag: Kenya',
-    '🇰🇬': 'flag: Kyrgyzstan',
-    '🇰🇭': 'flag: Cambodia',
-    '🇰🇮': 'flag: Kiribati',
-    '🇰🇲': 'flag: Comoros',
-    '🇰🇳': 'flag: St. Kitts & Nevis',
-    '🇰🇵': 'flag: North Korea',
-    '🇰🇷': 'flag: South Korea',
-    '🇰🇼': 'flag: Kuwait',
-    '🇰🇾': 'flag: Cayman Islands',
-    '🇰🇿': 'flag: Kazakhstan',
-    '🇱🇦': 'flag: Laos',
-    '🇱🇧': 'flag: Lebanon',
-    '🇱🇨': 'flag: St. Lucia',
-    '🇱🇮': 'flag: Liechtenstein',
-    '🇱🇰': 'flag: Sri Lanka',
-    '🇱🇷': 'flag: Liberia',
-    '🇱🇸': 'flag: Lesotho',
-    '🇱🇹': 'flag: Lithuania',
-    '🇱🇺': 'flag: Luxembourg',
-    '🇱🇻': 'flag: Latvia',
-    '🇱🇾': 'flag: Libya',
-    '🇲🇦': 'flag: Morocco',
-    '🇲🇨': 'flag: Monaco',
-    '🇲🇩': 'flag: Moldova',
-    '🇲🇪': 'flag: Montenegro',
-    '🇲🇫': 'flag: St. Martin',
-    '🇲🇬': 'flag: Madagascar',
-    '🇲🇭': 'flag: Marshall Islands',
-    '🇲🇰': 'flag: North Macedonia',
-    '🇲🇱': 'flag: Mali',
-    '🇲🇲': 'flag: Myanmar (Burma)',
-    '🇲🇳': 'flag: Mongolia',
-    '🇲🇴': 'flag: Macao SAR China',
-    '🇲🇵': 'flag: Northern Mariana Islands',
-    '🇲🇶': 'flag: Martinique',
-    '🇲🇷': 'flag: Mauritania',
-    '🇲🇸': 'flag: Montserrat',
-    '🇲🇹': 'flag: Malta',
-    '🇲🇺': 'flag: Mauritius',
-    '🇲🇻': 'flag: Maldives',
-    '🇲🇼': 'flag: Malawi',
-    '🇲🇽': 'flag: Mexico',
-    '🇲🇾': 'flag: Malaysia',
-    '🇲🇿': 'flag: Mozambique',
-    '🇳🇦': 'flag: Namibia',
-    '🇳🇨': 'flag: New Caledonia',
-    '🇳🇪': 'flag: Niger',
-    '🇳🇫': 'flag: Norfolk Island',
-    '🇳🇬': 'flag: Nigeria',
-    '🇳🇮': 'flag: Nicaragua',
-    '🇳🇱': 'flag: Netherlands',
-    '🇳🇴': 'flag: Norway',
-    '🇳🇵': 'flag: Nepal',
-    '🇳🇷': 'flag: Nauru',
-    '🇳🇺': 'flag: Niue',
-    '🇳🇿': 'flag: New Zealand',
-    '🇴🇲': 'flag: Oman',
-    '🇵🇦': 'flag: Panama',
-    '🇵🇪': 'flag: Peru',
-    '🇵🇫': 'flag: French Polynesia',
-    '🇵🇬': 'flag: Papua New Guinea',
-    '🇵🇭': 'flag: Philippines',
-    '🇵🇰': 'flag: Pakistan',
-    '🇵🇱': 'flag: Poland',
-    '🇵🇲': 'flag: St. Pierre & Miquelon',
-    '🇵🇳': 'flag: Pitcairn Islands',
-    '🇵🇷': 'flag: Puerto Rico',
-    '🇵🇸': 'flag: Palestinian Territories',
-    '🇵🇹': 'flag: Portugal',
-    '🇵🇼': 'flag: Palau',
-    '🇵🇾': 'flag: Paraguay',
-    '🇶🇦': 'flag: Qatar',
-    '🇷🇪': 'flag: Réunion',
-    '🇷🇴': 'flag: Romania',
-    '🇷🇸': 'flag: Serbia',
-    '🇷🇺': 'flag: Russia',
-    '🇷🇼': 'flag: Rwanda',
-    '🇸🇦': 'flag: Saudi Arabia',
-    '🇸🇧': 'flag: Solomon Islands',
-    '🇸🇨': 'flag: Seychelles',
-    '🇸🇩': 'flag: Sudan',
-    '🇸🇪': 'flag: Sweden',
-    '🇸🇬': 'flag: Singapore',
-    '🇸🇭': 'flag: St. Helena',
-    '🇸🇮': 'flag: Slovenia',
-    '🇸🇯': 'flag: Svalbard & Jan Mayen',
-    '🇸🇰': 'flag: Slovakia',
-    '🇸🇱': 'flag: Sierra Leone',
-    '🇸🇲': 'flag: San Marino',
-    '🇸🇳': 'flag: Senegal',
-    '🇸🇴': 'flag: Somalia',
-    '🇸🇷': 'flag: Suriname',
-    '🇸🇸': 'flag: South Sudan',
-    '🇸🇹': 'flag: São Tomé & Príncipe',
-    '🇸🇻': 'flag: El Salvador',
-    '🇸🇽': 'flag: Sint Maarten',
-    '🇸🇾': 'flag: Syria',
-    '🇸🇿': 'flag: Eswatini',
-    '🇹🇦': 'flag: Tristan da Cunha',
-    '🇹🇨': 'flag: Turks & Caicos Islands',
-    '🇹🇩': 'flag: Chad',
-    '🇹🇫': 'flag: French Southern Territories',
-    '🇹🇬': 'flag: Togo',
-    '🇹🇭': 'flag: Thailand',
-    '🇹🇯': 'flag: Tajikistan',
-    '🇹🇰': 'flag: Tokelau',
-    '🇹🇱': 'flag: Timor-Leste',
-    '🇹🇲': 'flag: Turkmenistan',
-    '🇹🇳': 'flag: Tunisia',
-    '🇹🇴': 'flag: Tonga',
-    '🇹🇷': 'flag: Turkey',
-    '🇹🇹': 'flag: Trinidad & Tobago',
-    '🇹🇻': 'flag: Tuvalu',
-    '🇹🇼': 'flag: Taiwan',
-    '🇹🇿': 'flag: Tanzania',
-    '🇺🇦': 'flag: Ukraine',
-    '🇺🇬': 'flag: Uganda',
-    '🇺🇲': 'flag: U.S. Outlying Islands',
-    '🇺🇳': 'flag: United Nations',
-    '🇺🇸': 'flag: United States',
-    '🇺🇾': 'flag: Uruguay',
-    '🇺🇿': 'flag: Uzbekistan',
-    '🇻🇦': 'flag: Vatican City',
-    '🇻🇨': 'flag: St. Vincent & Grenadines',
-    '🇻🇪': 'flag: Venezuela',
-    '🇻🇬': 'flag: British Virgin Islands',
-    '🇻🇮': 'flag: U.S. Virgin Islands',
-    '🇻🇳': 'flag: Vietnam',
-    '🇻🇺': 'flag: Vanuatu',
-    '🇼🇫': 'flag: Wallis & Futuna',
-    '🇼🇸': 'flag: Samoa',
-    '🇽🇰': 'flag: Kosovo',
-    '🇾🇪': 'flag: Yemen',
-    '🇾🇹': 'flag: Mayotte',
-    '🇿🇦': 'flag: South Africa',
-    '🇿🇲': 'flag: Zambia',
-    '🇿🇼': 'flag: Zimbabwe',
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿': 'flag: England',
-    '🏴󠁧󠁢󠁳󠁣󠁴󠁿': 'flag: Scotland',
-    '🏴󠁧󠁢󠁷󠁬󠁳󠁿': 'flag: Wales',
+	'😀': 'grinning face',
+	'😃': 'grinning face with big eyes',
+	'😄': 'grinning face with smiling eyes',
+	'😁': 'beaming face with smiling eyes',
+	'😆': 'grinning squinting face',
+	'😅': 'grinning face with sweat',
+	'🤣': 'rolling on the floor laughing',
+	'😂': 'face with tears of joy',
+	'🙂': 'slightly smiling face',
+	'🙃': 'upside-down face',
+	'🫠': '⊛ melting face',
+	'😉': 'winking face',
+	'😊': 'smiling face with smiling eyes',
+	'😇': 'smiling face with halo',
+	'🥰': 'smiling face with hearts',
+	'😍': 'smiling face with heart-eyes',
+	'🤩': 'star-struck',
+	'😘': 'face blowing a kiss',
+	'😗': 'kissing face',
+	'☺': 'smiling face',
+	'😚': 'kissing face with closed eyes',
+	'😙': 'kissing face with smiling eyes',
+	'🥲': 'smiling face with tear',
+	'😋': 'face savoring food',
+	'😛': 'face with tongue',
+	'😜': 'winking face with tongue',
+	'🤪': 'zany face',
+	'😝': 'squinting face with tongue',
+	'🤑': 'money-mouth face',
+	'🤗': 'smiling face with open hands',
+	'🤭': 'face with hand over mouth',
+	'🫢': '⊛ face with open eyes and hand over mouth',
+	'🫣': '⊛ face with peeking eye',
+	'🤫': 'shushing face',
+	'🤔': 'thinking face',
+	'🫡': '⊛ saluting face',
+	'🤐': 'zipper-mouth face',
+	'🤨': 'face with raised eyebrow',
+	'😐': 'neutral face',
+	'😑': 'expressionless face',
+	'😶': 'face without mouth',
+	'🫥': '⊛ dotted line face',
+	'😶‍🌫️': 'face in clouds',
+	'😏': 'smirking face',
+	'😒': 'unamused face',
+	'🙄': 'face with rolling eyes',
+	'😬': 'grimacing face',
+	'😮‍💨': 'face exhaling',
+	'🤥': 'lying face',
+	'😌': 'relieved face',
+	'😔': 'pensive face',
+	'😪': 'sleepy face',
+	'🤤': 'drooling face',
+	'😴': 'sleeping face',
+	'😷': 'face with medical mask',
+	'🤒': 'face with thermometer',
+	'🤕': 'face with head-bandage',
+	'🤢': 'nauseated face',
+	'🤮': 'face vomiting',
+	'🤧': 'sneezing face',
+	'🥵': 'hot face',
+	'🥶': 'cold face',
+	'🥴': 'woozy face',
+	'😵': 'face with crossed-out eyes',
+	'😵‍💫': 'face with spiral eyes',
+	'🤯': 'exploding head',
+	'🤠': 'cowboy hat face',
+	'🥳': 'partying face',
+	'🥸': 'disguised face',
+	'😎': 'smiling face with sunglasses',
+	'🤓': 'nerd face',
+	'🧐': 'face with monocle',
+	'😕': 'confused face',
+	'🫤': '⊛ face with diagonal mouth',
+	'😟': 'worried face',
+	'🙁': 'slightly frowning face',
+	'☹': 'frowning face',
+	'😮': 'face with open mouth',
+	'😯': 'hushed face',
+	'😲': 'astonished face',
+	'😳': 'flushed face',
+	'🥺': 'pleading face',
+	'🥹': '⊛ face holding back tears',
+	'😦': 'frowning face with open mouth',
+	'😧': 'anguished face',
+	'😨': 'fearful face',
+	'😰': 'anxious face with sweat',
+	'😥': 'sad but relieved face',
+	'😢': 'crying face',
+	'😭': 'loudly crying face',
+	'😱': 'face screaming in fear',
+	'😖': 'confounded face',
+	'😣': 'persevering face',
+	'😞': 'disappointed face',
+	'😓': 'downcast face with sweat',
+	'😩': 'weary face',
+	'😫': 'tired face',
+	'🥱': 'yawning face',
+	'😤': 'face with steam from nose',
+	'😡': 'pouting face',
+	'😠': 'angry face',
+	'🤬': 'face with symbols on mouth',
+	'😈': 'smiling face with horns',
+	'👿': 'angry face with horns',
+	'💀': 'skull',
+	'☠': 'skull and crossbones',
+	'💩': 'pile of poo',
+	'🤡': 'clown face',
+	'👹': 'ogre',
+	'👺': 'goblin',
+	'👻': 'ghost',
+	'👽': 'alien',
+	'👾': 'alien monster',
+	'🤖': 'robot',
+	'😺': 'grinning cat',
+	'😸': 'grinning cat with smiling eyes',
+	'😹': 'cat with tears of joy',
+	'😻': 'smiling cat with heart-eyes',
+	'😼': 'cat with wry smile',
+	'😽': 'kissing cat',
+	'🙀': 'weary cat',
+	'😿': 'crying cat',
+	'😾': 'pouting cat',
+	'🙈': 'see-no-evil monkey',
+	'🙉': 'hear-no-evil monkey',
+	'🙊': 'speak-no-evil monkey',
+	'💋': 'kiss mark',
+	'💌': 'love letter',
+	'💘': 'heart with arrow',
+	'💝': 'heart with ribbon',
+	'💖': 'sparkling heart',
+	'💗': 'growing heart',
+	'💓': 'beating heart',
+	'💞': 'revolving hearts',
+	'💕': 'two hearts',
+	'💟': 'heart decoration',
+	'❣': 'heart exclamation',
+	'💔': 'broken heart',
+	'❤️‍🔥': 'heart on fire',
+	'❤️‍🩹': 'mending heart',
+	'❤': 'red heart',
+	'🧡': 'orange heart',
+	'💛': 'yellow heart',
+	'💚': 'green heart',
+	'💙': 'blue heart',
+	'💜': 'purple heart',
+	'🤎': 'brown heart',
+	'🖤': 'black heart',
+	'🤍': 'white heart',
+	'💯': 'hundred points',
+	'💢': 'anger symbol',
+	'💥': 'collision',
+	'💫': 'dizzy',
+	'💦': 'sweat droplets',
+	'💨': 'dashing away',
+	'🕳': 'hole',
+	'💣': 'bomb',
+	'💬': 'speech balloon',
+	'👁️‍🗨️': 'eye in speech bubble',
+	'🗨': 'left speech bubble',
+	'🗯': 'right anger bubble',
+	'💭': 'thought balloon',
+	'💤': 'zzz',
+	'👋': 'waving hand',
+	'🤚': 'raised back of hand',
+	'🖐': 'hand with fingers splayed',
+	'✋': 'raised hand',
+	'🖖': 'vulcan salute',
+	'🫱': '⊛ rightwards hand',
+	'🫲': '⊛ leftwards hand',
+	'🫳': '⊛ palm down hand',
+	'🫴': '⊛ palm up hand',
+	'👌': 'OK hand',
+	'🤌': 'pinched fingers',
+	'🤏': 'pinching hand',
+	'✌': 'victory hand',
+	'🤞': 'crossed fingers',
+	'🫰': '⊛ hand with index finger and thumb crossed',
+	'🤟': 'love-you gesture',
+	'🤘': 'sign of the horns',
+	'🤙': 'call me hand',
+	'👈': 'backhand index pointing left',
+	'👉': 'backhand index pointing right',
+	'👆': 'backhand index pointing up',
+	'🖕': 'middle finger',
+	'👇': 'backhand index pointing down',
+	'☝': 'index pointing up',
+	'🫵': '⊛ index pointing at the viewer',
+	'👍': 'thumbs up',
+	'👎': 'thumbs down',
+	'✊': 'raised fist',
+	'👊': 'oncoming fist',
+	'🤛': 'left-facing fist',
+	'🤜': 'right-facing fist',
+	'👏': 'clapping hands',
+	'🙌': 'raising hands',
+	'🫶': '⊛ heart hands',
+	'👐': 'open hands',
+	'🤲': 'palms up together',
+	'🤝': 'handshake',
+	'🙏': 'folded hands',
+	'✍': 'writing hand',
+	'💅': 'nail polish',
+	'🤳': 'selfie',
+	'💪': 'flexed biceps',
+	'🦾': 'mechanical arm',
+	'🦿': 'mechanical leg',
+	'🦵': 'leg',
+	'🦶': 'foot',
+	'👂': 'ear',
+	'🦻': 'ear with hearing aid',
+	'👃': 'nose',
+	'🧠': 'brain',
+	'🫀': 'anatomical heart',
+	'🫁': 'lungs',
+	'🦷': 'tooth',
+	'🦴': 'bone',
+	'👀': 'eyes',
+	'👁': 'eye',
+	'👅': 'tongue',
+	'👄': 'mouth',
+	'🫦': '⊛ biting lip',
+	'👶': 'baby',
+	'🧒': 'child',
+	'👦': 'boy',
+	'👧': 'girl',
+	'🧑': 'person',
+	'👱': 'person: blond hair',
+	'👨': 'man',
+	'🧔': 'person: beard',
+	'🧔‍♂️': 'man: beard',
+	'🧔‍♀️': 'woman: beard',
+	'👨‍🦰': 'man: red hair',
+	'👨‍🦱': 'man: curly hair',
+	'👨‍🦳': 'man: white hair',
+	'👨‍🦲': 'man: bald',
+	'👩': 'woman',
+	'👩‍🦰': 'woman: red hair',
+	'🧑‍🦰': 'person: red hair',
+	'👩‍🦱': 'woman: curly hair',
+	'🧑‍🦱': 'person: curly hair',
+	'👩‍🦳': 'woman: white hair',
+	'🧑‍🦳': 'person: white hair',
+	'👩‍🦲': 'woman: bald',
+	'🧑‍🦲': 'person: bald',
+	'👱‍♀️': 'woman: blond hair',
+	'👱‍♂️': 'man: blond hair',
+	'🧓': 'older person',
+	'👴': 'old man',
+	'👵': 'old woman',
+	'🙍': 'person frowning',
+	'🙍‍♂️': 'man frowning',
+	'🙍‍♀️': 'woman frowning',
+	'🙎': 'person pouting',
+	'🙎‍♂️': 'man pouting',
+	'🙎‍♀️': 'woman pouting',
+	'🙅': 'person gesturing NO',
+	'🙅‍♂️': 'man gesturing NO',
+	'🙅‍♀️': 'woman gesturing NO',
+	'🙆': 'person gesturing OK',
+	'🙆‍♂️': 'man gesturing OK',
+	'🙆‍♀️': 'woman gesturing OK',
+	'💁': 'person tipping hand',
+	'💁‍♂️': 'man tipping hand',
+	'💁‍♀️': 'woman tipping hand',
+	'🙋': 'person raising hand',
+	'🙋‍♂️': 'man raising hand',
+	'🙋‍♀️': 'woman raising hand',
+	'🧏': 'deaf person',
+	'🧏‍♂️': 'deaf man',
+	'🧏‍♀️': 'deaf woman',
+	'🙇': 'person bowing',
+	'🙇‍♂️': 'man bowing',
+	'🙇‍♀️': 'woman bowing',
+	'🤦': 'person facepalming',
+	'🤦‍♂️': 'man facepalming',
+	'🤦‍♀️': 'woman facepalming',
+	'🤷': 'person shrugging',
+	'🤷‍♂️': 'man shrugging',
+	'🤷‍♀️': 'woman shrugging',
+	'🧑‍⚕️': 'health worker',
+	'👨‍⚕️': 'man health worker',
+	'👩‍⚕️': 'woman health worker',
+	'🧑‍🎓': 'student',
+	'👨‍🎓': 'man student',
+	'👩‍🎓': 'woman student',
+	'🧑‍🏫': 'teacher',
+	'👨‍🏫': 'man teacher',
+	'👩‍🏫': 'woman teacher',
+	'🧑‍⚖️': 'judge',
+	'👨‍⚖️': 'man judge',
+	'👩‍⚖️': 'woman judge',
+	'🧑‍🌾': 'farmer',
+	'👨‍🌾': 'man farmer',
+	'👩‍🌾': 'woman farmer',
+	'🧑‍🍳': 'cook',
+	'👨‍🍳': 'man cook',
+	'👩‍🍳': 'woman cook',
+	'🧑‍🔧': 'mechanic',
+	'👨‍🔧': 'man mechanic',
+	'👩‍🔧': 'woman mechanic',
+	'🧑‍🏭': 'factory worker',
+	'👨‍🏭': 'man factory worker',
+	'👩‍🏭': 'woman factory worker',
+	'🧑‍💼': 'office worker',
+	'👨‍💼': 'man office worker',
+	'👩‍💼': 'woman office worker',
+	'🧑‍🔬': 'scientist',
+	'👨‍🔬': 'man scientist',
+	'👩‍🔬': 'woman scientist',
+	'🧑‍💻': 'technologist',
+	'👨‍💻': 'man technologist',
+	'👩‍💻': 'woman technologist',
+	'🧑‍🎤': 'singer',
+	'👨‍🎤': 'man singer',
+	'👩‍🎤': 'woman singer',
+	'🧑‍🎨': 'artist',
+	'👨‍🎨': 'man artist',
+	'👩‍🎨': 'woman artist',
+	'🧑‍✈️': 'pilot',
+	'👨‍✈️': 'man pilot',
+	'👩‍✈️': 'woman pilot',
+	'🧑‍🚀': 'astronaut',
+	'👨‍🚀': 'man astronaut',
+	'👩‍🚀': 'woman astronaut',
+	'🧑‍🚒': 'firefighter',
+	'👨‍🚒': 'man firefighter',
+	'👩‍🚒': 'woman firefighter',
+	'👮': 'police officer',
+	'👮‍♂️': 'man police officer',
+	'👮‍♀️': 'woman police officer',
+	'🕵': 'detective',
+	'🕵️‍♂️': 'man detective',
+	'🕵️‍♀️': 'woman detective',
+	'💂': 'guard',
+	'💂‍♂️': 'man guard',
+	'💂‍♀️': 'woman guard',
+	'🥷': 'ninja',
+	'👷': 'construction worker',
+	'👷‍♂️': 'man construction worker',
+	'👷‍♀️': 'woman construction worker',
+	'🫅': '⊛ person with crown',
+	'🤴': 'prince',
+	'👸': 'princess',
+	'👳': 'person wearing turban',
+	'👳‍♂️': 'man wearing turban',
+	'👳‍♀️': 'woman wearing turban',
+	'👲': 'person with skullcap',
+	'🧕': 'woman with headscarf',
+	'🤵': 'person in tuxedo',
+	'🤵‍♂️': 'man in tuxedo',
+	'🤵‍♀️': 'woman in tuxedo',
+	'👰': 'person with veil',
+	'👰‍♂️': 'man with veil',
+	'👰‍♀️': 'woman with veil',
+	'🤰': 'pregnant woman',
+	'🫃': '⊛ pregnant man',
+	'🫄': '⊛ pregnant person',
+	'🤱': 'breast-feeding',
+	'👩‍🍼': 'woman feeding baby',
+	'👨‍🍼': 'man feeding baby',
+	'🧑‍🍼': 'person feeding baby',
+	'👼': 'baby angel',
+	'🎅': 'Santa Claus',
+	'🤶': 'Mrs. Claus',
+	'🧑‍🎄': 'mx claus',
+	'🦸': 'superhero',
+	'🦸‍♂️': 'man superhero',
+	'🦸‍♀️': 'woman superhero',
+	'🦹': 'supervillain',
+	'🦹‍♂️': 'man supervillain',
+	'🦹‍♀️': 'woman supervillain',
+	'🧙': 'mage',
+	'🧙‍♂️': 'man mage',
+	'🧙‍♀️': 'woman mage',
+	'🧚': 'fairy',
+	'🧚‍♂️': 'man fairy',
+	'🧚‍♀️': 'woman fairy',
+	'🧛': 'vampire',
+	'🧛‍♂️': 'man vampire',
+	'🧛‍♀️': 'woman vampire',
+	'🧜': 'merperson',
+	'🧜‍♂️': 'merman',
+	'🧜‍♀️': 'mermaid',
+	'🧝': 'elf',
+	'🧝‍♂️': 'man elf',
+	'🧝‍♀️': 'woman elf',
+	'🧞': 'genie',
+	'🧞‍♂️': 'man genie',
+	'🧞‍♀️': 'woman genie',
+	'🧟': 'zombie',
+	'🧟‍♂️': 'man zombie',
+	'🧟‍♀️': 'woman zombie',
+	'🧌': '⊛ troll',
+	'💆': 'person getting massage',
+	'💆‍♂️': 'man getting massage',
+	'💆‍♀️': 'woman getting massage',
+	'💇': 'person getting haircut',
+	'💇‍♂️': 'man getting haircut',
+	'💇‍♀️': 'woman getting haircut',
+	'🚶': 'person walking',
+	'🚶‍♂️': 'man walking',
+	'🚶‍♀️': 'woman walking',
+	'🧍': 'person standing',
+	'🧍‍♂️': 'man standing',
+	'🧍‍♀️': 'woman standing',
+	'🧎': 'person kneeling',
+	'🧎‍♂️': 'man kneeling',
+	'🧎‍♀️': 'woman kneeling',
+	'🧑‍🦯': 'person with white cane',
+	'👨‍🦯': 'man with white cane',
+	'👩‍🦯': 'woman with white cane',
+	'🧑‍🦼': 'person in motorized wheelchair',
+	'👨‍🦼': 'man in motorized wheelchair',
+	'👩‍🦼': 'woman in motorized wheelchair',
+	'🧑‍🦽': 'person in manual wheelchair',
+	'👨‍🦽': 'man in manual wheelchair',
+	'👩‍🦽': 'woman in manual wheelchair',
+	'🏃': 'person running',
+	'🏃‍♂️': 'man running',
+	'🏃‍♀️': 'woman running',
+	'💃': 'woman dancing',
+	'🕺': 'man dancing',
+	'🕴': 'person in suit levitating',
+	'👯': 'people with bunny ears',
+	'👯‍♂️': 'men with bunny ears',
+	'👯‍♀️': 'women with bunny ears',
+	'🧖': 'person in steamy room',
+	'🧖‍♂️': 'man in steamy room',
+	'🧖‍♀️': 'woman in steamy room',
+	'🧗': 'person climbing',
+	'🧗‍♂️': 'man climbing',
+	'🧗‍♀️': 'woman climbing',
+	'🤺': 'person fencing',
+	'🏇': 'horse racing',
+	'⛷': 'skier',
+	'🏂': 'snowboarder',
+	'🏌': 'person golfing',
+	'🏌️‍♂️': 'man golfing',
+	'🏌️‍♀️': 'woman golfing',
+	'🏄': 'person surfing',
+	'🏄‍♂️': 'man surfing',
+	'🏄‍♀️': 'woman surfing',
+	'🚣': 'person rowing boat',
+	'🚣‍♂️': 'man rowing boat',
+	'🚣‍♀️': 'woman rowing boat',
+	'🏊': 'person swimming',
+	'🏊‍♂️': 'man swimming',
+	'🏊‍♀️': 'woman swimming',
+	'⛹': 'person bouncing ball',
+	'⛹️‍♂️': 'man bouncing ball',
+	'⛹️‍♀️': 'woman bouncing ball',
+	'🏋': 'person lifting weights',
+	'🏋️‍♂️': 'man lifting weights',
+	'🏋️‍♀️': 'woman lifting weights',
+	'🚴': 'person biking',
+	'🚴‍♂️': 'man biking',
+	'🚴‍♀️': 'woman biking',
+	'🚵': 'person mountain biking',
+	'🚵‍♂️': 'man mountain biking',
+	'🚵‍♀️': 'woman mountain biking',
+	'🤸': 'person cartwheeling',
+	'🤸‍♂️': 'man cartwheeling',
+	'🤸‍♀️': 'woman cartwheeling',
+	'🤼': 'people wrestling',
+	'🤼‍♂️': 'men wrestling',
+	'🤼‍♀️': 'women wrestling',
+	'🤽': 'person playing water polo',
+	'🤽‍♂️': 'man playing water polo',
+	'🤽‍♀️': 'woman playing water polo',
+	'🤾': 'person playing handball',
+	'🤾‍♂️': 'man playing handball',
+	'🤾‍♀️': 'woman playing handball',
+	'🤹': 'person juggling',
+	'🤹‍♂️': 'man juggling',
+	'🤹‍♀️': 'woman juggling',
+	'🧘': 'person in lotus position',
+	'🧘‍♂️': 'man in lotus position',
+	'🧘‍♀️': 'woman in lotus position',
+	'🛀': 'person taking bath',
+	'🛌': 'person in bed',
+	'🧑‍🤝‍🧑': 'people holding hands',
+	'👭': 'women holding hands',
+	'👫': 'woman and man holding hands',
+	'👬': 'men holding hands',
+	'💏': 'kiss',
+	'👩‍❤️‍💋‍👨': 'kiss: woman, man',
+	'👨‍❤️‍💋‍👨': 'kiss: man, man',
+	'👩‍❤️‍💋‍👩': 'kiss: woman, woman',
+	'💑': 'couple with heart',
+	'👩‍❤️‍👨': 'couple with heart: woman, man',
+	'👨‍❤️‍👨': 'couple with heart: man, man',
+	'👩‍❤️‍👩': 'couple with heart: woman, woman',
+	'👪': 'family',
+	'👨‍👩‍👦': 'family: man, woman, boy',
+	'👨‍👩‍👧': 'family: man, woman, girl',
+	'👨‍👩‍👧‍👦': 'family: man, woman, girl, boy',
+	'👨‍👩‍👦‍👦': 'family: man, woman, boy, boy',
+	'👨‍👩‍👧‍👧': 'family: man, woman, girl, girl',
+	'👨‍👨‍👦': 'family: man, man, boy',
+	'👨‍👨‍👧': 'family: man, man, girl',
+	'👨‍👨‍👧‍👦': 'family: man, man, girl, boy',
+	'👨‍👨‍👦‍👦': 'family: man, man, boy, boy',
+	'👨‍👨‍👧‍👧': 'family: man, man, girl, girl',
+	'👩‍👩‍👦': 'family: woman, woman, boy',
+	'👩‍👩‍👧': 'family: woman, woman, girl',
+	'👩‍👩‍👧‍👦': 'family: woman, woman, girl, boy',
+	'👩‍👩‍👦‍👦': 'family: woman, woman, boy, boy',
+	'👩‍👩‍👧‍👧': 'family: woman, woman, girl, girl',
+	'👨‍👦': 'family: man, boy',
+	'👨‍👦‍👦': 'family: man, boy, boy',
+	'👨‍👧': 'family: man, girl',
+	'👨‍👧‍👦': 'family: man, girl, boy',
+	'👨‍👧‍👧': 'family: man, girl, girl',
+	'👩‍👦': 'family: woman, boy',
+	'👩‍👦‍👦': 'family: woman, boy, boy',
+	'👩‍👧': 'family: woman, girl',
+	'👩‍👧‍👦': 'family: woman, girl, boy',
+	'👩‍👧‍👧': 'family: woman, girl, girl',
+	'🗣': 'speaking head',
+	'👤': 'bust in silhouette',
+	'👥': 'busts in silhouette',
+	'🫂': 'people hugging',
+	'👣': 'footprints',
+	'🦰': 'red hair',
+	'🦱': 'curly hair',
+	'🦳': 'white hair',
+	'🦲': 'bald',
+	'🐵': 'monkey face',
+	'🐒': 'monkey',
+	'🦍': 'gorilla',
+	'🦧': 'orangutan',
+	'🐶': 'dog face',
+	'🐕': 'dog',
+	'🦮': 'guide dog',
+	'🐕‍🦺': 'service dog',
+	'🐩': 'poodle',
+	'🐺': 'wolf',
+	'🦊': 'fox',
+	'🦝': 'raccoon',
+	'🐱': 'cat face',
+	'🐈': 'cat',
+	'🐈‍⬛': 'black cat',
+	'🦁': 'lion',
+	'🐯': 'tiger face',
+	'🐅': 'tiger',
+	'🐆': 'leopard',
+	'🐴': 'horse face',
+	'🐎': 'horse',
+	'🦄': 'unicorn',
+	'🦓': 'zebra',
+	'🦌': 'deer',
+	'🦬': 'bison',
+	'🐮': 'cow face',
+	'🐂': 'ox',
+	'🐃': 'water buffalo',
+	'🐄': 'cow',
+	'🐷': 'pig face',
+	'🐖': 'pig',
+	'🐗': 'boar',
+	'🐽': 'pig nose',
+	'🐏': 'ram',
+	'🐑': 'ewe',
+	'🐐': 'goat',
+	'🐪': 'camel',
+	'🐫': 'two-hump camel',
+	'🦙': 'llama',
+	'🦒': 'giraffe',
+	'🐘': 'elephant',
+	'🦣': 'mammoth',
+	'🦏': 'rhinoceros',
+	'🦛': 'hippopotamus',
+	'🐭': 'mouse face',
+	'🐁': 'mouse',
+	'🐀': 'rat',
+	'🐹': 'hamster',
+	'🐰': 'rabbit face',
+	'🐇': 'rabbit',
+	'🐿': 'chipmunk',
+	'🦫': 'beaver',
+	'🦔': 'hedgehog',
+	'🦇': 'bat',
+	'🐻': 'bear',
+	'🐻‍❄️': 'polar bear',
+	'🐨': 'koala',
+	'🐼': 'panda',
+	'🦥': 'sloth',
+	'🦦': 'otter',
+	'🦨': 'skunk',
+	'🦘': 'kangaroo',
+	'🦡': 'badger',
+	'🐾': 'paw prints',
+	'🦃': 'turkey',
+	'🐔': 'chicken',
+	'🐓': 'rooster',
+	'🐣': 'hatching chick',
+	'🐤': 'baby chick',
+	'🐥': 'front-facing baby chick',
+	'🐦': 'bird',
+	'🐧': 'penguin',
+	'🕊': 'dove',
+	'🦅': 'eagle',
+	'🦆': 'duck',
+	'🦢': 'swan',
+	'🦉': 'owl',
+	'🦤': 'dodo',
+	'🪶': 'feather',
+	'🦩': 'flamingo',
+	'🦚': 'peacock',
+	'🦜': 'parrot',
+	'🐸': 'frog',
+	'🐊': 'crocodile',
+	'🐢': 'turtle',
+	'🦎': 'lizard',
+	'🐍': 'snake',
+	'🐲': 'dragon face',
+	'🐉': 'dragon',
+	'🦕': 'sauropod',
+	'🦖': 'T-Rex',
+	'🐳': 'spouting whale',
+	'🐋': 'whale',
+	'🐬': 'dolphin',
+	'🦭': 'seal',
+	'🐟': 'fish',
+	'🐠': 'tropical fish',
+	'🐡': 'blowfish',
+	'🦈': 'shark',
+	'🐙': 'octopus',
+	'🐚': 'spiral shell',
+	'🪸': '⊛ coral',
+	'🐌': 'snail',
+	'🦋': 'butterfly',
+	'🐛': 'bug',
+	'🐜': 'ant',
+	'🐝': 'honeybee',
+	'🪲': 'beetle',
+	'🐞': 'lady beetle',
+	'🦗': 'cricket',
+	'🪳': 'cockroach',
+	'🕷': 'spider',
+	'🕸': 'spider web',
+	'🦂': 'scorpion',
+	'🦟': 'mosquito',
+	'🪰': 'fly',
+	'🪱': 'worm',
+	'🦠': 'microbe',
+	'💐': 'bouquet',
+	'🌸': 'cherry blossom',
+	'💮': 'white flower',
+	'🪷': '⊛ lotus',
+	'🏵': 'rosette',
+	'🌹': 'rose',
+	'🥀': 'wilted flower',
+	'🌺': 'hibiscus',
+	'🌻': 'sunflower',
+	'🌼': 'blossom',
+	'🌷': 'tulip',
+	'🌱': 'seedling',
+	'🪴': 'potted plant',
+	'🌲': 'evergreen tree',
+	'🌳': 'deciduous tree',
+	'🌴': 'palm tree',
+	'🌵': 'cactus',
+	'🌾': 'sheaf of rice',
+	'🌿': 'herb',
+	'☘': 'shamrock',
+	'🍀': 'four leaf clover',
+	'🍁': 'maple leaf',
+	'🍂': 'fallen leaf',
+	'🍃': 'leaf fluttering in wind',
+	'🪹': '⊛ empty nest',
+	'🪺': '⊛ nest with eggs',
+	'🍇': 'grapes',
+	'🍈': 'melon',
+	'🍉': 'watermelon',
+	'🍊': 'tangerine',
+	'🍋': 'lemon',
+	'🍌': 'banana',
+	'🍍': 'pineapple',
+	'🥭': 'mango',
+	'🍎': 'red apple',
+	'🍏': 'green apple',
+	'🍐': 'pear',
+	'🍑': 'peach',
+	'🍒': 'cherries',
+	'🍓': 'strawberry',
+	'🫐': 'blueberries',
+	'🥝': 'kiwi fruit',
+	'🍅': 'tomato',
+	'🫒': 'olive',
+	'🥥': 'coconut',
+	'🥑': 'avocado',
+	'🍆': 'eggplant',
+	'🥔': 'potato',
+	'🥕': 'carrot',
+	'🌽': 'ear of corn',
+	'🌶': 'hot pepper',
+	'🫑': 'bell pepper',
+	'🥒': 'cucumber',
+	'🥬': 'leafy green',
+	'🥦': 'broccoli',
+	'🧄': 'garlic',
+	'🧅': 'onion',
+	'🍄': 'mushroom',
+	'🥜': 'peanuts',
+	'🫘': '⊛ beans',
+	'🌰': 'chestnut',
+	'🍞': 'bread',
+	'🥐': 'croissant',
+	'🥖': 'baguette bread',
+	'🫓': 'flatbread',
+	'🥨': 'pretzel',
+	'🥯': 'bagel',
+	'🥞': 'pancakes',
+	'🧇': 'waffle',
+	'🧀': 'cheese wedge',
+	'🍖': 'meat on bone',
+	'🍗': 'poultry leg',
+	'🥩': 'cut of meat',
+	'🥓': 'bacon',
+	'🍔': 'hamburger',
+	'🍟': 'french fries',
+	'🍕': 'pizza',
+	'🌭': 'hot dog',
+	'🥪': 'sandwich',
+	'🌮': 'taco',
+	'🌯': 'burrito',
+	'🫔': 'tamale',
+	'🥙': 'stuffed flatbread',
+	'🧆': 'falafel',
+	'🥚': 'egg',
+	'🍳': 'cooking',
+	'🥘': 'shallow pan of food',
+	'🍲': 'pot of food',
+	'🫕': 'fondue',
+	'🥣': 'bowl with spoon',
+	'🥗': 'green salad',
+	'🍿': 'popcorn',
+	'🧈': 'butter',
+	'🧂': 'salt',
+	'🥫': 'canned food',
+	'🍱': 'bento box',
+	'🍘': 'rice cracker',
+	'🍙': 'rice ball',
+	'🍚': 'cooked rice',
+	'🍛': 'curry rice',
+	'🍜': 'steaming bowl',
+	'🍝': 'spaghetti',
+	'🍠': 'roasted sweet potato',
+	'🍢': 'oden',
+	'🍣': 'sushi',
+	'🍤': 'fried shrimp',
+	'🍥': 'fish cake with swirl',
+	'🥮': 'moon cake',
+	'🍡': 'dango',
+	'🥟': 'dumpling',
+	'🥠': 'fortune cookie',
+	'🥡': 'takeout box',
+	'🦀': 'crab',
+	'🦞': 'lobster',
+	'🦐': 'shrimp',
+	'🦑': 'squid',
+	'🦪': 'oyster',
+	'🍦': 'soft ice cream',
+	'🍧': 'shaved ice',
+	'🍨': 'ice cream',
+	'🍩': 'doughnut',
+	'🍪': 'cookie',
+	'🎂': 'birthday cake',
+	'🍰': 'shortcake',
+	'🧁': 'cupcake',
+	'🥧': 'pie',
+	'🍫': 'chocolate bar',
+	'🍬': 'candy',
+	'🍭': 'lollipop',
+	'🍮': 'custard',
+	'🍯': 'honey pot',
+	'🍼': 'baby bottle',
+	'🥛': 'glass of milk',
+	'☕': 'hot beverage',
+	'🫖': 'teapot',
+	'🍵': 'teacup without handle',
+	'🍶': 'sake',
+	'🍾': 'bottle with popping cork',
+	'🍷': 'wine glass',
+	'🍸': 'cocktail glass',
+	'🍹': 'tropical drink',
+	'🍺': 'beer mug',
+	'🍻': 'clinking beer mugs',
+	'🥂': 'clinking glasses',
+	'🥃': 'tumbler glass',
+	'🫗': '⊛ pouring liquid',
+	'🥤': 'cup with straw',
+	'🧋': 'bubble tea',
+	'🧃': 'beverage box',
+	'🧉': 'mate',
+	'🧊': 'ice',
+	'🥢': 'chopsticks',
+	'🍽': 'fork and knife with plate',
+	'🍴': 'fork and knife',
+	'🥄': 'spoon',
+	'🔪': 'kitchen knife',
+	'🫙': '⊛ jar',
+	'🏺': 'amphora',
+	'🌍': 'globe showing Europe-Africa',
+	'🌎': 'globe showing Americas',
+	'🌏': 'globe showing Asia-Australia',
+	'🌐': 'globe with meridians',
+	'🗺': 'world map',
+	'🗾': 'map of Japan',
+	'🧭': 'compass',
+	'🏔': 'snow-capped mountain',
+	'⛰': 'mountain',
+	'🌋': 'volcano',
+	'🗻': 'mount fuji',
+	'🏕': 'camping',
+	'🏖': 'beach with umbrella',
+	'🏜': 'desert',
+	'🏝': 'desert island',
+	'🏞': 'national park',
+	'🏟': 'stadium',
+	'🏛': 'classical building',
+	'🏗': 'building construction',
+	'🧱': 'brick',
+	'🪨': 'rock',
+	'🪵': 'wood',
+	'🛖': 'hut',
+	'🏘': 'houses',
+	'🏚': 'derelict house',
+	'🏠': 'house',
+	'🏡': 'house with garden',
+	'🏢': 'office building',
+	'🏣': 'Japanese post office',
+	'🏤': 'post office',
+	'🏥': 'hospital',
+	'🏦': 'bank',
+	'🏨': 'hotel',
+	'🏩': 'love hotel',
+	'🏪': 'convenience store',
+	'🏫': 'school',
+	'🏬': 'department store',
+	'🏭': 'factory',
+	'🏯': 'Japanese castle',
+	'🏰': 'castle',
+	'💒': 'wedding',
+	'🗼': 'Tokyo tower',
+	'🗽': 'Statue of Liberty',
+	'⛪': 'church',
+	'🕌': 'mosque',
+	'🛕': 'hindu temple',
+	'🕍': 'synagogue',
+	'⛩': 'shinto shrine',
+	'🕋': 'kaaba',
+	'⛲': 'fountain',
+	'⛺': 'tent',
+	'🌁': 'foggy',
+	'🌃': 'night with stars',
+	'🏙': 'cityscape',
+	'🌄': 'sunrise over mountains',
+	'🌅': 'sunrise',
+	'🌆': 'cityscape at dusk',
+	'🌇': 'sunset',
+	'🌉': 'bridge at night',
+	'♨': 'hot springs',
+	'🎠': 'carousel horse',
+	'🛝': '⊛ playground slide',
+	'🎡': 'ferris wheel',
+	'🎢': 'roller coaster',
+	'💈': 'barber pole',
+	'🎪': 'circus tent',
+	'🚂': 'locomotive',
+	'🚃': 'railway car',
+	'🚄': 'high-speed train',
+	'🚅': 'bullet train',
+	'🚆': 'train',
+	'🚇': 'metro',
+	'🚈': 'light rail',
+	'🚉': 'station',
+	'🚊': 'tram',
+	'🚝': 'monorail',
+	'🚞': 'mountain railway',
+	'🚋': 'tram car',
+	'🚌': 'bus',
+	'🚍': 'oncoming bus',
+	'🚎': 'trolleybus',
+	'🚐': 'minibus',
+	'🚑': 'ambulance',
+	'🚒': 'fire engine',
+	'🚓': 'police car',
+	'🚔': 'oncoming police car',
+	'🚕': 'taxi',
+	'🚖': 'oncoming taxi',
+	'🚗': 'automobile',
+	'🚘': 'oncoming automobile',
+	'🚙': 'sport utility vehicle',
+	'🛻': 'pickup truck',
+	'🚚': 'delivery truck',
+	'🚛': 'articulated lorry',
+	'🚜': 'tractor',
+	'🏎': 'racing car',
+	'🏍': 'motorcycle',
+	'🛵': 'motor scooter',
+	'🦽': 'manual wheelchair',
+	'🦼': 'motorized wheelchair',
+	'🛺': 'auto rickshaw',
+	'🚲': 'bicycle',
+	'🛴': 'kick scooter',
+	'🛹': 'skateboard',
+	'🛼': 'roller skate',
+	'🚏': 'bus stop',
+	'🛣': 'motorway',
+	'🛤': 'railway track',
+	'🛢': 'oil drum',
+	'⛽': 'fuel pump',
+	'🛞': '⊛ wheel',
+	'🚨': 'police car light',
+	'🚥': 'horizontal traffic light',
+	'🚦': 'vertical traffic light',
+	'🛑': 'stop sign',
+	'🚧': 'construction',
+	'⚓': 'anchor',
+	'🛟': '⊛ ring buoy',
+	'⛵': 'sailboat',
+	'🛶': 'canoe',
+	'🚤': 'speedboat',
+	'🛳': 'passenger ship',
+	'⛴': 'ferry',
+	'🛥': 'motor boat',
+	'🚢': 'ship',
+	'✈': 'airplane',
+	'🛩': 'small airplane',
+	'🛫': 'airplane departure',
+	'🛬': 'airplane arrival',
+	'🪂': 'parachute',
+	'💺': 'seat',
+	'🚁': 'helicopter',
+	'🚟': 'suspension railway',
+	'🚠': 'mountain cableway',
+	'🚡': 'aerial tramway',
+	'🛰': 'satellite',
+	'🚀': 'rocket',
+	'🛸': 'flying saucer',
+	'🛎': 'bellhop bell',
+	'🧳': 'luggage',
+	'⌛': 'hourglass done',
+	'⏳': 'hourglass not done',
+	'⌚': 'watch',
+	'⏰': 'alarm clock',
+	'⏱': 'stopwatch',
+	'⏲': 'timer clock',
+	'🕰': 'mantelpiece clock',
+	'🕛': 'twelve o’clock',
+	'🕧': 'twelve-thirty',
+	'🕐': 'one o’clock',
+	'🕜': 'one-thirty',
+	'🕑': 'two o’clock',
+	'🕝': 'two-thirty',
+	'🕒': 'three o’clock',
+	'🕞': 'three-thirty',
+	'🕓': 'four o’clock',
+	'🕟': 'four-thirty',
+	'🕔': 'five o’clock',
+	'🕠': 'five-thirty',
+	'🕕': 'six o’clock',
+	'🕡': 'six-thirty',
+	'🕖': 'seven o’clock',
+	'🕢': 'seven-thirty',
+	'🕗': 'eight o’clock',
+	'🕣': 'eight-thirty',
+	'🕘': 'nine o’clock',
+	'🕤': 'nine-thirty',
+	'🕙': 'ten o’clock',
+	'🕥': 'ten-thirty',
+	'🕚': 'eleven o’clock',
+	'🕦': 'eleven-thirty',
+	'🌑': 'new moon',
+	'🌒': 'waxing crescent moon',
+	'🌓': 'first quarter moon',
+	'🌔': 'waxing gibbous moon',
+	'🌕': 'full moon',
+	'🌖': 'waning gibbous moon',
+	'🌗': 'last quarter moon',
+	'🌘': 'waning crescent moon',
+	'🌙': 'crescent moon',
+	'🌚': 'new moon face',
+	'🌛': 'first quarter moon face',
+	'🌜': 'last quarter moon face',
+	'🌡': 'thermometer',
+	'☀': 'sun',
+	'🌝': 'full moon face',
+	'🌞': 'sun with face',
+	'🪐': 'ringed planet',
+	'⭐': 'star',
+	'🌟': 'glowing star',
+	'🌠': 'shooting star',
+	'🌌': 'milky way',
+	'☁': 'cloud',
+	'⛅': 'sun behind cloud',
+	'⛈': 'cloud with lightning and rain',
+	'🌤': 'sun behind small cloud',
+	'🌥': 'sun behind large cloud',
+	'🌦': 'sun behind rain cloud',
+	'🌧': 'cloud with rain',
+	'🌨': 'cloud with snow',
+	'🌩': 'cloud with lightning',
+	'🌪': 'tornado',
+	'🌫': 'fog',
+	'🌬': 'wind face',
+	'🌀': 'cyclone',
+	'🌈': 'rainbow',
+	'🌂': 'closed umbrella',
+	'☂': 'umbrella',
+	'☔': 'umbrella with rain drops',
+	'⛱': 'umbrella on ground',
+	'⚡': 'high voltage',
+	'❄': 'snowflake',
+	'☃': 'snowman',
+	'⛄': 'snowman without snow',
+	'☄': 'comet',
+	'🔥': 'fire',
+	'💧': 'droplet',
+	'🌊': 'water wave',
+	'🎃': 'jack-o-lantern',
+	'🎄': 'Christmas tree',
+	'🎆': 'fireworks',
+	'🎇': 'sparkler',
+	'🧨': 'firecracker',
+	'✨': 'sparkles',
+	'🎈': 'balloon',
+	'🎉': 'party popper',
+	'🎊': 'confetti ball',
+	'🎋': 'tanabata tree',
+	'🎍': 'pine decoration',
+	'🎎': 'Japanese dolls',
+	'🎏': 'carp streamer',
+	'🎐': 'wind chime',
+	'🎑': 'moon viewing ceremony',
+	'🧧': 'red envelope',
+	'🎀': 'ribbon',
+	'🎁': 'wrapped gift',
+	'🎗': 'reminder ribbon',
+	'🎟': 'admission tickets',
+	'🎫': 'ticket',
+	'🎖': 'military medal',
+	'🏆': 'trophy',
+	'🏅': 'sports medal',
+	'🥇': '1st place medal',
+	'🥈': '2nd place medal',
+	'🥉': '3rd place medal',
+	'⚽': 'soccer ball',
+	'⚾': 'baseball',
+	'🥎': 'softball',
+	'🏀': 'basketball',
+	'🏐': 'volleyball',
+	'🏈': 'american football',
+	'🏉': 'rugby football',
+	'🎾': 'tennis',
+	'🥏': 'flying disc',
+	'🎳': 'bowling',
+	'🏏': 'cricket game',
+	'🏑': 'field hockey',
+	'🏒': 'ice hockey',
+	'🥍': 'lacrosse',
+	'🏓': 'ping pong',
+	'🏸': 'badminton',
+	'🥊': 'boxing glove',
+	'🥋': 'martial arts uniform',
+	'🥅': 'goal net',
+	'⛳': 'flag in hole',
+	'⛸': 'ice skate',
+	'🎣': 'fishing pole',
+	'🤿': 'diving mask',
+	'🎽': 'running shirt',
+	'🎿': 'skis',
+	'🛷': 'sled',
+	'🥌': 'curling stone',
+	'🎯': 'bullseye',
+	'🪀': 'yo-yo',
+	'🪁': 'kite',
+	'🎱': 'pool 8 ball',
+	'🔮': 'crystal ball',
+	'🪄': 'magic wand',
+	'🧿': 'nazar amulet',
+	'🪬': '⊛ hamsa',
+	'🎮': 'video game',
+	'🕹': 'joystick',
+	'🎰': 'slot machine',
+	'🎲': 'game die',
+	'🧩': 'puzzle piece',
+	'🧸': 'teddy bear',
+	'🪅': 'piñata',
+	'🪩': '⊛ mirror ball',
+	'🪆': 'nesting dolls',
+	'♠': 'spade suit',
+	'♥': 'heart suit',
+	'♦': 'diamond suit',
+	'♣': 'club suit',
+	'♟': 'chess pawn',
+	'🃏': 'joker',
+	'🀄': 'mahjong red dragon',
+	'🎴': 'flower playing cards',
+	'🎭': 'performing arts',
+	'🖼': 'framed picture',
+	'🎨': 'artist palette',
+	'🧵': 'thread',
+	'🪡': 'sewing needle',
+	'🧶': 'yarn',
+	'🪢': 'knot',
+	'👓': 'glasses',
+	'🕶': 'sunglasses',
+	'🥽': 'goggles',
+	'🥼': 'lab coat',
+	'🦺': 'safety vest',
+	'👔': 'necktie',
+	'👕': 't-shirt',
+	'👖': 'jeans',
+	'🧣': 'scarf',
+	'🧤': 'gloves',
+	'🧥': 'coat',
+	'🧦': 'socks',
+	'👗': 'dress',
+	'👘': 'kimono',
+	'🥻': 'sari',
+	'🩱': 'one-piece swimsuit',
+	'🩲': 'briefs',
+	'🩳': 'shorts',
+	'👙': 'bikini',
+	'👚': 'woman’s clothes',
+	'👛': 'purse',
+	'👜': 'handbag',
+	'👝': 'clutch bag',
+	'🛍': 'shopping bags',
+	'🎒': 'backpack',
+	'🩴': 'thong sandal',
+	'👞': 'man’s shoe',
+	'👟': 'running shoe',
+	'🥾': 'hiking boot',
+	'🥿': 'flat shoe',
+	'👠': 'high-heeled shoe',
+	'👡': 'woman’s sandal',
+	'🩰': 'ballet shoes',
+	'👢': 'woman’s boot',
+	'👑': 'crown',
+	'👒': 'woman’s hat',
+	'🎩': 'top hat',
+	'🎓': 'graduation cap',
+	'🧢': 'billed cap',
+	'🪖': 'military helmet',
+	'⛑': 'rescue worker’s helmet',
+	'📿': 'prayer beads',
+	'💄': 'lipstick',
+	'💍': 'ring',
+	'💎': 'gem stone',
+	'🔇': 'muted speaker',
+	'🔈': 'speaker low volume',
+	'🔉': 'speaker medium volume',
+	'🔊': 'speaker high volume',
+	'📢': 'loudspeaker',
+	'📣': 'megaphone',
+	'📯': 'postal horn',
+	'🔔': 'bell',
+	'🔕': 'bell with slash',
+	'🎼': 'musical score',
+	'🎵': 'musical note',
+	'🎶': 'musical notes',
+	'🎙': 'studio microphone',
+	'🎚': 'level slider',
+	'🎛': 'control knobs',
+	'🎤': 'microphone',
+	'🎧': 'headphone',
+	'📻': 'radio',
+	'🎷': 'saxophone',
+	'🪗': 'accordion',
+	'🎸': 'guitar',
+	'🎹': 'musical keyboard',
+	'🎺': 'trumpet',
+	'🎻': 'violin',
+	'🪕': 'banjo',
+	'🥁': 'drum',
+	'🪘': 'long drum',
+	'📱': 'mobile phone',
+	'📲': 'mobile phone with arrow',
+	'☎': 'telephone',
+	'📞': 'telephone receiver',
+	'📟': 'pager',
+	'📠': 'fax machine',
+	'🔋': 'battery',
+	'🪫': '⊛ low battery',
+	'🔌': 'electric plug',
+	'💻': 'laptop',
+	'🖥': 'desktop computer',
+	'🖨': 'printer',
+	'⌨': 'keyboard',
+	'🖱': 'computer mouse',
+	'🖲': 'trackball',
+	'💽': 'computer disk',
+	'💾': 'floppy disk',
+	'💿': 'optical disk',
+	'📀': 'dvd',
+	'🧮': 'abacus',
+	'🎥': 'movie camera',
+	'🎞': 'film frames',
+	'📽': 'film projector',
+	'🎬': 'clapper board',
+	'📺': 'television',
+	'📷': 'camera',
+	'📸': 'camera with flash',
+	'📹': 'video camera',
+	'📼': 'videocassette',
+	'🔍': 'magnifying glass tilted left',
+	'🔎': 'magnifying glass tilted right',
+	'🕯': 'candle',
+	'💡': 'light bulb',
+	'🔦': 'flashlight',
+	'🏮': 'red paper lantern',
+	'🪔': 'diya lamp',
+	'📔': 'notebook with decorative cover',
+	'📕': 'closed book',
+	'📖': 'open book',
+	'📗': 'green book',
+	'📘': 'blue book',
+	'📙': 'orange book',
+	'📚': 'books',
+	'📓': 'notebook',
+	'📒': 'ledger',
+	'📃': 'page with curl',
+	'📜': 'scroll',
+	'📄': 'page facing up',
+	'📰': 'newspaper',
+	'🗞': 'rolled-up newspaper',
+	'📑': 'bookmark tabs',
+	'🔖': 'bookmark',
+	'🏷': 'label',
+	'💰': 'money bag',
+	'🪙': 'coin',
+	'💴': 'yen banknote',
+	'💵': 'dollar banknote',
+	'💶': 'euro banknote',
+	'💷': 'pound banknote',
+	'💸': 'money with wings',
+	'💳': 'credit card',
+	'🧾': 'receipt',
+	'💹': 'chart increasing with yen',
+	'✉': 'envelope',
+	'📧': 'e-mail',
+	'📨': 'incoming envelope',
+	'📩': 'envelope with arrow',
+	'📤': 'outbox tray',
+	'📥': 'inbox tray',
+	'📦': 'package',
+	'📫': 'closed mailbox with raised flag',
+	'📪': 'closed mailbox with lowered flag',
+	'📬': 'open mailbox with raised flag',
+	'📭': 'open mailbox with lowered flag',
+	'📮': 'postbox',
+	'🗳': 'ballot box with ballot',
+	'✏': 'pencil',
+	'✒': 'black nib',
+	'🖋': 'fountain pen',
+	'🖊': 'pen',
+	'🖌': 'paintbrush',
+	'🖍': 'crayon',
+	'📝': 'memo',
+	'💼': 'briefcase',
+	'📁': 'file folder',
+	'📂': 'open file folder',
+	'🗂': 'card index dividers',
+	'📅': 'calendar',
+	'📆': 'tear-off calendar',
+	'🗒': 'spiral notepad',
+	'🗓': 'spiral calendar',
+	'📇': 'card index',
+	'📈': 'chart increasing',
+	'📉': 'chart decreasing',
+	'📊': 'bar chart',
+	'📋': 'clipboard',
+	'📌': 'pushpin',
+	'📍': 'round pushpin',
+	'📎': 'paperclip',
+	'🖇': 'linked paperclips',
+	'📏': 'straight ruler',
+	'📐': 'triangular ruler',
+	'✂': 'scissors',
+	'🗃': 'card file box',
+	'🗄': 'file cabinet',
+	'🗑': 'wastebasket',
+	'🔒': 'locked',
+	'🔓': 'unlocked',
+	'🔏': 'locked with pen',
+	'🔐': 'locked with key',
+	'🔑': 'key',
+	'🗝': 'old key',
+	'🔨': 'hammer',
+	'🪓': 'axe',
+	'⛏': 'pick',
+	'⚒': 'hammer and pick',
+	'🛠': 'hammer and wrench',
+	'🗡': 'dagger',
+	'⚔': 'crossed swords',
+	'🔫': 'water pistol',
+	'🪃': 'boomerang',
+	'🏹': 'bow and arrow',
+	'🛡': 'shield',
+	'🪚': 'carpentry saw',
+	'🔧': 'wrench',
+	'🪛': 'screwdriver',
+	'🔩': 'nut and bolt',
+	'⚙': 'gear',
+	'🗜': 'clamp',
+	'⚖': 'balance scale',
+	'🦯': 'white cane',
+	'🔗': 'link',
+	'⛓': 'chains',
+	'🪝': 'hook',
+	'🧰': 'toolbox',
+	'🧲': 'magnet',
+	'🪜': 'ladder',
+	'⚗': 'alembic',
+	'🧪': 'test tube',
+	'🧫': 'petri dish',
+	'🧬': 'dna',
+	'🔬': 'microscope',
+	'🔭': 'telescope',
+	'📡': 'satellite antenna',
+	'💉': 'syringe',
+	'🩸': 'drop of blood',
+	'💊': 'pill',
+	'🩹': 'adhesive bandage',
+	'🩼': '⊛ crutch',
+	'🩺': 'stethoscope',
+	'🩻': '⊛ x-ray',
+	'🚪': 'door',
+	'🛗': 'elevator',
+	'🪞': 'mirror',
+	'🪟': 'window',
+	'🛏': 'bed',
+	'🛋': 'couch and lamp',
+	'🪑': 'chair',
+	'🚽': 'toilet',
+	'🪠': 'plunger',
+	'🚿': 'shower',
+	'🛁': 'bathtub',
+	'🪤': 'mouse trap',
+	'🪒': 'razor',
+	'🧴': 'lotion bottle',
+	'🧷': 'safety pin',
+	'🧹': 'broom',
+	'🧺': 'basket',
+	'🧻': 'roll of paper',
+	'🪣': 'bucket',
+	'🧼': 'soap',
+	'🫧': '⊛ bubbles',
+	'🪥': 'toothbrush',
+	'🧽': 'sponge',
+	'🧯': 'fire extinguisher',
+	'🛒': 'shopping cart',
+	'🚬': 'cigarette',
+	'⚰': 'coffin',
+	'🪦': 'headstone',
+	'⚱': 'funeral urn',
+	'🗿': 'moai',
+	'🪧': 'placard',
+	'🪪': '⊛ identification card',
+	'🏧': 'ATM sign',
+	'🚮': 'litter in bin sign',
+	'🚰': 'potable water',
+	'♿': 'wheelchair symbol',
+	'🚹': 'men’s room',
+	'🚺': 'women’s room',
+	'🚻': 'restroom',
+	'🚼': 'baby symbol',
+	'🚾': 'water closet',
+	'🛂': 'passport control',
+	'🛃': 'customs',
+	'🛄': 'baggage claim',
+	'🛅': 'left luggage',
+	'⚠': 'warning',
+	'🚸': 'children crossing',
+	'⛔': 'no entry',
+	'🚫': 'prohibited',
+	'🚳': 'no bicycles',
+	'🚭': 'no smoking',
+	'🚯': 'no littering',
+	'🚱': 'non-potable water',
+	'🚷': 'no pedestrians',
+	'📵': 'no mobile phones',
+	'🔞': 'no one under eighteen',
+	'☢': 'radioactive',
+	'☣': 'biohazard',
+	'⬆': 'up arrow',
+	'↗': 'up-right arrow',
+	'➡': 'right arrow',
+	'↘': 'down-right arrow',
+	'⬇': 'down arrow',
+	'↙': 'down-left arrow',
+	'⬅': 'left arrow',
+	'↖': 'up-left arrow',
+	'↕': 'up-down arrow',
+	'↔': 'left-right arrow',
+	'↩': 'right arrow curving left',
+	'↪': 'left arrow curving right',
+	'⤴': 'right arrow curving up',
+	'⤵': 'right arrow curving down',
+	'🔃': 'clockwise vertical arrows',
+	'🔄': 'counterclockwise arrows button',
+	'🔙': 'BACK arrow',
+	'🔚': 'END arrow',
+	'🔛': 'ON! arrow',
+	'🔜': 'SOON arrow',
+	'🔝': 'TOP arrow',
+	'🛐': 'place of worship',
+	'⚛': 'atom symbol',
+	'🕉': 'om',
+	'✡': 'star of David',
+	'☸': 'wheel of dharma',
+	'☯': 'yin yang',
+	'✝': 'latin cross',
+	'☦': 'orthodox cross',
+	'☪': 'star and crescent',
+	'☮': 'peace symbol',
+	'🕎': 'menorah',
+	'🔯': 'dotted six-pointed star',
+	'♈': 'Aries',
+	'♉': 'Taurus',
+	'♊': 'Gemini',
+	'♋': 'Cancer',
+	'♌': 'Leo',
+	'♍': 'Virgo',
+	'♎': 'Libra',
+	'♏': 'Scorpio',
+	'♐': 'Sagittarius',
+	'♑': 'Capricorn',
+	'♒': 'Aquarius',
+	'♓': 'Pisces',
+	'⛎': 'Ophiuchus',
+	'🔀': 'shuffle tracks button',
+	'🔁': 'repeat button',
+	'🔂': 'repeat single button',
+	'▶': 'play button',
+	'⏩': 'fast-forward button',
+	'⏭': 'next track button',
+	'⏯': 'play or pause button',
+	'◀': 'reverse button',
+	'⏪': 'fast reverse button',
+	'⏮': 'last track button',
+	'🔼': 'upwards button',
+	'⏫': 'fast up button',
+	'🔽': 'downwards button',
+	'⏬': 'fast down button',
+	'⏸': 'pause button',
+	'⏹': 'stop button',
+	'⏺': 'record button',
+	'⏏': 'eject button',
+	'🎦': 'cinema',
+	'🔅': 'dim button',
+	'🔆': 'bright button',
+	'📶': 'antenna bars',
+	'📳': 'vibration mode',
+	'📴': 'mobile phone off',
+	'♀': 'female sign',
+	'♂': 'male sign',
+	'⚧': 'transgender symbol',
+	'✖': 'multiply',
+	'➕': 'plus',
+	'➖': 'minus',
+	'➗': 'divide',
+	'🟰': '⊛ heavy equals sign',
+	'♾': 'infinity',
+	'‼': 'double exclamation mark',
+	'⁉': 'exclamation question mark',
+	'❓': 'red question mark',
+	'❔': 'white question mark',
+	'❕': 'white exclamation mark',
+	'❗': 'red exclamation mark',
+	'〰': 'wavy dash',
+	'💱': 'currency exchange',
+	'💲': 'heavy dollar sign',
+	'⚕': 'medical symbol',
+	'♻': 'recycling symbol',
+	'⚜': 'fleur-de-lis',
+	'🔱': 'trident emblem',
+	'📛': 'name badge',
+	'🔰': 'Japanese symbol for beginner',
+	'⭕': 'hollow red circle',
+	'✅': 'check mark button',
+	'☑': 'check box with check',
+	'✔': 'check mark',
+	'❌': 'cross mark',
+	'❎': 'cross mark button',
+	'➰': 'curly loop',
+	'➿': 'double curly loop',
+	'〽': 'part alternation mark',
+	'✳': 'eight-spoked asterisk',
+	'✴': 'eight-pointed star',
+	'❇': 'sparkle',
+	'©': 'copyright',
+	'®': 'registered',
+	'™': 'trade mark',
+	'#️⃣': 'keycap: #',
+	'*️⃣': 'keycap: *',
+	'0️⃣': 'keycap: 0',
+	'1️⃣': 'keycap: 1',
+	'2️⃣': 'keycap: 2',
+	'3️⃣': 'keycap: 3',
+	'4️⃣': 'keycap: 4',
+	'5️⃣': 'keycap: 5',
+	'6️⃣': 'keycap: 6',
+	'7️⃣': 'keycap: 7',
+	'8️⃣': 'keycap: 8',
+	'9️⃣': 'keycap: 9',
+	'🔟': 'keycap: 10',
+	'🔠': 'input latin uppercase',
+	'🔡': 'input latin lowercase',
+	'🔢': 'input numbers',
+	'🔣': 'input symbols',
+	'🔤': 'input latin letters',
+	'🅰': 'A button (blood type)',
+	'🆎': 'AB button (blood type)',
+	'🅱': 'B button (blood type)',
+	'🆑': 'CL button',
+	'🆒': 'COOL button',
+	'🆓': 'FREE button',
+	ℹ: 'information',
+	'🆔': 'ID button',
+	'Ⓜ': 'circled M',
+	'🆕': 'NEW button',
+	'🆖': 'NG button',
+	'🅾': 'O button (blood type)',
+	'🆗': 'OK button',
+	'🅿': 'P button',
+	'🆘': 'SOS button',
+	'🆙': 'UP! button',
+	'🆚': 'VS button',
+	'🈁': 'Japanese “here” button',
+	'🈂': 'Japanese “service charge” button',
+	'🈷': 'Japanese “monthly amount” button',
+	'🈶': 'Japanese “not free of charge” button',
+	'🈯': 'Japanese “reserved” button',
+	'🉐': 'Japanese “bargain” button',
+	'🈹': 'Japanese “discount” button',
+	'🈚': 'Japanese “free of charge” button',
+	'🈲': 'Japanese “prohibited” button',
+	'🉑': 'Japanese “acceptable” button',
+	'🈸': 'Japanese “application” button',
+	'🈴': 'Japanese “passing grade” button',
+	'🈳': 'Japanese “vacancy” button',
+	'㊗': 'Japanese “congratulations” button',
+	'㊙': 'Japanese “secret” button',
+	'🈺': 'Japanese “open for business” button',
+	'🈵': 'Japanese “no vacancy” button',
+	'🔴': 'red circle',
+	'🟠': 'orange circle',
+	'🟡': 'yellow circle',
+	'🟢': 'green circle',
+	'🔵': 'blue circle',
+	'🟣': 'purple circle',
+	'🟤': 'brown circle',
+	'⚫': 'black circle',
+	'⚪': 'white circle',
+	'🟥': 'red square',
+	'🟧': 'orange square',
+	'🟨': 'yellow square',
+	'🟩': 'green square',
+	'🟦': 'blue square',
+	'🟪': 'purple square',
+	'🟫': 'brown square',
+	'⬛': 'black large square',
+	'⬜': 'white large square',
+	'◼': 'black medium square',
+	'◻': 'white medium square',
+	'◾': 'black medium-small square',
+	'◽': 'white medium-small square',
+	'▪': 'black small square',
+	'▫': 'white small square',
+	'🔶': 'large orange diamond',
+	'🔷': 'large blue diamond',
+	'🔸': 'small orange diamond',
+	'🔹': 'small blue diamond',
+	'🔺': 'red triangle pointed up',
+	'🔻': 'red triangle pointed down',
+	'💠': 'diamond with a dot',
+	'🔘': 'radio button',
+	'🔳': 'white square button',
+	'🔲': 'black square button',
+	'🏁': 'chequered flag',
+	'🚩': 'triangular flag',
+	'🎌': 'crossed flags',
+	'🏴': 'black flag',
+	'🏳': 'white flag',
+	'🏳️‍🌈': 'rainbow flag',
+	'🏳️‍⚧️': 'transgender flag',
+	'🏴‍☠️': 'pirate flag',
+	'🇦🇨': 'flag: Ascension Island',
+	'🇦🇩': 'flag: Andorra',
+	'🇦🇪': 'flag: United Arab Emirates',
+	'🇦🇫': 'flag: Afghanistan',
+	'🇦🇬': 'flag: Antigua & Barbuda',
+	'🇦🇮': 'flag: Anguilla',
+	'🇦🇱': 'flag: Albania',
+	'🇦🇲': 'flag: Armenia',
+	'🇦🇴': 'flag: Angola',
+	'🇦🇶': 'flag: Antarctica',
+	'🇦🇷': 'flag: Argentina',
+	'🇦🇸': 'flag: American Samoa',
+	'🇦🇹': 'flag: Austria',
+	'🇦🇺': 'flag: Australia',
+	'🇦🇼': 'flag: Aruba',
+	'🇦🇽': 'flag: Åland Islands',
+	'🇦🇿': 'flag: Azerbaijan',
+	'🇧🇦': 'flag: Bosnia & Herzegovina',
+	'🇧🇧': 'flag: Barbados',
+	'🇧🇩': 'flag: Bangladesh',
+	'🇧🇪': 'flag: Belgium',
+	'🇧🇫': 'flag: Burkina Faso',
+	'🇧🇬': 'flag: Bulgaria',
+	'🇧🇭': 'flag: Bahrain',
+	'🇧🇮': 'flag: Burundi',
+	'🇧🇯': 'flag: Benin',
+	'🇧🇱': 'flag: St. Barthélemy',
+	'🇧🇲': 'flag: Bermuda',
+	'🇧🇳': 'flag: Brunei',
+	'🇧🇴': 'flag: Bolivia',
+	'🇧🇶': 'flag: Caribbean Netherlands',
+	'🇧🇷': 'flag: Brazil',
+	'🇧🇸': 'flag: Bahamas',
+	'🇧🇹': 'flag: Bhutan',
+	'🇧🇻': 'flag: Bouvet Island',
+	'🇧🇼': 'flag: Botswana',
+	'🇧🇾': 'flag: Belarus',
+	'🇧🇿': 'flag: Belize',
+	'🇨🇦': 'flag: Canada',
+	'🇨🇨': 'flag: Cocos (Keeling) Islands',
+	'🇨🇩': 'flag: Congo - Kinshasa',
+	'🇨🇫': 'flag: Central African Republic',
+	'🇨🇬': 'flag: Congo - Brazzaville',
+	'🇨🇭': 'flag: Switzerland',
+	'🇨🇮': 'flag: Côte d’Ivoire',
+	'🇨🇰': 'flag: Cook Islands',
+	'🇨🇱': 'flag: Chile',
+	'🇨🇲': 'flag: Cameroon',
+	'🇨🇳': 'flag: China',
+	'🇨🇴': 'flag: Colombia',
+	'🇨🇵': 'flag: Clipperton Island',
+	'🇨🇷': 'flag: Costa Rica',
+	'🇨🇺': 'flag: Cuba',
+	'🇨🇻': 'flag: Cape Verde',
+	'🇨🇼': 'flag: Curaçao',
+	'🇨🇽': 'flag: Christmas Island',
+	'🇨🇾': 'flag: Cyprus',
+	'🇨🇿': 'flag: Czechia',
+	'🇩🇪': 'flag: Germany',
+	'🇩🇬': 'flag: Diego Garcia',
+	'🇩🇯': 'flag: Djibouti',
+	'🇩🇰': 'flag: Denmark',
+	'🇩🇲': 'flag: Dominica',
+	'🇩🇴': 'flag: Dominican Republic',
+	'🇩🇿': 'flag: Algeria',
+	'🇪🇦': 'flag: Ceuta & Melilla',
+	'🇪🇨': 'flag: Ecuador',
+	'🇪🇪': 'flag: Estonia',
+	'🇪🇬': 'flag: Egypt',
+	'🇪🇭': 'flag: Western Sahara',
+	'🇪🇷': 'flag: Eritrea',
+	'🇪🇸': 'flag: Spain',
+	'🇪🇹': 'flag: Ethiopia',
+	'🇪🇺': 'flag: European Union',
+	'🇫🇮': 'flag: Finland',
+	'🇫🇯': 'flag: Fiji',
+	'🇫🇰': 'flag: Falkland Islands',
+	'🇫🇲': 'flag: Micronesia',
+	'🇫🇴': 'flag: Faroe Islands',
+	'🇫🇷': 'flag: France',
+	'🇬🇦': 'flag: Gabon',
+	'🇬🇧': 'flag: United Kingdom',
+	'🇬🇩': 'flag: Grenada',
+	'🇬🇪': 'flag: Georgia',
+	'🇬🇫': 'flag: French Guiana',
+	'🇬🇬': 'flag: Guernsey',
+	'🇬🇭': 'flag: Ghana',
+	'🇬🇮': 'flag: Gibraltar',
+	'🇬🇱': 'flag: Greenland',
+	'🇬🇲': 'flag: Gambia',
+	'🇬🇳': 'flag: Guinea',
+	'🇬🇵': 'flag: Guadeloupe',
+	'🇬🇶': 'flag: Equatorial Guinea',
+	'🇬🇷': 'flag: Greece',
+	'🇬🇸': 'flag: South Georgia & South Sandwich Islands',
+	'🇬🇹': 'flag: Guatemala',
+	'🇬🇺': 'flag: Guam',
+	'🇬🇼': 'flag: Guinea-Bissau',
+	'🇬🇾': 'flag: Guyana',
+	'🇭🇰': 'flag: Hong Kong SAR China',
+	'🇭🇲': 'flag: Heard & McDonald Islands',
+	'🇭🇳': 'flag: Honduras',
+	'🇭🇷': 'flag: Croatia',
+	'🇭🇹': 'flag: Haiti',
+	'🇭🇺': 'flag: Hungary',
+	'🇮🇨': 'flag: Canary Islands',
+	'🇮🇩': 'flag: Indonesia',
+	'🇮🇪': 'flag: Ireland',
+	'🇮🇱': 'flag: Israel',
+	'🇮🇲': 'flag: Isle of Man',
+	'🇮🇳': 'flag: India',
+	'🇮🇴': 'flag: British Indian Ocean Territory',
+	'🇮🇶': 'flag: Iraq',
+	'🇮🇷': 'flag: Iran',
+	'🇮🇸': 'flag: Iceland',
+	'🇮🇹': 'flag: Italy',
+	'🇯🇪': 'flag: Jersey',
+	'🇯🇲': 'flag: Jamaica',
+	'🇯🇴': 'flag: Jordan',
+	'🇯🇵': 'flag: Japan',
+	'🇰🇪': 'flag: Kenya',
+	'🇰🇬': 'flag: Kyrgyzstan',
+	'🇰🇭': 'flag: Cambodia',
+	'🇰🇮': 'flag: Kiribati',
+	'🇰🇲': 'flag: Comoros',
+	'🇰🇳': 'flag: St. Kitts & Nevis',
+	'🇰🇵': 'flag: North Korea',
+	'🇰🇷': 'flag: South Korea',
+	'🇰🇼': 'flag: Kuwait',
+	'🇰🇾': 'flag: Cayman Islands',
+	'🇰🇿': 'flag: Kazakhstan',
+	'🇱🇦': 'flag: Laos',
+	'🇱🇧': 'flag: Lebanon',
+	'🇱🇨': 'flag: St. Lucia',
+	'🇱🇮': 'flag: Liechtenstein',
+	'🇱🇰': 'flag: Sri Lanka',
+	'🇱🇷': 'flag: Liberia',
+	'🇱🇸': 'flag: Lesotho',
+	'🇱🇹': 'flag: Lithuania',
+	'🇱🇺': 'flag: Luxembourg',
+	'🇱🇻': 'flag: Latvia',
+	'🇱🇾': 'flag: Libya',
+	'🇲🇦': 'flag: Morocco',
+	'🇲🇨': 'flag: Monaco',
+	'🇲🇩': 'flag: Moldova',
+	'🇲🇪': 'flag: Montenegro',
+	'🇲🇫': 'flag: St. Martin',
+	'🇲🇬': 'flag: Madagascar',
+	'🇲🇭': 'flag: Marshall Islands',
+	'🇲🇰': 'flag: North Macedonia',
+	'🇲🇱': 'flag: Mali',
+	'🇲🇲': 'flag: Myanmar (Burma)',
+	'🇲🇳': 'flag: Mongolia',
+	'🇲🇴': 'flag: Macao SAR China',
+	'🇲🇵': 'flag: Northern Mariana Islands',
+	'🇲🇶': 'flag: Martinique',
+	'🇲🇷': 'flag: Mauritania',
+	'🇲🇸': 'flag: Montserrat',
+	'🇲🇹': 'flag: Malta',
+	'🇲🇺': 'flag: Mauritius',
+	'🇲🇻': 'flag: Maldives',
+	'🇲🇼': 'flag: Malawi',
+	'🇲🇽': 'flag: Mexico',
+	'🇲🇾': 'flag: Malaysia',
+	'🇲🇿': 'flag: Mozambique',
+	'🇳🇦': 'flag: Namibia',
+	'🇳🇨': 'flag: New Caledonia',
+	'🇳🇪': 'flag: Niger',
+	'🇳🇫': 'flag: Norfolk Island',
+	'🇳🇬': 'flag: Nigeria',
+	'🇳🇮': 'flag: Nicaragua',
+	'🇳🇱': 'flag: Netherlands',
+	'🇳🇴': 'flag: Norway',
+	'🇳🇵': 'flag: Nepal',
+	'🇳🇷': 'flag: Nauru',
+	'🇳🇺': 'flag: Niue',
+	'🇳🇿': 'flag: New Zealand',
+	'🇴🇲': 'flag: Oman',
+	'🇵🇦': 'flag: Panama',
+	'🇵🇪': 'flag: Peru',
+	'🇵🇫': 'flag: French Polynesia',
+	'🇵🇬': 'flag: Papua New Guinea',
+	'🇵🇭': 'flag: Philippines',
+	'🇵🇰': 'flag: Pakistan',
+	'🇵🇱': 'flag: Poland',
+	'🇵🇲': 'flag: St. Pierre & Miquelon',
+	'🇵🇳': 'flag: Pitcairn Islands',
+	'🇵🇷': 'flag: Puerto Rico',
+	'🇵🇸': 'flag: Palestinian Territories',
+	'🇵🇹': 'flag: Portugal',
+	'🇵🇼': 'flag: Palau',
+	'🇵🇾': 'flag: Paraguay',
+	'🇶🇦': 'flag: Qatar',
+	'🇷🇪': 'flag: Réunion',
+	'🇷🇴': 'flag: Romania',
+	'🇷🇸': 'flag: Serbia',
+	'🇷🇺': 'flag: Russia',
+	'🇷🇼': 'flag: Rwanda',
+	'🇸🇦': 'flag: Saudi Arabia',
+	'🇸🇧': 'flag: Solomon Islands',
+	'🇸🇨': 'flag: Seychelles',
+	'🇸🇩': 'flag: Sudan',
+	'🇸🇪': 'flag: Sweden',
+	'🇸🇬': 'flag: Singapore',
+	'🇸🇭': 'flag: St. Helena',
+	'🇸🇮': 'flag: Slovenia',
+	'🇸🇯': 'flag: Svalbard & Jan Mayen',
+	'🇸🇰': 'flag: Slovakia',
+	'🇸🇱': 'flag: Sierra Leone',
+	'🇸🇲': 'flag: San Marino',
+	'🇸🇳': 'flag: Senegal',
+	'🇸🇴': 'flag: Somalia',
+	'🇸🇷': 'flag: Suriname',
+	'🇸🇸': 'flag: South Sudan',
+	'🇸🇹': 'flag: São Tomé & Príncipe',
+	'🇸🇻': 'flag: El Salvador',
+	'🇸🇽': 'flag: Sint Maarten',
+	'🇸🇾': 'flag: Syria',
+	'🇸🇿': 'flag: Eswatini',
+	'🇹🇦': 'flag: Tristan da Cunha',
+	'🇹🇨': 'flag: Turks & Caicos Islands',
+	'🇹🇩': 'flag: Chad',
+	'🇹🇫': 'flag: French Southern Territories',
+	'🇹🇬': 'flag: Togo',
+	'🇹🇭': 'flag: Thailand',
+	'🇹🇯': 'flag: Tajikistan',
+	'🇹🇰': 'flag: Tokelau',
+	'🇹🇱': 'flag: Timor-Leste',
+	'🇹🇲': 'flag: Turkmenistan',
+	'🇹🇳': 'flag: Tunisia',
+	'🇹🇴': 'flag: Tonga',
+	'🇹🇷': 'flag: Turkey',
+	'🇹🇹': 'flag: Trinidad & Tobago',
+	'🇹🇻': 'flag: Tuvalu',
+	'🇹🇼': 'flag: Taiwan',
+	'🇹🇿': 'flag: Tanzania',
+	'🇺🇦': 'flag: Ukraine',
+	'🇺🇬': 'flag: Uganda',
+	'🇺🇲': 'flag: U.S. Outlying Islands',
+	'🇺🇳': 'flag: United Nations',
+	'🇺🇸': 'flag: United States',
+	'🇺🇾': 'flag: Uruguay',
+	'🇺🇿': 'flag: Uzbekistan',
+	'🇻🇦': 'flag: Vatican City',
+	'🇻🇨': 'flag: St. Vincent & Grenadines',
+	'🇻🇪': 'flag: Venezuela',
+	'🇻🇬': 'flag: British Virgin Islands',
+	'🇻🇮': 'flag: U.S. Virgin Islands',
+	'🇻🇳': 'flag: Vietnam',
+	'🇻🇺': 'flag: Vanuatu',
+	'🇼🇫': 'flag: Wallis & Futuna',
+	'🇼🇸': 'flag: Samoa',
+	'🇽🇰': 'flag: Kosovo',
+	'🇾🇪': 'flag: Yemen',
+	'🇾🇹': 'flag: Mayotte',
+	'🇿🇦': 'flag: South Africa',
+	'🇿🇲': 'flag: Zambia',
+	'🇿🇼': 'flag: Zimbabwe',
+	'🏴󠁧󠁢󠁥󠁮󠁧󠁿': 'flag: England',
+	'🏴󠁧󠁢󠁳󠁣󠁴󠁿': 'flag: Scotland',
+	'🏴󠁧󠁢󠁷󠁬󠁳󠁿': 'flag: Wales',
 };
 const isEmoji = (str) => {
-    const regex = getRegex();
-    const emojiMatches = str.match(regex);
-    const emojiString = emojiMatches ? emojiMatches.join('') : '';
-    return !/\d/.test(str) && emojiString === str;
+	const regex = getRegex();
+	const emojiMatches = str.match(regex);
+	const emojiString = emojiMatches ? emojiMatches.join('') : '';
+	return !/\d/.test(str) && emojiString === str;
 };
 const parseEmoji = (style, str, size = 16) => {
-    switch (style) {
-        case 'twemoji':
-            return twemoji.parse(str, {
-                folder: 'svg',
-                ext: '.svg',
-                attributes: () => ({
-                    width: `${size}px`,
-                    height: `${size}px`,
-                }),
-            });
-        case 'native':
-            return str;
-        default:
-            return null;
-    }
+	switch (style) {
+		case 'twemoji':
+			return twemoji.parse(str, {
+				folder: 'svg',
+				ext: '.svg',
+				attributes: () => ({
+					width: `${size}px`,
+					height: `${size}px`,
+				}),
+			});
+		case 'native':
+			return str;
+		default:
+			return null;
+	}
 };
 /**
  * Gets the shortcode for a given emoji by the name of the emoji. This function replaces
@@ -2719,16 +2719,16 @@ const parseEmoji = (style, str, size = 16) => {
  * @returns String with shortcode, or `undefined` if no shortcode exists.
  */
 const getShortcode = (key) => {
-    var _a;
-    // Removable of colons is necessary for the flag shortcodes.
-    return (_a = shortNames[key]) === null || _a === void 0 ? void 0 : _a.replace(/\s/g, '_').replace(/:/g, '').toLowerCase();
+	var _a;
+	// Removable of colons is necessary for the flag shortcodes.
+	return (_a = shortNames[key]) === null || _a === void 0 ? void 0 : _a.replace(/\s/g, '_').replace(/:/g, '').toLowerCase();
 };
 var emoji = {
-    shortNames,
-    isEmoji,
-    getShortcode,
-    parseEmoji,
-    getRegex,
+	shortNames,
+	isEmoji,
+	getShortcode,
+	parseEmoji,
+	getRegex,
 };
 
 // Default obsidian file icon.
@@ -2741,12 +2741,12 @@ const DEFAULT_FOLDER_ICON = '<svg xmlns="http://www.w3.org/2000/svg" width="24" 
  * @returns A promise that will resolve to a string which is the content of the file.
  */
 const readFileSync = (file) => __awaiter(void 0, void 0, void 0, function* () {
-    const content = yield new Promise((resolve) => {
-        const reader = new FileReader();
-        reader.readAsText(file, 'UTF-8');
-        reader.onload = (readerEvent) => resolve(readerEvent.target.result);
-    });
-    return content;
+	const content = yield new Promise((resolve) => {
+		const reader = new FileReader();
+		reader.readAsText(file, 'UTF-8');
+		reader.onload = (readerEvent) => resolve(readerEvent.target.result);
+	});
+	return content;
 });
 /**
  * Gets all the currently opened files by getting the markdown leaves and then checking
@@ -2755,15 +2755,15 @@ const readFileSync = (file) => __awaiter(void 0, void 0, void 0, function* () {
  * @returns An array of {@link FileWithLeaf} objects.
  */
 const getAllOpenedFiles = (plugin) => {
-    return plugin.app.workspace
-        .getLeavesOfType('markdown')
-        .reduce((prev, curr) => {
-        const file = curr.view.file;
-        if (file) {
-            prev.push(Object.assign(Object.assign({}, file), { leaf: curr, pinned: false }));
-        }
-        return prev;
-    }, []);
+	return plugin.app.workspace
+		.getLeavesOfType('markdown')
+		.reduce((prev, curr) => {
+		const file = curr.view.file;
+		if (file) {
+			prev.push(Object.assign(Object.assign({}, file), { leaf: curr, pinned: false }));
+		}
+		return prev;
+	}, []);
 };
 /**
  * Gets the file item title element by either accessing `titleEl` or `selfEl`.
@@ -2771,8 +2771,8 @@ const getAllOpenedFiles = (plugin) => {
  * @returns HTMLElement which is the title element.
  */
 const getFileItemTitleEl = (fileItem) => {
-    var _a;
-    return (_a = fileItem.titleEl) !== null && _a !== void 0 ? _a : fileItem.selfEl;
+	var _a;
+	return (_a = fileItem.titleEl) !== null && _a !== void 0 ? _a : fileItem.selfEl;
 };
 /**
  * Gets the file item inner title element by either accessing `titleInnerEl` or `innerEl`.
@@ -2780,8 +2780,8 @@ const getFileItemTitleEl = (fileItem) => {
  * @returns HTMLElement which is the inner title element.
  */
 const getFileItemInnerTitleEl = (fileItem) => {
-    var _a;
-    return (_a = fileItem.titleInnerEl) !== null && _a !== void 0 ? _a : fileItem.innerEl;
+	var _a;
+	return (_a = fileItem.titleInnerEl) !== null && _a !== void 0 ? _a : fileItem.innerEl;
 };
 /**
  * A utility function which will add the icon to the icon pack and then extract the icon
@@ -2790,20 +2790,20 @@ const getFileItemInnerTitleEl = (fileItem) => {
  * @param iconNameWithPrefix String that will be used to add the icon to the icon pack.
  */
 const saveIconToIconPack = (plugin, iconNameWithPrefix) => {
-    const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
-    const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
-    const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
-    const possibleIcon = getSvgFromLoadedIcon(iconPrefix, iconName);
-    if (!possibleIcon) {
-        throw new Error(`Icon ${iconNameWithPrefix} could not be found.`);
-    }
-    const iconPackName = getIconPackNameByPrefix(iconPrefix);
-    if (iconPackName === LUCIDE_ICON_PACK_NAME &&
-        !plugin.doesUseCustomLucideIconPack()) {
-        return;
-    }
-    const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
-    extractIconToIconPack(plugin, icon, possibleIcon);
+	const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
+	const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
+	const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
+	const possibleIcon = getSvgFromLoadedIcon(iconPrefix, iconName);
+	if (!possibleIcon) {
+		throw new Error(`Icon ${iconNameWithPrefix} could not be found.`);
+	}
+	const iconPackName = getIconPackNameByPrefix(iconPrefix);
+	if (iconPackName === LUCIDE_ICON_PACK_NAME &&
+		!plugin.doesUseCustomLucideIconPack()) {
+		return;
+	}
+	const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
+	extractIconToIconPack(plugin, icon, possibleIcon);
 };
 /**
  * A utility function which will remove the icon from the icon pack by removing the icon
@@ -2812,14 +2812,14 @@ const saveIconToIconPack = (plugin, iconNameWithPrefix) => {
  * @param iconNameWithPrefix String that will be used to remove the icon from the icon pack.
  */
 const removeIconFromIconPack = (plugin, iconNameWithPrefix) => {
-    const identifier = nextIdentifier(iconNameWithPrefix);
-    const prefix = iconNameWithPrefix.substring(0, identifier);
-    const iconName = iconNameWithPrefix.substring(identifier);
-    const iconPackName = getIconPackNameByPrefix(prefix);
-    const duplicatedIcon = plugin.getDataPathByValue(iconNameWithPrefix);
-    if (!duplicatedIcon) {
-        removeIconFromIconPackDirectory(plugin, iconPackName, iconName);
-    }
+	const identifier = nextIdentifier(iconNameWithPrefix);
+	const prefix = iconNameWithPrefix.substring(0, identifier);
+	const iconName = iconNameWithPrefix.substring(identifier);
+	const iconPackName = getIconPackNameByPrefix(prefix);
+	const duplicatedIcon = plugin.getDataPathByValue(iconNameWithPrefix);
+	if (!duplicatedIcon) {
+		removeIconFromIconPackDirectory(plugin, iconPackName, iconName);
+	}
 };
 /**
  * A utility function which will convert a string to a hexadecimal color.
@@ -2827,9 +2827,9 @@ const removeIconFromIconPack = (plugin, iconNameWithPrefix) => {
  * @returns A string which is the hexadecimal color.
  */
 const stringToHex = (str) => {
-    const validHex = str.replace(/[^0-9a-fA-F]/g, '');
-    const hex = validHex.padStart(6, '0').substring(0, 6);
-    return `#${hex}`;
+	const validHex = str.replace(/[^0-9a-fA-F]/g, '');
+	const hex = validHex.padStart(6, '0').substring(0, 6);
+	return `#${hex}`;
 };
 /**
  * A utility function which will check if a string is a hexadecimal color.
@@ -2838,8 +2838,8 @@ const stringToHex = (str) => {
  * @returns A boolean which is true if the string is a hexadecimal color.
  */
 const isHexadecimal = (str, includeHash = false) => {
-    const regex = new RegExp(`^${includeHash ? '#' : ''}[0-9A-Fa-f]{1,6}$`);
-    return regex.test(str);
+	const regex = new RegExp(`^${includeHash ? '#' : ''}[0-9A-Fa-f]{1,6}$`);
+	return regex.test(str);
 };
 
 // This library file does not include any other dependency and is a standalone file that
@@ -2852,8 +2852,8 @@ const isHexadecimal = (str, includeHash = false) => {
  * @returns The modified node with the applied margin.
  */
 const setMargin = (el, margin) => {
-    el.style.margin = `${margin.top}px ${margin.right}px ${margin.bottom}px ${margin.left}px`;
-    return el;
+	el.style.margin = `${margin.top}px ${margin.right}px ${margin.bottom}px ${margin.left}px`;
+	return el;
 };
 /**
  * Applies all stylings to the specified svg icon string and applies styling to the node
@@ -2865,25 +2865,25 @@ const setMargin = (el, margin) => {
  * @returns Icon svg string with the manipulate style attributes.
  */
 const applyAll = (plugin, iconString, container) => {
-    iconString = svg.setFontSize(iconString, plugin.getSettings().fontSize);
-    container.style.color = plugin.getSettings().iconColor;
-    iconString = svg.colorize(iconString, plugin.getSettings().iconColor);
-    // Sets the margin of an element.
-    const margin = plugin.getSettings().extraMargin;
-    const normalizedMargin = {
-        top: margin.top !== undefined ? margin.top : 4,
-        right: margin.right !== undefined ? margin.right : 4,
-        left: margin.left !== undefined ? margin.left : 4,
-        bottom: margin.bottom !== undefined ? margin.bottom : 4,
-    };
-    if (plugin.getSettings().extraMargin) {
-        setMargin(container, normalizedMargin);
-    }
-    if (emoji.isEmoji(iconString)) {
-        container.style.fontSize = `${plugin.getSettings().fontSize}px`;
-        container.style.lineHeight = `${plugin.getSettings().fontSize}px`;
-    }
-    return iconString;
+	iconString = svg.setFontSize(iconString, plugin.getSettings().fontSize);
+	container.style.color = plugin.getSettings().iconColor;
+	iconString = svg.colorize(iconString, plugin.getSettings().iconColor);
+	// Sets the margin of an element.
+	const margin = plugin.getSettings().extraMargin;
+	const normalizedMargin = {
+		top: margin.top !== undefined ? margin.top : 4,
+		right: margin.right !== undefined ? margin.right : 4,
+		left: margin.left !== undefined ? margin.left : 4,
+		bottom: margin.bottom !== undefined ? margin.bottom : 4,
+	};
+	if (plugin.getSettings().extraMargin) {
+		setMargin(container, normalizedMargin);
+	}
+	if (emoji.isEmoji(iconString)) {
+		container.style.fontSize = `${plugin.getSettings().fontSize}px`;
+		container.style.lineHeight = `${plugin.getSettings().fontSize}px`;
+	}
+	return iconString;
 };
 /**
  * Refreshes all the styles of all the applied icons where a `.iconize-icon`
@@ -2893,31 +2893,31 @@ const applyAll = (plugin, iconString, container) => {
  * typically applies all the styles to the icon.
  */
 const refreshIconNodes = (plugin, applyStyles = applyAll) => {
-    const fileExplorers = plugin.app.workspace.getLeavesOfType('file-explorer');
-    for (const fileExplorer of fileExplorers) {
-        Object.keys(plugin.getData()).forEach((path) => {
-            const fileItem = fileExplorer.view.fileItems[path];
-            if (fileItem) {
-                const titleEl = getFileItemTitleEl(fileItem);
-                const iconNode = titleEl.querySelector('.iconize-icon');
-                if (iconNode) {
-                    const pathValue = plugin.getData()[path];
-                    const hasIndividualColor = typeof pathValue === 'object' && pathValue.iconColor;
-                    iconNode.innerHTML = applyStyles(plugin, iconNode.innerHTML, iconNode);
-                    if (hasIndividualColor) {
-                        iconNode.style.color = pathValue.iconColor;
-                        const colorizedInnerHtml = svg.colorize(iconNode.innerHTML, pathValue.iconColor);
-                        iconNode.innerHTML = colorizedInnerHtml;
-                    }
-                }
-            }
-        });
-    }
+	const fileExplorers = plugin.app.workspace.getLeavesOfType('file-explorer');
+	for (const fileExplorer of fileExplorers) {
+		Object.keys(plugin.getData()).forEach((path) => {
+			const fileItem = fileExplorer.view.fileItems[path];
+			if (fileItem) {
+				const titleEl = getFileItemTitleEl(fileItem);
+				const iconNode = titleEl.querySelector('.iconize-icon');
+				if (iconNode) {
+					const pathValue = plugin.getData()[path];
+					const hasIndividualColor = typeof pathValue === 'object' && pathValue.iconColor;
+					iconNode.innerHTML = applyStyles(plugin, iconNode.innerHTML, iconNode);
+					if (hasIndividualColor) {
+						iconNode.style.color = pathValue.iconColor;
+						const colorizedInnerHtml = svg.colorize(iconNode.innerHTML, pathValue.iconColor);
+						iconNode.innerHTML = colorizedInnerHtml;
+					}
+				}
+			}
+		});
+	}
 };
 var style = {
-    applyAll,
-    setMargin,
-    refreshIconNodes,
+	applyAll,
+	setMargin,
+	refreshIconNodes,
 };
 
 /**
@@ -2925,11 +2925,11 @@ var style = {
  * @param el HTMLElement from which the icon node will be removed.
  */
 const removeIconInNode = (el) => {
-    const iconNode = el.querySelector('.iconize-icon');
-    if (!iconNode) {
-        return;
-    }
-    iconNode.remove();
+	const iconNode = el.querySelector('.iconize-icon');
+	if (!iconNode) {
+		return;
+	}
+	iconNode.remove();
 };
 /**
  * Removes the 'iconize-icon' icon node from the HTMLElement corresponding
@@ -2937,13 +2937,13 @@ const removeIconInNode = (el) => {
  * @param path File path for which the icon node will be removed.
  */
 const removeIconInPath = (path, options) => {
-    var _a;
-    const node = (_a = options === null || options === void 0 ? void 0 : options.container) !== null && _a !== void 0 ? _a : document.querySelector(`[data-path="${path}"]`);
-    if (!node) {
-        logger.warn(`Element with data path not found (path: ${path})`);
-        return;
-    }
-    removeIconInNode(node);
+	var _a;
+	const node = (_a = options === null || options === void 0 ? void 0 : options.container) !== null && _a !== void 0 ? _a : document.querySelector(`[data-path="${path}"]`);
+	if (!node) {
+		logger.warn(`Element with data path not found (path: ${path})`);
+		return;
+	}
+	removeIconInNode(node);
 };
 /**
  * Sets an icon or emoji for an HTMLElement based on the specified icon name and color.
@@ -2954,30 +2954,30 @@ const removeIconInPath = (path, options) => {
  * @param options Options for adjusting settings while the icon is being set.
  */
 const setIconForNode = (plugin, iconName, node, options) => {
-    var _a, _b;
-    options !== null && options !== void 0 ? options : (options = {});
-    (_a = options.shouldApplyAllStyles) !== null && _a !== void 0 ? _a : (options.shouldApplyAllStyles = true);
-    // Gets the possible icon based on the icon name.
-    const iconNextIdentifier = nextIdentifier(iconName);
-    const possibleIcon = getSvgFromLoadedIcon(iconName.substring(0, iconNextIdentifier), iconName.substring(iconNextIdentifier));
-    if (possibleIcon) {
-        // The icon is possibly not an emoji.
-        let iconContent = (options === null || options === void 0 ? void 0 : options.shouldApplyAllStyles)
-            ? style.applyAll(plugin, possibleIcon, node)
-            : possibleIcon;
-        if (options === null || options === void 0 ? void 0 : options.color) {
-            node.style.color = options.color;
-            iconContent = svg.colorize(iconContent, options.color);
-        }
-        node.innerHTML = iconContent;
-    }
-    else {
-        const parsedEmoji = (_b = emoji.parseEmoji(plugin.getSettings().emojiStyle, iconName)) !== null && _b !== void 0 ? _b : iconName;
-        node.innerHTML = (options === null || options === void 0 ? void 0 : options.shouldApplyAllStyles)
-            ? style.applyAll(plugin, parsedEmoji, node)
-            : parsedEmoji;
-    }
-    node.setAttribute('title', iconName);
+	var _a, _b;
+	options !== null && options !== void 0 ? options : (options = {});
+	(_a = options.shouldApplyAllStyles) !== null && _a !== void 0 ? _a : (options.shouldApplyAllStyles = true);
+	// Gets the possible icon based on the icon name.
+	const iconNextIdentifier = nextIdentifier(iconName);
+	const possibleIcon = getSvgFromLoadedIcon(iconName.substring(0, iconNextIdentifier), iconName.substring(iconNextIdentifier));
+	if (possibleIcon) {
+		// The icon is possibly not an emoji.
+		let iconContent = (options === null || options === void 0 ? void 0 : options.shouldApplyAllStyles)
+			? style.applyAll(plugin, possibleIcon, node)
+			: possibleIcon;
+		if (options === null || options === void 0 ? void 0 : options.color) {
+			node.style.color = options.color;
+			iconContent = svg.colorize(iconContent, options.color);
+		}
+		node.innerHTML = iconContent;
+	}
+	else {
+		const parsedEmoji = (_b = emoji.parseEmoji(plugin.getSettings().emojiStyle, iconName)) !== null && _b !== void 0 ? _b : iconName;
+		node.innerHTML = (options === null || options === void 0 ? void 0 : options.shouldApplyAllStyles)
+			? style.applyAll(plugin, parsedEmoji, node)
+			: parsedEmoji;
+	}
+	node.setAttribute('title', iconName);
 };
 /**
  * Creates an icon node for the specified path and inserts it to the DOM.
@@ -2987,36 +2987,36 @@ const setIconForNode = (plugin, iconName, node, options) => {
  * @param color Optional color of the icon to add.
  */
 const createIconNode = (plugin, path, iconName, options) => {
-    var _a;
-    // Get the container from the provided options or try to find the node that has the
-    // path from the document itself.
-    const node = (_a = options === null || options === void 0 ? void 0 : options.container) !== null && _a !== void 0 ? _a : document.querySelector(`[data-path="${path}"]`);
-    if (!node) {
-        logger.warn(`Element with data path not found (path: ${path})`);
-        return;
-    }
-    // Get the folder or file title node.
-    let titleNode = node.querySelector('.nav-folder-title-content');
-    if (!titleNode) {
-        titleNode = node.querySelector('.nav-file-title-content');
-        if (!titleNode) {
-            logger.warn(`Element with title node not found (path: ${path})`);
-            return;
-        }
-    }
-    let iconNode = node.querySelector('.iconize-icon');
-    // If the icon is already set in the path, we do not need to create a new div element.
-    if (iconNode) {
-        setIconForNode(plugin, iconName, iconNode, { color: options === null || options === void 0 ? void 0 : options.color });
-    }
-    else {
-        // Creates a new icon node and inserts it to the DOM.
-        iconNode = document.createElement('div');
-        iconNode.setAttribute(config.ICON_ATTRIBUTE_NAME, iconName);
-        iconNode.classList.add('iconize-icon');
-        setIconForNode(plugin, iconName, iconNode, { color: options === null || options === void 0 ? void 0 : options.color });
-        node.insertBefore(iconNode, titleNode);
-    }
+	var _a;
+	// Get the container from the provided options or try to find the node that has the
+	// path from the document itself.
+	const node = (_a = options === null || options === void 0 ? void 0 : options.container) !== null && _a !== void 0 ? _a : document.querySelector(`[data-path="${path}"]`);
+	if (!node) {
+		logger.warn(`Element with data path not found (path: ${path})`);
+		return;
+	}
+	// Get the folder or file title node.
+	let titleNode = node.querySelector('.nav-folder-title-content');
+	if (!titleNode) {
+		titleNode = node.querySelector('.nav-file-title-content');
+		if (!titleNode) {
+			logger.warn(`Element with title node not found (path: ${path})`);
+			return;
+		}
+	}
+	let iconNode = node.querySelector('.iconize-icon');
+	// If the icon is already set in the path, we do not need to create a new div element.
+	if (iconNode) {
+		setIconForNode(plugin, iconName, iconNode, { color: options === null || options === void 0 ? void 0 : options.color });
+	}
+	else {
+		// Creates a new icon node and inserts it to the DOM.
+		iconNode = document.createElement('div');
+		iconNode.setAttribute(config.ICON_ATTRIBUTE_NAME, iconName);
+		iconNode.classList.add('iconize-icon');
+		setIconForNode(plugin, iconName, iconNode, { color: options === null || options === void 0 ? void 0 : options.color });
+		node.insertBefore(iconNode, titleNode);
+	}
 };
 /**
  * Checks if the element has an icon node by checking if the element has a child with the
@@ -3025,7 +3025,7 @@ const createIconNode = (plugin, path, iconName, options) => {
  * @returns Boolean whether the element has an icon node or not.
  */
 const doesElementHasIconNode = (element) => {
-    return element.querySelector('.iconize-icon') !== null;
+	return element.querySelector('.iconize-icon') !== null;
 };
 /**
  * Gets the icon name of the element if it has an icon node.
@@ -3033,238 +3033,238 @@ const doesElementHasIconNode = (element) => {
  * @returns String with the icon name if the element has an icon, `undefined` otherwise.
  */
 const getIconFromElement = (element) => {
-    const iconNode = element.querySelector('.iconize-icon');
-    const existingIcon = iconNode === null || iconNode === void 0 ? void 0 : iconNode.getAttribute(config.ICON_ATTRIBUTE_NAME);
-    return existingIcon;
+	const iconNode = element.querySelector('.iconize-icon');
+	const existingIcon = iconNode === null || iconNode === void 0 ? void 0 : iconNode.getAttribute(config.ICON_ATTRIBUTE_NAME);
+	return existingIcon;
 };
 const getIconNodeFromPath = (path) => {
-    var _a;
-    return (_a = document
-        .querySelector(`[data-path="${path}"]`)) === null || _a === void 0 ? void 0 : _a.querySelector('[data-icon]');
+	var _a;
+	return (_a = document
+		.querySelector(`[data-path="${path}"]`)) === null || _a === void 0 ? void 0 : _a.querySelector('[data-icon]');
 };
 var dom = {
-    setIconForNode,
-    createIconNode,
-    doesElementHasIconNode,
-    getIconFromElement,
-    getIconNodeFromPath,
-    removeIconInNode,
-    removeIconInPath,
+	setIconForNode,
+	createIconNode,
+	doesElementHasIconNode,
+	getIconFromElement,
+	getIconNodeFromPath,
+	removeIconInNode,
+	removeIconInPath,
 };
 
 class IconsPickerModal extends obsidian.FuzzySuggestModal {
-    constructor(app, plugin, path) {
-        super(app);
-        this.renderIndex = 0;
-        this.plugin = plugin;
-        this.path = path;
-        this.limit = 150;
-        const pluginRecentltyUsedItems = [
-            ...plugin.getSettings().recentlyUsedIcons,
-        ];
-        this.recentlyUsedItems = new Set(pluginRecentltyUsedItems.reverse().filter((iconName) => {
-            return doesIconExists(iconName) || emoji.isEmoji(iconName);
-        }));
-        this.resultContainerEl.classList.add('iconize-modal');
-    }
-    onOpen() {
-        super.onOpen();
-    }
-    onClose() {
-        const { contentEl } = this;
-        contentEl.empty();
-    }
-    getItemText(item) {
-        return `${item.name} (${item.prefix})`;
-    }
-    getItems() {
-        const iconKeys = [];
-        if (this.inputEl.value.length === 0) {
-            this.renderIndex = 0;
-            this.recentlyUsedItems.forEach((iconName) => {
-                if (emoji.isEmoji(iconName)) {
-                    iconKeys.push({
-                        name: emoji.shortNames[iconName],
-                        prefix: 'Emoji',
-                        displayName: iconName,
-                        iconPackName: null,
-                    });
-                    return;
-                }
-                const nextLetter = nextIdentifier(iconName);
-                const iconPrefix = iconName.substring(0, nextLetter);
-                const iconPackName = getIconPackNameByPrefix(iconPrefix);
-                iconKeys.push({
-                    name: iconName.substring(nextLetter),
-                    prefix: iconPrefix,
-                    displayName: iconName,
-                    iconPackName: iconPackName,
-                });
-            });
-        }
-        for (const icon of getAllLoadedIconNames()) {
-            iconKeys.push({
-                name: icon.name,
-                prefix: icon.prefix,
-                displayName: icon.prefix + icon.name,
-                iconPackName: icon.iconPackName,
-            });
-        }
-        Object.entries(emoji.shortNames).forEach(([unicode, shortName]) => {
-            iconKeys.push({
-                name: shortName,
-                prefix: 'Emoji',
-                displayName: unicode,
-                iconPackName: null,
-            });
-            iconKeys.push({
-                name: unicode,
-                prefix: 'Emoji',
-                displayName: unicode,
-                iconPackName: null,
-            });
-        });
-        return iconKeys;
-    }
-    onChooseItem(item) {
-        var _a;
-        const iconNameWithPrefix = typeof item === 'object' ? item.displayName : item;
-        dom.createIconNode(this.plugin, this.path, iconNameWithPrefix);
-        (_a = this.onSelect) === null || _a === void 0 ? void 0 : _a.call(this, iconNameWithPrefix);
-        this.plugin.addFolderIcon(this.path, item);
-        // Extracts the icon file to the icon pack.
-        if (typeof item === 'object' && !emoji.isEmoji(iconNameWithPrefix)) {
-            saveIconToIconPack(this.plugin, iconNameWithPrefix);
-        }
-        this.plugin.notifyPlugins();
-    }
-    renderSuggestion(item, el) {
-        super.renderSuggestion(item, el);
-        // if (getAllIconPacks().length === 0) {
-        //   this.resultContainerEl.style.display = 'block';
-        //   this.resultContainerEl.innerHTML = '<div class="suggestion-empty">You need to create an icon pack.</div>';
-        //   return;
-        // }
-        // Render subheadlines for modal.
-        if (this.recentlyUsedItems.size !== 0 && this.inputEl.value.length === 0) {
-            if (this.renderIndex === 0) {
-                const subheadline = this.resultContainerEl.createDiv();
-                subheadline.classList.add('iconize-subheadline');
-                subheadline.innerText = 'Recently used Icons:';
-                this.resultContainerEl.prepend(subheadline);
-            }
-            else if (this.renderIndex === this.recentlyUsedItems.size - 1) {
-                const subheadline = this.resultContainerEl.createDiv();
-                subheadline.classList.add('iconize-subheadline');
-                subheadline.innerText = 'All Icons:';
-                this.resultContainerEl.append(subheadline);
-            }
-        }
-        if (item.item.name !== 'default') {
-            if (item.item.prefix === 'Emoji') {
-                const displayName = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, item.item.displayName);
-                if (!displayName) {
-                    return;
-                }
-                el.innerHTML = `<div>${el.innerHTML}</div><div class="iconize-icon-preview">${displayName}</div>`;
-            }
-            else {
-                el.innerHTML = `<div>${el.innerHTML}</div><div class="iconize-icon-preview">${getSvgFromLoadedIcon(item.item.prefix, item.item.name)}</div>`;
-            }
-        }
-        this.renderIndex++;
-    }
+	constructor(app, plugin, path) {
+		super(app);
+		this.renderIndex = 0;
+		this.plugin = plugin;
+		this.path = path;
+		this.limit = 150;
+		const pluginRecentltyUsedItems = [
+			...plugin.getSettings().recentlyUsedIcons,
+		];
+		this.recentlyUsedItems = new Set(pluginRecentltyUsedItems.reverse().filter((iconName) => {
+			return doesIconExists(iconName) || emoji.isEmoji(iconName);
+		}));
+		this.resultContainerEl.classList.add('iconize-modal');
+	}
+	onOpen() {
+		super.onOpen();
+	}
+	onClose() {
+		const { contentEl } = this;
+		contentEl.empty();
+	}
+	getItemText(item) {
+		return `${item.name} (${item.prefix})`;
+	}
+	getItems() {
+		const iconKeys = [];
+		if (this.inputEl.value.length === 0) {
+			this.renderIndex = 0;
+			this.recentlyUsedItems.forEach((iconName) => {
+				if (emoji.isEmoji(iconName)) {
+					iconKeys.push({
+						name: emoji.shortNames[iconName],
+						prefix: 'Emoji',
+						displayName: iconName,
+						iconPackName: null,
+					});
+					return;
+				}
+				const nextLetter = nextIdentifier(iconName);
+				const iconPrefix = iconName.substring(0, nextLetter);
+				const iconPackName = getIconPackNameByPrefix(iconPrefix);
+				iconKeys.push({
+					name: iconName.substring(nextLetter),
+					prefix: iconPrefix,
+					displayName: iconName,
+					iconPackName: iconPackName,
+				});
+			});
+		}
+		for (const icon of getAllLoadedIconNames()) {
+			iconKeys.push({
+				name: icon.name,
+				prefix: icon.prefix,
+				displayName: icon.prefix + icon.name,
+				iconPackName: icon.iconPackName,
+			});
+		}
+		Object.entries(emoji.shortNames).forEach(([unicode, shortName]) => {
+			iconKeys.push({
+				name: shortName,
+				prefix: 'Emoji',
+				displayName: unicode,
+				iconPackName: null,
+			});
+			iconKeys.push({
+				name: unicode,
+				prefix: 'Emoji',
+				displayName: unicode,
+				iconPackName: null,
+			});
+		});
+		return iconKeys;
+	}
+	onChooseItem(item) {
+		var _a;
+		const iconNameWithPrefix = typeof item === 'object' ? item.displayName : item;
+		dom.createIconNode(this.plugin, this.path, iconNameWithPrefix);
+		(_a = this.onSelect) === null || _a === void 0 ? void 0 : _a.call(this, iconNameWithPrefix);
+		this.plugin.addFolderIcon(this.path, item);
+		// Extracts the icon file to the icon pack.
+		if (typeof item === 'object' && !emoji.isEmoji(iconNameWithPrefix)) {
+			saveIconToIconPack(this.plugin, iconNameWithPrefix);
+		}
+		this.plugin.notifyPlugins();
+	}
+	renderSuggestion(item, el) {
+		super.renderSuggestion(item, el);
+		// if (getAllIconPacks().length === 0) {
+		//	 this.resultContainerEl.style.display = 'block';
+		//	 this.resultContainerEl.innerHTML = '<div class="suggestion-empty">You need to create an icon pack.</div>';
+		//	 return;
+		// }
+		// Render subheadlines for modal.
+		if (this.recentlyUsedItems.size !== 0 && this.inputEl.value.length === 0) {
+			if (this.renderIndex === 0) {
+				const subheadline = this.resultContainerEl.createDiv();
+				subheadline.classList.add('iconize-subheadline');
+				subheadline.innerText = 'Recently used Icons:';
+				this.resultContainerEl.prepend(subheadline);
+			}
+			else if (this.renderIndex === this.recentlyUsedItems.size - 1) {
+				const subheadline = this.resultContainerEl.createDiv();
+				subheadline.classList.add('iconize-subheadline');
+				subheadline.innerText = 'All Icons:';
+				this.resultContainerEl.append(subheadline);
+			}
+		}
+		if (item.item.name !== 'default') {
+			if (item.item.prefix === 'Emoji') {
+				const displayName = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, item.item.displayName);
+				if (!displayName) {
+					return;
+				}
+				el.innerHTML = `<div>${el.innerHTML}</div><div class="iconize-icon-preview">${displayName}</div>`;
+			}
+			else {
+				el.innerHTML = `<div>${el.innerHTML}</div><div class="iconize-icon-preview">${getSvgFromLoadedIcon(item.item.prefix, item.item.name)}</div>`;
+			}
+		}
+		this.renderIndex++;
+	}
 }
 
 var IconInTitlePosition;
 (function (IconInTitlePosition) {
-    IconInTitlePosition["Above"] = "above";
-    IconInTitlePosition["Inline"] = "inline";
+	IconInTitlePosition["Above"] = "above";
+	IconInTitlePosition["Inline"] = "inline";
 })(IconInTitlePosition || (IconInTitlePosition = {}));
 const DEFAULT_SETTINGS = {
-    migrated: 2,
-    iconPacksPath: '.obsidian/icons',
-    fontSize: 16,
-    emojiStyle: 'native',
-    iconColor: null,
-    recentlyUsedIcons: [],
-    recentlyUsedIconsSize: 5,
-    rules: [],
-    extraMargin: {
-        top: 0,
-        right: 4,
-        bottom: 0,
-        left: 0,
-    },
-    iconInTabsEnabled: false,
-    iconInTitleEnabled: false,
-    iconInTitlePosition: IconInTitlePosition.Above,
-    iconInFrontmatterEnabled: false,
-    iconInFrontmatterFieldName: 'icon',
-    iconColorInFrontmatterFieldName: 'iconColor',
-    iconsBackgroundCheckEnabled: false,
-    iconsInNotesEnabled: true,
-    iconsInLinksEnabled: true,
-    iconIdentifier: ':',
-    lucideIconPackType: 'native',
-    debugMode: false,
-    useInternalPlugins: false,
+	migrated: 2,
+	iconPacksPath: '.obsidian/icons',
+	fontSize: 16,
+	emojiStyle: 'native',
+	iconColor: null,
+	recentlyUsedIcons: [],
+	recentlyUsedIconsSize: 5,
+	rules: [],
+	extraMargin: {
+		top: 0,
+		right: 4,
+		bottom: 0,
+		left: 0,
+	},
+	iconInTabsEnabled: false,
+	iconInTitleEnabled: false,
+	iconInTitlePosition: IconInTitlePosition.Above,
+	iconInFrontmatterEnabled: false,
+	iconInFrontmatterFieldName: 'icon',
+	iconColorInFrontmatterFieldName: 'iconColor',
+	iconsBackgroundCheckEnabled: false,
+	iconsInNotesEnabled: true,
+	iconsInLinksEnabled: true,
+	iconIdentifier: ':',
+	lucideIconPackType: 'native',
+	debugMode: false,
+	useInternalPlugins: false,
 };
 
 function migrate$5(plugin) {
-    return __awaiter(this, void 0, void 0, function* () {
-        // Migration for new syncing mechanism.
-        if (plugin.getSettings().migrated === 1) {
-            new obsidian.Notice('Please delete your old icon packs and redownload your icon packs to use the new syncing mechanism.', 20000);
-            plugin.getSettings().migrated++;
-        }
-    });
+	return __awaiter(this, void 0, void 0, function* () {
+		// Migration for new syncing mechanism.
+		if (plugin.getSettings().migrated === 1) {
+			new obsidian.Notice('Please delete your old icon packs and redownload your icon packs to use the new syncing mechanism.', 20000);
+			plugin.getSettings().migrated++;
+		}
+	});
 }
 
 function migrate$4(plugin) {
-    return __awaiter(this, void 0, void 0, function* () {
-        // Migration for new order functionality of custom rules.
-        if (plugin.getSettings().migrated === 2) {
-            // Sorting alphabetically was the default behavior before.
-            plugin
-                .getSettings()
-                .rules.sort((a, b) => a.rule.localeCompare(b.rule))
-                .forEach((rule, i) => {
-                rule.order = i;
-            });
-            plugin.getSettings().migrated++;
-        }
-    });
+	return __awaiter(this, void 0, void 0, function* () {
+		// Migration for new order functionality of custom rules.
+		if (plugin.getSettings().migrated === 2) {
+			// Sorting alphabetically was the default behavior before.
+			plugin
+				.getSettings()
+				.rules.sort((a, b) => a.rule.localeCompare(b.rule))
+				.forEach((rule, i) => {
+				rule.order = i;
+			});
+			plugin.getSettings().migrated++;
+		}
+	});
 }
 
 class IconCache {
-    constructor() {
-        this.cache = new Map();
-        this.set = (path, result) => {
-            this.cache.set(path, result);
-        };
-        this.invalidate = (path) => {
-            this.cache.delete(path);
-        };
-        this.clear = () => {
-            this.cache.clear();
-        };
-        this.get = (path) => {
-            var _a;
-            return (_a = this.cache.get(path)) !== null && _a !== void 0 ? _a : null;
-        };
-        this.doesRecordExist = (path) => {
-            return this.get(path) !== null;
-        };
-        if (IconCache.instance) {
-            throw new Error('Error: Instantiation failed: Use `IconCache.getInstance()` instead of new.');
-        }
-        IconCache.instance = this;
-    }
+	constructor() {
+		this.cache = new Map();
+		this.set = (path, result) => {
+			this.cache.set(path, result);
+		};
+		this.invalidate = (path) => {
+			this.cache.delete(path);
+		};
+		this.clear = () => {
+			this.cache.clear();
+		};
+		this.get = (path) => {
+			var _a;
+			return (_a = this.cache.get(path)) !== null && _a !== void 0 ? _a : null;
+		};
+		this.doesRecordExist = (path) => {
+			return this.get(path) !== null;
+		};
+		if (IconCache.instance) {
+			throw new Error('Error: Instantiation failed: Use `IconCache.getInstance()` instead of new.');
+		}
+		IconCache.instance = this;
+	}
 }
 IconCache.instance = new IconCache();
 IconCache.getInstance = () => {
-    return IconCache.instance;
+	return IconCache.instance;
 };
 
 /**
@@ -3274,9 +3274,9 @@ IconCache.getInstance = () => {
  * @returns Boolean whether the custom rule `for` matches the file type or not.
  */
 const doesMatchFileType = (rule, fileType) => {
-    return (rule.for === 'everything' ||
-        (rule.for === 'files' && fileType === 'file') ||
-        (rule.for === 'folders' && fileType === 'folder'));
+	return (rule.for === 'everything' ||
+		(rule.for === 'files' && fileType === 'file') ||
+		(rule.for === 'folders' && fileType === 'folder'));
 };
 /**
  * Determines whether a given file or folder matches a specified custom rule.
@@ -3286,16 +3286,16 @@ const doesMatchFileType = (rule, fileType) => {
  * @returns Promise that resolves to `true` if the file matches the rule, `false` otherwise.
  */
 const isApplicable = (plugin, rule, filePath) => __awaiter(void 0, void 0, void 0, function* () {
-    const metadata = yield plugin.app.vault.adapter.stat(filePath);
-    if (!metadata) {
-        return false;
-    }
-    const fileType = metadata.type;
-    const doesMatch = doesMatchFileType(rule, fileType);
-    if (!doesMatch) {
-        return false;
-    }
-    return doesMatchPath(rule, filePath);
+	const metadata = yield plugin.app.vault.adapter.stat(filePath);
+	if (!metadata) {
+		return false;
+	}
+	const fileType = metadata.type;
+	const doesMatch = doesMatchFileType(rule, fileType);
+	if (!doesMatch) {
+		return false;
+	}
+	return doesMatchPath(rule, filePath);
 });
 /**
  * Removes the icon from the custom rule from all the files and folders, if applicable.
@@ -3303,24 +3303,24 @@ const isApplicable = (plugin, rule, filePath) => __awaiter(void 0, void 0, void 
  * @param rule CustomRule where the icons will be removed based on this rule.
  */
 const removeFromAllFiles = (plugin, rule) => __awaiter(void 0, void 0, void 0, function* () {
-    const nodesWithIcon = document.querySelectorAll(`[${config.ICON_ATTRIBUTE_NAME}="${rule.icon}"]`);
-    for (let i = 0; i < nodesWithIcon.length; i++) {
-        const node = nodesWithIcon[i];
-        // Parent element is the node which contains the data path.
-        const parent = node.parentElement;
-        if (!parent) {
-            continue;
-        }
-        const dataPath = parent.getAttribute('data-path');
-        if (!dataPath) {
-            continue;
-        }
-        const fileType = (yield plugin.app.vault.adapter.stat(dataPath)).type;
-        if (doesMatchPath(rule, dataPath) && doesMatchFileType(rule, fileType)) {
-            dom.removeIconInNode(parent);
-            IconCache.getInstance().invalidate(dataPath);
-        }
-    }
+	const nodesWithIcon = document.querySelectorAll(`[${config.ICON_ATTRIBUTE_NAME}="${rule.icon}"]`);
+	for (let i = 0; i < nodesWithIcon.length; i++) {
+		const node = nodesWithIcon[i];
+		// Parent element is the node which contains the data path.
+		const parent = node.parentElement;
+		if (!parent) {
+			continue;
+		}
+		const dataPath = parent.getAttribute('data-path');
+		if (!dataPath) {
+			continue;
+		}
+		const fileType = (yield plugin.app.vault.adapter.stat(dataPath)).type;
+		if (doesMatchPath(rule, dataPath) && doesMatchFileType(rule, fileType)) {
+			dom.removeIconInNode(parent);
+			IconCache.getInstance().invalidate(dataPath);
+		}
+	}
 });
 /**
  * Gets all the custom rules sorted by their order property in ascending order.
@@ -3328,7 +3328,7 @@ const removeFromAllFiles = (plugin, rule) => __awaiter(void 0, void 0, void 0, f
  * @returns CustomRule array sorted by their order property in ascending order.
  */
 const getSortedRules = (plugin) => {
-    return plugin.getSettings().rules.sort((a, b) => a.order - b.order);
+	return plugin.getSettings().rules.sort((a, b) => a.order - b.order);
 };
 /**
  * Tries to add all specific custom rule icons to all registered files and directories.
@@ -3338,10 +3338,10 @@ const getSortedRules = (plugin) => {
  * @param rule CustomRule that will be applied, if applicable, to all files and folders.
  */
 const addToAllFiles = (plugin, rule) => __awaiter(void 0, void 0, void 0, function* () {
-    const fileItems = yield getFileItems(plugin, rule);
-    for (const fileItem of fileItems) {
-        yield add$2(plugin, rule, fileItem.file, getFileItemTitleEl(fileItem));
-    }
+	const fileItems = yield getFileItems(plugin, rule);
+	for (const fileItem of fileItems) {
+		yield add$2(plugin, rule, fileItem.file, getFileItemTitleEl(fileItem));
+	}
 });
 /**
  * Tries to add the icon of the custom rule to a file or folder. This function also checks
@@ -3354,27 +3354,27 @@ const addToAllFiles = (plugin, rule) => __awaiter(void 0, void 0, void 0, functi
  * @returns A promise that resolves to `true` if the icon was added, `false` otherwise.
  */
 const add$2 = (plugin, rule, file, container) => __awaiter(void 0, void 0, void 0, function* () {
-    if (container && dom.doesElementHasIconNode(container)) {
-        return false;
-    }
-    // Checks if the file or directory already has an icon.
-    const hasIcon = plugin.getIconNameFromPath(file.path);
-    if (hasIcon) {
-        return false;
-    }
-    const doesMatch = yield isApplicable(plugin, rule, file.path);
-    if (doesMatch) {
-        IconCache.getInstance().set(file.path, {
-            iconNameWithPrefix: rule.icon,
-            inCustomRule: true,
-        });
-        dom.createIconNode(plugin, file.path, rule.icon, {
-            color: rule.color,
-            container,
-        });
-        return true;
-    }
-    return false;
+	if (container && dom.doesElementHasIconNode(container)) {
+		return false;
+	}
+	// Checks if the file or directory already has an icon.
+	const hasIcon = plugin.getIconNameFromPath(file.path);
+	if (hasIcon) {
+		return false;
+	}
+	const doesMatch = yield isApplicable(plugin, rule, file.path);
+	if (doesMatch) {
+		IconCache.getInstance().set(file.path, {
+			iconNameWithPrefix: rule.icon,
+			inCustomRule: true,
+		});
+		dom.createIconNode(plugin, file.path, rule.icon, {
+			color: rule.color,
+			container,
+		});
+		return true;
+	}
+	return false;
 });
 /**
  * Determines whether a given rule exists in a given path.
@@ -3383,19 +3383,19 @@ const add$2 = (plugin, rule, file, container) => __awaiter(void 0, void 0, void 
  * @returns True if the rule exists in the path, false otherwise.
  */
 const doesMatchPath = (rule, path) => {
-    const toMatch = rule.useFilePath ? path : path.split('/').pop();
-    try {
-        // Rule is in some sort of regex.
-        const regex = new RegExp(rule.rule);
-        if (toMatch.match(regex)) {
-            return true;
-        }
-    }
-    catch (_a) {
-        // Rule is not in some sort of regex, check for basic string match.
-        return toMatch.includes(rule.rule);
-    }
-    return false;
+	const toMatch = rule.useFilePath ? path : path.split('/').pop();
+	try {
+		// Rule is in some sort of regex.
+		const regex = new RegExp(rule.rule);
+		if (toMatch.match(regex)) {
+			return true;
+		}
+	}
+	catch (_a) {
+		// Rule is not in some sort of regex, check for basic string match.
+		return toMatch.includes(rule.rule);
+	}
+	return false;
 };
 /**
  * Gets all the file items that can be applied to the specific custom rule.
@@ -3404,120 +3404,120 @@ const doesMatchPath = (rule, path) => {
  * @returns A promise that resolves to an array of file items that match the custom rule.
  */
 const getFileItems = (plugin, rule) => __awaiter(void 0, void 0, void 0, function* () {
-    const result = [];
-    for (const fileExplorer of plugin.getRegisteredFileExplorers()) {
-        const files = Object.values(fileExplorer.fileItems || {});
-        for (const fileItem of files) {
-            if (yield isApplicable(plugin, rule, fileItem.file.path)) {
-                result.push(fileItem);
-            }
-        }
-    }
-    return result;
+	const result = [];
+	for (const fileExplorer of plugin.getRegisteredFileExplorers()) {
+		const files = Object.values(fileExplorer.fileItems || {});
+		for (const fileItem of files) {
+			if (yield isApplicable(plugin, rule, fileItem.file.path)) {
+				result.push(fileItem);
+			}
+		}
+	}
+	return result;
 });
 var customRule = {
-    getFileItems,
-    doesMatchPath,
-    doesMatchFileType,
-    getSortedRules,
-    removeFromAllFiles,
-    add: add$2,
-    addToAllFiles,
-    isApplicable,
+	getFileItems,
+	doesMatchPath,
+	doesMatchFileType,
+	getSortedRules,
+	removeFromAllFiles,
+	add: add$2,
+	addToAllFiles,
+	isApplicable,
 };
 
 function migrate$3(plugin) {
-    return __awaiter(this, void 0, void 0, function* () {
-        // Migration for inheritance to custom rule.
-        if (plugin.getSettings().migrated === 3) {
-            let hasRemovedInheritance = false;
-            for (const [key, value] of Object.entries(plugin.getData())) {
-                if (key === 'settings' || typeof value !== 'object') {
-                    continue;
-                }
-                const folderData = value;
-                const inheritanceIcon = folderData.inheritanceIcon;
-                if (!inheritanceIcon) {
-                    continue;
-                }
-                const folderIconName = folderData.iconName;
-                // Clean up old data.
-                if (folderData.iconColor && folderIconName) {
-                    delete folderData.inheritanceIcon;
-                }
-                else if (folderIconName) {
-                    delete plugin.getData()[key];
-                    plugin.getData()[key] = folderIconName;
-                }
-                else if (!folderIconName) {
-                    delete plugin.getData()[key];
-                }
-                const folderPath = key + '\\/[\\w\\d\\s]+';
-                const newRule = {
-                    icon: inheritanceIcon,
-                    rule: `${folderPath}\\.(?:\\w+\\.)*\\w+`,
-                    for: 'files',
-                    order: 0,
-                    useFilePath: true,
-                };
-                // Reorder existing custom rules so that the new inheritance custom rule
-                // is at the top.
-                plugin.getSettings().rules.map((rule) => {
-                    rule.order++;
-                });
-                plugin.getSettings().rules.unshift(newRule);
-                // Apply the custom rule.
-                yield customRule.addToAllFiles(plugin, newRule);
-                hasRemovedInheritance = true;
-            }
-            if (hasRemovedInheritance) {
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Inheritance has been removed and replaced with custom rules.`);
-            }
-            plugin.getSettings().migrated++;
-        }
-    });
+	return __awaiter(this, void 0, void 0, function* () {
+		// Migration for inheritance to custom rule.
+		if (plugin.getSettings().migrated === 3) {
+			let hasRemovedInheritance = false;
+			for (const [key, value] of Object.entries(plugin.getData())) {
+				if (key === 'settings' || typeof value !== 'object') {
+					continue;
+				}
+				const folderData = value;
+				const inheritanceIcon = folderData.inheritanceIcon;
+				if (!inheritanceIcon) {
+					continue;
+				}
+				const folderIconName = folderData.iconName;
+				// Clean up old data.
+				if (folderData.iconColor && folderIconName) {
+					delete folderData.inheritanceIcon;
+				}
+				else if (folderIconName) {
+					delete plugin.getData()[key];
+					plugin.getData()[key] = folderIconName;
+				}
+				else if (!folderIconName) {
+					delete plugin.getData()[key];
+				}
+				const folderPath = key + '\\/[\\w\\d\\s]+';
+				const newRule = {
+					icon: inheritanceIcon,
+					rule: `${folderPath}\\.(?:\\w+\\.)*\\w+`,
+					for: 'files',
+					order: 0,
+					useFilePath: true,
+				};
+				// Reorder existing custom rules so that the new inheritance custom rule
+				// is at the top.
+				plugin.getSettings().rules.map((rule) => {
+					rule.order++;
+				});
+				plugin.getSettings().rules.unshift(newRule);
+				// Apply the custom rule.
+				yield customRule.addToAllFiles(plugin, newRule);
+				hasRemovedInheritance = true;
+			}
+			if (hasRemovedInheritance) {
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Inheritance has been removed and replaced with custom rules.`);
+			}
+			plugin.getSettings().migrated++;
+		}
+	});
 }
 
 function migrate$2(plugin) {
-    return __awaiter(this, void 0, void 0, function* () {
-        if (plugin.getSettings().migrated === 4) {
-            if (plugin.getSettings().emojiStyle === 'none') {
-                plugin.getSettings().emojiStyle = 'native';
-            }
-            plugin.getSettings().migrated++;
-        }
-    });
+	return __awaiter(this, void 0, void 0, function* () {
+		if (plugin.getSettings().migrated === 4) {
+			if (plugin.getSettings().emojiStyle === 'none') {
+				plugin.getSettings().emojiStyle = 'native';
+			}
+			plugin.getSettings().migrated++;
+		}
+	});
 }
 
 function migrate$1(plugin) {
-    return __awaiter(this, void 0, void 0, function* () {
-        if (plugin.getSettings().migrated === 5) {
-            yield deleteIconPack(plugin, LUCIDE_ICON_PACK_NAME);
-            plugin.getSettings().migrated++;
-        }
-    });
+	return __awaiter(this, void 0, void 0, function* () {
+		if (plugin.getSettings().migrated === 5) {
+			yield deleteIconPack(plugin, LUCIDE_ICON_PACK_NAME);
+			plugin.getSettings().migrated++;
+		}
+	});
 }
 
 const migrate = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    // eslint-disable-next-line
-    // @ts-ignore - Required because an older version of the plugin saved the `migrated`
-    // property as a boolean instead of a number.
-    if (plugin.getSettings().migrated === true) {
-        plugin.getSettings().migrated = 1;
-    }
-    yield migrate$5(plugin);
-    yield migrate$4(plugin);
-    yield migrate$3(plugin);
-    yield migrate$2(plugin);
-    yield migrate$1(plugin);
-    yield plugin.saveIconFolderData();
+	// eslint-disable-next-line
+	// @ts-ignore - Required because an older version of the plugin saved the `migrated`
+	// property as a boolean instead of a number.
+	if (plugin.getSettings().migrated === true) {
+		plugin.getSettings().migrated = 1;
+	}
+	yield migrate$5(plugin);
+	yield migrate$4(plugin);
+	yield migrate$3(plugin);
+	yield migrate$2(plugin);
+	yield migrate$1(plugin);
+	yield plugin.saveIconFolderData();
 });
 
 class IconFolderSetting {
-    constructor(plugin, containerEl) {
-        this.plugin = plugin;
-        this.containerEl = containerEl;
-    }
+	constructor(plugin, containerEl) {
+		this.plugin = plugin;
+		this.containerEl = containerEl;
+	}
 }
 
 /**
@@ -3528,10 +3528,10 @@ class IconFolderSetting {
  * @returns TabHeaderLeaf array that includes all tab leaves of the file path.
  */
 const getTabLeavesOfFilePath = (plugin, path) => {
-    const openedFiles = getAllOpenedFiles(plugin);
-    const openedFile = openedFiles.filter((openedFile) => openedFile.path === path);
-    const leaves = openedFile.map((openedFile) => openedFile.leaf);
-    return leaves;
+	const openedFiles = getAllOpenedFiles(plugin);
+	const openedFile = openedFiles.filter((openedFile) => openedFile.path === path);
+	const leaves = openedFile.map((openedFile) => openedFile.leaf);
+	return leaves;
 };
 /**
  * Adds an icon to the tab and its container. This function respects the
@@ -3542,58 +3542,58 @@ const getTabLeavesOfFilePath = (plugin, path) => {
  * @param options AddOptions for the add function which can optionally be used.
  */
 const add$1 = (plugin, filePath, iconContainer, options) => __awaiter(void 0, void 0, void 0, function* () {
-    var _a;
-    const iconColor = (_a = options === null || options === void 0 ? void 0 : options.iconColor) !== null && _a !== void 0 ? _a : plugin.getSettings().iconColor;
-    const data = Object.entries(plugin.getData());
-    // Removes the `display: none` from the obsidian styling.
-    iconContainer.style.display = 'flex';
-    // Only add the icon name manually when it is defined in the options.
-    if (options === null || options === void 0 ? void 0 : options.iconName) {
-        dom.setIconForNode(plugin, options.iconName, iconContainer, {
-            color: iconColor,
-        });
-        // TODO: Refactor to include option to `insertIconToNode` function.
-        iconContainer.style.margin = null;
-        return;
-    }
-    // Add icons to tabs if a custom rule is applicable.
-    for (const rule of customRule.getSortedRules(plugin)) {
-        const isApplicable = yield customRule.isApplicable(plugin, rule, filePath);
-        if (isApplicable) {
-            dom.setIconForNode(plugin, rule.icon, iconContainer, {
-                color: rule.color,
-            });
-            // TODO: Refactor to include option to `insertIconToNode` function.
-            iconContainer.style.margin = null;
-            break;
-        }
-    }
-    // Add icons to tabs if there is an icon set.
-    const iconData = data.find(([dataPath]) => dataPath === filePath);
-    if (!iconData) {
-        return;
-    }
-    const value = iconData[1];
-    if (typeof value !== 'string' && typeof value !== 'object') {
-        return;
-    }
-    let iconName;
-    if (typeof value === 'object') {
-        const v = value;
-        if (v.iconName === null) {
-            return;
-        }
-        iconName = v.iconName;
-    }
-    else {
-        iconName = value;
-    }
-    dom.setIconForNode(plugin, iconName, iconContainer, {
-        color: iconColor,
-        shouldApplyAllStyles: true,
-    });
-    // TODO: Refactor to include option to `insertIconToNode` function.
-    iconContainer.style.margin = null;
+	var _a;
+	const iconColor = (_a = options === null || options === void 0 ? void 0 : options.iconColor) !== null && _a !== void 0 ? _a : plugin.getSettings().iconColor;
+	const data = Object.entries(plugin.getData());
+	// Removes the `display: none` from the obsidian styling.
+	iconContainer.style.display = 'flex';
+	// Only add the icon name manually when it is defined in the options.
+	if (options === null || options === void 0 ? void 0 : options.iconName) {
+		dom.setIconForNode(plugin, options.iconName, iconContainer, {
+			color: iconColor,
+		});
+		// TODO: Refactor to include option to `insertIconToNode` function.
+		iconContainer.style.margin = null;
+		return;
+	}
+	// Add icons to tabs if a custom rule is applicable.
+	for (const rule of customRule.getSortedRules(plugin)) {
+		const isApplicable = yield customRule.isApplicable(plugin, rule, filePath);
+		if (isApplicable) {
+			dom.setIconForNode(plugin, rule.icon, iconContainer, {
+				color: rule.color,
+			});
+			// TODO: Refactor to include option to `insertIconToNode` function.
+			iconContainer.style.margin = null;
+			break;
+		}
+	}
+	// Add icons to tabs if there is an icon set.
+	const iconData = data.find(([dataPath]) => dataPath === filePath);
+	if (!iconData) {
+		return;
+	}
+	const value = iconData[1];
+	if (typeof value !== 'string' && typeof value !== 'object') {
+		return;
+	}
+	let iconName;
+	if (typeof value === 'object') {
+		const v = value;
+		if (v.iconName === null) {
+			return;
+		}
+		iconName = v.iconName;
+	}
+	else {
+		iconName = value;
+	}
+	dom.setIconForNode(plugin, iconName, iconContainer, {
+		color: iconColor,
+		shouldApplyAllStyles: true,
+	});
+	// TODO: Refactor to include option to `insertIconToNode` function.
+	iconContainer.style.margin = null;
 });
 /**
  * Updates the icon in the tab and container by setting calling the `setIconForNode`
@@ -3603,9 +3603,9 @@ const add$1 = (plugin, filePath, iconContainer, options) => __awaiter(void 0, vo
  * @param iconContainer HTMLElement where the icon is located and will be updated.
  */
 const update = (plugin, iconName, iconContainer) => {
-    dom.setIconForNode(plugin, iconName, iconContainer);
-    // TODO: Refactor to include option to `insertIconToNode` function.
-    iconContainer.style.margin = null;
+	dom.setIconForNode(plugin, iconName, iconContainer);
+	// TODO: Refactor to include option to `insertIconToNode` function.
+	iconContainer.style.margin = null;
 };
 /**
  * Removes the icon from the tab and container by setting the `display` style property
@@ -3614,114 +3614,114 @@ const update = (plugin, iconName, iconContainer) => {
  * @param options RemoveOptions for the remove function which can optionally be used.
  */
 const remove$1 = (iconContainer, options) => {
-    if (!(options === null || options === void 0 ? void 0 : options.replaceWithDefaultIcon)) {
-        // Removes the display of the icon container to remove the icons from the tabs.
-        iconContainer.style.display = 'none';
-    }
-    else {
-        iconContainer.innerHTML = DEFAULT_FILE_ICON;
-    }
+	if (!(options === null || options === void 0 ? void 0 : options.replaceWithDefaultIcon)) {
+		// Removes the display of the icon container to remove the icons from the tabs.
+		iconContainer.style.display = 'none';
+	}
+	else {
+		iconContainer.innerHTML = DEFAULT_FILE_ICON;
+	}
 };
 var iconTabs = {
-    add: add$1,
-    update,
-    remove: remove$1,
-    getTabLeavesOfFilePath,
+	add: add$1,
+	update,
+	remove: remove$1,
+	getTabLeavesOfFilePath,
 };
 
 const checkMissingIcons = (plugin, data) => __awaiter(void 0, void 0, void 0, function* () {
-    const missingIcons = new Set();
-    const allIcons = new Map();
-    const getMissingIcon = (iconNameWithPrefix) => __awaiter(void 0, void 0, void 0, function* () {
-        const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
-        const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
-        const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
-        const iconPackName = getIconPackNameByPrefix(iconPrefix);
-        if (iconPackName === LUCIDE_ICON_PACK_NAME &&
-            !plugin.doesUseCustomLucideIconPack()) {
-            return;
-        }
-        const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
-        if (!icon) {
-            logger.error(`Icon file with name ${iconNameWithPrefix} could not be found`);
-            return null;
-        }
-        const doesIconFileExists = yield plugin.app.vault.adapter.exists(`${getPath()}/${iconPackName}/${iconName}.svg`);
-        if (!doesIconFileExists) {
-            const possibleIcon = getSvgFromLoadedIcon(iconPrefix, iconName);
-            if (!possibleIcon) {
-                logger.error(`Icon SVG with name ${iconNameWithPrefix} could not be found`);
-                return null;
-            }
-            yield extractIconToIconPack(plugin, icon, possibleIcon);
-            return icon;
-        }
-        return null;
-    });
-    for (const rule of plugin.getSettings().rules) {
-        if (!emoji.isEmoji(rule.icon)) {
-            allIcons.set(rule.icon, true);
-            const icon = yield getMissingIcon(rule.icon);
-            if (icon) {
-                missingIcons.add(icon);
-            }
-        }
-    }
-    for (const [_, value] of data) {
-        // Check for missing icon names.
-        let iconNameWithPrefix = value;
-        if (typeof value === 'object') {
-            iconNameWithPrefix = value.iconName;
-        }
-        if (iconNameWithPrefix && !emoji.isEmoji(iconNameWithPrefix)) {
-            allIcons.set(iconNameWithPrefix, true);
-            const icon = yield getMissingIcon(iconNameWithPrefix);
-            if (icon) {
-                missingIcons.add(icon);
-            }
-        }
-    }
-    // Show notice that background check is running.
-    if (missingIcons.size !== 0) {
-        new obsidian.Notice(`[${config.PLUGIN_NAME}] Background Check: found missing icons. Adding missing icons...`, 10000);
-    }
-    // Iterates over all the missing icons with its path and adds the icon to the node.
-    for (const icon of missingIcons) {
-        const normalizedName = getNormalizedName(icon.prefix + icon.name);
-        const nodesWithIcon = document.querySelectorAll(`[${config.ICON_ATTRIBUTE_NAME}="${normalizedName}"]`);
-        nodesWithIcon.forEach((node) => {
-            dom.setIconForNode(plugin, normalizedName, node);
-        });
-    }
-    // Show notice that background check was finished.
-    if (missingIcons.size !== 0) {
-        new obsidian.Notice(`[${config.PLUGIN_NAME}] Background Check: added missing icons`, 10000);
-    }
-    // Remove all icon files that can not be found in the data.
-    for (const iconPack of getAllIconPacks()) {
-        // Checks if the icon pack exists.
-        const doesIconPackExist = yield plugin.app.vault.adapter.exists(`${getPath()}/${iconPack.name}`);
-        if (!doesIconPackExist) {
-            continue;
-        }
-        const iconFiles = yield plugin.app.vault.adapter.list(`${getPath()}/${iconPack.name}`);
-        for (const iconFilePath of iconFiles.files) {
-            const iconNameWithExtension = iconFilePath.split('/').pop();
-            // Removes the file extension.
-            const iconName = iconNameWithExtension === null || iconNameWithExtension === void 0 ? void 0 : iconNameWithExtension.substring(0, iconNameWithExtension.length - 4);
-            const iconNameWithPrefix = iconPack.prefix + iconName;
-            const doesIconExist = allIcons.get(iconNameWithPrefix);
-            if (!doesIconExist) {
-                const path = `${getPath()}/${iconPack.name}/${iconName}.svg`;
-                const doesPathExist = yield plugin.app.vault.adapter.exists(path);
-                if (doesPathExist) {
-                    logger.info(`Removing icon with path '${path}' because it is not used anymore`);
-                    // Removes the icon file.
-                    yield plugin.app.vault.adapter.remove(`${getPath()}/${iconPack.name}/${iconName}.svg`);
-                }
-            }
-        }
-    }
+	const missingIcons = new Set();
+	const allIcons = new Map();
+	const getMissingIcon = (iconNameWithPrefix) => __awaiter(void 0, void 0, void 0, function* () {
+		const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
+		const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
+		const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
+		const iconPackName = getIconPackNameByPrefix(iconPrefix);
+		if (iconPackName === LUCIDE_ICON_PACK_NAME &&
+			!plugin.doesUseCustomLucideIconPack()) {
+			return;
+		}
+		const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
+		if (!icon) {
+			logger.error(`Icon file with name ${iconNameWithPrefix} could not be found`);
+			return null;
+		}
+		const doesIconFileExists = yield plugin.app.vault.adapter.exists(`${getPath()}/${iconPackName}/${iconName}.svg`);
+		if (!doesIconFileExists) {
+			const possibleIcon = getSvgFromLoadedIcon(iconPrefix, iconName);
+			if (!possibleIcon) {
+				logger.error(`Icon SVG with name ${iconNameWithPrefix} could not be found`);
+				return null;
+			}
+			yield extractIconToIconPack(plugin, icon, possibleIcon);
+			return icon;
+		}
+		return null;
+	});
+	for (const rule of plugin.getSettings().rules) {
+		if (!emoji.isEmoji(rule.icon)) {
+			allIcons.set(rule.icon, true);
+			const icon = yield getMissingIcon(rule.icon);
+			if (icon) {
+				missingIcons.add(icon);
+			}
+		}
+	}
+	for (const [_, value] of data) {
+		// Check for missing icon names.
+		let iconNameWithPrefix = value;
+		if (typeof value === 'object') {
+			iconNameWithPrefix = value.iconName;
+		}
+		if (iconNameWithPrefix && !emoji.isEmoji(iconNameWithPrefix)) {
+			allIcons.set(iconNameWithPrefix, true);
+			const icon = yield getMissingIcon(iconNameWithPrefix);
+			if (icon) {
+				missingIcons.add(icon);
+			}
+		}
+	}
+	// Show notice that background check is running.
+	if (missingIcons.size !== 0) {
+		new obsidian.Notice(`[${config.PLUGIN_NAME}] Background Check: found missing icons. Adding missing icons...`, 10000);
+	}
+	// Iterates over all the missing icons with its path and adds the icon to the node.
+	for (const icon of missingIcons) {
+		const normalizedName = getNormalizedName(icon.prefix + icon.name);
+		const nodesWithIcon = document.querySelectorAll(`[${config.ICON_ATTRIBUTE_NAME}="${normalizedName}"]`);
+		nodesWithIcon.forEach((node) => {
+			dom.setIconForNode(plugin, normalizedName, node);
+		});
+	}
+	// Show notice that background check was finished.
+	if (missingIcons.size !== 0) {
+		new obsidian.Notice(`[${config.PLUGIN_NAME}] Background Check: added missing icons`, 10000);
+	}
+	// Remove all icon files that can not be found in the data.
+	for (const iconPack of getAllIconPacks()) {
+		// Checks if the icon pack exists.
+		const doesIconPackExist = yield plugin.app.vault.adapter.exists(`${getPath()}/${iconPack.name}`);
+		if (!doesIconPackExist) {
+			continue;
+		}
+		const iconFiles = yield plugin.app.vault.adapter.list(`${getPath()}/${iconPack.name}`);
+		for (const iconFilePath of iconFiles.files) {
+			const iconNameWithExtension = iconFilePath.split('/').pop();
+			// Removes the file extension.
+			const iconName = iconNameWithExtension === null || iconNameWithExtension === void 0 ? void 0 : iconNameWithExtension.substring(0, iconNameWithExtension.length - 4);
+			const iconNameWithPrefix = iconPack.prefix + iconName;
+			const doesIconExist = allIcons.get(iconNameWithPrefix);
+			if (!doesIconExist) {
+				const path = `${getPath()}/${iconPack.name}/${iconName}.svg`;
+				const doesPathExist = yield plugin.app.vault.adapter.exists(path);
+				if (doesPathExist) {
+					logger.info(`Removing icon with path '${path}' because it is not used anymore`);
+					// Removes the icon file.
+					yield plugin.app.vault.adapter.remove(`${getPath()}/${iconPack.name}/${iconName}.svg`);
+				}
+			}
+		}
+	}
 });
 /**
  * This function adds all the possible icons to the corresponding nodes. It
@@ -3735,72 +3735,72 @@ const checkMissingIcons = (plugin, data) => __awaiter(void 0, void 0, void 0, fu
  * explorer.
  */
 const addAll = (plugin, data, registeredFileExplorers, callback) => {
-    const fileExplorers = plugin.app.workspace.getLeavesOfType('file-explorer');
-    for (const fileExplorer of fileExplorers) {
-        if (registeredFileExplorers.has(fileExplorer.view)) {
-            continue;
-        }
-        registeredFileExplorers.add(fileExplorer.view);
-        const setIcons = () => {
-            var _a, _b;
-            // Adds icons to already open file tabs.
-            if (plugin.getSettings().iconInTabsEnabled) {
-                for (const leaf of plugin.app.workspace.getLeavesOfType('markdown')) {
-                    const filePath = (_b = (_a = leaf.view.file) === null || _a === void 0 ? void 0 : _a.path) !== null && _b !== void 0 ? _b : leaf.view.getState().file;
-                    if (typeof filePath === 'string') {
-                        const tabHeaderLeaf = leaf;
-                        const iconColor = plugin.getIconColor(filePath);
-                        iconTabs.add(plugin, filePath, tabHeaderLeaf.tabHeaderInnerIconEl, {
-                            iconColor,
-                        });
-                    }
-                }
-            }
-            for (const [dataPath, value] of data) {
-                const fileItem = fileExplorer.view.fileItems[dataPath];
-                if (fileItem) {
-                    const titleEl = getFileItemTitleEl(fileItem);
-                    const titleInnerEl = getFileItemInnerTitleEl(fileItem);
-                    // Need to check this because refreshing the plugin will duplicate all the icons.
-                    if (titleEl.children.length === 2 || titleEl.children.length === 1) {
-                        const iconName = typeof value === 'string' ? value : value.iconName;
-                        const iconColor = typeof value === 'string' ? undefined : value.iconColor;
-                        if (iconName) {
-                            // Removes a possible existing icon.
-                            const existingIcon = titleEl.querySelector('.iconize-icon');
-                            if (existingIcon) {
-                                existingIcon.remove();
-                            }
-                            // Creates the new node with the icon inside.
-                            const iconNode = titleEl.createDiv();
-                            iconNode.setAttribute(config.ICON_ATTRIBUTE_NAME, iconName);
-                            iconNode.classList.add('iconize-icon');
-                            IconCache.getInstance().set(dataPath, {
-                                iconNameWithPrefix: iconName,
-                            });
-                            dom.setIconForNode(plugin, iconName, iconNode, {
-                                color: iconColor,
-                            });
-                            titleEl.insertBefore(iconNode, titleInnerEl);
-                        }
-                    }
-                }
-            }
-            // Callback function to register other events to this file explorer.
-            callback === null || callback === void 0 ? void 0 : callback();
-        };
-        if (obsidian.requireApiVersion('1.7.2')) {
-            // TODO: Remove loading deferred view to improve performance.
-            fileExplorer.loadIfDeferred().then(setIcons);
-        }
-        else {
-            setIcons();
-        }
-    }
-    // Handles the custom rules.
-    for (const rule of customRule.getSortedRules(plugin)) {
-        customRule.addToAllFiles(plugin, rule);
-    }
+	const fileExplorers = plugin.app.workspace.getLeavesOfType('file-explorer');
+	for (const fileExplorer of fileExplorers) {
+		if (registeredFileExplorers.has(fileExplorer.view)) {
+			continue;
+		}
+		registeredFileExplorers.add(fileExplorer.view);
+		const setIcons = () => {
+			var _a, _b;
+			// Adds icons to already open file tabs.
+			if (plugin.getSettings().iconInTabsEnabled) {
+				for (const leaf of plugin.app.workspace.getLeavesOfType('markdown')) {
+					const filePath = (_b = (_a = leaf.view.file) === null || _a === void 0 ? void 0 : _a.path) !== null && _b !== void 0 ? _b : leaf.view.getState().file;
+					if (typeof filePath === 'string') {
+						const tabHeaderLeaf = leaf;
+						const iconColor = plugin.getIconColor(filePath);
+						iconTabs.add(plugin, filePath, tabHeaderLeaf.tabHeaderInnerIconEl, {
+							iconColor,
+						});
+					}
+				}
+			}
+			for (const [dataPath, value] of data) {
+				const fileItem = fileExplorer.view.fileItems[dataPath];
+				if (fileItem) {
+					const titleEl = getFileItemTitleEl(fileItem);
+					const titleInnerEl = getFileItemInnerTitleEl(fileItem);
+					// Need to check this because refreshing the plugin will duplicate all the icons.
+					if (titleEl.children.length === 2 || titleEl.children.length === 1) {
+						const iconName = typeof value === 'string' ? value : value.iconName;
+						const iconColor = typeof value === 'string' ? undefined : value.iconColor;
+						if (iconName) {
+							// Removes a possible existing icon.
+							const existingIcon = titleEl.querySelector('.iconize-icon');
+							if (existingIcon) {
+								existingIcon.remove();
+							}
+							// Creates the new node with the icon inside.
+							const iconNode = titleEl.createDiv();
+							iconNode.setAttribute(config.ICON_ATTRIBUTE_NAME, iconName);
+							iconNode.classList.add('iconize-icon');
+							IconCache.getInstance().set(dataPath, {
+								iconNameWithPrefix: iconName,
+							});
+							dom.setIconForNode(plugin, iconName, iconNode, {
+								color: iconColor,
+							});
+							titleEl.insertBefore(iconNode, titleInnerEl);
+						}
+					}
+				}
+			}
+			// Callback function to register other events to this file explorer.
+			callback === null || callback === void 0 ? void 0 : callback();
+		};
+		if (obsidian.requireApiVersion('1.7.2')) {
+			// TODO: Remove loading deferred view to improve performance.
+			fileExplorer.loadIfDeferred().then(setIcons);
+		}
+		else {
+			setIcons();
+		}
+	}
+	// Handles the custom rules.
+	for (const rule of customRule.getSortedRules(plugin)) {
+		customRule.addToAllFiles(plugin, rule);
+	}
 };
 /**
  * Gets the icon of a given path. This function returns the first occurrence of an icon.
@@ -3809,28 +3809,28 @@ const addAll = (plugin, data, registeredFileExplorers, callback) => {
  * @returns The icon of the path if it exists, undefined otherwise.
  */
 const getByPath = (plugin, path) => {
-    if (path === 'settings' || path === 'migrated') {
-        return undefined;
-    }
-    const value = plugin.getData()[path];
-    if (typeof value === 'string') {
-        // If the value is a plain icon name, return it.
-        return value;
-    }
-    else if (typeof value === 'object') {
-        const v = value;
-        if (v.iconName !== null) {
-            return v.iconName;
-        }
-    }
-    // Tries to get the custom rule for the path and returns its icon if it exists.
-    const rule = customRule.getSortedRules(plugin).find((rule) => {
-        return customRule.doesMatchPath(rule, path);
-    });
-    if (rule) {
-        return rule.icon;
-    }
-    return undefined;
+	if (path === 'settings' || path === 'migrated') {
+		return undefined;
+	}
+	const value = plugin.getData()[path];
+	if (typeof value === 'string') {
+		// If the value is a plain icon name, return it.
+		return value;
+	}
+	else if (typeof value === 'object') {
+		const v = value;
+		if (v.iconName !== null) {
+			return v.iconName;
+		}
+	}
+	// Tries to get the custom rule for the path and returns its icon if it exists.
+	const rule = customRule.getSortedRules(plugin).find((rule) => {
+		return customRule.doesMatchPath(rule, path);
+	});
+	if (rule) {
+		return rule.icon;
+	}
+	return undefined;
 };
 /**
  * Gets all the icons with their paths as an object.
@@ -3839,23 +3839,23 @@ const getByPath = (plugin, path) => {
  * or custom rule.
  */
 const getAllWithPath = (plugin) => {
-    const result = [];
-    Object.keys(plugin.getData()).forEach((path) => {
-        if (path === 'settings' || path === 'migrated') {
-            return;
-        }
-        const icon = getByPath(plugin, path);
-        if (icon && !emoji.isEmoji(icon)) {
-            result.push({ path, icon });
-        }
-    });
-    // Add all icons for the custom rules with the rule as the path.
-    for (const rule of plugin.getSettings().rules) {
-        if (!emoji.isEmoji(rule.icon)) {
-            result.push({ path: rule.rule, icon: rule.icon });
-        }
-    }
-    return result;
+	const result = [];
+	Object.keys(plugin.getData()).forEach((path) => {
+		if (path === 'settings' || path === 'migrated') {
+			return;
+		}
+		const icon = getByPath(plugin, path);
+		if (icon && !emoji.isEmoji(icon)) {
+			result.push({ path, icon });
+		}
+	});
+	// Add all icons for the custom rules with the rule as the path.
+	for (const rule of plugin.getSettings().rules) {
+		if (!emoji.isEmoji(rule.icon)) {
+			result.push({ path: rule.rule, icon: rule.icon });
+		}
+	}
+	return result;
 };
 /**
  * Returns the {@link Icon} for the given icon name. It is important, that the icon name
@@ -3865,15 +3865,15 @@ const getAllWithPath = (plugin) => {
  * @returns Icon if it exists, `null` otherwise.
  */
 const getIconByName = (iconNameWithPrefix) => {
-    const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
-    const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
-    const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
-    const iconPackName = getIconPackNameByPrefix(iconPrefix);
-    const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
-    if (!icon) {
-        return null;
-    }
-    return icon;
+	const iconNextIdentifier = nextIdentifier(iconNameWithPrefix);
+	const iconName = iconNameWithPrefix.substring(iconNextIdentifier);
+	const iconPrefix = iconNameWithPrefix.substring(0, iconNextIdentifier);
+	const iconPackName = getIconPackNameByPrefix(iconPrefix);
+	const icon = getIconFromIconPack(iconPackName, iconPrefix, iconName);
+	if (!icon) {
+		return null;
+	}
+	return icon;
 };
 /**
  * Returns the {@link Icon} for the given path.
@@ -3882,816 +3882,816 @@ const getIconByName = (iconNameWithPrefix) => {
  * @returns Icon or Emoji as string if it exists, `null` otherwise.
  */
 const getIconByPath = (plugin, path) => {
-    const iconNameWithPrefix = getByPath(plugin, path);
-    if (!iconNameWithPrefix) {
-        return null;
-    }
-    if (emoji.isEmoji(iconNameWithPrefix)) {
-        return iconNameWithPrefix;
-    }
-    return getIconByName(iconNameWithPrefix);
+	const iconNameWithPrefix = getByPath(plugin, path);
+	if (!iconNameWithPrefix) {
+		return null;
+	}
+	if (emoji.isEmoji(iconNameWithPrefix)) {
+		return iconNameWithPrefix;
+	}
+	return getIconByName(iconNameWithPrefix);
 };
 var icon = {
-    addAll,
-    getByPath,
-    getAllWithPath,
-    getIconByPath,
-    getIconByName,
-    checkMissingIcons,
+	addAll,
+	getByPath,
+	getAllWithPath,
+	getIconByPath,
+	getIconByName,
+	checkMissingIcons,
 };
 
 class CustomIconPackSetting extends IconFolderSetting {
-    constructor(plugin, containerEl, refreshDisplay) {
-        super(plugin, containerEl);
-        this.refreshDisplay = refreshDisplay;
-        this.dragOverElement = document.createElement('div');
-        this.dragOverElement.addClass('iconize-dragover-el');
-        this.dragOverElement.style.display = 'hidden';
-        this.dragOverElement.innerHTML = '<p>Drop to add icon.</p>';
-    }
-    normalizeIconPackName(value) {
-        return value.toLowerCase().replace(/\s/g, '-');
-    }
-    preventDefaults(event) {
-        event.preventDefault();
-        event.stopPropagation();
-    }
-    highlight(el) {
-        clearTimeout(this.closeTimer);
-        if (!this.dragTargetElement) {
-            el.appendChild(this.dragOverElement);
-            el.classList.add('iconize-dragover');
-            this.dragTargetElement = el;
-        }
-    }
-    unhighlight(target, el) {
-        if (this.dragTargetElement && this.dragTargetElement !== target) {
-            this.dragTargetElement.removeChild(this.dragOverElement);
-            this.dragTargetElement.classList.remove('iconize-dragover');
-            this.dragTargetElement = undefined;
-        }
-        clearTimeout(this.closeTimer);
-        this.closeTimer = setTimeout(() => {
-            if (this.dragTargetElement) {
-                el.removeChild(this.dragOverElement);
-                el.classList.remove('iconize-dragover');
-                this.dragTargetElement = undefined;
-            }
-        }, 100);
-    }
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Add custom icon pack')
-            .setDesc('Add a custom icon pack.')
-            .addText((text) => {
-            text.setPlaceholder('Your icon pack name');
-            this.textComponent = text;
-        })
-            .addButton((btn) => {
-            btn.setButtonText('Add icon pack');
-            btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                const name = this.textComponent.getValue();
-                if (name.length === 0) {
-                    return;
-                }
-                const normalizedName = this.normalizeIconPackName(this.textComponent.getValue());
-                if (yield doesIconPackExist(this.plugin, normalizedName)) {
-                    new obsidian.Notice('Icon pack already exists.');
-                    return;
-                }
-                yield createCustomIconPackDirectory(this.plugin, normalizedName);
-                this.textComponent.setValue('');
-                this.refreshDisplay();
-                new obsidian.Notice('Icon pack successfully created.');
-            }));
-        });
-        // Sorts lucide icon pack always to the top.
-        const iconPacks = [...getAllIconPacks()].sort((a, b) => {
-            if (a.name === LUCIDE_ICON_PACK_NAME)
-                return -1;
-            if (b.name === LUCIDE_ICON_PACK_NAME)
-                return 1;
-            return a.name.localeCompare(b.name);
-        });
-        iconPacks.forEach((iconPack) => {
-            const isLucideIconPack = iconPack.name === LUCIDE_ICON_PACK_NAME;
-            const additionalLucideDescription = '(Native Pack has fewer icons but 100% Obsidian Sync support)';
-            const iconPackSetting = new obsidian.Setting(this.containerEl)
-                .setName(`${iconPack.name} (${iconPack.prefix})`)
-                .setDesc(`Total icons: ${iconPack.icons.length}${isLucideIconPack ? ` ${additionalLucideDescription}` : ''}`);
-            // iconPackSetting.addButton((btn) => {
-            //   btn.setIcon('broken-link');
-            //   btn.setTooltip('Try to fix icon pack');
-            //   btn.onClick(async () => {
-            //     new Notice('Try to fix icon pack...');
-            //     getIconPack(iconPack.name).icons = [];
-            //     const icons = await getFilesInDirectory(this.plugin, `${getPath()}/${iconPack.name}`);
-            //     for (let i = 0; i < icons.length; i++) {
-            //       const filePath = icons[i];
-            //       const fileName = filePath.split('/').pop();
-            //       const file = await this.plugin.app.vault.adapter.read(filePath);
-            //       const iconContent = file
-            //         .replace(/stroke="#fff"/g, 'stroke="currentColor"')
-            //         .replace(/fill="#fff"/g, 'fill="currentColor"');
-            //       await this.plugin.app.vault.adapter.write(filePath, iconContent);
-            //       await normalizeFileName(this.plugin, filePath);
-            //       addIconToIconPack(iconPack.name, fileName, iconContent);
-            //     }
-            //     new Notice('...tried to fix icon pack');
-            //     // Refreshes the DOM.
-            //     Object.entries(this.plugin.getData()).forEach(async ([k, v]) => {
-            //       const doesPathExist = await this.plugin.app.vault.adapter.exists(k, true);
-            //       if (doesPathExist && typeof v === 'string') {
-            //         // dom.removeIconInPath(k);
-            //         dom.createIconNode(this.plugin, k, v);
-            //       }
-            //     });
-            //   });
-            // });
-            if (isLucideIconPack) {
-                iconPackSetting.addDropdown((dropdown) => {
-                    dropdown.addOptions({
-                        native: 'Native',
-                        custom: 'Custom',
-                        none: 'None',
-                    });
-                    dropdown.setValue(this.plugin.getSettings().lucideIconPackType);
-                    dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                        dropdown.setDisabled(true);
-                        new obsidian.Notice('Changing icon packs...');
-                        this.plugin.getSettings().lucideIconPackType = value;
-                        yield this.plugin.saveIconFolderData();
-                        if (value === 'native' || value === 'none') {
-                            yield removeCustomLucideIconPack(this.plugin);
-                            addLucideIconsPack(this.plugin);
-                        }
-                        else {
-                            yield addCustomLucideIconPack(this.plugin);
-                            yield icon.checkMissingIcons(this.plugin, Object.entries(this.plugin.getData()));
-                        }
-                        dropdown.setDisabled(false);
-                        new obsidian.Notice('Done. This change requires a restart of Obsidian');
-                    }));
-                });
-                return;
-            }
-            iconPackSetting.addButton((btn) => {
-                btn.setIcon('plus');
-                btn.setTooltip('Add an icon');
-                btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    const fileSelector = document.createElement('input');
-                    fileSelector.setAttribute('type', 'file');
-                    fileSelector.setAttribute('multiple', 'multiple');
-                    fileSelector.setAttribute('accept', '.svg');
-                    fileSelector.click();
-                    fileSelector.onchange = (e) => __awaiter(this, void 0, void 0, function* () {
-                        const target = e.target;
-                        for (let i = 0; i < target.files.length; i++) {
-                            const file = target.files[i];
-                            const content = yield readFileSync(file);
-                            yield createFile(this.plugin, iconPack.name, file.name, content);
-                            addIconToIconPack(iconPack.name, file.name, content);
-                            iconPackSetting.setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`);
-                        }
-                        new obsidian.Notice('Icons successfully added.');
-                    });
-                }));
-            });
-            iconPackSetting.addButton((btn) => {
-                btn.setIcon('trash');
-                btn.setTooltip('Remove the icon pack');
-                btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    yield deleteIconPack(this.plugin, iconPack.name);
-                    this.refreshDisplay();
-                    new obsidian.Notice('Icon pack successfully deleted.');
-                }));
-            });
-            ['dragenter', 'dragover', 'dragleave', 'drop'].forEach((event) => {
-                iconPackSetting.settingEl.addEventListener(event, this.preventDefaults, false);
-            });
-            ['dragenter', 'dragover'].forEach((event) => {
-                iconPackSetting.settingEl.addEventListener(event, () => this.highlight(iconPackSetting.settingEl), false);
-            });
-            ['dragleave', 'drop'].forEach((event) => {
-                iconPackSetting.settingEl.addEventListener(event, (event) => this.unhighlight(event.currentTarget, iconPackSetting.settingEl), false);
-            });
-            iconPackSetting.settingEl.addEventListener('drop', (event) => __awaiter(this, void 0, void 0, function* () {
-                const files = event.dataTransfer.files;
-                let successful = false;
-                for (let i = 0; i < files.length; i++) {
-                    const file = files[i];
-                    if (file.type !== 'image/svg+xml') {
-                        new obsidian.Notice(`File ${file.name} is not a SVG file.`);
-                        continue;
-                    }
-                    successful = true;
-                    const content = yield readFileSync(file);
-                    yield createFile(this.plugin, iconPack.name, file.name, content);
-                    addIconToIconPack(iconPack.name, file.name, content);
-                    iconPackSetting.setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`);
-                }
-                if (successful) {
-                    new obsidian.Notice('Icons successfully added.');
-                }
-            }), false);
-        });
-    }
+	constructor(plugin, containerEl, refreshDisplay) {
+		super(plugin, containerEl);
+		this.refreshDisplay = refreshDisplay;
+		this.dragOverElement = document.createElement('div');
+		this.dragOverElement.addClass('iconize-dragover-el');
+		this.dragOverElement.style.display = 'hidden';
+		this.dragOverElement.innerHTML = '<p>Drop to add icon.</p>';
+	}
+	normalizeIconPackName(value) {
+		return value.toLowerCase().replace(/\s/g, '-');
+	}
+	preventDefaults(event) {
+		event.preventDefault();
+		event.stopPropagation();
+	}
+	highlight(el) {
+		clearTimeout(this.closeTimer);
+		if (!this.dragTargetElement) {
+			el.appendChild(this.dragOverElement);
+			el.classList.add('iconize-dragover');
+			this.dragTargetElement = el;
+		}
+	}
+	unhighlight(target, el) {
+		if (this.dragTargetElement && this.dragTargetElement !== target) {
+			this.dragTargetElement.removeChild(this.dragOverElement);
+			this.dragTargetElement.classList.remove('iconize-dragover');
+			this.dragTargetElement = undefined;
+		}
+		clearTimeout(this.closeTimer);
+		this.closeTimer = setTimeout(() => {
+			if (this.dragTargetElement) {
+				el.removeChild(this.dragOverElement);
+				el.classList.remove('iconize-dragover');
+				this.dragTargetElement = undefined;
+			}
+		}, 100);
+	}
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Add custom icon pack')
+			.setDesc('Add a custom icon pack.')
+			.addText((text) => {
+			text.setPlaceholder('Your icon pack name');
+			this.textComponent = text;
+		})
+			.addButton((btn) => {
+			btn.setButtonText('Add icon pack');
+			btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				const name = this.textComponent.getValue();
+				if (name.length === 0) {
+					return;
+				}
+				const normalizedName = this.normalizeIconPackName(this.textComponent.getValue());
+				if (yield doesIconPackExist(this.plugin, normalizedName)) {
+					new obsidian.Notice('Icon pack already exists.');
+					return;
+				}
+				yield createCustomIconPackDirectory(this.plugin, normalizedName);
+				this.textComponent.setValue('');
+				this.refreshDisplay();
+				new obsidian.Notice('Icon pack successfully created.');
+			}));
+		});
+		// Sorts lucide icon pack always to the top.
+		const iconPacks = [...getAllIconPacks()].sort((a, b) => {
+			if (a.name === LUCIDE_ICON_PACK_NAME)
+				return -1;
+			if (b.name === LUCIDE_ICON_PACK_NAME)
+				return 1;
+			return a.name.localeCompare(b.name);
+		});
+		iconPacks.forEach((iconPack) => {
+			const isLucideIconPack = iconPack.name === LUCIDE_ICON_PACK_NAME;
+			const additionalLucideDescription = '(Native Pack has fewer icons but 100% Obsidian Sync support)';
+			const iconPackSetting = new obsidian.Setting(this.containerEl)
+				.setName(`${iconPack.name} (${iconPack.prefix})`)
+				.setDesc(`Total icons: ${iconPack.icons.length}${isLucideIconPack ? ` ${additionalLucideDescription}` : ''}`);
+			// iconPackSetting.addButton((btn) => {
+			//	 btn.setIcon('broken-link');
+			//	 btn.setTooltip('Try to fix icon pack');
+			//	 btn.onClick(async () => {
+			//	   new Notice('Try to fix icon pack...');
+			//	   getIconPack(iconPack.name).icons = [];
+			//	   const icons = await getFilesInDirectory(this.plugin, `${getPath()}/${iconPack.name}`);
+			//	   for (let i = 0; i < icons.length; i++) {
+			//		 const filePath = icons[i];
+			//		 const fileName = filePath.split('/').pop();
+			//		 const file = await this.plugin.app.vault.adapter.read(filePath);
+			//		 const iconContent = file
+			//		   .replace(/stroke="#fff"/g, 'stroke="currentColor"')
+			//		   .replace(/fill="#fff"/g, 'fill="currentColor"');
+			//		 await this.plugin.app.vault.adapter.write(filePath, iconContent);
+			//		 await normalizeFileName(this.plugin, filePath);
+			//		 addIconToIconPack(iconPack.name, fileName, iconContent);
+			//	   }
+			//	   new Notice('...tried to fix icon pack');
+			//	   // Refreshes the DOM.
+			//	   Object.entries(this.plugin.getData()).forEach(async ([k, v]) => {
+			//		 const doesPathExist = await this.plugin.app.vault.adapter.exists(k, true);
+			//		 if (doesPathExist && typeof v === 'string') {
+			//		   // dom.removeIconInPath(k);
+			//		   dom.createIconNode(this.plugin, k, v);
+			//		 }
+			//	   });
+			//	 });
+			// });
+			if (isLucideIconPack) {
+				iconPackSetting.addDropdown((dropdown) => {
+					dropdown.addOptions({
+						native: 'Native',
+						custom: 'Custom',
+						none: 'None',
+					});
+					dropdown.setValue(this.plugin.getSettings().lucideIconPackType);
+					dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
+						dropdown.setDisabled(true);
+						new obsidian.Notice('Changing icon packs...');
+						this.plugin.getSettings().lucideIconPackType = value;
+						yield this.plugin.saveIconFolderData();
+						if (value === 'native' || value === 'none') {
+							yield removeCustomLucideIconPack(this.plugin);
+							addLucideIconsPack(this.plugin);
+						}
+						else {
+							yield addCustomLucideIconPack(this.plugin);
+							yield icon.checkMissingIcons(this.plugin, Object.entries(this.plugin.getData()));
+						}
+						dropdown.setDisabled(false);
+						new obsidian.Notice('Done. This change requires a restart of Obsidian');
+					}));
+				});
+				return;
+			}
+			iconPackSetting.addButton((btn) => {
+				btn.setIcon('plus');
+				btn.setTooltip('Add an icon');
+				btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+					const fileSelector = document.createElement('input');
+					fileSelector.setAttribute('type', 'file');
+					fileSelector.setAttribute('multiple', 'multiple');
+					fileSelector.setAttribute('accept', '.svg');
+					fileSelector.click();
+					fileSelector.onchange = (e) => __awaiter(this, void 0, void 0, function* () {
+						const target = e.target;
+						for (let i = 0; i < target.files.length; i++) {
+							const file = target.files[i];
+							const content = yield readFileSync(file);
+							yield createFile(this.plugin, iconPack.name, file.name, content);
+							addIconToIconPack(iconPack.name, file.name, content);
+							iconPackSetting.setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`);
+						}
+						new obsidian.Notice('Icons successfully added.');
+					});
+				}));
+			});
+			iconPackSetting.addButton((btn) => {
+				btn.setIcon('trash');
+				btn.setTooltip('Remove the icon pack');
+				btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+					yield deleteIconPack(this.plugin, iconPack.name);
+					this.refreshDisplay();
+					new obsidian.Notice('Icon pack successfully deleted.');
+				}));
+			});
+			['dragenter', 'dragover', 'dragleave', 'drop'].forEach((event) => {
+				iconPackSetting.settingEl.addEventListener(event, this.preventDefaults, false);
+			});
+			['dragenter', 'dragover'].forEach((event) => {
+				iconPackSetting.settingEl.addEventListener(event, () => this.highlight(iconPackSetting.settingEl), false);
+			});
+			['dragleave', 'drop'].forEach((event) => {
+				iconPackSetting.settingEl.addEventListener(event, (event) => this.unhighlight(event.currentTarget, iconPackSetting.settingEl), false);
+			});
+			iconPackSetting.settingEl.addEventListener('drop', (event) => __awaiter(this, void 0, void 0, function* () {
+				const files = event.dataTransfer.files;
+				let successful = false;
+				for (let i = 0; i < files.length; i++) {
+					const file = files[i];
+					if (file.type !== 'image/svg+xml') {
+						new obsidian.Notice(`File ${file.name} is not a SVG file.`);
+						continue;
+					}
+					successful = true;
+					const content = yield readFileSync(file);
+					yield createFile(this.plugin, iconPack.name, file.name, content);
+					addIconToIconPack(iconPack.name, file.name, content);
+					iconPackSetting.setDesc(`Total icons: ${iconPack.icons.length} (added: ${file.name})`);
+				}
+				if (successful) {
+					new obsidian.Notice('Icons successfully added.');
+				}
+			}), false);
+		});
+	}
 }
 
 class CustomIconRuleSetting extends IconFolderSetting {
-    constructor(plugin, containerEl, app, refreshDisplay) {
-        super(plugin, containerEl);
-        this.app = app;
-        this.refreshDisplay = refreshDisplay;
-    }
-    /**
-     * Updates all the open files based on the custom rule that was specified.
-     * @param rule Rule that will be used to update all the icons for all opened files.
-     * @param remove Whether to remove the icons that are applicable to the rule or not.
-     */
-    updateIconTabs(rule_1, remove_1) {
-        return __awaiter(this, arguments, void 0, function* (rule, remove, cachedPaths = []) {
-            if (this.plugin.getSettings().iconInTabsEnabled) {
-                for (const openedFile of getAllOpenedFiles(this.plugin)) {
-                    if (cachedPaths.includes(openedFile.path)) {
-                        continue;
-                    }
-                    const applicable = yield customRule.isApplicable(this.plugin, rule, openedFile.path);
-                    if (!applicable) {
-                        continue;
-                    }
-                    const leaf = openedFile.leaf;
-                    if (remove) {
-                        iconTabs.remove(leaf.tabHeaderInnerIconEl, {
-                            replaceWithDefaultIcon: true,
-                        });
-                    }
-                    else {
-                        iconTabs.add(this.plugin, openedFile.path, leaf.tabHeaderInnerIconEl, {
-                            iconName: rule.icon,
-                            iconColor: rule.color,
-                        });
-                    }
-                }
-            }
-        });
-    }
-    createDescriptionEl(container, text) {
-        const description = container.createEl('p', {
-            text,
-            cls: 'setting-item-description',
-        });
-        description.style.marginBottom = 'var(--size-2-2)';
-    }
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Add icon rule')
-            .setDesc('Will add the icon based on the defined rule (as a plain string or in regex format).')
-            .addText((text) => {
-            text.onChange((value) => {
-                this.chooseIconBtn.setDisabled(value.length === 0);
-                this.chooseIconBtn.buttonEl.style.cursor =
-                    value.length === 0 ? 'not-allowed' : 'default';
-                this.chooseIconBtn.buttonEl.style.opacity =
-                    value.length === 0 ? '50%' : '100%';
-            });
-            text.setPlaceholder('regex or simple string');
-            this.textComponent = text;
-        })
-            .addButton((btn) => {
-            btn.setDisabled(true);
-            btn.setButtonText('Choose icon');
-            btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                if (this.textComponent.getValue().length === 0) {
-                    return;
-                }
-                const modal = new IconsPickerModal(this.app, this.plugin, '');
-                modal.onChooseItem = (item) => __awaiter(this, void 0, void 0, function* () {
-                    const icon = getNormalizedName(typeof item === 'object' ? item.displayName : item);
-                    const rule = {
-                        rule: this.textComponent.getValue(),
-                        icon,
-                        for: 'everything',
-                        order: this.plugin.getSettings().rules.length,
-                    };
-                    this.plugin.getSettings().rules = [
-                        ...this.plugin.getSettings().rules,
-                        rule,
-                    ];
-                    yield this.plugin.saveIconFolderData();
-                    this.refreshDisplay();
-                    new obsidian.Notice('Icon rule added.');
-                    this.textComponent.setValue('');
-                    saveIconToIconPack(this.plugin, rule.icon);
-                    yield customRule.addToAllFiles(this.plugin, rule);
-                    this.updateIconTabs(rule, false);
-                });
-                modal.open();
-            }));
-            this.chooseIconBtn = btn;
-        });
-        this.plugin.getSettings().rules.forEach((rule) => {
-            // Keeping track of the old rule so that we can get a reference to it for old values.
-            const oldRule = Object.assign({}, rule);
-            const settingRuleEl = new obsidian.Setting(this.containerEl)
-                .setName(rule.rule)
-                .setDesc(`Icon: ${rule.icon}`);
-            const currentOrder = rule.order;
-            /**
-             * Re-orders the custom rule based on the value that is passed in.
-             * @param valueForReorder Number that will be used to determine whether to swap the
-             * custom rule with the next rule or the previous rule.
-             */
-            const orderCustomRules = (valueForReorder) => __awaiter(this, void 0, void 0, function* () {
-                const otherRule = this.plugin.getSettings().rules[currentOrder + valueForReorder];
-                // Swap the current rule with the next rule.
-                otherRule.order = otherRule.order - valueForReorder;
-                rule.order = currentOrder + valueForReorder;
-                // Refreshes the DOM.
-                yield customRule.removeFromAllFiles(this.plugin, oldRule);
-                yield this.plugin.saveIconFolderData();
-                const addedPaths = [];
-                for (const fileExplorer of this.plugin.getRegisteredFileExplorers()) {
-                    const files = Object.values(fileExplorer.fileItems || {});
-                    for (const rule of customRule.getSortedRules(this.plugin)) {
-                        // Removes the icon tabs from all opened files.
-                        this.updateIconTabs(rule, true, addedPaths);
-                        // Adds the icon tabs to all opened files.
-                        this.updateIconTabs(rule, false, addedPaths);
-                        for (const fileItem of files) {
-                            if (addedPaths.includes(fileItem.file.path)) {
-                                continue;
-                            }
-                            const added = yield customRule.add(this.plugin, rule, fileItem.file, getFileItemTitleEl(fileItem));
-                            if (added) {
-                                addedPaths.push(fileItem.file.path);
-                            }
-                        }
-                    }
-                }
-                this.refreshDisplay();
-            });
-            // Add the move down custom rule button to re-order the custom rule.
-            settingRuleEl.addExtraButton((btn) => {
-                const isFirstOrder = currentOrder === 0;
-                btn.setDisabled(isFirstOrder);
-                btn.extraSettingsEl.style.cursor = isFirstOrder
-                    ? 'not-allowed'
-                    : 'default';
-                btn.extraSettingsEl.style.opacity = isFirstOrder ? '50%' : '100%';
-                btn.setIcon('arrow-up');
-                btn.setTooltip('Prioritize the custom rule');
-                btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    yield orderCustomRules(-1);
-                }));
-            });
-            // Add the move up custom rule button to re-order the custom rule.
-            settingRuleEl.addExtraButton((btn) => {
-                const isLastOrder = currentOrder === this.plugin.getSettings().rules.length - 1;
-                btn.setDisabled(isLastOrder);
-                btn.extraSettingsEl.style.cursor = isLastOrder
-                    ? 'not-allowed'
-                    : 'default';
-                btn.extraSettingsEl.style.opacity = isLastOrder ? '50%' : '100%';
-                btn.setIcon('arrow-down');
-                btn.setTooltip('Deprioritize the custom rule');
-                btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    yield orderCustomRules(1);
-                }));
-            });
-            // Add the edit custom rule button.
-            settingRuleEl.addButton((btn) => {
-                btn.setIcon('pencil');
-                btn.setTooltip('Edit the custom rule');
-                btn.onClick(() => {
-                    var _a, _b;
-                    // Create modal and its children elements.
-                    const modal = new obsidian.Modal(this.plugin.app);
-                    modal.contentEl.style.display = 'block';
-                    modal.modalEl.classList.add('iconize-custom-modal');
-                    modal.titleEl.setText('Edit custom rule');
-                    // Create the input for the rule.
-                    this.createDescriptionEl(modal.contentEl, 'Regex or simple string');
-                    const input = new obsidian.TextComponent(modal.contentEl);
-                    input.setValue(rule.rule);
-                    input.onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                        rule.rule = value;
-                    }));
-                    const useFilePathContainer = modal.contentEl.createDiv();
-                    useFilePathContainer.style.display = 'flex';
-                    useFilePathContainer.style.alignItems = 'center';
-                    useFilePathContainer.style.justifyContent = 'space-between';
-                    useFilePathContainer.style.marginTop = 'var(--size-4-5)';
-                    const useFilePathDescription = useFilePathContainer.createEl('p', {
-                        text: 'Include folders and files that are part of the path.',
-                        cls: 'setting-item-description',
-                    });
-                    useFilePathDescription.style.margin = '0';
-                    useFilePathDescription.style.marginBottom = 'var(--size-2-2)';
-                    new obsidian.ToggleComponent(useFilePathContainer)
-                        .setValue(rule.useFilePath === true)
-                        .onChange((value) => {
-                        rule.useFilePath = value;
-                    });
-                    // Create the toggle for changing the rule type.
-                    const ruleTypeContainer = modal.contentEl.createDiv();
-                    ruleTypeContainer.style.display = 'flex';
-                    ruleTypeContainer.style.alignItems = 'center';
-                    ruleTypeContainer.style.justifyContent = 'space-between';
-                    ruleTypeContainer.style.marginTop = 'var(--size-4-5)';
-                    const ruleTypeDescription = ruleTypeContainer.createEl('p', {
-                        text: 'Where the custom rule gets applied to.',
-                        cls: 'setting-item-description',
-                    });
-                    ruleTypeDescription.style.margin = '0';
-                    ruleTypeDescription.style.marginBottom = 'var(--size-2-2)';
-                    const ruleTypeButton = new obsidian.ButtonComponent(ruleTypeContainer);
-                    const setButtonContent = (isFor) => {
-                        if (isFor === 'folders') {
-                            ruleTypeButton.setIcon('folder');
-                        }
-                        else if (isFor === 'files') {
-                            ruleTypeButton.setIcon('document');
-                        }
-                        else {
-                            ruleTypeButton.setIcon('documents');
-                        }
-                        ruleTypeButton.setTooltip(`Icon applicable to: ${isFor}`);
-                    };
-                    setButtonContent((_a = rule.for) !== null && _a !== void 0 ? _a : 'everything');
-                    ruleTypeButton.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                        var _a;
-                        const isFor = (_a = rule.for) !== null && _a !== void 0 ? _a : 'everything';
-                        this.updateIconTabs(rule, true);
-                        yield customRule.removeFromAllFiles(this.plugin, Object.assign(Object.assign({}, rule), { for: isFor }));
-                        if (isFor === 'folders') {
-                            rule.for = 'everything';
-                        }
-                        else if (isFor === 'files') {
-                            rule.for = 'folders';
-                        }
-                        else {
-                            rule.for = 'files';
-                        }
-                        setButtonContent(rule.for);
-                    }));
-                    // Create the change icon button with icon preview.
-                    this.createDescriptionEl(modal.contentEl, 'Custom rule icon');
-                    const iconContainer = modal.contentEl.createDiv();
-                    iconContainer.style.display = 'flex';
-                    iconContainer.style.alignItems = 'center';
-                    iconContainer.style.justifyContent = 'space-between';
-                    const iconEl = iconContainer.createDiv();
-                    const iconPreviewEl = iconEl.createDiv();
-                    dom.setIconForNode(this.plugin, rule.icon, iconPreviewEl);
-                    iconEl.style.display = 'flex';
-                    iconEl.style.alignItems = 'center';
-                    iconEl.style.justifyContent = 'space-between';
-                    iconEl.style.margin = null;
-                    iconPreviewEl.innerHTML = svg.setFontSize(iconPreviewEl.innerHTML, 20);
-                    const iconNameEl = iconEl.createEl('div', {
-                        cls: 'setting-item-description',
-                    });
-                    iconNameEl.style.paddingTop = '0';
-                    iconNameEl.style.marginLeft = 'var(--size-2-2)';
-                    iconNameEl.innerText = rule.icon;
-                    const changeIconBtn = new obsidian.ButtonComponent(iconContainer);
-                    changeIconBtn.setButtonText('Change icon');
-                    changeIconBtn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                        const modal = new IconsPickerModal(this.app, this.plugin, rule.icon);
-                        modal.onChooseItem = (item) => __awaiter(this, void 0, void 0, function* () {
-                            const icon = typeof item === 'object' ? item.displayName : item;
-                            rule.icon = icon;
-                            dom.setIconForNode(this.plugin, rule.icon, iconPreviewEl);
-                            iconPreviewEl.innerHTML = svg.setFontSize(iconPreviewEl.innerHTML, 20);
-                            iconNameEl.innerText = getNormalizedName(rule.icon);
-                        });
-                        modal.open();
-                    }));
-                    // Create the color picker for the rule.
-                    this.createDescriptionEl(modal.contentEl, 'Color of the icon');
-                    const colorContainer = modal.contentEl.createDiv();
-                    colorContainer.style.display = 'flex';
-                    colorContainer.style.alignItems = 'center';
-                    colorContainer.style.justifyContent = 'space-between';
-                    const colorPicker = new obsidian.ColorComponent(colorContainer)
-                        .setValue((_b = rule.color) !== null && _b !== void 0 ? _b : '#000000')
-                        .onChange((value) => {
-                        rule.color = value;
-                    });
-                    const defaultColorButton = new obsidian.ButtonComponent(colorContainer);
-                    defaultColorButton.setTooltip('Set color to the default one');
-                    defaultColorButton.setButtonText('Default');
-                    defaultColorButton.onClick(() => {
-                        colorPicker.setValue('#000000');
-                        rule.color = undefined;
-                    });
-                    // Create the save button.
-                    const button = new obsidian.ButtonComponent(modal.contentEl);
-                    button.buttonEl.style.marginTop = 'var(--size-4-4)';
-                    button.buttonEl.style.float = 'right';
-                    button.setButtonText('Save Changes');
-                    button.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                        if (!emoji.isEmoji(oldRule.icon)) {
-                            // Tries to remove the previously used icon from the icon pack.
-                            removeIconFromIconPack(this.plugin, oldRule.icon);
-                        }
-                        if (!emoji.isEmoji(rule.icon)) {
-                            // Tries to add the newly used icon to the icon pack.
-                            saveIconToIconPack(this.plugin, rule.icon);
-                            rule.icon = getNormalizedName(rule.icon);
-                        }
-                        this.refreshDisplay();
-                        new obsidian.Notice('Custom rule updated.');
-                        // Refresh the DOM.
-                        yield customRule.removeFromAllFiles(this.plugin, oldRule);
-                        this.updateIconTabs(rule, true);
-                        this.plugin.getSettings().rules.forEach((rule) => __awaiter(this, void 0, void 0, function* () {
-                            yield customRule.addToAllFiles(this.plugin, rule);
-                            this.updateIconTabs(rule, false);
-                        }));
-                        yield this.plugin.saveIconFolderData();
-                        modal.close();
-                    }));
-                    modal.open();
-                });
-            });
-            // Add the delete custom rule button.
-            settingRuleEl.addButton((btn) => {
-                btn.setIcon('trash');
-                btn.setTooltip('Remove the custom rule');
-                btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                    const newRules = this.plugin
-                        .getSettings()
-                        .rules.filter((r) => rule.rule !== r.rule ||
-                        rule.color !== r.color ||
-                        rule.icon !== r.icon ||
-                        rule.for !== r.for);
-                    this.plugin.getSettings().rules = newRules;
-                    yield this.plugin.saveIconFolderData();
-                    this.refreshDisplay();
-                    new obsidian.Notice('Custom rule deleted.');
-                    yield customRule.removeFromAllFiles(this.plugin, rule);
-                    removeIconFromIconPack(this.plugin, rule.icon);
-                    this.updateIconTabs(rule, true);
-                    const previousRules = this.plugin
-                        .getSettings()
-                        .rules.filter((r) => rule.for === r.for);
-                    previousRules.forEach((previousRule) => __awaiter(this, void 0, void 0, function* () {
-                        yield customRule.addToAllFiles(this.plugin, previousRule);
-                        this.updateIconTabs(previousRule, false);
-                    }));
-                }));
-            });
-        });
-    }
+	constructor(plugin, containerEl, app, refreshDisplay) {
+		super(plugin, containerEl);
+		this.app = app;
+		this.refreshDisplay = refreshDisplay;
+	}
+	/**
+	 * Updates all the open files based on the custom rule that was specified.
+	 * @param rule Rule that will be used to update all the icons for all opened files.
+	 * @param remove Whether to remove the icons that are applicable to the rule or not.
+	 */
+	updateIconTabs(rule_1, remove_1) {
+		return __awaiter(this, arguments, void 0, function* (rule, remove, cachedPaths = []) {
+			if (this.plugin.getSettings().iconInTabsEnabled) {
+				for (const openedFile of getAllOpenedFiles(this.plugin)) {
+					if (cachedPaths.includes(openedFile.path)) {
+						continue;
+					}
+					const applicable = yield customRule.isApplicable(this.plugin, rule, openedFile.path);
+					if (!applicable) {
+						continue;
+					}
+					const leaf = openedFile.leaf;
+					if (remove) {
+						iconTabs.remove(leaf.tabHeaderInnerIconEl, {
+							replaceWithDefaultIcon: true,
+						});
+					}
+					else {
+						iconTabs.add(this.plugin, openedFile.path, leaf.tabHeaderInnerIconEl, {
+							iconName: rule.icon,
+							iconColor: rule.color,
+						});
+					}
+				}
+			}
+		});
+	}
+	createDescriptionEl(container, text) {
+		const description = container.createEl('p', {
+			text,
+			cls: 'setting-item-description',
+		});
+		description.style.marginBottom = 'var(--size-2-2)';
+	}
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Add icon rule')
+			.setDesc('Will add the icon based on the defined rule (as a plain string or in regex format).')
+			.addText((text) => {
+			text.onChange((value) => {
+				this.chooseIconBtn.setDisabled(value.length === 0);
+				this.chooseIconBtn.buttonEl.style.cursor =
+					value.length === 0 ? 'not-allowed' : 'default';
+				this.chooseIconBtn.buttonEl.style.opacity =
+					value.length === 0 ? '50%' : '100%';
+			});
+			text.setPlaceholder('regex or simple string');
+			this.textComponent = text;
+		})
+			.addButton((btn) => {
+			btn.setDisabled(true);
+			btn.setButtonText('Choose icon');
+			btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				if (this.textComponent.getValue().length === 0) {
+					return;
+				}
+				const modal = new IconsPickerModal(this.app, this.plugin, '');
+				modal.onChooseItem = (item) => __awaiter(this, void 0, void 0, function* () {
+					const icon = getNormalizedName(typeof item === 'object' ? item.displayName : item);
+					const rule = {
+						rule: this.textComponent.getValue(),
+						icon,
+						for: 'everything',
+						order: this.plugin.getSettings().rules.length,
+					};
+					this.plugin.getSettings().rules = [
+						...this.plugin.getSettings().rules,
+						rule,
+					];
+					yield this.plugin.saveIconFolderData();
+					this.refreshDisplay();
+					new obsidian.Notice('Icon rule added.');
+					this.textComponent.setValue('');
+					saveIconToIconPack(this.plugin, rule.icon);
+					yield customRule.addToAllFiles(this.plugin, rule);
+					this.updateIconTabs(rule, false);
+				});
+				modal.open();
+			}));
+			this.chooseIconBtn = btn;
+		});
+		this.plugin.getSettings().rules.forEach((rule) => {
+			// Keeping track of the old rule so that we can get a reference to it for old values.
+			const oldRule = Object.assign({}, rule);
+			const settingRuleEl = new obsidian.Setting(this.containerEl)
+				.setName(rule.rule)
+				.setDesc(`Icon: ${rule.icon}`);
+			const currentOrder = rule.order;
+			/**
+			 * Re-orders the custom rule based on the value that is passed in.
+			 * @param valueForReorder Number that will be used to determine whether to swap the
+			 * custom rule with the next rule or the previous rule.
+			 */
+			const orderCustomRules = (valueForReorder) => __awaiter(this, void 0, void 0, function* () {
+				const otherRule = this.plugin.getSettings().rules[currentOrder + valueForReorder];
+				// Swap the current rule with the next rule.
+				otherRule.order = otherRule.order - valueForReorder;
+				rule.order = currentOrder + valueForReorder;
+				// Refreshes the DOM.
+				yield customRule.removeFromAllFiles(this.plugin, oldRule);
+				yield this.plugin.saveIconFolderData();
+				const addedPaths = [];
+				for (const fileExplorer of this.plugin.getRegisteredFileExplorers()) {
+					const files = Object.values(fileExplorer.fileItems || {});
+					for (const rule of customRule.getSortedRules(this.plugin)) {
+						// Removes the icon tabs from all opened files.
+						this.updateIconTabs(rule, true, addedPaths);
+						// Adds the icon tabs to all opened files.
+						this.updateIconTabs(rule, false, addedPaths);
+						for (const fileItem of files) {
+							if (addedPaths.includes(fileItem.file.path)) {
+								continue;
+							}
+							const added = yield customRule.add(this.plugin, rule, fileItem.file, getFileItemTitleEl(fileItem));
+							if (added) {
+								addedPaths.push(fileItem.file.path);
+							}
+						}
+					}
+				}
+				this.refreshDisplay();
+			});
+			// Add the move down custom rule button to re-order the custom rule.
+			settingRuleEl.addExtraButton((btn) => {
+				const isFirstOrder = currentOrder === 0;
+				btn.setDisabled(isFirstOrder);
+				btn.extraSettingsEl.style.cursor = isFirstOrder
+					? 'not-allowed'
+					: 'default';
+				btn.extraSettingsEl.style.opacity = isFirstOrder ? '50%' : '100%';
+				btn.setIcon('arrow-up');
+				btn.setTooltip('Prioritize the custom rule');
+				btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+					yield orderCustomRules(-1);
+				}));
+			});
+			// Add the move up custom rule button to re-order the custom rule.
+			settingRuleEl.addExtraButton((btn) => {
+				const isLastOrder = currentOrder === this.plugin.getSettings().rules.length - 1;
+				btn.setDisabled(isLastOrder);
+				btn.extraSettingsEl.style.cursor = isLastOrder
+					? 'not-allowed'
+					: 'default';
+				btn.extraSettingsEl.style.opacity = isLastOrder ? '50%' : '100%';
+				btn.setIcon('arrow-down');
+				btn.setTooltip('Deprioritize the custom rule');
+				btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+					yield orderCustomRules(1);
+				}));
+			});
+			// Add the edit custom rule button.
+			settingRuleEl.addButton((btn) => {
+				btn.setIcon('pencil');
+				btn.setTooltip('Edit the custom rule');
+				btn.onClick(() => {
+					var _a, _b;
+					// Create modal and its children elements.
+					const modal = new obsidian.Modal(this.plugin.app);
+					modal.contentEl.style.display = 'block';
+					modal.modalEl.classList.add('iconize-custom-modal');
+					modal.titleEl.setText('Edit custom rule');
+					// Create the input for the rule.
+					this.createDescriptionEl(modal.contentEl, 'Regex or simple string');
+					const input = new obsidian.TextComponent(modal.contentEl);
+					input.setValue(rule.rule);
+					input.onChange((value) => __awaiter(this, void 0, void 0, function* () {
+						rule.rule = value;
+					}));
+					const useFilePathContainer = modal.contentEl.createDiv();
+					useFilePathContainer.style.display = 'flex';
+					useFilePathContainer.style.alignItems = 'center';
+					useFilePathContainer.style.justifyContent = 'space-between';
+					useFilePathContainer.style.marginTop = 'var(--size-4-5)';
+					const useFilePathDescription = useFilePathContainer.createEl('p', {
+						text: 'Include folders and files that are part of the path.',
+						cls: 'setting-item-description',
+					});
+					useFilePathDescription.style.margin = '0';
+					useFilePathDescription.style.marginBottom = 'var(--size-2-2)';
+					new obsidian.ToggleComponent(useFilePathContainer)
+						.setValue(rule.useFilePath === true)
+						.onChange((value) => {
+						rule.useFilePath = value;
+					});
+					// Create the toggle for changing the rule type.
+					const ruleTypeContainer = modal.contentEl.createDiv();
+					ruleTypeContainer.style.display = 'flex';
+					ruleTypeContainer.style.alignItems = 'center';
+					ruleTypeContainer.style.justifyContent = 'space-between';
+					ruleTypeContainer.style.marginTop = 'var(--size-4-5)';
+					const ruleTypeDescription = ruleTypeContainer.createEl('p', {
+						text: 'Where the custom rule gets applied to.',
+						cls: 'setting-item-description',
+					});
+					ruleTypeDescription.style.margin = '0';
+					ruleTypeDescription.style.marginBottom = 'var(--size-2-2)';
+					const ruleTypeButton = new obsidian.ButtonComponent(ruleTypeContainer);
+					const setButtonContent = (isFor) => {
+						if (isFor === 'folders') {
+							ruleTypeButton.setIcon('folder');
+						}
+						else if (isFor === 'files') {
+							ruleTypeButton.setIcon('document');
+						}
+						else {
+							ruleTypeButton.setIcon('documents');
+						}
+						ruleTypeButton.setTooltip(`Icon applicable to: ${isFor}`);
+					};
+					setButtonContent((_a = rule.for) !== null && _a !== void 0 ? _a : 'everything');
+					ruleTypeButton.onClick(() => __awaiter(this, void 0, void 0, function* () {
+						var _a;
+						const isFor = (_a = rule.for) !== null && _a !== void 0 ? _a : 'everything';
+						this.updateIconTabs(rule, true);
+						yield customRule.removeFromAllFiles(this.plugin, Object.assign(Object.assign({}, rule), { for: isFor }));
+						if (isFor === 'folders') {
+							rule.for = 'everything';
+						}
+						else if (isFor === 'files') {
+							rule.for = 'folders';
+						}
+						else {
+							rule.for = 'files';
+						}
+						setButtonContent(rule.for);
+					}));
+					// Create the change icon button with icon preview.
+					this.createDescriptionEl(modal.contentEl, 'Custom rule icon');
+					const iconContainer = modal.contentEl.createDiv();
+					iconContainer.style.display = 'flex';
+					iconContainer.style.alignItems = 'center';
+					iconContainer.style.justifyContent = 'space-between';
+					const iconEl = iconContainer.createDiv();
+					const iconPreviewEl = iconEl.createDiv();
+					dom.setIconForNode(this.plugin, rule.icon, iconPreviewEl);
+					iconEl.style.display = 'flex';
+					iconEl.style.alignItems = 'center';
+					iconEl.style.justifyContent = 'space-between';
+					iconEl.style.margin = null;
+					iconPreviewEl.innerHTML = svg.setFontSize(iconPreviewEl.innerHTML, 20);
+					const iconNameEl = iconEl.createEl('div', {
+						cls: 'setting-item-description',
+					});
+					iconNameEl.style.paddingTop = '0';
+					iconNameEl.style.marginLeft = 'var(--size-2-2)';
+					iconNameEl.innerText = rule.icon;
+					const changeIconBtn = new obsidian.ButtonComponent(iconContainer);
+					changeIconBtn.setButtonText('Change icon');
+					changeIconBtn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+						const modal = new IconsPickerModal(this.app, this.plugin, rule.icon);
+						modal.onChooseItem = (item) => __awaiter(this, void 0, void 0, function* () {
+							const icon = typeof item === 'object' ? item.displayName : item;
+							rule.icon = icon;
+							dom.setIconForNode(this.plugin, rule.icon, iconPreviewEl);
+							iconPreviewEl.innerHTML = svg.setFontSize(iconPreviewEl.innerHTML, 20);
+							iconNameEl.innerText = getNormalizedName(rule.icon);
+						});
+						modal.open();
+					}));
+					// Create the color picker for the rule.
+					this.createDescriptionEl(modal.contentEl, 'Color of the icon');
+					const colorContainer = modal.contentEl.createDiv();
+					colorContainer.style.display = 'flex';
+					colorContainer.style.alignItems = 'center';
+					colorContainer.style.justifyContent = 'space-between';
+					const colorPicker = new obsidian.ColorComponent(colorContainer)
+						.setValue((_b = rule.color) !== null && _b !== void 0 ? _b : '#000000')
+						.onChange((value) => {
+						rule.color = value;
+					});
+					const defaultColorButton = new obsidian.ButtonComponent(colorContainer);
+					defaultColorButton.setTooltip('Set color to the default one');
+					defaultColorButton.setButtonText('Default');
+					defaultColorButton.onClick(() => {
+						colorPicker.setValue('#000000');
+						rule.color = undefined;
+					});
+					// Create the save button.
+					const button = new obsidian.ButtonComponent(modal.contentEl);
+					button.buttonEl.style.marginTop = 'var(--size-4-4)';
+					button.buttonEl.style.float = 'right';
+					button.setButtonText('Save Changes');
+					button.onClick(() => __awaiter(this, void 0, void 0, function* () {
+						if (!emoji.isEmoji(oldRule.icon)) {
+							// Tries to remove the previously used icon from the icon pack.
+							removeIconFromIconPack(this.plugin, oldRule.icon);
+						}
+						if (!emoji.isEmoji(rule.icon)) {
+							// Tries to add the newly used icon to the icon pack.
+							saveIconToIconPack(this.plugin, rule.icon);
+							rule.icon = getNormalizedName(rule.icon);
+						}
+						this.refreshDisplay();
+						new obsidian.Notice('Custom rule updated.');
+						// Refresh the DOM.
+						yield customRule.removeFromAllFiles(this.plugin, oldRule);
+						this.updateIconTabs(rule, true);
+						this.plugin.getSettings().rules.forEach((rule) => __awaiter(this, void 0, void 0, function* () {
+							yield customRule.addToAllFiles(this.plugin, rule);
+							this.updateIconTabs(rule, false);
+						}));
+						yield this.plugin.saveIconFolderData();
+						modal.close();
+					}));
+					modal.open();
+				});
+			});
+			// Add the delete custom rule button.
+			settingRuleEl.addButton((btn) => {
+				btn.setIcon('trash');
+				btn.setTooltip('Remove the custom rule');
+				btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+					const newRules = this.plugin
+						.getSettings()
+						.rules.filter((r) => rule.rule !== r.rule ||
+						rule.color !== r.color ||
+						rule.icon !== r.icon ||
+						rule.for !== r.for);
+					this.plugin.getSettings().rules = newRules;
+					yield this.plugin.saveIconFolderData();
+					this.refreshDisplay();
+					new obsidian.Notice('Custom rule deleted.');
+					yield customRule.removeFromAllFiles(this.plugin, rule);
+					removeIconFromIconPack(this.plugin, rule.icon);
+					this.updateIconTabs(rule, true);
+					const previousRules = this.plugin
+						.getSettings()
+						.rules.filter((r) => rule.for === r.for);
+					previousRules.forEach((previousRule) => __awaiter(this, void 0, void 0, function* () {
+						yield customRule.addToAllFiles(this.plugin, previousRule);
+						this.updateIconTabs(previousRule, false);
+					}));
+				}));
+			});
+		});
+	}
 }
 
 const getTitleIcon = (leaf) => {
-    return leaf.querySelector(`.${config.TITLE_ICON_CLASS}`);
+	return leaf.querySelector(`.${config.TITLE_ICON_CLASS}`);
 };
 const add = (plugin, inlineTitleEl, svgElement, options) => {
-    var _a;
-    if (!inlineTitleEl.parentElement) {
-        return;
-    }
-    if (options === null || options === void 0 ? void 0 : options.fontSize) {
-        svgElement = svg.setFontSize(svgElement, options.fontSize);
-    }
-    let titleIcon = getTitleIcon(inlineTitleEl.parentElement);
-    if (!titleIcon) {
-        titleIcon = document.createElement('div');
-    }
-    const isInline = plugin.getSettings().iconInTitlePosition === IconInTitlePosition.Inline;
-    if (isInline) {
-        titleIcon.style.display = 'inline-block';
-        titleIcon.style.removeProperty('margin-inline');
-        titleIcon.style.removeProperty('width');
-    }
-    else {
-        titleIcon.style.display = 'block';
-        titleIcon.style.width = 'var(--line-width)';
-        titleIcon.style.marginInline = '0';
-    }
-    titleIcon.classList.add(config.TITLE_ICON_CLASS);
-    // Checks if the passed element is an emoji.
-    if (emoji.isEmoji(svgElement) && options.fontSize) {
-        svgElement =
-            (_a = emoji.parseEmoji(plugin.getSettings().emojiStyle, svgElement, options.fontSize)) !== null && _a !== void 0 ? _a : svgElement;
-        titleIcon.style.fontSize = `${options.fontSize}px`;
-    }
-    titleIcon.innerHTML = svgElement;
-    let wrapperElement = inlineTitleEl.parentElement;
-    // Checks the parent and selects the correct wrapper element.
-    // This should only happen in the beginning.
-    if (wrapperElement &&
-        !wrapperElement.classList.contains(config.INLINE_TITLE_WRAPPER_CLASS)) {
-        wrapperElement = wrapperElement.querySelector(`.${config.INLINE_TITLE_WRAPPER_CLASS}`);
-    }
-    // Whenever there is no correct wrapper element, we create one.
-    if (!wrapperElement) {
-        wrapperElement = inlineTitleEl.parentElement.createDiv();
-        wrapperElement.classList.add(config.INLINE_TITLE_WRAPPER_CLASS);
-    }
-    // Avoiding adding the same nodes together when changing the title.
-    if (wrapperElement !== inlineTitleEl.parentElement) {
-        inlineTitleEl.parentElement.prepend(wrapperElement);
-    }
-    if (isInline) {
-        wrapperElement.style.display = 'flex';
-        wrapperElement.style.alignItems = 'flex-start';
-        const inlineTitlePaddingTop = getComputedStyle(inlineTitleEl, null).getPropertyValue('padding-top');
-        titleIcon.style.paddingTop = inlineTitlePaddingTop;
-        if (emoji.isEmoji(svgElement)) {
-            titleIcon.style.transform = 'translateY(-9%)';
-        }
-        else {
-            titleIcon.style.transform = 'translateY(9%)';
-        }
-    }
-    else {
-        wrapperElement.style.display = 'block';
-        titleIcon.style.transform = 'translateY(9%)';
-    }
-    wrapperElement.append(titleIcon);
-    wrapperElement.append(inlineTitleEl);
+	var _a;
+	if (!inlineTitleEl.parentElement) {
+		return;
+	}
+	if (options === null || options === void 0 ? void 0 : options.fontSize) {
+		svgElement = svg.setFontSize(svgElement, options.fontSize);
+	}
+	let titleIcon = getTitleIcon(inlineTitleEl.parentElement);
+	if (!titleIcon) {
+		titleIcon = document.createElement('div');
+	}
+	const isInline = plugin.getSettings().iconInTitlePosition === IconInTitlePosition.Inline;
+	if (isInline) {
+		titleIcon.style.display = 'inline-block';
+		titleIcon.style.removeProperty('margin-inline');
+		titleIcon.style.removeProperty('width');
+	}
+	else {
+		titleIcon.style.display = 'block';
+		titleIcon.style.width = 'var(--line-width)';
+		titleIcon.style.marginInline = '0';
+	}
+	titleIcon.classList.add(config.TITLE_ICON_CLASS);
+	// Checks if the passed element is an emoji.
+	if (emoji.isEmoji(svgElement) && options.fontSize) {
+		svgElement =
+			(_a = emoji.parseEmoji(plugin.getSettings().emojiStyle, svgElement, options.fontSize)) !== null && _a !== void 0 ? _a : svgElement;
+		titleIcon.style.fontSize = `${options.fontSize}px`;
+	}
+	titleIcon.innerHTML = svgElement;
+	let wrapperElement = inlineTitleEl.parentElement;
+	// Checks the parent and selects the correct wrapper element.
+	// This should only happen in the beginning.
+	if (wrapperElement &&
+		!wrapperElement.classList.contains(config.INLINE_TITLE_WRAPPER_CLASS)) {
+		wrapperElement = wrapperElement.querySelector(`.${config.INLINE_TITLE_WRAPPER_CLASS}`);
+	}
+	// Whenever there is no correct wrapper element, we create one.
+	if (!wrapperElement) {
+		wrapperElement = inlineTitleEl.parentElement.createDiv();
+		wrapperElement.classList.add(config.INLINE_TITLE_WRAPPER_CLASS);
+	}
+	// Avoiding adding the same nodes together when changing the title.
+	if (wrapperElement !== inlineTitleEl.parentElement) {
+		inlineTitleEl.parentElement.prepend(wrapperElement);
+	}
+	if (isInline) {
+		wrapperElement.style.display = 'flex';
+		wrapperElement.style.alignItems = 'flex-start';
+		const inlineTitlePaddingTop = getComputedStyle(inlineTitleEl, null).getPropertyValue('padding-top');
+		titleIcon.style.paddingTop = inlineTitlePaddingTop;
+		if (emoji.isEmoji(svgElement)) {
+			titleIcon.style.transform = 'translateY(-9%)';
+		}
+		else {
+			titleIcon.style.transform = 'translateY(9%)';
+		}
+	}
+	else {
+		wrapperElement.style.display = 'block';
+		titleIcon.style.transform = 'translateY(9%)';
+	}
+	wrapperElement.append(titleIcon);
+	wrapperElement.append(inlineTitleEl);
 };
 const updateStyle = (inlineTitleEl, options) => {
-    if (!inlineTitleEl.parentElement) {
-        return;
-    }
-    const titleIcon = getTitleIcon(inlineTitleEl.parentElement);
-    if (!titleIcon) {
-        return;
-    }
-    if (options.fontSize) {
-        if (!emoji.isEmoji(titleIcon.innerHTML)) {
-            titleIcon.innerHTML = svg.setFontSize(titleIcon.innerHTML, options.fontSize);
-        }
-        else {
-            titleIcon.style.fontSize = `${options.fontSize}px`;
-        }
-    }
+	if (!inlineTitleEl.parentElement) {
+		return;
+	}
+	const titleIcon = getTitleIcon(inlineTitleEl.parentElement);
+	if (!titleIcon) {
+		return;
+	}
+	if (options.fontSize) {
+		if (!emoji.isEmoji(titleIcon.innerHTML)) {
+			titleIcon.innerHTML = svg.setFontSize(titleIcon.innerHTML, options.fontSize);
+		}
+		else {
+			titleIcon.style.fontSize = `${options.fontSize}px`;
+		}
+	}
 };
 /**
  * Hides the title icon from the provided HTMLElement.
  * @param contentEl HTMLElement to hide the title icon from.
  */
 const hide = (inlineTitleEl) => {
-    if (!inlineTitleEl.parentElement) {
-        return;
-    }
-    const titleIconContainer = getTitleIcon(inlineTitleEl.parentElement);
-    if (!titleIconContainer) {
-        return;
-    }
-    titleIconContainer.style.display = 'none';
+	if (!inlineTitleEl.parentElement) {
+		return;
+	}
+	const titleIconContainer = getTitleIcon(inlineTitleEl.parentElement);
+	if (!titleIconContainer) {
+		return;
+	}
+	titleIconContainer.style.display = 'none';
 };
 const remove = (inlineTitleEl) => {
-    if (!inlineTitleEl.parentElement) {
-        return;
-    }
-    const titleIconContainer = getTitleIcon(inlineTitleEl.parentElement);
-    if (!titleIconContainer) {
-        return;
-    }
-    titleIconContainer.remove();
+	if (!inlineTitleEl.parentElement) {
+		return;
+	}
+	const titleIconContainer = getTitleIcon(inlineTitleEl.parentElement);
+	if (!titleIconContainer) {
+		return;
+	}
+	titleIconContainer.remove();
 };
 var titleIcon = {
-    add,
-    updateStyle,
-    hide,
-    remove,
+	add,
+	updateStyle,
+	hide,
+	remove,
 };
 
 // Cache for font size
 let cachedFontSize = null;
 let fontSizeCacheTime = 0;
 const calculateFontTextSize = () => {
-    var _a;
-    // get cached font size if available
-    const now = Date.now();
-    if (cachedFontSize !== null && now - fontSizeCacheTime < 2000) {
-        return cachedFontSize;
-    }
-    let fontSize = parseFloat((_a = getComputedStyle(document.body).getPropertyValue('--font-text-size')) !== null && _a !== void 0 ? _a : '0');
-    if (!fontSize) {
-        fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
-    }
-    // set font size cache
-    cachedFontSize = fontSize;
-    fontSizeCacheTime = now;
-    return fontSize;
+	var _a;
+	// get cached font size if available
+	const now = Date.now();
+	if (cachedFontSize !== null && now - fontSizeCacheTime < 2000) {
+		return cachedFontSize;
+	}
+	let fontSize = parseFloat((_a = getComputedStyle(document.body).getPropertyValue('--font-text-size')) !== null && _a !== void 0 ? _a : '0');
+	if (!fontSize) {
+		fontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
+	}
+	// set font size cache
+	cachedFontSize = fontSize;
+	fontSizeCacheTime = now;
+	return fontSize;
 };
 const calculateInlineTitleSize = () => {
-    const fontSize = calculateFontTextSize();
-    const inlineTitleSizeValue = getComputedStyle(document.body).getPropertyValue('--inline-title-size');
-    const unit = inlineTitleSizeValue.replace(/[\d.]/g, '');
-    let inlineTitleSize = parseFloat(inlineTitleSizeValue);
-    if (unit === 'px') {
-        inlineTitleSize /= 16;
-    }
-    return fontSize * inlineTitleSize;
+	const fontSize = calculateFontTextSize();
+	const inlineTitleSizeValue = getComputedStyle(document.body).getPropertyValue('--inline-title-size');
+	const unit = inlineTitleSizeValue.replace(/[\d.]/g, '');
+	let inlineTitleSize = parseFloat(inlineTitleSizeValue);
+	if (unit === 'px') {
+		inlineTitleSize /= 16;
+	}
+	return fontSize * inlineTitleSize;
 };
 const isHeader = (value) => {
-    return /^h[1-6]$/.test(value);
+	return /^h[1-6]$/.test(value);
 };
 const getHTMLHeaderByToken = (header) => {
-    for (let i = 1; i <= 6; i++) {
-        if (header === `header-${i}`) {
-            return `h${i}`;
-        }
-    }
-    return null;
+	for (let i = 1; i <= 6; i++) {
+		if (header === `header-${i}`) {
+			return `h${i}`;
+		}
+	}
+	return null;
 };
 const calculateHeaderSize = (header) => {
-    var _a;
-    const fontSize = calculateFontTextSize();
-    const htmlHeader = (_a = getHTMLHeaderByToken(header)) !== null && _a !== void 0 ? _a : header;
-    const headerComputedStyle = getComputedStyle(document.body).getPropertyValue(`--${htmlHeader}-size`);
-    let headerSize = parseFloat(headerComputedStyle);
-    if (isPx(headerComputedStyle)) {
-        headerSize = pxToRem(headerSize, fontSize);
-    }
-    // If there is some `calc` operation going on, it has to be evaluated.
-    if (headerComputedStyle.includes('calc')) {
-        const temp = document.createElement('div');
-        temp.style.setProperty('font-size', `var(--${htmlHeader}-size)`);
-        document.body.appendChild(temp);
-        const computedStyle = window.getComputedStyle(temp);
-        const computedValue = computedStyle.getPropertyValue('font-size');
-        headerSize = parseFloat(computedValue);
-        if (isPx(computedValue)) {
-            headerSize = pxToRem(headerSize, fontSize);
-        }
-        document.body.removeChild(temp);
-    }
-    return fontSize * headerSize;
+	var _a;
+	const fontSize = calculateFontTextSize();
+	const htmlHeader = (_a = getHTMLHeaderByToken(header)) !== null && _a !== void 0 ? _a : header;
+	const headerComputedStyle = getComputedStyle(document.body).getPropertyValue(`--${htmlHeader}-size`);
+	let headerSize = parseFloat(headerComputedStyle);
+	if (isPx(headerComputedStyle)) {
+		headerSize = pxToRem(headerSize, fontSize);
+	}
+	// If there is some `calc` operation going on, it has to be evaluated.
+	if (headerComputedStyle.includes('calc')) {
+		const temp = document.createElement('div');
+		temp.style.setProperty('font-size', `var(--${htmlHeader}-size)`);
+		document.body.appendChild(temp);
+		const computedStyle = window.getComputedStyle(temp);
+		const computedValue = computedStyle.getPropertyValue('font-size');
+		headerSize = parseFloat(computedValue);
+		if (isPx(computedValue)) {
+			headerSize = pxToRem(headerSize, fontSize);
+		}
+		document.body.removeChild(temp);
+	}
+	return fontSize * headerSize;
 };
 const pxToRem = (px, baseSize = 16) => {
-    return px / baseSize;
+	return px / baseSize;
 };
 const isPx = (value) => {
-    return /^-?\d+(\.\d+)?px$/.test(value);
+	return /^-?\d+(\.\d+)?px$/.test(value);
 };
 
 class EmojiStyleSetting extends IconFolderSetting {
-    display() {
-        const emojiStyle = new obsidian.Setting(this.containerEl)
-            .setName('Emoji style')
-            .setDesc('Change the style of your emojis.');
-        emojiStyle.addDropdown((dropdown) => {
-            dropdown.addOption('native', 'Native');
-            dropdown.addOption('twemoji', 'Twemoji');
-            dropdown.setValue(this.plugin.getSettings().emojiStyle);
-            dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().emojiStyle = value;
-                this.updateDOM();
-                yield this.plugin.saveIconFolderData();
-            }));
-        });
-    }
-    updateDOM() {
-        for (const fileExplorer of this.plugin.getRegisteredFileExplorers()) {
-            const fileItems = Object.entries(fileExplorer.fileItems || {});
-            for (const [path, _] of fileItems) {
-                let iconName = this.plugin.getData()[path];
-                if (!iconName) {
-                    continue;
-                }
-                const data = this.plugin.getData()[path];
-                if (typeof data === 'object') {
-                    const data = this.plugin.getData()[path];
-                    if (data.iconName) {
-                        iconName = data.iconName;
-                    }
-                }
-                if (emoji.isEmoji(iconName)) {
-                    dom.createIconNode(this.plugin, path, iconName);
-                    if (this.plugin.getSettings().iconInTabsEnabled) {
-                        const tabLeaves = iconTabs.getTabLeavesOfFilePath(this.plugin, path);
-                        for (const tabLeaf of tabLeaves) {
-                            iconTabs.update(this.plugin, iconName, tabLeaf.tabHeaderInnerIconEl);
-                        }
-                    }
-                    if (this.plugin.getSettings().iconInTitleEnabled) {
-                        for (const openedFile of getAllOpenedFiles(this.plugin)) {
-                            const activeView = openedFile.leaf.view;
-                            if (activeView instanceof obsidian.MarkdownView &&
-                                openedFile.path === path) {
-                                titleIcon.add(this.plugin, activeView.inlineTitleEl, iconName, {
-                                    fontSize: calculateInlineTitleSize(),
-                                });
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        for (const rule of customRule.getSortedRules(this.plugin)) {
-            customRule.addToAllFiles(this.plugin, rule);
-        }
-    }
+	display() {
+		const emojiStyle = new obsidian.Setting(this.containerEl)
+			.setName('Emoji style')
+			.setDesc('Change the style of your emojis.');
+		emojiStyle.addDropdown((dropdown) => {
+			dropdown.addOption('native', 'Native');
+			dropdown.addOption('twemoji', 'Twemoji');
+			dropdown.setValue(this.plugin.getSettings().emojiStyle);
+			dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().emojiStyle = value;
+				this.updateDOM();
+				yield this.plugin.saveIconFolderData();
+			}));
+		});
+	}
+	updateDOM() {
+		for (const fileExplorer of this.plugin.getRegisteredFileExplorers()) {
+			const fileItems = Object.entries(fileExplorer.fileItems || {});
+			for (const [path, _] of fileItems) {
+				let iconName = this.plugin.getData()[path];
+				if (!iconName) {
+					continue;
+				}
+				const data = this.plugin.getData()[path];
+				if (typeof data === 'object') {
+					const data = this.plugin.getData()[path];
+					if (data.iconName) {
+						iconName = data.iconName;
+					}
+				}
+				if (emoji.isEmoji(iconName)) {
+					dom.createIconNode(this.plugin, path, iconName);
+					if (this.plugin.getSettings().iconInTabsEnabled) {
+						const tabLeaves = iconTabs.getTabLeavesOfFilePath(this.plugin, path);
+						for (const tabLeaf of tabLeaves) {
+							iconTabs.update(this.plugin, iconName, tabLeaf.tabHeaderInnerIconEl);
+						}
+					}
+					if (this.plugin.getSettings().iconInTitleEnabled) {
+						for (const openedFile of getAllOpenedFiles(this.plugin)) {
+							const activeView = openedFile.leaf.view;
+							if (activeView instanceof obsidian.MarkdownView &&
+								openedFile.path === path) {
+								titleIcon.add(this.plugin, activeView.inlineTitleEl, iconName, {
+									fontSize: calculateInlineTitleSize(),
+								});
+							}
+						}
+					}
+				}
+			}
+		}
+		for (const rule of customRule.getSortedRules(this.plugin)) {
+			customRule.addToAllFiles(this.plugin, rule);
+		}
+	}
 }
 
 /**
@@ -4700,2456 +4700,2456 @@ class EmojiStyleSetting extends IconFolderSetting {
  * @param plugin Instance of the IconizePlugin.
  */
 const refreshStyleOfIcons = (plugin) => __awaiter(void 0, void 0, void 0, function* () {
-    // Refreshes the icon style for all normally added icons.
-    style.refreshIconNodes(plugin);
-    // Refreshes the icon style for all custom icon rules, when the color of the rule is
-    // not defined.
-    for (const rule of customRule.getSortedRules(plugin)) {
-        const fileItems = yield customRule.getFileItems(plugin, rule);
-        for (const fileItem of fileItems) {
-            const titleEl = getFileItemTitleEl(fileItem);
-            const iconNode = titleEl.querySelector('.iconize-icon');
-            let iconContent = iconNode.innerHTML;
-            iconContent = style.applyAll(plugin, iconContent, iconNode);
-            if (rule.color) {
-                iconContent = svg.colorize(iconContent, rule.color);
-                iconNode.style.color = rule.color;
-            }
-            iconNode.innerHTML = iconContent;
-        }
-    }
+	// Refreshes the icon style for all normally added icons.
+	style.refreshIconNodes(plugin);
+	// Refreshes the icon style for all custom icon rules, when the color of the rule is
+	// not defined.
+	for (const rule of customRule.getSortedRules(plugin)) {
+		const fileItems = yield customRule.getFileItems(plugin, rule);
+		for (const fileItem of fileItems) {
+			const titleEl = getFileItemTitleEl(fileItem);
+			const iconNode = titleEl.querySelector('.iconize-icon');
+			let iconContent = iconNode.innerHTML;
+			iconContent = style.applyAll(plugin, iconContent, iconNode);
+			if (rule.color) {
+				iconContent = svg.colorize(iconContent, rule.color);
+				iconNode.style.color = rule.color;
+			}
+			iconNode.innerHTML = iconContent;
+		}
+	}
 });
 var helper = {
-    refreshStyleOfIcons,
+	refreshStyleOfIcons,
 };
 
 class ExtraMarginSetting extends IconFolderSetting {
-    display() {
-        var _a, _b;
-        const extraMarginSetting = new obsidian.Setting(this.containerEl)
-            .setName('Extra margin (in pixels)')
-            .setDesc('Change the margin of the icons.')
-            .setClass('iconize-setting');
-        const extraMarginDropdown = new obsidian.DropdownComponent(extraMarginSetting.controlEl).addOptions({
-            top: 'Top',
-            right: 'Right',
-            bottom: 'Bottom',
-            left: 'Left',
-        });
-        const extraMarginSlider = new obsidian.SliderComponent(extraMarginSetting.controlEl)
-            .setLimits(-24, 24, 1)
-            .setDynamicTooltip()
-            .setValue((_b = (_a = this.plugin.getSettings().extraMargin) === null || _a === void 0 ? void 0 : _a.top) !== null && _b !== void 0 ? _b : 2)
-            .onChange((val) => __awaiter(this, void 0, void 0, function* () {
-            const dropdownValue = extraMarginDropdown.getValue();
-            if (this.plugin.getSettings().extraMargin) {
-                this.plugin.getSettings().extraMargin[dropdownValue] = val;
-            }
-            else {
-                this.plugin.getSettings().extraMargin = {
-                    [dropdownValue]: val,
-                };
-            }
-            yield this.plugin.saveIconFolderData();
-            helper.refreshStyleOfIcons(this.plugin);
-        }));
-        extraMarginDropdown.onChange((val) => {
-            var _a;
-            if (this.plugin.getSettings().extraMargin) {
-                extraMarginSlider.setValue((_a = this.plugin.getSettings().extraMargin[val]) !== null && _a !== void 0 ? _a : 2);
-            }
-            else {
-                extraMarginSlider.setValue(2);
-            }
-        });
-        extraMarginSetting.components.push(extraMarginDropdown, extraMarginSlider);
-    }
+	display() {
+		var _a, _b;
+		const extraMarginSetting = new obsidian.Setting(this.containerEl)
+			.setName('Extra margin (in pixels)')
+			.setDesc('Change the margin of the icons.')
+			.setClass('iconize-setting');
+		const extraMarginDropdown = new obsidian.DropdownComponent(extraMarginSetting.controlEl).addOptions({
+			top: 'Top',
+			right: 'Right',
+			bottom: 'Bottom',
+			left: 'Left',
+		});
+		const extraMarginSlider = new obsidian.SliderComponent(extraMarginSetting.controlEl)
+			.setLimits(-24, 24, 1)
+			.setDynamicTooltip()
+			.setValue((_b = (_a = this.plugin.getSettings().extraMargin) === null || _a === void 0 ? void 0 : _a.top) !== null && _b !== void 0 ? _b : 2)
+			.onChange((val) => __awaiter(this, void 0, void 0, function* () {
+			const dropdownValue = extraMarginDropdown.getValue();
+			if (this.plugin.getSettings().extraMargin) {
+				this.plugin.getSettings().extraMargin[dropdownValue] = val;
+			}
+			else {
+				this.plugin.getSettings().extraMargin = {
+					[dropdownValue]: val,
+				};
+			}
+			yield this.plugin.saveIconFolderData();
+			helper.refreshStyleOfIcons(this.plugin);
+		}));
+		extraMarginDropdown.onChange((val) => {
+			var _a;
+			if (this.plugin.getSettings().extraMargin) {
+				extraMarginSlider.setValue((_a = this.plugin.getSettings().extraMargin[val]) !== null && _a !== void 0 ? _a : 2);
+			}
+			else {
+				extraMarginSlider.setValue(2);
+			}
+		});
+		extraMarginSetting.components.push(extraMarginDropdown, extraMarginSlider);
+	}
 }
 
 class ResetButtonComponent extends obsidian.ButtonComponent {
-    constructor(contentEl) {
-        super(contentEl);
-        this.contentEl = contentEl;
-        this.setTooltip('Restore default');
-        this.setIcon('rotate-ccw');
-        this.render();
-    }
-    render() {
-        this.buttonEl.classList.add('clickable-icon');
-        this.buttonEl.classList.add('extra-setting-button');
-    }
+	constructor(contentEl) {
+		super(contentEl);
+		this.contentEl = contentEl;
+		this.setTooltip('Restore default');
+		this.setIcon('rotate-ccw');
+		this.render();
+	}
+	render() {
+		this.buttonEl.classList.add('clickable-icon');
+		this.buttonEl.classList.add('extra-setting-button');
+	}
 }
 
 const DEFAULT_VALUE = DEFAULT_SETTINGS.iconColor;
 class IconColorSetting extends IconFolderSetting {
-    display() {
-        var _a;
-        const setting = new obsidian.Setting(this.containerEl)
-            .setName('Icon color')
-            .setDesc('Change the color of the displayed icons.');
-        new ResetButtonComponent(setting.controlEl).onClick(() => __awaiter(this, void 0, void 0, function* () {
-            colorPicker.setValue(DEFAULT_VALUE);
-            this.plugin.getSettings().iconColor = null;
-            // Custom saving to not save the color black in the data.
-            yield this.plugin.saveIconFolderData();
-            helper.refreshStyleOfIcons(this.plugin);
-        }));
-        const colorPicker = new obsidian.ColorComponent(setting.controlEl)
-            .setValue((_a = this.plugin.getSettings().iconColor) !== null && _a !== void 0 ? _a : DEFAULT_VALUE)
-            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            this.plugin.getSettings().iconColor = value;
-            yield this.plugin.saveIconFolderData();
-            helper.refreshStyleOfIcons(this.plugin);
-        }));
-    }
+	display() {
+		var _a;
+		const setting = new obsidian.Setting(this.containerEl)
+			.setName('Icon color')
+			.setDesc('Change the color of the displayed icons.');
+		new ResetButtonComponent(setting.controlEl).onClick(() => __awaiter(this, void 0, void 0, function* () {
+			colorPicker.setValue(DEFAULT_VALUE);
+			this.plugin.getSettings().iconColor = null;
+			// Custom saving to not save the color black in the data.
+			yield this.plugin.saveIconFolderData();
+			helper.refreshStyleOfIcons(this.plugin);
+		}));
+		const colorPicker = new obsidian.ColorComponent(setting.controlEl)
+			.setValue((_a = this.plugin.getSettings().iconColor) !== null && _a !== void 0 ? _a : DEFAULT_VALUE)
+			.onChange((value) => __awaiter(this, void 0, void 0, function* () {
+			this.plugin.getSettings().iconColor = value;
+			yield this.plugin.saveIconFolderData();
+			helper.refreshStyleOfIcons(this.plugin);
+		}));
+	}
 }
 
 const values = {
-    min: 10,
-    max: 64,
-    default: DEFAULT_SETTINGS.fontSize,
-    step: 1,
+	min: 10,
+	max: 64,
+	default: DEFAULT_SETTINGS.fontSize,
+	step: 1,
 };
 class IconFontSizeSetting extends IconFolderSetting {
-    display() {
-        const setting = new obsidian.Setting(this.containerEl)
-            .setName('Icon font size (in pixels)')
-            .setDesc('Change the font size of the displayed icons.');
-        new ResetButtonComponent(setting.controlEl).onClick(() => {
-            this.slider.setValue(values.default);
-        });
-        setting.addSlider((slider) => {
-            var _a;
-            this.slider = slider;
-            slider
-                .setLimits(values.min, values.max, values.step)
-                .setDynamicTooltip()
-                .setValue((_a = this.plugin.getSettings().fontSize) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.fontSize)
-                .onChange((val) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().fontSize = val;
-                yield this.plugin.saveIconFolderData();
-                helper.refreshStyleOfIcons(this.plugin);
-            }));
-        });
-    }
+	display() {
+		const setting = new obsidian.Setting(this.containerEl)
+			.setName('Icon font size (in pixels)')
+			.setDesc('Change the font size of the displayed icons.');
+		new ResetButtonComponent(setting.controlEl).onClick(() => {
+			this.slider.setValue(values.default);
+		});
+		setting.addSlider((slider) => {
+			var _a;
+			this.slider = slider;
+			slider
+				.setLimits(values.min, values.max, values.step)
+				.setDynamicTooltip()
+				.setValue((_a = this.plugin.getSettings().fontSize) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.fontSize)
+				.onChange((val) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().fontSize = val;
+				yield this.plugin.saveIconFolderData();
+				helper.refreshStyleOfIcons(this.plugin);
+			}));
+		});
+	}
 }
 
 class IconPacksPathSetting extends IconFolderSetting {
-    display() {
-        const iconPacksPathSetting = new obsidian.Setting(this.containerEl)
-            .setName('Icon packs folder path')
-            .setDesc('Change the default icon packs folder path.');
-        iconPacksPathSetting.addText((text) => {
-            this.iconPacksSettingTextComp = text;
-            text.setValue(this.plugin.getSettings().iconPacksPath);
-        });
-        iconPacksPathSetting.addButton((btn) => {
-            btn.setButtonText('Save');
-            btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                const newPath = this.iconPacksSettingTextComp.getValue();
-                const oldPath = this.plugin.getSettings().iconPacksPath;
-                if (oldPath === this.iconPacksSettingTextComp.getValue()) {
-                    return;
-                }
-                new obsidian.Notice('Saving in progress...');
-                setPath(newPath);
-                yield createDefaultDirectory(this.plugin);
-                yield moveIconPackDirectories(this.plugin, oldPath, newPath);
-                this.plugin.getSettings().iconPacksPath = newPath;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice('...saved successfully');
-            }));
-        });
-    }
+	display() {
+		const iconPacksPathSetting = new obsidian.Setting(this.containerEl)
+			.setName('Icon packs folder path')
+			.setDesc('Change the default icon packs folder path.');
+		iconPacksPathSetting.addText((text) => {
+			this.iconPacksSettingTextComp = text;
+			text.setValue(this.plugin.getSettings().iconPacksPath);
+		});
+		iconPacksPathSetting.addButton((btn) => {
+			btn.setButtonText('Save');
+			btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				const newPath = this.iconPacksSettingTextComp.getValue();
+				const oldPath = this.plugin.getSettings().iconPacksPath;
+				if (oldPath === this.iconPacksSettingTextComp.getValue()) {
+					return;
+				}
+				new obsidian.Notice('Saving in progress...');
+				setPath(newPath);
+				yield createDefaultDirectory(this.plugin);
+				yield moveIconPackDirectories(this.plugin, oldPath, newPath);
+				this.plugin.getSettings().iconPacksPath = newPath;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice('...saved successfully');
+			}));
+		});
+	}
 }
 
 class IconPacksBackgroundChecker extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Icons background check')
-            .setDesc('Check in the background on every load of Obsidian, if icons are missing and it will try to add them to the specific icon pack.')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconsBackgroundCheckEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconsBackgroundCheckEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-                if (enabled) {
-                    new obsidian.Notice('You need to reload Obsidian for this to take effect.', 10000);
-                }
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Icons background check')
+			.setDesc('Check in the background on every load of Obsidian, if icons are missing and it will try to add them to the specific icon pack.')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconsBackgroundCheckEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconsBackgroundCheckEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+				if (enabled) {
+					new obsidian.Notice('You need to reload Obsidian for this to take effect.', 10000);
+				}
+			}));
+		});
+	}
 }
 
 class IconPackBrowserModal extends obsidian.FuzzySuggestModal {
-    constructor(app, plugin) {
-        super(app);
-        this.plugin = plugin;
-        this.resultContainerEl.classList.add('iconize-browse-modal');
-        this.inputEl.placeholder = 'Select to download icon pack';
-    }
-    // eslint-disable-next-line
-    onAddedIconPack() { }
-    onOpen() {
-        super.onOpen();
-    }
-    onClose() {
-        this.contentEl.empty();
-    }
-    getItemText(item) {
-        const prefix = createIconPackPrefix(item.name);
-        return `${item.displayName} (${prefix})`;
-    }
-    getItems() {
-        const predefinedIconPacks = Object.values(iconPacks$1);
-        const allIconPacks = getAllIconPacks();
-        return predefinedIconPacks.filter((iconPack) => allIconPacks.find((ip) => iconPack.name === ip.name) === undefined);
-    }
-    onChooseItem(item, _event) {
-        return __awaiter(this, void 0, void 0, function* () {
-            new obsidian.Notice(`Adding ${item.displayName}...`);
-            const arrayBuffer = yield downloadZipFile(item.downloadLink);
-            yield createZipFile(this.plugin, `${item.name}.zip`, arrayBuffer);
-            yield registerIconPack(item.name, arrayBuffer);
-            new obsidian.Notice(`...${item.displayName} added`);
-            this.onAddedIconPack();
-        });
-    }
-    renderSuggestion(item, el) {
-        super.renderSuggestion(item, el);
-        el.innerHTML = `<div>${el.innerHTML}</div>`;
-    }
+	constructor(app, plugin) {
+		super(app);
+		this.plugin = plugin;
+		this.resultContainerEl.classList.add('iconize-browse-modal');
+		this.inputEl.placeholder = 'Select to download icon pack';
+	}
+	// eslint-disable-next-line
+	onAddedIconPack() { }
+	onOpen() {
+		super.onOpen();
+	}
+	onClose() {
+		this.contentEl.empty();
+	}
+	getItemText(item) {
+		const prefix = createIconPackPrefix(item.name);
+		return `${item.displayName} (${prefix})`;
+	}
+	getItems() {
+		const predefinedIconPacks = Object.values(iconPacks$1);
+		const allIconPacks = getAllIconPacks();
+		return predefinedIconPacks.filter((iconPack) => allIconPacks.find((ip) => iconPack.name === ip.name) === undefined);
+	}
+	onChooseItem(item, _event) {
+		return __awaiter(this, void 0, void 0, function* () {
+			new obsidian.Notice(`Adding ${item.displayName}...`);
+			const arrayBuffer = yield downloadZipFile(item.downloadLink);
+			yield createZipFile(this.plugin, `${item.name}.zip`, arrayBuffer);
+			yield registerIconPack(item.name, arrayBuffer);
+			new obsidian.Notice(`...${item.displayName} added`);
+			this.onAddedIconPack();
+		});
+	}
+	renderSuggestion(item, el) {
+		super.renderSuggestion(item, el);
+		el.innerHTML = `<div>${el.innerHTML}</div>`;
+	}
 }
 
 class PredefinedIconPacksSetting extends IconFolderSetting {
-    constructor(plugin, containerEl, app, refreshDisplay) {
-        super(plugin, containerEl);
-        this.app = app;
-        this.refreshDisplay = refreshDisplay;
-    }
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Add predefined icon pack')
-            .setDesc('Add a predefined icon pack that is officially supported.')
-            .addButton((btn) => {
-            btn.setButtonText('Browse icon packs');
-            btn.onClick(() => {
-                const modal = new IconPackBrowserModal(this.app, this.plugin);
-                modal.onAddedIconPack = () => {
-                    this.refreshDisplay();
-                };
-                modal.open();
-            });
-        });
-    }
+	constructor(plugin, containerEl, app, refreshDisplay) {
+		super(plugin, containerEl);
+		this.app = app;
+		this.refreshDisplay = refreshDisplay;
+	}
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Add predefined icon pack')
+			.setDesc('Add a predefined icon pack that is officially supported.')
+			.addButton((btn) => {
+			btn.setButtonText('Browse icon packs');
+			btn.onClick(() => {
+				const modal = new IconPackBrowserModal(this.app, this.plugin);
+				modal.onAddedIconPack = () => {
+					this.refreshDisplay();
+				};
+				modal.open();
+			});
+		});
+	}
 }
 
 class RecentlyUsedIconsSetting extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Recently used icons limit')
-            .setDesc('Change the limit for the recently used icons displayed in the icon selection modal.')
-            .addSlider((slider) => {
-            var _a;
-            slider
-                .setLimits(1, 25, 1)
-                .setDynamicTooltip()
-                .setValue((_a = this.plugin.getSettings().recentlyUsedIconsSize) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.recentlyUsedIconsSize)
-                .onChange((val) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().recentlyUsedIconsSize = val;
-                yield this.plugin.checkRecentlyUsedIcons();
-                yield this.plugin.saveIconFolderData();
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Recently used icons limit')
+			.setDesc('Change the limit for the recently used icons displayed in the icon selection modal.')
+			.addSlider((slider) => {
+			var _a;
+			slider
+				.setLimits(1, 25, 1)
+				.setDynamicTooltip()
+				.setValue((_a = this.plugin.getSettings().recentlyUsedIconsSize) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.recentlyUsedIconsSize)
+				.onChange((val) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().recentlyUsedIconsSize = val;
+				yield this.plugin.checkRecentlyUsedIcons();
+				yield this.plugin.saveIconFolderData();
+			}));
+		});
+	}
 }
 
 class ToggleIconInTabs extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Toggle icon in tabs')
-            .setDesc('Toggles the visibility of an icon for a file in the tab bar.')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconInTabsEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconInTabsEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-                // Updates the already opened files.
-                this.plugin.app.workspace
-                    .getLeavesOfType('markdown')
-                    .forEach((leaf) => {
-                    const file = leaf.view.file;
-                    if (file) {
-                        const tabHeaderLeaf = leaf;
-                        if (enabled) {
-                            // Adds the icons to already opened files.
-                            iconTabs.add(this.plugin, file.path, tabHeaderLeaf.tabHeaderInnerIconEl);
-                        }
-                        else {
-                            // Removes the icons from already opened files.
-                            iconTabs.remove(tabHeaderLeaf.tabHeaderInnerIconEl);
-                        }
-                    }
-                });
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Toggle icon in tabs')
+			.setDesc('Toggles the visibility of an icon for a file in the tab bar.')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconInTabsEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconInTabsEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+				// Updates the already opened files.
+				this.plugin.app.workspace
+					.getLeavesOfType('markdown')
+					.forEach((leaf) => {
+					const file = leaf.view.file;
+					if (file) {
+						const tabHeaderLeaf = leaf;
+						if (enabled) {
+							// Adds the icons to already opened files.
+							iconTabs.add(this.plugin, file.path, tabHeaderLeaf.tabHeaderInnerIconEl);
+						}
+						else {
+							// Removes the icons from already opened files.
+							iconTabs.remove(tabHeaderLeaf.tabHeaderInnerIconEl);
+						}
+					}
+				});
+			}));
+		});
+	}
 }
 
 class ToggleIconInTitle extends IconFolderSetting {
-    updateLeaves(options) {
-        this.plugin.app.workspace.getLeavesOfType('markdown').forEach((leaf) => {
-            const view = leaf.view;
-            if (view instanceof obsidian.MarkdownView) {
-                const foundIcon = icon.getIconByPath(this.plugin, view.file.path);
-                if (foundIcon && options.enabled) {
-                    if (options.removeBeforeReAdd) {
-                        // Remove the icon before re-adding it. This is needed to update the DOM because
-                        // the icon node will be inserted in the beginning inline title node.
-                        titleIcon.remove(view.contentEl);
-                    }
-                    const content = typeof foundIcon === 'string' ? foundIcon : foundIcon.svgElement;
-                    titleIcon.add(this.plugin, view.inlineTitleEl, content, {
-                        fontSize: calculateInlineTitleSize(),
-                    });
-                }
-                else {
-                    titleIcon.remove(view.contentEl);
-                }
-            }
-        });
-    }
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Toggle icon in title')
-            .setDesc('Toggles the visibility of an icon above the title of a file.')
-            .addDropdown((dropdown) => {
-            this.dropdown = dropdown;
-            dropdown.setDisabled(!this.plugin.getSettings().iconInTitleEnabled);
-            dropdown.addOptions({
-                above: 'Above title',
-                inline: 'Next to title',
-            });
-            dropdown.setValue(this.plugin.getSettings().iconInTitlePosition);
-            dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconInTitlePosition =
-                    value;
-                yield this.plugin.saveIconFolderData();
-                this.updateLeaves({ enabled: true, removeBeforeReAdd: true });
-            }));
-        })
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconInTitleEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                if (this.dropdown) {
-                    this.dropdown.setDisabled(!enabled);
-                }
-                this.plugin.getSettings().iconInTitleEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-                this.updateLeaves({ enabled });
-            }));
-        });
-    }
+	updateLeaves(options) {
+		this.plugin.app.workspace.getLeavesOfType('markdown').forEach((leaf) => {
+			const view = leaf.view;
+			if (view instanceof obsidian.MarkdownView) {
+				const foundIcon = icon.getIconByPath(this.plugin, view.file.path);
+				if (foundIcon && options.enabled) {
+					if (options.removeBeforeReAdd) {
+						// Remove the icon before re-adding it. This is needed to update the DOM because
+						// the icon node will be inserted in the beginning inline title node.
+						titleIcon.remove(view.contentEl);
+					}
+					const content = typeof foundIcon === 'string' ? foundIcon : foundIcon.svgElement;
+					titleIcon.add(this.plugin, view.inlineTitleEl, content, {
+						fontSize: calculateInlineTitleSize(),
+					});
+				}
+				else {
+					titleIcon.remove(view.contentEl);
+				}
+			}
+		});
+	}
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Toggle icon in title')
+			.setDesc('Toggles the visibility of an icon above the title of a file.')
+			.addDropdown((dropdown) => {
+			this.dropdown = dropdown;
+			dropdown.setDisabled(!this.plugin.getSettings().iconInTitleEnabled);
+			dropdown.addOptions({
+				above: 'Above title',
+				inline: 'Next to title',
+			});
+			dropdown.setValue(this.plugin.getSettings().iconInTitlePosition);
+			dropdown.onChange((value) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconInTitlePosition =
+					value;
+				yield this.plugin.saveIconFolderData();
+				this.updateLeaves({ enabled: true, removeBeforeReAdd: true });
+			}));
+		})
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconInTitleEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				if (this.dropdown) {
+					this.dropdown.setDisabled(!enabled);
+				}
+				this.plugin.getSettings().iconInTitleEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+				this.updateLeaves({ enabled });
+			}));
+		});
+	}
 }
 
 class FrontmatterOptions extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Use icon in frontmatter')
-            .setDesc('Toggles whether to set the icon based on the frontmatter property `icon`.')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconInFrontmatterEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconInFrontmatterEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-            }));
-        });
-        new obsidian.Setting(this.containerEl)
-            .setName('Frontmatter icon field name')
-            .setDesc('Sets the name of the frontmatter field which contains the icon.')
-            .addText((text) => {
-            this.iconFieldNameTextComp = text;
-            text.setValue(this.plugin.getSettings().iconInFrontmatterFieldName);
-        })
-            .addButton((button) => {
-            button.setButtonText('Save');
-            button.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                const newValue = this.iconFieldNameTextComp.getValue();
-                const oldValue = this.plugin.getSettings().iconInFrontmatterFieldName;
-                if (newValue === oldValue) {
-                    return;
-                }
-                this.plugin.getSettings().iconInFrontmatterFieldName = newValue;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice('...saved successfully');
-            }));
-        });
-        new obsidian.Setting(this.containerEl)
-            .setName('Frontmatter icon color field name')
-            .setDesc('Sets the name of the frontmatter field which contains the icon color.')
-            .addText((text) => {
-            this.iconColorFieldNameTextComp = text;
-            text.setValue(this.plugin.getSettings().iconColorInFrontmatterFieldName);
-        })
-            .addButton((button) => {
-            button.setButtonText('Save');
-            button.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                const newValue = this.iconColorFieldNameTextComp.getValue();
-                const oldValue = this.plugin.getSettings().iconColorInFrontmatterFieldName;
-                if (newValue === oldValue) {
-                    return;
-                }
-                this.plugin.getSettings().iconColorInFrontmatterFieldName = newValue;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice('...saved successfully');
-            }));
-        });
-        new obsidian.Setting(this.containerEl)
-            .setName('Refresh icons from frontmatter')
-            .setDesc('Sets the icon and color for each note in the vault based on the frontmatter properties. WARNING: This will change any manually set icons to the one defined in the frontmatter. IF A NOTE HAS NO FRONTMATTER, THE CURRENT ICON WILL BE REMOVED. Please restart Obsidian after this completes to see the changes.')
-            .addButton((btn) => {
-            btn.setButtonText('Refresh').onClick(() => __awaiter(this, void 0, void 0, function* () {
-                var _a, _b;
-                if (!this.plugin.getSettings().iconInFrontmatterEnabled) {
-                    new obsidian.Notice(`[${config.PLUGIN_NAME}] Please enable "Use icon in frontmatter".`);
-                    return;
-                }
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Refreshing icons from frontmatter, please wait...`);
-                const files = this.plugin.app.vault.getMarkdownFiles();
-                for (const file of files) {
-                    const fileCache = this.plugin.app.metadataCache.getFileCache(file);
-                    const frontmatterIconKey = this.plugin.getSettings().iconInFrontmatterFieldName;
-                    const frontmatterIconColorKey = this.plugin.getSettings().iconColorInFrontmatterFieldName;
-                    const iconName = (_a = fileCache.frontmatter) === null || _a === void 0 ? void 0 : _a[frontmatterIconKey];
-                    let iconColor = (_b = fileCache.frontmatter) === null || _b === void 0 ? void 0 : _b[frontmatterIconColorKey];
-                    if (!iconName) {
-                        yield this.plugin.removeFolderIcon(file.path);
-                        continue;
-                    }
-                    if (typeof iconName !== 'string') {
-                        const message = `${file.path}\nFrontmatter property type \`${frontmatterIconKey}\` has to be of type \`text\`.`;
-                        logger.warn(message);
-                        new obsidian.Notice(`[${config.PLUGIN_NAME}]\n${message}`);
-                        continue;
-                    }
-                    this.plugin.addFolderIcon(file.path, iconName);
-                    if (!iconColor) {
-                        yield this.plugin.removeIconColor(file.path);
-                        continue;
-                    }
-                    if (typeof iconColor !== 'string') {
-                        const message = `${file.path}\nFrontmatter property type \`${frontmatterIconColorKey}\` has to be of type \`text\`.`;
-                        logger.warn(message);
-                        new obsidian.Notice(`[${config.PLUGIN_NAME}]\n${message}`);
-                        continue;
-                    }
-                    iconColor = isHexadecimal(iconColor)
-                        ? stringToHex(iconColor)
-                        : iconColor;
-                    this.plugin.addIconColor(file.path, iconColor);
-                }
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Refreshed icons from frontmatter. Please restart Obsidian to see the changes.`);
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Use icon in frontmatter')
+			.setDesc('Toggles whether to set the icon based on the frontmatter property `icon`.')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconInFrontmatterEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconInFrontmatterEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+			}));
+		});
+		new obsidian.Setting(this.containerEl)
+			.setName('Frontmatter icon field name')
+			.setDesc('Sets the name of the frontmatter field which contains the icon.')
+			.addText((text) => {
+			this.iconFieldNameTextComp = text;
+			text.setValue(this.plugin.getSettings().iconInFrontmatterFieldName);
+		})
+			.addButton((button) => {
+			button.setButtonText('Save');
+			button.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				const newValue = this.iconFieldNameTextComp.getValue();
+				const oldValue = this.plugin.getSettings().iconInFrontmatterFieldName;
+				if (newValue === oldValue) {
+					return;
+				}
+				this.plugin.getSettings().iconInFrontmatterFieldName = newValue;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice('...saved successfully');
+			}));
+		});
+		new obsidian.Setting(this.containerEl)
+			.setName('Frontmatter icon color field name')
+			.setDesc('Sets the name of the frontmatter field which contains the icon color.')
+			.addText((text) => {
+			this.iconColorFieldNameTextComp = text;
+			text.setValue(this.plugin.getSettings().iconColorInFrontmatterFieldName);
+		})
+			.addButton((button) => {
+			button.setButtonText('Save');
+			button.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				const newValue = this.iconColorFieldNameTextComp.getValue();
+				const oldValue = this.plugin.getSettings().iconColorInFrontmatterFieldName;
+				if (newValue === oldValue) {
+					return;
+				}
+				this.plugin.getSettings().iconColorInFrontmatterFieldName = newValue;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice('...saved successfully');
+			}));
+		});
+		new obsidian.Setting(this.containerEl)
+			.setName('Refresh icons from frontmatter')
+			.setDesc('Sets the icon and color for each note in the vault based on the frontmatter properties. WARNING: This will change any manually set icons to the one defined in the frontmatter. IF A NOTE HAS NO FRONTMATTER, THE CURRENT ICON WILL BE REMOVED. Please restart Obsidian after this completes to see the changes.')
+			.addButton((btn) => {
+			btn.setButtonText('Refresh').onClick(() => __awaiter(this, void 0, void 0, function* () {
+				var _a, _b;
+				if (!this.plugin.getSettings().iconInFrontmatterEnabled) {
+					new obsidian.Notice(`[${config.PLUGIN_NAME}] Please enable "Use icon in frontmatter".`);
+					return;
+				}
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Refreshing icons from frontmatter, please wait...`);
+				const files = this.plugin.app.vault.getMarkdownFiles();
+				for (const file of files) {
+					const fileCache = this.plugin.app.metadataCache.getFileCache(file);
+					const frontmatterIconKey = this.plugin.getSettings().iconInFrontmatterFieldName;
+					const frontmatterIconColorKey = this.plugin.getSettings().iconColorInFrontmatterFieldName;
+					const iconName = (_a = fileCache.frontmatter) === null || _a === void 0 ? void 0 : _a[frontmatterIconKey];
+					let iconColor = (_b = fileCache.frontmatter) === null || _b === void 0 ? void 0 : _b[frontmatterIconColorKey];
+					if (!iconName) {
+						yield this.plugin.removeFolderIcon(file.path);
+						continue;
+					}
+					if (typeof iconName !== 'string') {
+						const message = `${file.path}\nFrontmatter property type \`${frontmatterIconKey}\` has to be of type \`text\`.`;
+						logger.warn(message);
+						new obsidian.Notice(`[${config.PLUGIN_NAME}]\n${message}`);
+						continue;
+					}
+					this.plugin.addFolderIcon(file.path, iconName);
+					if (!iconColor) {
+						yield this.plugin.removeIconColor(file.path);
+						continue;
+					}
+					if (typeof iconColor !== 'string') {
+						const message = `${file.path}\nFrontmatter property type \`${frontmatterIconColorKey}\` has to be of type \`text\`.`;
+						logger.warn(message);
+						new obsidian.Notice(`[${config.PLUGIN_NAME}]\n${message}`);
+						continue;
+					}
+					iconColor = isHexadecimal(iconColor)
+						? stringToHex(iconColor)
+						: iconColor;
+					this.plugin.addIconColor(file.path, iconColor);
+				}
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Refreshed icons from frontmatter. Please restart Obsidian to see the changes.`);
+			}));
+		});
+	}
 }
 
 class ToggleIconsInEditor extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Toggle icons while editing notes')
-            .setDesc('Toggles whether you are able to add and see icons in your notes and editor (e.g., ability to have :LiSofa: as an icon in your notes).')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconsInNotesEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconsInNotesEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Toggle icons while editing notes')
+			.setDesc('Toggles whether you are able to add and see icons in your notes and editor (e.g., ability to have :LiSofa: as an icon in your notes).')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconsInNotesEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconsInNotesEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
+			}));
+		});
+	}
 }
 
 class ToggleIconsInLinks extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Toggle icons in links')
-            .setDesc('Toggles whether you are able to see icons in the links to other notes')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().iconsInLinksEnabled)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().iconsInLinksEnabled = enabled;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Toggle icons in links')
+			.setDesc('Toggles whether you are able to see icons in the links to other notes')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().iconsInLinksEnabled)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().iconsInLinksEnabled = enabled;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
+			}));
+		});
+	}
 }
 
 class IconIdentifierSetting extends IconFolderSetting {
-    display() {
-        const setting = new obsidian.Setting(this.containerEl)
-            .setName('Icon identifier')
-            .setDesc('Change the icon identifier used in notes.')
-            .setClass('iconize-setting');
-        setting.addText((text) => {
-            this.textComp = text;
-            text.setValue(this.plugin.getSettings().iconIdentifier);
-        });
-        setting.addButton((btn) => {
-            btn.setButtonText('Save');
-            btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                const newIdentifier = this.textComp.getValue();
-                const oldIdentifier = this.plugin.getSettings().iconIdentifier;
-                if (newIdentifier === oldIdentifier) {
-                    return;
-                }
-                this.plugin.getSettings().iconIdentifier = newIdentifier;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice('...saved successfully');
-            }));
-        });
-    }
+	display() {
+		const setting = new obsidian.Setting(this.containerEl)
+			.setName('Icon identifier')
+			.setDesc('Change the icon identifier used in notes.')
+			.setClass('iconize-setting');
+		setting.addText((text) => {
+			this.textComp = text;
+			text.setValue(this.plugin.getSettings().iconIdentifier);
+		});
+		setting.addButton((btn) => {
+			btn.setButtonText('Save');
+			btn.onClick(() => __awaiter(this, void 0, void 0, function* () {
+				const newIdentifier = this.textComp.getValue();
+				const oldIdentifier = this.plugin.getSettings().iconIdentifier;
+				if (newIdentifier === oldIdentifier) {
+					return;
+				}
+				this.plugin.getSettings().iconIdentifier = newIdentifier;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice('...saved successfully');
+			}));
+		});
+	}
 }
 
 class DebugMode extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('Toggle Debug Mode')
-            .setDesc('Toggle debug mode to see more detailed logs in the console. Do not touch this unless you know what you are doing.')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().debugMode)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().debugMode = enabled;
-                yield this.plugin.saveIconFolderData();
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('Toggle Debug Mode')
+			.setDesc('Toggle debug mode to see more detailed logs in the console. Do not touch this unless you know what you are doing.')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().debugMode)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().debugMode = enabled;
+				yield this.plugin.saveIconFolderData();
+			}));
+		});
+	}
 }
 
 class UseInternalPlugins extends IconFolderSetting {
-    display() {
-        new obsidian.Setting(this.containerEl)
-            .setName('EXPERIMENTAL: Use internal plugins')
-            .setDesc('Toggles whether to try to add icons to the bookmark and outline internal plugins.')
-            .addToggle((toggle) => {
-            toggle
-                .setValue(this.plugin.getSettings().useInternalPlugins)
-                .onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.getSettings().useInternalPlugins = enabled;
-                yield this.plugin.saveIconFolderData();
-                new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
-            }));
-        });
-    }
+	display() {
+		new obsidian.Setting(this.containerEl)
+			.setName('EXPERIMENTAL: Use internal plugins')
+			.setDesc('Toggles whether to try to add icons to the bookmark and outline internal plugins.')
+			.addToggle((toggle) => {
+			toggle
+				.setValue(this.plugin.getSettings().useInternalPlugins)
+				.onChange((enabled) => __awaiter(this, void 0, void 0, function* () {
+				this.plugin.getSettings().useInternalPlugins = enabled;
+				yield this.plugin.saveIconFolderData();
+				new obsidian.Notice(`[${config.PLUGIN_NAME}] Obsidian has to be restarted for this change to take effect.`);
+			}));
+		});
+	}
 }
 
 class IconFolderSettings extends obsidian.PluginSettingTab {
-    constructor(app, plugin) {
-        super(app, plugin);
-        this.plugin = plugin;
-    }
-    display() {
-        const { plugin, containerEl, app } = this;
-        containerEl.empty();
-        containerEl.createEl('h1', { text: 'General' });
-        new RecentlyUsedIconsSetting(plugin, containerEl).display();
-        new IconPacksPathSetting(plugin, containerEl).display();
-        new IconPacksBackgroundChecker(plugin, containerEl).display();
-        new EmojiStyleSetting(plugin, containerEl).display();
-        new IconIdentifierSetting(plugin, containerEl).display();
-        new UseInternalPlugins(plugin, containerEl).display();
-        new DebugMode(plugin, containerEl).display();
-        containerEl.createEl('h3', { text: 'Visibility of icons' });
-        new ToggleIconInTabs(plugin, containerEl).display();
-        new ToggleIconInTitle(plugin, containerEl).display();
-        new FrontmatterOptions(plugin, containerEl).display();
-        new ToggleIconsInEditor(plugin, containerEl).display();
-        new ToggleIconsInLinks(plugin, containerEl).display();
-        containerEl.createEl('h1', {
-            text: 'Icon customization for files/folders',
-        });
-        new IconFontSizeSetting(plugin, containerEl).display();
-        new IconColorSetting(plugin, containerEl).display();
-        new ExtraMarginSetting(plugin, containerEl).display();
-        containerEl.createEl('h1', { text: 'Custom icon rules' });
-        new CustomIconRuleSetting(plugin, containerEl, app, () => this.display()).display();
-        containerEl.createEl('h1', { text: 'Icon packs' });
-        new PredefinedIconPacksSetting(plugin, containerEl, app, () => this.display()).display();
-        new CustomIconPackSetting(plugin, containerEl, () => this.display()).display();
-    }
+	constructor(app, plugin) {
+		super(app, plugin);
+		this.plugin = plugin;
+	}
+	display() {
+		const { plugin, containerEl, app } = this;
+		containerEl.empty();
+		containerEl.createEl('h1', { text: 'General' });
+		new RecentlyUsedIconsSetting(plugin, containerEl).display();
+		new IconPacksPathSetting(plugin, containerEl).display();
+		new IconPacksBackgroundChecker(plugin, containerEl).display();
+		new EmojiStyleSetting(plugin, containerEl).display();
+		new IconIdentifierSetting(plugin, containerEl).display();
+		new UseInternalPlugins(plugin, containerEl).display();
+		new DebugMode(plugin, containerEl).display();
+		containerEl.createEl('h3', { text: 'Visibility of icons' });
+		new ToggleIconInTabs(plugin, containerEl).display();
+		new ToggleIconInTitle(plugin, containerEl).display();
+		new FrontmatterOptions(plugin, containerEl).display();
+		new ToggleIconsInEditor(plugin, containerEl).display();
+		new ToggleIconsInLinks(plugin, containerEl).display();
+		containerEl.createEl('h1', {
+			text: 'Icon customization for files/folders',
+		});
+		new IconFontSizeSetting(plugin, containerEl).display();
+		new IconColorSetting(plugin, containerEl).display();
+		new ExtraMarginSetting(plugin, containerEl).display();
+		containerEl.createEl('h1', { text: 'Custom icon rules' });
+		new CustomIconRuleSetting(plugin, containerEl, app, () => this.display()).display();
+		containerEl.createEl('h1', { text: 'Icon packs' });
+		new PredefinedIconPacksSetting(plugin, containerEl, app, () => this.display()).display();
+		new CustomIconPackSetting(plugin, containerEl, () => this.display()).display();
+	}
 }
 
 function around(obj, factories) {
-    const removers = Object.keys(factories).map(key => around1(obj, key, factories[key]));
-    return removers.length === 1 ? removers[0] : function () { removers.forEach(r => r()); };
+	const removers = Object.keys(factories).map(key => around1(obj, key, factories[key]));
+	return removers.length === 1 ? removers[0] : function () { removers.forEach(r => r()); };
 }
 function around1(obj, method, createWrapper) {
-    const original = obj[method], hadOwn = obj.hasOwnProperty(method);
-    let current = createWrapper(original);
-    // Let our wrapper inherit static props from the wrapping method,
-    // and the wrapping method, props from the original method
-    if (original)
-        Object.setPrototypeOf(current, original);
-    Object.setPrototypeOf(wrapper, current);
-    obj[method] = wrapper;
-    // Return a callback to allow safe removal
-    return remove;
-    function wrapper(...args) {
-        // If we have been deactivated and are no longer wrapped, remove ourselves
-        if (current === original && obj[method] === wrapper)
-            remove();
-        return current.apply(this, args);
-    }
-    function remove() {
-        // If no other patches, just do a direct removal
-        if (obj[method] === wrapper) {
-            if (hadOwn)
-                obj[method] = original;
-            else
-                delete obj[method];
-        }
-        if (current === original)
-            return;
-        // Else pass future calls through, and remove wrapper from the prototype chain
-        current = original;
-        Object.setPrototypeOf(wrapper, original || Function);
-    }
+	const original = obj[method], hadOwn = obj.hasOwnProperty(method);
+	let current = createWrapper(original);
+	// Let our wrapper inherit static props from the wrapping method,
+	// and the wrapping method, props from the original method
+	if (original)
+		Object.setPrototypeOf(current, original);
+	Object.setPrototypeOf(wrapper, current);
+	obj[method] = wrapper;
+	// Return a callback to allow safe removal
+	return remove;
+	function wrapper(...args) {
+		// If we have been deactivated and are no longer wrapped, remove ourselves
+		if (current === original && obj[method] === wrapper)
+			remove();
+		return current.apply(this, args);
+	}
+	function remove() {
+		// If no other patches, just do a direct removal
+		if (obj[method] === wrapper) {
+			if (hadOwn)
+				obj[method] = original;
+			else
+				delete obj[method];
+		}
+		if (current === original)
+			return;
+		// Else pass future calls through, and remove wrapper from the prototype chain
+		current = original;
+		Object.setPrototypeOf(wrapper, original || Function);
+	}
 }
 
 class InternalPluginInjector {
-    constructor(plugin) {
-        this.plugin = plugin;
-    }
-    get fileExplorers() {
-        return this.plugin.app.workspace.getLeavesOfType('file-explorer');
-    }
-    onMount() { }
+	constructor(plugin) {
+		this.plugin = plugin;
+	}
+	get fileExplorers() {
+		return this.plugin.app.workspace.getLeavesOfType('file-explorer');
+	}
+	onMount() { }
 }
 
 /**
  * @deprecated After obsidian 1.2.6 in favor of the bookmarks plugin.
  */
 class StarredInternalPlugin extends InternalPluginInjector {
-    constructor(plugin) {
-        super(plugin);
-    }
-    get starred() {
-        return this.plugin.app.internalPlugins.getPluginById('starred');
-    }
-    get enabled() {
-        return this.plugin.app.internalPlugins.getPluginById('starred').enabled;
-    }
-    get leaf() {
-        const leaf = this.plugin.app.workspace.getLeavesOfType('starred');
-        if (!leaf) {
-            return undefined;
-        }
-        if (leaf.length === 1) {
-            return leaf[0].view;
-        }
-        return undefined;
-    }
-    setIcon(filePath, node) {
-        const iconName = icon.getByPath(this.plugin, filePath);
-        const iconNode = node.querySelector('.nav-file-icon');
-        if (!iconNode || !iconName) {
-            return;
-        }
-        dom.setIconForNode(this.plugin, iconName, iconNode);
-    }
-    computeNodesWithPath(callback) {
-        const { itemLookup, containerEl } = this.leaf;
-        const navFileEls = containerEl.querySelectorAll('.nav-file');
-        navFileEls.forEach((navFileEl) => {
-            const lookupFile = itemLookup.get(navFileEl);
-            if (!lookupFile) {
-                return;
-            }
-            callback(navFileEl, lookupFile.path);
-        });
-    }
-    onMount() {
-        const nodesWithPath = {};
-        this.computeNodesWithPath((node, filePath) => {
-            nodesWithPath[filePath] = node;
-        });
-        Object.entries(nodesWithPath).forEach(([filePath, node]) => this.setIcon(filePath, node));
-    }
-    register() {
-        if (!this.plugin.app.internalPlugins.getPluginById('file-explorer').enabled) {
-            console.info(`[${config.PLUGIN_NAME}/Starred] Skipping starred internal plugin registration because file-explorer is not enabled.`);
-            return;
-        }
-        if (!this.enabled) {
-            console.info(`[${config.PLUGIN_NAME}/Starred] Skipping starred internal plugin registration because it's not enabled.`);
-            return;
-        }
-        // eslint-disable-next-line
-        const self = this;
-        this.plugin.register(around(this.starred.instance, {
-            addItem: function (next) {
-                return function (file) {
-                    next.call(this, file);
-                    self.onMount();
-                };
-            },
-            removeItem: function (next) {
-                return function (file) {
-                    next.call(this, file);
-                    self.onMount();
-                };
-            },
-        }));
-    }
+	constructor(plugin) {
+		super(plugin);
+	}
+	get starred() {
+		return this.plugin.app.internalPlugins.getPluginById('starred');
+	}
+	get enabled() {
+		return this.plugin.app.internalPlugins.getPluginById('starred').enabled;
+	}
+	get leaf() {
+		const leaf = this.plugin.app.workspace.getLeavesOfType('starred');
+		if (!leaf) {
+			return undefined;
+		}
+		if (leaf.length === 1) {
+			return leaf[0].view;
+		}
+		return undefined;
+	}
+	setIcon(filePath, node) {
+		const iconName = icon.getByPath(this.plugin, filePath);
+		const iconNode = node.querySelector('.nav-file-icon');
+		if (!iconNode || !iconName) {
+			return;
+		}
+		dom.setIconForNode(this.plugin, iconName, iconNode);
+	}
+	computeNodesWithPath(callback) {
+		const { itemLookup, containerEl } = this.leaf;
+		const navFileEls = containerEl.querySelectorAll('.nav-file');
+		navFileEls.forEach((navFileEl) => {
+			const lookupFile = itemLookup.get(navFileEl);
+			if (!lookupFile) {
+				return;
+			}
+			callback(navFileEl, lookupFile.path);
+		});
+	}
+	onMount() {
+		const nodesWithPath = {};
+		this.computeNodesWithPath((node, filePath) => {
+			nodesWithPath[filePath] = node;
+		});
+		Object.entries(nodesWithPath).forEach(([filePath, node]) => this.setIcon(filePath, node));
+	}
+	register() {
+		if (!this.plugin.app.internalPlugins.getPluginById('file-explorer').enabled) {
+			console.info(`[${config.PLUGIN_NAME}/Starred] Skipping starred internal plugin registration because file-explorer is not enabled.`);
+			return;
+		}
+		if (!this.enabled) {
+			console.info(`[${config.PLUGIN_NAME}/Starred] Skipping starred internal plugin registration because it's not enabled.`);
+			return;
+		}
+		// eslint-disable-next-line
+		const self = this;
+		this.plugin.register(around(this.starred.instance, {
+			addItem: function (next) {
+				return function (file) {
+					next.call(this, file);
+					self.onMount();
+				};
+			},
+			removeItem: function (next) {
+				return function (file) {
+					next.call(this, file);
+					self.onMount();
+				};
+			},
+		}));
+	}
 }
 
 class BookmarkInternalPlugin extends InternalPluginInjector {
-    constructor(plugin) {
-        super(plugin);
-    }
-    get bookmark() {
-        return this.plugin.app.internalPlugins.getPluginById('bookmarks');
-    }
-    get enabled() {
-        return this.plugin.app.internalPlugins.getPluginById('bookmarks').enabled;
-    }
-    get leaf() {
-        const leaf = this.plugin.app.workspace.getLeavesOfType('bookmarks');
-        if (!leaf) {
-            return undefined;
-        }
-        if (leaf.length === 1) {
-            return leaf[0];
-        }
-        return undefined;
-    }
-    setIconOrRemove(filePath, node) {
-        var _a;
-        const iconName = icon.getByPath(this.plugin, filePath);
-        let iconNode = node.querySelector('.tree-item-icon');
-        if (!iconName) {
-            if (iconNode) {
-                // Reset the icon to the default obsidian icon.
-                const items = this.bookmark.instance.items;
-                const item = items.find((item) => item.path === filePath);
-                if ((item === null || item === void 0 ? void 0 : item.type) === 'file') {
-                    iconNode.innerHTML = DEFAULT_FILE_ICON;
-                }
-                else if ((item === null || item === void 0 ? void 0 : item.type) === 'folder') {
-                    iconNode.innerHTML = DEFAULT_FOLDER_ICON;
-                }
-            }
-            return;
-        }
-        // If the icon node is not defined, then we need to recreate it.
-        if (!iconNode) {
-            // Get the tree-item-self element where the original icon is set.
-            const treeItemSelf = node.querySelector('.tree-item-self');
-            if (!treeItemSelf) {
-                return;
-            }
-            iconNode = node.createDiv({ cls: 'tree-item-icon' });
-            // Prepends the icon to the tree-item-self element as a first child.
-            treeItemSelf.prepend(iconNode);
-        }
-        const defaultMargin = iconNode.style.margin;
-        const iconColor = (_a = this.plugin.getIconColor(filePath)) !== null && _a !== void 0 ? _a : this.plugin.getSettings().iconColor;
-        dom.setIconForNode(this.plugin, iconName, iconNode, { color: iconColor });
-        // Reset the margin to the default value to prevent overlapping with the text.
-        iconNode.style.margin = defaultMargin;
-    }
-    computeNodesWithPath(callback) {
-        if (!this.leaf || !this.leaf.view) {
-            return;
-        }
-        /**
-         * Retrieves the lookup item from the bookmark plugin and calls the callback with the
-         * element and the path of the item.
-         * @param item BookmarkItem object which can be a folder or a file.
-         * @param itemDoms WeakMap of the bookmark plugin which contains the lookup item.
-         */
-        const retrieveLookupItem = (item, itemDoms) => {
-            const lookupItem = itemDoms.get(item);
-            if (!lookupItem) {
-                return;
-            }
-            if (item.items) {
-                // If the item is a folder, then we need to retrieve all the items inside it.
-                for (const subItem of item.items) {
-                    retrieveLookupItem(subItem, itemDoms);
-                }
-            }
-            // If the item is a `file` or a `folder` (not of type `group`), then we can call the callback.
-            if (item.type === 'file' || item.type === 'folder') {
-                callback(lookupItem.el, item.path);
-            }
-        };
-        const { itemDoms } = this.leaf.view;
-        // Retrieves all the items of the bookmark plugin which areo objects.
-        const items = this.bookmark.instance.items;
-        items.forEach((item) => {
-            retrieveLookupItem(item, itemDoms);
-        });
-    }
-    onMount() {
-        var _a;
-        const setBookmarkIcon = () => {
-            const nodesWithPath = {};
-            this.computeNodesWithPath((node, filePath) => {
-                nodesWithPath[filePath] = node;
-            });
-            Object.entries(nodesWithPath).forEach(([filePath, node]) => this.setIconOrRemove(filePath, node));
-        };
-        if (obsidian.requireApiVersion('1.7.2')) {
-            // TODO: Might improve the performance here.
-            (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.loadIfDeferred().then(setBookmarkIcon);
-        }
-        else {
-            setBookmarkIcon();
-        }
-    }
-    register() {
-        if (!this.plugin.app.internalPlugins.getPluginById('file-explorer').enabled) {
-            console.info(`[${config.PLUGIN_NAME}/Bookmarks] Skipping bookmark internal plugin registration because file-explorer is not enabled.`);
-            return;
-        }
-        if (!this.enabled) {
-            console.info(`[${config.PLUGIN_NAME}/Bookmarks] Skipping bookmark internal plugin registration because it's not enabled.`);
-            return;
-        }
-        // eslint-disable-next-line
-        const self = this;
-        this.plugin.register(around(this.bookmark.instance, {
-            addItem: function (next) {
-                return function (...args) {
-                    next.call(this, ...args);
-                    // TODO: Remove in the future, I could not think of a better way to do this.
-                    setTimeout(() => {
-                        self.onMount();
-                    }, 1000);
-                };
-            },
-            removeItem: function (next) {
-                return function (...args) {
-                    next.call(this, ...args);
-                    self.onMount();
-                };
-            },
-        }));
-    }
+	constructor(plugin) {
+		super(plugin);
+	}
+	get bookmark() {
+		return this.plugin.app.internalPlugins.getPluginById('bookmarks');
+	}
+	get enabled() {
+		return this.plugin.app.internalPlugins.getPluginById('bookmarks').enabled;
+	}
+	get leaf() {
+		const leaf = this.plugin.app.workspace.getLeavesOfType('bookmarks');
+		if (!leaf) {
+			return undefined;
+		}
+		if (leaf.length === 1) {
+			return leaf[0];
+		}
+		return undefined;
+	}
+	setIconOrRemove(filePath, node) {
+		var _a;
+		const iconName = icon.getByPath(this.plugin, filePath);
+		let iconNode = node.querySelector('.tree-item-icon');
+		if (!iconName) {
+			if (iconNode) {
+				// Reset the icon to the default obsidian icon.
+				const items = this.bookmark.instance.items;
+				const item = items.find((item) => item.path === filePath);
+				if ((item === null || item === void 0 ? void 0 : item.type) === 'file') {
+					iconNode.innerHTML = DEFAULT_FILE_ICON;
+				}
+				else if ((item === null || item === void 0 ? void 0 : item.type) === 'folder') {
+					iconNode.innerHTML = DEFAULT_FOLDER_ICON;
+				}
+			}
+			return;
+		}
+		// If the icon node is not defined, then we need to recreate it.
+		if (!iconNode) {
+			// Get the tree-item-self element where the original icon is set.
+			const treeItemSelf = node.querySelector('.tree-item-self');
+			if (!treeItemSelf) {
+				return;
+			}
+			iconNode = node.createDiv({ cls: 'tree-item-icon' });
+			// Prepends the icon to the tree-item-self element as a first child.
+			treeItemSelf.prepend(iconNode);
+		}
+		const defaultMargin = iconNode.style.margin;
+		const iconColor = (_a = this.plugin.getIconColor(filePath)) !== null && _a !== void 0 ? _a : this.plugin.getSettings().iconColor;
+		dom.setIconForNode(this.plugin, iconName, iconNode, { color: iconColor });
+		// Reset the margin to the default value to prevent overlapping with the text.
+		iconNode.style.margin = defaultMargin;
+	}
+	computeNodesWithPath(callback) {
+		if (!this.leaf || !this.leaf.view) {
+			return;
+		}
+		/**
+		 * Retrieves the lookup item from the bookmark plugin and calls the callback with the
+		 * element and the path of the item.
+		 * @param item BookmarkItem object which can be a folder or a file.
+		 * @param itemDoms WeakMap of the bookmark plugin which contains the lookup item.
+		 */
+		const retrieveLookupItem = (item, itemDoms) => {
+			const lookupItem = itemDoms.get(item);
+			if (!lookupItem) {
+				return;
+			}
+			if (item.items) {
+				// If the item is a folder, then we need to retrieve all the items inside it.
+				for (const subItem of item.items) {
+					retrieveLookupItem(subItem, itemDoms);
+				}
+			}
+			// If the item is a `file` or a `folder` (not of type `group`), then we can call the callback.
+			if (item.type === 'file' || item.type === 'folder') {
+				callback(lookupItem.el, item.path);
+			}
+		};
+		const { itemDoms } = this.leaf.view;
+		// Retrieves all the items of the bookmark plugin which areo objects.
+		const items = this.bookmark.instance.items;
+		items.forEach((item) => {
+			retrieveLookupItem(item, itemDoms);
+		});
+	}
+	onMount() {
+		var _a;
+		const setBookmarkIcon = () => {
+			const nodesWithPath = {};
+			this.computeNodesWithPath((node, filePath) => {
+				nodesWithPath[filePath] = node;
+			});
+			Object.entries(nodesWithPath).forEach(([filePath, node]) => this.setIconOrRemove(filePath, node));
+		};
+		if (obsidian.requireApiVersion('1.7.2')) {
+			// TODO: Might improve the performance here.
+			(_a = this.leaf) === null || _a === void 0 ? void 0 : _a.loadIfDeferred().then(setBookmarkIcon);
+		}
+		else {
+			setBookmarkIcon();
+		}
+	}
+	register() {
+		if (!this.plugin.app.internalPlugins.getPluginById('file-explorer').enabled) {
+			console.info(`[${config.PLUGIN_NAME}/Bookmarks] Skipping bookmark internal plugin registration because file-explorer is not enabled.`);
+			return;
+		}
+		if (!this.enabled) {
+			console.info(`[${config.PLUGIN_NAME}/Bookmarks] Skipping bookmark internal plugin registration because it's not enabled.`);
+			return;
+		}
+		// eslint-disable-next-line
+		const self = this;
+		this.plugin.register(around(this.bookmark.instance, {
+			addItem: function (next) {
+				return function (...args) {
+					next.call(this, ...args);
+					// TODO: Remove in the future, I could not think of a better way to do this.
+					setTimeout(() => {
+						self.onMount();
+					}, 1000);
+				};
+			},
+			removeItem: function (next) {
+				return function (...args) {
+					next.call(this, ...args);
+					self.onMount();
+				};
+			},
+		}));
+	}
 }
 
 // TODO: Optimize the code to reduce the number of iterations and improve the
 // performance.
 const createIconShortcodeRegex = (plugin) => {
-    return new RegExp(`(${plugin.getSettings().iconIdentifier})((\\w{1,64}:\\d{17,18})|(\\w{1,64}))(${plugin.getSettings().iconIdentifier})`, 'g');
+	return new RegExp(`(${plugin.getSettings().iconIdentifier})((\\w{1,64}:\\d{17,18})|(\\w{1,64}))(${plugin.getSettings().iconIdentifier})`, 'g');
 };
 const createTreeWalker = (plugin, root) => {
-    return document.createTreeWalker(root, NodeFilter.SHOW_ALL, {
-        acceptNode: function (node) {
-            if (node.nodeName === 'CODE') {
-                return NodeFilter.FILTER_REJECT;
-            }
-            else if (node.nodeName === '#text') {
-                if (node.nodeValue &&
-                    (emoji.getRegex().test(node.nodeValue) ||
-                        createIconShortcodeRegex(plugin).test(node.nodeValue))) {
-                    return NodeFilter.FILTER_ACCEPT;
-                }
-                else {
-                    return NodeFilter.FILTER_REJECT;
-                }
-            }
-            return NodeFilter.FILTER_SKIP;
-        },
-    });
+	return document.createTreeWalker(root, NodeFilter.SHOW_ALL, {
+		acceptNode: function (node) {
+			if (node.nodeName === 'CODE') {
+				return NodeFilter.FILTER_REJECT;
+			}
+			else if (node.nodeName === '#text') {
+				if (node.nodeValue &&
+					(emoji.getRegex().test(node.nodeValue) ||
+						createIconShortcodeRegex(plugin).test(node.nodeValue))) {
+					return NodeFilter.FILTER_ACCEPT;
+				}
+				else {
+					return NodeFilter.FILTER_REJECT;
+				}
+			}
+			return NodeFilter.FILTER_SKIP;
+		},
+	});
 };
 const checkForTextNodes = (treeWalker, match, cb) => {
-    let currentNode = treeWalker.currentNode;
-    while (currentNode) {
-        if (currentNode.nodeType === Node.TEXT_NODE) {
-            const text = currentNode;
-            const textNodes = [...Array.from(text.parentElement.childNodes)].filter((n) => n instanceof Text);
-            for (const text of textNodes) {
-                for (const code of [...text.wholeText.matchAll(match)]
-                    .sort((a, b) => b.index - a.index)
-                    .map((arr) => ({ text: arr[0], index: arr.index }))) {
-                    if (!text.textContent) {
-                        continue;
-                    }
-                    cb(text, code);
-                }
-            }
-        }
-        currentNode = treeWalker.nextNode();
-    }
+	let currentNode = treeWalker.currentNode;
+	while (currentNode) {
+		if (currentNode.nodeType === Node.TEXT_NODE) {
+			const text = currentNode;
+			const textNodes = [...Array.from(text.parentElement.childNodes)].filter((n) => n instanceof Text);
+			for (const text of textNodes) {
+				for (const code of [...text.wholeText.matchAll(match)]
+					.sort((a, b) => b.index - a.index)
+					.map((arr) => ({ text: arr[0], index: arr.index }))) {
+					if (!text.textContent) {
+						continue;
+					}
+					cb(text, code);
+				}
+			}
+		}
+		currentNode = treeWalker.nextNode();
+	}
 };
 const processIconInTextMarkdown = (plugin, element) => {
-    // Ignore if codeblock
-    const codeElement = element.querySelector('pre > code');
-    const callOut = element.querySelector('.callout');
-    if (codeElement && !callOut) {
-        return;
-    }
-    const iconTreeWalker = createTreeWalker(plugin, element);
-    const iconShortcodeRegex = createIconShortcodeRegex(plugin);
-    const iconIdentifierLength = plugin.getSettings().iconIdentifier.length;
-    checkForTextNodes(iconTreeWalker, iconShortcodeRegex, (text, code) => {
-        var _a, _b;
-        const shortcode = code.text;
-        const iconName = shortcode.slice(iconIdentifierLength, shortcode.length - iconIdentifierLength);
-        const iconObject = icon.getIconByName(iconName);
-        if (iconObject) {
-            const toReplace = text.splitText(code.index);
-            const rootSpan = createSpan({
-                cls: 'cm-iconize-icon',
-                attr: {
-                    'aria-label': iconName,
-                    'data-icon': iconName,
-                    'aria-hidden': 'true',
-                },
-            });
-            rootSpan.style.display = 'inline-flex';
-            rootSpan.style.transform = 'translateY(13%)';
-            const parentElement = toReplace.parentElement;
-            const tagName = (_b = (_a = parentElement === null || parentElement === void 0 ? void 0 : parentElement.tagName) === null || _a === void 0 ? void 0 : _a.toLowerCase()) !== null && _b !== void 0 ? _b : '';
-            let fontSize = calculateFontTextSize();
-            if (isHeader(tagName)) {
-                fontSize = calculateHeaderSize(tagName);
-                const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
-                rootSpan.innerHTML = svgElement;
-            }
-            else {
-                const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
-                rootSpan.innerHTML = svgElement;
-            }
-            parentElement === null || parentElement === void 0 ? void 0 : parentElement.insertBefore(rootSpan, toReplace);
-            toReplace.textContent = toReplace.wholeText.substring(code.text.length);
-            // Set the font size to its parent font size if defined.
-            // We do this after that to not freeze the insertion while iterating over the tree.
-            // We are also updating the size after the animation because the styling won't be set
-            // in the first place.
-            requestAnimationFrame(() => {
-                const parentFontSize = parseFloat(getComputedStyle(parentElement).fontSize);
-                if (!isNaN(parentFontSize)) {
-                    rootSpan.innerHTML = svg.setFontSize(rootSpan.innerHTML, parentFontSize);
-                }
-            });
-        }
-    });
-    const emojiTreeWalker = createTreeWalker(plugin, element);
-    checkForTextNodes(emojiTreeWalker, emoji.getRegex(), (text, code) => {
-        var _a, _b, _c, _d;
-        if (!emoji.isEmoji(code.text)) {
-            return;
-        }
-        if (plugin.getSettings().emojiStyle === 'twemoji') {
-            const toReplace = text.splitText(code.index);
-            const tagName = (_c = (_b = (_a = toReplace.parentElement) === null || _a === void 0 ? void 0 : _a.tagName) === null || _b === void 0 ? void 0 : _b.toLowerCase()) !== null && _c !== void 0 ? _c : '';
-            let fontSize = calculateFontTextSize();
-            if (isHeader(tagName)) {
-                fontSize = calculateHeaderSize(tagName);
-            }
-            const emojiValue = emoji.parseEmoji(plugin.getSettings().emojiStyle, code.text, fontSize);
-            if (!emojiValue) {
-                return;
-            }
-            const emojiNode = createSpan();
-            emojiNode.innerHTML = emojiValue;
-            (_d = toReplace.parentElement) === null || _d === void 0 ? void 0 : _d.insertBefore(emojiNode, toReplace);
-            toReplace.textContent = toReplace.wholeText.substring(code.text.length);
-        }
-    });
+	// Ignore if codeblock
+	const codeElement = element.querySelector('pre > code');
+	const callOut = element.querySelector('.callout');
+	if (codeElement && !callOut) {
+		return;
+	}
+	const iconTreeWalker = createTreeWalker(plugin, element);
+	const iconShortcodeRegex = createIconShortcodeRegex(plugin);
+	const iconIdentifierLength = plugin.getSettings().iconIdentifier.length;
+	checkForTextNodes(iconTreeWalker, iconShortcodeRegex, (text, code) => {
+		var _a, _b;
+		const shortcode = code.text;
+		const iconName = shortcode.slice(iconIdentifierLength, shortcode.length - iconIdentifierLength);
+		const iconObject = icon.getIconByName(iconName);
+		if (iconObject) {
+			const toReplace = text.splitText(code.index);
+			const rootSpan = createSpan({
+				cls: 'cm-iconize-icon',
+				attr: {
+					'aria-label': iconName,
+					'data-icon': iconName,
+					'aria-hidden': 'true',
+				},
+			});
+			rootSpan.style.display = 'inline-flex';
+			rootSpan.style.transform = 'translateY(13%)';
+			const parentElement = toReplace.parentElement;
+			const tagName = (_b = (_a = parentElement === null || parentElement === void 0 ? void 0 : parentElement.tagName) === null || _a === void 0 ? void 0 : _a.toLowerCase()) !== null && _b !== void 0 ? _b : '';
+			let fontSize = calculateFontTextSize();
+			if (isHeader(tagName)) {
+				fontSize = calculateHeaderSize(tagName);
+				const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
+				rootSpan.innerHTML = svgElement;
+			}
+			else {
+				const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
+				rootSpan.innerHTML = svgElement;
+			}
+			parentElement === null || parentElement === void 0 ? void 0 : parentElement.insertBefore(rootSpan, toReplace);
+			toReplace.textContent = toReplace.wholeText.substring(code.text.length);
+			// Set the font size to its parent font size if defined.
+			// We do this after that to not freeze the insertion while iterating over the tree.
+			// We are also updating the size after the animation because the styling won't be set
+			// in the first place.
+			requestAnimationFrame(() => {
+				const parentFontSize = parseFloat(getComputedStyle(parentElement).fontSize);
+				if (!isNaN(parentFontSize)) {
+					rootSpan.innerHTML = svg.setFontSize(rootSpan.innerHTML, parentFontSize);
+				}
+			});
+		}
+	});
+	const emojiTreeWalker = createTreeWalker(plugin, element);
+	checkForTextNodes(emojiTreeWalker, emoji.getRegex(), (text, code) => {
+		var _a, _b, _c, _d;
+		if (!emoji.isEmoji(code.text)) {
+			return;
+		}
+		if (plugin.getSettings().emojiStyle === 'twemoji') {
+			const toReplace = text.splitText(code.index);
+			const tagName = (_c = (_b = (_a = toReplace.parentElement) === null || _a === void 0 ? void 0 : _a.tagName) === null || _b === void 0 ? void 0 : _b.toLowerCase()) !== null && _c !== void 0 ? _c : '';
+			let fontSize = calculateFontTextSize();
+			if (isHeader(tagName)) {
+				fontSize = calculateHeaderSize(tagName);
+			}
+			const emojiValue = emoji.parseEmoji(plugin.getSettings().emojiStyle, code.text, fontSize);
+			if (!emojiValue) {
+				return;
+			}
+			const emojiNode = createSpan();
+			emojiNode.innerHTML = emojiValue;
+			(_d = toReplace.parentElement) === null || _d === void 0 ? void 0 : _d.insertBefore(emojiNode, toReplace);
+			toReplace.textContent = toReplace.wholeText.substring(code.text.length);
+		}
+	});
 };
 
 const processIconInLinkMarkdown = (plugin, element, ctx) => {
-    const linkElements = element.querySelectorAll('a');
-    if (!linkElements || linkElements.length === 0) {
-        return;
-    }
-    linkElements.forEach((linkElement) => {
-        var _a, _b, _c, _d, _e;
-        // Skip if the link element e.g., is a tag.
-        if (!linkElement.hasAttribute('data-href')) {
-            return;
-        }
-        const linkHref = linkElement.getAttribute('href');
-        if (!linkHref) {
-            logger.warn('Link element does not have an `href` attribute');
-            return;
-        }
-        const file = plugin.app.metadataCache.getFirstLinkpathDest(linkHref, ctx.sourcePath);
-        if (!file) {
-            logger.warn('Link element does not have a linkpath to a file');
-            return;
-        }
-        const path = file.path;
-        const iconValue = icon.getIconByPath(plugin, path);
-        if (!iconValue) {
-            return;
-        }
-        let fontSize = calculateFontTextSize();
-        const tagName = (_c = (_b = (_a = linkElement.parentElement) === null || _a === void 0 ? void 0 : _a.tagName) === null || _b === void 0 ? void 0 : _b.toLowerCase()) !== null && _c !== void 0 ? _c : '';
-        if (isHeader(tagName)) {
-            fontSize = calculateHeaderSize(tagName);
-        }
-        const iconName = typeof iconValue === 'string'
-            ? iconValue
-            : iconValue.prefix + iconValue.name;
-        const rootSpan = createSpan({
-            cls: 'iconize-icon-in-link',
-            attr: {
-                title: iconName,
-                'aria-label': iconName,
-                'data-icon': iconName,
-                'aria-hidden': 'true',
-            },
-        });
-        rootSpan.style.color =
-            (_d = plugin.getIconColor(path)) !== null && _d !== void 0 ? _d : plugin.getSettings().iconColor;
-        if (emoji.isEmoji(iconName)) {
-            const parsedEmoji = (_e = emoji.parseEmoji(plugin.getSettings().emojiStyle, iconName, fontSize)) !== null && _e !== void 0 ? _e : iconName;
-            rootSpan.style.transform = 'translateY(0)';
-            rootSpan.innerHTML = parsedEmoji;
-        }
-        else {
-            let svgEl = icon.getIconByName(iconName).svgElement;
-            svgEl = svg.setFontSize(svgEl, fontSize);
-            if (svgEl) {
-                rootSpan.style.transform = 'translateY(20%)';
-                rootSpan.innerHTML = svgEl;
-            }
-        }
-        linkElement.prepend(rootSpan);
-    });
+	const linkElements = element.querySelectorAll('a');
+	if (!linkElements || linkElements.length === 0) {
+		return;
+	}
+	linkElements.forEach((linkElement) => {
+		var _a, _b, _c, _d, _e;
+		// Skip if the link element e.g., is a tag.
+		if (!linkElement.hasAttribute('data-href')) {
+			return;
+		}
+		const linkHref = linkElement.getAttribute('href');
+		if (!linkHref) {
+			logger.warn('Link element does not have an `href` attribute');
+			return;
+		}
+		const file = plugin.app.metadataCache.getFirstLinkpathDest(linkHref, ctx.sourcePath);
+		if (!file) {
+			logger.warn('Link element does not have a linkpath to a file');
+			return;
+		}
+		const path = file.path;
+		const iconValue = icon.getIconByPath(plugin, path);
+		if (!iconValue) {
+			return;
+		}
+		let fontSize = calculateFontTextSize();
+		const tagName = (_c = (_b = (_a = linkElement.parentElement) === null || _a === void 0 ? void 0 : _a.tagName) === null || _b === void 0 ? void 0 : _b.toLowerCase()) !== null && _c !== void 0 ? _c : '';
+		if (isHeader(tagName)) {
+			fontSize = calculateHeaderSize(tagName);
+		}
+		const iconName = typeof iconValue === 'string'
+			? iconValue
+			: iconValue.prefix + iconValue.name;
+		const rootSpan = createSpan({
+			cls: 'iconize-icon-in-link',
+			attr: {
+				title: iconName,
+				'aria-label': iconName,
+				'data-icon': iconName,
+				'aria-hidden': 'true',
+			},
+		});
+		rootSpan.style.color =
+			(_d = plugin.getIconColor(path)) !== null && _d !== void 0 ? _d : plugin.getSettings().iconColor;
+		if (emoji.isEmoji(iconName)) {
+			const parsedEmoji = (_e = emoji.parseEmoji(plugin.getSettings().emojiStyle, iconName, fontSize)) !== null && _e !== void 0 ? _e : iconName;
+			rootSpan.style.transform = 'translateY(0)';
+			rootSpan.innerHTML = parsedEmoji;
+		}
+		else {
+			let svgEl = icon.getIconByName(iconName).svgElement;
+			svgEl = svg.setFontSize(svgEl, fontSize);
+			if (svgEl) {
+				rootSpan.style.transform = 'translateY(20%)';
+				rootSpan.innerHTML = svgEl;
+			}
+		}
+		linkElement.prepend(rootSpan);
+	});
 };
 
 const TREE_ITEM_CLASS = 'tree-item-self';
 const TREE_ITEM_INNER = 'tree-item-inner';
 class OutlineInternalPlugin extends InternalPluginInjector {
-    constructor(plugin) {
-        super(plugin);
-    }
-    onMount() {
-        // TODO: Might improve the performance here.
-    }
-    register() {
-        if (!this.enabled) {
-            logger.info('Skipping internal plugin registration because it is not enabled.', LoggerPrefix.Outline);
-            return;
-        }
-        const updateTreeItems = () => {
-            var _a, _b, _c;
-            if (!((_b = (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.view) === null || _b === void 0 ? void 0 : _b.tree)) {
-                return;
-            }
-            const treeItems = Array.from(this.leaf.view.tree.containerEl.querySelectorAll(`.${TREE_ITEM_CLASS}`));
-            for (const treeItem of treeItems) {
-                const treeItemInner = treeItem.querySelector(`.${TREE_ITEM_INNER}`);
-                let text = treeItemInner === null || treeItemInner === void 0 ? void 0 : treeItemInner.getText();
-                if (!text) {
-                    continue;
-                }
-                const iconShortcodeRegex = createIconShortcodeRegex(this.plugin);
-                const iconIdentifierLength = this.plugin.getSettings().iconIdentifier.length;
-                let trimmedLength = 0;
-                for (const code of [...text.matchAll(iconShortcodeRegex)]
-                    .sort((a, b) => a.index - b.index)
-                    .map((arr) => ({ text: arr[0], index: arr.index }))) {
-                    const shortcode = code.text;
-                    const iconName = shortcode.slice(iconIdentifierLength, shortcode.length - iconIdentifierLength);
-                    const iconObject = icon.getIconByName(iconName);
-                    if (iconObject) {
-                        const startIndex = code.index - trimmedLength;
-                        const endIndex = code.index + code.text.length - trimmedLength;
-                        const str = text.substring(0, startIndex) + text.substring(endIndex);
-                        const iconSpan = createSpan({
-                            cls: 'cm-iconize-icon',
-                            attr: {
-                                'aria-label': iconName,
-                                'data-icon': iconName,
-                                'aria-hidden': 'true',
-                            },
-                        });
-                        const fontSize = parseFloat((_c = getComputedStyle(document.body).getPropertyValue('--nav-item-size')) !== null && _c !== void 0 ? _c : '16');
-                        const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
-                        iconSpan.style.display = 'inline-flex';
-                        iconSpan.style.transform = 'translateY(13%)';
-                        iconSpan.innerHTML = svgElement;
-                        treeItemInner.innerHTML = treeItemInner.innerHTML.replace(shortcode, iconSpan.outerHTML);
-                        text = str;
-                        trimmedLength += code.text.length;
-                    }
-                }
-            }
-        };
-        const setOutlineIcons = () => {
-            this.plugin.getEventEmitter().once('allIconsLoaded', () => {
-                updateTreeItems();
-                const callback = (mutations) => {
-                    mutations.forEach((mutation) => {
-                        if (mutation.type !== 'childList') {
-                            return;
-                        }
-                        const addedNodes = mutation.addedNodes;
-                        if (addedNodes.length === 0) {
-                            return;
-                        }
-                        updateTreeItems();
-                    });
-                    if (!this.enabled) {
-                        observer.disconnect();
-                    }
-                };
-                const observer = new MutationObserver(callback);
-                observer.observe(this.leaf.view.tree.containerEl, {
-                    childList: true,
-                    subtree: true,
-                });
-            });
-        };
-        if (obsidian.requireApiVersion('1.7.2')) {
-            // TODO: Might improve the performance here.
-            this.leaf.loadIfDeferred().then(setOutlineIcons);
-        }
-        else {
-            setOutlineIcons();
-        }
-    }
-    get leaf() {
-        const leaf = this.plugin.app.workspace.getLeavesOfType('outline');
-        if (!leaf) {
-            logger.log('`leaf` in outline is undefined', LoggerPrefix.Outline);
-            return undefined;
-        }
-        if (leaf.length === 0) {
-            logger.log('`leaf` length in outline is 0', LoggerPrefix.Outline);
-            return undefined;
-        }
-        return leaf[0];
-    }
-    get outline() {
-        return this.plugin.app.internalPlugins.getPluginById('outline');
-    }
-    get enabled() {
-        return this.plugin.app.internalPlugins.getPluginById('outline').enabled;
-    }
+	constructor(plugin) {
+		super(plugin);
+	}
+	onMount() {
+		// TODO: Might improve the performance here.
+	}
+	register() {
+		if (!this.enabled) {
+			logger.info('Skipping internal plugin registration because it is not enabled.', LoggerPrefix.Outline);
+			return;
+		}
+		const updateTreeItems = () => {
+			var _a, _b, _c;
+			if (!((_b = (_a = this.leaf) === null || _a === void 0 ? void 0 : _a.view) === null || _b === void 0 ? void 0 : _b.tree)) {
+				return;
+			}
+			const treeItems = Array.from(this.leaf.view.tree.containerEl.querySelectorAll(`.${TREE_ITEM_CLASS}`));
+			for (const treeItem of treeItems) {
+				const treeItemInner = treeItem.querySelector(`.${TREE_ITEM_INNER}`);
+				let text = treeItemInner === null || treeItemInner === void 0 ? void 0 : treeItemInner.getText();
+				if (!text) {
+					continue;
+				}
+				const iconShortcodeRegex = createIconShortcodeRegex(this.plugin);
+				const iconIdentifierLength = this.plugin.getSettings().iconIdentifier.length;
+				let trimmedLength = 0;
+				for (const code of [...text.matchAll(iconShortcodeRegex)]
+					.sort((a, b) => a.index - b.index)
+					.map((arr) => ({ text: arr[0], index: arr.index }))) {
+					const shortcode = code.text;
+					const iconName = shortcode.slice(iconIdentifierLength, shortcode.length - iconIdentifierLength);
+					const iconObject = icon.getIconByName(iconName);
+					if (iconObject) {
+						const startIndex = code.index - trimmedLength;
+						const endIndex = code.index + code.text.length - trimmedLength;
+						const str = text.substring(0, startIndex) + text.substring(endIndex);
+						const iconSpan = createSpan({
+							cls: 'cm-iconize-icon',
+							attr: {
+								'aria-label': iconName,
+								'data-icon': iconName,
+								'aria-hidden': 'true',
+							},
+						});
+						const fontSize = parseFloat((_c = getComputedStyle(document.body).getPropertyValue('--nav-item-size')) !== null && _c !== void 0 ? _c : '16');
+						const svgElement = svg.setFontSize(iconObject.svgElement, fontSize);
+						iconSpan.style.display = 'inline-flex';
+						iconSpan.style.transform = 'translateY(13%)';
+						iconSpan.innerHTML = svgElement;
+						treeItemInner.innerHTML = treeItemInner.innerHTML.replace(shortcode, iconSpan.outerHTML);
+						text = str;
+						trimmedLength += code.text.length;
+					}
+				}
+			}
+		};
+		const setOutlineIcons = () => {
+			this.plugin.getEventEmitter().once('allIconsLoaded', () => {
+				updateTreeItems();
+				const callback = (mutations) => {
+					mutations.forEach((mutation) => {
+						if (mutation.type !== 'childList') {
+							return;
+						}
+						const addedNodes = mutation.addedNodes;
+						if (addedNodes.length === 0) {
+							return;
+						}
+						updateTreeItems();
+					});
+					if (!this.enabled) {
+						observer.disconnect();
+					}
+				};
+				const observer = new MutationObserver(callback);
+				observer.observe(this.leaf.view.tree.containerEl, {
+					childList: true,
+					subtree: true,
+				});
+			});
+		};
+		if (obsidian.requireApiVersion('1.7.2')) {
+			// TODO: Might improve the performance here.
+			this.leaf.loadIfDeferred().then(setOutlineIcons);
+		}
+		else {
+			setOutlineIcons();
+		}
+	}
+	get leaf() {
+		const leaf = this.plugin.app.workspace.getLeavesOfType('outline');
+		if (!leaf) {
+			logger.log('`leaf` in outline is undefined', LoggerPrefix.Outline);
+			return undefined;
+		}
+		if (leaf.length === 0) {
+			logger.log('`leaf` length in outline is 0', LoggerPrefix.Outline);
+			return undefined;
+		}
+		return leaf[0];
+	}
+	get outline() {
+		return this.plugin.app.internalPlugins.getPluginById('outline');
+	}
+	get enabled() {
+		return this.plugin.app.internalPlugins.getPluginById('outline').enabled;
+	}
 }
 
 class SuggestionIcon extends obsidian.EditorSuggest {
-    constructor(app, plugin) {
-        super(app);
-        this.plugin = plugin;
-    }
-    onTrigger(cursor, editor) {
-        // Isolate shortcode starting position closest to the cursor.
-        const shortcodeStart = editor
-            .getLine(cursor.line)
-            .substring(0, cursor.ch)
-            .lastIndexOf(this.plugin.getSettings().iconIdentifier);
-        // `onTrigger` needs to return `null` as soon as possible to save processing performance.
-        if (shortcodeStart === -1) {
-            return null;
-        }
-        // Regex for checking if the shortcode is not done yet.
-        const regex = new RegExp(`^(${this.plugin.getSettings().iconIdentifier})\\w+$`, 'g');
-        const regexOngoingShortcode = editor
-            .getLine(cursor.line)
-            .substring(shortcodeStart, cursor.ch)
-            .match(regex);
-        if (regexOngoingShortcode === null) {
-            return null;
-        }
-        const startingIndex = editor
-            .getLine(cursor.line)
-            .indexOf(regexOngoingShortcode[0]);
-        return {
-            start: {
-                line: cursor.line,
-                ch: startingIndex,
-            },
-            end: {
-                line: cursor.line,
-                ch: startingIndex + regexOngoingShortcode[0].length,
-            },
-            query: regexOngoingShortcode[0],
-        };
-    }
-    getSuggestions(context) {
-        const queryLowerCase = context.query
-            .substring(this.plugin.getSettings().iconIdentifier.length)
-            .toLowerCase();
-        // Store all icons corresponding to the current query.
-        const iconsNameArray = getAllLoadedIconNames()
-            .filter((iconObject) => {
-            const name = iconObject.prefix.toLowerCase() + iconObject.name.toLowerCase();
-            return name.toLowerCase().includes(queryLowerCase);
-        })
-            .map((iconObject) => iconObject.prefix + iconObject.name);
-        // Store all emojis correspoding to the current query - parsing whitespaces and
-        // colons for shortcodes compatibility.
-        const emojisNameArray = Object.keys(emoji.shortNames).filter((e) => { var _a; return (_a = emoji.getShortcode(e)) === null || _a === void 0 ? void 0 : _a.includes(queryLowerCase); });
-        return [...iconsNameArray, ...emojisNameArray];
-    }
-    renderSuggestion(value, el) {
-        const iconObject = icon.getIconByName(value);
-        el.style.display = 'flex';
-        el.style.alignItems = 'center';
-        el.style.gap = '0.25rem';
-        if (iconObject) {
-            // Suggest an icon.
-            el.innerHTML = `${iconObject.svgElement} <span>${value}</span>`;
-        }
-        else {
-            // Suggest an emoji - display its shortcode version.
-            const shortcode = emoji.getShortcode(value);
-            if (shortcode) {
-                el.innerHTML = `<span>${value}</span> <span>${shortcode}</span>`;
-            }
-        }
-    }
-    selectSuggestion(value) {
-        const isEmoji = emoji.isEmoji(value.replace(/_/g, ' '));
-        if (!isEmoji) {
-            saveIconToIconPack(this.plugin, value);
-        }
-        // Replace query with iconNameWithPrefix or emoji unicode directly.
-        const updatedValue = isEmoji
-            ? value
-            : `${this.plugin.getSettings().iconIdentifier}${value}${this.plugin.getSettings().iconIdentifier}`;
-        this.context.editor.replaceRange(updatedValue, this.context.start, this.context.end);
-    }
+	constructor(app, plugin) {
+		super(app);
+		this.plugin = plugin;
+	}
+	onTrigger(cursor, editor) {
+		// Isolate shortcode starting position closest to the cursor.
+		const shortcodeStart = editor
+			.getLine(cursor.line)
+			.substring(0, cursor.ch)
+			.lastIndexOf(this.plugin.getSettings().iconIdentifier);
+		// `onTrigger` needs to return `null` as soon as possible to save processing performance.
+		if (shortcodeStart === -1) {
+			return null;
+		}
+		// Regex for checking if the shortcode is not done yet.
+		const regex = new RegExp(`^(${this.plugin.getSettings().iconIdentifier})\\w+$`, 'g');
+		const regexOngoingShortcode = editor
+			.getLine(cursor.line)
+			.substring(shortcodeStart, cursor.ch)
+			.match(regex);
+		if (regexOngoingShortcode === null) {
+			return null;
+		}
+		const startingIndex = editor
+			.getLine(cursor.line)
+			.indexOf(regexOngoingShortcode[0]);
+		return {
+			start: {
+				line: cursor.line,
+				ch: startingIndex,
+			},
+			end: {
+				line: cursor.line,
+				ch: startingIndex + regexOngoingShortcode[0].length,
+			},
+			query: regexOngoingShortcode[0],
+		};
+	}
+	getSuggestions(context) {
+		const queryLowerCase = context.query
+			.substring(this.plugin.getSettings().iconIdentifier.length)
+			.toLowerCase();
+		// Store all icons corresponding to the current query.
+		const iconsNameArray = getAllLoadedIconNames()
+			.filter((iconObject) => {
+			const name = iconObject.prefix.toLowerCase() + iconObject.name.toLowerCase();
+			return name.toLowerCase().includes(queryLowerCase);
+		})
+			.map((iconObject) => iconObject.prefix + iconObject.name);
+		// Store all emojis correspoding to the current query - parsing whitespaces and
+		// colons for shortcodes compatibility.
+		const emojisNameArray = Object.keys(emoji.shortNames).filter((e) => { var _a; return (_a = emoji.getShortcode(e)) === null || _a === void 0 ? void 0 : _a.includes(queryLowerCase); });
+		return [...iconsNameArray, ...emojisNameArray];
+	}
+	renderSuggestion(value, el) {
+		const iconObject = icon.getIconByName(value);
+		el.style.display = 'flex';
+		el.style.alignItems = 'center';
+		el.style.gap = '0.25rem';
+		if (iconObject) {
+			// Suggest an icon.
+			el.innerHTML = `${iconObject.svgElement} <span>${value}</span>`;
+		}
+		else {
+			// Suggest an emoji - display its shortcode version.
+			const shortcode = emoji.getShortcode(value);
+			if (shortcode) {
+				el.innerHTML = `<span>${value}</span> <span>${shortcode}</span>`;
+			}
+		}
+	}
+	selectSuggestion(value) {
+		const isEmoji = emoji.isEmoji(value.replace(/_/g, ' '));
+		if (!isEmoji) {
+			saveIconToIconPack(this.plugin, value);
+		}
+		// Replace query with iconNameWithPrefix or emoji unicode directly.
+		const updatedValue = isEmoji
+			? value
+			: `${this.plugin.getSettings().iconIdentifier}${value}${this.plugin.getSettings().iconIdentifier}`;
+		this.context.editor.replaceRange(updatedValue, this.context.start, this.context.end);
+	}
 }
 
 class IconInTextWidget extends view.WidgetType {
-    constructor(plugin, id) {
-        super();
-        this.plugin = plugin;
-        this.id = id;
-        this.start = -1;
-        this.end = -1;
-    }
-    setPosition(start, end) {
-        this.start = start;
-        this.end = end;
-    }
-    eq(other) {
-        return other instanceof IconInTextWidget && other.id === this.id;
-    }
-    getSize(view) {
-        let fontSize = calculateFontTextSize();
-        const line = view.state.doc.lineAt(this.end);
-        const headerMatch = line.text.match(/^#{1,6}\s/);
-        if (headerMatch && headerMatch[0].trim()) {
-            const mapping = {
-                '#': 'h1',
-                '##': 'h2',
-                '###': 'h3',
-                '####': 'h4',
-                '#####': 'h5',
-                '######': 'h6',
-            };
-            const header = mapping[headerMatch[0].trim()];
-            fontSize = calculateHeaderSize(header);
-        }
-        return fontSize;
-    }
-    toDOM(view) {
-        const wrap = createSpan({
-            cls: 'cm-iconize-icon',
-            attr: {
-                'aria-label': this.id,
-                'data-icon': this.id,
-                'aria-hidden': 'true',
-            },
-        });
-        const foundIcon = icon.getIconByName(this.id);
-        const fontSize = this.getSize(view);
-        if (foundIcon) {
-            const svgElement = svg.setFontSize(foundIcon.svgElement, fontSize);
-            wrap.style.display = 'inline-flex';
-            wrap.style.transform = 'translateY(13%)';
-            wrap.innerHTML = svgElement;
-        }
-        else if (emoji.isEmoji(this.id)) {
-            wrap.innerHTML = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, this.id, fontSize);
-        }
-        else {
-            wrap.append(`${this.plugin.getSettings().iconIdentifier}${this.id}${this.plugin.getSettings().iconIdentifier}`);
-        }
-        return wrap;
-    }
-    ignoreEvent() {
-        return false;
-    }
+	constructor(plugin, id) {
+		super();
+		this.plugin = plugin;
+		this.id = id;
+		this.start = -1;
+		this.end = -1;
+	}
+	setPosition(start, end) {
+		this.start = start;
+		this.end = end;
+	}
+	eq(other) {
+		return other instanceof IconInTextWidget && other.id === this.id;
+	}
+	getSize(view) {
+		let fontSize = calculateFontTextSize();
+		const line = view.state.doc.lineAt(this.end);
+		const headerMatch = line.text.match(/^#{1,6}\s/);
+		if (headerMatch && headerMatch[0].trim()) {
+			const mapping = {
+				'#': 'h1',
+				'##': 'h2',
+				'###': 'h3',
+				'####': 'h4',
+				'#####': 'h5',
+				'######': 'h6',
+			};
+			const header = mapping[headerMatch[0].trim()];
+			fontSize = calculateHeaderSize(header);
+		}
+		return fontSize;
+	}
+	toDOM(view) {
+		const wrap = createSpan({
+			cls: 'cm-iconize-icon',
+			attr: {
+				'aria-label': this.id,
+				'data-icon': this.id,
+				'aria-hidden': 'true',
+			},
+		});
+		const foundIcon = icon.getIconByName(this.id);
+		const fontSize = this.getSize(view);
+		if (foundIcon) {
+			const svgElement = svg.setFontSize(foundIcon.svgElement, fontSize);
+			wrap.style.display = 'inline-flex';
+			wrap.style.transform = 'translateY(13%)';
+			wrap.innerHTML = svgElement;
+		}
+		else if (emoji.isEmoji(this.id)) {
+			wrap.innerHTML = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, this.id, fontSize);
+		}
+		else {
+			wrap.append(`${this.plugin.getSettings().iconIdentifier}${this.id}${this.plugin.getSettings().iconIdentifier}`);
+		}
+		return wrap;
+	}
+	ignoreEvent() {
+		return false;
+	}
 }
 
 class IconInLinkWidget extends view.WidgetType {
-    constructor(plugin, iconData, path, headerType) {
-        super();
-        this.plugin = plugin;
-        this.iconData = iconData;
-        this.path = path;
-        this.headerType = headerType;
-    }
-    toDOM() {
-        var _a;
-        const iconNode = document.createElement('span');
-        const iconName = typeof this.iconData === 'string'
-            ? this.iconData
-            : this.iconData.prefix + this.iconData.name;
-        iconNode.style.color =
-            (_a = this.plugin.getIconColor(this.path)) !== null && _a !== void 0 ? _a : this.plugin.getSettings().iconColor;
-        iconNode.setAttribute('title', iconName);
-        iconNode.classList.add('iconize-icon-in-link');
-        if (typeof this.iconData === 'string') {
-            iconNode.style.transform = 'translateY(0)';
-        }
-        let innerHTML = typeof this.iconData === 'string'
-            ? this.iconData
-            : this.iconData.svgElement;
-        let fontSize = calculateFontTextSize();
-        if (this.headerType) {
-            fontSize = calculateHeaderSize(this.headerType);
-        }
-        if (emoji.isEmoji(innerHTML)) {
-            innerHTML = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, innerHTML, fontSize);
-        }
-        else {
-            innerHTML = svg.setFontSize(innerHTML, fontSize);
-        }
-        iconNode.innerHTML = innerHTML;
-        return iconNode;
-    }
-    ignoreEvent() {
-        return true;
-    }
+	constructor(plugin, iconData, path, headerType) {
+		super();
+		this.plugin = plugin;
+		this.iconData = iconData;
+		this.path = path;
+		this.headerType = headerType;
+	}
+	toDOM() {
+		var _a;
+		const iconNode = document.createElement('span');
+		const iconName = typeof this.iconData === 'string'
+			? this.iconData
+			: this.iconData.prefix + this.iconData.name;
+		iconNode.style.color =
+			(_a = this.plugin.getIconColor(this.path)) !== null && _a !== void 0 ? _a : this.plugin.getSettings().iconColor;
+		iconNode.setAttribute('title', iconName);
+		iconNode.classList.add('iconize-icon-in-link');
+		if (typeof this.iconData === 'string') {
+			iconNode.style.transform = 'translateY(0)';
+		}
+		let innerHTML = typeof this.iconData === 'string'
+			? this.iconData
+			: this.iconData.svgElement;
+		let fontSize = calculateFontTextSize();
+		if (this.headerType) {
+			fontSize = calculateHeaderSize(this.headerType);
+		}
+		if (emoji.isEmoji(innerHTML)) {
+			innerHTML = emoji.parseEmoji(this.plugin.getSettings().emojiStyle, innerHTML, fontSize);
+		}
+		else {
+			innerHTML = svg.setFontSize(innerHTML, fontSize);
+		}
+		iconNode.innerHTML = innerHTML;
+		return iconNode;
+	}
+	ignoreEvent() {
+		return true;
+	}
 }
 
 const buildLinkDecorations = (view$1, plugin) => {
-    const builder = new state.RangeSetBuilder();
-    const mdView = view$1.state.field(obsidian.editorInfoField);
-    for (const { from, to } of view$1.visibleRanges) {
-        language.syntaxTree(view$1.state).iterate({
-            from,
-            to,
-            enter: (node) => {
-                const tokenProps = node.type.prop(language.tokenClassNodeProp);
-                if (tokenProps) {
-                    const props = new Set(tokenProps.split(' '));
-                    const isLink = props.has('hmd-internal-link');
-                    const headerType = [
-                        'header-1',
-                        'header-2',
-                        'header-3',
-                        'header-4',
-                        'header-5',
-                        'header-6',
-                    ].find((header) => props.has(header));
-                    if (isLink) {
-                        let linkText = view$1.state.doc.sliceString(node.from, node.to);
-                        linkText = linkText.split('#')[0];
-                        const file = plugin.app.metadataCache.getFirstLinkpathDest(linkText, mdView.file.basename);
-                        if (file) {
-                            const possibleIcon = icon.getIconByPath(plugin, file.path);
-                            if (possibleIcon) {
-                                const iconDecoration = view.Decoration.widget({
-                                    widget: new IconInLinkWidget(plugin, possibleIcon, file.path, headerType),
-                                });
-                                builder.add(node.from, node.from, iconDecoration);
-                            }
-                        }
-                    }
-                }
-            },
-        });
-    }
-    return builder.finish();
+	const builder = new state.RangeSetBuilder();
+	const mdView = view$1.state.field(obsidian.editorInfoField);
+	for (const { from, to } of view$1.visibleRanges) {
+		language.syntaxTree(view$1.state).iterate({
+			from,
+			to,
+			enter: (node) => {
+				const tokenProps = node.type.prop(language.tokenClassNodeProp);
+				if (tokenProps) {
+					const props = new Set(tokenProps.split(' '));
+					const isLink = props.has('hmd-internal-link');
+					const headerType = [
+						'header-1',
+						'header-2',
+						'header-3',
+						'header-4',
+						'header-5',
+						'header-6',
+					].find((header) => props.has(header));
+					if (isLink) {
+						let linkText = view$1.state.doc.sliceString(node.from, node.to);
+						linkText = linkText.split('#')[0];
+						const file = plugin.app.metadataCache.getFirstLinkpathDest(linkText, mdView.file.basename);
+						if (file) {
+							const possibleIcon = icon.getIconByPath(plugin, file.path);
+							if (possibleIcon) {
+								const iconDecoration = view.Decoration.widget({
+									widget: new IconInLinkWidget(plugin, possibleIcon, file.path, headerType),
+								});
+								builder.add(node.from, node.from, iconDecoration);
+							}
+						}
+					}
+				}
+			},
+		});
+	}
+	return builder.finish();
 };
 
 const buildTextDecorations = (view$1, plugin) => {
-    const ranges = [];
-    const iconInfo = view$1.state.field(plugin.positionField);
-    for (const { from, to } of view$1.visibleRanges) {
-        iconInfo.between(from - 1, to + 1, (from, to, { iconId }) => {
-            ranges.push([iconId, from, to]);
-        });
-    }
-    return view.Decoration.set(ranges.map(([code, from, to]) => {
-        const widget = new IconInTextWidget(plugin, code);
-        widget.setPosition(from, to);
-        if (view$1.state.field(obsidian.editorLivePreviewField)) {
-            return view.Decoration.replace({
-                widget,
-                side: -1,
-            }).range(from, to);
-        }
-        return view.Decoration.widget({
-            widget,
-            side: -1,
-        }).range(to);
-    }), true);
+	const ranges = [];
+	const iconInfo = view$1.state.field(plugin.positionField);
+	for (const { from, to } of view$1.visibleRanges) {
+		iconInfo.between(from - 1, to + 1, (from, to, { iconId }) => {
+			ranges.push([iconId, from, to]);
+		});
+	}
+	return view.Decoration.set(ranges.map(([code, from, to]) => {
+		const widget = new IconInTextWidget(plugin, code);
+		widget.setPosition(from, to);
+		if (view$1.state.field(obsidian.editorLivePreviewField)) {
+			return view.Decoration.replace({
+				widget,
+				side: -1,
+			}).range(from, to);
+		}
+		return view.Decoration.widget({
+			widget,
+			side: -1,
+		}).range(to);
+	}), true);
 };
 
 const buildIconInTextPlugin = (plugin) => {
-    return view.ViewPlugin.fromClass(class IconPlugin {
-        constructor(view) {
-            this.plugin = plugin;
-            this.decorations = buildTextDecorations(view, plugin);
-        }
-        update(update) {
-            this.decorations = buildTextDecorations(update.view, this.plugin);
-        }
-    }, {
-        decorations: (v) => v.decorations,
-        provide: (plugin) => view.EditorView.atomicRanges.of((view$1) => {
-            const value = view$1.plugin(plugin);
-            return value ? value.decorations : view.Decoration.none;
-        }),
-    });
+	return view.ViewPlugin.fromClass(class IconPlugin {
+		constructor(view) {
+			this.plugin = plugin;
+			this.decorations = buildTextDecorations(view, plugin);
+		}
+		update(update) {
+			this.decorations = buildTextDecorations(update.view, this.plugin);
+		}
+	}, {
+		decorations: (v) => v.decorations,
+		provide: (plugin) => view.EditorView.atomicRanges.of((view$1) => {
+			const value = view$1.plugin(plugin);
+			return value ? value.decorations : view.Decoration.none;
+		}),
+	});
 };
 
 const buildIconInLinksPlugin = (plugin) => {
-    return view.ViewPlugin.fromClass(class {
-        constructor(view) {
-            this.plugin = plugin;
-            this.decorations = buildLinkDecorations(view, plugin);
-        }
-        destroy() { }
-        update(update) {
-            if (update.docChanged || update.viewportChanged) {
-                this.decorations = buildLinkDecorations(update.view, this.plugin);
-            }
-        }
-    }, {
-        decorations: (v) => v.decorations,
-    });
+	return view.ViewPlugin.fromClass(class {
+		constructor(view) {
+			this.plugin = plugin;
+			this.decorations = buildLinkDecorations(view, plugin);
+		}
+		destroy() { }
+		update(update) {
+			if (update.docChanged || update.viewportChanged) {
+				this.decorations = buildLinkDecorations(update.view, this.plugin);
+			}
+		}
+	}, {
+		decorations: (v) => v.decorations,
+	});
 };
 
 // TODO: Optimize the code to reduce the number of iterations and improve the
 // performance.
 function checkForSourceMode(plugin) {
-    let isSourceMode = false;
-    // Iterate over all leaves to check if any is in source mode
-    plugin.app.workspace.iterateAllLeaves((leaf) => {
-        var _a;
-        if (!isSourceMode && leaf.view.getViewType() === 'markdown') {
-            if ((_a = leaf.getViewState().state) === null || _a === void 0 ? void 0 : _a.source) {
-                isSourceMode = true;
-            }
-        }
-    });
-    return isSourceMode;
+	let isSourceMode = false;
+	// Iterate over all leaves to check if any is in source mode
+	plugin.app.workspace.iterateAllLeaves((leaf) => {
+		var _a;
+		if (!isSourceMode && leaf.view.getViewType() === 'markdown') {
+			if ((_a = leaf.getViewState().state) === null || _a === void 0 ? void 0 : _a.source) {
+				isSourceMode = true;
+			}
+		}
+	});
+	return isSourceMode;
 }
 class IconPosition extends state.RangeValue {
-    constructor(text) {
-        super();
-        this.text = text;
-    }
-    get iconId() {
-        return this.text;
-    }
-    eq(other) {
-        return other instanceof IconPosition && other.text === this.text;
-    }
+	constructor(text) {
+		super();
+		this.text = text;
+	}
+	get iconId() {
+		return this.text;
+	}
+	eq(other) {
+		return other instanceof IconPosition && other.text === this.text;
+	}
 }
 /**
  * Builds a position field for the editor state. This field will track the
  * positions of the icons in the document.
  **/
 const buildPositionField = (plugin) => {
-    /**
-     * Checks the ranges of the icons in the document. If the range is not
-     * excluded, the range is added to the range set. If the range is excluded,
-     * the range is removed from the range set.
-     * @param state EditorState to get the ranges from.
-     * @param excludeFrom Number to exclude from the ranges.
-     * @param excludeTo Number to exclude to the ranges.
-     * @param updateRange Function callback to update the range.
-     */
-    const checkRanges = (state, excludeFrom, excludeTo, updateRange) => {
-        const isSourceMode = checkForSourceMode(plugin);
-        const text = state.doc.sliceString(0, state.doc.length);
-        const identifier = plugin.getSettings().iconIdentifier;
-        const regex = new RegExp(`(${identifier})((\\w{1,64}:\\d{17,18})|(\\w{1,64}))(${identifier})`, 'g');
-        for (const { 0: rawCode, index: offset } of text.matchAll(regex)) {
-            const iconName = rawCode.substring(identifier.length, rawCode.length - identifier.length);
-            if (!icon.getIconByName(iconName)) {
-                continue;
-            }
-            const from = offset;
-            const to = offset + rawCode.length;
-            if (!isNodeInRangeAccepted(state, from, to)) {
-                continue;
-            }
-            if (offset < excludeFrom || offset > excludeTo) {
-                updateRange(from, to, new IconPosition(iconName), isSourceMode);
-                continue;
-            }
-            updateRange(from, to, new IconPosition(iconName), true);
-        }
-        for (const { 0: emojiName, index: offset } of text.matchAll(emoji.getRegex())) {
-            if (!emoji.isEmoji(emojiName)) {
-                continue;
-            }
-            const from = offset;
-            const to = offset + emojiName.length;
-            if (!isNodeInRangeAccepted(state, from, to)) {
-                continue;
-            }
-            if (offset < excludeFrom || offset > excludeTo) {
-                updateRange(from, to, new IconPosition(emojiName), isSourceMode);
-                continue;
-            }
-            updateRange(from, to, new IconPosition(emojiName), true);
-        }
-    };
-    const isNodeInRangeAccepted = (state, from, to) => {
-        let isRangeAccepted = true;
-        language.syntaxTree(state).iterate({
-            from,
-            to,
-            enter: ({ type }) => {
-                var _a;
-                if (type.name === 'Document') {
-                    return;
-                }
-                const allowedNodeTypes = [
-                    'header',
-                    'strong',
-                    'em',
-                    'quote',
-                    'link',
-                    'list-1',
-                    'list-2',
-                    'list-3',
-                    'highlight',
-                    'footref',
-                    'comment',
-                    'link-alias',
-                ];
-                const excludedNodeTypes = [
-                    'formatting',
-                    'hmd-codeblock',
-                    'inline-code',
-                    'hr',
-                ];
-                const nodeProps = (_a = type.prop(language.tokenClassNodeProp)) !== null && _a !== void 0 ? _a : '';
-                const s = new Set(nodeProps.split(' '));
-                if (excludedNodeTypes.some((t) => s.has(t)) &&
-                    allowedNodeTypes.every((t) => !s.has(t))) {
-                    isRangeAccepted = false;
-                }
-            },
-        });
-        return isRangeAccepted;
-    };
-    return state.StateField.define({
-        create: (state$1) => {
-            const rangeSet = new state.RangeSetBuilder();
-            const changedLines = [];
-            checkRanges(state$1, -1, -1, (from, to, iconPosition) => {
-                changedLines.push({ from, to, iconPosition });
-            });
-            changedLines.sort((a, b) => a.from - b.from);
-            for (const { from, to, iconPosition } of changedLines) {
-                rangeSet.add(from, to, iconPosition);
-            }
-            return rangeSet.finish();
-        },
-        update: (rangeSet, transaction) => {
-            const newRanges = [];
-            if (!transaction.docChanged) {
-                if (transaction.selection) {
-                    const from = transaction.selection.ranges[0].from;
-                    const to = transaction.selection.ranges[0].to;
-                    const lineEnd = transaction.state.doc.lineAt(to).length;
-                    const lineStart = transaction.state.doc.lineAt(from).from;
-                    // Checks the ranges of the icons in the document except for the
-                    // excluded line start and end.
-                    checkRanges(transaction.state, lineStart, lineStart + lineEnd, (from, to, value, removed) => {
-                        rangeSet = rangeSet.update({
-                            filterFrom: from,
-                            filterTo: to,
-                            filter: () => false,
-                        });
-                        if (!removed) {
-                            newRanges.push(value.range(from, to));
-                        }
-                    });
-                }
-                else {
-                    checkRanges(transaction.state, -1, -1, (from, to, value, removed) => {
-                        rangeSet = rangeSet.update({
-                            filterFrom: from,
-                            filterTo: to,
-                            filter: () => false,
-                        });
-                        if (!removed) {
-                            newRanges.push(value.range(from, to));
-                        }
-                    });
-                }
-                newRanges.sort((a, b) => a.from - b.from);
-                rangeSet = rangeSet.update({ add: newRanges });
-                return rangeSet;
-            }
-            rangeSet = rangeSet.map(transaction.changes);
-            const changedLines = [];
-            transaction.changes.iterChangedRanges((_f, _t, from, to) => {
-                changedLines.push([
-                    transaction.state.doc.lineAt(from).number,
-                    transaction.state.doc.lineAt(to).number,
-                ]);
-            });
-            for (const [start, end] of changedLines) {
-                const from = transaction.state.doc.line(start).from;
-                const to = transaction.state.doc.line(end).to;
-                rangeSet = rangeSet.update({
-                    filterFrom: from,
-                    filterTo: to,
-                    filter: () => false,
-                });
-                const lineEnd = transaction.state.doc.line(end).length;
-                const lineStart = transaction.state.doc.line(end).from;
-                // Checks the ranges of the icons in the document except for the excluded
-                // line start and end.
-                checkRanges(transaction.state, lineStart, lineStart + lineEnd, (from, to, value, removed) => {
-                    if (!removed) {
-                        newRanges.push(value.range(from, to));
-                    }
-                });
-            }
-            newRanges.sort((a, b) => a.from - b.from);
-            rangeSet = rangeSet.update({ add: newRanges });
-            return rangeSet;
-        },
-    });
+	/**
+	 * Checks the ranges of the icons in the document. If the range is not
+	 * excluded, the range is added to the range set. If the range is excluded,
+	 * the range is removed from the range set.
+	 * @param state EditorState to get the ranges from.
+	 * @param excludeFrom Number to exclude from the ranges.
+	 * @param excludeTo Number to exclude to the ranges.
+	 * @param updateRange Function callback to update the range.
+	 */
+	const checkRanges = (state, excludeFrom, excludeTo, updateRange) => {
+		const isSourceMode = checkForSourceMode(plugin);
+		const text = state.doc.sliceString(0, state.doc.length);
+		const identifier = plugin.getSettings().iconIdentifier;
+		const regex = new RegExp(`(${identifier})((\\w{1,64}:\\d{17,18})|(\\w{1,64}))(${identifier})`, 'g');
+		for (const { 0: rawCode, index: offset } of text.matchAll(regex)) {
+			const iconName = rawCode.substring(identifier.length, rawCode.length - identifier.length);
+			if (!icon.getIconByName(iconName)) {
+				continue;
+			}
+			const from = offset;
+			const to = offset + rawCode.length;
+			if (!isNodeInRangeAccepted(state, from, to)) {
+				continue;
+			}
+			if (offset < excludeFrom || offset > excludeTo) {
+				updateRange(from, to, new IconPosition(iconName), isSourceMode);
+				continue;
+			}
+			updateRange(from, to, new IconPosition(iconName), true);
+		}
+		for (const { 0: emojiName, index: offset } of text.matchAll(emoji.getRegex())) {
+			if (!emoji.isEmoji(emojiName)) {
+				continue;
+			}
+			const from = offset;
+			const to = offset + emojiName.length;
+			if (!isNodeInRangeAccepted(state, from, to)) {
+				continue;
+			}
+			if (offset < excludeFrom || offset > excludeTo) {
+				updateRange(from, to, new IconPosition(emojiName), isSourceMode);
+				continue;
+			}
+			updateRange(from, to, new IconPosition(emojiName), true);
+		}
+	};
+	const isNodeInRangeAccepted = (state, from, to) => {
+		let isRangeAccepted = true;
+		language.syntaxTree(state).iterate({
+			from,
+			to,
+			enter: ({ type }) => {
+				var _a;
+				if (type.name === 'Document') {
+					return;
+				}
+				const allowedNodeTypes = [
+					'header',
+					'strong',
+					'em',
+					'quote',
+					'link',
+					'list-1',
+					'list-2',
+					'list-3',
+					'highlight',
+					'footref',
+					'comment',
+					'link-alias',
+				];
+				const excludedNodeTypes = [
+					'formatting',
+					'hmd-codeblock',
+					'inline-code',
+					'hr',
+				];
+				const nodeProps = (_a = type.prop(language.tokenClassNodeProp)) !== null && _a !== void 0 ? _a : '';
+				const s = new Set(nodeProps.split(' '));
+				if (excludedNodeTypes.some((t) => s.has(t)) &&
+					allowedNodeTypes.every((t) => !s.has(t))) {
+					isRangeAccepted = false;
+				}
+			},
+		});
+		return isRangeAccepted;
+	};
+	return state.StateField.define({
+		create: (state$1) => {
+			const rangeSet = new state.RangeSetBuilder();
+			const changedLines = [];
+			checkRanges(state$1, -1, -1, (from, to, iconPosition) => {
+				changedLines.push({ from, to, iconPosition });
+			});
+			changedLines.sort((a, b) => a.from - b.from);
+			for (const { from, to, iconPosition } of changedLines) {
+				rangeSet.add(from, to, iconPosition);
+			}
+			return rangeSet.finish();
+		},
+		update: (rangeSet, transaction) => {
+			const newRanges = [];
+			if (!transaction.docChanged) {
+				if (transaction.selection) {
+					const from = transaction.selection.ranges[0].from;
+					const to = transaction.selection.ranges[0].to;
+					const lineEnd = transaction.state.doc.lineAt(to).length;
+					const lineStart = transaction.state.doc.lineAt(from).from;
+					// Checks the ranges of the icons in the document except for the
+					// excluded line start and end.
+					checkRanges(transaction.state, lineStart, lineStart + lineEnd, (from, to, value, removed) => {
+						rangeSet = rangeSet.update({
+							filterFrom: from,
+							filterTo: to,
+							filter: () => false,
+						});
+						if (!removed) {
+							newRanges.push(value.range(from, to));
+						}
+					});
+				}
+				else {
+					checkRanges(transaction.state, -1, -1, (from, to, value, removed) => {
+						rangeSet = rangeSet.update({
+							filterFrom: from,
+							filterTo: to,
+							filter: () => false,
+						});
+						if (!removed) {
+							newRanges.push(value.range(from, to));
+						}
+					});
+				}
+				newRanges.sort((a, b) => a.from - b.from);
+				rangeSet = rangeSet.update({ add: newRanges });
+				return rangeSet;
+			}
+			rangeSet = rangeSet.map(transaction.changes);
+			const changedLines = [];
+			transaction.changes.iterChangedRanges((_f, _t, from, to) => {
+				changedLines.push([
+					transaction.state.doc.lineAt(from).number,
+					transaction.state.doc.lineAt(to).number,
+				]);
+			});
+			for (const [start, end] of changedLines) {
+				const from = transaction.state.doc.line(start).from;
+				const to = transaction.state.doc.line(end).to;
+				rangeSet = rangeSet.update({
+					filterFrom: from,
+					filterTo: to,
+					filter: () => false,
+				});
+				const lineEnd = transaction.state.doc.line(end).length;
+				const lineStart = transaction.state.doc.line(end).from;
+				// Checks the ranges of the icons in the document except for the excluded
+				// line start and end.
+				checkRanges(transaction.state, lineStart, lineStart + lineEnd, (from, to, value, removed) => {
+					if (!removed) {
+						newRanges.push(value.range(from, to));
+					}
+				});
+			}
+			newRanges.sort((a, b) => a.from - b.from);
+			rangeSet = rangeSet.update({ add: newRanges });
+			return rangeSet;
+		},
+	});
 };
 
 class ChangeColorModal extends obsidian.Modal {
-    constructor(app, plugin, path) {
-        var _a;
-        super(app);
-        this.plugin = plugin;
-        this.path = path;
-        this.usedColor = this.plugin.getIconColor(this.path);
-        this.contentEl.style.display = 'block';
-        this.modalEl.classList.add('iconize-custom-modal');
-        this.titleEl.setText('Change color');
-        const description = this.contentEl.createEl('p', {
-            text: 'Select a color for this icon',
-            cls: 'setting-item-description',
-        });
-        description.style.marginBottom = 'var(--size-2-2)';
-        const colorContainer = this.contentEl.createDiv();
-        colorContainer.style.display = 'flex';
-        colorContainer.style.alignItems = 'center';
-        colorContainer.style.justifyContent = 'space-between';
-        const colorPicker = new obsidian.ColorComponent(colorContainer)
-            .setValue((_a = this.usedColor) !== null && _a !== void 0 ? _a : '#000000')
-            .onChange((value) => {
-            this.usedColor = value;
-        });
-        const defaultColorButton = new obsidian.ButtonComponent(colorContainer);
-        defaultColorButton.setTooltip('Set color to the default one');
-        defaultColorButton.setButtonText('Reset');
-        defaultColorButton.onClick(() => {
-            colorPicker.setValue('#000000');
-            this.usedColor = undefined;
-        });
-        // Save button.
-        const button = new obsidian.ButtonComponent(this.contentEl);
-        button.buttonEl.style.marginTop = 'var(--size-4-4)';
-        button.buttonEl.style.float = 'right';
-        button.setButtonText('Save Changes');
-        button.onClick(() => __awaiter(this, void 0, void 0, function* () {
-            var _a;
-            new obsidian.Notice('Color of icon changed.');
-            if (this.usedColor) {
-                this.plugin.addIconColor(this.path, this.usedColor);
-            }
-            else {
-                this.plugin.removeIconColor(this.path);
-            }
-            // Refresh the DOM.
-            const iconNode = dom.getIconNodeFromPath(this.path);
-            iconNode.style.color = (_a = this.usedColor) !== null && _a !== void 0 ? _a : null;
-            const colorizedInnerHtml = svg.colorize(iconNode.innerHTML, this.usedColor);
-            iconNode.innerHTML = colorizedInnerHtml;
-            this.close();
-        }));
-    }
-    onOpen() {
-        super.onOpen();
-    }
-    onClose() {
-        const { contentEl } = this;
-        contentEl.empty();
-    }
+	constructor(app, plugin, path) {
+		var _a;
+		super(app);
+		this.plugin = plugin;
+		this.path = path;
+		this.usedColor = this.plugin.getIconColor(this.path);
+		this.contentEl.style.display = 'block';
+		this.modalEl.classList.add('iconize-custom-modal');
+		this.titleEl.setText('Change color');
+		const description = this.contentEl.createEl('p', {
+			text: 'Select a color for this icon',
+			cls: 'setting-item-description',
+		});
+		description.style.marginBottom = 'var(--size-2-2)';
+		const colorContainer = this.contentEl.createDiv();
+		colorContainer.style.display = 'flex';
+		colorContainer.style.alignItems = 'center';
+		colorContainer.style.justifyContent = 'space-between';
+		const colorPicker = new obsidian.ColorComponent(colorContainer)
+			.setValue((_a = this.usedColor) !== null && _a !== void 0 ? _a : '#000000')
+			.onChange((value) => {
+			this.usedColor = value;
+		});
+		const defaultColorButton = new obsidian.ButtonComponent(colorContainer);
+		defaultColorButton.setTooltip('Set color to the default one');
+		defaultColorButton.setButtonText('Reset');
+		defaultColorButton.onClick(() => {
+			colorPicker.setValue('#000000');
+			this.usedColor = undefined;
+		});
+		// Save button.
+		const button = new obsidian.ButtonComponent(this.contentEl);
+		button.buttonEl.style.marginTop = 'var(--size-4-4)';
+		button.buttonEl.style.float = 'right';
+		button.setButtonText('Save Changes');
+		button.onClick(() => __awaiter(this, void 0, void 0, function* () {
+			var _a;
+			new obsidian.Notice('Color of icon changed.');
+			if (this.usedColor) {
+				this.plugin.addIconColor(this.path, this.usedColor);
+			}
+			else {
+				this.plugin.removeIconColor(this.path);
+			}
+			// Refresh the DOM.
+			const iconNode = dom.getIconNodeFromPath(this.path);
+			iconNode.style.color = (_a = this.usedColor) !== null && _a !== void 0 ? _a : null;
+			const colorizedInnerHtml = svg.colorize(iconNode.innerHTML, this.usedColor);
+			iconNode.innerHTML = colorizedInnerHtml;
+			this.close();
+		}));
+	}
+	onOpen() {
+		super.onOpen();
+	}
+	onClose() {
+		const { contentEl } = this;
+		contentEl.empty();
+	}
 }
 
 class EventEmitter {
-    constructor() {
-        this.listeners = {};
-    }
-    on(type, listener, priority = 0) {
-        var _a, _b;
-        var _c;
-        (_a = (_c = this.listeners)[type]) !== null && _a !== void 0 ? _a : (_c[type] = []);
-        (_b = this.listeners[type]) === null || _b === void 0 ? void 0 : _b.push({ listener, once: false, priority });
-        this.sortListeners(type);
-    }
-    once(type, listener, priority = 0) {
-        var _a, _b;
-        var _c;
-        (_a = (_c = this.listeners)[type]) !== null && _a !== void 0 ? _a : (_c[type] = []);
-        (_b = this.listeners[type]) === null || _b === void 0 ? void 0 : _b.push({ listener, once: true, priority });
-        this.sortListeners(type);
-    }
-    off(type, listener) {
-        var _a;
-        if (!this.listeners[type]) {
-            return;
-        }
-        this.listeners[type] = (_a = this.listeners[type]) === null || _a === void 0 ? void 0 : _a.filter((entry) => entry.listener !== listener);
-    }
-    emit(type, payload) {
-        const listeners = this.listeners[type];
-        if (!listeners) {
-            return;
-        }
-        const event = { payload };
-        listeners.slice().forEach((entry) => {
-            entry.listener(event);
-            if (entry.once) {
-                this.off(type, entry.listener);
-            }
-        });
-    }
-    sortListeners(type) {
-        var _a;
-        if (this.listeners[type]) {
-            (_a = this.listeners[type]) === null || _a === void 0 ? void 0 : _a.sort((a, b) => b.priority - a.priority);
-        }
-    }
+	constructor() {
+		this.listeners = {};
+	}
+	on(type, listener, priority = 0) {
+		var _a, _b;
+		var _c;
+		(_a = (_c = this.listeners)[type]) !== null && _a !== void 0 ? _a : (_c[type] = []);
+		(_b = this.listeners[type]) === null || _b === void 0 ? void 0 : _b.push({ listener, once: false, priority });
+		this.sortListeners(type);
+	}
+	once(type, listener, priority = 0) {
+		var _a, _b;
+		var _c;
+		(_a = (_c = this.listeners)[type]) !== null && _a !== void 0 ? _a : (_c[type] = []);
+		(_b = this.listeners[type]) === null || _b === void 0 ? void 0 : _b.push({ listener, once: true, priority });
+		this.sortListeners(type);
+	}
+	off(type, listener) {
+		var _a;
+		if (!this.listeners[type]) {
+			return;
+		}
+		this.listeners[type] = (_a = this.listeners[type]) === null || _a === void 0 ? void 0 : _a.filter((entry) => entry.listener !== listener);
+	}
+	emit(type, payload) {
+		const listeners = this.listeners[type];
+		if (!listeners) {
+			return;
+		}
+		const event = { payload };
+		listeners.slice().forEach((entry) => {
+			entry.listener(event);
+			if (entry.once) {
+				this.off(type, entry.listener);
+			}
+		});
+	}
+	sortListeners(type) {
+		var _a;
+		if (this.listeners[type]) {
+			(_a = this.listeners[type]) === null || _a === void 0 ? void 0 : _a.sort((a, b) => b.priority - a.priority);
+		}
+	}
 }
 
 function getApi(plugin) {
-    return {
-        getEventEmitter: () => plugin.getEventEmitter(),
-        getIconByName: (iconNameWithPrefix) => icon.getIconByName(iconNameWithPrefix),
-        setIconForNode: (iconName, node, color) => dom.setIconForNode(plugin, iconName, node, { color }),
-        saveIconToIconPack: (iconNameWithPrefix) => saveIconToIconPack(plugin, iconNameWithPrefix),
-        removeIconFromIconPack: (iconNameWithPrefix) => removeIconFromIconPack(plugin, iconNameWithPrefix),
-        getIconsFromIconPack: getIconsFromIconPack,
-        getAllIconPacks: getAllIconPacks,
-        doesElementHasIconNode: dom.doesElementHasIconNode,
-        getIconFromElement: dom.getIconFromElement,
-        removeIconInNode: dom.removeIconInNode,
-        removeIconInPath: dom.removeIconInPath,
-        util: {
-            dom,
-            svg,
-        },
-        version: {
-            get current() {
-                return plugin.manifest.version;
-            },
-        },
-    };
+	return {
+		getEventEmitter: () => plugin.getEventEmitter(),
+		getIconByName: (iconNameWithPrefix) => icon.getIconByName(iconNameWithPrefix),
+		setIconForNode: (iconName, node, color) => dom.setIconForNode(plugin, iconName, node, { color }),
+		saveIconToIconPack: (iconNameWithPrefix) => saveIconToIconPack(plugin, iconNameWithPrefix),
+		removeIconFromIconPack: (iconNameWithPrefix) => removeIconFromIconPack(plugin, iconNameWithPrefix),
+		getIconsFromIconPack: getIconsFromIconPack,
+		getAllIconPacks: getAllIconPacks,
+		doesElementHasIconNode: dom.doesElementHasIconNode,
+		getIconFromElement: dom.getIconFromElement,
+		removeIconInNode: dom.removeIconInNode,
+		removeIconInPath: dom.removeIconInPath,
+		util: {
+			dom,
+			svg,
+		},
+		version: {
+			get current() {
+				return plugin.manifest.version;
+			},
+		},
+	};
 }
 
 class IconizePlugin extends obsidian.Plugin {
-    constructor() {
-        super(...arguments);
-        this.registeredFileExplorers = new Set();
-        this.modifiedInternalPlugins = [];
-        this.positionField = buildPositionField(this);
-        this.frontmatterCache = new Set();
-        this.eventEmitter = new EventEmitter();
-        this.api = getApi(this);
-    }
-    onload() {
-        return __awaiter(this, void 0, void 0, function* () {
-            console.log(`loading ${config.PLUGIN_NAME}`);
-            yield this.loadIconFolderData();
-            logger.toggleLogging(this.getSettings().debugMode);
-            setPath(this.getSettings().iconPacksPath);
-            if (this.getSettings().useInternalPlugins) {
-                // Registers all modified internal plugins.
-                // Only adds star plugin for obsidian under v0.12.6.
-                if (!obsidian.requireApiVersion('0.12.6')) {
-                    this.modifiedInternalPlugins.push(new StarredInternalPlugin(this));
-                }
-                else if (obsidian.requireApiVersion('1.2.0')) {
-                    this.modifiedInternalPlugins.push(new BookmarkInternalPlugin(this));
-                }
-                this.modifiedInternalPlugins.push(new OutlineInternalPlugin(this));
-            }
-            yield createDefaultDirectory(this);
-            yield this.checkRecentlyUsedIcons();
-            yield migrate(this);
-            const usedIconNames = icon.getAllWithPath(this).map((value) => value.icon);
-            if (!this.doesUseCustomLucideIconPack()) {
-                addLucideIconsPack(this);
-            }
-            yield loadUsedIcons(this, usedIconNames);
-            this.app.workspace.onLayoutReady(() => this.handleChangeLayout());
-            this.addCommand({
-                id: 'iconize:set-icon-for-file',
-                name: 'Set icon for file',
-                hotkeys: [
-                    {
-                        modifiers: ['Mod', 'Shift'],
-                        key: 'j',
-                    },
-                ],
-                editorCallback: (editor) => __awaiter(this, void 0, void 0, function* () {
-                    var _a;
-                    const file = (_a = editor.editorComponent) === null || _a === void 0 ? void 0 : _a.file;
-                    if (!file) {
-                        logger.warn(`'editor.editorComponent?.file' is undefined for file: ${file}`);
-                        return;
-                    }
-                    const modal = new IconsPickerModal(this.app, this, file.path);
-                    modal.open();
-                    modal.onSelect = (iconName) => {
-                        IconCache.getInstance().set(file.path, {
-                            iconNameWithPrefix: iconName,
-                        });
-                        // Update icon in tab when setting is enabled.
-                        if (this.getSettings().iconInTabsEnabled) {
-                            const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
-                            for (const tabLeaf of tabLeaves) {
-                                iconTabs.update(this, iconName, tabLeaf.tabHeaderInnerIconEl);
-                            }
-                        }
-                        // Update icon in title when setting is enabled.
-                        if (this.getSettings().iconInTitleEnabled) {
-                            this.addIconInTitle(iconName);
-                        }
-                    };
-                }),
-            });
-            this.registerEvent(
-            // Registering file menu event for listening to file pinning and unpinning.
-            this.app.workspace.on('file-menu', (menu, file) => {
-                // I've researched other ways of doing this. However, there is no other way to listen to file pinning and unpinning.
-                menu.onHide(() => {
-                    const path = file.path;
-                    if (this.getSettings().iconInTabsEnabled) {
-                        for (const openedFile of getAllOpenedFiles(this)) {
-                            if (openedFile.path === path) {
-                                const possibleIcon = IconCache.getInstance().get(path);
-                                if (!possibleIcon) {
-                                    return;
-                                }
-                                const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
-                                for (const tabLeaf of tabLeaves) {
-                                    // Add timeout to ensure that the default icon is already set.
-                                    setTimeout(() => {
-                                        iconTabs.add(this, file.path, tabLeaf.tabHeaderInnerIconEl);
-                                    }, 5);
-                                }
-                            }
-                        }
-                    }
-                });
-            }));
-            this.registerEvent(this.app.workspace.on('layout-change', () => this.handleChangeLayout()));
-            this.registerEvent(this.app.workspace.on('file-menu', (menu, file) => {
-                const addIconMenuItem = (item) => {
-                    item.setTitle('Change icon');
-                    item.setIcon('hashtag');
-                    item.onClick(() => {
-                        const modal = new IconsPickerModal(this.app, this, file.path);
-                        modal.open();
-                        modal.onSelect = (iconName) => {
-                            IconCache.getInstance().set(file.path, {
-                                iconNameWithPrefix: iconName,
-                            });
-                            // Update icon in tab when setting is enabled.
-                            if (this.getSettings().iconInTabsEnabled) {
-                                const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
-                                for (const tabLeaf of tabLeaves) {
-                                    iconTabs.update(this, iconName, tabLeaf.tabHeaderInnerIconEl);
-                                }
-                            }
-                            // Update icon in title when setting is enabled.
-                            if (this.getSettings().iconInTitleEnabled) {
-                                this.addIconInTitle(iconName);
-                            }
-                        };
-                    });
-                };
-                const removeIconMenuItem = (item) => {
-                    item.setTitle('Remove icon');
-                    item.setIcon('trash');
-                    item.onClick(() => __awaiter(this, void 0, void 0, function* () {
-                        yield this.removeSingleIcon(file);
-                    }));
-                };
-                const changeColorOfIcon = (item) => {
-                    item.setTitle('Change color of icon');
-                    item.setIcon('palette');
-                    item.onClick(() => {
-                        const modal = new ChangeColorModal(this.app, this, file.path);
-                        modal.open();
-                    });
-                };
-                menu.addItem(addIconMenuItem);
-                const filePathData = this.getData()[file.path];
-                const hasNestedIcon = typeof filePathData === 'object' &&
-                    filePathData.iconName !== null;
-                // Only add remove icon menu item when the file path exists in the data.
-                // We do not want to show this menu item for e.g. custom rules.
-                if (filePathData &&
-                    (typeof filePathData === 'string' || hasNestedIcon)) {
-                    const icon = typeof filePathData === 'string'
-                        ? filePathData
-                        : filePathData.iconName;
-                    if (!emoji.isEmoji(icon)) {
-                        menu.addItem(changeColorOfIcon);
-                    }
-                    menu.addItem(removeIconMenuItem);
-                }
-            }));
-            // deleting event
-            this.registerEvent(this.app.vault.on('delete', (file) => {
-                const path = file.path;
-                this.removeFolderIcon(path);
-            }));
-            // renaming event
-            this.registerEvent(this.app.vault.on('rename', (file, oldPath) => {
-                // Check if the file was moved and had an icon before.
-                const dataPoint = this.data[oldPath];
-                if (dataPoint && oldPath !== 'settings') {
-                    const iconNameWithPrefix = typeof dataPoint === 'object'
-                        ? dataPoint.iconName
-                        : dataPoint;
-                    dom.createIconNode(this, file.path, iconNameWithPrefix);
-                }
-                this.renameFolder(file.path, oldPath);
-            }));
-            if (this.getSettings().iconsInNotesEnabled) {
-                this.registerMarkdownPostProcessor((el) => processIconInTextMarkdown(this, el));
-                this.registerEditorSuggest(new SuggestionIcon(this.app, this));
-                this.registerEditorExtension([
-                    this.positionField,
-                    buildIconInTextPlugin(this),
-                ]);
-            }
-            if (this.getSettings().iconsInLinksEnabled) {
-                this.registerMarkdownPostProcessor((el, ctx) => processIconInLinkMarkdown(this, el, ctx));
-                this.registerEditorExtension([
-                    this.positionField,
-                    buildIconInLinksPlugin(this),
-                ]);
-            }
-            this.addSettingTab(new IconFolderSettings(this.app, this));
-        });
-    }
-    notifyPlugins() {
-        this.modifiedInternalPlugins.forEach((internalPlugin) => {
-            if (internalPlugin.enabled) {
-                internalPlugin.onMount();
-            }
-        });
-    }
-    removeSingleIcon(file) {
-        return __awaiter(this, void 0, void 0, function* () {
-            this.removeFolderIcon(file.path);
-            dom.removeIconInPath(file.path);
-            IconCache.getInstance().invalidate(file.path);
-            this.notifyPlugins();
-            let didUpdate = false;
-            // Refreshes the icon tab and title icon for custom rules.
-            for (const rule of customRule.getSortedRules(this)) {
-                const applicable = yield customRule.isApplicable(this, rule, file.path);
-                if (applicable) {
-                    customRule.add(this, rule, file);
-                    this.addIconInTitle(rule.icon);
-                    const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
-                    for (const tabLeaf of tabLeaves) {
-                        iconTabs.add(this, file.path, tabLeaf.tabHeaderInnerIconEl, {
-                            iconName: rule.icon,
-                        });
-                    }
-                    didUpdate = true;
-                    break;
-                }
-            }
-            // Only remove icon above titles and icon in tabs if no custom rule was found.
-            if (!didUpdate) {
-                // Refreshes icons above title and icons in tabs.
-                for (const openedFile of getAllOpenedFiles(this)) {
-                    if (this.getSettings().iconInTitleEnabled) {
-                        titleIcon.remove(openedFile.leaf.view.inlineTitleEl);
-                    }
-                    if (this.getSettings().iconInTabsEnabled) {
-                        const leaf = openedFile.leaf;
-                        iconTabs.remove(leaf.tabHeaderInnerIconEl, {
-                            replaceWithDefaultIcon: true,
-                        });
-                    }
-                }
-            }
-        });
-    }
-    handleChangeLayout() {
-        // Transform data that are objects to single strings.
-        const data = Object.entries(this.data);
-        this.modifiedInternalPlugins.forEach((internalPlugin) => {
-            if (internalPlugin.enabled) {
-                internalPlugin.onMount();
-                internalPlugin.register();
-            }
-        });
-        icon.addAll(this, data, this.registeredFileExplorers, () => {
-            // After initialization of the icon packs, checks the vault for missing icons and
-            // adds them.
-            initIconPacks(this).then(() => __awaiter(this, void 0, void 0, function* () {
-                if (this.getSettings().iconsBackgroundCheckEnabled) {
-                    const data = Object.entries(this.data);
-                    yield icon.checkMissingIcons(this, data);
-                    resetPreloadedIcons();
-                }
-                this.eventEmitter.emit('allIconsLoaded');
-            }));
-            if (this.getSettings().iconInFrontmatterEnabled) {
-                const activeFile = this.app.workspace.getActiveFile();
-                if (activeFile) {
-                    this.frontmatterCache.add(activeFile.path);
-                }
-            }
-            // Adds the title icon to the active leaf view.
-            if (this.getSettings().iconInTitleEnabled) {
-                for (const openedFile of getAllOpenedFiles(this)) {
-                    const iconName = icon.getByPath(this, openedFile.path);
-                    const activeView = openedFile.leaf.view;
-                    if (activeView instanceof obsidian.MarkdownView && iconName) {
-                        let possibleIcon = iconName;
-                        if (!emoji.isEmoji(iconName)) {
-                            const iconNextIdentifier = nextIdentifier(iconName);
-                            possibleIcon = getSvgFromLoadedIcon(iconName.substring(0, iconNextIdentifier), iconName.substring(iconNextIdentifier));
-                        }
-                        if (possibleIcon) {
-                            titleIcon.add(this, activeView.inlineTitleEl, possibleIcon, {
-                                fontSize: calculateInlineTitleSize(),
-                            });
-                        }
-                    }
-                }
-            }
-            // Register rename event for adding icons with custom rules to the DOM
-            // when file was moved to another directory.
-            this.registerEvent(this.app.vault.on('rename', (file, oldPath) => __awaiter(this, void 0, void 0, function* () {
-                const sortedRules = customRule.getSortedRules(this);
-                // Removes possible icons from the renamed file.
-                sortedRules.forEach((rule) => {
-                    if (customRule.doesMatchPath(rule, oldPath)) {
-                        dom.removeIconInPath(file.path);
-                    }
-                });
-                // Adds possible icons to the renamed file.
-                sortedRules.forEach((rule) => {
-                    if (customRule.doesMatchPath(rule, oldPath)) {
-                        return;
-                    }
-                    customRule.add(this, rule, file, undefined);
-                });
-                // Updates icon tabs for the renamed file.
-                for (const rule of customRule.getSortedRules(this)) {
-                    const applicable = yield customRule.isApplicable(this, rule, file.path);
-                    if (!applicable) {
-                        continue;
-                    }
-                    const openedFiles = getAllOpenedFiles(this);
-                    const openedFile = openedFiles.find((openedFile) => openedFile.path === file.path);
-                    if (openedFile) {
-                        const leaf = openedFile.leaf;
-                        iconTabs.update(this, rule.icon, leaf.tabHeaderInnerIconEl);
-                    }
-                    break;
-                }
-            })));
-            // Register `layout-change` event for adding icons to tabs when moving a pane or
-            // enabling reading mode.
-            this.registerEvent(this.app.workspace.on('layout-change', () => {
-                var _a, _b;
-                if (this.getSettings().iconInTitleEnabled) {
-                    const activeView = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
-                    if (activeView) {
-                        const file = activeView.file;
-                        const view = activeView.leaf.view.currentMode
-                            .view;
-                        const iconNameWithPrefix = icon.getByPath(this, file.path);
-                        if (!iconNameWithPrefix) {
-                            titleIcon.hide(view.inlineTitleEl);
-                            return;
-                        }
-                        let foundIcon = iconNameWithPrefix;
-                        if (!emoji.isEmoji(foundIcon)) {
-                            foundIcon = (_a = icon.getIconByName(iconNameWithPrefix)) === null || _a === void 0 ? void 0 : _a.svgElement;
-                            // Check for preloaded icons if no icon was found when the start up was faster
-                            // than the loading of the icons.
-                            if (!foundIcon && getPreloadedIcons().length > 0) {
-                                foundIcon = (_b = getPreloadedIcons().find((icon) => icon.prefix + icon.name === iconNameWithPrefix)) === null || _b === void 0 ? void 0 : _b.svgElement;
-                            }
-                        }
-                        if (foundIcon) {
-                            // Removes the node because the editor markdown content is being rerendered
-                            // when the content mode changes back to editing.
-                            titleIcon.remove(view.inlineTitleEl);
-                            titleIcon.add(this, view.inlineTitleEl, foundIcon, {
-                                fontSize: calculateInlineTitleSize(),
-                            });
-                        }
-                    }
-                }
-                if (!this.getSettings().iconInTabsEnabled) {
-                    return;
-                }
-                for (const openedFile of getAllOpenedFiles(this)) {
-                    const leaf = openedFile.leaf;
-                    const iconColor = this.getIconColor(leaf.view.file.path);
-                    iconTabs.add(this, openedFile.path, leaf.tabHeaderInnerIconEl, {
-                        iconColor,
-                    });
-                }
-            }));
-            // Register `file-open` event for adding icon to title.
-            this.registerEvent(this.app.workspace.on('file-open', (file) => {
-                var _a, _b;
-                if (!this.getSettings().iconInTitleEnabled) {
-                    return;
-                }
-                for (const openedFile of getAllOpenedFiles(this)) {
-                    if (!file || !openedFile || openedFile.path !== file.path) {
-                        continue;
-                    }
-                    const leaf = openedFile.leaf.view;
-                    const iconNameWithPrefix = icon.getByPath(this, file.path);
-                    if (!iconNameWithPrefix) {
-                        titleIcon.hide(leaf.inlineTitleEl);
-                        return;
-                    }
-                    let foundIcon = iconNameWithPrefix;
-                    if (!emoji.isEmoji(foundIcon)) {
-                        foundIcon = (_a = icon.getIconByName(iconNameWithPrefix)) === null || _a === void 0 ? void 0 : _a.svgElement;
-                        // Check for preloaded icons if no icon was found when the start up was faster
-                        // than the loading of the icons.
-                        if (!foundIcon && getPreloadedIcons().length > 0) {
-                            foundIcon = (_b = getPreloadedIcons().find((icon) => icon.prefix + icon.name === iconNameWithPrefix)) === null || _b === void 0 ? void 0 : _b.svgElement;
-                        }
-                    }
-                    if (foundIcon) {
-                        titleIcon.add(this, leaf.inlineTitleEl, foundIcon, {
-                            fontSize: calculateInlineTitleSize(),
-                        });
-                    }
-                    else {
-                        titleIcon.hide(leaf.inlineTitleEl);
-                    }
-                }
-            }));
-            // Register event for frontmatter icon registration.
-            this.registerEvent(this.app.metadataCache.on('resolve', (file) => __awaiter(this, void 0, void 0, function* () {
-                if (!this.getSettings().iconInFrontmatterEnabled) {
-                    return;
-                }
-                const fileCache = this.app.metadataCache.getFileCache(file);
-                const iconFrontmatterName = this.getSettings().iconInFrontmatterFieldName;
-                const iconColorFrontmatterName = this.getSettings().iconColorInFrontmatterFieldName;
-                if (fileCache === null || fileCache === void 0 ? void 0 : fileCache.frontmatter) {
-                    const { [iconFrontmatterName]: newIconName, [iconColorFrontmatterName]: newIconColor, } = fileCache.frontmatter;
-                    // If `icon` property is empty, we will remove it from the data and remove the icon.
-                    if (!newIconName) {
-                        if (this.frontmatterCache.has(file.path)) {
-                            yield this.removeSingleIcon(file);
-                            this.frontmatterCache.delete(file.path);
-                        }
-                        return;
-                    }
-                    if (typeof newIconName !== 'string') {
-                        new obsidian.Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \`icon\` has to be of type \`text\`.`);
-                        return;
-                    }
-                    if (newIconColor && typeof newIconColor !== 'string') {
-                        new obsidian.Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \`iconColor\` has to be of type \`text\`.`);
-                        return;
-                    }
-                    let iconColor = newIconColor;
-                    if (isHexadecimal(iconColor)) {
-                        iconColor = stringToHex(iconColor);
-                    }
-                    const cachedIcon = IconCache.getInstance().get(file.path);
-                    if (newIconName === (cachedIcon === null || cachedIcon === void 0 ? void 0 : cachedIcon.iconNameWithPrefix) &&
-                        iconColor === (cachedIcon === null || cachedIcon === void 0 ? void 0 : cachedIcon.iconColor)) {
-                        return;
-                    }
-                    this.frontmatterCache.add(file.path);
-                    try {
-                        if (!emoji.isEmoji(newIconName)) {
-                            saveIconToIconPack(this, newIconName);
-                        }
-                    }
-                    catch (e) {
-                        logger.warn(`Something went wrong while saving icon to icon pack (error: ${e})`);
-                        new obsidian.Notice(e.message);
-                        return;
-                    }
-                    dom.createIconNode(this, file.path, newIconName, {
-                        color: iconColor,
-                    });
-                    this.addFolderIcon(file.path, newIconName);
-                    this.addIconColor(file.path, iconColor);
-                    IconCache.getInstance().set(file.path, {
-                        iconNameWithPrefix: newIconName,
-                        iconColor,
-                    });
-                    // Update icon in tab when setting is enabled.
-                    if (this.getSettings().iconInTabsEnabled) {
-                        const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
-                        for (const tabLeaf of tabLeaves) {
-                            iconTabs.update(this, newIconName, tabLeaf.tabHeaderInnerIconEl);
-                        }
-                    }
-                    // Update icon in title when setting is enabled.
-                    if (this.getSettings().iconInTitleEnabled) {
-                        this.addIconInTitle(newIconName);
-                    }
-                }
-            })));
-            // Register active leaf change event for adding icon of file to tab.
-            this.registerEvent(this.app.workspace.on('active-leaf-change', (leaf) => {
-                if (!this.getSettings().iconInTabsEnabled) {
-                    return;
-                }
-                // TODO: Maybe change in the future to a more optimal solution.
-                // Fixes a problem when the file was clicked twice in the same tab.
-                // See https://github.com/FlorianWoelki/obsidian-iconize/issues/208.
-                if (leaf.view.getViewType() === 'file-explorer') {
-                    for (const openedFile of getAllOpenedFiles(this)) {
-                        const leaf = openedFile.leaf;
-                        const iconColor = this.getIconColor(leaf.view.file.path);
-                        iconTabs.add(this, openedFile.path, leaf.tabHeaderInnerIconEl, {
-                            iconColor,
-                        });
-                    }
-                    return;
-                }
-                if (leaf.view.getViewType() !== 'markdown') {
-                    return;
-                }
-                const tabHeaderLeaf = leaf;
-                if (tabHeaderLeaf.view.file) {
-                    const iconColor = this.getIconColor(tabHeaderLeaf.view.file.path);
-                    iconTabs.add(this, tabHeaderLeaf.view.file.path, tabHeaderLeaf.tabHeaderInnerIconEl, {
-                        iconColor,
-                    });
-                }
-            }));
-            this.registerEvent(this.app.workspace.on('css-change', () => {
-                for (const openedFile of getAllOpenedFiles(this)) {
-                    const activeView = openedFile.leaf.view;
-                    if (activeView instanceof obsidian.MarkdownView) {
-                        titleIcon.updateStyle(activeView.inlineTitleEl, {
-                            fontSize: calculateInlineTitleSize(),
-                        });
-                    }
-                }
-            }));
-        });
-    }
-    addIconInTitle(iconName) {
-        var _a;
-        for (const openedFile of getAllOpenedFiles(this)) {
-            const activeView = openedFile.leaf.view;
-            if (activeView instanceof obsidian.MarkdownView) {
-                let possibleIcon = iconName;
-                if (!emoji.isEmoji(iconName)) {
-                    possibleIcon = (_a = icon.getIconByName(iconName)) === null || _a === void 0 ? void 0 : _a.svgElement;
-                }
-                if (possibleIcon) {
-                    titleIcon.add(this, activeView.inlineTitleEl, possibleIcon, {
-                        fontSize: calculateInlineTitleSize(),
-                    });
-                }
-            }
-        }
-    }
-    onunload() {
-        console.log('unloading obsidian-icon-folder');
-    }
-    renameFolder(newPath, oldPath) {
-        if (!this.data[oldPath] || newPath === oldPath) {
-            return;
-        }
-        Object.defineProperty(this.data, newPath, Object.getOwnPropertyDescriptor(this.data, oldPath));
-        delete this.data[oldPath];
-        this.saveIconFolderData();
-    }
-    addIconColor(path, iconColor) {
-        const pathData = this.getData()[path];
-        if (typeof pathData === 'string') {
-            this.getData()[path] = {
-                iconName: pathData,
-                iconColor,
-            };
-        }
-        else {
-            pathData.iconColor = iconColor;
-        }
-        this.saveIconFolderData();
-    }
-    getIconColor(path) {
-        const pathData = this.getData()[path];
-        if (!pathData) {
-            return undefined;
-        }
-        if (typeof pathData === 'string') {
-            return undefined;
-        }
-        return pathData.iconColor;
-    }
-    removeIconColor(path) {
-        const pathData = this.getData()[path];
-        if (typeof pathData === 'string') {
-            return;
-        }
-        const currentValue = pathData;
-        this.getData()[path] = currentValue.iconName;
-        this.saveIconFolderData();
-    }
-    removeFolderIcon(path) {
-        if (!this.data[path]) {
-            return;
-        }
-        // Saves the icon name with prefix to remove it from the icon pack directory later.
-        const iconData = this.data[path];
-        delete this.data[path];
-        // Removes the icon from the icon pack directory if it is not used as an icon somewhere
-        // else.
-        if (iconData) {
-            let iconNameWithPrefix = iconData;
-            if (typeof iconData === 'object') {
-                iconNameWithPrefix = iconData.iconName;
-            }
-            else {
-                iconNameWithPrefix = iconData;
-            }
-            if (!emoji.isEmoji(iconNameWithPrefix)) {
-                removeIconFromIconPack(this, iconNameWithPrefix);
-            }
-        }
-        //this.addIconsToSearch();
-        this.saveIconFolderData();
-    }
-    addFolderIcon(path, icon) {
-        const iconName = getNormalizedName(typeof icon === 'object' ? icon.displayName : icon);
-        this.data[path] = iconName;
-        // Update recently used icons.
-        if (!this.getSettings().recentlyUsedIcons.includes(iconName)) {
-            if (this.getSettings().recentlyUsedIcons.length >=
-                this.getSettings().recentlyUsedIconsSize) {
-                this.getSettings().recentlyUsedIcons =
-                    this.getSettings().recentlyUsedIcons.slice(0, this.getSettings().recentlyUsedIconsSize - 1);
-            }
-            this.getSettings().recentlyUsedIcons.unshift(iconName);
-            this.checkRecentlyUsedIcons();
-        }
-        //this.addIconsToSearch();
-        this.saveIconFolderData();
-    }
-    getSettings() {
-        return this.data.settings;
-    }
-    loadIconFolderData() {
-        return __awaiter(this, void 0, void 0, function* () {
-            const data = yield this.loadData();
-            if (data) {
-                Object.entries(DEFAULT_SETTINGS).forEach(([k, v]) => {
-                    if (data.settings[k] === undefined) {
-                        data.settings[k] = v;
-                    }
-                });
-            }
-            this.data = Object.assign({ settings: Object.assign({}, DEFAULT_SETTINGS) }, {}, data);
-        });
-    }
-    saveIconFolderData() {
-        return __awaiter(this, void 0, void 0, function* () {
-            yield this.saveData(this.data);
-        });
-    }
-    checkRecentlyUsedIcons() {
-        return __awaiter(this, void 0, void 0, function* () {
-            if (this.getSettings().recentlyUsedIcons.length >
-                this.getSettings().recentlyUsedIconsSize) {
-                this.getSettings().recentlyUsedIcons =
-                    this.getSettings().recentlyUsedIcons.slice(0, this.getSettings().recentlyUsedIconsSize);
-                yield this.saveIconFolderData();
-            }
-        });
-    }
-    getEventEmitter() {
-        return this.eventEmitter;
-    }
-    getData() {
-        return this.data;
-    }
-    getIconNameFromPath(path) {
-        if (typeof this.getData()[path] === 'object') {
-            return this.getData()[path].iconName;
-        }
-        return this.getData()[path];
-    }
-    getRegisteredFileExplorers() {
-        return this.registeredFileExplorers;
-    }
-    doesUseCustomLucideIconPack() {
-        return this.getSettings().lucideIconPackType === 'custom';
-    }
-    doesUseNativeLucideIconPack() {
-        return this.getSettings().lucideIconPackType === 'native';
-    }
-    /**
-     * Returns a possible data path by the given value. This function checks for
-     * direct icon and custom rules.
-     * @param value String that will be used to find the data path.
-     * @returns String that is the data path or `undefined` if no data path was found.
-     */
-    getDataPathByValue(value) {
-        return Object.entries(this.data).find(([k, v]) => {
-            if (typeof v === 'string') {
-                if (value === v) {
-                    return k;
-                }
-            }
-            else if (typeof v === 'object') {
-                // Check for custom rules.
-                if (k === 'settings') {
-                    // `rules` are defined in the settings object.
-                    const rules = v.rules;
-                    return rules.find((rule) => rule.icon === value);
-                }
-                v = v;
-                if (value === v.iconName) {
-                    return k;
-                }
-            }
-        });
-    }
+	constructor() {
+		super(...arguments);
+		this.registeredFileExplorers = new Set();
+		this.modifiedInternalPlugins = [];
+		this.positionField = buildPositionField(this);
+		this.frontmatterCache = new Set();
+		this.eventEmitter = new EventEmitter();
+		this.api = getApi(this);
+	}
+	onload() {
+		return __awaiter(this, void 0, void 0, function* () {
+			console.log(`loading ${config.PLUGIN_NAME}`);
+			yield this.loadIconFolderData();
+			logger.toggleLogging(this.getSettings().debugMode);
+			setPath(this.getSettings().iconPacksPath);
+			if (this.getSettings().useInternalPlugins) {
+				// Registers all modified internal plugins.
+				// Only adds star plugin for obsidian under v0.12.6.
+				if (!obsidian.requireApiVersion('0.12.6')) {
+					this.modifiedInternalPlugins.push(new StarredInternalPlugin(this));
+				}
+				else if (obsidian.requireApiVersion('1.2.0')) {
+					this.modifiedInternalPlugins.push(new BookmarkInternalPlugin(this));
+				}
+				this.modifiedInternalPlugins.push(new OutlineInternalPlugin(this));
+			}
+			yield createDefaultDirectory(this);
+			yield this.checkRecentlyUsedIcons();
+			yield migrate(this);
+			const usedIconNames = icon.getAllWithPath(this).map((value) => value.icon);
+			if (!this.doesUseCustomLucideIconPack()) {
+				addLucideIconsPack(this);
+			}
+			yield loadUsedIcons(this, usedIconNames);
+			this.app.workspace.onLayoutReady(() => this.handleChangeLayout());
+			this.addCommand({
+				id: 'iconize:set-icon-for-file',
+				name: 'Set icon for file',
+				hotkeys: [
+					{
+						modifiers: ['Mod', 'Shift'],
+						key: 'j',
+					},
+				],
+				editorCallback: (editor) => __awaiter(this, void 0, void 0, function* () {
+					var _a;
+					const file = (_a = editor.editorComponent) === null || _a === void 0 ? void 0 : _a.file;
+					if (!file) {
+						logger.warn(`'editor.editorComponent?.file' is undefined for file: ${file}`);
+						return;
+					}
+					const modal = new IconsPickerModal(this.app, this, file.path);
+					modal.open();
+					modal.onSelect = (iconName) => {
+						IconCache.getInstance().set(file.path, {
+							iconNameWithPrefix: iconName,
+						});
+						// Update icon in tab when setting is enabled.
+						if (this.getSettings().iconInTabsEnabled) {
+							const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
+							for (const tabLeaf of tabLeaves) {
+								iconTabs.update(this, iconName, tabLeaf.tabHeaderInnerIconEl);
+							}
+						}
+						// Update icon in title when setting is enabled.
+						if (this.getSettings().iconInTitleEnabled) {
+							this.addIconInTitle(iconName);
+						}
+					};
+				}),
+			});
+			this.registerEvent(
+			// Registering file menu event for listening to file pinning and unpinning.
+			this.app.workspace.on('file-menu', (menu, file) => {
+				// I've researched other ways of doing this. However, there is no other way to listen to file pinning and unpinning.
+				menu.onHide(() => {
+					const path = file.path;
+					if (this.getSettings().iconInTabsEnabled) {
+						for (const openedFile of getAllOpenedFiles(this)) {
+							if (openedFile.path === path) {
+								const possibleIcon = IconCache.getInstance().get(path);
+								if (!possibleIcon) {
+									return;
+								}
+								const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
+								for (const tabLeaf of tabLeaves) {
+									// Add timeout to ensure that the default icon is already set.
+									setTimeout(() => {
+										iconTabs.add(this, file.path, tabLeaf.tabHeaderInnerIconEl);
+									}, 5);
+								}
+							}
+						}
+					}
+				});
+			}));
+			this.registerEvent(this.app.workspace.on('layout-change', () => this.handleChangeLayout()));
+			this.registerEvent(this.app.workspace.on('file-menu', (menu, file) => {
+				const addIconMenuItem = (item) => {
+					item.setTitle('Change icon');
+					item.setIcon('hashtag');
+					item.onClick(() => {
+						const modal = new IconsPickerModal(this.app, this, file.path);
+						modal.open();
+						modal.onSelect = (iconName) => {
+							IconCache.getInstance().set(file.path, {
+								iconNameWithPrefix: iconName,
+							});
+							// Update icon in tab when setting is enabled.
+							if (this.getSettings().iconInTabsEnabled) {
+								const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
+								for (const tabLeaf of tabLeaves) {
+									iconTabs.update(this, iconName, tabLeaf.tabHeaderInnerIconEl);
+								}
+							}
+							// Update icon in title when setting is enabled.
+							if (this.getSettings().iconInTitleEnabled) {
+								this.addIconInTitle(iconName);
+							}
+						};
+					});
+				};
+				const removeIconMenuItem = (item) => {
+					item.setTitle('Remove icon');
+					item.setIcon('trash');
+					item.onClick(() => __awaiter(this, void 0, void 0, function* () {
+						yield this.removeSingleIcon(file);
+					}));
+				};
+				const changeColorOfIcon = (item) => {
+					item.setTitle('Change color of icon');
+					item.setIcon('palette');
+					item.onClick(() => {
+						const modal = new ChangeColorModal(this.app, this, file.path);
+						modal.open();
+					});
+				};
+				menu.addItem(addIconMenuItem);
+				const filePathData = this.getData()[file.path];
+				const hasNestedIcon = typeof filePathData === 'object' &&
+					filePathData.iconName !== null;
+				// Only add remove icon menu item when the file path exists in the data.
+				// We do not want to show this menu item for e.g. custom rules.
+				if (filePathData &&
+					(typeof filePathData === 'string' || hasNestedIcon)) {
+					const icon = typeof filePathData === 'string'
+						? filePathData
+						: filePathData.iconName;
+					if (!emoji.isEmoji(icon)) {
+						menu.addItem(changeColorOfIcon);
+					}
+					menu.addItem(removeIconMenuItem);
+				}
+			}));
+			// deleting event
+			this.registerEvent(this.app.vault.on('delete', (file) => {
+				const path = file.path;
+				this.removeFolderIcon(path);
+			}));
+			// renaming event
+			this.registerEvent(this.app.vault.on('rename', (file, oldPath) => {
+				// Check if the file was moved and had an icon before.
+				const dataPoint = this.data[oldPath];
+				if (dataPoint && oldPath !== 'settings') {
+					const iconNameWithPrefix = typeof dataPoint === 'object'
+						? dataPoint.iconName
+						: dataPoint;
+					dom.createIconNode(this, file.path, iconNameWithPrefix);
+				}
+				this.renameFolder(file.path, oldPath);
+			}));
+			if (this.getSettings().iconsInNotesEnabled) {
+				this.registerMarkdownPostProcessor((el) => processIconInTextMarkdown(this, el));
+				this.registerEditorSuggest(new SuggestionIcon(this.app, this));
+				this.registerEditorExtension([
+					this.positionField,
+					buildIconInTextPlugin(this),
+				]);
+			}
+			if (this.getSettings().iconsInLinksEnabled) {
+				this.registerMarkdownPostProcessor((el, ctx) => processIconInLinkMarkdown(this, el, ctx));
+				this.registerEditorExtension([
+					this.positionField,
+					buildIconInLinksPlugin(this),
+				]);
+			}
+			this.addSettingTab(new IconFolderSettings(this.app, this));
+		});
+	}
+	notifyPlugins() {
+		this.modifiedInternalPlugins.forEach((internalPlugin) => {
+			if (internalPlugin.enabled) {
+				internalPlugin.onMount();
+			}
+		});
+	}
+	removeSingleIcon(file) {
+		return __awaiter(this, void 0, void 0, function* () {
+			this.removeFolderIcon(file.path);
+			dom.removeIconInPath(file.path);
+			IconCache.getInstance().invalidate(file.path);
+			this.notifyPlugins();
+			let didUpdate = false;
+			// Refreshes the icon tab and title icon for custom rules.
+			for (const rule of customRule.getSortedRules(this)) {
+				const applicable = yield customRule.isApplicable(this, rule, file.path);
+				if (applicable) {
+					customRule.add(this, rule, file);
+					this.addIconInTitle(rule.icon);
+					const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
+					for (const tabLeaf of tabLeaves) {
+						iconTabs.add(this, file.path, tabLeaf.tabHeaderInnerIconEl, {
+							iconName: rule.icon,
+						});
+					}
+					didUpdate = true;
+					break;
+				}
+			}
+			// Only remove icon above titles and icon in tabs if no custom rule was found.
+			if (!didUpdate) {
+				// Refreshes icons above title and icons in tabs.
+				for (const openedFile of getAllOpenedFiles(this)) {
+					if (this.getSettings().iconInTitleEnabled) {
+						titleIcon.remove(openedFile.leaf.view.inlineTitleEl);
+					}
+					if (this.getSettings().iconInTabsEnabled) {
+						const leaf = openedFile.leaf;
+						iconTabs.remove(leaf.tabHeaderInnerIconEl, {
+							replaceWithDefaultIcon: true,
+						});
+					}
+				}
+			}
+		});
+	}
+	handleChangeLayout() {
+		// Transform data that are objects to single strings.
+		const data = Object.entries(this.data);
+		this.modifiedInternalPlugins.forEach((internalPlugin) => {
+			if (internalPlugin.enabled) {
+				internalPlugin.onMount();
+				internalPlugin.register();
+			}
+		});
+		icon.addAll(this, data, this.registeredFileExplorers, () => {
+			// After initialization of the icon packs, checks the vault for missing icons and
+			// adds them.
+			initIconPacks(this).then(() => __awaiter(this, void 0, void 0, function* () {
+				if (this.getSettings().iconsBackgroundCheckEnabled) {
+					const data = Object.entries(this.data);
+					yield icon.checkMissingIcons(this, data);
+					resetPreloadedIcons();
+				}
+				this.eventEmitter.emit('allIconsLoaded');
+			}));
+			if (this.getSettings().iconInFrontmatterEnabled) {
+				const activeFile = this.app.workspace.getActiveFile();
+				if (activeFile) {
+					this.frontmatterCache.add(activeFile.path);
+				}
+			}
+			// Adds the title icon to the active leaf view.
+			if (this.getSettings().iconInTitleEnabled) {
+				for (const openedFile of getAllOpenedFiles(this)) {
+					const iconName = icon.getByPath(this, openedFile.path);
+					const activeView = openedFile.leaf.view;
+					if (activeView instanceof obsidian.MarkdownView && iconName) {
+						let possibleIcon = iconName;
+						if (!emoji.isEmoji(iconName)) {
+							const iconNextIdentifier = nextIdentifier(iconName);
+							possibleIcon = getSvgFromLoadedIcon(iconName.substring(0, iconNextIdentifier), iconName.substring(iconNextIdentifier));
+						}
+						if (possibleIcon) {
+							titleIcon.add(this, activeView.inlineTitleEl, possibleIcon, {
+								fontSize: calculateInlineTitleSize(),
+							});
+						}
+					}
+				}
+			}
+			// Register rename event for adding icons with custom rules to the DOM
+			// when file was moved to another directory.
+			this.registerEvent(this.app.vault.on('rename', (file, oldPath) => __awaiter(this, void 0, void 0, function* () {
+				const sortedRules = customRule.getSortedRules(this);
+				// Removes possible icons from the renamed file.
+				sortedRules.forEach((rule) => {
+					if (customRule.doesMatchPath(rule, oldPath)) {
+						dom.removeIconInPath(file.path);
+					}
+				});
+				// Adds possible icons to the renamed file.
+				sortedRules.forEach((rule) => {
+					if (customRule.doesMatchPath(rule, oldPath)) {
+						return;
+					}
+					customRule.add(this, rule, file, undefined);
+				});
+				// Updates icon tabs for the renamed file.
+				for (const rule of customRule.getSortedRules(this)) {
+					const applicable = yield customRule.isApplicable(this, rule, file.path);
+					if (!applicable) {
+						continue;
+					}
+					const openedFiles = getAllOpenedFiles(this);
+					const openedFile = openedFiles.find((openedFile) => openedFile.path === file.path);
+					if (openedFile) {
+						const leaf = openedFile.leaf;
+						iconTabs.update(this, rule.icon, leaf.tabHeaderInnerIconEl);
+					}
+					break;
+				}
+			})));
+			// Register `layout-change` event for adding icons to tabs when moving a pane or
+			// enabling reading mode.
+			this.registerEvent(this.app.workspace.on('layout-change', () => {
+				var _a, _b;
+				if (this.getSettings().iconInTitleEnabled) {
+					const activeView = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+					if (activeView) {
+						const file = activeView.file;
+						const view = activeView.leaf.view.currentMode
+							.view;
+						const iconNameWithPrefix = icon.getByPath(this, file.path);
+						if (!iconNameWithPrefix) {
+							titleIcon.hide(view.inlineTitleEl);
+							return;
+						}
+						let foundIcon = iconNameWithPrefix;
+						if (!emoji.isEmoji(foundIcon)) {
+							foundIcon = (_a = icon.getIconByName(iconNameWithPrefix)) === null || _a === void 0 ? void 0 : _a.svgElement;
+							// Check for preloaded icons if no icon was found when the start up was faster
+							// than the loading of the icons.
+							if (!foundIcon && getPreloadedIcons().length > 0) {
+								foundIcon = (_b = getPreloadedIcons().find((icon) => icon.prefix + icon.name === iconNameWithPrefix)) === null || _b === void 0 ? void 0 : _b.svgElement;
+							}
+						}
+						if (foundIcon) {
+							// Removes the node because the editor markdown content is being rerendered
+							// when the content mode changes back to editing.
+							titleIcon.remove(view.inlineTitleEl);
+							titleIcon.add(this, view.inlineTitleEl, foundIcon, {
+								fontSize: calculateInlineTitleSize(),
+							});
+						}
+					}
+				}
+				if (!this.getSettings().iconInTabsEnabled) {
+					return;
+				}
+				for (const openedFile of getAllOpenedFiles(this)) {
+					const leaf = openedFile.leaf;
+					const iconColor = this.getIconColor(leaf.view.file.path);
+					iconTabs.add(this, openedFile.path, leaf.tabHeaderInnerIconEl, {
+						iconColor,
+					});
+				}
+			}));
+			// Register `file-open` event for adding icon to title.
+			this.registerEvent(this.app.workspace.on('file-open', (file) => {
+				var _a, _b;
+				if (!this.getSettings().iconInTitleEnabled) {
+					return;
+				}
+				for (const openedFile of getAllOpenedFiles(this)) {
+					if (!file || !openedFile || openedFile.path !== file.path) {
+						continue;
+					}
+					const leaf = openedFile.leaf.view;
+					const iconNameWithPrefix = icon.getByPath(this, file.path);
+					if (!iconNameWithPrefix) {
+						titleIcon.hide(leaf.inlineTitleEl);
+						return;
+					}
+					let foundIcon = iconNameWithPrefix;
+					if (!emoji.isEmoji(foundIcon)) {
+						foundIcon = (_a = icon.getIconByName(iconNameWithPrefix)) === null || _a === void 0 ? void 0 : _a.svgElement;
+						// Check for preloaded icons if no icon was found when the start up was faster
+						// than the loading of the icons.
+						if (!foundIcon && getPreloadedIcons().length > 0) {
+							foundIcon = (_b = getPreloadedIcons().find((icon) => icon.prefix + icon.name === iconNameWithPrefix)) === null || _b === void 0 ? void 0 : _b.svgElement;
+						}
+					}
+					if (foundIcon) {
+						titleIcon.add(this, leaf.inlineTitleEl, foundIcon, {
+							fontSize: calculateInlineTitleSize(),
+						});
+					}
+					else {
+						titleIcon.hide(leaf.inlineTitleEl);
+					}
+				}
+			}));
+			// Register event for frontmatter icon registration.
+			this.registerEvent(this.app.metadataCache.on('resolve', (file) => __awaiter(this, void 0, void 0, function* () {
+				if (!this.getSettings().iconInFrontmatterEnabled) {
+					return;
+				}
+				const fileCache = this.app.metadataCache.getFileCache(file);
+				const iconFrontmatterName = this.getSettings().iconInFrontmatterFieldName;
+				const iconColorFrontmatterName = this.getSettings().iconColorInFrontmatterFieldName;
+				if (fileCache === null || fileCache === void 0 ? void 0 : fileCache.frontmatter) {
+					const { [iconFrontmatterName]: newIconName, [iconColorFrontmatterName]: newIconColor, } = fileCache.frontmatter;
+					// If `icon` property is empty, we will remove it from the data and remove the icon.
+					if (!newIconName) {
+						if (this.frontmatterCache.has(file.path)) {
+							yield this.removeSingleIcon(file);
+							this.frontmatterCache.delete(file.path);
+						}
+						return;
+					}
+					if (typeof newIconName !== 'string') {
+						new obsidian.Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \`icon\` has to be of type \`text\`.`);
+						return;
+					}
+					if (newIconColor && typeof newIconColor !== 'string') {
+						new obsidian.Notice(`[${config.PLUGIN_NAME}] Frontmatter property type \`iconColor\` has to be of type \`text\`.`);
+						return;
+					}
+					let iconColor = newIconColor;
+					if (isHexadecimal(iconColor)) {
+						iconColor = stringToHex(iconColor);
+					}
+					const cachedIcon = IconCache.getInstance().get(file.path);
+					if (newIconName === (cachedIcon === null || cachedIcon === void 0 ? void 0 : cachedIcon.iconNameWithPrefix) &&
+						iconColor === (cachedIcon === null || cachedIcon === void 0 ? void 0 : cachedIcon.iconColor)) {
+						return;
+					}
+					this.frontmatterCache.add(file.path);
+					try {
+						if (!emoji.isEmoji(newIconName)) {
+							saveIconToIconPack(this, newIconName);
+						}
+					}
+					catch (e) {
+						logger.warn(`Something went wrong while saving icon to icon pack (error: ${e})`);
+						new obsidian.Notice(e.message);
+						return;
+					}
+					dom.createIconNode(this, file.path, newIconName, {
+						color: iconColor,
+					});
+					this.addFolderIcon(file.path, newIconName);
+					this.addIconColor(file.path, iconColor);
+					IconCache.getInstance().set(file.path, {
+						iconNameWithPrefix: newIconName,
+						iconColor,
+					});
+					// Update icon in tab when setting is enabled.
+					if (this.getSettings().iconInTabsEnabled) {
+						const tabLeaves = iconTabs.getTabLeavesOfFilePath(this, file.path);
+						for (const tabLeaf of tabLeaves) {
+							iconTabs.update(this, newIconName, tabLeaf.tabHeaderInnerIconEl);
+						}
+					}
+					// Update icon in title when setting is enabled.
+					if (this.getSettings().iconInTitleEnabled) {
+						this.addIconInTitle(newIconName);
+					}
+				}
+			})));
+			// Register active leaf change event for adding icon of file to tab.
+			this.registerEvent(this.app.workspace.on('active-leaf-change', (leaf) => {
+				if (!this.getSettings().iconInTabsEnabled) {
+					return;
+				}
+				// TODO: Maybe change in the future to a more optimal solution.
+				// Fixes a problem when the file was clicked twice in the same tab.
+				// See https://github.com/FlorianWoelki/obsidian-iconize/issues/208.
+				if (leaf.view.getViewType() === 'file-explorer') {
+					for (const openedFile of getAllOpenedFiles(this)) {
+						const leaf = openedFile.leaf;
+						const iconColor = this.getIconColor(leaf.view.file.path);
+						iconTabs.add(this, openedFile.path, leaf.tabHeaderInnerIconEl, {
+							iconColor,
+						});
+					}
+					return;
+				}
+				if (leaf.view.getViewType() !== 'markdown') {
+					return;
+				}
+				const tabHeaderLeaf = leaf;
+				if (tabHeaderLeaf.view.file) {
+					const iconColor = this.getIconColor(tabHeaderLeaf.view.file.path);
+					iconTabs.add(this, tabHeaderLeaf.view.file.path, tabHeaderLeaf.tabHeaderInnerIconEl, {
+						iconColor,
+					});
+				}
+			}));
+			this.registerEvent(this.app.workspace.on('css-change', () => {
+				for (const openedFile of getAllOpenedFiles(this)) {
+					const activeView = openedFile.leaf.view;
+					if (activeView instanceof obsidian.MarkdownView) {
+						titleIcon.updateStyle(activeView.inlineTitleEl, {
+							fontSize: calculateInlineTitleSize(),
+						});
+					}
+				}
+			}));
+		});
+	}
+	addIconInTitle(iconName) {
+		var _a;
+		for (const openedFile of getAllOpenedFiles(this)) {
+			const activeView = openedFile.leaf.view;
+			if (activeView instanceof obsidian.MarkdownView) {
+				let possibleIcon = iconName;
+				if (!emoji.isEmoji(iconName)) {
+					possibleIcon = (_a = icon.getIconByName(iconName)) === null || _a === void 0 ? void 0 : _a.svgElement;
+				}
+				if (possibleIcon) {
+					titleIcon.add(this, activeView.inlineTitleEl, possibleIcon, {
+						fontSize: calculateInlineTitleSize(),
+					});
+				}
+			}
+		}
+	}
+	onunload() {
+		console.log('unloading obsidian-icon-folder');
+	}
+	renameFolder(newPath, oldPath) {
+		if (!this.data[oldPath] || newPath === oldPath) {
+			return;
+		}
+		Object.defineProperty(this.data, newPath, Object.getOwnPropertyDescriptor(this.data, oldPath));
+		delete this.data[oldPath];
+		this.saveIconFolderData();
+	}
+	addIconColor(path, iconColor) {
+		const pathData = this.getData()[path];
+		if (typeof pathData === 'string') {
+			this.getData()[path] = {
+				iconName: pathData,
+				iconColor,
+			};
+		}
+		else {
+			pathData.iconColor = iconColor;
+		}
+		this.saveIconFolderData();
+	}
+	getIconColor(path) {
+		const pathData = this.getData()[path];
+		if (!pathData) {
+			return undefined;
+		}
+		if (typeof pathData === 'string') {
+			return undefined;
+		}
+		return pathData.iconColor;
+	}
+	removeIconColor(path) {
+		const pathData = this.getData()[path];
+		if (typeof pathData === 'string') {
+			return;
+		}
+		const currentValue = pathData;
+		this.getData()[path] = currentValue.iconName;
+		this.saveIconFolderData();
+	}
+	removeFolderIcon(path) {
+		if (!this.data[path]) {
+			return;
+		}
+		// Saves the icon name with prefix to remove it from the icon pack directory later.
+		const iconData = this.data[path];
+		delete this.data[path];
+		// Removes the icon from the icon pack directory if it is not used as an icon somewhere
+		// else.
+		if (iconData) {
+			let iconNameWithPrefix = iconData;
+			if (typeof iconData === 'object') {
+				iconNameWithPrefix = iconData.iconName;
+			}
+			else {
+				iconNameWithPrefix = iconData;
+			}
+			if (!emoji.isEmoji(iconNameWithPrefix)) {
+				removeIconFromIconPack(this, iconNameWithPrefix);
+			}
+		}
+		//this.addIconsToSearch();
+		this.saveIconFolderData();
+	}
+	addFolderIcon(path, icon) {
+		const iconName = getNormalizedName(typeof icon === 'object' ? icon.displayName : icon);
+		this.data[path] = iconName;
+		// Update recently used icons.
+		if (!this.getSettings().recentlyUsedIcons.includes(iconName)) {
+			if (this.getSettings().recentlyUsedIcons.length >=
+				this.getSettings().recentlyUsedIconsSize) {
+				this.getSettings().recentlyUsedIcons =
+					this.getSettings().recentlyUsedIcons.slice(0, this.getSettings().recentlyUsedIconsSize - 1);
+			}
+			this.getSettings().recentlyUsedIcons.unshift(iconName);
+			this.checkRecentlyUsedIcons();
+		}
+		//this.addIconsToSearch();
+		this.saveIconFolderData();
+	}
+	getSettings() {
+		return this.data.settings;
+	}
+	loadIconFolderData() {
+		return __awaiter(this, void 0, void 0, function* () {
+			const data = yield this.loadData();
+			if (data) {
+				Object.entries(DEFAULT_SETTINGS).forEach(([k, v]) => {
+					if (data.settings[k] === undefined) {
+						data.settings[k] = v;
+					}
+				});
+			}
+			this.data = Object.assign({ settings: Object.assign({}, DEFAULT_SETTINGS) }, {}, data);
+		});
+	}
+	saveIconFolderData() {
+		return __awaiter(this, void 0, void 0, function* () {
+			yield this.saveData(this.data);
+		});
+	}
+	checkRecentlyUsedIcons() {
+		return __awaiter(this, void 0, void 0, function* () {
+			if (this.getSettings().recentlyUsedIcons.length >
+				this.getSettings().recentlyUsedIconsSize) {
+				this.getSettings().recentlyUsedIcons =
+					this.getSettings().recentlyUsedIcons.slice(0, this.getSettings().recentlyUsedIconsSize);
+				yield this.saveIconFolderData();
+			}
+		});
+	}
+	getEventEmitter() {
+		return this.eventEmitter;
+	}
+	getData() {
+		return this.data;
+	}
+	getIconNameFromPath(path) {
+		if (typeof this.getData()[path] === 'object') {
+			return this.getData()[path].iconName;
+		}
+		return this.getData()[path];
+	}
+	getRegisteredFileExplorers() {
+		return this.registeredFileExplorers;
+	}
+	doesUseCustomLucideIconPack() {
+		return this.getSettings().lucideIconPackType === 'custom';
+	}
+	doesUseNativeLucideIconPack() {
+		return this.getSettings().lucideIconPackType === 'native';
+	}
+	/**
+	 * Returns a possible data path by the given value. This function checks for
+	 * direct icon and custom rules.
+	 * @param value String that will be used to find the data path.
+	 * @returns String that is the data path or `undefined` if no data path was found.
+	 */
+	getDataPathByValue(value) {
+		return Object.entries(this.data).find(([k, v]) => {
+			if (typeof v === 'string') {
+				if (value === v) {
+					return k;
+				}
+			}
+			else if (typeof v === 'object') {
+				// Check for custom rules.
+				if (k === 'settings') {
+					// `rules` are defined in the settings object.
+					const rules = v.rules;
+					return rules.find((rule) => rule.icon === value);
+				}
+				v = v;
+				if (value === v.iconName) {
+					return k;
+				}
+			}
+		});
+	}
 }
 
 module.exports = IconizePlugin;

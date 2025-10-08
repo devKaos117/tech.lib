@@ -2,8 +2,8 @@
 echo "============ Git info ============"
 # Check if git is available and show version
 if ! command -v git &> /dev/null; then
-    echo "Error: git is not installed or not available in PATH"
-    exit 1
+	echo "Error: git is not installed or not available in PATH"
+	exit 1
 fi
 
 git --version
@@ -18,9 +18,9 @@ FILES_ALTERED=$(git diff --cached --name-only | wc -l)
 
 # Check if there are any changes to commit
 if [ "$FILES_ALTERED" -eq 0 ]; then
-    echo "No changes to commit."
-    echo "============== DONE =============="
-    exit 0
+	echo "No changes to commit."
+	echo "============== DONE =============="
+	exit 0
 fi
 
 # Generate timestamp
@@ -41,18 +41,18 @@ echo "================================"
 read -p "Push to origin main? (yes / no): " response
 
 case $response in
-    [yY]|[yY][eE][sS])
-        echo "Pushing to origin main..."
-        git push origin main
-        ;;
-    [nN]|[nN][oO])
-        echo "Aborting push and removing commit from history..."
-        git reset --soft HEAD~1
-        ;;
-    *)
-        echo "Invalid response. Aborting push and removing commit from history..."
-        git reset --soft HEAD~1
-        ;;
+	[yY]|[yY][eE][sS])
+		echo "Pushing to origin main..."
+		git push origin main
+		;;
+	[nN]|[nN][oO])
+		echo "Aborting push and removing commit from history..."
+		git reset --soft HEAD~1
+		;;
+	*)
+		echo "Invalid response. Aborting push and removing commit from history..."
+		git reset --soft HEAD~1
+		;;
 esac
 
 echo "============== DONE =============="

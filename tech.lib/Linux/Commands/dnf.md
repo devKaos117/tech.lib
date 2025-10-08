@@ -93,9 +93,9 @@ OPERATIONS
 	install [SPECIFICATION]
 		Makes sure that the given packages and their dependencies are installed on the system
 	remove [SPECIFICATION]... [--[duplicates|oldinstallonly]]
-		Removes  the  specified  packages  from the system along with any packages depending on the packages being removed, optionally removing older versions of duplicate packages or old installonly packages
+		Removes	 the  specified	 packages  from the system along with any packages depending on the packages being removed, optionally removing older versions of duplicate packages or old installonly packages
 	autoremove
-		Removes  all  packages  from the system that were originally installed as dependencies of user-installed packages, but which are no longer required by any such package
+		Removes	 all  packages	from the system that were originally installed as dependencies of user-installed packages, but which are no longer required by any such package
 	reinstall [SPECIFICATION]...
 		Installs the specified packages, fails if some of the packages are either not installed or not available
 	upgrade [SPECIFICATION]...
@@ -113,18 +113,18 @@ OPERATIONS
 		Groups are virtual collections of packages. DNF keeps track of groups that the user marked installed and can manipulate the comprising packages with simple commands
 	
 	check [--[dependencies|duplicates|obsoleted|provides]]...
-		Checks the local packagedb and produces information on any problems it finds. You can limit the checks to be  performed  using the options
+		Checks the local packagedb and produces information on any problems it finds. You can limit the checks to be  performed	 using the options
 	clean [dbcache|expire-cache|metadata|packages|all]
-		Performs cleanup of temporary files kept for repositories. This includes any such data left behind from  disabled  or removed repositories as well as for different distribution release versions
+		Performs cleanup of temporary files kept for repositories. This includes any such data left behind from	 disabled  or removed repositories as well as for different distribution release versions
 	alias [list|add|delete] [NAME=VALUE]
 		Allows the user to define and manage a list of aliases, which can be then used as dnf commands to abbreviate longer command sequences
 	
 	history [list] [--reverse] [SPECIFICATION]
 		The history command allows the user to view what has happened in past transactions and act according to this information
 	provides [SPECIFICATION]
-		Finds  the  packages providing the given SPECIFICATION. This is useful when one knows a filename and wants to find what package provides this file
+		Finds  the	packages providing the given SPECIFICATION. This is useful when one knows a filename and wants to find what package provides this file
 	search [--all] [STRING]
-		Search package metadata for keywords. Keywords are matched as case-insensitive substrings,  globbing  is  supported
+		Search package metadata for keywords. Keywords are matched as case-insensitive substrings,	globbing  is  supported
 	info [SPECIFICATION]
 		Lists description and summary information about installed and available packages
 	help [COMMAND]

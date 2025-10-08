@@ -18,19 +18,19 @@ Metasploit script that allows you to easily setup and control both a database an
 msfdb [OPTION]... [ACTION]...
 
 status
-    Displays service status
+	Displays service status
 
 init
-    Creates and begins execution of a database and web service
+	Creates and begins execution of a database and web service
 delete
-    Deletes the web service and database configuration files
+	Deletes the web service and database configuration files
 reinit
-    Same as delete and init in sequence
+	Same as delete and init in sequence
 
 start
-    Start the database and web service
+	Start the database and web service
 stop
-    Stop the database and web service
+	Stop the database and web service
 restart
 	Same as stop and start in sequence
 ```

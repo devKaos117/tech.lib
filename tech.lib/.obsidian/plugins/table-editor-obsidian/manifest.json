@@ -9,9 +9,9 @@
   "version": "0.22.1",
   "js": "main.js",
   "fundingUrl": {
-    "Github Sponsor": "https://github.com/sponsors/tgrosinger",
-    "Buy me a Coffee": "https://buymeacoffee.com/tgrosinger",
-    "Paypal": "https://paypal.me/tgrosinger"
+	"Github Sponsor": "https://github.com/sponsors/tgrosinger",
+	"Buy me a Coffee": "https://buymeacoffee.com/tgrosinger",
+	"Paypal": "https://paypal.me/tgrosinger"
   },
   "donation": "https://buymeacoffee.com/tgrosinger"
 }

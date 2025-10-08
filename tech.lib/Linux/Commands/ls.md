@@ -50,7 +50,7 @@ ls [OPTIONS]... [FILE]...
 -N, --literal
 	Print raw entry names
 -q, --hide-control-chars
-	Print '?' instead of non graphic characters  
+	Print '?' instead of non graphic characters	 
 -s, --size
 	Print the allocated size of each file, in blocks 
 -R, --recursive

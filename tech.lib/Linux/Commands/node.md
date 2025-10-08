@@ -26,7 +26,7 @@ node [OPTION]... [PATH] [ARGUMENT]...
 	Starts the Node.js command line test runner
 	
 -c, --check
-	Check the script's syntax without executing it.  Exits with an error code if script is invalid
+	Check the script's syntax without executing it.	 Exits with an error code if script is invalid
 --inspect=[HOST:PORT]
 	Activate inspector on the given host and port
 --trace-events-enabled

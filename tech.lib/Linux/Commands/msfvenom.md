@@ -18,9 +18,9 @@ Being a combination of `msfpayload` and `msfencode`, this allows for the quick c
 msfvenom [OPTION]... [ARGUMENT]...
 
 -p, --payload [ARGUMENT]
-    Payload to use
+	Payload to use
 --payload-options
-    List the payload's standard options
+	List the payload's standard options
 
 -o, --out [PATH]
 	Save the payload
@@ -34,11 +34,11 @@ msfvenom [OPTION]... [ARGUMENT]...
 -e, --encoder [ARGUMENT]
 	The encoder to use
 -i, --iterations [NUMBER]
-    The number of times to encode the payload
+	The number of times to encode the payload
 -b, --bad-chars [CHAR...]
-    The list of characters to avoid
+	The list of characters to avoid
 -s, --space [NUMBER]
-    The maximum size of the resulting payload
+	The maximum size of the resulting payload
 --smallest
 	Generate the smallest possible payload
 
@@ -48,9 +48,9 @@ msfvenom [OPTION]... [ARGUMENT]...
 	Prepend a nopsled of [NUMBER] size on to the payload
 
 -x, --template [PATH]
-    Specify a custom executable file to use as a template
+	Specify a custom executable file to use as a template
 -k, --keep
-    Preserve the template behavior and inject the payload as a new thread
+	Preserve the template behavior and inject the payload as a new thread
 -v, --var-name [STRING]
 	Specify a custom variable name to use for certain output formats
 

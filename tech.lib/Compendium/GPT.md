@@ -39,11 +39,11 @@ With a minimum size of 128 bytes, the partition entry array describe each partit
 3. **First LBA \[0x20: 8B\] -** The first [[LBA]] of the partition
 4. **Last LBA \[0x28: 8B\] -** The last [[LBA]] of the partition (inclusive)
 5. **Attributes \[0x30: 8B\] -** Attribute flags:
-    1. 0 - Platform required, being essential for the proper functioning of the computer
-    2. 1 - EFI Firmware must ignore it
-    3. 2 - Legacy [[BIOS]] bootable flag
-    4. 3~47 - Reserved
-    5. 48~63 - Defined and used by the specific partition type
+	1. 0 - Platform required, being essential for the proper functioning of the computer
+	2. 1 - EFI Firmware must ignore it
+	3. 2 - Legacy [[BIOS]] bootable flag
+	4. 3~47 - Reserved
+	5. 48~63 - Defined and used by the specific partition type
 6. **Name \[0x38: 72B\] -** A human readable 36 units long [[UTF]]-16 LE name for the partition
 
 ## External References

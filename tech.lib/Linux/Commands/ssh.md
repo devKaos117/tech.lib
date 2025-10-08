@@ -37,27 +37,27 @@ OPTIONS
 	-F [PATH]
 		Specifies an alternative per-user configuration file
 	-i [PATH]
-		Selects  a  file  from  which the identity (private key) for public key authentication is read
+		Selects	 a	file  from	which the identity (private key) for public key authentication is read
 	-c [STRING]
-		Selects  the  cipher  specification for encrypting the session. The list of available ciphers can be obtained with 'ssh -Q ciphers'
+		Selects	 the  cipher  specification for encrypting the session. The list of available ciphers can be obtained with 'ssh -Q ciphers'
 	-m [STRING]...
-		A comma-separated list of MAC algorithms, specified  in  order  of  preference. The list of available MACs can be obtained with 'ssh -Q mac'
+		A comma-separated list of MAC algorithms, specified	 in	 order	of	preference. The list of available MACs can be obtained with 'ssh -Q mac'
 	-o [OPTION]
-		Can  be used to give options in the format used in the configuration file
+		Can	 be used to give options in the format used in the configuration file
 	
 	-B [ADDRESS]
-		Bind  to  the  address  of bind_interface before attempting to connect to the destination host
+		Bind  to  the  address	of bind_interface before attempting to connect to the destination host
 	-b [ADDRESS]
 		Use bind_address on the local machine as the source address of the connection
 	-D [ADDRESS:PORT]
-		Specifies a local “dynamic” application-level port forwarding, allocating a socket  to  listen to  port on the local side, optionally bound to the specified address, forwarding any connection made to this port over to the SSH
+		Specifies a local “dynamic” application-level port forwarding, allocating a socket	to	listen to  port on the local side, optionally bound to the specified address, forwarding any connection made to this port over to the SSH
 	-J [[USER@HOST]:[PORT]]...
-		Connect to the target host by first making an ssh connection to the jump host described  by  destination  and then  establishing a TCP forwarding to the ultimate destination from there.
+		Connect to the target host by first making an ssh connection to the jump host described	 by	 destination  and then	establishing a TCP forwarding to the ultimate destination from there.
 	
 	-q
 		Quiet mode
 	-v
-		Verbose  mode. Can be used multiple times
+		Verbose	 mode. Can be used multiple times
 	-y
 		Send log information using the syslog system module
 	-E [PATH]

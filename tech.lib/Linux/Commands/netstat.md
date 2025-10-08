@@ -25,7 +25,7 @@ netstat -[t|u]aec --protocol=[inet|inet6|unix]
 netstat [OPTIONS]...
 
 -A, --protocol=[inet|inet6|unix|ipx|ax25|netrom|econet|ddp|bluetooth]
-	Specifies  the  address  families for which connections are to be shown in a comma separated list of address family keywords
+	Specifies  the	address	 families for which connections are to be shown in a comma separated list of address family keywords
 -c, --continuous
 	This will cause netstat to print the selected information every second continuously
 
@@ -39,7 +39,7 @@ netstat [OPTIONS]...
 	Show the PID and name of the program to which each socket belongs
 
 -e, --extend
-	Display additional information.  Use this option twice for maximum detail
+	Display additional information.	 Use this option twice for maximum detail
 --route, -r
 	Display the kernel routing tables
 -C

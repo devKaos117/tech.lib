@@ -12,17 +12,17 @@ tags:
 
 The system's manual pager. Each page argument given to ``man`` is normally the name of a program, utility or function. Once called, the ``man`` command will search the available sections in a pre-defined order and display the first page found. The pages sections:
 
-| n  | section |
+| n	 | section |
 | -- | -- |
-| 1   | Executable programs or shell commands |
-| 2   | System calls (functions provided by the kernel) |
-| 3   | Library calls (functions within program libraries) |
-| 4   | Special files (usually found in [[File Hierarchy Standard#/dev\|/dev]]) |
-| 5   | File formats and conventions |
-| 6   | Games |
-| 7   | Miscellaneous (including macro packages and conventions) |
-| 8   | System administration commands |
-| 9   | Kernel routines |
+| 1	  | Executable programs or shell commands |
+| 2	  | System calls (functions provided by the kernel) |
+| 3	  | Library calls (functions within program libraries) |
+| 4	  | Special files (usually found in [[File Hierarchy Standard#/dev\|/dev]]) |
+| 5	  | File formats and conventions |
+| 6	  | Games |
+| 7	  | Miscellaneous (including macro packages and conventions) |
+| 8	  | System administration commands |
+| 9	  | Kernel routines |
 
 ## Command
 ```txt

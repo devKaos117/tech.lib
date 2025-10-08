@@ -37,7 +37,7 @@ OPTIONS
 		display the help information and exit
 	--version
 		output version information and exit
-	    
+		
 EXPRESSION OPTIONS
 
 	-daystart

@@ -82,7 +82,7 @@
       "alias-helper-key": "linter-yaml-title-alias"
     },
     "capitalize-headings": {
-      "enabled": true,
+      "enabled": false,
       "style": "Title Case",
       "ignore-case-words": true,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
@@ -106,10 +106,10 @@
       "enabled": false
     },
     "move-footnotes-to-the-bottom": {
-      "enabled": true
+      "enabled": false
     },
     "re-index-footnotes": {
-      "enabled": true
+      "enabled": false
     },
     "auto-correct-common-misspellings": {
       "enabled": false,
@@ -118,35 +118,34 @@
       "extra-auto-correct-files": []
     },
     "blockquote-style": {
-      "enabled": true,
+      "enabled": false,
       "style": "space"
     },
     "convert-bullet-list-markers": {
       "enabled": false
     },
     "default-language-for-code-fences": {
-      "enabled": true,
-      "default-language": "py"
+      "enabled": false,
+      "default-language": ""
     },
     "emphasis-style": {
-      "enabled": true,
+      "enabled": false,
       "style": "consistent"
     },
     "no-bare-urls": {
-      "enabled": true,
-      "no-bare-uris": true
+      "enabled": false,
+      "no-bare-uris": false
     },
     "ordered-list-style": {
-      "enabled": true,
+      "enabled": false,
       "number-style": "ascending",
-      "list-end-style": ".",
-      "preserve-start": true
+      "list-end-style": "."
     },
     "proper-ellipsis": {
       "enabled": false
     },
     "quote-style": {
-      "enabled": true,
+      "enabled": false,
       "single-quote-enabled": true,
       "single-quote-style": "''",
       "double-quote-enabled": true,
@@ -156,16 +155,16 @@
       "enabled": false
     },
     "remove-empty-list-markers": {
-      "enabled": true
+      "enabled": false
     },
     "remove-hyphenated-line-breaks": {
       "enabled": false
     },
     "remove-multiple-spaces": {
-      "enabled": true
+      "enabled": false
     },
     "strong-style": {
-      "enabled": true,
+      "enabled": false,
       "style": "consistent"
     },
     "two-spaces-between-lines-with-content": {
@@ -173,8 +172,8 @@
       "line-break-indicator": "  "
     },
     "unordered-list-style": {
-      "enabled": true,
-      "list-style": "-"
+      "enabled": false,
+      "list-style": "consistent"
     },
     "compact-yaml": {
       "enabled": false,
@@ -194,7 +193,7 @@
       "enabled": false
     },
     "empty-line-around-horizontal-rules": {
-      "enabled": true
+      "enabled": false
     },
     "empty-line-around-math-blocks": {
       "enabled": false
@@ -208,7 +207,7 @@
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
-      "enabled": true
+      "enabled": false
     },
     "move-math-block-indicators-to-their-own-line": {
       "enabled": false
@@ -220,7 +219,7 @@
       "enabled": false
     },
     "remove-link-spacing": {
-      "enabled": true
+      "enabled": false
     },
     "remove-space-around-characters": {
       "enabled": false,
@@ -235,7 +234,7 @@
       "characters-to-remove-space-after": "¿¡‘“(["
     },
     "space-after-list-markers": {
-      "enabled": true
+      "enabled": false
     },
     "space-between-chinese-japanese-or-korean-and-english-or-numbers": {
       "enabled": false,
@@ -243,8 +242,8 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": true,
-      "twp-space-line-break": true
+      "enabled": false,
+      "twp-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": false
@@ -271,29 +270,17 @@
       "enabled": false
     }
   },
-  "lintOnSave": true,
+  "lintOnSave": false,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
-  "filesToIgnore": [
-    {
-      "label": "specific case",
-      "match": "Linux/Commands/Indexation/.+",
-      "flags": "i"
-    }
-  ],
-  "linterLocale": "en",
+  "filesToIgnore": [],
+  "linterLocale": "system-default",
   "logLevel": "ERROR",
-  "lintCommands": [
-    {
-      "id": null,
-      "name": "",
-      "enabled": true
-    }
-  ],
+  "lintCommands": [],
   "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
