@@ -84,3 +84,14 @@ Mid tower, 420x285x385mm
 - [Logitech G733]()
 - [Redragon Darknets GS570](https://www.redragon.com.br/soundbar-darknets)
 - [Dualsense Midnight](https://www.playstation.com/pt-br/accessories/dualsense-wireless-controller/)
+
+## Portable
+### Galaxy Tab S10 FE (SM-X520)
+SAMSUNG Exynos 1580 (Xclipse 540), 8GB RAM
+10.9'' 249 ppi (1440x2304) 90 Hz LCD Display
+Wifi 6, Bluetooth 5.3, USB Type-C 2.0
+254.3x165.8x6mm, 500g, IP68
+8000 mAh LiPO battery
+Knox 3.11
+[samsung.com](https://www.samsung.com/br/tablets/galaxy-tab-s/galaxy-tab-s10-fe-blue-128gb-sm-x520nlbdzto/)
+[tudocelular.com](https://www.tudocelular.com/Samsung/fichas-tecnicas/n9927/Samsung-Galaxy-Tab-S10-FE.html)
