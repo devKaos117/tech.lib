@@ -35,7 +35,7 @@ msfvenom [OPTION]... [ARGUMENT]...
 	The encoder to use
 -i, --iterations [NUMBER]
 	The number of times to encode the payload
--b, --bad-chars [CHAR...]
+-b, --bad-chars [CHAR]...
 	The list of characters to avoid
 -s, --space [NUMBER]
 	The maximum size of the resulting payload

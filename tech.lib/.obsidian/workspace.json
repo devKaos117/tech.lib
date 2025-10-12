@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0102b48a0b589cc0",
+            "id": "4b20841693764d7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Command Tags"
             }
+          },
+          {
+            "id": "0102b48a0b589cc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Commands/nmap.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "nmap"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 306.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,32 +213,36 @@
   },
   "active": "0102b48a0b589cc0",
   "lastOpenFiles": [
-    "Linux/Indexation/operation.md",
-    "Linux/Indexation/file.md",
-    "Linux/Command Tags.md",
-    "Linux/Indexation/security.md",
-    "Linux/Indexation/cksum.md",
-    "Linux/Commands/msfconsole.md",
+    "Linux/Commands/wget.md",
+    "Compendium/Protocols/UDP.md",
+    "Compendium/OSI Model.md",
+    "Linux/Commands/snap.md",
     "Linux/Commands/git.md",
-    "Linux/Commands/nvim.md",
-    "Linux/Commands/nmap.md",
-    "Devices.md",
-    "Linux/Commands/wfuzz.md",
-    "Linux/Commands/searchsploit.md",
-    "Linux/Commands/msfvenom.md",
-    "Linux/Commands/unset.md",
-    "Linux/Commands/ssh.md",
     "Linux/Commands/curl.md",
-    "Linux/Commands/msfdb.md",
-    "Linux/Commands/cd.md",
+    "Linux/Commands/type.md",
+    "Linux/Commands/nmap.md",
+    "Compendium/BIOS.md",
+    "Compendium/RFC.md",
+    "Compendium/GDPL.md",
+    "Compendium/Networking Protocols.md",
+    "Compendium/UEFI.md",
+    "Linux/Indexation/file.md",
+    "Linux/Indexation/operation.md",
+    "Linux/Indexation/system.md",
+    "Linux/Indexation/network.md",
+    "Linux/Boot.md",
+    "Linux/Command Tags.md",
+    "Linux/File Hierarchy Standard.md",
     "Linux/Commands/find.md",
+    "Compendium/Protocols/ICMP.md",
+    "enumerate.sh",
+    "list.sh",
+    "utilities.sh",
+    "list_tags.sh",
+    "Linux/Commands/ssh.md",
+    "Linux/Commands/rsync.md",
+    "Linux/Commands/ifconfig.md",
     "Linux/Commands/ss.md",
-    "Linux/Commands/7z.md",
-    "Linux/Indexation/zip.md",
-    "Linux/Commands/cat.md",
-    "Linux/Commands/history.md",
-    "Linux/Commands/man.md",
-    "Linux/Commands/apt.md",
     "Content.base",
     "Linux/Commands/Untitled.base",
     "attachments/icon/gnome.svg",
@@ -240,10 +259,6 @@
     "attachments/icon",
     "HTML import",
     "Notion/Notes",
-    "Notion/Linux/File Hierarchy Standard/var",
-    "Notion/Linux/File Hierarchy Standard/usr",
-    "Notion/Linux/File Hierarchy Standard/run",
-    "Notion/Linux/File Hierarchy Standard/dev",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]

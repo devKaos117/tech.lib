@@ -2,8 +2,8 @@
 package: exploitdb
 category: command
 tags:
-  - linux/cmds/security/analysis
-  - linux/cmds/security/exploitation
+  - linux/cmds/security/offsec/analysis
+  - linux/cmds/security/offsec/exploitation
   - linux/cmds/operation/filtering
 ---
 
@@ -26,7 +26,7 @@ searchsploit [OPTION]... [ARGUMENT]...
 	In strict search the input values must exist, disabling fuzzy search for version range
 -t, --title
 	Match only the exploit title
---exclude=[STRING...]
+--exclude=[STRING]...
 	Remove values from results
 --cve [STRING]
 	Search for CVE value

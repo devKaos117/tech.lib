@@ -108,6 +108,7 @@ tags:
 blkid
 blockdev
 cal
+cloc
 cryptsetup
 df
 dhclient
@@ -159,11 +160,13 @@ openvpn
 parted
 passwd
 paste
+proxychains
 pwgen
 python
 ranger
 reset
 rfkill
+rlwrap
 sasm
 scp
 screen
@@ -227,6 +230,7 @@ dig
 host
 dnsrecon
 dnsenum
+dnsmap
 subfinder
 
 netdiscover
@@ -249,6 +253,8 @@ snmp-check
 smbmap
 ffuf
 Feroxbuster
+sublist3r
+theHarvester
 
 whatweb
 wafw00f
@@ -270,10 +276,12 @@ john the ripper
 hydra
 hascat
 chntpw
+mimikatz
 
 macchanger
 urlcrazy
 
+chisel
 
 iptables
 ip6tables

@@ -40,9 +40,9 @@ rsync [OPTION]... [[USER@][HOST:]SRC]... [[USER@][HOST:]DEST]...
 	Set the group of the destination file to be the same as the source (recieving sudo required)
 --numeric-ids
 	Transfer numeric group and user IDs rather than using user and group names and mapping them at both ends
---usermap=[NUMBER[-NUMBER]|USER|*|nobody[,...]]:[NUMBER|USER|nobody]
+--usermap=[NUMBER[-NUMBER]|USER|*|nobody]...:[NUMBER|USER|nobody]
 	Specify users that should be mapped to other values by the receiving side
---groupmap=[NUMBER[-NUMBER]|GROUP|*|nobody[,...]]:[NUMBER|GROUP|nobody]
+--groupmap=[NUMBER[-NUMBER]|GROUP|*|nobody]...:[NUMBER|GROUP|nobody]
 	Specify groups that should be mapped to other values by the receiving side
 --chown=USER:GROUP
 	Forces all files to be owned by USER with group GROUP

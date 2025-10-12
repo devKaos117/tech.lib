@@ -24,7 +24,7 @@ ss --kill dst [ADDRESS]
 
 ## Command
 ```txt
-ss [OPTIONS...] [[STATE-FILTER] [PATTERN]]
+ss [OPTIONS]... [[STATE-FILTER] [PATTERN]]
 
 -a, --all
 	Display both listening and non-listening sockets
@@ -98,9 +98,9 @@ ss [OPTIONS...] [[STATE-FILTER] [PATTERN]]
 --inet-sockopt
 	Display inet socket options
 
--D, --diag=[PATH...]
+-D, --diag=[PATH]...
 	Do not display anything, just dump raw information about TCP sockets to FILE after applying filters
--F, --filter=[PATH...]
+-F, --filter=[PATH]...
 	Read filter information from FILE. Each line of FILE is interpreted like single command line option
 
 -Z, --context

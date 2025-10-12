@@ -1,8 +1,12 @@
 #!/bin/bash
+#
+# Script for quickly formating and
+# pushing a commit using git
+
 echo "============ Git info ============"
 # Check if git is available and show version
 if ! command -v git &> /dev/null; then
-	echo "Error: git is not installed or not available in PATH"
+	echo -e "\033[91mERROR\033[0m: git is not installed or not available in PATH"
 	exit 1
 fi
 

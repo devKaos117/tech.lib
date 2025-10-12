@@ -131,7 +131,7 @@ HTTP OPTIONS
 		Disable server-side cache
 	--no-cookies
 		Disable the use of cookies
-	--load-cookies [PATH...]
+	--load-cookies [PATH]...
 		Load cookies from file before the first HTTP retrieval. file is a textual file in the format originally used by Netscape's cookies.txt file
 	
 	--max-redirect=number

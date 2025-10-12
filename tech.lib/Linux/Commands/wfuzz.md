@@ -23,9 +23,9 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 	Specify a URL for the request
 -m [ITERATOR]
 	Specify an iterator for combining payloads (product by default)
--z [PAYLOAD...]
+-z [PAYLOAD]...
 	Specify a payload for each FUZZ keyword used in the form of [TYPE,PARAMETERS,ENCODER]. A list of encoders can be used with "-". Encoders can be chained with "@"
---zP [ARGUMENT...]
+--zP [ARGUMENT]...
 	Arguments for the specified payload
 --slice [EXPRESSION]
 	Filter payload's elements using the specified expression
@@ -48,21 +48,21 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 	Hide responses with the specified regex within the content
 --ss[PATTERN]
 	Show responses with the specified regex within the content
---hc [STRING...]
+--hc [STRING]...
 	Hide HTTP responses with the specified code
---sc [STRING...]
+--sc [STRING]...
 	Show responses with the specified code
---hl [STRING...]
+--hl [STRING]...
 	Hide HTTP responses with the specified lines
---sl [STRING...]
+--sl [STRING]...
 	Show responses with the specified lines
---hw [STRING...]
+--hw [STRING]...
 	Hide HTTP responses with the specified words
---sw [STRING...]
+--sw [STRING]...
 	Show responses with the specified words
---hh [STRING...]
+--hh [STRING]...
 	Hide HTTP responses with the specified chars
---sh [STRING...]
+--sh [STRING]...
 	Show responses with the specified chars
 
 -Z
@@ -83,15 +83,15 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 --conn-delay [NUMBER]
 	Sets the connection timeout in seconds (90 default)
 
--p [IP:PORT:[SOCKS4|SOCKS5|HTTP]...]
+-p [IP:PORT:[SOCKS4|SOCKS5|HTTP]...
 	Use the given proxies
 -X [METHOD]
 	Specify an HTTP method for the request
--d [STRING...]
+-d [STRING]...
 	Use post data
--H [STRING...]
+-H [STRING]...
 	Use headers
--b [STRING...]
+-b [STRING]...
 	Specify a cookie for the requests
 -L, --follow
 	Follow HTTP redirections
@@ -102,11 +102,11 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 --digest [USR:PWD|FUZZ:FUZZ]
 	Set digest authentication headers
 
---script=[PLUGIN...]
+--script=[PLUGIN]...
 	Runs script's scan
 --script-help=[PLUGIN]
 	Show help about scripts
---script-args [VAR=VAL...]
+--script-args [VAR=VAL]...
 	Provide arguments to scripts
 --interact
 	All key presses are captured, allowing for interaction with the program
