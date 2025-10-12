@@ -16,7 +16,7 @@ Perform detailed off-line searches through your locally checked-out copy of the 
 
 ## Command
 ```txt
-searchsploit [OPTION]... [ARGUMENT]...
+searchsploit [OPTION]... [ARGMUENT]...
 
 -c, --case
 	Enable case-sensitive search

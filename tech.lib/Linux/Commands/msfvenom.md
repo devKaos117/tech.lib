@@ -15,7 +15,7 @@ Being a combination of `msfpayload` and `msfencode`, this allows for the quick c
 
 ## Command
 ```txt
-msfvenom [OPTION]... [ARGUMENT]...
+msfvenom [OPTION]... [PATH]
 
 -p, --payload [ARGUMENT]
 	Payload to use

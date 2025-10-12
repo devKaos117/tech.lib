@@ -240,7 +240,6 @@ arp-scan
 nbtscan
 https://github.com/owasp-amass/amass
 
-nikto
 dirb
 dnsenum
 dnsrecon

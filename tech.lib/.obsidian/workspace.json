@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/nmap.md",
+                "file": "Linux/Commands/nikto.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "nmap"
+              "title": "nikto"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,10 +211,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4b20841693764d7d",
+  "active": "0102b48a0b589cc0",
   "lastOpenFiles": [
     "Linux/Commands/nmap.md",
+    "Linux/Commands/nikto.md",
     "Linux/Command Tags.md",
+    "Linux/Commands/msfdb.md",
+    "Linux/Commands/msfconsole.md",
+    "Linux/Commands/searchsploit.md",
+    "Linux/Commands/wfuzz.md",
+    "Linux/Commands/msfvenom.md",
     "Linux/Commands/wget.md",
     "Compendium/Protocols/UDP.md",
     "Compendium/OSI Model.md",
@@ -232,16 +239,10 @@
     "Linux/Indexation/network.md",
     "Linux/Boot.md",
     "Linux/File Hierarchy Standard.md",
-    "Linux/Commands/find.md",
-    "Compendium/Protocols/ICMP.md",
     "enumerate.sh",
     "list.sh",
     "utilities.sh",
     "list_tags.sh",
-    "Linux/Commands/ssh.md",
-    "Linux/Commands/rsync.md",
-    "Linux/Commands/ifconfig.md",
-    "Linux/Commands/ss.md",
     "Content.base",
     "Linux/Commands/Untitled.base",
     "attachments/icon/gnome.svg",
