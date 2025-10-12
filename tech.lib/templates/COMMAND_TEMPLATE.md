@@ -1,6 +1,8 @@
 ---
-package: NULL
 category: command
+subjects:
+  - NULL
+package: NULL
 tags:
   - NULL
 ---
