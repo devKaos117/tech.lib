@@ -40,7 +40,10 @@ tldr [OPTION]... [COMMAND]
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/tldr-pages/tldr/tree/main)
 [tldr.sh](https://tldr.sh/)
 [tldr.inbrowser.app](https://tldr.inbrowser.app/pages/common/tldr)

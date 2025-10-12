@@ -59,8 +59,9 @@ tags:
 ### Security
 - [offsec]{}
 	- [osint]{Open source intelligence}
-	- [reconnaissance]{}
-		- [info_gather]{Information gathering process}
+		- [socmint]{Social media intelligence}
+		- [general]{DNS, google dorking and other general OSINT}
+	- [reconnaissance]{Target reconnaissance process}
 		- [scanning]{Target and network scanning}
 		- [enumerating]{Protocol, directory, addresses and other enumeration}
 	- [analysis]{}
@@ -225,8 +226,7 @@ cryptcat
 snmpset
 socat
 
-whois
-dig
+nslookup
 host
 dnsrecon
 dnsenum

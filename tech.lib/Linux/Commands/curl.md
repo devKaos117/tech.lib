@@ -217,7 +217,10 @@ REQUEST DATA OPTIONS
 		(HTTPS) Instructs curl to use HTTP/3 to the host in the URL, with no fallback to earlier HTTP versions
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/curl/curl)
 [curl.se](https://curl.se/)
 [linux.die.net](https://linux.die.net/man/1/curl)

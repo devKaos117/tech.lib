@@ -126,6 +126,9 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 	Display the help information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/xmendez/wfuzz)
 [wfuzz.readthedocs.io](https://wfuzz.readthedocs.io/en/latest/)

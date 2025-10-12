@@ -25,5 +25,8 @@ cd [-P|-L] [PATH]
 ## Exit Status
 - n - status
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [manned.org](https://manned.org/cd)

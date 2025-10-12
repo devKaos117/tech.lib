@@ -90,6 +90,9 @@ ping [OPTIONS]... [LINK]
 - 1 - no reply packet received
 - 2 - other error
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/iputils/iputils/)
 [linux.die.net](https://linux.die.net/man/8/ping)

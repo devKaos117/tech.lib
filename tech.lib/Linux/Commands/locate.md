@@ -57,5 +57,8 @@ locate [OPTIONS]... [PATTERN]
 - 0 - One or more matches
 - 1 - No matches or a fatal error
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/locate)

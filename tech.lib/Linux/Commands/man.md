@@ -66,5 +66,8 @@ man [OPTION]... [1-9] [STRING]
 - 3 - A child process returned a non-zero exit status
 - 16 - At least one of the pages/files/keywords didn't exist or wasn't matched
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/man)

@@ -28,7 +28,10 @@ command [OPTION]... [ARGUMENT]...
 ## Exit Status
 - n - status
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](github)
 [](site)
 [](man)

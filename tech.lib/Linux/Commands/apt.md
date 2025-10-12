@@ -60,7 +60,10 @@ OPERATIONS
 		Remove one or more specified packages and its configuration files. If no package is specified, remove all configuration files from previous removed packages
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/Debian/apt)
 [wiki.debian.org](https://wiki.debian.org/Apt)
 [linux.die.net](https://linux.die.net/man/8/apt)

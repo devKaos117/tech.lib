@@ -237,7 +237,10 @@ rsync [OPTION]... [[USER@][HOST:]SRC]... [[USER@][HOST:]DEST]...
 - 30 -⁠ Timeout in data send/receive
 - 35 -⁠ Timeout waiting for daemon connection
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/RsyncProject/rsync)
 [rsync.samba.org](https://rsync.samba.org/)
 [download.samba.org](https://download.samba.org/pub/rsync/rsync.1)

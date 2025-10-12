@@ -32,6 +32,9 @@ tr [OPTIONS]... [SET]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/tr)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html#tr-invocation)

@@ -34,6 +34,9 @@ rm [OPTIONS]... [PATH]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/rm)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html#rm-invocation)

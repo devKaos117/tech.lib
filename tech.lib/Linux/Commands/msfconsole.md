@@ -185,7 +185,10 @@ COMMANDS
 		Display information useful for debugging
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/rapid7/metasploit-framework)
 [metasploit.com](https://www.metasploit.com/)
 [docs.metasploit.com](https://docs.metasploit.com/)

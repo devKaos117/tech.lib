@@ -39,6 +39,9 @@ cat [OPTION]... [PATH]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/cat)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html#cat-invocation)

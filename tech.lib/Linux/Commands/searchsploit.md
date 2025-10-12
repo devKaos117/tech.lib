@@ -48,7 +48,10 @@ searchsploit [OPTION]... [ARGMUENT]...
 	Display the help information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [gitlab.com](https://www.gitlab.com/exploit-database/exploitdb)
 [exploit-db.com](https://www.exploit-db.com/)
 [exploit-db.com/searchsploit](https://www.exploit-db.com/searchsploit)

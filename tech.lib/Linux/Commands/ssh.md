@@ -95,7 +95,10 @@ ESCAPE CHARACTERS
 ## Exit Status
 Exits with the exit status of the remote command or with 255 if an error occurred
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [openssh.com](https://www.openssh.com/)
 [openssh.com/manual](https://www.openssh.com/manual.html)
 [linux.die.net](https://linux.die.net/man/1/ssh)

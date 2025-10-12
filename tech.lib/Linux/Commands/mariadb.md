@@ -134,7 +134,10 @@ COMMANDS
 		Display a help message listing the available mysql commands. If you provide an argument, mysql uses it as a search string to access server-side help
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/MariaDB/)
 [mariadb.org](https://mariadb.org/)
 [mariadb.com](https://mariadb.com/kb/)

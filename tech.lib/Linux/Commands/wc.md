@@ -33,6 +33,9 @@ wc [OPTION]... [PATH]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/wc)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html#wc-invocation)

@@ -35,6 +35,9 @@ touch [OPTIONS]... [PATH]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/touch)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html#touch-invocation)

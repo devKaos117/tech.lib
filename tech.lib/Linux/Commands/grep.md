@@ -126,6 +126,9 @@ Other Options
 - 1 - No lines were selected
 - 2 - An error has ocurred
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/grep)
 [gnu.org](https://www.gnu.org/software/grep/manual/grep.html)

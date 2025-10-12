@@ -103,6 +103,9 @@ INSIDE COMMANDS
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/neovim/neovim)
 [neovim.io](https://neovim.io/)

@@ -138,7 +138,10 @@ OPERATIONS
 - 100 - See check-update
 - 200 - There was a problem with acquiring or releasing of locks
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/rpm-software-management/dnf)
 [dnf.readthedocs.io](https://dnf.readthedocs.io/en/latest/index.html#)
 [man7.org](https://man7.org/linux/man-pages/man8/dnf.8.html)

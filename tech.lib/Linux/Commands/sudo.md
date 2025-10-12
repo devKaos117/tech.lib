@@ -91,7 +91,10 @@ Upon successful execution of a command, the exit status will be the exit status 
 
 If the ``-l`` option was specified without a command, ``sudo`` will exit with a value of 0 if the user is allowed to run it and they authenticated successfully. If the ``-l`` option was specified with a command, the exit value will only be 0 if the command is permitted by the security policy, otherwise it will be 1.
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/sudo-project/sudo)
 [sudo.ws](https://www.sudo.ws/)
 [linux.die.net](https://linux.die.net/man/8/sudo)

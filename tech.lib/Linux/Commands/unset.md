@@ -21,3 +21,8 @@ unset [-f|-v] [STRING]...
 -v
 	Specify that STRING refers to a variable
 ```
+
+## Relevant Reading
+- [[]]
+
+## External Reference

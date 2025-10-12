@@ -28,6 +28,9 @@ history [OPTION]... [ARGUMENT]
 	Delete a specific entry or range of entries from the history
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/3/history)
 [gnu.org](https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html)

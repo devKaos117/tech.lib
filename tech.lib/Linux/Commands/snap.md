@@ -187,7 +187,10 @@ COMMANDS
 		The okay command acknowledges the warnings listed with 'snap warnings'. Once acknowledged a warning won't appear again unless it re-occurrs and sufficient time has passed
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/canonical/snapcraft)
 [snapcraft.io](https://snapcraft.io/)
 [snapcraft.io/docs](https://snapcraft.io/docs)

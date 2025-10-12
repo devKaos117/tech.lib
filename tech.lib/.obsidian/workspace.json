@@ -14,29 +14,14 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Command Tags.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Command Tags"
             }
-          },
-          {
-            "id": "0102b48a0b589cc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Commands/nikto.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "nikto"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,34 +196,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0102b48a0b589cc0",
+  "active": "4b20841693764d7d",
   "lastOpenFiles": [
-    "Linux/Commands/nmap.md",
-    "Linux/Commands/nikto.md",
-    "Linux/Command Tags.md",
-    "Linux/Commands/msfdb.md",
-    "Linux/Commands/msfconsole.md",
-    "Linux/Commands/searchsploit.md",
-    "Linux/Commands/wfuzz.md",
-    "Linux/Commands/msfvenom.md",
-    "Linux/Commands/wget.md",
+    "Compendium/GRC.md",
+    "Compendium/Protocols/DNS.md",
     "Compendium/Protocols/UDP.md",
-    "Compendium/OSI Model.md",
-    "Linux/Commands/snap.md",
-    "Linux/Commands/git.md",
-    "Linux/Commands/curl.md",
-    "Linux/Commands/type.md",
-    "Compendium/BIOS.md",
-    "Compendium/RFC.md",
-    "Compendium/GDPL.md",
-    "Compendium/Networking Protocols.md",
-    "Compendium/UEFI.md",
-    "Linux/Indexation/file.md",
-    "Linux/Indexation/operation.md",
-    "Linux/Indexation/system.md",
-    "Linux/Indexation/network.md",
-    "Linux/Boot.md",
-    "Linux/File Hierarchy Standard.md",
+    "Compendium/Protocols/ICMP.md",
+    "templates/NOTE_TEMPLATE.md",
+    "Linux/Commands/dig.md",
+    "Linux/Commands/whois.md",
+    "Linux/Commands/nikto.md",
+    "Linux/Commands/searchsploit.md",
+    "Linux/Commands/msfvenom.md",
+    "Linux/Commands/nmap.md",
+    "Linux/Commands/wget.md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/rsync.md",
+    "Linux/Commands/wfuzz.md",
+    "Linux/Commands/msfconsole.md",
+    "Linux/Commands/unset.md",
+    "Linux/Commands/batcat.md",
+    "Linux/Commands/sort.md",
+    "Linux/Commands/pwd.md",
+    "Linux/Commands/mv.md",
+    "Linux/Commands/ln.md",
+    "Linux/Commands/7z.md",
+    "Linux/Commands/msfdb.md",
+    "Linux/Commands/which.md",
+    "Linux/Commands/lsusb.md",
     "enumerate.sh",
     "list.sh",
     "utilities.sh",

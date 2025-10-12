@@ -167,6 +167,9 @@ FTP OPTIONS
 - 7 - Protocol errors
 - 8 - Server issued an error response
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/wget)
 [gnu.org](https://www.gnu.org/software/wget/)

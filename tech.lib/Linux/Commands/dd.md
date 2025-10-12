@@ -65,6 +65,9 @@ OPERANDS
 		Convert the file as per the comma separated symbol list
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/dd)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html#dd-invocation)

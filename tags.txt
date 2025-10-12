@@ -1,0 +1,72 @@
+tech.lib/
+├── Networking/
+│   ├── protocols
+│   └── architecture
+├── Low Level/
+│   ├── hardware
+│   ├── boot
+│   └── io
+├── Foundations/
+│   ├── authorities: data structures, algorithms, number systems, character encoding, web stacks, software stacks...
+│   └── resources: IANA, RFCs, ...
+├── CyberSecurity/
+│   ├── theory/
+│   │   ├── concepts
+│   │   ├── frameworks
+│   │   └── regulations
+│   ├── cryptography/
+│   │   ├── hash
+│   │   ├── symmetric
+│   │   └── asymmetric
+│   └── tools/
+│       ├── detection
+│       └── prevention
+├── Linux/
+│   ├── Commands/
+│   │   ├── cli/
+│   │   │   └── <...>
+│   │   ├── file/
+│   │   │   └── <...>
+│   │   ├── operation/
+│   │   │   └── <...>
+│   │   ├── system/
+│   │   │   └── <...>
+│   │   ├── network/
+│   │   │   └── <...>
+│   │   └── security/
+│   │       └── <...>
+│   ├── Boot
+│   ├── FHS
+│   ├── Bash
+│   └── Kernel
+├── Windows/
+    └── <...>
+ 
+
+
+offsec/
+├── osint/
+│   ├── socmint
+│   └── general
+├── reconnaissance/
+│   ├── info_gather
+│   ├── scanning
+│   └── enumerating
+├── analysis/
+│   ├── static
+│   ├── dynamic
+│   └── web
+├── spoofing
+├── exploitation/
+│   ├── web
+│   ├── network
+│   ├── wireless
+│   └── credential
+├── post_exploit/
+│   ├── escalation
+│   ├── lateralization
+│   ├── persistence
+│   ├── C2
+│   ├── dumping
+│   └── exfiltration
+└── reporting

@@ -66,7 +66,10 @@ COMMANDS
 		Check the health of your npm environment
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/npm)
 [npmjs.com](https://www.npmjs.com/)
 [docs.npmjs.com](https://docs.npmjs.com/)

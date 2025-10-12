@@ -356,7 +356,10 @@ MISCELLANEOUS OPTIONS
 ## Exit Status
 - n - status
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/nmap/nmap)
 [nmap.org](https://nmap.org)
 [nmap.org/man](https://nmap.org/book/man.html)

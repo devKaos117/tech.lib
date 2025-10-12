@@ -134,7 +134,10 @@ COMMANDS
 		An overview of recommended workflows with Git
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/git/git)
 [git-scm.com](https://git-scm.com/)
 [ndpsoftware.com](https://ndpsoftware.com/git-cheatsheet.html)

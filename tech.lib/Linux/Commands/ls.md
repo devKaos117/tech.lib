@@ -76,7 +76,9 @@ ls [OPTIONS]... [FILE]...
 - 1 - Minor problems
 - 2 - Serious problem
 
-## Links
+## Relevant Reading
+- [[]]
 
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/ls)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html#ls-invocation)

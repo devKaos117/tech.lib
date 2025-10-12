@@ -41,5 +41,8 @@ whatis [OPTION]... [COMMAND]...
 - 2 - Operational error
 - 16 - Nothing was found that matched the criteria specified
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/whatis)

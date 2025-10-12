@@ -163,7 +163,10 @@ nikto [OPTION]... [HOST]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [github.com](https://github.com/sullo/nikto)
 [cirt.net](https://cirt.net/)
 [github.com/nikto/wiki](https://github.com/sullo/nikto/wiki)

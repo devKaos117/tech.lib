@@ -37,5 +37,8 @@ which [OPTION]... [COMMAND]...
 	Output version information and exit
 ```
 
-## Links
+## Relevant Reading
+- [[]]
+
+## External Reference
 [linux.die.net](https://linux.die.net/man/1/which)
