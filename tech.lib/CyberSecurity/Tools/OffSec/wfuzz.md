@@ -1,8 +1,10 @@
 ---
+category: cli
+subjects:
+  - command
 package: wfuzz
-category: command
 tags:
-  - linux/cmds/security/offsec/exploitation/web
+  - cybersec/tools/offsec/exploitation/web
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

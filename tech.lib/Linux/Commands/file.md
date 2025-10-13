@@ -1,4 +1,10 @@
 ---
+category: cli
+subjects:
+  - command
+package: NULL
+tags:
+  - NULL
 package: POSIX
 category: command
 tags:

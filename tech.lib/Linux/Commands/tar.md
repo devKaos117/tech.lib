@@ -1,4 +1,10 @@
 ---
+category: cli
+subjects:
+  - command
+package: NULL
+tags:
+  - NULL
 package: tar
 category: command
 tags:

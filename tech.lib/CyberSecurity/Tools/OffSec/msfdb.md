@@ -1,9 +1,10 @@
 ---
+category: cli
+subjects:
+  - command
 package: metasploit-framework
-category: command
 tags:
-  - linux/cmds/security/offsec
-  - linux/cmds/cli/utilities
+  - cybersec/tools/offsec/exploitation
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

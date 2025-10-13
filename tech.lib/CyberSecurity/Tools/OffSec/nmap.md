@@ -1,11 +1,10 @@
 ---
+category: cli
+subjects:
+  - binary
 package: nmap
-category: command
 tags:
-  - linux/cmds/security/offsec/reconnaissance/scanning
-  - linux/cmds/network
-  - linux/cmds/operation
-  - linux/cmds/operation/analysis
+  - cybersec/tools/offsec/reconnaissance/scanning
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

@@ -1,9 +1,11 @@
 ---
+category: cli
+subjects:
+  - command
 package: nikto
-category: command
 tags:
-  - linux/cmds/security/offsec/analysis/web
-  - linux/cmds/security/offsec/reconnaissance/enumerating
+  - cybersec/tools/offsec/analysis/web
+  - cybersec/tools/offsec/reconnaissance/enumerating
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

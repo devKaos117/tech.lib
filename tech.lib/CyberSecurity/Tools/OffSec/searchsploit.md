@@ -1,10 +1,11 @@
 ---
+category: cli
+subjects:
+  - command
 package: exploitdb
-category: command
 tags:
-  - linux/cmds/security/offsec/analysis
-  - linux/cmds/security/offsec/exploitation
-  - linux/cmds/operation/filtering
+  - cybersec/tools/offsec/analysis
+  - cybersec/tools/offsec/exploitation
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

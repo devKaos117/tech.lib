@@ -1,8 +1,10 @@
 ---
+category: cli
+subjects:
+  - command
 package: bind9
-category: command
 tags:
-  - linux/cmds/security/offsec/osint/general
+  - cybersec/tools/offsec/osint/general
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

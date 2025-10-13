@@ -1,7 +1,9 @@
 ---
-category: command
+category: cli
 subjects:
-  - NULL
+  - binary
+  - script
+language: bash/ms-dos/powershell/python
 package: NULL
 tags:
   - NULL
