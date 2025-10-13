@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - command
-package: NULL
-tags:
-  - NULL
+  - binary
+language: c
 package: bash
-category: command
 tags:
   - linux/cmds/cli/shell
 ---
@@ -45,5 +42,7 @@ bash [OPTION]... [ARGUMENT]...
 - [[]]
 
 ## External Reference
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
+[tiswww.case.edu](https://tiswww.case.edu/php/chet/bash/bashtop.html)
 [linux.die.net](https://linux.die.net/man/1/bash)
 [gnu.org](https://www.gnu.org/software/bash/)

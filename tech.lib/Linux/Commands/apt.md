@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - command
-package: NULL
-tags:
-  - NULL
+  - binary
+language: c++
 package: apt
-category: command
 tags:
   - linux/cmds/system/package
 ---

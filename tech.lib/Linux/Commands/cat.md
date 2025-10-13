@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - command
-package: NULL
-tags:
-  - NULL
+  - binary
+language: c
 package: coreutils
-category: command
 tags:
   - linux/cmds/file/read
   - linux/cmds/cli/text
@@ -49,5 +46,6 @@ cat [OPTION]... [PATH]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/cat)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html#cat-invocation)

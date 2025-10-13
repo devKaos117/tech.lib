@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - command
-package: NULL
-tags:
-  - NULL
-package: Bash built-in
-category: command
+  - binary
+language: c
+package: bash
 tags:
   - linux/cmds/cli/environment
 ---

@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - binary
+language: c
 package: whois
 tags:
   - cybersec/tools/offsec/osint/general

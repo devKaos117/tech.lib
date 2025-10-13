@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - binary
+language: c
 package: bind9
 tags:
   - cybersec/tools/offsec/osint/general

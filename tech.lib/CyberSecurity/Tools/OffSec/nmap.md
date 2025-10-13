@@ -2,6 +2,7 @@
 category: cli
 subjects:
   - binary
+language: c
 package: nmap
 tags:
   - cybersec/tools/offsec/reconnaissance/scanning

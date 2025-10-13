@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - binary
+language: ruby
 package: metasploit-framework
 tags:
   - cybersec/tools/offsec/analysis

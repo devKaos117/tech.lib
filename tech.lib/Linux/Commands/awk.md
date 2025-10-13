@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - command
+  - binary
+language: NULL
 package: NULL
-tags:
-  - NULL
-package: NULL
-category: command
 tags:
   - linux/cmds/operation/filtering
   - linux/cmds/operation/manipulation

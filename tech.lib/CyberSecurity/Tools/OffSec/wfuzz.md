@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - script
+language: python
 package: wfuzz
 tags:
   - cybersec/tools/offsec/exploitation/web

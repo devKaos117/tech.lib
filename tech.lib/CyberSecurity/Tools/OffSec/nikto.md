@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - script
+language: perl
 package: nikto
 tags:
   - cybersec/tools/offsec/analysis/web

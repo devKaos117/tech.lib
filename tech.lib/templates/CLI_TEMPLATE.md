@@ -1,9 +1,8 @@
 ---
 category: cli
 subjects:
-  - binary
-  - script
-language: bash/ms-dos/powershell/python
+  - NULL
+language: NULL
 package: NULL
 tags:
   - NULL

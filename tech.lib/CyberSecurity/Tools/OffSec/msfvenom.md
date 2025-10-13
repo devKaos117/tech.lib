@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - binary
+language: c
 package: metasploit-framework
 tags:
   - cybersec/tools/offsec/post_exploit

@@ -1,8 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
-package: NULL
+  - binary
+language: c
 tags:
   - NULL
 package: util-linux-core

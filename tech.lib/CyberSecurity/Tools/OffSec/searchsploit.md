@@ -1,7 +1,8 @@
 ---
 category: cli
 subjects:
-  - command
+  - script
+language: bash
 package: exploitdb
 tags:
   - cybersec/tools/offsec/analysis
