@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: curl
-category: command
 tags:
   - linux/cmds/network/sending
 ---
@@ -43,7 +40,7 @@ AUTHENTICATION OPTIONS
 		(FTP) Enable Kerberos authentication and use
 	--ssl
 		(FTP) (IMAP) (POP3) (SMTP) (LDAP) Try to use SSL/TLS for the connection. Reverts to a non-secure connection if the server does not support SSL/TLS
-	-t, --telnet-option [TTYPE|XDISPLOC|NEW_ENV]=[VALUE]
+	-t, --telnet-option [TTYPE|XDISPLOC|NEW_ENV]=[VAL]
 		Pass options to the telnet protocol
 	
 	--pubkey [PATH]
@@ -72,9 +69,9 @@ AUTHENTICATION OPTIONS
 
 CERTIFICATE OPTIONS
 
-	-E, --cert [CERTIFICATE]:[PASSWORD]
-		(TLS) Use the specified client CERTIFICATE file when getting a file with HTTPS, FTPS or another SSL-based protocol. The certificate must be in PKCS#12 format if using Secure Transport, or PEM format if using any other engine
-	--proxy-cert [CERTIFICATE]:[PASSWORD]
+	-E, --cert [PATH]:[PASSWORD]
+		(TLS) Use the specified client certificate file when getting a file with HTTPS, FTPS or another SSL-based protocol. The certificate must be in PKCS#12 format if using Secure Transport, or PEM format if using any other engine
+	--proxy-cert [PATH]:[PASSWORD]
 		Same as --cert but used in HTTPS proxy context
 	
 	--cert-status
@@ -169,7 +166,7 @@ GENERAL CONFIGURATIONS OPTIONS
 		Specify a text file to read curl arguments from. The command line arguments found in the text file are used as if they were provided on the command line
 	--interface [INTERFACE]
 		Perform an operation using a specified interface. You can enter interface name, IP address or hostname
-	--proto [=|+|-][all|PROTOCOL_NAME]
+	--proto [=|+|-][all|PROTOCOL]
 		Limit what protocols to allow for transfers. Protocols are evaluated left to right, comma separated
 	
 	-4, --ipv4
@@ -201,13 +198,13 @@ REQUEST DATA OPTIONS
 		(HTTP) (IMAP) (SMTP) Extra header to include in information sent
 	-A, --user-agent [STRING]
 		(HTTP) Specify the User-Agent string to send to the HTTP server. To encode blanks in the string, surround the string with single quote marks
-	-b, --cookie [[PATH]|'[DATA]'] [NAME]
+	-b, --cookie [[PATH]|[STRING]] [VAR]
 		(HTTP) Pass the data to the HTTP server in the Cookie header
 	-c, --cookie-jar [PATH]
 		(HTTP) Specify to which file you want curl to write all cookies after a completed operation
 	
 	
-	-X, --request [HTTP|FTP|POP3|IMAP|SMTP]
+	-X, --request [METHOD]
 		Change the method to use when starting the transfer
 	-0, --http1.0
 		(HTTP) Use HTTP version 1.0 instead of using its internally preferred HTTP versions

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
-package: Bash built-in
-category: command
+package: bash
 tags:
   - linux/cmds/file/navigate
 ---
@@ -27,12 +24,6 @@ cd [-P|-L] [PATH]
 -L
 	Forces symbolic links to be followed
 ```
-
-## Exit Status
-- n - status
-
-## Relevant Reading
-- [[]]
 
 ## External Reference
 [manned.org](https://manned.org/cd)

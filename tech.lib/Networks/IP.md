@@ -1,14 +1,15 @@
 ---
-full_form: Internet Protocol
-acronym: IP
+category: protocol
 subjects:
   - networks
+full_form: Internet Protocol
+acronym: IP
 tags:
-  - protocol
+  - networks/protocol
 ---
 
 ## Definition
-The internet protocol is principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[DiffServ]] and [[ECN]] are implemented.
+The internet protocol is principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[Networks/DiffServ]] and [[Networks/TCP|ECN]] are implemented.
 
 ## Addressing Methods
 - **Unicast:** Each destination address uniquely identifies a single receiver endpoint

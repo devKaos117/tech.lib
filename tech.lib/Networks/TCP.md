@@ -1,14 +1,15 @@
 ---
-full_form: Transmission Control Protocol
-acronym: TCP
+category: protocol
 subjects:
   - networks
+full_form: Transmission Control Protocol
+acronym: TCP
 tags:
-  - protocol
+  - networks/protocol
 ---
 
 ## Definition
-One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[IP]]
+One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]]
 
 ## TCP Segment
 ```mermaid
@@ -37,7 +38,7 @@ packet-beta
 	1. **[CWR]{Congestion Window Reduced} \[0x68: 1b\]:** A TCP segment with the ECE flag set was recieved and responded in congestion control mechanism
 	2. **[ECE]{ECN-Echo} \[0x69: 1b\]:** Depending on the SYN flag state, indicates that:
 		- **SYN up:** The sending host is [ECN]{Explicit Congestion Notification} capable
-		- **SYN down:** A packet with the ECN flag set in the [[IP]] header was recieved during normal transmission
+		- **SYN down:** A packet with the ECN flag set in the [[Networks/IP|IP]] header was recieved during normal transmission
 	3. **[URG]{Urgent} \[0x6a: 1b\]:** The urgent pointer field is significant
 	4. **[ACK]{Acknowledge} \[0x6b: 1b\]:** The acknowledgment field is significant
 	5. **[PSH]{Push} \[0x6c: 1b\]:** Push function
@@ -45,7 +46,7 @@ packet-beta
 	7. **[SYN]{Synchronize} \[0x6e: 1b\]:** Synchronize sequence numbers
 	8. **[FIN]{Finalize} \[0x6f: 1b\]:** No more data from sender
 8. **Window \[0x70: 16b\]:** The number of data bytes (begining with the one indicated in the ACK Number) that the sender is willing to accept
-9. **Checksum \[0x80: 16b\]:** A zero padded 16-bit ones' complement of the ones' complement sum of all 16-bit words in the [[TCP#Pseudo-Header|pseudo-header]], header and data
+9. **Checksum \[0x80: 16b\]:** A zero padded 16-bit ones' complement of the ones' complement sum of all 16-bit words in the [[Networks/TCP#Pseudo-Header|pseudo-header]], header and data
 10. **Urgent Pointer \[0x90: 16b\]:** When the URG flag is set, indicates the current positive offset from the sequence number in this segment pointing to last urgent data byte
 11. **Options \[0xa0: 32b\]:** Only present when the data offset is bigger than 5, it indicates TCP options:
 	1. **Kind \[0xa0: 8b\]:**

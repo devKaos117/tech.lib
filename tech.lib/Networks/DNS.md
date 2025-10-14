@@ -1,11 +1,11 @@
 ---
-full_form: Domain Name System
-acronym: DNS
-category:
+category: protocol
 subjects:
   - networks
+full_form: Domain Name System
+acronym: DNS
 tags:
-  - protocol
+  - networks/protocol
 ---
 
 ## Definition

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/file/manage
   - linux/cmds/file/backup
@@ -30,7 +27,7 @@ cp [OPTIONS]... [SOURCE]... [DESTINY]
 
 -b
 	Make a backup of each existing destination file
---backup[=PATH]
+--backup=[PATH]
 	Make a backup of each existing destination file at the given path
 --sparce=[auto|always|never]
 	Control creation of sparse files
@@ -80,9 +77,6 @@ cp [OPTIONS]... [SOURCE]... [DESTINY]
 --version
 	Output version information and exit
 ```
-
-## Relevant Reading
-- [[]]
 
 ## External Reference
 [linux.die.net](https://linux.die.net/man/1/cp)

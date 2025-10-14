@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: rust
 package: bat
-category: command
 tags:
   - linux/cmds/file/read
   - linux/cmds/cli/text
@@ -38,7 +35,7 @@ batcat [OPTIONS]... [FILE]...
 	Set the theme for syntax highlighting
 --list-themes
 	Display a list of supported themes for syntax highlighting
--m, --map-syntax [PATTERN]:[SYNTXA-NAME]
+-m, --map-syntax [PATTERN]:[SYNTAX-NAME]
 	Map a glob pattern to an existing syntax name
 --file-name [STRING]
 	Specify the name to display for a file. The provided name is also used for syntax highlighting
@@ -82,9 +79,6 @@ cache
 --version
 	Output version information and exit
 ```
-
-## Relevant Reading
-- [[]]
 
 ## External Reference
 [github.com](https://github.com/sharkdp/bat)

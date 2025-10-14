@@ -9,9 +9,9 @@ subjects:
 		- [symmetric]{} !!!
 		- [asymmetric]{} !!!
 	- [theory]{} !!!
-		- [concepts]{} !!!
-		- [regulations]{} !!!
-		- [frameworks]{} !!!
+		- [concept]{} !!!
+		- [regulation]{} !!!
+		- [framework]{} !!!
 	- [tools]{} !!!
 		- [cryptography]{} !!!
 			- [hash]{} !!!
@@ -55,8 +55,8 @@ subjects:
 				- [exfiltration]{Stealing data from the compromised system}
 			- [reporting]{Report generation tools}
 -  [foundations]{} !!!
-	- [resources]{} !!!
-	- [authorities]{} !!!
+	- [resource]{} !!!
+	- [authority]{} !!!
 - [linux]{} !!!
 	- [bash]{} !!!
 	- [boot]{} !!!
@@ -113,15 +113,25 @@ subjects:
 	- [boot]{} !!!
 	- [hardware]{} !!!
 	- [io]{} !!!
-- [networking]{} !!!
+- [networks]{} !!!
 	- [architecture]{} !!!
-	- [protocols]{} !!!
+	- [protocol]{} !!!
 - [windows]{} !!!
 
 
 ```
 [BYTES] = [0-9]{1,}([c|w|b])|([K|M|G|T|P|E|Z|Y|R|Q][B|iB])
-[HOST] = 
+[NUMBER]
+[TIME]
+[STRING]
+[INTERFACE]
 [ADDRESS] = 
+[PROTOCOL]
+[METHOD]
+[HOST] = 
 [PORT] = [T|U|]{1..65535}
+[URL]
+[USER]
+[PASSWORD]
+[PATTERN]
 ```

@@ -21,7 +21,7 @@ Host connection establishment and management
 ## local
 Local network management (wifi, bt)
 
-- [[arp]]
+- [[Linux/Commands/arp|arp]]
 - [[arp-scan]]
 - [[nslookup]]
 - [[route]]

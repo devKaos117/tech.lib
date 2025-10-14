@@ -1,10 +1,11 @@
 ---
+category: concept
+subjects:
+  - cybersec
 full_form: NULL
 acronym: NULL
-subjects:
-  - CyberSec
 tags:
-  - concept
+  - cybersec/theory/concept
 ---
 
 ## Definition
@@ -47,3 +48,9 @@ An information asset is a piece of information or data that has value, and those
 ## Confidentiality Breakage Classification
 - **Data Leaks:** Internal party or source exposing sensitive data, usually unintentionally or by accident
 - **Data Breaches:** Unauthorized parties accessing sensitive or confidential information
+
+## Relevant Reading
+- [[]]
+
+## External Reference
+[en.wikipedia.org]()

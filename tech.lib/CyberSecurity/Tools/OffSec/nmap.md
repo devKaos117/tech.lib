@@ -13,7 +13,7 @@ tags:
 
 > [!info] Open source tool for network exploration and security auditing
 
-Nmap was designed to rapidly scan large networks using raw [[IP]] packets in novel ways to determine what hosts are available on the network, what services they are offering, what OS they are running, what type of packet filters/[[firewall]]s are in use, and dozens of other characteristics
+Nmap was designed to rapidly scan large networks using raw [[Networks/IP|IP]] packets in novel ways to determine what hosts are available on the network, what services they are offering, what OS they are running, what type of packet filters/[[Networks/firewall|firewall]]s are in use, and dozens of other characteristics
 
 ## Favorite Uses
 ```sh
@@ -352,9 +352,6 @@ MISCELLANEOUS OPTIONS
 	-V, --version
 		Output version information and exit
 ```
-
-## Exit Status
-- n - status
 
 ## Relevant Reading
 - [[]]

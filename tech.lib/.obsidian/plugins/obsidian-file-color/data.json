@@ -15,43 +15,11 @@
   ],
   "fileColors": [
     {
-      "path": "Compendium/GRC.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Compendium/IANA.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Compendium/Networking Protocols.md",
-      "color": "pv2L5x3kobWSdBJry0yLM"
-    },
-    {
-      "path": "Compendium/Routing Protocols.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Compendium/RFC.md",
       "color": "pv2L5x3kobWSdBJry0yLM"
     },
     {
-      "path": "Compendium/Protocols/IP.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Compendium/Protocols/DHCP.md",
-      "color": "pv2L5x3kobWSdBJry0yLM"
-    },
-    {
-      "path": "Compendium/Protocols/TCP.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Linux/Commands/awk.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Compendium/Protocols/ICMP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -63,11 +31,27 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Compendium/Protocols/SSH.md",
+      "path": "Networks/DNS.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Compendium/Protocols/DNS.md",
+      "path": "Linux/Commands/curl.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/TCP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/IP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/Routing Protocols.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Foundations/IANA.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

@@ -92,7 +92,7 @@ QUERY OPTIONS
 - 10 - Internal error
 
 ## Relevant Reading
-- [[Compendium/Protocols/DNS|DNS]]
+- [[Networks/DNS|DNS]]
 
 ## External Reference
 [github.com](https://github.com/isc-projects/bind9)

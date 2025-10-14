@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cc84d35125a424dd",
+        "id": "a5c120e87de942bd",
         "type": "tabs",
         "children": [
           {
-            "id": "f3fbcb628a0419e0",
+            "id": "f10362421e5f0707",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/batcat.md",
-                "mode": "source",
+                "file": "Compendium/UEFI.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "batcat"
+              "title": "UEFI"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linux/cmds/security",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
-                "collapseAll": false,
+                "file": "Compendium/UEFI.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for UEFI"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Commands Index.md",
+                "file": "Compendium/UEFI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Commands Index"
+              "title": "Outline of UEFI"
             }
           },
           {
@@ -196,44 +196,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f3fbcb628a0419e0",
+  "active": "f10362421e5f0707",
   "lastOpenFiles": [
-    "Linux/Commands/cat.md",
-    "Linux/Commands/bash.md",
-    "Linux/Commands/apt.md",
-    "templates/CLI_TEMPLATE.md",
-    "Linux/Commands/awk.md",
-    "Linux/Commands/alias.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/which.md",
-    "CyberSecurity/Tools/OffSec/wfuzz.md",
-    "CyberSecurity/Tools/OffSec/whois.md",
-    "CyberSecurity/Tools/OffSec/dig.md",
-    "CyberSecurity/Tools/OffSec/msfconsole.md",
-    "CyberSecurity/Tools/OffSec/msfdb.md",
-    "CyberSecurity/Tools/OffSec/msfvenom.md",
-    "CyberSecurity/Tools/OffSec/nikto.md",
-    "CyberSecurity/Tools/OffSec/nmap.md",
-    "CyberSecurity/Tools/OffSec/searchsploit.md",
+    "Compendium/GPT.md",
+    "Compendium/GDPL.md",
+    "Compendium/Boot Loader.md",
+    "Compendium/TCP-IP Model.md",
+    "Compendium/UEFI.md",
+    "Compendium/REST.md",
+    "Compendium/BIOS.md",
+    "Compendium/RFC.md",
+    "Foundations/IANA.md",
+    "tech.lib.md",
+    "Compendium/IANA.md",
+    "CyberSecurity/Theory/GRC.md",
+    "CyberSecurity/Theory/\"ISO/IEC 20000\".md",
+    "CyberSecurity/Theory/\"ISO",
+    "CyberSecurity/Theory/ISO/IEC 20000.md",
+    "CyberSecurity/Theory/ISO",
+    "Compendium/GRC.md",
+    "CyberSecurity/Theory/Information.md",
+    "CyberSecurity/Theory/Regulatory Compliance.md",
+    "Compendium/Information.md",
+    "Networks/Routing Protocols.md",
+    "Compendium/Regulatory Compliance.md",
+    "Compendium/Routing Protocols.md",
+    "Networks/missing.md",
+    "Networks/OSI Model.md",
+    "Missing.md",
+    "Low Level/missing.md",
+    "Networks/DNS.md",
     "Linux/Commands/sedlKw4bu",
     "Linux/Commands/sedCYxb9x",
     "Linux/Commands/sed8tdTPb",
     "Linux/Commands/sedQRoqwn",
-    "Linux/Commands/whatis.md",
     "Linux/Commands/sedPp0l5F",
     "Linux/Commands/sed1Hl4tm",
-    "Linux/Commands/lspci.md",
-    "Linux/Commands/wget.md",
-    "Linux/Commands/ss.md",
-    "Linux/Commands/rsync.md",
-    "Linux/Commands/unset.md",
-    "Linux/Commands/batcat.md",
-    "Linux/Commands/sort.md",
-    "Linux/Commands/pwd.md",
     "CyberSecurity/Tools/Cryptography",
     "CyberSecurity/Tools/Forensics",
-    "CyberSecurity/Tools/DefSec",
-    "CyberSecurity/Tools/OffSec",
     "attachments/icon/gnome.svg",
     "attachments/icon/debian.svg",
     "attachments/icon/archlinux.svg",
