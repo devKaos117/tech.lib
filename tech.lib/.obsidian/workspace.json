@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compendium/UEFI.md",
-                "mode": "preview",
+                "file": "Foundations/RFC.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "UEFI"
+              "title": "RFC"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compendium/UEFI.md",
+                "file": "Foundations/RFC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UEFI"
+              "title": "Backlinks for RFC"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compendium/UEFI.md",
+                "file": "Foundations/RFC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UEFI"
+              "title": "Outline of RFC"
             }
           },
           {
@@ -175,8 +175,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,16 +197,20 @@
   },
   "active": "f10362421e5f0707",
   "lastOpenFiles": [
+    "tech.lib.md",
+    "Foundations/RFC.md",
+    "templates/NOTE_TEMPLATE.md",
+    "Linux/Commands/curl.md",
+    "Foundations/IANA.md",
+    "Networks/REST.md",
+    "Compendium/TCP-IP Model.md",
+    "Low Level/Boot Loader.md",
+    "Low Level/UEFI.md",
+    "Low Level/MBR.md",
+    "Low Level/BIOS.md",
+    "Compendium/UEFI.md",
     "Compendium/GPT.md",
     "Compendium/GDPL.md",
-    "Compendium/Boot Loader.md",
-    "Compendium/TCP-IP Model.md",
-    "Compendium/UEFI.md",
-    "Compendium/REST.md",
-    "Compendium/BIOS.md",
-    "Compendium/RFC.md",
-    "Foundations/IANA.md",
-    "tech.lib.md",
     "Compendium/IANA.md",
     "CyberSecurity/Theory/GRC.md",
     "CyberSecurity/Theory/\"ISO/IEC 20000\".md",
@@ -222,10 +225,6 @@
     "Compendium/Regulatory Compliance.md",
     "Compendium/Routing Protocols.md",
     "Networks/missing.md",
-    "Networks/OSI Model.md",
-    "Missing.md",
-    "Low Level/missing.md",
-    "Networks/DNS.md",
     "Linux/Commands/sedlKw4bu",
     "Linux/Commands/sedCYxb9x",
     "Linux/Commands/sed8tdTPb",

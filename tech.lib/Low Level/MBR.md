@@ -1,16 +1,15 @@
 ---
+category: firmware
+subjects:
+  - NULL
 full_form: Master Boot Record
 acronym: MBR
-subjects:
-  - architecture
-  - OS
 tags:
-  - low-level
-  - boot
+  - low_level/boot
 ---
 
 ## Definition
-The MBR is a legacy and simple boot method (superseded by [[UEFI]]) stored in the first 512 bytes of a disk. Composed by a partition table and a small program intended to pass the control over to the [[Boot Loader]] located at the active partition. It works on a 32-bit addressing scheme, therefore supporting up to $2^{32}$ sectors in a single disk
+The MBR is a legacy and simple boot method (superseded by [[Low Level/UEFI|UEFI]]) stored in the first 512 bytes of a disk. Composed by a partition table and a small program intended to pass the control over to the [[Low Level/Boot Loader|Boot Loader]] located at the active partition. It works on a 32-bit addressing scheme, therefore supporting up to $2^{32}$ sectors in a single disk
 
 ## MBR Table
 1. **Bootstrap Code \[0x0000: 218B\]:** The primary executable code responsible for initiating the boot process
@@ -26,15 +25,15 @@ The MBR is a legacy and simple boot method (superseded by [[UEFI]]) stored in th
 Occupying 64 bytes of the MBR table, it consists of four entries, each of which defines a primary partition with the following information:
 1. **Boot Flag \[0x00: 1B\]:** A flag indicating if the partition is bootable
 2. **Start \[0x01: 3B\]:** The absolute address for the first sector in the partition
-	1. **Starting Head \[0x01: 1B\]:** The [[CHS]] address for the head
-	2. **Starting Sector \[0x02: 1B\]:** The [[CHS]] address for the sector
-	3. **Starting Cylinder \[0x03: 1B\]:** The [[CHS]] address for the cylinder
+	1. **Starting Head \[0x01: 1B\]:** The [[Low Level/CHS|CHS]] address for the head
+	2. **Starting Sector \[0x02: 1B\]:** The [[Low Level/CHS|CHS]] address for the sector
+	3. **Starting Cylinder \[0x03: 1B\]:** The [[Low Level/CHS|CHS]] address for the cylinder
 3. **Partition Type \[0x04: 1B\]:** A flag that indicates the partition type
 4. **End \[0x05: 3B\]:** The absolute address for the last sector in the partition
 	1. **Ending Head \[0x05: 1B\]:** The address for the head
 	2. **Ending Sector \[0x06: 1B\]:** The address for the sector
 	3. **Ending Cylinder \[0x07:1 B\]:** The address for the cylinder
-5. **LBA \[0x08: 4B\]:** The [[LBA]] of the first sector in the partition
+5. **LBA \[0x08: 4B\]:** The [[Low Level/LBA|LBA]] of the first sector in the partition
 6. **Size \[0x0c: 4B\]:** The number of sectors in the partition
 
 ## Partition Types
