@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech.lib.md",
+                "file": "Linux/missing cmds.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "tech.lib"
+              "title": "missing cmds"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech.lib.md",
+                "file": "Linux/missing cmds.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tech.lib"
+              "title": "Backlinks for missing cmds"
             }
           },
           {
@@ -195,8 +195,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37531757115d9005",
+  "active": "becca221a6cb9839",
   "lastOpenFiles": [
+    "Linux/Indexation/cli.md",
+    "Linux/missing cmds.md",
+    "Linux/Indexation/network.md",
+    "Linux/Indexation/file.md",
+    "Linux/Indexation/operation.md",
+    "Linux/Indexation/system.md",
+    "tech.lib.md",
     "Linux/Commands/ss.md",
     "Linux/Commands/awk.md",
     "Linux/Commands/apt.md",
@@ -216,13 +223,6 @@
     "Linux/Commands/history.md",
     "Linux/Commands/tr.md",
     "Linux/Commands/type.md",
-    "Linux/Commands/export.md",
-    "Linux/Commands/alias.md",
-    "Linux/Commands/bash.md",
-    "Linux/Commands/tldr.md",
-    "Linux/Commands/touch.md",
-    "Linux/Commands/tee.md",
-    "Linux/Commands/test.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

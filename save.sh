@@ -3,6 +3,8 @@
 # Script for quickly formating and
 # pushing a commit using git
 
+set -e
+
 echo "============ Git info ============"
 # Check if git is available and show version
 if ! command -v git &> /dev/null; then
