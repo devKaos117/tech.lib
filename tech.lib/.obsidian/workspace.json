@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a5c120e87de942bd",
+        "id": "d4bff5d79e77ccec",
         "type": "tabs",
         "children": [
           {
-            "id": "f10362421e5f0707",
+            "id": "37531757115d9005",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundations/RFC.md",
+                "file": "tech.lib.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "RFC"
+              "title": "tech.lib"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Foundations/RFC.md",
+                "file": "tech.lib.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RFC"
+              "title": "Backlinks for tech.lib"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Foundations/RFC.md",
+                "file": "Linux/Commands/cut.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RFC"
+              "title": "Outline of cut"
             }
           },
           {
@@ -195,36 +195,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f10362421e5f0707",
+  "active": "37531757115d9005",
   "lastOpenFiles": [
-    "tech.lib.md",
-    "Foundations/RFC.md",
-    "templates/NOTE_TEMPLATE.md",
-    "Linux/Commands/curl.md",
-    "Foundations/IANA.md",
-    "Networks/REST.md",
-    "Compendium/TCP-IP Model.md",
-    "Low Level/Boot Loader.md",
-    "Low Level/UEFI.md",
-    "Low Level/MBR.md",
-    "Low Level/BIOS.md",
-    "Compendium/UEFI.md",
-    "Compendium/GPT.md",
-    "Compendium/GDPL.md",
-    "Compendium/IANA.md",
-    "CyberSecurity/Theory/GRC.md",
-    "CyberSecurity/Theory/\"ISO/IEC 20000\".md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/awk.md",
+    "Linux/Commands/apt.md",
+    "Linux/Commands/cat.md",
+    "Linux/Commands/batcat.md",
+    "Linux/Commands/7z.md",
+    "Linux/Commands/which.md",
+    "Linux/Commands/whatis.md",
+    "Linux/Commands/man.md",
+    "Linux/Commands/whereis.md",
+    "Linux/Commands/lscpu.md",
+    "Linux/Commands/wc.md",
+    "Linux/Commands/cut.md",
+    "Linux/Commands/cd.md",
+    "Linux/Commands/wget.md",
+    "Linux/Commands/unset.md",
+    "Linux/Commands/history.md",
+    "Linux/Commands/tr.md",
+    "Linux/Commands/type.md",
+    "Linux/Commands/export.md",
+    "Linux/Commands/alias.md",
+    "Linux/Commands/bash.md",
+    "Linux/Commands/tldr.md",
+    "Linux/Commands/touch.md",
+    "Linux/Commands/tee.md",
+    "Linux/Commands/test.md",
     "CyberSecurity/Theory/\"ISO",
-    "CyberSecurity/Theory/ISO/IEC 20000.md",
     "CyberSecurity/Theory/ISO",
-    "Compendium/GRC.md",
-    "CyberSecurity/Theory/Information.md",
-    "CyberSecurity/Theory/Regulatory Compliance.md",
-    "Compendium/Information.md",
-    "Networks/Routing Protocols.md",
-    "Compendium/Regulatory Compliance.md",
-    "Compendium/Routing Protocols.md",
-    "Networks/missing.md",
     "Linux/Commands/sedlKw4bu",
     "Linux/Commands/sedCYxb9x",
     "Linux/Commands/sed8tdTPb",

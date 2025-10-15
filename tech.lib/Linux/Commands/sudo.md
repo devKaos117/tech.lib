@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: sudo
-category: command
 tags:
   - linux/cmds/system/user
 ---

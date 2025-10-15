@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: usbutils
-category: command
 tags:
   - linux/cmds/system/hardware
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] Display information about USB buses and devices connected to them
 
-Utility for displaying information about USB buses in the system and the devices connected to them. It uses [[udev]]'s hardware database to associate a full human-readable name to the vendor ID and the product ID
+Utility for displaying information about [[Plataform/USB|USB]] buses in the system and the devices connected to them. It uses [[Linux/udev|udev]]'s hardware database to associate a full human-readable name to the vendor ID and the product ID
 
 ## Command
 ```txt
@@ -44,4 +41,5 @@ lsusb [OPTION]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/gregkh/usbutils)
 [linux.die.net](https://linux.die.net/man/8/lsusb)

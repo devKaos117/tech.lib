@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - binary
-language: c
-tags:
-  - NULL
+  - script
+language: bash
 package: nvm-sh
-category: command
 tags:
   - linux/cmds/cli/development
   - linux/cmds/system/package
@@ -17,7 +14,7 @@ tags:
 
 > [!info] Version manager for node.js
 
-POSIX compatible shell tool to manage [[node]] versions
+[[Foundations/POSIX|POSIX]] compatible shell tool to manage [[Linux/Commands/node|node]] versions
 
 ## Command
 ```txt

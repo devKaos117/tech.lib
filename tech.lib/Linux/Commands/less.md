@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: less
-category: command
 tags:
   - linux/cmds/file/read
   - linux/cmds/cli/text
@@ -17,7 +14,7 @@ tags:
 
 > [!info] File Paginator
 
-Similar to [[more]], but allows for backward movement in the file as well as forward movement. Also, less does not have to read the entire input file before starting, so with large input files it starts up faster than text editors
+Similar to [[Linux/Commands/more|more]], but allows for backward movement in the file as well as forward movement. Also, less does not have to read the entire input file before starting, so with large input files it starts up faster than text editors
 
 ## Command
 ```txt
@@ -70,4 +67,5 @@ less [OPTION]... [PATH]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/gwsw/less/)
 [linux.die.net](https://linux.die.net/man/1/less)

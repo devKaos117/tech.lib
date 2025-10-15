@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/file/manage
 ---
@@ -59,5 +56,6 @@ ln [OPTIONS]... [TARGET] [LINK]
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/ln)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html#ln-invocation)

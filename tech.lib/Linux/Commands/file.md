@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: POSIX
-category: command
 tags:
   - linux/cmds/file/inspect
   - linux/cmds/operation/analysis

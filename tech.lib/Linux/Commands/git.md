@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: git
-category: command
 tags:
   - linux/cmds/file/backup
   - linux/cmds/network/sending

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/file/manage
 ---
@@ -39,5 +36,6 @@ mkdir [OPTIONS]... [PATH]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/mkdir)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html#mkdir-invocation)

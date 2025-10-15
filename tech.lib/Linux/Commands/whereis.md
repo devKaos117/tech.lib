@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: util-linux
-category: command
 tags:
   - linux/cmds/cli/help
 ---
@@ -39,4 +36,5 @@ whereis [OPTION]... [COMMAND]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/util-linux/util-linux)
 [linux.die.net](https://linux.die.net/man/1/whereis)

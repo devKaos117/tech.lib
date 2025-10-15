@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: tar
-category: command
 tags:
   - linux/cmds/file/archiving
   - linux/cmds/file/compression
@@ -127,5 +124,7 @@ OPTIONS
 - [[]]
 
 ## External Reference
+[git.savannah.gnu.org](https://git.savannah.gnu.org/cgit/tar.git)
 [linux.die.net](https://linux.die.net/man/1/tar)
+[gnu.org/manual](https://www.gnu.org/software/tar/manual/)
 [gnu.org](https://www.gnu.org/software/tar/)

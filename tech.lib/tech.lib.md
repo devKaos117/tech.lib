@@ -109,10 +109,10 @@ subjects:
 			- [analysis]{Analyzing and inspecting}
 	- [fhs]{} !!!
 	- [kernel]{} !!!
-- [low_level]{} !!!
+- [plataform]{} !!!
 	- [boot]{} !!!
-	- [hardware]{} !!!
-	- [io]{} !!!
+	- [core]{} !!!
+	- [interface]{} !!!
 - [networks]{} !!!
 	- [architecture]{} !!!
 	- [protocol]{} !!!
@@ -121,8 +121,11 @@ subjects:
 
 ```
 [BYTES] = [0-9]{1,}([c|w|b])|([K|M|G|T|P|E|Z|Y|R|Q][B|iB])
+[OCTAL]
 [NUMBER]
+[HEX]
 [TIME]
+[POSIX_TIME]
 [STRING]
 [INTERFACE]
 [ADDRESS] = 

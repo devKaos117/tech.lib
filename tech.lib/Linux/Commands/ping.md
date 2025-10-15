@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: iputils-ping
-category: command
 tags:
   - linux/cmds/network/sending
 ---

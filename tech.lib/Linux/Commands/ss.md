@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: iproute2
-category: command
 tags:
   - linux/cmds/network/monitoring
   - linux/cmds/system/information
@@ -124,4 +121,5 @@ ss [OPTIONS]... [[STATE-FILTER] [PATTERN]]
 - [[]]
 
 ## External Reference
+[git.kernel.org](https://git.kernel.org/pub/scm/network/iproute2/iproute2.git/)
 [linux.die.net](https://linux.die.net/man/8/ss)

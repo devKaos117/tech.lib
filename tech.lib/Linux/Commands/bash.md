@@ -45,4 +45,5 @@ bash [OPTION]... [ARGUMENT]...
 [cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
 [tiswww.case.edu](https://tiswww.case.edu/php/chet/bash/bashtop.html)
 [linux.die.net](https://linux.die.net/man/1/bash)
+[gnu.org/manual](https://www.gnu.org/software/bash/manual/bash.html)
 [gnu.org](https://www.gnu.org/software/bash/)

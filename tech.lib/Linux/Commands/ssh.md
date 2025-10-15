@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: openssh-client
-category: command
 tags:
   - linux/cmds/network/connection
   - linux/cmds/network/sending
@@ -105,6 +102,7 @@ Exits with the exit status of the remote command or with 255 if an error occurre
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/openssh/openssh-portable)
 [openssh.com](https://www.openssh.com/)
 [openssh.com/manual](https://www.openssh.com/manual.html)
 [linux.die.net](https://linux.die.net/man/1/ssh)

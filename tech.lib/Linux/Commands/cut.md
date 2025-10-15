@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/cli/text
   - linux/cmds/operation/filtering
@@ -54,5 +51,6 @@ cut [OPTION]... [PATH]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/cut)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html#cut-invocation)

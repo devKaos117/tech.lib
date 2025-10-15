@@ -79,5 +79,6 @@ cp [OPTIONS]... [SOURCE]... [DESTINY]
 ```
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/cp)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html#cp-invocation)

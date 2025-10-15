@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: python
 package: snapd
-category: command
 tags:
   - linux/cmds/system/package
 ---

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
-package: util-linux-core
-category: command
+package: util-linux
 tags:
   - linux/cmds/file/read
   - linux/cmds/cli/text
@@ -19,7 +16,7 @@ tags:
 
 > [!info] File paginator
 
-filter for paging through text one screenful at a time
+Filter for paging through text one screenful at a time
 
 ## Command
 ```txt
@@ -58,4 +55,5 @@ more [OPTION]... [PATH]
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/util-linux/util-linux)
 [linux.die.net](https://linux.die.net/man/1/more)

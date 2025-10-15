@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: info
-category: command
 tags:
   - linux/cmds/cli/help
 ---

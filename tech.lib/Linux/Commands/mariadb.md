@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: c++
 package: mariadb
-category: command
 tags:
   - linux/cmds/cli/development
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] MariaDB command-line tool
 
-Simple SQL shell, supporting interactive or non-interactive use
+Simple [[Foundations/SQL|SQL]] shell, supporting interactive or non-interactive use
 
 ## Command
 ```txt

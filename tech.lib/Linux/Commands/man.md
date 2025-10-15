@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: man-db
-category: command
 tags:
   - linux/cmds/cli/help
 ---
@@ -76,4 +73,5 @@ man [OPTION]... [1-9] [STRING]
 - [[]]
 
 ## External Reference
+[gitlab.com](https://gitlab.com/man-db/man-db)
 [linux.die.net](https://linux.die.net/man/1/man)

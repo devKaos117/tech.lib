@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: which
-category: command
 tags:
   - linux/cmds/cli/environment
   - linux/cmds/cli/help
@@ -47,4 +44,5 @@ which [OPTION]... [COMMAND]...
 - [[]]
 
 ## External Reference
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/which.git)
 [linux.die.net](https://linux.die.net/man/1/which)

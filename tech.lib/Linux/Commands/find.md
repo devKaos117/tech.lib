@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: findutils
-category: command
 tags:
   - linux/cmds/file/search
   - linux/cmds/operation/filtering
@@ -172,3 +169,4 @@ ACTIONS
 
 ## External Reference
 [linux.die.net](https://linux.die.net/man/1/find)
+[gnu.org](https://www.gnu.org/software/findutils/)

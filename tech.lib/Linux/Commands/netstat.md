@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: net-tools
-category: command
 tags:
   - linux/cmds/network/monitoring
   - linux/cmds/system/information
@@ -83,4 +80,5 @@ netstat [OPTIONS]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/ecki/net-tools)
 [linux.die.net](https://linux.die.net/man/8/netstat)

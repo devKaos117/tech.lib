@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: sed
-category: command
 tags:
   - linux/cmds/cli/text
   - linux/cmds/operation/filtering
@@ -72,5 +69,7 @@ COMMANDS
 - [[]]
 
 ## External Reference
+[gitweb.git.savannah.gnu.org](https://gitweb.git.savannah.gnu.org/gitweb/?p=sed.git)
 [linux.die.net](https://linux.die.net/man/1/sed)
-[gnu.org](https://www.gnu.org/software/sed/manual/sed.html)
+[gnu.org/manual](https://www.gnu.org/software/sed/manual/sed.html)
+[gnu.org](https://www.gnu.org/software/sed/)

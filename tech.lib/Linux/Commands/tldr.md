@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - binary
-language: c
-tags:
-  - NULL
+  - script
+language: python
 package: tldr
-category: command
 tags:
   - linux/cmds/cli/help
 ---
@@ -50,6 +47,7 @@ tldr [OPTION]... [COMMAND]
 - [[]]
 
 ## External Reference
-[github.com](https://github.com/tldr-pages/tldr/tree/main)
+[github.com](https://github.com/tldr-pages/tldr-python-client)
+[github.com/pages](https://github.com/tldr-pages/tldr/tree/main)
 [tldr.sh](https://tldr.sh/)
 [tldr.inbrowser.app](https://tldr.inbrowser.app/pages/common/tldr)

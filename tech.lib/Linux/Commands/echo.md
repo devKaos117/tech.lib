@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/cli/text
 ---
@@ -35,5 +32,6 @@ echo [OPTIONS]... [STRING]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/echo)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/echo-invocation.html#echo-invocation)

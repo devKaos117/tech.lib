@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: grep
-category: command
 tags:
   - linux/cmds/cli/text
   - linux/cmds/operation/filtering
@@ -137,4 +134,5 @@ Other Options
 
 ## External Reference
 [linux.die.net](https://linux.die.net/man/1/grep)
-[gnu.org](https://www.gnu.org/software/grep/manual/grep.html)
+[gnu.org/manual](https://www.gnu.org/software/grep/manual/grep.html)
+[gnu.org](https://www.gnu.org/software/grep/)

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: pciutils
-category: command
 tags:
   - linux/cmds/system/hardware
 ---
@@ -81,4 +78,5 @@ lspci [OPTION]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/pciutils/pciutils)
 [linux.die.net](https://linux.die.net/man/8/lspci)

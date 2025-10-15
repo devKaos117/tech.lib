@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/cli/utilities
   - linux/cmds/operation/conversion
@@ -42,5 +39,6 @@ tr [OPTIONS]... [SET]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/tr)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/tr-invocation.html#tr-invocation)

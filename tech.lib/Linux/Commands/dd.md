@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/file/write
   - linux/cmds/file/manage
@@ -75,5 +72,6 @@ OPERANDS
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/dd)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html#dd-invocation)

@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: wget
-category: command
 tags:
   - linux/cmds/network/recieving
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] Non-interactive network file downloader
 
-Free utility for non-interactive download of files from the Web. Supporting [[Compendium/Protocols/HTTP|HTTP]], [[Compendium/Protocols/HTTP#HTTPS|HTTPS]], and [[Compendium/Protocols/FTP|FTP]] protocols, as well as retrieval through [[Compendium/Protocols/HTTP|HTTP]] proxies, it has been designed for robustness over slow or unstable network connections
+Free utility for non-interactive download of files from the Web. Supporting [[Networks/HTTP|HTTP]], [[Networks/HTTP#HTTPS|HTTPS]], and [[Networks/FTP|FTP]] protocols, as well as retrieval through [[Networks/HTTP|HTTP]] proxies, it has been designed for robustness over slow or unstable network connections
 
 ## Command
 ```txt
@@ -178,4 +175,5 @@ FTP OPTIONS
 
 ## External Reference
 [linux.die.net](https://linux.die.net/man/1/wget)
+[gnu.org/manual](https://www.gnu.org/software/wget/manual/wget.html)
 [gnu.org](https://www.gnu.org/software/wget/)

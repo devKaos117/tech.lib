@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: net-tools
-category: command
 tags:
   - linux/cmds/network/configuration
   - linux/cmds/system
@@ -17,7 +14,7 @@ tags:
 
 > [!info] Network Interface Configurator
 
-Used to configure the [[tech.lib/Linux/Kernel|kernel]]-resident network interfaces. It is used at boot time to set up interfaces as necessary, and after that, it is usually only needed when debugging or when system tuning is needed
+Used to configure the [[Linux/Kernel|kernel]]-resident network interfaces. It is used at boot time to set up interfaces as necessary, and after that, it is usually only needed when debugging or when system tuning is needed
 
 ## Command
 ```txt
@@ -84,4 +81,5 @@ CONFIGURATION
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/ecki/net-tools)
 [linux.die.net](https://linux.die.net/man/8/ifconfig)

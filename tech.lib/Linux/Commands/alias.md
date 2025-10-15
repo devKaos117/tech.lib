@@ -34,4 +34,6 @@ alias [-p] [NAME=VALUE]...
 - [[]]
 
 ## External Reference
-[linux.die.net](https://linux.die.net/man/1/alias)
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
+[gnu.org/manual](https://www.gnu.org/software/bash/manual/bash.html)
+[gnu.org](https://www.gnu.org/software/bash/)

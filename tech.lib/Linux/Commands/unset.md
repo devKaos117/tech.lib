@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
-package: Bash built-in
-category: command
+package: bash
 tags:
   - linux/cmds/cli/environment
 ---
@@ -32,3 +29,6 @@ unset [-f|-v] [STRING]...
 - [[]]
 
 ## External Reference
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
+[gnu.org/manual](https://www.gnu.org/software/bash/manual/bash.html)
+[gnu.org](https://www.gnu.org/software/bash/)

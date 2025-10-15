@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
-package: Bash Built-in
-category: command
+package: bash
 tags:
   - linux/cmds/cli/environment
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] Bash history library
 
-History expansions introduce words from the history list, located in [[File Hierarchy Standard#/home|~/.bash_history]], into the input stream
+History expansions introduce words from the history list, located in [[Linux/File Hierarchy Standard#/home|~/.bash_history]], into the input stream
 
 ## Command
 ```txt
@@ -38,5 +35,6 @@ history [OPTION]... [ARGUMENT]
 - [[]]
 
 ## External Reference
-[linux.die.net](https://linux.die.net/man/3/history)
-[gnu.org](https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html)
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
+[gnu.org/manual](https://www.gnu.org/software/bash/manual/bash.html)
+[gnu.org](https://www.gnu.org/software/bash/)

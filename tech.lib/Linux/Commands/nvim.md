@@ -1,12 +1,9 @@
 ---
 category: cli
 subjects:
-  - binary
-language: c
-tags:
-  - NULL
+  - script
+language: lua
 package: neovim
-category: command
 tags:
   - linux/cmds/file/read
   - linux/cmds/file/write

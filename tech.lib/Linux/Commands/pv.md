@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: pv
-category: command
 tags:
   - linux/cmds/operation/analysis
   - linux/cmds/system/process
@@ -161,4 +158,6 @@ GENERAL OPTIONS
 - [[]]
 
 ## External Reference
+[codeberg.org](https://codeberg.org/ivarch/pv)
+[ivarch.com/pv](https://ivarch.com/programs/pv.shtml)
 [linux.die.net](https://linux.die.net/man/1/pv)

@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: javascript
 package: nodejs-npm
-category: command
 tags:
   - linux/cmds/cli/development
   - linux/cmds/system/package
@@ -17,7 +14,7 @@ tags:
 
 > [!info] Node.js package manager
 
-Package manager for the [[node]] JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently
+Package manager for the [[Linux/Commands/node|node]] JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently
 
 ## Favorite Uses
 ```sh

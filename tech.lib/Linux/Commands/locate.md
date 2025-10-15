@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: unknown
 package: plocate
-category: command
 tags:
   - linux/cmds/file/search
   - linux/cmds/operation/filtering
@@ -17,7 +14,7 @@ tags:
 
 > [!info] Quickly find files by name
 
-Reads one or more databases prepared by [[updatedb]] and writes file names matching at least one of the patterns to standard output, one per line
+Reads one or more databases prepared by [[Linux/Commands/updatedb|updatedb]] and writes file names matching at least one of the patterns to standard output, one per line
 
 ## Command
 ```txt

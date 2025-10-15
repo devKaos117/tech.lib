@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: c++
 package: dnf
-category: command
 tags:
   - linux/cmds/system/package
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] RPM CLI
 
-A package manager for [[rpm]] based Linux distribuitions
+A package manager for [[Linux/Commands/rpm|rpm]] based Linux distribuitions
 
 ## Command
 ```txt
@@ -148,6 +145,6 @@ OPERATIONS
 - [[]]
 
 ## External Reference
-[github.com](https://github.com/rpm-software-management/dnf)
+[github.com](https://github.com/rpm-software-management/dnf5)
 [dnf.readthedocs.io](https://dnf.readthedocs.io/en/latest/index.html#)
 [man7.org](https://man7.org/linux/man-pages/man8/dnf.8.html)

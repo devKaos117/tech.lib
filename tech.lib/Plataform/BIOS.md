@@ -5,11 +5,11 @@ subjects:
 full_form: Basic Input/Output System
 acronym: BIOS
 tags:
-  - low_level/boot
+  - plataform/boot
 ---
 
 ## Definition
-BIOS is a firmware responsible for initializing the computer components, performing hardware tests and providing runtime services for operating systems and boot loaders. Originally stored in [[Low Level/ROM|ROM]] chips, nowadays it's stored on flash memory to allow updates
+BIOS is a firmware responsible for initializing the computer components, performing hardware tests and providing runtime services for operating systems and boot loaders. Originally stored in [[Plataform/ROM|ROM]] chips, nowadays it's stored on flash memory to allow updates
 
 ## Process
 ### 1. Power-on Self-test
@@ -23,7 +23,7 @@ Diagnostic process where the BIOS initiates a series of tests to ensure the func
 7. **Expansion Cards:** Verify the devices responses and configuration through specific commands
 
 ### 2. Configuration
-The BIOS access and load configuration files from the BIOS [[Low Level/ROM|ROM]]/Flash Card, proceeding to the nonvolatile BIOS memory, and lastly from the first bytes from storage devices. Each configuration is overridden by the next one. Some of the most important loaded settings are: boot order, date and time, hardware components initial settings, power management settings and security settings
+The BIOS access and load configuration files from the BIOS [[Plataform/ROM|ROM]]/Flash Card, proceeding to the nonvolatile BIOS memory, and lastly from the first bytes from storage devices. Each configuration is overridden by the next one. Some of the most important loaded settings are: boot order, date and time, hardware components initial settings, power management settings and security settings
 
 ### 3. Basic I/O Devices Initialization
 The basic I/O devices are initialized with feature limitations due to the absence of more complex drivers. Some of the interfaces and its limitations are:
@@ -37,7 +37,7 @@ The basic I/O devices are initialized with feature limitations due to the absenc
 The BIOS defines the boot priority order through consulting it's configuration files and scanning the connected storage devices
 
 ### 5. Boot Loader Execution
-In the final step, the BIOS execute the [[Low Level/Boot Loader|Boot Loader]] and gives the control to it
+In the final step, the BIOS execute the [[Plataform/Boot Loader|Boot Loader]] and gives the control to it
 
 ## External References
 [wikipedia.org/BIOS](https://en.wikipedia.org/wiki/BIOS)

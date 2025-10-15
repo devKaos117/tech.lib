@@ -2,11 +2,8 @@
 category: cli
 subjects:
   - binary
-language: c
-tags:
-  - NULL
+language: javascript
 package: nodejs
-category: command
 tags:
   - linux/cmds/cli/development
 ---
@@ -16,7 +13,7 @@ tags:
 
 > [!info] Node.js interactive shell
 
-Open-source V8 JS engine runtime environment designed to host server-side scripts. Can be installed through [[nvm]]
+Open-source V8 JS engine runtime environment designed to host server-side scripts. Can be installed through [[Linux/Commands/nvm|nvm]]
 
 ## Command
 ```txt

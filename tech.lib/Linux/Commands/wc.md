@@ -3,10 +3,7 @@ category: cli
 subjects:
   - binary
 language: c
-tags:
-  - NULL
 package: coreutils
-category: command
 tags:
   - linux/cmds/cli/text
   - linux/cmds/file/inspect
@@ -43,5 +40,6 @@ wc [OPTION]... [PATH]...
 - [[]]
 
 ## External Reference
+[github.com](https://github.com/coreutils/coreutils)
 [linux.die.net](https://linux.die.net/man/1/wc)
 [gnu.org](https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html#wc-invocation)

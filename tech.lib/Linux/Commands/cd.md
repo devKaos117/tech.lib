@@ -26,4 +26,6 @@ cd [-P|-L] [PATH]
 ```
 
 ## External Reference
-[manned.org](https://manned.org/cd)
+[cgit.git.savannah.gnu.org](https://cgit.git.savannah.gnu.org/cgit/bash.git/)
+[gnu.org/manual](https://www.gnu.org/software/bash/manual/bash.html)
+[gnu.org](https://www.gnu.org/software/bash/)
