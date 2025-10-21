@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Tools/OffSec/medusa.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Tools/OffSec/hashcat.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "medusa"
+              "title": "hashcat"
             }
           }
         ]
@@ -198,9 +198,11 @@
   },
   "active": "37531757115d9005",
   "lastOpenFiles": [
+    "tech.lib.md",
+    "CyberSecurity/Tools/OffSec/hashcat.md",
+    "CyberSecurity/missing.md",
     "CyberSecurity/Tools/OffSec/hydra.md",
     "CyberSecurity/Tools/OffSec/medusa.md",
-    "CyberSecurity/missing.md",
     "CyberSecurity/Tools/OffSec/hash-identifier.md",
     "CyberSecurity/Tools/OffSec/chntpw.md",
     "CyberSecurity/Tools/OffSec/hashid.md",
@@ -214,7 +216,6 @@
     "CyberSecurity/Tools/OffSec/searchsploit.md",
     "CyberSecurity/Tools/OffSec/nmap.md",
     "templates/CLI_TEMPLATE.md",
-    "tech.lib.md",
     "Linux/Commands/less.md",
     "Linux/Commands/more.md",
     "CyberSecurity/Tools/OffSec/github.md",
@@ -223,7 +224,6 @@
     "Windows/missing.md",
     "Linux/missing cmds.md",
     "Linux/Indexation/cli.md",
-    "Linux/Indexation/network.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

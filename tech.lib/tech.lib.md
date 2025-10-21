@@ -120,23 +120,25 @@ subjects:
 
 
 ```
-[BYTES] = [0-9]{1,}([c|w|b])|([K|M|G|T|P|E|Z|Y|R|Q][B|iB])
-[OCTAL]
-[NUMBER]
-[HEX]
-[TIME]
-[POSIX_TIME]
-[STRING]
-[INTERFACE]
+[BYTES] = (\d+)([cw]|[KMGTPEZYRQ]?(?:b|B|iB))?
+[OCTAL] = [0-7]+
+[NUMBER] = \d+
+[HEX] = ([\\0]x)?([0-9a-fA-F]+)
+[CHAR] = .{1}
+[TIME] = 
+[POSIX_TIME] = 
+[STRING] = 
+[INTERFACE] = 
 [ADDRESS] = 
-[SUBNET]
-[SUBNET-SIZE]
-[PROTOCOL]
-[METHOD]
+[SUBNET] = 
+[SUBNET-SIZE] = 
+[PROTOCOL] = 
+[METHOD] = 
 [HOST] = 
-[PORT] = [T|U|]{1..65535}
-[URL]
-[USER]
-[PASSWORD]
-[PATTERN]
+[PORT] = {1..65535}
+[URL] = 
+[USR] = username
+[PWD] = password
+[PATTERN] = string filtering pattern
+[CHARSET]
 ```
