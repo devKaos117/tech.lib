@@ -55,6 +55,15 @@ searchsploit [OPTION]... [ARGMUENT]...
 	Display the help information and exit
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

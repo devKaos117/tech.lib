@@ -51,6 +51,15 @@ prompting the user and log all changed filenames to /tmp/changed
 	Display the help information and exit
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

@@ -171,6 +171,15 @@ nikto [OPTION]... [HOST]...
 	Output version information and exit
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

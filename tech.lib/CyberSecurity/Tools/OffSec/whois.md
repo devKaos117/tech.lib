@@ -75,6 +75,15 @@ whois [OPTION]... [HOST] [OBJECT]
 	Output version information and exit
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

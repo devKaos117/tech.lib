@@ -354,6 +354,15 @@ MISCELLANEOUS OPTIONS
 		Output version information and exit
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[Networks/Ethernet|Ethernet]]
 - [[Networks/TCP|TCP]]

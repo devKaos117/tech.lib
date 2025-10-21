@@ -69,6 +69,15 @@ msfvenom [OPTION]... [PATH]
 	List a module type
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

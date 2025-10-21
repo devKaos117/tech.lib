@@ -193,6 +193,15 @@ COMMANDS
 		Display information useful for debugging
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

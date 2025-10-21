@@ -42,6 +42,15 @@ restart
 	Same as stop and start in sequence
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Relevant Reading
 - [[]]
 

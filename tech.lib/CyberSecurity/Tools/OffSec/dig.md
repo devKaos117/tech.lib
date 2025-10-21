@@ -241,6 +241,15 @@ QUERY OPTIONS
 		Prints all RDATA in unknown RR type presentation format (RFC 3597)
 ```
 
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
+
 ## Exit Status
 - 0 - DNS response received, including NXDOMAIN status
 - 1 - Usage error

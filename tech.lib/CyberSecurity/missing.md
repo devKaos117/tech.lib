@@ -75,7 +75,6 @@ burpsuite
 
 python3-impacket
 
-medusa
 john the ripper
 unshadow
 hashcat
