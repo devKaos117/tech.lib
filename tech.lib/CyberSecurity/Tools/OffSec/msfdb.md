@@ -15,6 +15,11 @@ tags:
 
 Metasploit script that allows you to easily setup and control both a database and a web service for [[msfconsole]].
 
+## Favorite Uses
+```sh
+command options arguments
+```
+
 ## Command
 ```txt
 msfdb [OPTION]... [ACTION]...

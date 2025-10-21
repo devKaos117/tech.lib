@@ -16,6 +16,11 @@ tags:
 
 Perform detailed off-line searches through your locally checked-out copy of the Exploit-DB repository. Particularly useful for security assessments on segregated or air-gapped networks without Internet access.
 
+## Favorite Uses
+```sh
+command options arguments
+```
+
 ## Command
 ```txt
 searchsploit [OPTION]... [ARGMUENT]...

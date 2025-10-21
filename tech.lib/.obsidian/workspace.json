@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/missing cmds.md",
+                "file": "CyberSecurity/Tools/OffSec/hydra.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "missing cmds"
+              "title": "hydra"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/missing cmds.md",
+                "file": "CyberSecurity/Tools/OffSec/hydra.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for missing cmds"
+              "title": "Backlinks for hydra"
             }
           },
           {
@@ -175,7 +175,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -195,34 +196,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "37531757115d9005",
   "lastOpenFiles": [
-    "Linux/Indexation/cli.md",
+    "tech.lib.md",
+    "CyberSecurity/Tools/OffSec/hydra.md",
+    "templates/CLI_TEMPLATE.md",
+    "CyberSecurity/Tools/OffSec/chntpw.md",
+    "CyberSecurity/missing.md",
+    "CyberSecurity/Tools/OffSec/hashid.md",
+    "CyberSecurity/Tools/OffSec/hash-identifier.md",
+    "Linux/Commands/less.md",
+    "Linux/Commands/more.md",
+    "CyberSecurity/Tools/OffSec/github.md",
+    "CyberSecurity/Tools/OffSec/wfuzz.md",
+    "CyberSecurity/Tools/OffSec/dig.md",
+    "CyberSecurity/Tools/OffSec/whois.md",
+    "CyberSecurity/Tools/OffSec/msfvenom.md",
+    "CyberSecurity/Tools/OffSec/msfconsole.md",
+    "CyberSecurity/Tools/OffSec/searchsploit.md",
+    "Networks/missing.md",
+    "CyberSecurity/Tools/OffSec/nmap.md",
+    "CyberSecurity/Tools/OffSec/msfdb.md",
+    "CyberSecurity/Tools/OffSec/nikto.md",
+    "Devices.md",
+    "Windows/missing.md",
     "Linux/missing cmds.md",
+    "Linux/Indexation/cli.md",
     "Linux/Indexation/network.md",
     "Linux/Indexation/file.md",
-    "Linux/Indexation/operation.md",
-    "Linux/Indexation/system.md",
-    "tech.lib.md",
-    "Linux/Commands/ss.md",
-    "Linux/Commands/awk.md",
-    "Linux/Commands/apt.md",
-    "Linux/Commands/cat.md",
-    "Linux/Commands/batcat.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/which.md",
-    "Linux/Commands/whatis.md",
-    "Linux/Commands/man.md",
-    "Linux/Commands/whereis.md",
-    "Linux/Commands/lscpu.md",
-    "Linux/Commands/wc.md",
-    "Linux/Commands/cut.md",
-    "Linux/Commands/cd.md",
-    "Linux/Commands/wget.md",
-    "Linux/Commands/unset.md",
-    "Linux/Commands/history.md",
-    "Linux/Commands/tr.md",
-    "Linux/Commands/type.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

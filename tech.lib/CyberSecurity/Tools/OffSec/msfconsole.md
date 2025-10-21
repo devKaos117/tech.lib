@@ -18,6 +18,11 @@ tags:
 
 The Metasploit Framework is an open-source tool developed for pentesting. It's better used when in conjunction with [[msfdb]].
 
+## Favorite Uses
+```sh
+command options arguments
+```
+
 ## Command
 ```txt
 msfconsole [OPTION]...

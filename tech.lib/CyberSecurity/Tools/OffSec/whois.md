@@ -15,6 +15,11 @@ tags:
 
 Aimed at DNS address specification, it searches for an object in a RFC 3912 database.
 
+## Favorite Uses
+```sh
+command options arguments
+```
+
 ## Command
 ```txt
 whois [OPTION]... [HOST] [OBJECT]

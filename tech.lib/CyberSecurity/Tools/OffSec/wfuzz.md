@@ -15,6 +15,15 @@ tags:
 
 WFuzz is a web application security fuzzer tool and library for Python, providing a framework to automate web applications security assessments.
 
+## Favorite Uses
+```sh
+wfuzz -Z -R 1 -t 16 --hc 404,501 --field timer --field r.method --field code --field url -z list,GET-HEAD-OPTIONS -z file,WORDLIST -X FUZ1Z URL/FUZ2Z
+wfuzz -Z -t 16 --hc 404,501 --field timer --field r.method --field code --field url -z file,WORDLIST -z list,html-php-pdf-txt URL/FU12Z.FUZ2Z
+wfuzz -t 16 --hc CODE -X METHOD --field timer --field r.method --field code --field url -z list,WORDLIST --basic USERNAME:FUZZ URL
+wfuzz -t 16 --hc 404 -X POST --field timer --field r.method --field code --field url -z list,WORDLIST -d "username=USERNAME&password=FUZZ" URL
+```
+
+
 ## Command
 ```txt
 wfuzz [OPTION]... [ARGUMENT]... [URL]

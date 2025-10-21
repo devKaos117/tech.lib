@@ -15,6 +15,11 @@ tags:
 
 Being a combination of `msfpayload` and `msfencode`, this allows for the quick configuration and encoding of payloads from the [[msfconsole]] database.
 
+## Favorite Uses
+```sh
+command options arguments
+```
+
 ## Command
 ```txt
 msfvenom [OPTION]... [PATH]

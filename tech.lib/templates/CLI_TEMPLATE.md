@@ -25,10 +25,19 @@ command options arguments
 command [OPTION]... [ARGUMENT]...
 
 -h, --help
-	Display the help information and exit 
+	Display the help information and exit
 -v, --version
 	Output version information and exit
 ```
+
+## Files
+
+
+## Environmental Variables
+```bash
+VAR=VAL # desc
+```
+
 
 ## Exit Status
 - n - status
