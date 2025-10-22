@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CyberSecurity/Tools/OffSec/hashcat.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -200,6 +200,7 @@
   "lastOpenFiles": [
     "tech.lib.md",
     "CyberSecurity/Tools/OffSec/hashcat.md",
+    "GPT Prompt Template.md",
     "CyberSecurity/missing.md",
     "CyberSecurity/Tools/OffSec/hydra.md",
     "CyberSecurity/Tools/OffSec/medusa.md",
@@ -223,7 +224,6 @@
     "Devices.md",
     "Windows/missing.md",
     "Linux/missing cmds.md",
-    "Linux/Indexation/cli.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

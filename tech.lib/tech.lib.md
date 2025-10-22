@@ -141,4 +141,5 @@ subjects:
 [PWD] = password
 [PATTERN] = string filtering pattern
 [CHARSET]
+[ENCODING]
 ```
