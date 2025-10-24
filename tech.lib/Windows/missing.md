@@ -1,4 +1,6 @@
-system32/config/sam,system
-ntds/NTDS.DIT
-windows/repair
+%SYSTEM_ROOT/system32/config/sam,system
+%SYSTEM_ROOT/%NTDS/ntds.DIT
+%SYSTEM_ROOT/repair
 reg hklm\sam,system
+
+vssadmin

@@ -24,9 +24,17 @@ vulnerability
 exploitation
 authentication
 
+owasp
+nist
 
 pass the hash
 rainbow tables
+lfi
+path traversal
+log poisoning
+brute force
+rce
+reverse shell
 
 ## tools
 hping3
@@ -64,6 +72,8 @@ Feroxbuster
 sublist3r
 theHarvester
 
+crackmapexec
+
 whatweb
 wafw00f
 
@@ -87,6 +97,13 @@ unshadow
 samdump2
 impacket-secretsdump
 mimikatz
+
+https://github.com/danielmiessler/SecLists
+
+win-bin: fgdump, wce
+pth-winexe
+
+responder
 
 macchanger
 zphisher

@@ -94,6 +94,7 @@ mkfs.ext4
 mkfs.fat
 mkfs.ntfs
 mknod
+mkpasswd
 mongosh
 mount
 mpstat

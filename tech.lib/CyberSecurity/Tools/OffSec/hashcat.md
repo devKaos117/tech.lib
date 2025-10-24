@@ -17,7 +17,10 @@ The world's fastest and most advanced password recovery utility, supporting  CPU
 
 ## Favorite Uses
 ```sh
-command options arguments
+hashcat --benchmark-all --example-hashes
+hashcat --speed-only -m HASH_ID
+hashcat -O -o hashcat -m HASH_ID TARGET WORDLIST
+hashcat -O -o hashcat -a 3 --increment -m HASH_ID TARGET
 ```
 
 ## Command
