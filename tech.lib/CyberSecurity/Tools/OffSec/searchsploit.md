@@ -49,6 +49,14 @@ searchsploit [OPTION]... [ARGMUENT]...
 -v, --verbose
 	Increases verbosity
 
+--nmap [PATH]
+	Checks all results in Nmap's XML output with service version
+
+-m, --mirror [ID]
+	Mirror an exploit to the current working directory
+-x, --examine [ID]
+	Examine the exploit using the default paginator
+
 -u
 	Check for and install any exploitdb package updates
 -h, --help

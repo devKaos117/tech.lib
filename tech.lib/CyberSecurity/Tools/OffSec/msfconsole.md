@@ -193,6 +193,8 @@ COMMANDS
 		Display information useful for debugging
 ```
 
+## Extensions
+
 ## Files
 
 

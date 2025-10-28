@@ -31,7 +31,9 @@ command [OPTION]... [ARGUMENT]...
 ```
 
 ## Files
-
+```bash
+/ # desc
+```
 
 ## Environmental Variables
 ```bash

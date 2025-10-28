@@ -93,14 +93,13 @@ burpsuite
 python3-impacket
 
 john the ripper
-unshadow
 samdump2
 impacket-secretsdump
 mimikatz
 
 https://github.com/danielmiessler/SecLists
 
-win-bin: fgdump, wce
+win-bin: wce
 pth-winexe
 
 responder

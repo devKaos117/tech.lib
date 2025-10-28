@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Tools/OffSec/hashcat.md",
-                "mode": "source",
+                "file": "CyberSecurity/Tools/OffSec/fgdump.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hashcat"
+              "title": "fgdump"
             }
           }
         ]
@@ -198,32 +198,32 @@
   },
   "active": "37531757115d9005",
   "lastOpenFiles": [
+    "templates/CLI_TEMPLATE.md",
+    "CyberSecurity/Tools/OffSec/fgdump.md",
     "CyberSecurity/missing.md",
+    "CyberSecurity/Tools/OffSec/unshadow.md",
+    "tech.lib.md",
+    "CyberSecurity/Tools/OffSec/medusa.md",
     "CyberSecurity/Tools/OffSec/hashcat.md",
+    "CyberSecurity/Tools/OffSec/msfconsole.md",
+    "Windows/missing.md",
+    "CyberSecurity/Tools/OffSec/searchsploit.md",
     "CyberSecurity/Tools/OffSec/hydra.md",
     "Linux/Commands/ss.md",
     "Linux/missing cmds.md",
     "Networks/missing.md",
-    "Windows/missing.md",
-    "tech.lib.md",
     "GPT Prompt Template.md",
-    "CyberSecurity/Tools/OffSec/medusa.md",
     "CyberSecurity/Tools/OffSec/hash-identifier.md",
     "CyberSecurity/Tools/OffSec/chntpw.md",
     "CyberSecurity/Tools/OffSec/hashid.md",
     "CyberSecurity/Tools/OffSec/dig.md",
     "CyberSecurity/Tools/OffSec/wfuzz.md",
     "CyberSecurity/Tools/OffSec/whois.md",
-    "CyberSecurity/Tools/OffSec/msfconsole.md",
     "CyberSecurity/Tools/OffSec/msfdb.md",
     "CyberSecurity/Tools/OffSec/msfvenom.md",
     "CyberSecurity/Tools/OffSec/nikto.md",
-    "CyberSecurity/Tools/OffSec/searchsploit.md",
     "CyberSecurity/Tools/OffSec/nmap.md",
-    "templates/CLI_TEMPLATE.md",
     "Linux/Commands/less.md",
-    "Linux/Commands/more.md",
-    "CyberSecurity/Tools/OffSec/github.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",
