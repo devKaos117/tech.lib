@@ -99,9 +99,6 @@ mimikatz
 
 https://github.com/danielmiessler/SecLists
 
-win-bin: wce
-pth-winexe
-
 responder
 
 macchanger

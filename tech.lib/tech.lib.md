@@ -142,4 +142,6 @@ subjects:
 [PATTERN] = string filtering pattern
 [CHARSET]
 [ENCODING]
+[COMMAND]
+[HASH]
 ```

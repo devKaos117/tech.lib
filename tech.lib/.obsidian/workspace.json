@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Tools/OffSec/fgdump.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Tools/OffSec/pwdump.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "fgdump"
+              "title": "pwdump"
             }
           }
         ]
@@ -198,13 +198,17 @@
   },
   "active": "37531757115d9005",
   "lastOpenFiles": [
-    "templates/CLI_TEMPLATE.md",
+    "CyberSecurity/Tools/OffSec/wce.md",
+    "CyberSecurity/Tools/OffSec/pth-winexe.md",
     "CyberSecurity/Tools/OffSec/fgdump.md",
-    "CyberSecurity/missing.md",
-    "CyberSecurity/Tools/OffSec/unshadow.md",
-    "tech.lib.md",
-    "CyberSecurity/Tools/OffSec/medusa.md",
+    "CyberSecurity/Tools/OffSec/pwdump.md",
     "CyberSecurity/Tools/OffSec/hashcat.md",
+    "CyberSecurity/missing.md",
+    "tech.lib.md",
+    "CyberSecurity/Tools/OffSec/hash-identifier.md",
+    "templates/CLI_TEMPLATE.md",
+    "CyberSecurity/Tools/OffSec/unshadow.md",
+    "CyberSecurity/Tools/OffSec/medusa.md",
     "CyberSecurity/Tools/OffSec/msfconsole.md",
     "Windows/missing.md",
     "CyberSecurity/Tools/OffSec/searchsploit.md",
@@ -213,7 +217,6 @@
     "Linux/missing cmds.md",
     "Networks/missing.md",
     "GPT Prompt Template.md",
-    "CyberSecurity/Tools/OffSec/hash-identifier.md",
     "CyberSecurity/Tools/OffSec/chntpw.md",
     "CyberSecurity/Tools/OffSec/hashid.md",
     "CyberSecurity/Tools/OffSec/dig.md",
@@ -221,9 +224,6 @@
     "CyberSecurity/Tools/OffSec/whois.md",
     "CyberSecurity/Tools/OffSec/msfdb.md",
     "CyberSecurity/Tools/OffSec/msfvenom.md",
-    "CyberSecurity/Tools/OffSec/nikto.md",
-    "CyberSecurity/Tools/OffSec/nmap.md",
-    "Linux/Commands/less.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",
