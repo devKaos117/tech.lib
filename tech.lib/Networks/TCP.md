@@ -5,7 +5,7 @@ subjects:
 full_form: Transmission Control Protocol
 acronym: TCP
 tags:
-  - networks/protocol
+  - networks/protocol/transport
 ---
 
 ## Definition

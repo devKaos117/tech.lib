@@ -5,7 +5,7 @@ subjects:
 full_form: Ethernet
 acronym: NULL
 tags:
-  - networks/protocol
+  - plataform/interface
 ---
 
 ## Definition
@@ -32,7 +32,7 @@ packet-beta
 2. **Source MAC Address \[0x06: 6B\]:** The unicast destination [[Low Level/MAC|MAC]] address
 3. **Length/Tag \[0x0C: 2B\]:** Depending on the value, it can be the payload length or the payloads protocol
 	- **Length \[0x0C: 2B\]:** Up to `0x05DC`, it indicates the payload length
-	- **Tag Protocol Identifier(TPID) \[0x0E: 2B\]:** Also called [[Networks/Ethernet#EtherType|EtherType]], it specifies the protocol encapsulated in the payload
+	- **Tag Protocol Identifier(TPID) \[0x0E: 2B\]:** Also called [[Ethernet#EtherType|EtherType]], it specifies the protocol encapsulated in the payload
 4. **Payload \[0x10: 46~1500B\]:** The actual data transmitted, where the size range is to comprehend the 64-byte minimum frame size (preamble and SFD are not part of the header) defined in the [[MAC#CSMA/CD|CSMA/CD]], and the 1500-byte [MTU]{Maximum Transmission Unit} defined by the [[Foundations/IEEE|IEEE]] (jumbo frames exist)
 5. **[FCS]{Frame Check Sequence} \[0x10 + Payload: 4B\]:** A 4-byte [[Low Level/CRC|CRC]] to allow for the detection of any errors
 

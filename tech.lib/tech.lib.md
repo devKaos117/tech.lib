@@ -112,10 +112,13 @@ subjects:
 - [plataform]{} !!!
 	- [boot]{} !!!
 	- [core]{} !!!
-	- [interface]{} !!!
+	- [interface]{Management of raw bit streams and data routing between two nodes}
 - [networks]{} !!!
 	- [architecture]{} !!!
 	- [protocol]{} !!!
+		- [application]{}
+		- [transport]{}
+		- [internet]{}
 - [windows]{} !!!
 
 
@@ -139,6 +142,8 @@ subjects:
 [URL] = 
 [USR] = username
 [PWD] = password
+[USER]
+[GROUP]
 [PATTERN] = string filtering pattern
 [CHARSET]
 [ENCODING]

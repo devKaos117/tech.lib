@@ -5,7 +5,7 @@ subjects:
 full_form: Domain Name System
 acronym: DNS
 tags:
-  - networks/protocol
+  - networks/protocol/application
 ---
 
 ## Definition

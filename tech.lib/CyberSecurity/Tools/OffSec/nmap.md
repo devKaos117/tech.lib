@@ -364,7 +364,7 @@ VAR=VAL # desc
 
 
 ## Relevant Reading
-- [[Networks/Ethernet|Ethernet]]
+- [[Ethernet|Ethernet]]
 - [[Networks/TCP|TCP]]
 - [[Networks/UDP|UDP]]
 - [[Networks/SCTP|SCTP]]

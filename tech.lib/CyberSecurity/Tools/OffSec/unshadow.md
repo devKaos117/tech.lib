@@ -33,4 +33,4 @@ VAR=VAL # desc
 
 ## External Reference
 [github.com](https://github.com/openwall/john)
-[www.openwall.com](https://www.openwall.com/john/)
+[openwall.com](https://www.openwall.com/john/)

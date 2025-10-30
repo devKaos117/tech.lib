@@ -5,7 +5,7 @@ subjects:
 full_form: User Datagram Protocol
 acronym: UDP
 tags:
-  - networks/protocol
+  - networks/protocol/transport
 ---
 
 ## Definition

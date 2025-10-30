@@ -5,11 +5,11 @@ subjects:
 full_form: Internet Protocol
 acronym: IP
 tags:
-  - networks/protocol
+  - networks/protocol/internet
 ---
 
 ## Definition
-The internet protocol is principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[Networks/DiffServ]] and [[Networks/TCP|ECN]] are implemented.
+The internet protocol is principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[Networks/DiffServ|DiffServ]] and [[Networks/TCP|ECN]] are implemented.
 
 ## Addressing Methods
 - **Unicast:** Each destination address uniquely identifies a single receiver endpoint
@@ -71,4 +71,7 @@ packet-beta
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_Protocol)
 [datatracker.ietf.org/rfc791](https://datatracker.ietf.org/doc/html/rfc791)
 [datatracker.ietf.org/rfc820](https://datatracker.ietf.org/doc/html/rfc820)
+[datatracker.ietf.org/rfc4301](https://datatracker.ietf.org/doc/html/rfc4301)
+[datatracker.ietf.org/rfc4302](https://datatracker.ietf.org/doc/html/rfc4302)
+[datatracker.ietf.org/rfc4303](https://datatracker.ietf.org/doc/html/rfc4303)
 [datatracker.ietf.org/rfc8200](https://datatracker.ietf.org/doc/html/rfc8200)

@@ -92,7 +92,6 @@ burpsuite
 
 python3-impacket
 
-john the ripper
 samdump2
 impacket-secretsdump
 mimikatz
