@@ -30,9 +30,9 @@ john [OPTION]... [PATH]...
 ## Files
 ```bash
 /etc/john/john.conf # john behaviour configuration
-~/.john/john.ini # 
+~/.john/john.ini # john rules and tweaks
 ~/.john/john.pot # 
-~/.john/john.rec # 
+~/.john/john.rec # session state file
 ```
 
 ## Environmental Variables

@@ -96,6 +96,9 @@ samdump2
 impacket-secretsdump
 mimikatz
 
+cewl
+crunch
+https://github.com/Mebus/cupp
 https://github.com/danielmiessler/SecLists
 
 responder

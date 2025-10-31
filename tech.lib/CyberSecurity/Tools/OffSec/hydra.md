@@ -18,7 +18,8 @@ Parallelized, modular and flexible login cracker which supports numerous protoco
 
 ## Favorite Uses
 ```sh
-command options arguments
+hydra -v -l USERNAME -P WORDLIST HOST PROTOCOL
+hydra -v -C WORDLIST -f -M TARGET_LIST PROTOCOL 
 ```
 
 ## Command
