@@ -24,10 +24,34 @@ command options arguments
 ```txt
 command [OPTION]... [ARGUMENT]...
 
--h, --help
-	Display the help information and exit
--v, --version
-	Output version information and exit
+SPECIFIC
+
+CONNECTION
+
+OPTIMIZATION
+
+MODE
+
+INTERACTION
+
+INPUT
+
+OUTPUT
+
+ENCODING
+
+FILES
+
+MODULES
+
+OTHERS
+
+HELP
+
+	-h, --help
+		Display the help information and exit
+	-v, --version
+		Output version information and exit
 ```
 
 ## Files

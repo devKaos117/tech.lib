@@ -296,7 +296,7 @@ OUTPUT
 ?b	-	0x00 - 0xff
 ```
 
-## Rule Functions
+## Rules
 ```txt
 :		Nothing					Do nothing (passthrough)
 l		Lowercase				Lowercase all letters

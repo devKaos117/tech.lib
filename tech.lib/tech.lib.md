@@ -126,6 +126,11 @@ subjects:
 [BYTES] = (\d+)([cw]|[KMGTPEZYRQ]?(?:b|B|iB))?
 [OCTAL] = [0-7]+
 [NUMBER] = \d+
+[MIN]
+[MAX]
+[START]
+[END]
+[TOTAL]
 [HEX] = ([\\0]x)?([0-9a-fA-F]+)
 [CHAR] = .{1}
 [TIME] = 
@@ -145,6 +150,7 @@ subjects:
 [USER]
 [GROUP]
 [PATTERN] = string filtering pattern
+[MASK]
 [CHARSET]
 [ENCODING]
 [COMMAND]
