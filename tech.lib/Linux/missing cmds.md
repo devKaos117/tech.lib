@@ -114,7 +114,7 @@ parted
 passwd
 paste
 proxychains
-ps
+ps -> ps axjf || ps -aux
 pstree
 pwgen
 python

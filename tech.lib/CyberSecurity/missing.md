@@ -90,6 +90,9 @@ legion
 maltego
 burpsuite
 
+https://www.kali.org/tools/windows-binaries/
+https://www.kali.org/tools/peass-ng/
+
 python3-impacket
 
 samdump2

@@ -107,5 +107,3 @@ VAR=VAL # desc
 ## External Reference
 [gitlab.com](https://gitlab.com/kalilinux/packages/passing-the-hash)
 [passing-the-hash.blogspot.com](https://passing-the-hash.blogspot.com/)
-[](man)
-[gnu.org](GNU)
