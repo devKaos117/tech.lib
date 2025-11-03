@@ -5,7 +5,7 @@ subjects:
 full_form: NULL
 acronym: NULL
 tags:
-  - NULL
+  - foundations/concept
 ---
 
 ## Definition

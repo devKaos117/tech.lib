@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/find.md",
-                "mode": "preview",
+                "file": "Foundations/Compilation.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "find"
+              "title": "Compilation"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,34 +197,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "37531757115d9005",
+  "active": "becca221a6cb9839",
   "lastOpenFiles": [
+    "Foundations/process.md",
+    "Foundations/Compilation.md",
+    "Foundations/Assembly.md",
     "CyberSecurity/missing.md",
-    "CyberSecurity/Tools/OffSec/msfvenom.md",
-    "Plataform/Ethernet.md",
-    "Networks/REST.md",
-    "Networks/Routing Protocols.md",
-    "Networks/missing.md",
     "Networks/TCP.md",
-    "Networks/ARP.md",
-    "Networks/DNS.md",
-    "Networks/UDP.md",
     "Networks/OSI Model.md",
     "Networks/Internet Protocol Suite.md",
-    "Foundations/API.md",
-    "CyberSecurity/Tools/OffSec/hydra.md",
-    "CyberSecurity/Tools/OffSec/msfconsole.md",
-    "templates/CLI_TEMPLATE.md",
-    "CyberSecurity/Tools/OffSec/john.md",
-    "CyberSecurity/Tools/OffSec/hashcat.md",
-    "Linux/Commands/find.md",
-    "Linux/Commands/bash.md",
-    "Linux/missing cmds.md",
-    "Linux/Commands/pv.md",
-    "Linux/Commands/netstat.md",
-    "CyberSecurity/Tools/OffSec/wfuzz.md",
-    "CyberSecurity/Tools/OffSec/mimikatz.md",
-    "CyberSecurity/Tools/OffSec/pwdump.md",
+    "Networks/IP.md",
+    "Networks/ARP.md",
+    "Networks/UDP.md",
+    "Networks/DNS.md",
+    "Networks/REST.md",
+    "Foundations/IANA.md",
+    "templates/NOTE_TEMPLATE.md",
+    "Networks/missing.md",
+    "Networks/Routing Protocols.md",
+    "Plataform/CPU.md",
+    "Plataform/UEFI.md",
+    "Plataform/BIOS.md",
+    "Plataform/MBR.md",
+    "Plataform/Ethernet.md",
+    "Plataform/Boot Loader.md",
+    "Foundations/RFC.md",
+    "Foundations/firmware.md",
+    "tech.lib.md",
+    "Plataform/DRAM.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

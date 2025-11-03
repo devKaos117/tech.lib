@@ -59,8 +59,8 @@ NVMe M.2 2280 PCIe Gen4
 5150MB/s read
 
 ### Screen
-- [**Samsung Odyssey G3 27" G30D**](https://www.samsung.com/us/computing/monitors/gaming/27-odyssey-g3-g30d-fhd-180hz-1ms-gaming-monitor-with-ergonomic-stand-ls27dg302enxza/)
-- [**Samsung Odyssey G30**](https://www.samsung.com/br/monitors/gaming/odyssey-g3-g30b-24-inch-144hz-fhd-1ms-ls24bg300elmzd/)
+- [**Samsung Odyssey G5 27" 165Hz QHD (2560x1440)**](https://www.samsung.com/us/computing/monitors/gaming/27-odyssey-g55c-qhd-165hz-1ms-mprt-curved-gaming-monitor-ls27cg552enxza/)
+- [**Samsung Odyssey G30 24'' 144Hz FHD (1920x1080)**](https://www.samsung.com/br/monitors/gaming/odyssey-g3-g30b-24-inch-144hz-fhd-1ms-ls24bg300elmzd/)
 
 ### Power Font
 [TUF Gaming 850W Gold](https://www.asus.com/motherboards-components/power-supply-units/tuf-gaming/tuf-gaming-850g/)
@@ -80,8 +80,8 @@ Mid tower, 420x285x385mm
 ## Peripherals
 - [Logitech G502 Hero](https://www.logitechg.com/pt-br/products/gaming-mice/g502-hero-gaming-mouse.html)
 - [Logitech G240](https://www.logitechg.com/pt-br/products/gaming-mouse-pads/g240-cloth-gaming-mouse-pad.html)
-- [Logitech G512]()
-- [Logitech G733]()
+- [Logitech G512](https://www.logitechg.com/pt-br/products/gaming-keyboards/g512-mechanical-gaming-keyboard.920-009400.html)
+- [Logitech G733](https://www.logitechg.com/pt-br/products/gaming-audio/g733-rgb-wireless-headset.981-000863.html)
 - [Redragon Darknets GS570](https://www.redragon.com.br/soundbar-darknets)
 - [Dualsense Midnight](https://www.playstation.com/pt-br/accessories/dualsense-wireless-controller/)
 

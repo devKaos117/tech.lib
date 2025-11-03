@@ -1,7 +1,7 @@
 ---
 category: firmware
 subjects:
-  - NULL
+  - firmware
 full_form: Basic Input/Output System
 acronym: BIOS
 tags:

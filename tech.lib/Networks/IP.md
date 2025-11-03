@@ -69,9 +69,11 @@ packet-beta
 
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_Protocol)
-[datatracker.ietf.org/rfc791](https://datatracker.ietf.org/doc/html/rfc791)
-[datatracker.ietf.org/rfc820](https://datatracker.ietf.org/doc/html/rfc820)
-[datatracker.ietf.org/rfc4301](https://datatracker.ietf.org/doc/html/rfc4301)
-[datatracker.ietf.org/rfc4302](https://datatracker.ietf.org/doc/html/rfc4302)
-[datatracker.ietf.org/rfc4303](https://datatracker.ietf.org/doc/html/rfc4303)
-[datatracker.ietf.org/rfc8200](https://datatracker.ietf.org/doc/html/rfc8200)
+[RFC 791 - IP Specification](https://datatracker.ietf.org/doc/html/rfc791)
+[RFC 1700 - Assigned Numbers](https://datatracker.ietf.org/doc/html/rfc1700)
+[RFC 2474 - DS Field](https://datatracker.ietf.org/doc/html/rfc2474)
+[RFC 3168 - IP ECN](https://datatracker.ietf.org/doc/html/rfc3168)
+[RFC 4301 - Security Architecture for IP](https://datatracker.ietf.org/doc/html/rfc4301)
+[RFC 4302 - IP Authentication Header](https://datatracker.ietf.org/doc/html/rfc4302)
+[RFC 4303 - IP ESP](https://datatracker.ietf.org/doc/html/rfc4303)
+[RFC 8200 - IPv6 Specification](https://datatracker.ietf.org/doc/html/rfc8200)

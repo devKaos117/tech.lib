@@ -1,7 +1,7 @@
 ---
 category: firmware
 subjects:
-  - NULL
+  - firmware
 full_form: Master Boot Record
 acronym: MBR
 tags:

@@ -57,6 +57,7 @@ subjects:
 -  [foundations]{} !!!
 	- [resource]{} !!!
 	- [authority]{} !!!
+	- [concept]{} !!!
 - [linux]{} !!!
 	- [bash]{} !!!
 	- [boot]{} !!!

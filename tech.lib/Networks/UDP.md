@@ -47,4 +47,4 @@ packet-beta
 
 ## External References
 - [en.wikipedia.org](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
-- [datatracker.ietf.org/rfc768](https://datatracker.ietf.org/doc/html/rfc768)
+- [RFC 768 - UDP](https://datatracker.ietf.org/doc/html/rfc768)

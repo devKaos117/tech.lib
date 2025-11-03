@@ -51,5 +51,5 @@ _e.g.:_
 
 ## External Reference
 [en.wikipedia.org](https://en.wikipedia.org/wiki/OSI_model)
-[datatracker.ietf.org/rfc1122](https://datatracker.ietf.org/doc/html/rfc1122)
-[datatracker.ietf.org/rfc1123](https://datatracker.ietf.org/doc/html/rfc1123)
+[RFC 1122 - Communication Layers](https://datatracker.ietf.org/doc/html/rfc1122)
+[RFC 1123 - Application and Support](https://datatracker.ietf.org/doc/html/rfc1123)
