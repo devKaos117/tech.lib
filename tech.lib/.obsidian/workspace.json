@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundations/Compilation.md",
+                "file": "CyberSecurity/missing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Compilation"
+              "title": "missing"
             }
           }
         ]
@@ -197,10 +197,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "37531757115d9005",
   "lastOpenFiles": [
-    "Foundations/process.md",
+    "Linux/Commands/as.md",
+    "Linux/Commands/nasm.md",
+    "tech.lib.md",
+    "Linux/Commands/ss.md",
+    "Linux/missing cmds.md",
     "Foundations/Compilation.md",
+    "Foundations/process.md",
     "Foundations/Assembly.md",
     "CyberSecurity/missing.md",
     "Networks/TCP.md",
@@ -220,11 +225,6 @@
     "Plataform/BIOS.md",
     "Plataform/MBR.md",
     "Plataform/Ethernet.md",
-    "Plataform/Boot Loader.md",
-    "Foundations/RFC.md",
-    "Foundations/firmware.md",
-    "tech.lib.md",
-    "Plataform/DRAM.md",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",

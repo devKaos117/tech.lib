@@ -99,7 +99,6 @@ mongosh
 mount
 mpstat
 mysql
-nasm
 nc
 neofetch
 net
