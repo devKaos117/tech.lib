@@ -41,12 +41,12 @@ packet-beta
 
 ## EtherType
 - `0x0800`: [[Networks/IP#IPv4|IPv4]]
-- `0x0806`: [[Networks/ARP]]
-- `0x0842`: [[Networks/Wake-on-LAN]]
+- `0x0806`: [[Networks/ARP|ARP]]
+- `0x0842`: [[Networks/Wake-on-LAN|Wake-on-LAN]]
 - `0x86DD`: [[Networks/IP#IPv6|IPv6]]
-- `0x8863`: [[Networks/PPPoE]] Discovery
-- `0x8864`: [[Networks/PPPoE]] Session
-- `0x88CC`: [[Networks/LLDP]]
+- `0x8863`: [[Networks/PPPoE|PPPoE]] Discovery
+- `0x8864`: [[Networks/PPPoE|PPPoE]] Session
+- `0x88CC`: [[Networks/LLDP|LLDP]]
 
 ## External References
 [en.wikipedia.org/Ethernet](https://en.wikipedia.org/wiki/Ethernet)

@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Definition
-An [[Foundations/API|Foundations/]] is a software architecture design, bundling a set of definitions and protocols for building and integrating distributed systems through interfaces, designed to rule the communication of different software components. The REST is a set of architectural constraints for a network distributed system's [[Foundations/API|Foundations]] for assuring that information is transferred via well-recognized, language-agnostic, and reliably standardized client/server interactions
+REST is a set of architectural constraints for a network distributed system's [[Foundations/API|API]] for assuring that information is transferred via well-recognized, language-agnostic, and reliably standardized client/server interactions
 
 ## Constraints
 - **Client/Server -** The architecture is composed by clients, servers, and resources, with requests being managed through [[Networks/HTTP|HTTP]]

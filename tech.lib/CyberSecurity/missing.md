@@ -29,7 +29,9 @@ nist
 
 pass the hash
 rainbow tables
-lfi
+code injection -> SQL injection, LDAP injection, XSS
+local file inclusion
+remote file inclusion
 path traversal
 log poisoning
 brute force

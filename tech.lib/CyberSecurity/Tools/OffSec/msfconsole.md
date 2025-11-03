@@ -193,10 +193,9 @@ COMMANDS
 		Display information useful for debugging
 ```
 
-## Extensions
+## Modules
 
 ## Files
-
 
 ## Environmental Variables
 ```bash
