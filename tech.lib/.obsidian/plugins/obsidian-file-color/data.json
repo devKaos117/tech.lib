@@ -85,6 +85,30 @@
     {
       "path": "Linux/Commands/nasm.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Foundations/Boolean Algebra.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Commands/as.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/PAM.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Regulatory Compliance.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/GRC.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Vulnerability.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

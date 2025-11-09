@@ -2,7 +2,7 @@
 category: cli
 subjects:
   - binary
-language: c
+language: bytecode
 package: binutils
 tags:
   - linux/cmds/cli/development

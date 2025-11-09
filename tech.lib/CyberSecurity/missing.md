@@ -20,23 +20,16 @@ Hash-based Message Authentication Code
 pk cryptography
 Hash LM, NTLM
 
-vulnerability
-exploitation
-authentication
+Isolate AuthN, Authorization and Auditing from IAM?
 
-owasp
-nist
+SSO (SAML)
+OAuth
+OpenID
+JWT
+PKCE
 
-pass the hash
-rainbow tables
-code injection -> SQL injection, LDAP injection, XSS
-local file inclusion
-remote file inclusion
-path traversal
-log poisoning
-brute force
-rce
-reverse shell
+SIEM
+SOAR
 
 ## tools
 hping3

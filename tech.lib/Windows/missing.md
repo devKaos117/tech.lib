@@ -4,3 +4,5 @@
 reg hklm\sam,system
 
 vssadmin
+
+api monitor

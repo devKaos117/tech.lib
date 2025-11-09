@@ -12,7 +12,7 @@ tags:
 Abstract concept of what is conveyed or represented by a particular arrangement or sequence of things, defined in computer science as “data as processed, stored, or transmitted by a computer”
 
 ## CIA Triad
-It is a set of foundational principles in cybersecurity, describing a model designed to guide policies for infosec within an organization:
+It is a set of foundational principles in cybersecurity, describing a model designed to guide policies for information security within an organization:
 
 - **Confidentiality:** Data is protected from unauthorized access
 - **Integrity:** Data is protected from unauthorized changes

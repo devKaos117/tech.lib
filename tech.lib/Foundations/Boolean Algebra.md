@@ -5,7 +5,7 @@ subjects:
 full_form: NULL
 acronym: NULL
 tags:
-  - NULL
+  - foundations/resource
 ---
 
 ## Definition
@@ -16,4 +16,4 @@ tags:
 
 ## External Reference
 [en.wikipedia.org]()
-[RFCNNNN - NAME](https://datatracker.ietf.org/doc/html/rfcNNNN)
+[RFC - NAME](https://datatracker.ietf.org/doc/html/)

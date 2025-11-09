@@ -3,6 +3,9 @@ category: list
 subjects:
   - tags
 ---
+[RFC4949 - Internet Security Glossary v2](https://datatracker.ietf.org/doc/html/rfc4949)
+
+## Tags
 -  [cybersec]{} !!!
 	- [cryptography]{} !!!
 		- [hash]{} !!!

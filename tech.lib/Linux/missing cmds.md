@@ -43,6 +43,7 @@ fsck
 fsck.fat
 fuser
 gcc
+gdb
 gdisk
 getent
 glxinfo
@@ -71,6 +72,7 @@ iwconfig
 job
 journalctl
 kill
+ldd
 losetup
 lp
 lpq
@@ -82,6 +84,7 @@ lshw
 lsmod
 lsof
 lsscsi
+ltrace
 luksformat
 lvm
 lynx
