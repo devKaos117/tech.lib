@@ -5,7 +5,7 @@ subjects:
 full_form: Dynamic Random-Access Memory
 acronym: DRAM
 tags:
-  - plataform/core
+  - platform/core
 ---
 
 ## Definition

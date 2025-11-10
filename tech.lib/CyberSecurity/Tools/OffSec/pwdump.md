@@ -59,5 +59,4 @@ VAR=VAL # desc
 - [[]]
 
 ## External Reference
-[github.com](github)
 [foofus.net](http://foofus.net/goons/fizzgig/pwdump/)

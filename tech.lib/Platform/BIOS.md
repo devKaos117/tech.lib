@@ -5,7 +5,7 @@ subjects:
 full_form: Basic Input/Output System
 acronym: BIOS
 tags:
-  - plataform/boot
+  - platform/boot
 ---
 
 ## Definition
@@ -27,9 +27,9 @@ The BIOS access and load configuration files from the BIOS [[Plataform/ROM|ROM]]
 
 ### 3. Basic I/O Devices Initialization
 The basic I/O devices are initialized with feature limitations due to the absence of more complex drivers. Some of the interfaces and its limitations are:
-- **[[PS/2]] & [[USB]]:** For mouse and keyboard, it's limited to basic pointer movement and keystrokes
-- **[[RS-232]] & [[UART]]:** Low-speed character-based communication
-- **[[Centronics Port]]:** Limited data transfer rates and simple protocols
+- **[[Plataform/PS2 Port|PS/2]] & [[Plataform/USB|USB]]:** For mouse and keyboard, it's limited to basic pointer movement and keystrokes
+- **[[Plataform/RS-232|RS-232]] & [[Plataform/UART|UART]]:** Low-speed character-based communication
+- **[[Plataform/Centronics Port|Centronics Port]]:** Limited data transfer rates and simple protocols
 - **Video Adapters:** Basic text-mode display
 - **Network Adapters:** Basic network boot functionalities
 
@@ -37,7 +37,7 @@ The basic I/O devices are initialized with feature limitations due to the absenc
 The BIOS defines the boot priority order through consulting it's configuration files and scanning the connected storage devices
 
 ### 5. Boot Loader Execution
-In the final step, the BIOS execute the [[Plataform/Boot Loader|Boot Loader]] and gives the control to it
+In the final step, the BIOS execute the [[Boot Loader|Boot Loader]] and gives the control to it
 
 ## External References
 [wikipedia.org/BIOS](https://en.wikipedia.org/wiki/BIOS)

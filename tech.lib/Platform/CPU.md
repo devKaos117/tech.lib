@@ -5,7 +5,7 @@ subjects:
 full_form: Central Processing Unit
 acronym: CPU
 tags:
-  - plataform/core
+  - platform/core
 ---
 
 ## Definition

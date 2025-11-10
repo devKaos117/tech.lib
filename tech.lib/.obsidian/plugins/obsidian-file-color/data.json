@@ -63,11 +63,11 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Plataform/CPU.md",
+      "path": "Platform/CPU.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Plataform/DRAM.md",
+      "path": "Platform/DRAM.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -107,7 +107,7 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Theory/Vulnerability.md",
+      "path": "CyberSecurity/Theory/Attack Techniques.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

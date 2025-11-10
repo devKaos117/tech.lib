@@ -5,7 +5,7 @@ subjects:
 full_form: NULL
 acronym: NULL
 tags:
-  - plataform/boot
+  - platform/boot
 ---
 
 ## Definition

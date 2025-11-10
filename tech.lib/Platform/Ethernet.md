@@ -5,7 +5,7 @@ subjects:
 full_form: Ethernet
 acronym: NULL
 tags:
-  - plataform/interface
+  - platform/interface
 ---
 
 ## Definition

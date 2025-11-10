@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "eebb17f3e885aa05",
+        "id": "cef74c6bedb153cb",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Vulnerability.md",
+                "file": "CyberSecurity/Theory/Exploit.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vulnerability"
+              "title": "Exploit"
             }
           }
         ]
@@ -127,7 +127,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,33 +199,35 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
-    "CyberSecurity/missing.md",
-    "CyberSecurity/Theory/Vulnerability.md",
-    "tech.lib.md",
-    "CyberSecurity/Theory/PAM.md",
-    "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/Exploit.md",
-    "CyberSecurity/Theory/GRC.md",
-    "CyberSecurity/Theory/Information.md",
-    "CyberSecurity/Theory/Regulatory Compliance.md",
-    "templates/NOTE_TEMPLATE.md",
-    "templates/CLI_TEMPLATE.md",
-    "LLM Prompts/Notes.md",
-    "LLM Prompts/PowerShell Ping-Pong.md",
-    "templates/PROMPT_TEMPLATE.md",
-    "LLM Prompts/Template.md",
-    "LLM Prompts",
-    "CyberSecurity/Tools/OffSec/msfvenom.md",
-    "CyberSecurity/Tools/OffSec/hydra.md",
-    "CyberSecurity/Theory/Authentication.md",
+    "CyberSecurity/Theory/Vulnerability.md",
+    "CyberSecurity/missing.md",
     "Missing.md",
-    "Linux/Commands/nasm.md",
-    "Linux/Commands/as.md",
-    "CyberSecurity/Tools/OffSec/nmap.md",
-    "Linux/missing cmds.md",
-    "Devices.md",
-    "Windows/missing.md",
-    "Foundations/Boolean Algebra.md",
+    "LLM Prompts/Notes.md",
+    "CyberSecurity/Theory/Information.md",
+    "Platform/Boot Loader.md",
+    "Platform/BIOS.md",
+    "CyberSecurity/Tools/OffSec/msfconsole.md",
+    "Platform/missing.md",
+    "Platform/Ethernet.md",
+    "Platform/CPU.md",
+    "Platform/DRAM.md",
+    "Platform/UEFI.md",
+    "Platform/MBR.md",
+    "CyberSecurity/Theory/Attack Techniques.md",
+    "tech.lib.md",
+    "CyberSecurity/Theory/GRC.md",
+    "CyberSecurity/Tools/OffSec/pwdump.md",
+    "Plataform/PS/2.md",
+    "Plataform/PS",
+    "Plataform/\"PS/2\".md",
+    "Plataform/\"PS",
+    "Plataform/PS%2F2.md",
+    "Linux/Commands/snap.md",
+    "Networks/missing.md",
+    "Networks/REST.md",
+    "CyberSecurity/Theory/PAM.md",
+    "LLM Prompts",
     "CyberSecurity/Theory/\"ISO",
     "CyberSecurity/Theory/ISO",
     "Linux/Commands/sedlKw4bu",
@@ -233,8 +235,6 @@
     "Linux/Commands/sed8tdTPb",
     "Linux/Commands/sedQRoqwn",
     "Linux/Commands/sedPp0l5F",
-    "Linux/Commands/sed1Hl4tm",
-    "CyberSecurity/Tools/Cryptography",
     "attachments/icon/gnome.svg",
     "attachments/icon/debian.svg",
     "attachments/icon/archlinux.svg",

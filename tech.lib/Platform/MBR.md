@@ -5,11 +5,11 @@ subjects:
 full_form: Master Boot Record
 acronym: MBR
 tags:
-  - plataform/boot
+  - platform/boot
 ---
 
 ## Definition
-The MBR is a legacy and simple boot method (superseded by [[Plataform/UEFI|UEFI]]) stored in the first 512 bytes of a disk. Composed by a partition table and a small program intended to pass the control over to the [[Plataform/Boot Loader|Boot Loader]] located at the active partition. It works on a 32-bit addressing scheme, therefore supporting up to $2^{32}$ sectors in a single disk
+The MBR is a legacy and simple boot method (superseded by [[UEFI|UEFI]]) stored in the first 512 bytes of a disk. Composed by a partition table and a small program intended to pass the control over to the [[Boot Loader|Boot Loader]] located at the active partition. It works on a 32-bit addressing scheme, therefore supporting up to $2^{32}$ sectors in a single disk
 
 ## MBR Table
 1. **Bootstrap Code \[0x0000: 218B\]:** The primary executable code responsible for initiating the boot process

@@ -105,3 +105,7 @@
 	- Lei Carolina Dieckmann
 	- Marco Civil da Internet
 	- LGPD
+- Assembly:
+	- Return-Oriented Programming (ROP)
+	- Jump-Oriented Programming (JOP)
+	- Call-Oriented Programming (COP)

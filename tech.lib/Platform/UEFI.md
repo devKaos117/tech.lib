@@ -5,20 +5,20 @@ subjects:
 full_form: Unified Extensible Firmware Interface
 acronym: UEFI
 tags:
-  - plataform/boot
+  - platform/boot
 ---
 
 ## Definition
-UEFI is a open standard modern booting firmware architecture designed to supersede the [[Plataform/MBR|MBR]], being faster, more flexible, modular, robust and supporting better functions. Although the [[Plataform/MBR|MBR]] boot is not trusted anymore due to its numerous known security vulnerabilities and exploits, the UEFI supports a [[Plataform/CSM|CSM]] booting process for Legacy [[Plataform/BIOS|BIOS]] [OS]{Operating System}
+UEFI is a open standard modern booting firmware architecture designed to supersede the [[MBR|MBR]], being faster, more flexible, modular, robust and supporting better functions. Although the [[MBR|MBR]] boot is not trusted anymore due to its numerous known security vulnerabilities and exploits, the UEFI supports a [[Plataform/CSM|CSM]] booting process for Legacy [[BIOS|BIOS]] [OS]{Operating System}
 
 ## GUID Partition Table
-Being more flexible and robust than [[Plataform/MBR|MBR]], the [[Plataform/GPT|GPT]] uses a 64-bit addressing scheme and its stored in multiple locations on the disk to handle corruption. It uses [[Plataform/UUID|UUID]]'s and has a virtually unlimited number of partitions, supporting a theoretical disk limit of 9 ZB
+Being more flexible and robust than [[MBR|MBR]], the [[Plataform/GPT|GPT]] uses a 64-bit addressing scheme and its stored in multiple locations on the disk to handle corruption. It uses [[Plataform/UUID|UUID]]'s and has a virtually unlimited number of partitions, supporting a theoretical disk limit of 9 ZB
 
 ## EFI System Partition
-Typically a [[Plataform/FAT#FAT32|FAT32]] with 100MB minimum sized partition, the ESP is where UEFI applications, drivers, bootloaders, its configuration files, the [[Plataform/MBR|MBR]] and [[Plataform/GPT|GPT]] are stored
+Typically a [[Plataform/FAT#FAT32|FAT32]] with 100MB minimum sized partition, the ESP is where UEFI applications, drivers, bootloaders, its configuration files, the [[MBR|MBR]] and [[Plataform/GPT|GPT]] are stored
 
 ## Classes
-1. **Class 0:** Legacy [[Plataform/BIOS|BIOS]];
+1. **Class 0:** Legacy [[BIOS|BIOS]];
 2. **Class 1:** UEFI with [[Plataform/CSM|CSM]] and no external interfaces;
 3. **Class 2:** UEFI with [[Plataform/CSM|CSM]] and external interfaces;
 4. **Class 3:** UEFI without [[Plataform/CSM|CSM]] and with external interfaces;
