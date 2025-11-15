@@ -109,6 +109,22 @@
     {
       "path": "CyberSecurity/Theory/Attack Techniques.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/SOAP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/GraphQL.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Vulnerability.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

@@ -9,6 +9,7 @@ blockdev
 bpytop
 bunzip2
 bzip2
+https://www.kali.org/tools/cadaver/
 cal
 chgrp
 chmod
@@ -111,6 +112,7 @@ nordvpn
 ntfs-3g
 ntfsfix
 ntfslabel
+od
 openvpn
 parted
 passwd

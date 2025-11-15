@@ -30,12 +30,19 @@ PKCE
 
 SIEM
 SOAR
+EDR
+Antivirus
+Firewall
+WAF
+
+Control Flow Guard
+Data Execution Prevention
+Address Space Layout Randomization
 
 ## tools
 hping3
 netcat
 ncat
-cryptcat
 snmpset
 socat
 
@@ -52,6 +59,9 @@ arping
 arp-scan
 nbtscan
 https://github.com/owasp-amass/amass
+sublist3r
+theHarvester
+https://github.com/cosad3s/postleaks
 
 dirb
 fierce
@@ -64,8 +74,11 @@ snmp-check
 smbmap
 ffuf
 Feroxbuster
-sublist3r
-theHarvester
+https://github.com/assetnote/kiterunner
+https://github.com/cerberauth/vulnapi
+davtester
+
+https://github.com/s0md3v/XSStrike
 
 crackmapexec
 
@@ -84,6 +97,9 @@ https://github.com/projectdiscovery/nuclei
 legion
 maltego
 burpsuite
+https://github.com/zaproxy/zaproxy
+
+https://github.com/ticarpi/jwt_tool
 
 https://www.kali.org/tools/windows-binaries/
 https://www.kali.org/tools/peass-ng/
@@ -94,6 +110,8 @@ samdump2
 impacket-secretsdump
 mimikatz
 
+https://github.com/corelan/mona
+
 cewl
 crunch
 https://github.com/Mebus/cupp
@@ -101,35 +119,12 @@ https://github.com/danielmiessler/SecLists
 
 responder
 
+msf-pattern_create
+msf-pattern_offset
+msf-nasm_shell
+
 macchanger
 zphisher
 urlcrazy
 
-chisel
-
-iptables
-ip6tables
-
-
-exiftool
-openssl
-tcpdump
-wireshark
-
-
-sum
-cksum
-md5sum
-shasum
-sha1sum
-sha256sum
-sha512sum
-
-openssl
-gpg
-
-
-msitools
-
-
-snort
+https://www.kali.org/tools/chisel/
