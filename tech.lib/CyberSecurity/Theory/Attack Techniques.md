@@ -35,12 +35,13 @@ tags:
 - Heap Smashing
 
 ### Arbitrary Command Execution
-- Remote Code Evaluation
+- [rce]{Remote Code Evaluation}
 - Local Code Evaluation
 	- log poisoning
-- SQL Injection
+- [SQLi]{SQL Injection}
 	- Blind
 	- Error Based
+	- Time Based
 	- Auth Bypass
 	- Bypass Addslashes
 - LDAP Injection
@@ -58,6 +59,7 @@ tags:
 ### Confidentiality and Integrity
 - [MITM]{Man-In-The-Middle}
 - Full Path Disclosure
+- Local File Disclosure
 
 ### Denial-of-Service
 - Resource Exhaustion
@@ -68,7 +70,13 @@ tags:
 ### Resource Path Manipulation
 - Path Traversal
 - Local File Inclusion
+	- null byte
+	- PHP Wrappers
 - Remote File Inclusion
+- Bypass upload
+	- file extension
+	- .htaccess
+	- content type
 
 
 Web Application & Injection Attacks

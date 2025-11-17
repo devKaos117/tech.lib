@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Attack Techniques.md",
+                "file": "CyberSecurity/Tools/OffSec/msfconsole.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Attack Techniques"
+              "title": "msfconsole"
             }
           }
         ]
@@ -199,9 +199,20 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
-    "Linux/missing cmds.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
+    "CyberSecurity/Tools/OffSec/wfuzz.md",
+    "CyberSecurity/Tools/OffSec/hydra.md",
+    "Linux/Commands/ss.md",
     "CyberSecurity/missing.md",
+    "CyberSecurity/Tools/OffSec/dig.md",
+    "CyberSecurity/Theory/Attack Techniques.md",
+    "Foundations/missing.md",
+    "Networks/TCP.md",
+    "Networks/UDP.md",
+    "Linux/Commands/tr.md",
+    "CyberSecurity/Tools/OffSec/john.md",
+    "CyberSecurity/Tools/OffSec/msfvenom.md",
+    "Foundations/PHP.md",
+    "Linux/missing cmds.md",
     "CyberSecurity/Theory/Exploit.md",
     "Networks/IP.md",
     "CyberSecurity/Theory/IAM.md",
@@ -214,17 +225,6 @@
     "CyberSecurity/Tools/DefSec/missing.md",
     "CyberSecurity/Tools/Cryptography/missing.md",
     "CyberSecurity/Tools/OffSec/nikto.md",
-    "Linux/Commands/7z.md",
-    "CyberSecurity/Tools/OffSec/msfconsole.md",
-    "CyberSecurity/Tools/OffSec/msfvenom.md",
-    "Networks/GraphQL.md",
-    "Foundations/Compilation.md",
-    "Networks/SOAP.md",
-    "Networks/Untitled.md",
-    "Networks/REST.md",
-    "CyberSecurity/Theory/Information.md",
-    "Platform/Boot Loader.md",
-    "Platform/BIOS.md",
     "Plataform/PS",
     "Plataform/\"PS",
     "LLM Prompts",

@@ -76,7 +76,9 @@ ffuf
 Feroxbuster
 https://github.com/assetnote/kiterunner
 https://github.com/cerberauth/vulnapi
-davtester
+https://github.com/cldrn/davtest
+
+https://github.com/wpscanteam/wpscan/
 
 https://github.com/s0md3v/XSStrike
 
@@ -91,6 +93,8 @@ braa
 sqlmap
 sqlninja
 sqlsus
+
+https://github.com/commixproject/commix
 
 https://github.com/projectdiscovery/nuclei
 
