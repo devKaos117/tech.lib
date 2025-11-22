@@ -4,5 +4,10 @@
 reg hklm\sam,system
 
 vssadmin
+certutil
+wmic
+sc
+icacls
+accesschk
 
 api monitor

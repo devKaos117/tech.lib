@@ -9,3 +9,5 @@ https://github.com/x64dbg/x64dbg
 https://www.sourceware.org/gdb/ + GEF/PEDA
 https://frida.re/
 https://github.com/radareorg/radare2
+
+https://github.com/pawlaszczyk/fqlite

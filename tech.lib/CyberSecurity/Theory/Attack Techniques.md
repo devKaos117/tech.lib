@@ -51,6 +51,7 @@ tags:
 - [XSS]{Cross-Site Scripting}
 	- Reflected
 	- Self
+	- dom
 	- Stored
 - Client-Side Injection
 - Clickjacking
@@ -78,6 +79,8 @@ tags:
 	- .htaccess
 	- content type
 
+
+https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet?tab=readme-ov-file
 
 Web Application & Injection Attacks
 

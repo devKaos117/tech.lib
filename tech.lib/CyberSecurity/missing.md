@@ -106,7 +106,9 @@ https://github.com/zaproxy/zaproxy
 https://github.com/ticarpi/jwt_tool
 
 https://www.kali.org/tools/windows-binaries/
-https://www.kali.org/tools/peass-ng/
+https://github.com/peass-ng/PEASS-ng
+https://github.com/bitsadmin/wesng
+https://github.com/The-Z-Labs/linux-exploit-suggester
 
 python3-impacket
 
@@ -129,6 +131,10 @@ msf-nasm_shell
 
 macchanger
 zphisher
+https://github.com/gophish/gophish
 urlcrazy
 
+https://github.com/upx/upx
+
 https://www.kali.org/tools/chisel/
+https://github.com/Nicocha30/ligolo-ng

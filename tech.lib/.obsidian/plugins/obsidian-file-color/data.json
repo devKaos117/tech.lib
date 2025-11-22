@@ -125,6 +125,18 @@
     {
       "path": "CyberSecurity/Theory/Vulnerability.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Exploit.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Post Exploitation.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Penetration Testing.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

@@ -27,6 +27,7 @@ disown
 dmesg
 dmidecode
 dmsetup
+docker
 dos2unix
 dpkg
 du
