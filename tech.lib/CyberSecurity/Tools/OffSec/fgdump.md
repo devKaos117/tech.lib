@@ -17,7 +17,8 @@ fgdump is targetted at the security auditing community, embeding several program
 
 ## Favorite Uses
 ```sh
-command options arguments
+fgdump -v
+fgdump -v -s
 ```
 
 ## Command

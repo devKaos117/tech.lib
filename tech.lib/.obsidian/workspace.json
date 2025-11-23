@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foundations/Boolean Algebra.md",
+                "file": "CyberSecurity/Tools/OffSec/john.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Boolean Algebra"
+              "title": "john"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,8 +199,13 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/Attack Techniques.md",
+    "CyberSecurity/Tools/OffSec/wce.md",
+    "CyberSecurity/Tools/OffSec/fgdump.md",
+    "CyberSecurity/Tools/OffSec/pwdump.md",
+    "CyberSecurity/missing.md",
+    "Linux/Commands/ss.md",
     "Foundations/Boolean Algebra.md",
+    "CyberSecurity/Theory/Attack Techniques.md",
     "Linux/Kernel.md",
     "Linux/missing cmds.md",
     "CyberSecurity/Tools/OffSec/nmap.md",
@@ -230,11 +235,6 @@
     "tech.lib.md",
     "Foundations/ITSM.md",
     "CyberSecurity/Theory/IAM.md",
-    "CyberSecurity/missing.md",
-    "CyberSecurity/Tools/OffSec/mimikatz.md",
-    "CyberSecurity/Tools/OffSec/host.md",
-    "CyberSecurity/Tools/OffSec/whois.md",
-    "CyberSecurity/Tools/OffSec/dig.md",
     "Plataform/PS",
     "Plataform/\"PS",
     "LLM Prompts",
