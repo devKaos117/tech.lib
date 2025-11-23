@@ -149,6 +149,7 @@ sshfs
 stat
 strace
 stress-ng
+stty
 su
 sudoedit
 sync

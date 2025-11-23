@@ -99,10 +99,6 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Theory/Regulatory Compliance.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "CyberSecurity/Theory/GRC.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
@@ -115,10 +111,6 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Networks",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Networks/GraphQL.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
@@ -127,15 +119,15 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Theory/Exploit.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "CyberSecurity/Theory/Post Exploitation.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
       "path": "CyberSecurity/Theory/Penetration Testing.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Tools/OffSec/crackmapexec.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

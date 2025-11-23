@@ -193,7 +193,7 @@ HELP
 
 ## Files
 ```bash
-# feroxbuster searches for ferox-config.toml sequentially through:
+# feroxbuster searches for ferox-config.toml sequentially (overwriting) through:
 
 /etc/feroxbuster/ # global configuration
 CONFIG_DIR/feroxbuster/ # per-user

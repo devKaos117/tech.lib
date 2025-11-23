@@ -19,9 +19,9 @@ Nmap was designed to rapidly scan large networks using raw [[Networks/IP|IP]] pa
 ```sh
 nmap -sS NETWORK
 nmap -sS -Pn -p- TARGET
-nmap -A -T5 -Pn -D RND:7 TARGET
-nmap -sV -T2 -g 53 -p PORT TARGET
 nmap -sV --script vuln TARGET
+nmap -A -T5 -Pn -D RND:7 TARGET
+nmap -sS -Pn -sV -O -sC -T2 -g 53 -oG host/TARGET.map -p PORT TARGET
 ```
 
 ## Command

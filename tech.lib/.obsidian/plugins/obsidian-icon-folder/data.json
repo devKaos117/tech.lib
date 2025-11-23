@@ -6,8 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBinary",
-      "LiArrowRightLeft"
+      "RiAttachment2",
+      "SiLinux",
+      "SiKalilinux",
+      "SiWindowsxp",
+      "SiWindows11"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -30,5 +33,14 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Foundations": "LiHome",
+  "Linux": "SiLinux",
+  "LLM Prompts": "RiChatNewLine",
+  "Networks": "FasNetworkWired",
+  "Platform": "FasMicrochip",
+  "templates": "LiLayoutTemplate",
+  "Windows": "SiWindowsxp",
+  "CyberSecurity": "SiKalilinux",
+  "attachments": "RiAttachment2"
 }

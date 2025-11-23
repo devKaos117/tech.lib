@@ -73,7 +73,6 @@ snmpwalk
 snmp-check
 smbmap
 ffuf
-Feroxbuster
 https://github.com/assetnote/kiterunner
 https://github.com/cerberauth/vulnapi
 https://github.com/cldrn/davtest

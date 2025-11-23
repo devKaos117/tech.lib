@@ -17,7 +17,7 @@ John the Ripper is a fast password cracker, currently available for Unix, macOS,
 
 ## Favorite Uses
 ```sh
-command options arguments
+john --wordlist=WORDLIST HASHES
 ```
 
 ## Command
