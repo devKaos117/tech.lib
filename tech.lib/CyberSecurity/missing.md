@@ -13,7 +13,6 @@ bcrypt
 blowfish
 yescrypt
 PBKDF1|2
-jwt
 GPG
 BitLocker
 Hash-based Message Authentication Code
@@ -47,7 +46,6 @@ snmpset
 socat
 
 nslookup
-host
 dnsrecon
 dnsenum
 dnsmap
@@ -81,8 +79,6 @@ https://github.com/wpscanteam/wpscan/
 
 https://github.com/s0md3v/XSStrike
 
-crackmapexec
-
 whatweb
 wafw00f
 
@@ -109,10 +105,9 @@ https://github.com/peass-ng/PEASS-ng
 https://github.com/bitsadmin/wesng
 https://github.com/The-Z-Labs/linux-exploit-suggester
 
-python3-impacket
+python3-impacket *
 
 samdump2
-impacket-secretsdump
 mimikatz
 
 https://github.com/corelan/mona

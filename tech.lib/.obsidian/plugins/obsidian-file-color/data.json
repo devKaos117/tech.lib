@@ -95,10 +95,6 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Theory/PAM.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "CyberSecurity/Theory/GRC.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
@@ -124,10 +120,6 @@
     },
     {
       "path": "CyberSecurity/Theory/Penetration Testing.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "CyberSecurity/Tools/OffSec/crackmapexec.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
