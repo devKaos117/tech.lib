@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiTool",
+      "RiToolsFill",
       "RiAttachment2",
       "SiLinux",
-      "SiKalilinux",
-      "SiWindowsxp",
-      "SiWindows11"
+      "SiKalilinux"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "templates": "LiLayoutTemplate",
   "Windows": "SiWindowsxp",
   "CyberSecurity": "SiKalilinux",
-  "attachments": "RiAttachment2"
+  "attachments": "RiAttachment2",
+  "Tools": "FiTool"
 }

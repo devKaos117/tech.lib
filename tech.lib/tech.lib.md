@@ -5,58 +5,59 @@ subjects:
 ---
 [RFC4949 - Internet Security Glossary v2](https://datatracker.ietf.org/doc/html/rfc4949)
 
+## Categories
+```dataview
+LIST WITHOUT ID category GROUP BY category
+```
+
 ## Tags
 -  [cybersec]{} !!!
 	- [cryptography]{} !!!
 		- [hash]{} !!!
 		- [symmetric]{} !!!
 		- [asymmetric]{} !!!
+	- [defensive]{} !!!
+		- [network]{Network and traffic range of action}
+		- [endpoint]{Endpoint range of action}
+		- [monitoring]{Monitoring and alerting}
+		- [prevention]{Hardening and protecting}
+		- [response]{Ceasing or supressing threats}
+		- [analysis]{Vulnerability assessment and analysis}
+			- [static]{Analysis on static and non-executing applications}
+			- [dynamic]{Analysis on live and running environments}
+			- [web]{Analysis on web applications}
+	- [forensics]{} !!!
+		- [analysis]{Data analysis}
+		- [reporting]{Generating reports}
+		- [network]{Network related}
+		- [memory]{Memory related}
+		- [rev_eng]{Reverse engineering tools}
+	- [offensive]{} !!!
+		- [osint]{Open source intelligence}
+			- [socmint]{Social media intelligence}
+			- [general]{DNS, google dorking and other general OSINT}
+		- [reconnaissance]{Target reconnaissance process}
+			- [scanning]{Target or network scanning and analysis}
+			- [enumerating]{Protocol, directory, addresses and other enumeration}
+			- [web]{Web application analysis}
+		- [spoofing]{Creating deceptive imitations}
+		- [exploitation]{} !!!
+			- [web]{Web applications vulnerabilities exploitation}
+			- [network]{Network services and protocols exploitation}
+			- [wireless]{Wireless networks exploitation}
+			- [credential]{Attacking, cracking or overwriting access credentials}
+		- [post_exploit]{} !!!
+			- [escalation]{Gaining higher privileges on the compromised system}
+			- [lateralization]{Moving to other systems within the network}
+			- [persistence]{Maintaining access to the compromised system}
+			- [C2]{Command & Control}
+			- [dumping]{Obtaining sensitive information}
+			- [exfiltration]{Stealing data from the compromised system}
+		- [reporting]{Report generation tools}
 	- [theory]{} !!!
 		- [concept]{} !!!
 		- [regulation]{} !!!
 		- [framework]{} !!!
-	- [tools]{} !!!
-		- [cryptography]{} !!!
-			- [hash]{} !!!
-			- [symmetric]{} !!!
-			- [asymmetric]{} !!!
-		- [defsec]{} !!!
-			- [network]{Network and traffic range of action}
-			- [endpoint]{Endpoint range of action}
-			- [monitoring]{Monitoring and alerting}
-			- [prevention]{Hardening and protecting}
-			- [response]{Ceasing or supressing threats}
-		- [forensics]{} !!!
-			- [analysis]{Data analysis}
-			- [reporting]{Generating reports}
-			- [network]{Network related}
-			- [memory]{Memory related}
-			- [rev_eng]{Reverse engineering tools}
-		- [offsec]{} !!!
-			- [osint]{Open source intelligence}
-				- [socmint]{Social media intelligence}
-				- [general]{DNS, google dorking and other general OSINT}
-			- [reconnaissance]{Target reconnaissance process}
-				- [scanning]{Target and network scanning}
-				- [enumerating]{Protocol, directory, addresses and other enumeration}
-			- [analysis]{} !!!
-				- [static]{Vulnerability assessment and analysis without target execution}
-				- [dynamic]{Vulnerability assessment and analysis on live environments}
-				- [web]{Vulnerability assessment and analysis on web applications}
-			- [spoofing]{Creating deceptive imitations}
-			- [exploitation]{} !!!
-				- [web]{Web applications vulnerabilities exploitation}
-				- [network]{Network services and protocols exploitation}
-				- [wireless]{Wireless networks exploitation}
-				- [credential]{Attacking, cracking or overwriting access credentials}
-			- [post_exploit]{} !!!
-				- [escalation]{Gaining higher privileges on the compromised system}
-				- [lateralization]{Moving to other systems within the network}
-				- [persistence]{Maintaining access to the compromised system}
-				- [C2]{Command & Control}
-				- [dumping]{Obtaining sensitive information}
-				- [exfiltration]{Stealing data from the compromised system}
-			- [reporting]{Report generation tools}
 -  [foundations]{} !!!
 	- [resource]{} !!!
 	- [authority]{} !!!
@@ -125,6 +126,7 @@ subjects:
 		- [internet]{}
 - [windows]{} !!!
 
+## Notations
 
 ```
 [BYTES] = (\d+)([cw]|[KMGTPEZYRQ]?(?:b|B|iB))?
@@ -160,3 +162,13 @@ subjects:
 [COMMAND]
 [HASH]
 ```
+
+## Plugins
+- [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian)
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
+- [File Color](https://github.com/ecustic/obsidian-file-color)
+- [Hover Reveal (custom)](https://github.com/Asrieal/HoverReveal)
+- [Iconize](https://github.com/FlorianWoelki/obsidian-iconize)
+- [Linter](https://github.com/platers/obsidian-linter)
+- [Obsidian Things](https://github.com/colineckert/obsidian-things)
+- [Templater](https://github.com/SilentVoid13/Templater)

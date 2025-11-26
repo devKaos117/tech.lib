@@ -73,6 +73,7 @@ ipcalc
 iwconfig
 job
 journalctl
+jq
 kill
 ldd
 losetup
