@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/feroxbuster.md",
-                "mode": "preview",
+                "file": "Tools/CyberSec/missing.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "feroxbuster"
+              "title": "missing"
             }
           }
         ]
@@ -199,11 +199,15 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
+    "Tools/CyberSec/Offensive/msfvenom.md",
+    "Tools/CyberSec/Offensive/hydra.md",
+    "Devices.md",
+    "Tools/CyberSec/Offensive/john.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
     "tech.lib.md",
     "Tools/CyberSec/missing.md",
     "Tools/CyberSec/Offensive/nikto.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
     "Linux/missing cmds.md",
     "Tools/CyberSec/Offensive/wfuzz.md",
     "Networks/IP.md",
@@ -223,10 +227,6 @@
     "Foundations/firmware.md",
     "Foundations/process.md",
     "Tools/CyberSec/Offensive/hash-identifier.md",
-    "Linux/Commands/find.md",
-    "CyberSecurity/Theory/PAM.md",
-    "Missing.md",
-    "CyberSecurity/Theory/GRC.md",
     "CyberSecurity/Techniques",
     "Tools",
     "attachments/icon/redhat.svg",

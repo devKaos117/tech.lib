@@ -74,6 +74,10 @@ https://github.com/The-Z-Labs/linux-exploit-suggester
 https://github.com/411Hall/JAWS
 https://github.com/GhostPack/Seatbelt
 https://github.com/bitsadmin/wesng
+https://github.com/PowerShellMafia/PowerSploit
+
+https://github.com/SpecterOps/BloodHound
+https://github.com/SpecterOps/SharpHound
 
 
 python3-impacket *
