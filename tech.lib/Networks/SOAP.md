@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: Simple Object Access Protocol
 acronym: SOAP
-tags:
-  - networks/architecture
 ---
 
 ## Definition

@@ -4,8 +4,6 @@ subjects:
   - NULL
 full_form: application programming interface
 acronym: API
-tags:
-  - NULL
 ---
 
 ## Definition

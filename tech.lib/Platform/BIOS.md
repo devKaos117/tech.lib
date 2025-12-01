@@ -4,8 +4,6 @@ subjects:
   - firmware
 full_form: Basic Input/Output System
 acronym: BIOS
-tags:
-  - platform/boot
 ---
 
 ## Definition

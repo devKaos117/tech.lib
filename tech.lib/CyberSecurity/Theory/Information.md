@@ -4,8 +4,6 @@ subjects:
   - cybersec
 full_form: NULL
 acronym: NULL
-tags:
-  - cybersec/theory/concept
 ---
 
 ## Definition

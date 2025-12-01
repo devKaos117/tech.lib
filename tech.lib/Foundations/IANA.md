@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: Internet Assigned Numbers Authority
 acronym: IANA
-tags:
-  - foundations/authority
 ---
 
 ## Definition

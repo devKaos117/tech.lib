@@ -4,12 +4,10 @@ subjects:
   - networks
 full_form: Domain Name System
 acronym: DNS
-tags:
-  - networks/protocol/application
 ---
 
 ## Definition
-
+[[Internet Protocol Suite#4. Application|application]]
 
 ## External References
 

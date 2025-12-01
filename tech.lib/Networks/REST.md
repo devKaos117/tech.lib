@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: Representational State Transfer
 acronym: REST
-tags:
-  - networks/architecture
 ---
 
 ## Definition

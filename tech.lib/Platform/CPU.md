@@ -4,8 +4,6 @@ subjects:
   - controler
 full_form: Central Processing Unit
 acronym: CPU
-tags:
-  - platform/core
 ---
 
 ## Definition

@@ -4,8 +4,6 @@ subjects:
   - cybersec
 full_form: Privileged Access Management
 acronym: PAM
-tags:
-  - cybersec/theory/concept
 ---
 
 ## Definition

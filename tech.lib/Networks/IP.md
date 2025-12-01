@@ -4,12 +4,10 @@ subjects:
   - networks
 full_form: Internet Protocol
 acronym: IP
-tags:
-  - networks/protocol/internet
 ---
 
 ## Definition
-The internet protocol is principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[Networks/DiffServ|DiffServ]] and [[Networks/TCP|ECN]] are implemented.
+The internet protocol is the principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[IP#DS Field|DiffServ]] and [[IP#ECN|ECN]] are implemented. [[Internet Protocol Suite#2. Internet|internet]]
 
 ## Addressing Methods
 - **Unicast:** Each destination address uniquely identifies a single receiver endpoint
@@ -17,10 +15,14 @@ The internet protocol is principal communication protocol in the Internet Protoc
 - **Multicast:** The destination address routes the datagram to a specific group of endpoints in the network
 - **Anycast:** Delivers the datagram to any one of the endpoints included in a specific group, usually the nearest in a group of hosts using the same address
 
-## Address Classes
-Classless Inter-Domain Routing
+## Address Architecture
+### Classful
 
-## IPv4 Packet
+### Classless
+REMEMBER TO READ: Classless Inter-Domain Routing
+
+## IP Packet
+### IPv4
 ```mermaid
 packet-beta
 0-3: "1"
@@ -41,7 +43,7 @@ packet-beta
 
 1. **Version \[0x00: 4b\]:** Indicates the format of the internet header (4)
 2. **[IHL]{Internet Header Length} \[0x04: 4b\]:** Length of the internet header in 32-bit words, therefore pointing to the beginning of the data
-3. **[ToS]{Type of Service} \[0x08: 8b\]:** Indicator of the abstract parameters of the [QoS]{Quality of Service} desired
+3. **[ToS]{Type of Service} \[0x08: 8b\]:** Indicator of the abstract parameters of the [QoS]{Quality of Service} desired (superseded by [[IP#DS Field|DS Field]])
 	1. **Precedence \[0x08: 3b\]:** `[0b111]{Network Control}` | `[0b110]{Internetwork Control}` | `[0b101]{CRITIC/ECP}` | `[0b100]{Flash Override}` | `[0b011]{Flash}` | `[0b010]{Immediate}` | `[0b001]{Priority}` | `[0b000]{Routine}`
 	2. **Delay \[0x0B: 1b\]:** `[0b0]{Normal}` | `[0b1]{Low}`
 	3. **Throughput \[0x0C: 1b\]:** `[0b0]{Normal}` | `[0b1]{High}`
@@ -55,18 +57,75 @@ packet-beta
 	3. **MF \[0x32: 1b\]:** More Fragments flag
 7. **Offset \[0x33: 13b\]:** Indicates this data offset (in 8 byte-words) position in the datagram
 8. **[TTL]{Time to Live} \[0x40: 8b\]:** Indicates the maximum time that this packet is allowed to remain in the network
-9. **Protocol \[0x48: 8b\]:** Indicates the next level protocol used in this packet data ([ICMP]{0x01} - [TCP]{0x06} - [UDP]{0x11})
+9. **Protocol \[0x48: 8b\]:** Indicates the next level protocol used in this packet data ([[IP#Protocol Numbers|IANA PN]])
 10. **Header Checksum \[0x50: 16b\]:** This header checksum calculated through an algorithm based on one's complement addition (recomputed and checked at every hop)
 11. **Source Address \[0x60: 32b\]:** The source address
 12. **Destination Address \[0x80: 32b\]:** The destination address
 13. **Options \[0xA0: 0~480b\]:** Optional variable-length settings
 14. **Padding \[0xA0 + Options: 0~31b\]:** A 0-padding to ensure that the header ends on a 32-bit boundary
 
-## IPv6
+### IPv6
+```mermaid
+packet-beta
+0-3: "1"
+4-11: "2"
+12-31: "3"
+32-47: "4"
+48-55: "5"
+56-63: "6"
+64-191: "7"
+192-319: "8"
+```
 
+1. **Version \[0x00 4b\]:** Indicates the format of the internet header (6)
+2. **Traffic Class \[0x00 8b\]:** Indicates the class or priority of the packet (superseded by [[IP#DS Field|DS Field]])
+3. **Flow Label \[0x00 20b\]:** Used in conjunction with the source and destination address to identify the communication flow to which a packet belongs
+4. **Payload Length\[0x00 16b\]:** The total length of the packet payload in octets
+5. **Next Header\[0x00 8b\]:** Indicates the next level protocol used in this packet data ([[IP#Protocol Numbers|IANA PN]])
+6. **Hop Limit \[0x00 8b\]:** Indicates the maximum time that this packet is allowed to remain in the network
+7. **Source Address \[0x00 128b\]:** The source address
+8. **Destination Address \[0x00 128b\]:** The destination address
+
+### Protocol Numbers
+
+## Extension Headers
+### Hop-by-Hop Options
+
+### Fragment
+
+### Destination Options
+
+### Routing
+
+### Authentication
+
+### Encapsulating Security Payload
+
+## DS Field
+The [DiffServ]{Differentiated Services} are intended to enable the deployment of scalable service discrimination in the internet by separating the architecture into two major components.
+
+### Header
+```mermaid
+packet-beta
+0-5: "1"
+6-7: "2"
+```
+
+1. **[DSCP]{Differentiated Services Codepoint} \[0x00 6b\]:** Separated in 3 pools:
+	1. **\[0x?????0\]** With 32 possible values, this mask is destined for standards actions
+	2. **\[0x????11\]** With 16 possible values, this mask is destined for experimental or local usage
+	3. **\[0x????01\]** With 16 possible values, this mask is currently used in experimental or local usage, but is destined for standardized assignments after the exhaustion of pool 1
+2. **[CU]{Currently unused} \[0x06 2b\]:** Currently, it serves no specific usage
+
+## ECN
+[ECN]{Explicit Congestion Notification}
 
 ## IPsec
 
+
+## Relevant Reading
+- [[Internet Protocol Suite]]
+- [[Ethernet]]
 
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Internet_Protocol)
@@ -77,4 +136,5 @@ packet-beta
 [RFC 4301 - Security Architecture for IP](https://datatracker.ietf.org/doc/html/rfc4301)
 [RFC 4302 - IP Authentication Header](https://datatracker.ietf.org/doc/html/rfc4302)
 [RFC 4303 - IP ESP](https://datatracker.ietf.org/doc/html/rfc4303)
+[RFC 6437 - IPv6 Flow Label](https://datatracker.ietf.org/doc/html/rfc6437)
 [RFC 8200 - IPv6 Specification](https://datatracker.ietf.org/doc/html/rfc8200)

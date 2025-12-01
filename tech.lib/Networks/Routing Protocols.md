@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: NULL
 acronym: NULL
-tags:
-  - networks/architecture
 ---
 
 ## Definition

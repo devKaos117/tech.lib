@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: Open Systems Interconnection Model
 acronym: OSI Model
-tags:
-  - networks/architecture
 ---
 
 ## Definition

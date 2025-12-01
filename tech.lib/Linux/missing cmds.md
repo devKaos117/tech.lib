@@ -143,6 +143,7 @@ sleep
 smartctl
 smbclient
 snmptranslate
+split
 ssh-agent
 ssh-keygen
 sshd

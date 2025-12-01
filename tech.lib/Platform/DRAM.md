@@ -4,8 +4,6 @@ subjects:
   - memory
 full_form: Dynamic Random-Access Memory
 acronym: DRAM
-tags:
-  - platform/core
 ---
 
 ## Definition

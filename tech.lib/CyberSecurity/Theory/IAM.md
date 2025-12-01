@@ -4,8 +4,6 @@ subjects:
   - cybersec
 full_form: Identity and Access Management
 acronym: IAM
-tags:
-  - cybersec/theory/framework
 ---
 
 ## Definition

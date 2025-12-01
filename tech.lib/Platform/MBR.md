@@ -4,8 +4,6 @@ subjects:
   - firmware
 full_form: Master Boot Record
 acronym: MBR
-tags:
-  - platform/boot
 ---
 
 ## Definition

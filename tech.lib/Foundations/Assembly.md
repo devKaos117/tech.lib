@@ -4,8 +4,6 @@ subjects:
   - low_level
 full_form: assembly
 acronym: NULL
-tags:
-  - foundations/resource
 ---
 
 ## Definition

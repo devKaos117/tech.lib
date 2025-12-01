@@ -4,8 +4,6 @@ subjects:
   - cybersec
 full_form: Governance, Risk Management and Compliance
 acronym: GRC
-tags:
-  - cybersec/theory/concept
 ---
 
 ## Definition

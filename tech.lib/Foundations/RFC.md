@@ -4,8 +4,6 @@ subjects:
   - NULL
 full_form: Request for Comments
 acronym: RFC
-tags:
-  - foundations/resource
 ---
 
 ## Definition

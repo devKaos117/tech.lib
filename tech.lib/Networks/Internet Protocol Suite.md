@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: Internet Protocol Suite
 acronym: TCP/IP model
-tags:
-  - networks/architecture
 ---
 
 ## Definition

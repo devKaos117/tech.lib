@@ -4,8 +4,6 @@ subjects:
   - NULL
 full_form: Information Technology Service Management
 acronym: ITSM
-tags:
-  - foundations/concept
 ---
 
 ## Definition

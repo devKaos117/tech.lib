@@ -4,8 +4,6 @@ subjects:
   - firmware
 full_form: NULL
 acronym: NULL
-tags:
-  - platform/boot
 ---
 
 ## Definition

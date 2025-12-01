@@ -54,77 +54,52 @@ LIST WITHOUT ID category GROUP BY category
 			- [dumping]{Obtaining sensitive information}
 			- [exfiltration]{Stealing data from the compromised system}
 		- [reporting]{Report generation tools}
-	- [theory]{} !!!
-		- [concept]{} !!!
-		- [regulation]{} !!!
-		- [framework]{} !!!
--  [foundations]{} !!!
-	- [resource]{} !!!
-	- [authority]{} !!!
-	- [concept]{} !!!
-- [linux]{} !!!
-	- [bash]{} !!!
-	- [boot]{} !!!
-	- [cmds]{} !!!
-		- [cli]{} !!!
-			- [shell]{Shell interpreters}
-			- [terminal]{Terminal emulators}
-			- [environment]{Environment changes}
-			- [text]{Text related}
-			- [help]{Manuals and help commands}
-			- [development]{Development related}
-			- [utilities]{Utilities}
-			- [random]{Random shit}
-		- [file]{} !!!
-			- [write]{Writing to the contents of a file}
-			- [manage]{Creation, deletion, relocation and property alteration of a file}
-			- [navigate]{Navigating through a filesystem}
-			- [inspect]{Analysis of a file}
-			- [archiving]{Processes related to file archives}
-			- [compression]{Compression of files}
-			- [search]{Search for a file}
-			- [backup]{Creation and management of a copy}
-		- [network]{} !!!
-			- [connection]{Host connection establishment and management}
-			- [local]{Local network management (wifi, bt)}
-			- [monitoring]{Network monitoring}
-			- [configuration]{Network and interfaces configuration}
-			- [sending]{Information sending}
-			- [recieving]{Information recieving}
-			- [tunneling]{Network tunneling with VPN's and proxies}
-		- [system]{} !!!
-			- [user]{Users, groups and privileges management}
-			- [process]{Process monitoring and management}
-			- [service]{Services management}
-			- [power]{Power monitoring and management}
-			- [time]{Time related}
-			- [information]{Analysis, logs and inspection}
-			- [disk]{Filesystem, disk and storage devices management}
-			- [hardware]{Hardware related}
-			- [package]{Package management}
-		- [operation]{} !!!
-			- [comparison]{Finding differences and similarities}
-			- [conversion]{Converting or translating}
-			- [transformation]{Transforming in a largely irreversible way}
-			- [filtering]{Filtering something}
-			- [encoding]{Converting data into code}
-			- [decoding]{Converting code into data}
-			- [manipulation]{Modifying and altering}
-			- [transfering]{Relocating}
-			- [analysis]{Analyzing and inspecting}
-	- [fhs]{} !!!
-	- [kernel]{} !!!
-- [plataform]{} !!!
-	- [boot]{} !!!
-	- [core]{} !!!
-	- [interface]{Management of raw bit streams and data routing between two nodes}
-- [networks]{} !!!
-	- [architecture]{} !!!
-	- [protocol]{} !!!
-		- [application]{}
-		- [transport]{}
-		- [internet]{}
-- [windows]{} !!!
+- [cli]{} !!!
+	- [shell]{Shell interpreters}
+	- [terminal]{Terminal emulators}
+	- [environment]{Environment changes}
+	- [text]{Text related}
+	- [help]{Manuals and help commands}
+	- [development]{Development related}
+	- [utilities]{Utilities}
+	- [random]{Random shit}
+- [file]{} !!!
+	- [write]{Writing to the contents of a file}
+	- [manage]{Creation, deletion, relocation and property alteration of a file}
+	- [navigate]{Navigating through a filesystem}
+	- [inspect]{Analysis of a file}
+	- [archiving]{Processes related to file archives}
+	- [compression]{Compression of files}
+	- [search]{Search for a file}
+	- [backup]{Creation and management of a copy}
+- [network]{} !!!
+	- [connection]{Host connection establishment and management}
+	- [local]{Local network management (wifi, bt)}
+	- [monitoring]{Network monitoring}
+	- [configuration]{Network and interfaces configuration}
+	- [sending]{Information sending}
+	- [recieving]{Information recieving}
+	- [tunneling]{Network tunneling with VPN's and proxies}
+- [system]{} !!!
+	- [user]{Users, groups and privileges management}
+	- [process]{Process monitoring and management}
+	- [service]{Services management}
+	- [power]{Power monitoring and management}
+	- [time]{Time related}
+	- [information]{Analysis, logs and inspection}
+	- [disk]{Filesystem, disk and storage devices management}
+	- [hardware]{Hardware related}
+	- [package]{Package management}
+- [operation]{} !!!
+	- [comparison]{Finding differences and similarities}
+	- [conversion]{Converting or translating}
+	- [transformation]{Transforming in a largely irreversible way}
+	- [filtering]{Filtering something}
+	- [encoding]{Converting data into code}
+	- [decoding]{Converting code into data}
+	- [manipulation]{Modifying and altering}
+	- [transfering]{Relocating}
+	- [analysis]{Analyzing and inspecting}
 
 ## Notations
 

@@ -4,8 +4,6 @@ subjects:
   - cybersecurity
 full_form: NULL
 acronym: NULL
-tags:
-  - cybersec/theory
 ---
 
 ## Identity and Access

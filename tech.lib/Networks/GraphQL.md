@@ -4,8 +4,6 @@ subjects:
   - networks
 full_form: GraphQL
 acronym: NULL
-tags:
-  - networks/architecture
 ---
 
 ## Definition

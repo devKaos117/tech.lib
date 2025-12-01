@@ -4,12 +4,10 @@ subjects:
   - networks
 full_form: Transmission Control Protocol
 acronym: TCP
-tags:
-  - networks/protocol/transport
 ---
 
 ## Definition
-One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]]
+One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]]. [[Internet Protocol Suite#3. Transport|transport]]
 
 ## TCP Segment
 ```mermaid

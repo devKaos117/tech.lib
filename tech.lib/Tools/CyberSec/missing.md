@@ -79,6 +79,7 @@ https://github.com/PowerShellMafia/PowerSploit
 https://github.com/SpecterOps/BloodHound
 https://github.com/SpecterOps/SharpHound
 
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master
 
 python3-impacket *
 

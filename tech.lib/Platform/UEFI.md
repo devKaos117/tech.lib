@@ -4,8 +4,6 @@ subjects:
   - firmware
 full_form: Unified Extensible Firmware Interface
 acronym: UEFI
-tags:
-  - platform/boot
 ---
 
 ## Definition

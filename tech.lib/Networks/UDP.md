@@ -4,12 +4,10 @@ subjects:
   - networks
 full_form: User Datagram Protocol
 acronym: UDP
-tags:
-  - networks/protocol/transport
 ---
 
 ## Definition
-One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[Networks/TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[Networks/IP|IP]]
+One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[Networks/TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[Networks/IP|IP]]. [[Internet Protocol Suite#3. Transport|transport]]
 
 ## UDP Datagram
 ```mermaid
