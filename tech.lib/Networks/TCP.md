@@ -35,8 +35,8 @@ packet-beta
 7. **Control bits \[0x68: 8b\]:** The TCP flags
 	1. **[CWR]{Congestion Window Reduced} \[0x68: 1b\]:** A TCP segment with the ECE flag set was recieved and responded in congestion control mechanism
 	2. **[ECE]{ECN-Echo} \[0x69: 1b\]:** Depending on the SYN flag state, indicates that:
-		- **SYN up:** The sending host is [ECN]{Explicit Congestion Notification} capable
-		- **SYN down:** A packet with the ECN flag set in the [[Networks/IP|IP]] header was recieved during normal transmission
+		- **SYN up:** The sending host is [[IP#ECN|ECN]] capable
+		- **SYN down:** A packet with the [[IP#ECN|ECN]] flag set in the [[IP|IP]] header was recieved during normal transmission
 	3. **[URG]{Urgent} \[0x6a: 1b\]:** The urgent pointer field is significant
 	4. **[ACK]{Acknowledge} \[0x6b: 1b\]:** The acknowledgment field is significant
 	5. **[PSH]{Push} \[0x6c: 1b\]:** Push function
@@ -78,5 +78,5 @@ Asynchronous Reports
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
 [RFC 2914 - Congestion Control](https://datatracker.ietf.org/doc/html/rfc2914)
-[RFC 3168 - ECN](https://datatracker.ietf.org/doc/html/rfc3168)
+[RFC 3168 - IP ECN](https://datatracker.ietf.org/doc/html/rfc3168)
 [RFC 9293 - TCP](https://datatracker.ietf.org/doc/html/rfc9293)
