@@ -33,6 +33,7 @@ dpkg
 du
 e2fsck
 e2label
+efibootmgr
 fc
 fdisk
 fg

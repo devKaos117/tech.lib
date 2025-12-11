@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/hashcat.md",
+                "file": "LLM Prompts/Hekate.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hashcat"
+              "title": "Hekate"
             }
           }
         ]
@@ -199,32 +199,32 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
+    "Networks/IP.md",
+    "CyberSecurity/Theory/Post Exploitation.md",
+    "Windows/missing.md",
+    "Tools/CyberSec/Offensive/msfvenom.md",
+    "Tools/CyberSec/Offensive/john.md",
+    "Tools/CyberSec/Offensive/hashcat.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "Linux/missing cmds.md",
+    "Tools/CyberSec/missing.md",
     "CyberSecurity/Theory/Penetration Testing.md",
     "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/Attack Techniques.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
     "CyberSecurity/Theory/Exploit.md",
     "LLM Prompts/Notes.md",
     "templates/NOTE_TEMPLATE.md",
     "templates/PROMPT_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/hashcat.md",
-    "Tools/CyberSec/missing.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
     "Tools/CyberSec/Offensive/wfuzz.md",
-    "Linux/missing cmds.md",
     "Tools/CyberSec/Offensive/hydra.md",
     "Tools/CyberSec/Offensive/nmap.md",
-    "CyberSecurity/Theory/Post Exploitation.md",
     "Linux/Commands/grep.md",
-    "Windows/missing.md",
     "Networks/DNS.md",
     "Networks/UDP.md",
     "Networks/Ethernet.md",
     "Networks/ARP.md",
-    "Networks/IP.md",
     "Networks/TCP.md",
-    "Networks/REST.md",
-    "Networks/Routing Protocols.md",
     "Tools/Networks",
     "Tools/Linux",
     "CyberSecurity/Techniques",

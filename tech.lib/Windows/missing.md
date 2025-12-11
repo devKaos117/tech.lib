@@ -9,5 +9,6 @@ wmic
 sc
 icacls
 accesschk
+chcp
 
 api monitor
