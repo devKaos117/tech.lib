@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Prompts/Hekate.md",
+                "file": "Tools/CyberSec/missing.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Hekate"
+              "title": "missing"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
+    "LLM Prompts/Hekate.md",
     "Networks/IP.md",
     "CyberSecurity/Theory/Post Exploitation.md",
     "Windows/missing.md",
@@ -224,7 +225,6 @@
     "Networks/UDP.md",
     "Networks/Ethernet.md",
     "Networks/ARP.md",
-    "Networks/TCP.md",
     "Tools/Networks",
     "Tools/Linux",
     "CyberSecurity/Techniques",
