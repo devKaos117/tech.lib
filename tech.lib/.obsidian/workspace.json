@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/missing.md",
+                "file": "Tools/CyberSec/Offensive/feroxbuster.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "missing"
+              "title": "feroxbuster"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cybersec/offensive/reconnaissance/enumerating",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,6 +199,9 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
+    "Linux/Commands/cp.md",
+    "Linux/Commands/mkdir.md",
+    "Tools/CyberSec/missing.md",
     "LLM Prompts/Hekate.md",
     "Networks/IP.md",
     "CyberSecurity/Theory/Post Exploitation.md",
@@ -208,7 +211,6 @@
     "Tools/CyberSec/Offensive/hashcat.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "Linux/missing cmds.md",
-    "Tools/CyberSec/missing.md",
     "CyberSecurity/Theory/Penetration Testing.md",
     "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/Attack Techniques.md",
@@ -223,8 +225,6 @@
     "Linux/Commands/grep.md",
     "Networks/DNS.md",
     "Networks/UDP.md",
-    "Networks/Ethernet.md",
-    "Networks/ARP.md",
     "Tools/Networks",
     "Tools/Linux",
     "CyberSecurity/Techniques",
