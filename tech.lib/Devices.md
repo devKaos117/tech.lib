@@ -35,7 +35,7 @@ Zen 5, 8 cores 16 threads
 - [UserBenchmark](https://cpu.userbenchmark.com/)
 
 ### GPU
-[**ASUS TUF RX 9060XT OC 16G**](https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9060xt-o16g-gaming/)
+[**ASUS TUF RX 9060XT OC 16GB**](https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9060xt-o16g-gaming/)
 AMD Radeon RX 9060 XT (16GB GDDR6)
 PCI Express 5.0, OpenGL4.6
 1700 MHz ~ 3130 MHz (20.1 Gbps of Memory Clock)

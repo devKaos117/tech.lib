@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/feroxbuster.md",
-                "mode": "preview",
+                "file": "Tools/CyberSec/missing.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "feroxbuster"
+              "title": "missing"
             }
           }
         ]
@@ -199,6 +199,14 @@
   },
   "active": "42f6dcfd9fc35919",
   "lastOpenFiles": [
+    "Devices.md",
+    "tech.lib.md",
+    "Tools/CyberSec/Offensive/hydra.md",
+    "Tools/CyberSec/Offensive/wfuzz.md",
+    "Linux/Commands/curl.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "CyberSecurity/Theory/Penetration Testing.md",
+    "CyberSecurity/Theory/Vulnerability.md",
     "Linux/Commands/cp.md",
     "Linux/Commands/mkdir.md",
     "Tools/CyberSec/missing.md",
@@ -209,22 +217,14 @@
     "Tools/CyberSec/Offensive/msfvenom.md",
     "Tools/CyberSec/Offensive/john.md",
     "Tools/CyberSec/Offensive/hashcat.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
     "Linux/missing cmds.md",
-    "CyberSecurity/Theory/Penetration Testing.md",
-    "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/Attack Techniques.md",
     "CyberSecurity/Theory/Exploit.md",
     "LLM Prompts/Notes.md",
     "templates/NOTE_TEMPLATE.md",
     "templates/PROMPT_TEMPLATE.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
-    "Tools/CyberSec/Offensive/hydra.md",
     "Tools/CyberSec/Offensive/nmap.md",
-    "Linux/Commands/grep.md",
-    "Networks/DNS.md",
-    "Networks/UDP.md",
     "Tools/Networks",
     "Tools/Linux",
     "CyberSecurity/Techniques",

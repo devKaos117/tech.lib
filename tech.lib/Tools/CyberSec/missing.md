@@ -17,13 +17,14 @@ arp-scan
 nbtscan
 https://github.com/owasp-amass/amass
 sublist3r
-theHarvester
+https://github.com/laramies/theHarvester
+https://github.com/Dheerajmadhukar/karma_v2
 https://github.com/cosad3s/postleaks
 
 dirb
 fierce
 dirbuster
-gobuster
+https://github.com/OJ/gobuster
 enum4linux
 snmpconf
 snmpwalk
@@ -53,6 +54,8 @@ sqlsus
 https://github.com/commixproject/commix
 
 https://github.com/projectdiscovery/nuclei
+
+https://github.com/google/osv-scanner
 
 legion
 maltego
@@ -96,6 +99,7 @@ cewl
 crunch
 https://github.com/Mebus/cupp
 https://github.com/danielmiessler/SecLists
+https://github.com/fuzzdb-project/fuzzdb
 
 responder
 
@@ -106,9 +110,10 @@ msf-nasm_shell
 macchanger
 zphisher
 https://github.com/gophish/gophish
-urlcrazy
+https://github.com/urbanadventurer/urlcrazy
 
 https://github.com/upx/upx
 
+https://github.com/rofl0r/proxychains-ng
 https://www.kali.org/tools/chisel/
 https://github.com/Nicocha30/ligolo-ng
