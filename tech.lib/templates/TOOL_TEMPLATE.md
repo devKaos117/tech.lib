@@ -26,26 +26,59 @@ command options arguments
 ```
 
 ## Command
+### Options
 ```txt
 command [OPTION]... [ARGUMENT]...
 
-SPECIFIC
-
 CONNECTION
+	PROTOCOL
+
+	ADDRESSING
+
+	AUTHENTICATION
 
 OPTIMIZATION
+	PARALLELISM
+
+	TIME
+
+	RESOURCES
 
 MODE
+	OPERATION
+
+	BEHAVIOUR
 
 INPUT
+	SOURCE
+
+	FORMAT
+
+	FILTER
 
 OUTPUT
+	DESTINATION
 
-ENCODING
+	FORMAT
 
-FILES
+	FILTER
+
+	VERBOSITY
+
+CONFIGURATION
+	FILE
+
+	ENVIRONMENT
 
 MODULES
+	MANAGING
+
+	USING
+
+INTERACTION
+	INTERFACE
+
+	CONTROL
 
 OTHERS
 
@@ -55,6 +88,33 @@ HELP
 		Display the help information and exit
 	-v, --version
 		Output version information and exit
+```
+
+### Actions
+```txt
+command [OPTION]... [ARGUMENT]...
+
+MANAGEMENT
+	FILES
+
+	SESSION
+
+NAVIGATION
+	MOVEMENT
+
+	QUERYING
+
+MANIPULATION
+	EXECUTION
+
+	CONTENT
+
+CONFIGURATION
+	ENVIORNMENT
+
+	TOOLS
+
+HELP
 ```
 
 ## Files

@@ -31,33 +31,45 @@ command options arguments
 
 ## Command
 ```txt
-command [OPTION]... [ARGUMENT]...
-
-SPECIFIC
+sqlmap [OPTION]... [ARGUMENT]...
 
 CONNECTION
-
+	PROTOCOL
+	ADDRESSING
+	AUTHENTICATION
 OPTIMIZATION
-
+	PARALLELISM
+	TIME
+	RESOURCES
 MODE
-
+	OPERATION
+	BEHAVIOUR
 INPUT
-
+	SOURCE
+	FORMAT
+	FILTER
 OUTPUT
-
-ENCODING
-
-FILES
-
+	DESTINATION
+	FORMAT
+	FILTER
+	VERBOSITY
+CONFIGURATION
+	FILE
+	ENVIRONMENT
 MODULES
-
+	MANAGING
+	USING
+INTERACTION
+	INTERFACE
+	CONTROL
 OTHERS
-
 HELP
 
 	-h, --help
 		Display the help information and exit
-	-v, --version
+	-hh
+		Display advanced help information and exit
+	--version
 		Output version information and exit
 ```
 

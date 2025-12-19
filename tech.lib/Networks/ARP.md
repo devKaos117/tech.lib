@@ -7,7 +7,7 @@ acronym: ARP
 ---
 
 ## Definition
-The ARP is a network protocol used by devices on a [LAN]{Local Area Network} to resolve [[Networks/IP#IPv4|IPv4]] addresses to their corresponding [[Ethernet]] [[Low Level/MAC|MAC]] addresses. ARP operates at the [[OSI Model#3. Network|Network Layer]] in conjunction with the [[OSI Model#2. Data Link|Data Link Layer]]. [[Internet Protocol Suite#2. Internet|internet]]
+The ARP is a network protocol used by devices on a [LAN]{Local Area Network} to resolve [[Networks/IP#IPv4|IPv4]] addresses to their corresponding [[Ethernet]] [[Low Level/MAC|MAC]] addresses. ARP operates at the [[OSI Model#3. Network|Network Layer]] in conjunction with the [[OSI Model#2. Data Link|Data Link Layer]].
 
 ## ARP Frame
 The size of the ARP frame depends on the link layer and network layer address sizes
@@ -29,6 +29,9 @@ The size of the ARP frame depends on the link layer and network layer address si
 ## ARPSec
 ARPSec is an extension to the ARP introducing mechanisms to validate ARP messages and the identity of the communicating hosts, mitigating fabricated ARP replies and ARP cache poisoning vulnerabilities.
 It has not been formally defined yet.
+
+## Relevant Reading
+- [[Internet Protocol Suite#2. Internet|Internet layer]]
 
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)

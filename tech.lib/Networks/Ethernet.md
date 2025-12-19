@@ -46,6 +46,9 @@ packet-beta
 - `0x8864`: [[/PPPoE|PPPoE]] Session
 - `0x88CC`: [[LLDP|LLDP]]
 
+## Relevant Reading
+- [[Internet Protocol Suite#1. Interface|Interface layer]]
+
 ## External References
 [en.wikipedia.org/Ethernet](https://en.wikipedia.org/wiki/Ethernet)
 [en.wikipedia.org/Ethernet_frame](https://en.wikipedia.org/wiki/Ethernet_frame)

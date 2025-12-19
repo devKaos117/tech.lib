@@ -115,5 +115,5 @@ https://github.com/urbanadventurer/urlcrazy
 https://github.com/upx/upx
 
 https://github.com/rofl0r/proxychains-ng
-https://www.kali.org/tools/chisel/
+https://github.com/jpillora/chisel
 https://github.com/Nicocha30/ligolo-ng

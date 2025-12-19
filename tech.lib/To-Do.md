@@ -1,0 +1,28 @@
+- [x] Pentesting note
+	- [ ] Pre-engagement
+	- [ ] Methodology
+	- [ ] Info Gather
+- [ ] Methodology/Information Gathering note
+- [ ] Network Protocols
+	- [ ] DNS
+	- [ ] SMTP
+	- [ ] IMAP
+	- [ ] POP3
+	- [ ] FTP
+	- [ ] SMB
+	- [ ] SSH
+	- [ ] RDP
+- [ ] tools
+	- [ ] sqlmap
+	- [ ] hping3
+	- [ ] netcat
+	- [ ] gobuster
+	- [ ] netexec
+	- [ ] iptables
+	- [ ] ip6tables
+	- [ ] proxychains-ng
+	- [ ] chisel
+	- [ ] ligolo-ng
+	- [ ] openssl
+- [ ] Start correcting offsec tools
+- [ ] Start migrating linux commands

@@ -7,7 +7,7 @@ acronym: UDP
 ---
 
 ## Definition
-One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[Networks/TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[Networks/IP|IP]]. [[Internet Protocol Suite#3. Transport|transport]]
+One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[Networks/TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[Networks/IP|IP]].
 
 ## UDP Datagram
 ```mermaid
@@ -42,6 +42,9 @@ packet-beta
 3. **Zeroes [0x08: 1B]:** 8 bits long 0-padding
 4. **Protocol [0x09: 1B]:** Protocol number for UDP (``0x11``)
 5. **UDP Length [0x0A: 2B]:** The packet length in bytes
+
+## Relevant Reading
+- [[Internet Protocol Suite#3. Transport|Transport layer]]
 
 ## External References
 - [en.wikipedia.org](https://en.wikipedia.org/wiki/User_Datagram_Protocol)

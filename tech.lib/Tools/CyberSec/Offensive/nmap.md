@@ -16,15 +16,18 @@ tags:
 
 > [!info] Open source tool for network exploration and security auditing
 
-Nmap was designed to rapidly scan large networks using raw [[Networks/IP|IP]] packets in novel ways to determine what hosts are available on the network, what services they are offering, what OS they are running, what type of packet filters/[[Networks/firewall|firewall]]s are in use, and dozens of other characteristics
+Nmap was designed to rapidly scan large networks using raw [[IP]] packets in novel ways to determine what hosts are available on the network, what services they are offering, what OS they are running, what type of packet filters/[[firewall]]s are in use, and dozens of other characteristics
 
 ## Favorite Uses
 ```sh
-nmap -sS NETWORK
-nmap -sS -Pn -p- TARGET
-nmap -sV --script vuln TARGET
-nmap -A -T5 -Pn -D RND:7 TARGET
-nmap -sS -Pn -sV -O -sC -T2 -g 53 -oG host/TARGET.map -p PORT TARGET
+nmap -PE --randomize-hosts -sn NETWORK
+nmap -PS 443,80,21,22 --randomize-hosts -sn NETWORK
+nmap -sS -Pn -p- -T4 TARGET
+nmap -sS -sV -p PORTS TARGET
+nmap -T5 -Pn -D RND:7 TARGET
+nmap -sSU -g 53 -p 53 --script dns-nsid TARGET
+nmap SCAN_TYPE -Pn -n --packet-trace --traceroute --disable-arp-ping -p PORT TARGET
+nmap -sS -Pn -sV -O -T2 --stats-every=30s -g 53 -oA TARGET -p PORT TARGET
 ```
 
 ## Command
@@ -357,8 +360,23 @@ MISCELLANEOUS OPTIONS
 		Output version information and exit
 ```
 
-## Files
-
+## [NSE]{Nmap Scripting Engine}
+|**Category**|**Description**|
+|---|---|
+|`auth`|Determination of authentication credentials.|
+|`broadcast`|Scripts, which are used for host discovery by broadcasting and the discovered hosts, can be automatically added to the remaining scans.|
+|`brute`|Executes scripts that try to log in to the respective service by brute-forcing with credentials.|
+|`default`|Default scripts executed by using the `-sC` option.|
+|`discovery`|Evaluation of accessible services.|
+|`dos`|These scripts are used to check services for denial of service vulnerabilities and are used less as it harms the services.|
+|`exploit`|This category of scripts tries to exploit known vulnerabilities for the scanned port.|
+|`external`|Scripts that use external services for further processing.|
+|`fuzzer`|This uses scripts to identify vulnerabilities and unexpected packet handling by sending different fields, which can take much time.|
+|`intrusive`|Intrusive scripts that could negatively affect the target system.|
+|`malware`|Checks if some malware infects the target system.|
+|`safe`|Defensive scripts that do not perform intrusive and destructive access.|
+|`version`|Extension for service detection.|
+|`vuln`|Identification of specific vulnerabilities.|
 
 ## Environmental Variables
 ```bash

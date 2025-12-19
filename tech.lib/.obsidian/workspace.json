@@ -8,17 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "42f6dcfd9fc35919",
+            "id": "07179815afc016f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/missing.md",
+                "file": "tech.lib.md",
                 "mode": "source",
-                "source": true
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "missing"
+              "title": "tech.lib"
             }
           }
         ]
@@ -40,7 +50,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -197,34 +207,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "42f6dcfd9fc35919",
+  "active": "07179815afc016f3",
   "lastOpenFiles": [
-    "Devices.md",
-    "tech.lib.md",
-    "Tools/CyberSec/Offensive/hydra.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
-    "Linux/Commands/curl.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
-    "CyberSecurity/Theory/Penetration Testing.md",
-    "CyberSecurity/Theory/Vulnerability.md",
-    "Linux/Commands/cp.md",
-    "Linux/Commands/mkdir.md",
-    "Tools/CyberSec/missing.md",
-    "LLM Prompts/Hekate.md",
-    "Networks/IP.md",
-    "CyberSecurity/Theory/Post Exploitation.md",
-    "Windows/missing.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
+    "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/msfvenom.md",
-    "Tools/CyberSec/Offensive/john.md",
+    "Tools/CyberSec/Offensive/hydra.md",
+    "Tools/CyberSec/Offensive/hashid.md",
     "Tools/CyberSec/Offensive/hashcat.md",
-    "Linux/missing cmds.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Theory/Exploit.md",
-    "LLM Prompts/Notes.md",
+    "tech.lib.md",
+    "templates/TOOL_TEMPLATE.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "CyberSecurity/Theory/Post Exploitation.md",
+    "Tools/CyberSec/missing.md",
+    "Networks/DNS.md",
+    "Networks/ARP.md",
+    "Networks/IP.md",
+    "Networks/Ethernet.md",
+    "Networks/UDP.md",
+    "Networks/TCP.md",
     "templates/NOTE_TEMPLATE.md",
-    "templates/PROMPT_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/wafw00f.md",
+    "To-Do.md",
     "Tools/CyberSec/Offensive/nmap.md",
+    "Tools/CyberSec/Offensive/wfuzz.md",
+    "Tools/CyberSec/Offensive/proxychains.md",
+    "CyberSecurity/Methodology/0. Pre-Engagement.md",
+    "CyberSecurity/Theory/Penetration Testing.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "Networks/OSI Model.md",
+    "CyberSecurity/Methodology",
     "Tools/Networks",
     "Tools/Linux",
     "CyberSecurity/Techniques",
@@ -243,7 +254,6 @@
     "Plataform/\"PS",
     "LLM Prompts",
     "CyberSecurity/Theory/\"ISO",
-    "CyberSecurity/Theory/ISO",
     "attachments/BIOS_logo-removebg-preview.png",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"

@@ -7,7 +7,7 @@ acronym: TCP
 ---
 
 ## Definition
-One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]]. [[Internet Protocol Suite#3. Transport|transport]]
+One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]].
 
 ## TCP Segment
 ```mermaid
@@ -74,6 +74,9 @@ Asynchronous Reports
 
 ## Ports
 
+
+## Relevant Reading
+- [[Internet Protocol Suite#3. Transport|Transport layer]]
 
 ## External References
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)

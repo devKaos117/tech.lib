@@ -7,7 +7,7 @@ acronym: IP
 ---
 
 ## Definition
-The internet protocol is the principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[IP#DS Field|DiffServ]] and [[IP#ECN|ECN]] are implemented. [[Internet Protocol Suite#2. Internet|internet]]
+The internet protocol is the principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[IP#DS Field|DiffServ]] and [[IP#ECN|ECN]] are implemented.
 
 ## Addressing Methods
 - **Unicast:** Each destination address uniquely identifies a single receiver endpoint
@@ -133,7 +133,7 @@ IPSec is a interoperable, cryptographically-based security model for communicati
 A compliant host must support the first two, and a security gateway must support all three of them.
 
 ## Relevant Reading
-- [[Internet Protocol Suite]]
+- [[Internet Protocol Suite#2. Internet|Internet layer]]
 - [[Ethernet]]
 
 ## External References

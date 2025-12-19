@@ -194,6 +194,7 @@ whoami
 xargs
 xclip
 xdotool
+xsltproc
 xset
 xz
 ydotool

@@ -125,7 +125,7 @@ LIST WITHOUT ID category GROUP BY category
 [METHOD] = 
 [HOST] = 
 [PORT] = {1..65535}
-[URL] = 
+[URL] = [PROTOCOL://][USR[:PWD]@]HOST[:PORT][/PATH[?QUERY][#FRAGMENT]]
 [USR] = username
 [PWD] = password
 [USER]
