@@ -261,7 +261,7 @@ VAR=VAL # desc
 - 10 - Internal error
 
 ## Relevant Reading
-- [[Networks/DNS|DNS]]
+- [[DNS|DNS]]
 
 ## External Reference
 [github.com](https://github.com/isc-projects/bind9)

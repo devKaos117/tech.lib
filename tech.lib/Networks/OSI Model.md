@@ -27,12 +27,12 @@ _e.g.:_
 ### 4. Transport
 Transmits end-to-end data between two devices interacting on the network, making sure that data isn't lost, misconfigured or corrupted. It is divided into five classes, ranging from TP0 up to TP4. Also applies flow control, error control, and acknowledgments of sequence and existence, besides handling service point addressing, flow control and multiplexing.
 _e.g.:_
-[[Networks/TCP|TCP]] - [[Networks/UDP|UDP]] - [[Networks/TLS|TLS]]
+[[TCP|TCP]] - [[UDP|UDP]] - [[Networks/TLS|TLS]]
 
 ### 3. Network
 Handles data addressing, routing and forwarding processes for devices interacting across different networks, providing functional and procedural means of transferring packets between the nodes. The data is of variable-length and may be segmented accordingly to the data link [MTU]{Maximum Transmission Unit}.
 _e.g.:_
-[[Networks/NAT|NAT]] - [[Networks/ARP|ARP]] - [[Networks/IP|IP]]
+[[Networks/NAT|NAT]] - [[ARP|ARP]] - [[IP|IP]]
 
 ### 2. Data Link
 Manages data routing between two interacting nodes on the same network, applying error correction, being divided into:
@@ -40,7 +40,7 @@ Manages data routing between two interacting nodes on the same network, applying
 - **[MAC]{Medium Access Control} -** Control how devices in a network gain access to a medium and permission to transmit data
 - **[LLC]{Logical Link Control} -** Identifies and encapsulates network layer protocols, controlling error checking and frame synchronization
 _e.g.:_
-[[Networks/ARP|ARP]]
+[[ARP|ARP]]
 
 ### 1. Physical
 Comprises the physical assets, managing unstructured raw bit streams over a physical medium. This is where is handled the bit rate, bit synchronization and the transmission mode.

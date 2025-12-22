@@ -7,7 +7,7 @@ acronym: NULL
 ---
 
 ## Definition
-[[Networks/IP|IP]]
+[[IP|IP]]
 
 ## Classification
 ### By Purpose

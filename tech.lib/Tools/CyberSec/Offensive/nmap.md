@@ -386,13 +386,13 @@ VAR=VAL # desc
 
 ## Relevant Reading
 - [[Ethernet|Ethernet]]
-- [[Networks/TCP|TCP]]
-- [[Networks/UDP|UDP]]
+- [[TCP|TCP]]
+- [[UDP|UDP]]
 - [[Networks/SCTP|SCTP]]
 - [[Networks/ICMP|ICMP]]
-- [[Networks/DNS|DNS]]
-- [[Networks/ARP|ARP]]
-- [[Networks/IP|IP]]
+- [[DNS|DNS]]
+- [[ARP|ARP]]
+- [[IP|IP]]
 
 ## External Reference
 [github.com](https://github.com/nmap/nmap)

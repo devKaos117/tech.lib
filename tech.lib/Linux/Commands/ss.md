@@ -14,7 +14,7 @@ tags:
 
 > [!info] Utility to investigate sockets
 
-Used to dump socket statistics, showing information similar to netstat but display more [[Networks/TCP|TCP]] and state information than other tools. When no option is used ``ss`` displays a list of open non-listening sockets that have established connection
+Used to dump socket statistics, showing information similar to netstat but display more [[TCP|TCP]] and state information than other tools. When no option is used ``ss`` displays a list of open non-listening sockets that have established connection
 
 ## Favorite Uses
 ```sh

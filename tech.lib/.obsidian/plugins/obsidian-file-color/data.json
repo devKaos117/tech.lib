@@ -31,15 +31,15 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Networks/DNS.md",
+      "path": "Networks/4. Application/DNS.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Networks/TCP.md",
+      "path": "Networks/3. Transport/TCP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Networks/IP.md",
+      "path": "Networks/2. Internet/IP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -123,7 +123,7 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Networks/ARP.md",
+      "path": "Networks/2. Internet/ARP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

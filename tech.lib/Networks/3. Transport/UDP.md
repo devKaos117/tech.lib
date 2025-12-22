@@ -7,7 +7,7 @@ acronym: UDP
 ---
 
 ## Definition
-One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[Networks/TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[Networks/IP|IP]].
+One of the core protocols of the internet suite, UDP is a connectionless protocol that maximizes speed and efficiency at the cost of [[TCP|TCP]] reliability and error detection. It provides a datagram mode of packet-switched computer communication on top of the [[IP|IP]].
 
 ## UDP Datagram
 ```mermaid
@@ -22,7 +22,7 @@ packet-beta
 1. **Source Port \[0x00: 2B\]:** Optional field indicating the sending port of the source
 2. **Destination Port \[0x02: 2B\]:** Indicates the destination port
 3. **Length \[0x04: 2B\]:** The packet length in bytes
-4. **Checksum \[0x06: 2B\]:** A zero padded one's complement of the one's complement sum of a [[Networks/UDP#Pseudo-Header|pseudo-header]] and the UDP header and data
+4. **Checksum \[0x06: 2B\]:** A zero padded one's complement of the one's complement sum of a [[UDP#Pseudo-Header|pseudo-header]] and the UDP header and data
 5. **Data \[0x08: 0~1472B\]:** The data transmitted
 
 ### Pseudo-Header
@@ -37,8 +37,8 @@ packet-beta
 80-95: "5"
 ```
 
-1. **Source IP Address [0x00: 4B]:** Source [[Networks/IP|IP]] address
-2. **Destination IP Address [0x04: 4B]:** Destination [[Networks/IP|IP]] address
+1. **Source IP Address [0x00: 4B]:** Source [[IP|IP]] address
+2. **Destination IP Address [0x04: 4B]:** Destination [[IP|IP]] address
 3. **Zeroes [0x08: 1B]:** 8 bits long 0-padding
 4. **Protocol [0x09: 1B]:** Protocol number for UDP (``0x11``)
 5. **UDP Length [0x0A: 2B]:** The packet length in bytes

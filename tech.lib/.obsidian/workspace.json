@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech.lib.md",
-                "mode": "source",
+                "file": "Linux/Commands/rsync.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "tech.lib"
+              "title": "rsync"
             }
           }
         ]
@@ -207,34 +207,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "07179815afc016f3",
+  "active": "becca221a6cb9839",
   "lastOpenFiles": [
+    "Networks/4. Application/DNS.md",
+    "Networks/missing.md",
+    "Tools/CyberSec/Defensive/missing.md",
+    "Networks/Internet Protocol Suite.md",
+    "Networks/1. Interface/Ethernet.md",
+    "Networks/3. Transport/TCP.md",
+    "Networks/2. Internet/IP.md",
+    "Networks/2. Internet/ARP.md",
+    "Networks/SOAP.md",
+    "Networks/REST.md",
+    "Networks/3. Transport/UDP.md",
+    "Networks/1. Interface",
+    "Networks/2. Internet",
+    "Networks/3. Transport",
+    "Networks/4. Application",
+    "templates/TOOL_TEMPLATE.md",
+    "Tools/CyberSec/Offensive/nmap.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "tech.lib.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
     "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/msfvenom.md",
     "Tools/CyberSec/Offensive/hydra.md",
     "Tools/CyberSec/Offensive/hashid.md",
     "Tools/CyberSec/Offensive/hashcat.md",
-    "tech.lib.md",
-    "templates/TOOL_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
     "CyberSecurity/Theory/Post Exploitation.md",
     "Tools/CyberSec/missing.md",
-    "Networks/DNS.md",
-    "Networks/ARP.md",
-    "Networks/IP.md",
-    "Networks/Ethernet.md",
-    "Networks/UDP.md",
-    "Networks/TCP.md",
     "templates/NOTE_TEMPLATE.md",
     "To-Do.md",
-    "Tools/CyberSec/Offensive/nmap.md",
     "Tools/CyberSec/Offensive/wfuzz.md",
-    "Tools/CyberSec/Offensive/proxychains.md",
-    "CyberSecurity/Methodology/0. Pre-Engagement.md",
-    "CyberSecurity/Theory/Penetration Testing.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
-    "Networks/OSI Model.md",
     "CyberSecurity/Methodology",
     "Tools/Networks",
     "Tools/Linux",
@@ -250,10 +254,6 @@
     "attachments/icon/kali.svg",
     "attachments/icon/debian.svg",
     "attachments/icon/gnome.svg",
-    "Plataform/PS",
-    "Plataform/\"PS",
-    "LLM Prompts",
-    "CyberSecurity/Theory/\"ISO",
     "attachments/BIOS_logo-removebg-preview.png",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"

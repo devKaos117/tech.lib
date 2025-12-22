@@ -7,17 +7,17 @@ acronym: ARP
 ---
 
 ## Definition
-The ARP is a network protocol used by devices on a [LAN]{Local Area Network} to resolve [[Networks/IP#IPv4|IPv4]] addresses to their corresponding [[Ethernet]] [[Low Level/MAC|MAC]] addresses. ARP operates at the [[OSI Model#3. Network|Network Layer]] in conjunction with the [[OSI Model#2. Data Link|Data Link Layer]].
+The ARP is a network protocol used by devices on a [LAN]{Local Area Network} to resolve [[IP#IPv4|IPv4]] addresses to their corresponding [[Ethernet]] [[Low Level/MAC|MAC]] addresses. ARP operates at the [[OSI Model#3. Network|Network Layer]] in conjunction with the [[OSI Model#2. Data Link|Data Link Layer]].
 
 ## ARP Frame
 The size of the ARP frame depends on the link layer and network layer address sizes
 1. **[HTYPE](https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml#arp-parameters-2) \[0x00: 2B\]:** Specifies the [[OSI Model#2. Data Link|Data Link]] protocol type
 	- `0x01`: [[Ethernet]]
-	- `0x1E`: [[Networks/ARP#ARPSec|ARPSec]]
-	- `0x1F`: [[Networks/IP#IPsec|IPSec]] tunnel
+	- `0x1E`: [[ARP#ARPSec|ARPSec]]
+	- `0x1F`: [[IP#IPsec|IPSec]] tunnel
 2. **PTYPE \[0x02: 2B\]:** Specifies the [[OSI Model#3. Network|Network]] protocol through an [[Ethernet#EtherType|EtherType]]
 3. **HLEN \[0x04: 1B\]:** Specifies the [[OSI Model#2. Data Link|Data Link]] protocol address length in bytes (6B for [[Low Level/MAC|MAC]] )
-4. **PLEN \[0x05: 1B\]:** Specifies the [[OSI Model#3. Network|Network]] protocol address length in bytes (4B for [[Networks/IP#IPv4|IPv4]])
+4. **PLEN \[0x05: 1B\]:** Specifies the [[OSI Model#3. Network|Network]] protocol address length in bytes (4B for [[IP#IPv4|IPv4]])
 5. **[OPER]((https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml#arp-parameters-3)) \[0x06: 2B\]:** Specifies the operation that the sender is performing
 	- `0x01`: Request
 	- `0x02`: Reply

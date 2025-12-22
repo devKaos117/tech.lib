@@ -7,7 +7,7 @@ acronym: TCP
 ---
 
 ## Definition
-One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[Networks/IP|IP]].
+One of the core protocols of the internet suite, TCP is a connection-oriented protocol that provides a reliable, in-order, byte-stream service to applications with loss-detection capabilities on top of [[IP|IP]].
 
 ## TCP Segment
 ```mermaid
@@ -44,7 +44,7 @@ packet-beta
 	7. **[SYN]{Synchronize} \[0x6e: 1b\]:** Synchronize sequence numbers
 	8. **[FIN]{Finalize} \[0x6f: 1b\]:** No more data from sender
 8. **Window \[0x70: 16b\]:** The number of data bytes (begining with the one indicated in the ACK Number) that the sender is willing to accept
-9. **Checksum \[0x80: 16b\]:** A zero padded 16-bit ones' complement of the ones' complement sum of all 16-bit words in the [[Networks/TCP#Pseudo-Header|pseudo-header]], header and data
+9. **Checksum \[0x80: 16b\]:** A zero padded 16-bit ones' complement of the ones' complement sum of all 16-bit words in the [[TCP#Pseudo-Header|pseudo-header]], header and data
 10. **Urgent Pointer \[0x90: 16b\]:** When the URG flag is set, indicates the current positive offset from the sequence number in this segment pointing to last urgent data byte
 11. **Options \[0xa0: 32b\]:** Only present when the data offset is bigger than 5, it indicates TCP options:
 	1. **Kind \[0xa0: 8b\]:**
