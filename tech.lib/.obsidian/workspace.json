@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "b10ce003b31eb267",
+        "id": "e7d31fc968d43f7c",
         "type": "tabs",
         "children": [
           {
@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/rsync.md",
-                "mode": "preview",
+                "file": "Networks/4. Application/DNS.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "rsync"
+              "title": "DNS"
             }
           }
         ]
@@ -167,8 +167,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -207,15 +207,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "07179815afc016f3",
   "lastOpenFiles": [
+    "LLM Prompts/Notes.md",
     "Networks/4. Application/DNS.md",
+    "Tools/CyberSec/Offensive/nmap.md",
+    "Tools/CyberSec/Offensive/dig.md",
+    "Networks/2. Internet/IP.md",
+    "Linux/Commands/rsync.md",
     "Networks/missing.md",
     "Tools/CyberSec/Defensive/missing.md",
     "Networks/Internet Protocol Suite.md",
     "Networks/1. Interface/Ethernet.md",
     "Networks/3. Transport/TCP.md",
-    "Networks/2. Internet/IP.md",
     "Networks/2. Internet/ARP.md",
     "Networks/SOAP.md",
     "Networks/REST.md",
@@ -225,7 +229,6 @@
     "Networks/3. Transport",
     "Networks/4. Application",
     "templates/TOOL_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/nmap.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "tech.lib.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
@@ -236,9 +239,6 @@
     "Tools/CyberSec/Offensive/hashcat.md",
     "CyberSecurity/Theory/Post Exploitation.md",
     "Tools/CyberSec/missing.md",
-    "templates/NOTE_TEMPLATE.md",
-    "To-Do.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
     "CyberSecurity/Methodology",
     "Tools/Networks",
     "Tools/Linux",
