@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/4. Application/DNS.md",
-                "mode": "source",
+                "file": "CyberSecurity/Theory/Attack Techniques.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "Attack Techniques"
             }
           }
         ]
@@ -209,9 +209,11 @@
   },
   "active": "07179815afc016f3",
   "lastOpenFiles": [
-    "LLM Prompts/Notes.md",
-    "Networks/4. Application/DNS.md",
+    "Tools/CyberSec/missing.md",
+    "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/nmap.md",
+    "Networks/4. Application/DNS.md",
+    "LLM Prompts/Notes.md",
     "Tools/CyberSec/Offensive/dig.md",
     "Networks/2. Internet/IP.md",
     "Linux/Commands/rsync.md",
@@ -232,13 +234,11 @@
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "tech.lib.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
-    "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/msfvenom.md",
     "Tools/CyberSec/Offensive/hydra.md",
     "Tools/CyberSec/Offensive/hashid.md",
     "Tools/CyberSec/Offensive/hashcat.md",
     "CyberSecurity/Theory/Post Exploitation.md",
-    "Tools/CyberSec/missing.md",
     "CyberSecurity/Methodology",
     "Tools/Networks",
     "Tools/Linux",
