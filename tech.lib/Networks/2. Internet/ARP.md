@@ -37,5 +37,7 @@ It has not been formally defined yet.
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)
 [fortinet.com](https://www.fortinet.com/resources/cyberglossary/what-is-arp)
 [RFC 826 - ARP](https://datatracker.ietf.org/doc/html/rfc826)
-[RFC 903 - Reverse ARP](https://datatracker.ietf.org/doc/html/rfc903)
+[RFC 903 - Reverse ARP](https://datatracker.ietf.org/doc/html/rfc903) \*
 [RFC 1122 - Communication Layers, ARP](https://datatracker.ietf.org/doc/html/rfc1122#page-22)
+[RFC 2390 - Inverse Address Resolution Protocol](https://datatracker.ietf.org/doc/html/rfc2390) \*
+[RFC 5227 - IPv4 Address Conflict Detection](https://datatracker.ietf.org/doc/html/rfc5227) \*

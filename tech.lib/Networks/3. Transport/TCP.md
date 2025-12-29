@@ -53,13 +53,16 @@ packet-beta
 12. **Data \[0xc0: b\]:** This segment data
 
 ### Pseudo-Header
-
+MISSING
 
 ### TCP Options
+MISSING
 
 ## Checksum
+MISSING
 
 ## Events
+MISSING
 Open
 Send
 Recieve
@@ -70,10 +73,10 @@ Flush
 Asynchronous Reports
 
 ## Three-Way Handshake
-
+MISSING
 
 ## Ports
-
+MISSING
 
 ## Relevant Reading
 - [[Internet Protocol Suite#3. Transport|Transport layer]]

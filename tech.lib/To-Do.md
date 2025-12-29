@@ -13,7 +13,7 @@
 	- [ ] SSH
 	- [ ] RDP
 - [ ] tools
-	- [ ] sqlmap
+	- [x] sqlmap
 	- [ ] hping3
 	- [ ] netcat
 	- [ ] gobuster

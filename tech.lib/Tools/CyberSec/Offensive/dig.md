@@ -20,7 +20,7 @@ Flexible tool for interrogating DNS name servers. The domain information groper 
 
 ## Favorite Uses
 ```sh
-command options arguments
+for sub in $(cat /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt);do dig $sub.DOMAIN | grep -v ';\|SOA' | sed -r '/^\s*$/d' | grep $sub | tee -a subdomains.txt;done
 ```
 
 ## Command

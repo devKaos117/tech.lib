@@ -47,6 +47,75 @@ packet-beta
 6. **ARCOUNT \[0x50: 0b\]:** 
 
 ## DNS Query
+INSERT THE QUERYING PROCESS WITH DIAGRAMS
+```txt
+                 Local Host                        |  Foreign
+                                                   |
+    +---------+               +----------+         |  +--------+
+    |         | user queries  |          |queries  |  |        |
+    |  User   |-------------->|          |---------|->|Foreign |
+    | Program |               | Resolver |         |  |  Name  |
+    |         |<--------------|          |<--------|--| Server |
+    |         | user responses|          |responses|  |        |
+    +---------+               +----------+         |  +--------+
+                                |     A            |
+                cache additions |     | references |
+                                V     |            |
+                              +----------+         |
+                              |  cache   |         |
+                              +----------+         |
+```
+```txt
+                 Local Host                        |  Foreign
+                                                   |
+      +---------+                                  |
+     /         /|                                  |
+    +---------+ |             +----------+         |  +--------+
+    |         | |             |          |responses|  |        |
+    |         | |             |   Name   |---------|->|Foreign |
+    |  Master |-------------->|  Server  |         |  |Resolver|
+    |  files  | |             |          |<--------|--|        |
+    |         |/              |          | queries |  +--------+
+    +---------+               +----------+         |
+```
+host that supports all aspects of the domain name system
+```txt
+                 Local Host                        |  Foreign
+                                                   |
+    +---------+               +----------+         |  +--------+
+    |         | user queries  |          |queries  |  |        |
+    |  User   |-------------->|          |---------|->|Foreign |
+    | Program |               | Resolver |         |  |  Name  |
+    |         |<--------------|          |<--------|--| Server |
+    |         | user responses|          |responses|  |        |
+    +---------+               +----------+         |  +--------+
+                                |     A            |
+                cache additions |     | references |
+                                V     |            |
+                              +----------+         |
+                              |  Shared  |         |
+                              | database |         |
+                              +----------+         |
+                                A     |            |
+      +---------+     refreshes |     | references |
+     /         /|               |     V            |
+    +---------+ |             +----------+         |  +--------+
+    |         | |             |          |responses|  |        |
+    |         | |             |   Name   |---------|->|Foreign |
+    |  Master |-------------->|  Server  |         |  |Resolver|
+    |  files  | |             |          |<--------|--|        |
+    |         |/              |          | queries |  +--------+
+    +---------+               +----------+         |
+                                A     |maintenance |  +--------+
+                                |     +------------|->|        |
+                                |      queries     |  |Foreign |
+                                |                  |  |  Name  |
+                                +------------------|--| Server |
+                             maintenance responses |  +--------+
+```
+
+### Reverse Query
+DESCRIBE REVERSE QUERY
 
 ## Resource Records
 
