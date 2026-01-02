@@ -19,6 +19,7 @@ id
 GID and UID bits
 ### Service configuration
 dpkg
+apt
 openssh-server -> ssh, sshd
 apache -> a2enmod, a2dismod, htpasswd
 systemctl -> systemd
@@ -41,3 +42,4 @@ chkrootkit, rkhunter
 ### Others
 ping
 icmp
+mirrorbits -> cdimage.kali.org,http.kali.org,?mirrorlist

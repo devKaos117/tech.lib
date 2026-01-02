@@ -43,7 +43,434 @@
 					"childs": []
 				},
 				{
-					"path": "",
+					"path": "block",
+					"type": "dir",
+					"desc": "Pointers to all the block devices",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "bus",
+					"type": "dir",
+					"desc": "Character devices allowing for communication with BUS subsystems",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "char",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "console",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "core",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "cuse",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "disk",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "dm",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "dri",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "fb",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "fd",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "full",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "fuse",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "hd",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "hidraw",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "hpet",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "hugepages",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "hwrng",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "initctl",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "input",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "kmsg",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "kvm",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "log",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "loop",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "loop-control",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "mapper",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "mem",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "null",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "nvme",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "nvram",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "port",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "ppp",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "psaux",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "ptmx",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "pts",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "random",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "rfkill",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "rtc",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "sd",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "sg",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "shm",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "snapshot",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "snd",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "scd",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "sr",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "stderr",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "stdin",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "stdout",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "tpm",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "tty",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "ttyX",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "uhid",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "uinput",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "urandom",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "vcs",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "vcsa",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "vcsu",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "vfio",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "vhci",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "video",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "watchdog",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "zero",
 					"type": "",
 					"desc": "",
 					"note": "",
@@ -169,13 +596,13 @@
 		{
 			"path": "run",
 			"type": "dir",
-			"desc": "Contain run-time variable files",
+			"desc": "Run-time variable files",
 			"note": "",
 			"childs": [
 				{
 					"path": "lock",
 					"type": "dir",
-					"desc": "Contains lock files, which indicate the usage of a particular device or file",
+					"desc": "Lock files indicate the usage of a particular device or file",
 					"note": "Lock files contain a PID as a 10-byte ASCII decimal number, followed by a newline character"
 				}
 			]
@@ -235,83 +662,78 @@
 		{
 			"path": "usr",
 			"type": "dir",
-			"desc": "",
-			"note": "",
+			"desc": "Secondary hierarchy for read-only shared resources",
+			"note": "Contains the majority of multi-user utilities and applications",
 			"childs": [
 				{
 					"path": "bin",
 					"type": "dir",
-					"desc": "",
+					"desc": "Binaries and executables for user commands that shall appear in the $PATH search path",
 					"note": "",
-					"childs": [
-						{
-							"path": "",
-							"type": "",
-							"desc": "",
-							"note": "",
-							"childs": []
-						}
-					]
+					"childs": []
+				},
+				{
+					"path": "include",
+					"type": "dir",
+					"desc": "C and C++ API header files of system libraries",
+					"note": "",
+					"childs": []
 				},
 				{
 					"path": "lib",
 					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": [
-						{
-							"path": "",
-							"type": "",
-							"desc": "",
-							"note": "",
-							"childs": []
-						}
-					]
+					"desc": "Architecture-agnostic object libraries for packages, internal executables and other binaries",
+					"note": "Was originally reserved for shared essential libraries and kernel modules required to run binaries from /usr/bin and /usr/sbin",
+					"childs": []
 				},
 				{
 					"path": "lib32",
 					"type": "dir",
-					"desc": "",
+					"desc": "Architecture-specific 32-bit libraries",
 					"note": "",
-					"childs": [
-						{
-							"path": "",
-							"type": "",
-							"desc": "",
-							"note": "",
-							"childs": []
-						}
-					]
+					"childs": []
 				},
 				{
 					"path": "lib64",
 					"type": "dir",
-					"desc": "",
+					"desc": "Architecture-specific 64-bit libraries",
 					"note": "",
-					"childs": [
-						{
-							"path": "",
-							"type": "",
-							"desc": "",
-							"note": "",
-							"childs": []
-						}
-					]
+					"childs": []
+				},
+				{
+					"path": "libexec",
+					"type": "dir",
+					"desc": "Binaries for system administration tools and daemons",
+					"note": "Not intended for direct execution by users or shell scripts",
+					"childs": []
+				},
+				{
+					"path": "local",
+					"type": "dir",
+					"desc": "Tertiary hierarchy for local data specific to the host",
+					"note": "",
+					"childs": []
 				},
 				{
 					"path": "sbin",
 					"type": "dir",
-					"desc": "",
+					"desc": "Boot-essential and system administration binaries",
 					"note": "",
-					"childs": [
-						{
-							"path": "",
-							"type": "",
-							"desc": "",
-							"note": "",
-							"childs": []
-						}
-					]
+					"childs": []
+				},
+				{
+					"path": "share",
+					"type": "dir",
+					"desc": "Architecture-independent application data files",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "src",
+					"type": "dir",
+					"desc": "Kernel headers and applications source code",
+					"note": "",
+					"childs": []
 				}
 			]
 		},
@@ -322,8 +744,91 @@
 			"note": "",
 			"childs": [
 				{
-					"path": "",
-					"type": "",
+					"path": ".updated",
+					"type": "file",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "backups",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "cache",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "lib",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "local",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "lock",
+					"type": "link",
+					"desc": "",
+					"note": "",
+					"target": "/run/lock"},
+				{
+					"path": "log",
+					"type": "dir",
+					"desc": "Log files from various programs",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "opt",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "mail",
+					"type": "link",
+					"desc": "",
+					"note": "",
+					"target": "/var/mail"
+				},
+				{
+					"path": "run",
+					"type": "link",
+					"desc": "",
+					"note": "",
+					"target": "/run"
+				},
+				{
+					"path": "spool",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "tmp",
+					"type": "dir",
+					"desc": "Temporary files stored for an unspecified duration, being preserved between reboots",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "www",
+					"type": "dir",
 					"desc": "",
 					"note": "",
 					"childs": []

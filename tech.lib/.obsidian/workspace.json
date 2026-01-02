@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/File Hierarchy Standard.md",
-                "mode": "preview",
+                "file": "OffSec/KLCP.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "File Hierarchy Standard"
+              "title": "KLCP"
             }
           }
         ]
@@ -208,9 +208,11 @@
   },
   "active": "07179815afc016f3",
   "lastOpenFiles": [
-    "Linux/Kernel.md",
+    "Linux/Commands/apt.md",
+    "OffSec/KLCP.md",
     "Linux/File Hierarchy Standard.md",
     "Linux/Boot.md",
+    "Linux/Kernel.md",
     "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/hashid.md",
     "Tools/CyberSec/Offensive/hash-identifier.md",
@@ -228,14 +230,12 @@
     "templates/NOTE_TEMPLATE.md",
     "tech.lib.md",
     "templates/PROMPT_TEMPLATE.md",
-    "OffSec/KLCP.md",
     "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/Vulnerability.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "CyberSecurity/Methodology/4. Post Exploitation.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
     "CyberSecurity/Methodology/3. Exploitation.md",
-    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
     "OffSec",
     "Networks/1. Interface",
     "Networks/2. Internet",
