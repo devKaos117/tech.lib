@@ -1,0 +1,3 @@
+- [path:: /etc/hosts] | (desc:: Mapeamento estático de IPs) ^hosts
+- [path:: /etc/passwd] | (func:: Dados básicos de usuários) ^passwd
+- [path:: /dev/watchdog] | (func:: Interface do hardware watchdog timer) ^watchdog

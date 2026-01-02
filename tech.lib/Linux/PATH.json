@@ -1,0 +1,334 @@
+{
+	"/": [
+		{
+			"path": "bin",
+			"type": "link",
+			"desc": "",
+			"note": "",
+			"target": "/usr/bin"
+		},
+		{
+			"path": "boot",
+			"type": "dir",
+			"desc": "Mount point for the boot loader files",
+			"note": "Usually its read-only unless the boot loader or the kernel are being updated",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "dev",
+			"type": "dir",
+			"desc": "A devtmpfs that contains device nodes",
+			"note": "",
+			"childs": [
+				{
+					"path": "autofs",
+					"type": "file",
+					"desc": "Character device giving control access to the autofs daemon",
+					"note": "",
+					"childs": []
+				},
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "etc",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "home",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "lib",
+			"type": "link",
+			"desc": "",
+			"note": "",
+			"target": "/usr/lib"
+		},
+		{
+			"path": "lib32",
+			"type": "link",
+			"desc": "",
+			"note": "",
+			"target": "/usr/lib32"
+		},
+		{
+			"path": "lib64",
+			"type": "link",
+			"desc": "",
+			"note": "",
+			"target": "/usr/lib64"
+		},
+		{
+			"path": "lost+found",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": []
+		},
+		{
+			"path": "media",
+			"type": "dir",
+			"desc": "",
+			"note": ""
+		},
+		{
+			"path": "mnt",
+			"type": "dir",
+			"desc": "",
+			"note": ""
+		},
+		{
+			"path": "opt",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "proc",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "root",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "run",
+			"type": "dir",
+			"desc": "Contain run-time variable files",
+			"note": "",
+			"childs": [
+				{
+					"path": "lock",
+					"type": "dir",
+					"desc": "Contains lock files, which indicate the usage of a particular device or file",
+					"note": "Lock files contain a PID as a 10-byte ASCII decimal number, followed by a newline character"
+				}
+			]
+		},
+		{
+			"path": "sbin",
+			"type": "link",
+			"desc": "",
+			"note": "",
+			"target": "/usr/sbin"
+		},
+		{
+			"path": "srv",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "sys",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "tmp",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		},
+		{
+			"path": "usr",
+			"type": "dir",
+			"desc": "",
+			"note": "",
+			"childs": [
+				{
+					"path": "bin",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": [
+						{
+							"path": "",
+							"type": "",
+							"desc": "",
+							"note": "",
+							"childs": []
+						}
+					]
+				},
+				{
+					"path": "lib",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": [
+						{
+							"path": "",
+							"type": "",
+							"desc": "",
+							"note": "",
+							"childs": []
+						}
+					]
+				},
+				{
+					"path": "lib32",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": [
+						{
+							"path": "",
+							"type": "",
+							"desc": "",
+							"note": "",
+							"childs": []
+						}
+					]
+				},
+				{
+					"path": "lib64",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": [
+						{
+							"path": "",
+							"type": "",
+							"desc": "",
+							"note": "",
+							"childs": []
+						}
+					]
+				},
+				{
+					"path": "sbin",
+					"type": "dir",
+					"desc": "",
+					"note": "",
+					"childs": [
+						{
+							"path": "",
+							"type": "",
+							"desc": "",
+							"note": "",
+							"childs": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"path": "var",
+			"type": "dir",
+			"desc": "Stores variable files that contain constant changing data",
+			"note": "",
+			"childs": [
+				{
+					"path": "",
+					"type": "",
+					"desc": "",
+					"note": "",
+					"childs": []
+				}
+			]
+		}
+	]
+}

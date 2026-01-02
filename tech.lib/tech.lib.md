@@ -136,6 +136,7 @@ LIST WITHOUT ID category GROUP BY category
 [ENCODING]
 [COMMAND]
 [HASH]
+[EXPRESSION]
 ```
 
 ## Plugins

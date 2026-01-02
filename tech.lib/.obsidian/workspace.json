@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/4. Application/DNS.md",
+                "file": "Linux/File Hierarchy Standard.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "File Hierarchy Standard"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CyberSecurity/Tools/OffSec/hydra.md",
+                "file": "Linux/File Hierarchy Standard.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for hydra"
+              "title": "Backlinks for File Hierarchy Standard"
             }
           },
           {
@@ -185,12 +185,12 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,32 +208,35 @@
   },
   "active": "07179815afc016f3",
   "lastOpenFiles": [
-    "Networks/2. Internet/ARP.md",
-    "Linux/missing cmds.md",
     "Linux/Kernel.md",
     "Linux/File Hierarchy Standard.md",
     "Linux/Boot.md",
+    "Tools/CyberSec/Offensive/crackmapexec.md",
+    "Tools/CyberSec/Offensive/hashid.md",
+    "Tools/CyberSec/Offensive/hash-identifier.md",
+    "Linux/PATH.json~",
+    "Linux/PATH.json",
+    "Linux/Untitled.md",
+    "Linux/PATH.md",
     "Linux/Bash.md",
-    "Foundations/missing.md",
-    "Foundations/RFC.md",
-    "Foundations/process.md",
-    "Foundations/ITSM.md",
-    "Foundations/IANA.md",
-    "Foundations/firmware.md",
-    "Foundations/Compilation.md",
-    "Foundations/Boolean Algebra.md",
-    "Foundations/Assembly.md",
-    "Foundations/API.md",
-    "CyberSecurity/Theory/IAM.md",
-    "LLM Prompts/Notes.md",
-    "To-Do.md",
-    "tech.lib.md",
-    "Missing.md",
-    "Devices.md",
     "CyberSecurity/Methodology/0. Pre-Engagement.md",
-    "Networks/Internet Protocol Suite.md",
-    "Networks/4. Application/DNS.md",
-    "Networks/3. Transport/UDP.md",
+    "CyberSecurity/Theory/Exploit.md",
+    "CyberSecurity/Theory/Post Exploitation.md",
+    "CyberSecurity/Theory/Penetration Testing.md",
+    "Foundations/Assembly.md",
+    "Linux/missing cmds.md",
+    "templates/NOTE_TEMPLATE.md",
+    "tech.lib.md",
+    "templates/PROMPT_TEMPLATE.md",
+    "OffSec/KLCP.md",
+    "CyberSecurity/Theory/IAM.md",
+    "CyberSecurity/Theory/Vulnerability.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "CyberSecurity/Methodology/3. Exploitation.md",
+    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
+    "OffSec",
     "Networks/1. Interface",
     "Networks/2. Internet",
     "Networks/3. Transport",
@@ -241,10 +244,7 @@
     "CyberSecurity/Methodology",
     "Tools/Networks",
     "Tools/Linux",
-    "CyberSecurity/Techniques",
-    "Tools",
     "attachments/icon/redhat.svg",
-    "Linux/Distros",
     "attachments/icon/fedora.svg",
     "attachments/icon/xfce4.svg",
     "attachments/icon/tailsOS.svg",

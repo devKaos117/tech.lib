@@ -1,8 +1,3 @@
-- [x] Pentesting note
-	- [ ] Pre-engagement
-	- [ ] Methodology
-	- [ ] Info Gather
-- [ ] Methodology/Information Gathering note
 - [ ] Network Protocols
 	- [ ] DNS
 	- [ ] SMTP
@@ -24,5 +19,3 @@
 	- [ ] chisel
 	- [ ] ligolo-ng
 	- [ ] openssl
-- [ ] Start correcting offsec tools
-- [ ] Start migrating linux commands

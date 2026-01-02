@@ -1,0 +1,44 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Linux FHS Schema",
+	"description": "Linux FHS structure description schema",
+	"type": "object",
+	"properties": {
+		"/": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/fsItem" }
+		}
+	},
+	"$defs": {
+		"fsItem": {
+			"type": "object",
+			"properties": {
+				"path": {
+					"type": "string"
+				},
+				"type": { 
+					"type": "string", 
+					"enum": ["dir", "file", "link"] 
+				},
+				"desc": {
+					"type": "string"
+				},
+				"note": {
+					"type": "string"
+				},
+				"target": { 
+					"type": "string",
+					"description": "Path to the links target"
+				},
+				"childs": {
+					"type": "array",
+					"items": {
+						"$ref": "#/$defs/fsItem"
+					}
+				}
+			},
+			"required": ["path", "type", "desc"]
+		}
+	},
+	"required": ["/"]
+}
