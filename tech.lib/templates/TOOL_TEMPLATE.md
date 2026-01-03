@@ -104,6 +104,8 @@ HELP
 VAR=VAL # desc
 ```
 
+## Manual Pages
+- pkg(n)
 
 ## Exit Status
 - n - status

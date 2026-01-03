@@ -45,7 +45,7 @@
 				{
 					"path": "block",
 					"type": "dir",
-					"desc": "Pointers to all the block devices",
+					"desc": "Pointers to all block devices",
 					"note": "",
 					"childs": []
 				},
@@ -58,30 +58,30 @@
 				},
 				{
 					"path": "char",
-					"type": "",
-					"desc": "",
+					"type": "dir",
+					"desc": "Pointers to all character devices",
 					"note": "",
 					"childs": []
 				},
 				{
 					"path": "console",
-					"type": "",
-					"desc": "",
+					"type": "file",
+					"desc": "Character device for the system main console",
 					"note": "",
 					"childs": []
 				},
 				{
 					"path": "core",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "link",
+					"desc": "Symbolic link to the core dump file",
+					"note": "Replaces an obsolete device node",
+					"target": "/proc/kcore"
 				},
 				{
 					"path": "cuse",
-					"type": "",
-					"desc": "",
-					"note": "",
+					"type": "file",
+					"desc": "Character device for the CUSE subsystem",
+					"note": "Allows for the interaction of programs in the userspace with in-kernel emulation functions",
 					"childs": []
 				},
 				{

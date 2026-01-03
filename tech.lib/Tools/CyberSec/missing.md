@@ -31,6 +31,7 @@ snmpwalk
 snmp-check
 smbmap
 ffuf
+cmseek
 https://github.com/assetnote/kiterunner
 https://github.com/cerberauth/vulnapi
 https://github.com/cldrn/davtest
@@ -56,6 +57,8 @@ https://github.com/commixproject/commix
 https://github.com/projectdiscovery/nuclei
 
 https://github.com/google/osv-scanner
+
+https://github.com/andresriancho/w3af
 
 legion
 maltego

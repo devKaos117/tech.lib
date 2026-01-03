@@ -18,6 +18,10 @@ tags:
 
 A secure protocol designed to login and execute commands remotely through secure encrypted communications, even within an insecure network
 
+```
+ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no"
+```
+
 ## Command
 ```txt
 ssh [OPTION]... [USER@HOST] [COMMAND] [ARGUMENT]...

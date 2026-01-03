@@ -13,7 +13,22 @@ tags:
 
 > [!info] deb package manager CLI
 
-Provides a high-level command line interface for the package management system of [[Debian]] based distros. It is intended as an end user interface and enables some options better suited for interactive usage by default compared to more specialized APT tools like [[apt-get]] and [[apt-cache]]
+Provides a high-level command line interface for the package management system of [[Debian]] based distros. It is intended as an end user interface and enables some options better suited for interactive usage by default compared to more specialized APT tools like [[apt-get]], [[apt-cache]], [[apt-key]]
+
+/etc/apt/*
+/etc/apt/sources.list
+/etc/apt/sources.list.d/
+
+package priorities
+
+deb|deb-src
+binary packages|source packages
+
+mirror url
+file|cdrom|http|ftp
+
+repository subdirectories
+main|non-free|contrib
 
 ## Command
 ```txt

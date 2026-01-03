@@ -18,8 +18,10 @@ sg
 id
 GID and UID bits
 ### Service configuration
-dpkg
-apt
+dpkg -> /var/lib/dpkg/, /var/log/dpkg.log
+apt -> /var/lib/apt/, /var/cache/apt/
+apt-xapian-index -> axi-cache
+aptitude
 openssh-server -> ssh, sshd
 apache -> a2enmod, a2dismod, htpasswd
 systemctl -> systemd
@@ -40,6 +42,8 @@ Advanced Intrusion Detection Environment
 https://github.com/Tripwire/tripwire-open-source
 chkrootkit, rkhunter
 ### Others
+set
 ping
 icmp
 mirrorbits -> cdimage.kali.org,http.kali.org,?mirrorlist
+MIME -> MIME types, mime-support, update-mime
