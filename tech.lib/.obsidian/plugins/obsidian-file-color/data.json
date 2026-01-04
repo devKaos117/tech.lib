@@ -16,7 +16,7 @@
   "fileColors": [
     {
       "path": "Foundations/RFC.md",
-      "color": "pv2L5x3kobWSdBJry0yLM"
+      "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
       "path": "Linux/Commands/awk.md",
@@ -124,6 +124,14 @@
     },
     {
       "path": "Networks/2. Internet/ARP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Security Assessments.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Theory/Security Model.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

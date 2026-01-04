@@ -5,7 +5,6 @@ subjects:
 full_form: Identity and Access Management
 acronym: IAM
 ---
-
 ## Definition
 [IAM]{Identity and Access Management} is framework comprising the policies and operations that ensures data [[CyberSecurity/Theory/Information#CIA Triad|integrity and confidentiality]] by governing and managing digital identities. It's foundational pillars are authentication, authorization and auditing, often referred to as AAA services.
 
@@ -21,7 +20,7 @@ The process of verifying the claimed identity of an entity during an access atte
 - **Inherence Factor:** Something that you are
 
 ### Multi Factor Authentication
-The [MFA]{Multi Factor Authentication} consists on the [AuthN]{Authentication} challenge requiring two or more distinct factor authentication. 
+The [MFA]{Multi Factor Authentication} consists on the [AuthN]{Authentication} challenge requiring two or more distinct factor authentication.
 
 ## Authorization
 The process of validating that a given identity has the right to access or perform a determined resource or service.
@@ -58,14 +57,11 @@ Strategic planning, governance, policy definition and operational oversight of t
 ### Identity Provider
 Authoritative and centralized service that creates, maintains and manages identity information, offering the [AAA]{Authentication, Authorization, Auditing} services.
 
-### Zero Trust Architecture
-The [ZTA]{Zero Trust Architecture} is a security model and strategic philosophy based the core principle of **"Never trust, always verify"**, never assuming that any entity, network or information should be automatically trusted.
-
 ### Principle of Least Privilege
 The [PoLP]{Principle of Least Privilege} is the security recommended practice of ensuring that only the minimum level of privileges should be granted to every identity, only giving the necessary permissions for it's authorized tasks.
 
 ### Separation of Duties
-The [SoD]{Separation of Duties} is an internal control mechanism designed to prevent fraud, error and abuse of power by ensuring that no single entity has total control over critical and high-risk resources. 
+The [SoD]{Separation of Duties} is an internal control mechanism designed to prevent fraud, error and abuse of power by ensuring that no single entity has total control over critical and high-risk resources.
 
 ## Relevant Reading
 - [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-4/)

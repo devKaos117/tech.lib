@@ -145,7 +145,7 @@ HYDRA_PROXY_HTTP=[PATH]
 - [[]]
 
 ## External Reference
-[github.com](https://github.com/vanhauser-thc/thc-hydra)
-[](site)
-[](man)
+[github.com](https://github.com/vanhauser-thc/thc-hydra)  
+[](site)  
+[](man)  
 [gnu.org](GNU)

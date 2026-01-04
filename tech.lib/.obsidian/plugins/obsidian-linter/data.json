@@ -99,7 +99,7 @@
       "enabled": false
     },
     "remove-trailing-punctuation-in-heading": {
-      "enabled": false,
+      "enabled": true,
       "punctuation-to-remove": ".,;:!。，；：！"
     },
     "footnote-after-punctuation": {
@@ -118,15 +118,15 @@
       "extra-auto-correct-files": []
     },
     "blockquote-style": {
-      "enabled": false,
+      "enabled": true,
       "style": "space"
     },
     "convert-bullet-list-markers": {
       "enabled": false
     },
     "default-language-for-code-fences": {
-      "enabled": false,
-      "default-language": ""
+      "enabled": true,
+      "default-language": "txt"
     },
     "emphasis-style": {
       "enabled": true,
@@ -137,7 +137,7 @@
       "no-bare-uris": true
     },
     "ordered-list-style": {
-      "enabled": false,
+      "enabled": true,
       "number-style": "ascending",
       "list-end-style": "."
     },
@@ -145,7 +145,7 @@
       "enabled": false
     },
     "quote-style": {
-      "enabled": false,
+      "enabled": true,
       "single-quote-enabled": true,
       "single-quote-style": "''",
       "double-quote-enabled": true,
@@ -158,7 +158,7 @@
       "enabled": true
     },
     "remove-hyphenated-line-breaks": {
-      "enabled": false
+      "enabled": true
     },
     "remove-multiple-spaces": {
       "enabled": true
@@ -180,31 +180,31 @@
       "inner-new-lines": false
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
-      "enabled": false,
-      "tabsize": 4
+      "enabled": true,
+      "tabsize": ""
     },
     "empty-line-around-blockquotes": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-code-fences": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-horizontal-rules": {
-      "enabled": false
+      "enabled": true
     },
     "empty-line-around-math-blocks": {
       "enabled": true
     },
     "empty-line-around-tables": {
-      "enabled": false
+      "enabled": true
     },
     "heading-blank-lines": {
-      "enabled": false,
-      "bottom": true,
-      "empty-line-after-yaml": true
+      "enabled": true,
+      "bottom": false,
+      "empty-line-after-yaml": false
     },
     "line-break-at-document-end": {
       "enabled": true
@@ -219,7 +219,7 @@
       "enabled": true
     },
     "remove-link-spacing": {
-      "enabled": false
+      "enabled": true
     },
     "remove-space-around-characters": {
       "enabled": false,
@@ -242,8 +242,8 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
-      "twp-space-line-break": false
+      "enabled": true,
+      "two-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": false
@@ -280,13 +280,13 @@
     "templates"
   ],
   "filesToIgnore": [],
-  "linterLocale": "system-default",
+  "linterLocale": "en",
   "logLevel": "ERROR",
   "lintCommands": [],
   "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
-    "tagArrayStyle": "single-line",
+    "tagArrayStyle": "multi-line",
     "minimumNumberOfDollarSignsToBeAMathBlock": 2,
     "escapeCharacter": "\"",
     "removeUnnecessaryEscapeCharsForMultiLineArrays": false

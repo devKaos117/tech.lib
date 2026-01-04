@@ -1,12 +1,11 @@
 [
-  "obsidian-importer",
   "obsidian-linter",
   "obsidian-style-settings",
   "table-editor-obsidian",
   "templater-obsidian",
   "dataview",
-  "obsidian-icon-folder",
   "obsidian-file-color",
   "hover-reveal",
-  "hover-reveal-custom"
+  "hover-reveal-custom",
+  "obsidian-icon-folder"
 ]

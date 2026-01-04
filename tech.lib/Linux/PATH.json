@@ -15,17 +15,11 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -38,37 +32,27 @@
 				{
 					"path": "autofs",
 					"type": "file",
-					"desc": "Character device giving control access to the autofs daemon",
-					"note": "",
-					"childs": []
+					"desc": "Character device giving control access to the autofs daemon"
 				},
 				{
 					"path": "block",
 					"type": "dir",
-					"desc": "Pointers to all block devices",
-					"note": "",
-					"childs": []
+					"desc": "Pointers to all block devices"
 				},
 				{
 					"path": "bus",
 					"type": "dir",
-					"desc": "Character devices allowing for communication with BUS subsystems",
-					"note": "",
-					"childs": []
+					"desc": "Character devices allowing for communication with BUS subsystems"
 				},
 				{
 					"path": "char",
 					"type": "dir",
-					"desc": "Pointers to all character devices",
-					"note": "",
-					"childs": []
+					"desc": "Pointers to all character devices"
 				},
 				{
 					"path": "console",
 					"type": "file",
-					"desc": "Character device for the system main console",
-					"note": "",
-					"childs": []
+					"desc": "Character device for the system main console"
 				},
 				{
 					"path": "core",
@@ -81,400 +65,246 @@
 					"path": "cuse",
 					"type": "file",
 					"desc": "Character device for the CUSE subsystem",
-					"note": "Allows for the interaction of programs in the userspace with in-kernel emulation functions",
-					"childs": []
+					"note": "Allows for the interaction of programs in the userspace with in-kernel emulation functions"
 				},
 				{
 					"path": "disk",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir",
+					"desc": "Pointers to disk drives"
 				},
 				{
 					"path": "dm",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "file",
+					"desc": "Block device used by the device mapper"
 				},
 				{
 					"path": "dri",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir",
+					"desc": "Direct Rendering Infrastructure devices"
 				},
 				{
 					"path": "fb",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "file",
+					"desc": "Character device for frame buffer interaction"
 				},
 				{
 					"path": "fd",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "link",
+					"target": "/proc/self/fd"
 				},
 				{
 					"path": "full",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "file",
+					"desc": "Character device that always returns EOF on read and allows no writing"
 				},
 				{
 					"path": "fuse",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "file",
+					"desc": "Character device for the FUSE subsystem"
 				},
 				{
 					"path": "hd",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir",
+					"desc": "Pointers to IDE disk devices",
+					"childs": [
+						{
+							"path": "hd[a-iv][1-15]",
+							"type": "file",
+							"desc": "Named from order of detection and partition number"
+						}
+					]
 				},
 				{
 					"path": "hidraw",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "hpet",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "hugepages",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "hwrng",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "initctl",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "input",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "kmsg",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "kvm",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "log",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "loop",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "loop-control",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "mapper",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "mem",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "null",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "nvme",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "nvram",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "port",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "ppp",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "psaux",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "ptmx",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "pts",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "random",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "rfkill",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "rtc",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "sd",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "sg",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "shm",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "snapshot",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "snd",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "scd",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "sr",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "stderr",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "stdin",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "stdout",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "tpm",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "tty",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "ttyX",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "uhid",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "uinput",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "urandom",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "vcs",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "vcsa",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "vcsu",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "vfio",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "vhci",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "video",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "watchdog",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				},
 				{
 					"path": "zero",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -486,10 +316,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -501,10 +328,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -556,10 +380,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -571,10 +392,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -586,10 +404,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -622,10 +437,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -637,10 +449,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -652,10 +461,7 @@
 			"childs": [
 				{
 					"path": "",
-					"type": "",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": ""
 				}
 			]
 		},
@@ -668,72 +474,54 @@
 				{
 					"path": "bin",
 					"type": "dir",
-					"desc": "Binaries and executables for user commands that shall appear in the $PATH search path",
-					"note": "",
-					"childs": []
+					"desc": "Binaries and executables for user commands that shall appear in the $PATH search path"
 				},
 				{
 					"path": "include",
 					"type": "dir",
-					"desc": "C and C++ API header files of system libraries",
-					"note": "",
-					"childs": []
+					"desc": "C and C++ API header files of system libraries"
 				},
 				{
 					"path": "lib",
 					"type": "dir",
 					"desc": "Architecture-agnostic object libraries for packages, internal executables and other binaries",
-					"note": "Was originally reserved for shared essential libraries and kernel modules required to run binaries from /usr/bin and /usr/sbin",
-					"childs": []
+					"note": "Was originally reserved for shared essential libraries and kernel modules required to run binaries from /usr/bin and /usr/sbin"
 				},
 				{
 					"path": "lib32",
 					"type": "dir",
-					"desc": "Architecture-specific 32-bit libraries",
-					"note": "",
-					"childs": []
+					"desc": "Architecture-specific 32-bit libraries"
 				},
 				{
 					"path": "lib64",
 					"type": "dir",
-					"desc": "Architecture-specific 64-bit libraries",
-					"note": "",
-					"childs": []
+					"desc": "Architecture-specific 64-bit libraries"
 				},
 				{
 					"path": "libexec",
 					"type": "dir",
 					"desc": "Binaries for system administration tools and daemons",
-					"note": "Not intended for direct execution by users or shell scripts",
-					"childs": []
+					"note": "Not intended for direct execution by users or shell scripts"
 				},
 				{
 					"path": "local",
 					"type": "dir",
-					"desc": "Tertiary hierarchy for local data specific to the host",
-					"note": "",
-					"childs": []
+					"desc": "Tertiary hierarchy for local data specific to the host"
 				},
 				{
 					"path": "sbin",
 					"type": "dir",
-					"desc": "Boot-essential and system administration binaries",
-					"note": "",
-					"childs": []
+					"desc": "Boot-essential and system administration binaries"
 				},
 				{
 					"path": "share",
 					"type": "dir",
-					"desc": "Architecture-independent application data files",
-					"note": "",
-					"childs": []
+					"desc": "Architecture-independent application data files"
 				},
 				{
 					"path": "src",
 					"type": "dir",
-					"desc": "Kernel headers and applications source code",
-					"note": "",
-					"childs": []
+					"desc": "Kernel headers and applications source code"
 				}
 			]
 		},
@@ -745,93 +533,59 @@
 			"childs": [
 				{
 					"path": ".updated",
-					"type": "file",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "file"
 				},
 				{
 					"path": "backups",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "cache",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "lib",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "local",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "lock",
 					"type": "link",
-					"desc": "",
-					"note": "",
 					"target": "/run/lock"},
 				{
 					"path": "log",
 					"type": "dir",
-					"desc": "Log files from various programs",
-					"note": "",
-					"childs": []
+					"desc": "Log files from various programs"
 				},
 				{
 					"path": "opt",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "mail",
 					"type": "link",
-					"desc": "",
-					"note": "",
 					"target": "/var/mail"
 				},
 				{
 					"path": "run",
 					"type": "link",
-					"desc": "",
-					"note": "",
 					"target": "/run"
 				},
 				{
 					"path": "spool",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				},
 				{
 					"path": "tmp",
 					"type": "dir",
-					"desc": "Temporary files stored for an unspecified duration, being preserved between reboots",
-					"note": "",
-					"childs": []
+					"desc": "Temporary files stored for an unspecified duration, being preserved between reboots"
 				},
 				{
 					"path": "www",
-					"type": "dir",
-					"desc": "",
-					"note": "",
-					"childs": []
+					"type": "dir"
 				}
 			]
 		}

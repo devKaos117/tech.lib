@@ -5,13 +5,22 @@ subjects:
 full_form: Governance, Risk Management and Compliance
 acronym: GRC
 ---
-
 ## Definition
 Orgatizational strategy aimed to eficiently manage governance and risks while maintaining [[CyberSecurity/Theory/Regulatory Compliance|Regulatory Compliance]]
 
 - **Governance** is the combination of processes established and executed by the directors, reflecting in the organization's structure and management.
 - **Risk Management** is predicting and managing risks that could hinder the organization from reliably achieving its objectives under uncertainty.
 - **Compliance** refers to adhering with the mandated and internal boundaries
+
+[_Business Continuity Planning_](https://en.wikipedia.org/wiki/Business_continuity_planning) (BCP)
+[_software bill of materials_](https://www.cisa.gov/sbom) (SBOM)
+Shamir's Secret Sharing (SSS)
+
+## Threat Modeling
+involves taking data from real-world adversaries and evaluating those attack patterns and techniques against our people, processes, systems, and software. It is important to consider how the compromise of one system in our network might impact others
+
+## Threat Intelligence
+is data that has been refined in the _context_ of the organization: actionable information that an organization has gathered via threat modeling about a valid threat to that organization's success. Information isn't considered threat intelligence unless it results in an _action item_ for the organization
 
 ## Frameworks
 [[ITSM]]
@@ -21,9 +30,6 @@ Orgatizational strategy aimed to eficiently manage governance and risks while ma
 [[CIS Controls]]
 
 ## Laws and Regulations
-```dataview
-LIST FROM #cybersec/theory/regulation SORT last_modification
-```
 
 |**Categories**|**USA**|**Europe**|**UK**|**India**|**China**|
 |---|---|---|---|---|---|
@@ -36,6 +42,23 @@ LIST FROM #cybersec/theory/regulation SORT last_modification
 |A framework for cooperation between countries in investigating and prosecuting cybercrime|||[Regulation of Investigatory Powers Act 2000](https://www.legislation.gov.uk/ukpga/2000/23/contents) (`RIPA`)|||
 |Outlining individuals' legal rights and protections regarding their personal data||||[Personal Data Protection Bill 2019](https://www.congress.gov/bill/116th-congress/senate-bill/2889)|[Measures for the Security Assessment of Cross-border Transfer of Personal Information and Important Data](https://www.mayerbrown.com/en/perspectives-events/publications/2022/07/china-s-security-assessments-for-cross-border-data-transfers-effective-september-2022)|
 |Outlining individuals' fundamental rights and freedoms|||||[State Council Regulation on the Protection of Critical Information Infrastructure Security](http://english.www.gov.cn/policies/latestreleases/202108/17/content_WS611b8062c6d0df57f98de907.html)|
+
+PEN-200 > 3.5
+[_Health Insurance Portability and Accountability Act_](https://www.cdc.gov/phlp/publications/topic/hipaa.html) of 1996 (HIPAA)
+[_Family Educational Rights and Privacy Act of 1974_](https://studentprivacy.ed.gov/faq/what-ferpa) (FERPA)
+[_Gramm-Leach-Bliley Act_](https://www.fdic.gov/resources/bankers/affordable-mortgage-lending-center/glba.html) (GLBA)
+[_General Data Protection Regulation_](https://gdpr.eu/what-is-gdpr/) (GDPR)
+
+[_Payment Card Industry Data Security Standard_](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v3_2_1.pdf) (PCI DSS)
+[_CIS Controls_](https://www.cisecurity.org/controls/cis-controls-list)
+_National Institute for Standards and Technology_ (NIST) [_Cybersecurity Framework_](https://www.nist.gov/industry-impacts/cybersecurity-framework)
+[_MITRE ATT&CK_](https://attack.mitre.org/) framework
+[_ISA/IEC 62443_](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards)
+[_Federal Risk and Authorization Management Program_](https://www.fedramp.gov/program-basics/) (FedRAMP)
+
+[**Key disclosure laws**](https://en.wikipedia.org/wiki/Key_disclosure_law)
+[_Regulation of Investigatory Powers Act 2000_](https://wiki.openrightsgroup.org/wiki/Regulation_of_Investigatory_Powers_Act_2000/Part_III) (RIPA)
+[_California Consumer Privacy Act of 2018_](https://oag.ca.gov/privacy/ccpa) (CCPA)
 
 ## Relevant Reading
 - [[]]

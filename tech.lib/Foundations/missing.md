@@ -1,3 +1,10 @@
 - PHP
 	- Wrappers
 	- Content Management System
+- backups
+	- Full
+	- Differential
+	- Incremental
+	- hot
+	- cold
+	- [3-2-1 rule](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf)

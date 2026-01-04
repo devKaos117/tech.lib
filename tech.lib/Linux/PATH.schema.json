@@ -37,7 +37,7 @@
 					}
 				}
 			},
-			"required": ["path", "type", "desc"]
+			"required": ["path", "type"]
 		}
 	},
 	"required": ["/"]

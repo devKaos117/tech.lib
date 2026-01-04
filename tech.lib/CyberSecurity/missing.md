@@ -1,6 +1,7 @@
 hash
 criptografia simetrica
 criptografia assimetrica
+ephemeral encryption
 CRC32
 MD4|5|6
 SHA1|2-256,512|3-256,512
@@ -19,6 +20,8 @@ Hash-based Message Authentication Code
 pk cryptography
 Hash LM, NTLM
 
+[RFC9580 - OpenPGP](https://datatracker.ietf.org/doc/html/rfc9580)
+
 Isolate AuthN, Authorization and Auditing from IAM?
 
 SSO (SAML)
@@ -33,6 +36,9 @@ EDR
 Antivirus
 Firewall
 WAF
+
+malware
+Sleeper malware
 
 Control Flow Guard
 Data Execution Prevention

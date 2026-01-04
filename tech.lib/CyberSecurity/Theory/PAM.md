@@ -5,7 +5,6 @@ subjects:
 full_form: Privileged Access Management
 acronym: PAM
 ---
-
 ## Definition
 [PAM]{Privileged Access Management} is the sub-discipline of [[CyberSecurity/Theory/IAM|IAM]] dedicated to securing, managing, and monitoring all [[CyberSecurity/Theory/IAM#Identity|identities]] that possess elevated permissions to critical systems and sensitive data. It enforces the [[CyberSecurity/Theory/IAM#Principle of Least Privilege|PoLP]] on the accounts that, if compromised, pose the greatest risk of catastrophic impact.
 
@@ -16,6 +15,7 @@ acronym: PAM
 
 ## Core Security Mechanisms
 - **[JIT]{Just-In-Time} Access:** The elevated permissions access is temporary, revoked automatically after the defined task or time conclusion
+- **[JE]{Just Enough} Access:** Following the [[IAM#Principle of Least Privilege|PoLP]], only the necessary permission is granted
 - **Privileged Delegation and [PEC]{Privilege Elevation Control}:** A whitelist of specific commands or applications allowed to run with elevated rights without exposing the user's primary credentials is implemented, typically via [PME]{Privilege Management for Endpoints}
 - **Credential Vaulting:** Privileged credentials are stored in centralized encrypted vaults and automatically rotated on a schedule or after use
 - **Session Logging:** Privileged sessions are heavily logged to keep track and allow for precise audits of activities
@@ -23,7 +23,6 @@ acronym: PAM
 ## PAM Architectures
 - **Broker Model:** It operates via a proxy architecture, centralizing the [PAM]{Privileged Access Management} components in a highly secured cluster. It's has a simpler implementation and allow for the complete abstraction of credentials, but introduces a single point of failure
 - **Distributed Model:** This model shifts the enforcement mechanism to the endpoint itself by deploying a lightweight, persistent software component on every host to localize the access control while still having a centralized policy management server. While allowing for a much granular control, it's equally more complex to implement
-
 
 ## Relevant Reading
 - [[]]

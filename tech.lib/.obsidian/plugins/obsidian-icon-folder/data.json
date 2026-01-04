@@ -6,11 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFolder",
-      "FiTool",
-      "RiToolsFill",
-      "RiAttachment2",
-      "SiLinux"
+      "SiKalilinux",
+      "LiPaperclip",
+      "LoDebian",
+      "SiDebian",
+      "LiFolder"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,6 +42,8 @@
   "templates": "LiLayoutTemplate",
   "Windows": "SiWindowsxp",
   "CyberSecurity": "SiKalilinux",
-  "attachments": "RiAttachment2",
-  "Tools": "FiTool"
+  "Tools": "FiTool",
+  "Linux/Distros/Debian.md": "SiDebian",
+  "attachments": "LiPaperclip",
+  "Linux/Distros/Kali Linux.md": "SiKalilinux"
 }
