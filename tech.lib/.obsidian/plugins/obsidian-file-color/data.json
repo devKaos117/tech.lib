@@ -133,6 +133,18 @@
     {
       "path": "CyberSecurity/Theory/Security Model.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Distros/Kali Linux.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Linux/Distros/Debian.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/sqlmap.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

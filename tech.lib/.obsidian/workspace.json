@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/GRC.md",
+                "file": "Tools/CyberSec/Offensive/wce.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GRC"
+              "title": "wce"
             }
           }
         ]
@@ -207,28 +207,32 @@
   },
   "active": "1c8649705cf5b953",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/Exploit.md",
+    "Tools/CyberSec/Offensive/wafw00f.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
+    "Tools/CyberSec/Offensive/mimikatz.md",
+    "Linux/Commands/awk.md",
+    "Linux/Commands/as.md",
+    "Linux/Distros/Kali Linux.md",
+    "CyberSecurity/Theory/Security Model.md",
     "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/GRC.md",
+    "Networks/1. Interface/Ethernet.md",
+    "Linux/Boot.md",
+    "Linux/Bash.md",
+    "CyberSecurity/Theory/Exploit.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "tech.lib.md",
+    "Linux/File Hierarchy Standard.md",
+    "CyberSecurity/Methodology/5. Reporting.md",
+    "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "CyberSecurity/Theory/PAM.md",
     "CyberSecurity/missing.md",
     "Foundations/missing.md",
-    "CyberSecurity/Theory/Security Model.md",
     "CyberSecurity/Theory/Security Assessments.md",
     "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/Information.md",
     "CyberSecurity/Theory/Attack Techniques.md",
     "Missing.md",
-    "Tools/CyberSec/Offensive/crackmapexec.md",
-    "Linux/Distros/Kali Linux.md",
-    "Linux/Distros/Debian.md",
-    "OffSec/KLCP.md",
-    "Linux/Commands/curl.md",
-    "templates/NOTE_TEMPLATE.md",
-    "Foundations/RFC.md",
-    "Networks/Internet Protocol Suite.md",
-    "templates/TOOL_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/hydra.md",
     "attachments/icon/xfce4.svg",
     "attachments",
     "attachments/icon/Debian.svg",
@@ -240,10 +244,6 @@
     "attachments/icon/archlinux.svg",
     "attachments/icon/fedora.svg",
     "attachments/icon/debian.svg",
-    "Linux/File Hierarchy Standard.md",
-    "Linux/Bash.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
-    "Tools/CyberSec/missing.md",
     "Linux/PATH.json~",
     "Linux/PATH.json",
     "OffSec",
@@ -252,7 +252,7 @@
     "Networks/3. Transport",
     "Networks/4. Application",
     "CyberSecurity/Methodology",
-    "Tools/Networks",
+    "Tools/Network",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]

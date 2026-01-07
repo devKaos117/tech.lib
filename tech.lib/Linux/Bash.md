@@ -5,12 +5,11 @@ subjects:
 full_form: NULL
 acronym: NULL
 ---
-
 ## Definition
-
 
 ## Environmental Variables
 ### Declaration
+
 ```bash
 var="val"
 echo $var
@@ -35,7 +34,7 @@ Environment variables, also called global variables, are available system-wide, 
 - **HISTFILE** The name of the file in which command history is saved
 - **HISTSIZE** The number of commands to remember in the command history
 - **HOME** The home directory of the current user
-- **HOSTNAME**  Automatically set to the name of the current host
+- **HOSTNAME** Automatically set to the name of the current host
 - **MACHTYPE** Automatically set to a string that fully describes the system type on which bash is executing, in the standard GNU cpu-company-system format
 - **OLDPWD** The previous working directory as set by the [[cd]] command
 - **PATH** A colon-separated list of directories for the shell to look in order to find commands
@@ -48,69 +47,70 @@ Environment variables, also called global variables, are available system-wide, 
 - **UID** Expands to the user ID of the current user
 
 ## Scripting
-### Shell interpreter
+### Shell Interpreter
 The first line of the script file is usually a commented path for the intended shell to run it. If the file is simply executed, it will try to use the pointed shell, but if it's executed through a shell CLI call, it will be opened with the called shell interpreter.
+
 ```bash
 #!/bin/bash
 ```
 
-### Variable Declaration
-
 ### Conditional Expressions
+
 ```bash
 #------- File Operators -------
--a [PATH] #True if file exists
--e [PATH] #True if file exists
+-a [PATH] # True if file exists
+-e [PATH] # True if file exists
 
--f [PATH] #True if file exists and is a regular file
--d [PATH] #True if file exists and is a directory
--h [PATH] #True if file exists and is a symbolic link
--L [PATH] #True if file exists and is a symbolic link
--c [PATH] #True if file exists and is a character special file
--b [PATH] #True if file exists and is a block special file
--p [PATH] #True if file exists and is a named pipe (FIFO)
--S [PATH] #True if file exists and is a socket
+-f [PATH] # True if file exists and is a regular file
+-d [PATH] # True if file exists and is a directory
+-h [PATH] # True if file exists and is a hard link
+-L [PATH] # True if file exists and is a symbolic link
+-c [PATH] # True if file exists and is a character special file
+-b [PATH] # True if file exists and is a block special file
+-p [PATH] # True if file exists and is a named pipe (FIFO)
+-S [PATH] # True if file exists and is a socket
 
--r [PATH] #True if file exists and is readable
--w [PATH] #True if file exists and is writable
--x [PATH] #True if file exists and is executable
--N [PATH] #True if file exists and has been modified since it was last read
--u [PATH] #True if file exists and its set-user-id bit is set
--O [PATH] #True if file exists and is owned by the effective user id
--g [PATH] #True if file exists and its set-group-id bit is set
--G [PATH] #True if file exists and is owned by the effective group id
--s [PATH] #True if file exists and has a size greater than zero
+-r [PATH] # True if file exists and is readable
+-w [PATH] # True if file exists and is writable
+-x [PATH] # True if file exists and is executable
+-N [PATH] # True if file exists and has been modified since it was last read
+-u [PATH] # True if file exists and its set-user-id bit is set
+-O [PATH] # True if file exists and is owned by the effective user id
+-g [PATH] # True if file exists and its set-group-id bit is set
+-G [PATH] # True if file exists and is owned by the effective group id
+-s [PATH] # True if file exists and has a size greater than zero
 
--t [PATH] #True if the file descriptor is open and refers to a terminal
+-t [PATH] # True if the file descriptor is open and refers to a terminal
 
-[PATH] -ef [PATH] #True if pointed paths refer to the same device and inode numbers
-[PATH(1)] -nt [PATH(2)] #True if file1 is newer (according to modification date) than file2, or if file1 exists and file2 does not
-[PATH(1)] -ot [PATH(2)] #True if file1 is older than file2, or if file2 exists and file1 does not
+[PATH] -ef [PATH] # True if pointed paths refer to the same device and inode numbers
+[PATH(1)] -nt [PATH(2)] # True if file1 is newer (according to modification date) than file2, or if file1 exists and file2 does not
+[PATH(1)] -ot [PATH(2)] # True if file1 is older than file2, or if file2 exists and file1 does not
 
 #------- String Operators -------
--z [STRING] #True if the length of string is zero
--n [STRING] #True if the length of string is non-zero
-[STRING] == [STRING] #True if the strings are equal
-[STRING] != [STRING] #True if the strings are not equal
-[STRING(1)] < [STRING(2)] #True if string1 sorts before string2 lexicographically
-[STRING(1)] > [STRING(2)] #True if string1 sorts after string2 lexicographically
+-z [STRING] # True if the length of string is zero
+-n [STRING] # True if the length of string is non-zero
+[STRING] == [STRING] # True if the strings are equal
+[STRING] != [STRING] # True if the strings are not equal
+[STRING(1)] < [STRING(2)] # True if string1 sorts before string2 lexicographically
+[STRING(1)] > [STRING(2)] # True if string1 sorts after string2 lexicographically
 
 #------- Arithmetic Binary Operators -------
-x -eq y #return true if x is equal to y
-x -ne y #return true if x is not equal to y
-x -lt y #return true if x is less than y
-x -le y #return true if x is less than or equal to y
-x -gt y #return true if x is greater than y
-x -ge y #return true if x is greater than or equal to y
+x -eq y # return true if x is equal to y
+x -ne y # return true if x is not equal to y
+x -lt y # return true if x is less than y
+x -le y # return true if x is less than or equal to y
+x -gt y # return true if x is greater than y
+x -ge y # return true if x is greater than or equal to y
 ```
 
 ### Arithmetic Evaluation
+
 ```bash
-+ - #addition, subtraction
-* / #multiplication, division
-** % #exponentiation, remainder
-a++ b-- #variable post-increment and post-decrement
-++a --b #variable pre-increment and pre-decrement
++ - # addition, subtraction
+* / # multiplication, division
+** % # exponentiation, remainder
+a++ b-- # variable post-increment and post-decrement
+++a --b # variable pre-increment and pre-decrement
 = *= /= %= += -= <<= >>= &= ^= |= #assignment
 ! ~ #logical and bitwise negation
 << >> #left and right bitwise shifts
@@ -125,7 +125,8 @@ expr?expr:expr #conditional ternary operation
 expr1 , expr2 #comma separator
 ```
 
-### Command blocks
+### Command Blocks
+
 ```bash
 function_name() {
 	# block
@@ -171,12 +172,14 @@ done
 ```
 
 ### Arguments
+
 ```bash
 $n # nth argument passed to the script
 $? # last command exit status
 ```
 
 ## Special Characters
+
 ```bash
 # * Asterisk
 	# String wildcard standing for any sequence of characters
@@ -225,7 +228,8 @@ $? # last command exit status
 	ping -i 5 -c 12 1.1.1.1 >> file_ping.txt &&	ping -i 5 -c 40 1.1.1.1 >> file_ping.txt
 	ls /test 2> error.txt
 	ls /test > file.txt 2> error.txt
-	ls /test > file.txt 2>& 1 ls /test &> file_and_error.txt
+	ls /test > file.txt 2>& 1
+	ls /test &> file_and_error.txt
 	# Redirects standard input
 	cat < ./file.txt
 # = Equals sign
@@ -277,6 +281,4 @@ $? # last command exit status
 - [[]]
 
 ## External Reference
-[en.wikipedia.org]()
-[RFCNNNN - NAME](https://datatracker.ietf.org/doc/html/rfcNNNN)
 [gnu.org/bash](https://www.gnu.org/software/bash/manual/html_node/index.html)

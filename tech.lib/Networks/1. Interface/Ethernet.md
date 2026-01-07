@@ -5,29 +5,31 @@ subjects:
 full_form: Ethernet
 acronym: NULL
 ---
-
 ## Definition
 Described in the [IEEE 802.3](https://standards.ieee.org/ieee/802.3/10422/), Ethernet is a family of wired computer networking technologies commonly used in [LAN]{Local Area Network}s, [MAN]{Metropolitan Area Network}s, and [WAN]{Wide Area Network}s. It defines the physical and data link layers of the [[Networks/OSI Model|OSI Model]], specifying how devices on a network format and transmit data so that other devices on the same network segment can recognize, receive, and process it
 
 ## Ethernet Stream
+
 ```mermaid
 packet-beta
-0-7: "SyncWord"
-8-13: "1"
-14-19: "2"
-20-21: "3"
-22-23: "4"
-24-27: "5"
-28-39: "IFG"
+0-7: "Preamble"
+8-14: "1"
+15-21: "2"
+22-23: "3"
+24-31: "4"
+32-63: "..."
+64-67: "5"
+68-79: "IFG"
 ```
 
-### SyncWord
-1. **Preamble \[0x00: 7B\]:** An alternating pattern of ones and zeros used to synchronize the receiving devices clock
+### Preamble
+1. **SyncWord \[0x00: 7B\]:** An alternating pattern of ones and zeros used to synchronize the receiving devices clock
 2. **[SFD]{Start Frame Delimiter} \[0x07: 1B\]:** The sequence `0b10101011` to signal the end of the preamble and the beginning of the actual frame
 
 ### Frame
-1. **Destination MAC Address \[0x00: 6B\]:** The destination [[MAC]] address, can be unicast, multicast or broadcast
-2. **Source MAC Address \[0x06: 6B\]:** The unicast destination [[MAC]] address
+
+1. **Destination \[0x00: 6B\]:** The destination [[MAC]] address, can be unicast, multicast or broadcast
+2. **Source \[0x06: 6B\]:** The unicast destination [[MAC]] address
 3. **Length/Tag \[0x0C: 2B\]:** Depending on the value, it can be the payload length or the payloads protocol
 	- **Length \[0x0C: 2B\]:** Up to `0x05DC`, it indicates the payload length
 	- **Tag Protocol Identifier(TPID) \[0x0E: 2B\]:** Also called [[Ethernet#EtherType|EtherType]], it specifies the protocol encapsulated in the payload

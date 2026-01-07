@@ -58,6 +58,12 @@ mkfs.ext4
 cryptsetup
 cryptsetup-nuke-password
 
+### Installation
+PXE -> TFTP and DHCP/BOOTP servers
+dnsmasq -> /etc/dnsmasq.conf, /tftpboot/
+download file for tftpboot -> <http://http.kali.org/dists/kali-rolling/main/installer-ARCH/current/images/netboot/METHOD/netboot.tar.gz>, arch=[amd64|i386], method=[gtk|NULL]
+SaltStack, ansible, chef, puppet
+
 ### Others
 set
 ping

@@ -116,67 +116,95 @@
 				},
 				{
 					"path": "hidraw",
-					"type": ""
+					"type": "file",
+					"desc": "Character device providing raw access to HIDs"
 				},
 				{
 					"path": "hpet",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for the High Precision Event Timer"
 				},
 				{
 					"path": "hugepages",
-					"type": ""
+					"type": "dir",
+					"desc": "Bookkeeping for memory oversized page files"
 				},
 				{
 					"path": "hwrng",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for hardware random number generation"
 				},
 				{
 					"path": "initctl",
-					"type": ""
+					"type": "link",
+					"desc": "Pointer to the init daemon control interface",
+					"target": "/run/initctl"
 				},
 				{
 					"path": "input",
-					"type": ""
+					"type": "dir",
+					"desc": "Character devices that handle the inputs from hardware into virtual events"
 				},
 				{
 					"path": "kmsg",
-					"type": ""
+					"type": "file",
+					"desc": "Character device that provides access to the kernel log buffer"
 				},
 				{
 					"path": "kvm",
-					"type": ""
+					"type": "file",
+					"desc": "Character device to handle Kernel-based Virtual Machine subsystem",
+					"note": "Issues system ioctls to create and manage virtual machines"
 				},
 				{
 					"path": "log",
-					"type": ""
+					"type": "link",
+					"desc": "Pointer to the kernel log device",
+					"target": "/run/systemd/journal/dev-log"
 				},
 				{
 					"path": "loop",
-					"type": ""
+					"type": "dir",
+					"desc": "Block devices for loopback file mounting"
 				},
 				{
 					"path": "loop-control",
-					"type": ""
+					"type": "file",
+					"desc": "Character device to dynamically control loop devices"
 				},
 				{
 					"path": "mapper",
-					"type": ""
+					"type": "dir",
+					"desc": "Device mapper control interface for LVM related device nodes",
+					"note": "The logical volume manager maps block devices into higher-level virtual block devices"
 				},
 				{
 					"path": "mem",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for accessing physical memory",
+					"note": "Can be used to examine the system and the byte addresses are interpreted as memory addresses"
 				},
 				{
 					"path": "null",
-					"type": ""
+					"type": "file",
+					"desc": "Character device that always returns EOF on read and accepts and ignores all writes"
 				},
 				{
-					"path": "nvme",
-					"type": ""
+					"path": "nvme[0-9]",
+					"type": "file",
+					"desc": "Character device for non-volatile memory host controller interface specification disk devices",
+					"note": "The number represents the device controller"
+				},
+				{
+					"path": "nvme[0-9]n[0-9]p[1-15]",
+					"type": "file",
+					"desc": "Block device for NVMe namespace partitions",
+					"note": "The first number represents the device controller, the second the namespace and the third the partition"
 				},
 				{
 					"path": "nvram",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for non-volatile RAM access"
 				},
 				{
 					"path": "port",
