@@ -208,131 +208,191 @@
 				},
 				{
 					"path": "port",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for I/O port access"
 				},
 				{
 					"path": "ppp",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for Point-to-Point Protocol connections"
 				},
 				{
 					"path": "psaux",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for PS/2 auxiliary devices"
 				},
 				{
 					"path": "ptmx",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for the pseudo-terminal master multiplexer"
 				},
 				{
 					"path": "pts",
-					"type": ""
+					"type": "dir",
+					"desc": "Pseudo-terminal slave devices"
 				},
 				{
 					"path": "random",
-					"type": ""
+					"type": "file",
+					"desc": "Character device providing non-deterministic random bytes seeded from the system entropy pool within the bits of fresh noise"
 				},
 				{
 					"path": "rfkill",
-					"type": ""
+					"type": "file",
+					"desc": "Character device providing an interface to rfkill subsystem",
+					"note": "Used to disable any radio transmitter device"
 				},
 				{
 					"path": "rtc",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for the real-time clock"
 				},
 				{
-					"path": "sd",
-					"type": ""
+					"path": "sd[a-iv]",
+					"type": "file",
+					"desc": "Character device for SCSI, SATA and USB disk devices"
+				},
+				{
+					"path": "sd[a-iv][1-15]",
+					"type": "file",
+					"desc": "Character device for a specific disk partition"
 				},
 				{
 					"path": "sg",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for generic SCSI devices"
 				},
 				{
 					"path": "shm",
-					"type": ""
+					"type": "dir",
+					"desc": "POSIX shared memory objects",
+					"note": "All users have write access to this directory and it is flushed on reboot. SHM segments from normal users are deleted on log out"
 				},
 				{
 					"path": "snapshot",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for a system memory snapshot"
 				},
 				{
 					"path": "snd",
-					"type": ""
+					"type": "dir",
+					"desc": "Character device nodes for ALSA (Advanced Linux Sound Architecture)"
 				},
 				{
 					"path": "scd",
-					"type": ""
+					"type": "file",
+					"desc": "Block device to handle SCSI CD-ROM"
 				},
 				{
 					"path": "sr",
-					"type": ""
+					"type": "file",
+					"desc": "Block device to handle CD/DVD drives"
 				},
 				{
 					"path": "stderr",
-					"type": ""
+					"type": "link",
+					"target": "/proc/self/fd/2"
 				},
 				{
 					"path": "stdin",
-					"type": ""
+					"type": "link",
+					"target": "/proc/self/fd/0"
 				},
 				{
 					"path": "stdout",
-					"type": ""
+					"type": "link",
+					"target": "/proc/self/fd/1"
 				},
 				{
 					"path": "tpm",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for the TCPA TPM driver"
 				},
 				{
 					"path": "tty",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for the terminal multiplexer"
 				},
 				{
 					"path": "ttyX",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for serial terminal lines",
+					"note": "X represents an index starting from 1"
 				},
 				{
 					"path": "uhid",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for an userspace I/O driver support of the HID subsystem"
 				},
 				{
 					"path": "uinput",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for an userspace driver support of the input subsystem"
 				},
 				{
 					"path": "urandom",
-					"type": ""
+					"type": "file",
+					"desc": "Character device providing a fast stream of pseudo-random bytes seeded from the system entropy pool"
 				},
 				{
 					"path": "vcs",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for virtual console content"
+				},
+				{
+					"path": "vcsX",
+					"type": "file",
+					"desc": "Character device for a virtual console content",
+					"note": "X represents the virtual console index"
 				},
 				{
 					"path": "vcsa",
-					"type": ""
+					"type": "file",
+					"desc": "Character devices for virtual console content in ANSI representation"
+				},
+				{
+					"path": "vcsaX",
+					"type": "file",
+					"desc": "Character device for a virtual console content in ANSI representation",
+					"note": "X represents the virtual console index"
 				},
 				{
 					"path": "vcsu",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for virtual console content in Unicode representation"
+				},
+				{
+					"path": "vcsuX",
+					"type": "file",
+					"desc": "Character device for a virtual console content in Unicode representation",
+					"note": "X represents the virtual console index"
 				},
 				{
 					"path": "vfio",
-					"type": ""
+					"type": "dir",
+					"desc": "Character devices for the VFIO",
+					"note": "Linux kernel subsystem that provides a framework for exposing direct device access to userspace applications and virtual machines, enabling them to interact with hardware devices at a low level"
 				},
 				{
 					"path": "vhci",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for a virtual host controller interface"
 				},
 				{
 					"path": "video",
-					"type": ""
+					"type": "file",
+					"desc": "Character device for video input"
 				},
 				{
 					"path": "watchdog",
-					"type": ""
+					"type": "file",
+					"desc": "Character device used as feeding point for a system watchdog timer",
+					"note": "hardware circuit that can reset the computer system in case of a software fault, which is usually used to quickly reboot a system in case of freezing"
 				},
 				{
 					"path": "zero",
-					"type": ""
+					"type": "file",
+					"desc": "Character device providing a stream of null characters"
 				}
 			]
 		},

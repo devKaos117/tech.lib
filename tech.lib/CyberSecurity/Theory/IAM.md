@@ -11,8 +11,11 @@ acronym: IAM
 ## Identity
 A digital identity is verifiable set of attributes linked to a unique entity within a defined security domain, representing the logical manifestation of a user, device or service.
 
+### Identity Provider
+Authoritative and centralized service that creates, maintains and manages identity information, offering the [AAA]{Authentication, Authorization, Auditing} services.
+
 ## Authentication
-The process of verifying the claimed identity of an entity during an access attempt. While often mediated by an [IdP]{Identity Provider}, it is fundamentally a proof-of-identity exchange
+The process of verifying the claimed [[IAM#Identity|identity]] of an entity during an access attempt. While often mediated by an [[IAM#Identity Provider|IdP]], it is fundamentally a proof-of-identity exchange
 
 ### Authentication Factors
 - **Knowledge Factor:** Something that you know
@@ -20,10 +23,10 @@ The process of verifying the claimed identity of an entity during an access atte
 - **Inherence Factor:** Something that you are
 
 ### Multi Factor Authentication
-The [MFA]{Multi Factor Authentication} consists on the [AuthN]{Authentication} challenge requiring two or more distinct factor authentication.
+The [MFA]{Multi Factor Authentication} consists on the [[IAM#Authentication|AuthN]] challenge requiring two or more distinct factor authentication.
 
 ## Authorization
-The process of validating that a given identity has the right to access or perform a determined resource or service.
+The process of validating that a given [[IAM#Identity|identity]] has the right to access or perform a determined resource or service.
 
 ### Components
 - **[ACL]{Access Control List}:** Formal list of permissions attached directly to an object or resource, explicitly defining which identities have which permissions (or not)
@@ -37,6 +40,7 @@ The process of validating that a given identity has the right to access or perfo
 - **[RuBAC]{Rule-Based Access Control}:** Model based on a set of pre-defined rules and logical conditions that evaluate real time context to provide a dynamic access control
 - **[ReBAC]{Relationship-Based Access Control}:** Dynamically manage access based on relationships between identities
 - **[ABAC]{Attribute-Based Access Control}:** Model that evaluates a dynamic set of attributes to grant access, allowing for a highly granular and scalable access control
+- **[LBAC]{Lattice-Based Access Control}:** Access rights are defined and enforced through a hierarchical lattice structure composed of ordered levels and labeled resources
 
 ## Auditing
 The systematic and independent process of evaluating the [IAM]{Identity and Access Management}.
@@ -54,18 +58,12 @@ The systematic and independent process of evaluating the [IAM]{Identity and Acce
 ## Administration
 Strategic planning, governance, policy definition and operational oversight of the [IAM]{Identity and Access Management} ecosystem.
 
-### Identity Provider
-Authoritative and centralized service that creates, maintains and manages identity information, offering the [AAA]{Authentication, Authorization, Auditing} services.
-
-### Principle of Least Privilege
-The [PoLP]{Principle of Least Privilege} is the security recommended practice of ensuring that only the minimum level of privileges should be granted to every identity, only giving the necessary permissions for it's authorized tasks.
-
-### Separation of Duties
-The [SoD]{Separation of Duties} is an internal control mechanism designed to prevent fraud, error and abuse of power by ensuring that no single entity has total control over critical and high-risk resources.
-
 ## Relevant Reading
 - [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-4/)
-- [[CyberSecurity/Theory/PAM|PAM]]
+- [AuthN OWASP CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+- [Authorization OWASP CheatSheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
+- [[PAM]]
+- [[Security Model]]
 
 ## External Reference
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Identity_and_access_management)

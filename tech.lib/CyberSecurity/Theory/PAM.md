@@ -6,7 +6,7 @@ full_form: Privileged Access Management
 acronym: PAM
 ---
 ## Definition
-[PAM]{Privileged Access Management} is the sub-discipline of [[CyberSecurity/Theory/IAM|IAM]] dedicated to securing, managing, and monitoring all [[CyberSecurity/Theory/IAM#Identity|identities]] that possess elevated permissions to critical systems and sensitive data. It enforces the [[CyberSecurity/Theory/IAM#Principle of Least Privilege|PoLP]] on the accounts that, if compromised, pose the greatest risk of catastrophic impact.
+[PAM]{Privileged Access Management} is the sub-discipline of [[CyberSecurity/Theory/IAM|IAM]] dedicated to securing, managing, and monitoring all [[CyberSecurity/Theory/IAM#Identity|identities]] that possess elevated permissions to critical systems and sensitive data. It enforces the [[CyberSecurity/Theory/Security Model#Principle of Least Privilege|PoLP]] on the accounts that, if compromised, pose the greatest risk of catastrophic impact.
 
 ## Privileged Identity Lifecycle
 - **Identification and Discovery:** Automated scanning of networks/AD for hardcoded credentials, service accounts, and undocumented high-privilege groups
