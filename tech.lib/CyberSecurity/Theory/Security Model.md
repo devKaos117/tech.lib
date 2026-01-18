@@ -1,31 +1,33 @@
 ---
-category: NULL
+category: concept
 subjects:
-  - NULL
+  - cybersec
 full_form: NULL
 acronym: NULL
 ---
 ## Definition
-Formal representation of a security policy, mapping abstract objectives into implementation rules.
+Formal representation of a security policy, mapping abstract objectives into implementation rules
 
 ## Bell-LaPadula Model
-<https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model>
-enforce access controls in systems with multiple security levels (for instance, unclassified, confidential, secret and top secret). individuals cannot read content with a security level higher than their own (known as the _Simple Security Property_) or write content with a security level lower than their own (known as the _Star Security Property_). In certain contexts, they may not be allowed to read or write at a level other than their own (known as the _Discretionary Security Property_).
+Commonly used in military applications, primarily focused on [[Information#CIA Triad|confidentiality]], it enforces access controls in systems with multiple security levels. This model may have up to three properties:
+- **Simple Security Property:** Individuals cannot read content with a security level higher than their own
+- **Star Security Property:** Individuals cannot write content with a security level lower than their own
+- **Discretionary Security Property:** Individuals cannot read or write at a level other than their own
 
 ## Biba Model
-<https://en.wikipedia.org/wiki/Biba_Model>
-enforce access controls and is designed to protect the _integrity_ of information where individuals and information are assigned different integrity levels. individuals cannot read data with a lower integrity level than their own (known as the _Simple Integrity Property_) or write content with an integrity level higher than their own (known as the _Star Integrity Property_). individuals cannot request access to information with a higher integrity level than their own (known as the _Invocation Property_)
+Primarily focused on [[Information#CIA Triad|integrity]], it enforces access control by assigning integrity levels to individuals and resources. This model may have up to three properties:
+- **Simple Integrity Property:** Individuals cannot read data with a lower integrity level than their own
+- **Star Integrity Property:** Individuals cannot write content with an integrity level higher than their own
+- **Invocation Property:** Individuals cannot request access to information with a higher integrity level than their own
 
 ## Clark-Wilson Model
-<https://en.wikipedia.org/wiki/Clark%E2%80%93Wilson_model>
-protect data integrity. This is implemented through _access control triples_ (or simply _triples_), which consist of a _subject_, _program_ (also known as a _transaction_) and _object_. individual subjects don't have direct access to data objects but only access and modify them through a series of _programs_, which themselves operate on data objects and enforce integrity policies
+Primarily focused on [[Information#CIA Triad|integrity]], it is implemented through access control triples, which consist of a _subject_, _transaction_ and _object_. Individual subjects don't have direct access to data objects but only access and modify them through a series of transactions, which themselves operate on data objects and enforce integrity policies
 
 ## Brewer-Nash
-<https://en.wikipedia.org/wiki/Brewer_and_Nash_model>
-enforce access controls to maintain confidentiality, but with the specific aim of minimizing conflict of interest by using data segregation and dynamic access controls
+Primarily focused on [[Information#CIA Triad|confidentiality]], it has an specific aim of minimizing conflict of interest by using data segregation and dynamic access controls
 
 ## Zero Trust Architecture
-The [ZTA]{Zero Trust Architecture} is a security model and strategic philosophy based the core principle of **"Never trust, always verify"**. Concluding the [[Security Model#Principle of Least Privilege|PoLP]], it prohibits the assumption that any entity, network or information should be automatically trusted.
+The [ZTA]{Zero Trust Architecture} is a security model and strategic philosophy based the core principle of "Never trust, always verify". Concluding the [[Security Model#Principle of Least Privilege|PoLP]], it prohibits the assumption that any entity, network or information should be automatically trusted.
 
 ## Security Principles
 ### Principle of Least Privilege
@@ -50,9 +52,14 @@ Following the Occam's razor, when multiple implementations are possible, the sim
 Every access to every resource must be checked for proper authorization. This must remain true regardless of the requests origin or type, and no alternative path that bypass this rule should exist
 
 ## Relevant Reading
-- [[]]
+- [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final)
 
 ## External Reference
 [en.wikipedia.org](https://en.wikipedia.org/wiki/Computer_security_model)
 [redhat.com](https://www.redhat.com/en/blog/security-design-security-principles-and-threat-modeling)
 [OWASP Developer Guide](https://devguide.owasp.org/)
+[Bell–LaPadula model](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model)
+[Biba Model](https://en.wikipedia.org/wiki/Biba_Model)
+[Clark-Wilson Model](https://en.wikipedia.org/wiki/Clark%E2%80%93Wilson_model)
+[Brewer-Nash](https://en.wikipedia.org/wiki/Brewer_and_Nash_model)
+[Zero Trust Architecture]()

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Security Model.md",
-                "mode": "source",
+                "file": "Linux/Commands/find.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Security Model"
+              "title": "find"
             }
           }
         ]
@@ -205,21 +205,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c8649705cf5b953",
+  "active": "becca221a6cb9839",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/PAM.md",
+    "Linux/Commands/ssh.md",
+    "CyberSecurity/Theory/GRC.md",
     "CyberSecurity/Theory/Security Model.md",
+    "templates/NOTE_TEMPLATE.md",
+    "CyberSecurity/Theory/Information.md",
+    "CyberSecurity/Theory/Exploit.md",
+    "CyberSecurity/Theory/IAM.md",
+    "CyberSecurity/Theory/Security Assessments.md",
+    "CyberSecurity/Theory/PAM.md",
     "Linux/Commands/ln.md",
     "templates/TOOL_TEMPLATE.md",
-    "CyberSecurity/Theory/IAM.md",
-    "CyberSecurity/Theory/Information.md",
-    "CyberSecurity/Theory/GRC.md",
-    "CyberSecurity/Theory/Exploit.md",
     "Linux/Kernel.md",
     "CyberSecurity/Theory/Attack Techniques.md",
     "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/Post Exploitation.md",
-    "CyberSecurity/Theory/Security Assessments.md",
     "Foundations/process.md",
     "Foundations/ITSM.md",
     "Tools/CyberSec/missing.md",
@@ -231,8 +233,6 @@
     "Tools/CyberSec/Offensive/wce.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
-    "Tools/CyberSec/Offensive/mimikatz.md",
-    "Linux/Commands/awk.md",
     "attachments/icon/xfce4.svg",
     "attachments",
     "attachments/icon/Debian.svg",

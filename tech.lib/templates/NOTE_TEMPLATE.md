@@ -10,7 +10,7 @@ acronym: NULL
 
 
 ## Relevant Reading
-- [[]]
+- []()
 
 ## External Reference
 [en.wikipedia.org]()
