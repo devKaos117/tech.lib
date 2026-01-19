@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/find.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Methodology/5. Reporting.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "find"
+              "title": "5. Reporting"
             }
           }
         ]
@@ -205,14 +205,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "becca221a6cb9839",
+  "active": "1c8649705cf5b953",
   "lastOpenFiles": [
+    "CyberSecurity/Theory/Vulnerability.md",
+    "CyberSecurity/Methodology/5. Reporting.md",
+    "CyberSecurity/Theory/Exploit.md",
+    "CyberSecurity/Theory/Security Model.md",
+    "Tools/CyberSec/missing.md",
+    "Linux/Commands/find.md",
     "Linux/Commands/ssh.md",
     "CyberSecurity/Theory/GRC.md",
-    "CyberSecurity/Theory/Security Model.md",
     "templates/NOTE_TEMPLATE.md",
     "CyberSecurity/Theory/Information.md",
-    "CyberSecurity/Theory/Exploit.md",
     "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/Security Assessments.md",
     "CyberSecurity/Theory/PAM.md",
@@ -220,19 +224,15 @@
     "templates/TOOL_TEMPLATE.md",
     "Linux/Kernel.md",
     "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Theory/Vulnerability.md",
     "CyberSecurity/Theory/Post Exploitation.md",
     "Foundations/process.md",
     "Foundations/ITSM.md",
-    "Tools/CyberSec/missing.md",
     "Tools/CyberSec/Offensive/chntpw.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "Windows/missing.md",
     "Linux/File Hierarchy Standard.md",
     "Networks/4. Application/DNS.md",
     "Tools/CyberSec/Offensive/wce.md",
-    "Tools/CyberSec/Offensive/wafw00f.md",
-    "Tools/CyberSec/Offensive/sqlmap.md",
     "attachments/icon/xfce4.svg",
     "attachments",
     "attachments/icon/Debian.svg",

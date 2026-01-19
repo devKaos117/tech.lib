@@ -9,22 +9,22 @@ acronym: NULL
 Formal representation of a security policy, mapping abstract objectives into implementation rules
 
 ## Bell-LaPadula Model
-Commonly used in military applications, primarily focused on [[Information#CIA Triad|confidentiality]], it enforces access controls in systems with multiple security levels. This model may have up to three properties:
+Commonly used in military applications, primarily focused on [[Information#CIA Triad|confidentiality]], it enforces access controls in systems with _multiple security levels_. This model may have up to three properties:
 - **Simple Security Property:** Individuals cannot read content with a security level higher than their own
 - **Star Security Property:** Individuals cannot write content with a security level lower than their own
 - **Discretionary Security Property:** Individuals cannot read or write at a level other than their own
 
 ## Biba Model
-Primarily focused on [[Information#CIA Triad|integrity]], it enforces access control by assigning integrity levels to individuals and resources. This model may have up to three properties:
+Primarily focused on [[Information#CIA Triad|integrity]], it enforces access control by assigning _integrity levels_ to _individuals_ and _resources_. This model may have up to three properties:
 - **Simple Integrity Property:** Individuals cannot read data with a lower integrity level than their own
 - **Star Integrity Property:** Individuals cannot write content with an integrity level higher than their own
 - **Invocation Property:** Individuals cannot request access to information with a higher integrity level than their own
 
 ## Clark-Wilson Model
-Primarily focused on [[Information#CIA Triad|integrity]], it is implemented through access control triples, which consist of a _subject_, _transaction_ and _object_. Individual subjects don't have direct access to data objects but only access and modify them through a series of transactions, which themselves operate on data objects and enforce integrity policies
+Primarily focused on [[Information#CIA Triad|integrity]], it is implemented through access control triples, which consist of a _subject_, a _transaction_ and an _object_. Individual subjects don't have direct access to data objects but only access and modify them through a series of transactions, which themselves operate on data objects and enforce integrity policies
 
 ## Brewer-Nash
-Primarily focused on [[Information#CIA Triad|confidentiality]], it has an specific aim of minimizing conflict of interest by using data segregation and dynamic access controls
+Primarily focused on [[Information#CIA Triad|confidentiality]], it has an specific aim of minimizing conflict of interest by using _data segregation_ and _dynamic access controls_
 
 ## Zero Trust Architecture
 The [ZTA]{Zero Trust Architecture} is a security model and strategic philosophy based the core principle of "Never trust, always verify". Concluding the [[Security Model#Principle of Least Privilege|PoLP]], it prohibits the assumption that any entity, network or information should be automatically trusted.
@@ -62,4 +62,3 @@ Every access to every resource must be checked for proper authorization. This mu
 [Biba Model](https://en.wikipedia.org/wiki/Biba_Model)
 [Clark-Wilson Model](https://en.wikipedia.org/wiki/Clark%E2%80%93Wilson_model)
 [Brewer-Nash](https://en.wikipedia.org/wiki/Brewer_and_Nash_model)
-[Zero Trust Architecture]()
