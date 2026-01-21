@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Methodology/5. Reporting.md",
+                "file": "CyberSecurity/Methodology/1. Information Gathering.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. Reporting"
+              "title": "1. Information Gathering"
             }
           }
         ]
@@ -185,7 +185,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -207,32 +208,33 @@
   },
   "active": "1c8649705cf5b953",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/Vulnerability.md",
-    "CyberSecurity/Methodology/5. Reporting.md",
-    "CyberSecurity/Theory/Exploit.md",
-    "CyberSecurity/Theory/Security Model.md",
-    "Tools/CyberSec/missing.md",
-    "Linux/Commands/find.md",
-    "Linux/Commands/ssh.md",
-    "CyberSecurity/Theory/GRC.md",
-    "templates/NOTE_TEMPLATE.md",
-    "CyberSecurity/Theory/Information.md",
+    "Linux/Boot.md",
+    "Networks/4. Application/IMAP.md",
+    "Networks/4. Application/POP3.md",
+    "Networks/4. Application/FTP.md",
+    "Networks/4. Application/NFS.md",
+    "Networks/4. Application/SMB.md",
     "CyberSecurity/Theory/IAM.md",
-    "CyberSecurity/Theory/Security Assessments.md",
-    "CyberSecurity/Theory/PAM.md",
-    "Linux/Commands/ln.md",
-    "templates/TOOL_TEMPLATE.md",
-    "Linux/Kernel.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Theory/Post Exploitation.md",
-    "Foundations/process.md",
-    "Foundations/ITSM.md",
-    "Tools/CyberSec/Offensive/chntpw.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
-    "Windows/missing.md",
-    "Linux/File Hierarchy Standard.md",
+    "Networks/3. Transport/TCP.md",
+    "Networks/4. Application/SMTP.md",
     "Networks/4. Application/DNS.md",
-    "Tools/CyberSec/Offensive/wce.md",
+    "Networks/missing.md",
+    "Tools/CyberSec/Offensive/whois.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "CyberSecurity/Methodology/3. Exploitation.md",
+    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
+    "Linux/File Hierarchy Standard.md",
+    "Linux/Bash.md",
+    "Linux/Distros/Debian.md",
+    "Tools/Development/cargo.md",
+    "Tools/Development/rustup.md",
+    "Tools/Development/rustc.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "Tools/CyberSec/Offensive/chntpw.md",
+    "CyberSecurity/Methodology/5. Reporting.md",
+    "Tools/Development",
+    "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "attachments/icon/xfce4.svg",
     "attachments",
     "attachments/icon/Debian.svg",
@@ -252,7 +254,6 @@
     "Networks/3. Transport",
     "Networks/4. Application",
     "CyberSecurity/Methodology",
-    "Tools/Network",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]
