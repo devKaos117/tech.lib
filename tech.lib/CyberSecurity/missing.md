@@ -22,7 +22,7 @@ Hash LM, NTLM
 
 [RFC9580 - OpenPGP](https://datatracker.ietf.org/doc/html/rfc9580)
 
-Isolate AuthN, Authorization and Auditing from IAM?
+password entropy
 
 SSO (SAML)
 OAuth

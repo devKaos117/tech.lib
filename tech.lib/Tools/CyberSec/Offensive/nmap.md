@@ -12,13 +12,16 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] nmap
 
 > [!info] Open source tool for network exploration and security auditing
 
 Nmap was designed to rapidly scan large networks using raw [[IP]] packets in novel ways to determine what hosts are available on the network, what services they are offering, what OS they are running, what type of packet filters/[[firewall]]s are in use, and dozens of other characteristics
+<https://networkprogrammingnotes.blogspot.com/p/berkeley-sockets.html>
 
 ## Favorite Uses
+
 ```sh
 nmap -PE --randomize-hosts -sn NETWORK
 nmap -PS 443,80,21,22 --randomize-hosts -sn NETWORK
@@ -31,6 +34,7 @@ nmap -sS -Pn -sV -O -T2 --stats-every=30s -g 53 -oA TARGET -p PORT TARGET
 ```
 
 ## Command
+
 ```txt
 nmap [SCAN TYPE]... [OPTION]... [HOST]...
 
@@ -361,6 +365,7 @@ MISCELLANEOUS OPTIONS
 ```
 
 ## [NSE]{Nmap Scripting Engine}
+
 |**Category**|**Description**|
 |---|---|
 |`auth`|Determination of authentication credentials.|
@@ -379,10 +384,10 @@ MISCELLANEOUS OPTIONS
 |`vuln`|Identification of specific vulnerabilities.|
 
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[Ethernet]]

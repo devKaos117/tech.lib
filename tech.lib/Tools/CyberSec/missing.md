@@ -15,11 +15,17 @@ Masscan
 arping
 arp-scan
 nbtscan
-<https://github.com/owasp-amass/amass>
 sublist3r
 <https://github.com/laramies/theHarvester>
 <https://github.com/Dheerajmadhukar/karma_v2>
 <https://github.com/cosad3s/postleaks>
+
+<https://github.com/bee-san/RustScan>
+<https://github.com/robertdavidgraham/masscan>
+
+<https://github.com/owasp-amass/amass>
+<https://github.com/michenriksen/gitrob>
+<https://github.com/gitleaks/gitleaks>
 
 dirb
 fierce

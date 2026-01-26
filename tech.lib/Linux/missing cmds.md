@@ -9,7 +9,7 @@ blockdev
 bpytop
 bunzip2
 bzip2
-https://www.kali.org/tools/cadaver/
+<https://www.kali.org/tools/cadaver/>
 cal
 chgrp
 chmod
@@ -194,6 +194,7 @@ whoami
 xargs
 xclip
 xdotool
+xfreerdp
 xsltproc
 xset
 xz
