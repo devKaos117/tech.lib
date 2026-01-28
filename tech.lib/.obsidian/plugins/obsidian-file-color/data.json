@@ -181,6 +181,18 @@
     {
       "path": "CyberSecurity/Methodology/1. Information Gathering.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/SNMP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/MySQL CSP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Foundations/DBMS.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

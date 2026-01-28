@@ -32,9 +32,6 @@ fierce
 dirbuster
 <https://github.com/OJ/gobuster>
 enum4linux
-snmpconf
-snmpwalk
-snmp-check
 smbmap
 ffuf
 cmseek
@@ -54,6 +51,9 @@ whatweb
 
 onesixtyone
 braa
+snmpconf
+snmpwalk
+snmp-check
 
 sqlninja
 sqlsus

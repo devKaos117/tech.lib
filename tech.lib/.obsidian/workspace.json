@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Methodology/4. Post Exploitation.md",
-                "mode": "preview",
+                "file": "Foundations/DBMS.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. Post Exploitation"
+              "title": "DBMS"
             }
           }
         ]
@@ -208,13 +208,25 @@
   },
   "active": "1c8649705cf5b953",
   "lastOpenFiles": [
-    "Tools/Network/missing.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
-    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "Networks/4. Application/MySQL CSP.md",
+    "Foundations/DBMS.md",
+    "Foundations/Assembly.md",
+    "Foundations/Boolean Algebra.md",
+    "Foundations/Compilation.md",
+    "Foundations/API.md",
+    "Networks/4. Application/SNMP.md",
     "Tools/CyberSec/missing.md",
+    "Networks/4. Application/SMB.md",
+    "Networks/4. Application/SMTP.md",
+    "Networks/3. Transport/UDP.md",
+    "Networks/SOAP.md",
+    "Networks/missing.md",
+    "Networks/4. Application/DNS.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "Tools/Network/missing.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
     "Tools/CyberSec/Offensive/nmap.md",
     "Linux/missing cmds.md",
-    "Networks/4. Application/DNS.md",
     "Tools/CyberSec/Offensive/whois.md",
     "Tools/CyberSec/Offensive/hashcat.md",
     "CyberSecurity/missing.md",
@@ -222,18 +234,6 @@
     "Linux/Boot.md",
     "Networks/4. Application/IMAP.md",
     "Networks/4. Application/POP3.md",
-    "Networks/4. Application/FTP.md",
-    "Networks/4. Application/NFS.md",
-    "Networks/4. Application/SMB.md",
-    "CyberSecurity/Theory/IAM.md",
-    "Networks/3. Transport/TCP.md",
-    "Networks/4. Application/SMTP.md",
-    "Networks/missing.md",
-    "CyberSecurity/Methodology/3. Exploitation.md",
-    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
-    "Linux/File Hierarchy Standard.md",
-    "Linux/Bash.md",
-    "Linux/Distros/Debian.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",

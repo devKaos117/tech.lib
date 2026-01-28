@@ -1,11 +1,10 @@
 ---
-category: language
+category: others
 subjects:
-  - low_level
+  - foundations
 full_form: NULL
 acronym: NULL
 ---
-
 ## Definition
 basic operations
 
