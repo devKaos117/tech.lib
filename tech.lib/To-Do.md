@@ -1,12 +1,12 @@
-- [ ] Network Protocols
-	- [ ] DNS
-	- [ ] SMTP
-	- [ ] IMAP
-	- [ ] POP3
-	- [ ] FTP
-	- [ ] SMB
-	- [ ] SSH
-	- [ ] RDP
+- [x] Network Protocols
+	- [x] DNS
+	- [x] SMTP
+	- [x] IMAP
+	- [x] POP3
+	- [x] FTP
+	- [x] SMB
+	- [x] SSH
+	- [x] RDP
 - [ ] tools
 	- [x] sqlmap
 	- [ ] hping3

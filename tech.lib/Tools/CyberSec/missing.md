@@ -14,7 +14,6 @@ netdiscover
 Masscan
 arping
 arp-scan
-nbtscan
 sublist3r
 <https://github.com/laramies/theHarvester>
 <https://github.com/Dheerajmadhukar/karma_v2>
@@ -26,6 +25,21 @@ sublist3r
 <https://github.com/owasp-amass/amass>
 <https://github.com/michenriksen/gitrob>
 <https://github.com/gitleaks/gitleaks>
+
+nbtscan
+evil-winrm
+python3-impacket *
+
+<https://github.com/jtesta/ssh-audit>
+
+<http://rdp-sec-check.pl/>
+<https://github.com/CiscoCXSecurity/rdp-sec-check>
+
+onesixtyone
+braa
+snmpconf
+snmpwalk
+snmp-check
 
 dirb
 fierce
@@ -48,12 +62,6 @@ cmseek
 
 whatweb
 <https://github.com/Ekultek/WhatWaf>
-
-onesixtyone
-braa
-snmpconf
-snmpwalk
-snmp-check
 
 sqlninja
 sqlsus
@@ -91,13 +99,9 @@ burpsuite
 
 <https://github.com/SpecterOps/BloodHound>
 <https://github.com/SpecterOps/SharpHound>
-
 BadSuccessor
-
+responder
 <https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master>
-
-python3-impacket *
-evil-winrm
 
 samdump2
 mimikatz
@@ -109,8 +113,6 @@ crunch
 <https://github.com/Mebus/cupp>
 <https://github.com/danielmiessler/SecLists>
 <https://github.com/fuzzdb-project/fuzzdb>
-
-responder
 
 msf-pattern_create
 msf-pattern_offset

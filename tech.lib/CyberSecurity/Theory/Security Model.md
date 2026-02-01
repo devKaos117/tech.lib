@@ -31,25 +31,25 @@ The [ZTA]{Zero Trust Architecture} is a security model and strategic philosophy 
 
 ## Security Principles
 ### Principle of Least Privilege
-Only the minimum level of privileges should be granted to every identity, only giving the necessary permissions for it's authorized tasks
+Only the _minimum level of privileges_ should be granted to every identity, only giving the necessary permissions for it's authorized tasks
 
 ### Separation of Duties
-No single entity should have total control over critical and high-risk resources, ensuring fraud, error and abuse of power prevention
+No single entity should have _total control_ over critical and high-risk resources, ensuring fraud, error and _abuse of power_ prevention
 
 ### Kerckhoffs's Principle
-The security of a system should not depend on its secrecy or obscurity, remaining reliable even under full disclosure
+The security of a system should not depend on its _secrecy_ or _obscurity_, remaining reliable even under _full disclosure_
 
 ### Defense in Depth
-Security must be schematized holistically, having defenses to as many layers of a system as possible, so that if one is bypassed, another may still prevent full infiltration
+Security must be schematized _holistically_, having defenses to as _many layers_ of a system as possible, so that if one is bypassed, another may still prevent full infiltration
 
 ### Fail-Safe Defaults
-The implementation of a system must default to a secure state in the event of a failure or error, prioritizing the security over functionality
+The implementation of a system must _default to a secure state_ in the event of a failure or error, prioritizing the security over functionality
 
 ### Economy of Mechanism
-Following the Occam's razor, when multiple implementations are possible, the simplest and most consistent one must be chosen
+Following the Occam's razor, when multiple implementations are possible, the _simplest_ and _most consistent_ one must be chosen
 
 ### Complete Mediation
-Every access to every resource must be checked for proper authorization. This must remain true regardless of the requests origin or type, and no alternative path that bypass this rule should exist
+_Every access_ to _every resource_ must be _checked_ for proper authorization. This must remain true _regardless of the requests origin or type_, and no alternative path that bypass this rule should exist
 
 ## Relevant Reading
 - [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final)

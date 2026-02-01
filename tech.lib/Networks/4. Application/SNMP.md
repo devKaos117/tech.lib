@@ -17,6 +17,7 @@ SNMPv1 supports the retrieval of information, allowing for network management an
 SNMPv2 has many versions, but most of them ceased existing. SNMPv2c is community based and it still exists
 SNMPv3 implements [[IAM#Authentication|AuthN]] and encryption
 /etc/snmp/snmpd.conf
+<https://www.ibm.com/docs/en/aix/7.3.0?topic=management-information-base>
 
 ## Relevant Reading
 - []()

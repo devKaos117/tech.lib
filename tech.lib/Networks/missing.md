@@ -1,6 +1,5 @@
 EAP
 SMLP
-RDP
 AMQP
 Telnet
 OSPF
@@ -15,10 +14,10 @@ Radius
 WEP
 WPA
 ICMP
-SSH
 DHCP
 TLS
 SSL
+ICMP
 
 NBT-NS
 LLMNR

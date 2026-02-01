@@ -11,13 +11,16 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] rsync
 
 > [!info] Fast and versatile file-copying tool
 
 Famous for its delta-transfer algorithm, rsync is a fast and extraordinarily versatile file copying tool. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. It offers a large number of options that control every aspect of its behavior and permit very flexible specification of the set of files to be copied
+TCP port 873
 
 ## Command
+
 ```txt
 rsync [OPTION]... [[USER@][HOST:]SRC]... [[USER@][HOST:]DEST]...
 

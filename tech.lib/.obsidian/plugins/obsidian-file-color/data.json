@@ -193,6 +193,30 @@
     {
       "path": "Foundations/DBMS.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/TNS.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/IPMI.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/SSH.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/RDP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/WinRM.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/WMI.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }
