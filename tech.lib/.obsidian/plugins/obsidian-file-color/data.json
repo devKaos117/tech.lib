@@ -217,6 +217,14 @@
     {
       "path": "Networks/4. Application/WMI.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/WHOIS.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Networks/4. Application/RDAP.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
 }

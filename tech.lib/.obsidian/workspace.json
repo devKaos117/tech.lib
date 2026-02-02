@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devices.md",
+                "file": "CyberSecurity/Theory/Security Model.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Devices"
+              "title": "Security Model"
             }
           }
         ]
@@ -208,6 +208,16 @@
   },
   "active": "1c8649705cf5b953",
   "lastOpenFiles": [
+    "Tools/CyberSec/missing.md",
+    "Tools/CyberSec/Offensive/whois.md",
+    "Tools/CyberSec/Offensive/host.md",
+    "Tools/CyberSec/Offensive/dig.md",
+    "Networks/4. Application/DNS.md",
+    "Networks/4. Application/RDAP.md",
+    "Networks/4. Application/WHOIS.md",
+    "Linux/File Hierarchy Standard.md",
+    "Linux/Kernel.md",
+    "Devices.md",
     "Missing.md",
     "tech.lib.md",
     "To-Do.md",
@@ -215,7 +225,6 @@
     "Tools/Network/missing.md",
     "Linux/Commands/ln.md",
     "Linux/Commands/wc.md",
-    "Tools/CyberSec/missing.md",
     "Networks/4. Application/SMB.md",
     "CyberSecurity/Theory/Security Model.md",
     "CyberSecurity/Theory/Information.md",
@@ -225,15 +234,6 @@
     "Networks/missing.md",
     "Networks/4. Application/WMI.md",
     "Networks/4. Application/WinRM.md",
-    "Networks/4. Application/RDP.md",
-    "Linux/Commands/rsync.md",
-    "Networks/4. Application/R-services.md",
-    "Networks/4. Application/SSH.md",
-    "Networks/4. Application/IPMI.md",
-    "Networks/4. Application/TNS.md",
-    "Foundations/DBMS.md",
-    "Tools/CyberSec/Offensive/nmap.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",

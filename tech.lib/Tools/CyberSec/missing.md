@@ -6,6 +6,7 @@ socat
 
 nslookup
 dnsrecon
+fierce
 dnsenum
 dnsmap
 subfinder
@@ -42,7 +43,6 @@ snmpwalk
 snmp-check
 
 dirb
-fierce
 dirbuster
 <https://github.com/OJ/gobuster>
 enum4linux

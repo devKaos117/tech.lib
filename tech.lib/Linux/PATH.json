@@ -403,8 +403,10 @@
 			"note": "",
 			"childs": [
 				{
-					"path": "",
-					"type": ""
+					"path": "hosts",
+					"type": "file",
+					"desc": "Manual DNS resolving",
+					"note": "IP_address  hostname  [aliases...]"
 				}
 			]
 		},
