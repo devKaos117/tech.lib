@@ -10,15 +10,21 @@ fierce
 dnsenum
 dnsmap
 subfinder
+<https://github.com/d3mondev/puredns>
+<https://github.com/tomnomnom/assetfinder>
 
 netdiscover
 Masscan
 arping
 arp-scan
 sublist3r
-<https://github.com/laramies/theHarvester>
 <https://github.com/Dheerajmadhukar/karma_v2>
 <https://github.com/cosad3s/postleaks>
+
+<https://github.com/laramies/theHarvester>
+<https://github.com/smicallef/spiderfoot>
+<https://github.com/lanmaster53/recon-ng>
+<https://github.com/thewhiteh4t/FinalRecon>
 
 <https://github.com/bee-san/RustScan>
 <https://github.com/robertdavidgraham/masscan>
@@ -29,6 +35,8 @@ sublist3r
 
 nbtscan
 evil-winrm
+enum4linux
+smbmap
 python3-impacket *
 
 <https://github.com/jtesta/ssh-audit>
@@ -45,11 +53,11 @@ snmp-check
 dirb
 dirbuster
 <https://github.com/OJ/gobuster>
-enum4linux
-smbmap
 ffuf
+<https://github.com/bhavsec/reconspider>
 cmseek
 <https://github.com/assetnote/kiterunner>
+
 <https://github.com/cerberauth/vulnapi>
 <https://github.com/cldrn/davtest>
 

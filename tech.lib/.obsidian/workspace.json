@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1b0c91f32e2c49a7",
+        "id": "cbfd2b87b4deabb1",
         "type": "tabs",
         "children": [
           {
@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Security Model.md",
-                "mode": "preview",
+                "file": "Tools/CyberSec/missing.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Security Model"
+              "title": "missing"
             }
           }
         ]
@@ -209,10 +209,14 @@
   "active": "1c8649705cf5b953",
   "lastOpenFiles": [
     "Tools/CyberSec/missing.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "Tools/CyberSec/Offensive/nikto.md",
+    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
+    "Networks/4. Application/DNS.md",
+    "CyberSecurity/Theory/Security Model.md",
     "Tools/CyberSec/Offensive/whois.md",
     "Tools/CyberSec/Offensive/host.md",
     "Tools/CyberSec/Offensive/dig.md",
-    "Networks/4. Application/DNS.md",
     "Networks/4. Application/RDAP.md",
     "Networks/4. Application/WHOIS.md",
     "Linux/File Hierarchy Standard.md",
@@ -226,14 +230,10 @@
     "Linux/Commands/ln.md",
     "Linux/Commands/wc.md",
     "Networks/4. Application/SMB.md",
-    "CyberSecurity/Theory/Security Model.md",
     "CyberSecurity/Theory/Information.md",
     "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/PAM.md",
     "CyberSecurity/Theory/Security Assessments.md",
-    "Networks/missing.md",
-    "Networks/4. Application/WMI.md",
-    "Networks/4. Application/WinRM.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",
