@@ -87,6 +87,8 @@ maltego
 burpsuite
 <https://github.com/zaproxy/zaproxy>
 
+<https://github.com/trustedsec/spoonmap>
+
 <https://www.netexec.wiki/>
 
 <https://github.com/ticarpi/jwt_tool>
@@ -130,6 +132,7 @@ macchanger
 zphisher
 <https://github.com/gophish/gophish>
 <https://github.com/urbanadventurer/urlcrazy>
+<https://github.com/trustedsec/social-engineer-toolkit>
 
 <https://github.com/upx/upx>
 

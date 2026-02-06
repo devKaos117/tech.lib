@@ -45,6 +45,7 @@ free
 fsck
 fsck.fat
 fuser
+<https://github.com/junegunn/fzf>
 gcc
 gdb
 gdisk
