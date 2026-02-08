@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cbfd2b87b4deabb1",
+        "id": "86f33ae755731b89",
         "type": "tabs",
         "children": [
           {
-            "id": "1c8649705cf5b953",
+            "id": "bda1b79fba8a923c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Security Assessments.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Techniques/testing.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Security Assessments"
+              "title": "testing"
             }
           }
         ]
@@ -206,34 +206,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1c8649705cf5b953",
+  "active": "bda1b79fba8a923c",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/Vulnerability.md",
-    "CyberSecurity/Theory/Security Assessments.md",
-    "CyberSecurity/Theory/Exploit.md",
-    "CyberSecurity/Theory/GRC.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
-    "CyberSecurity/Theory/Post Exploitation.md",
-    "CyberSecurity/Methodology/3. Exploitation.md",
-    "CyberSecurity/Methodology/5. Reporting.md",
+    "CyberSecurity/Theory/Attack Techniques.md",
+    "CyberSecurity/Techniques/testing.md",
     "Tools/CyberSec/missing.md",
-    "Linux/missing cmds.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
-    "Tools/CyberSec/Offensive/whois.md",
+    "Tools/CyberSec/Offensive/hydra.md",
+    "Tools/CyberSec/Offensive/chntpw.md",
+    "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/dig.md",
-    "CyberSecurity/Methodology/1. Information Gathering.md",
-    "Tools/CyberSec/Offensive/nikto.md",
-    "CyberSecurity/Methodology/2. Vulnerability Assessment.md",
-    "Networks/4. Application/DNS.md",
-    "CyberSecurity/Theory/Security Model.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "Tools/CyberSec/Offensive/fgdump.md",
+    "Tools/CyberSec/Offensive/hash-identifier.md",
+    "Tools/CyberSec/Offensive/hashcat.md",
+    "Tools/CyberSec/Offensive/hashid.md",
     "Tools/CyberSec/Offensive/host.md",
-    "Networks/4. Application/RDAP.md",
-    "Networks/4. Application/WHOIS.md",
-    "Linux/File Hierarchy Standard.md",
-    "Linux/Kernel.md",
-    "Devices.md",
-    "Missing.md",
+    "Tools/CyberSec/Offensive/john.md",
+    "Tools/CyberSec/Offensive/medusa.md",
+    "Tools/CyberSec/Offensive/mimikatz.md",
+    "Tools/CyberSec/Offensive/msfconsole.md",
+    "Tools/CyberSec/Offensive/msfvenom.md",
+    "Tools/CyberSec/Offensive/msfdb.md",
+    "Tools/CyberSec/Offensive/nikto.md",
+    "Tools/CyberSec/Offensive/nmap.md",
+    "Tools/CyberSec/Offensive/proxychains.md",
+    "Tools/CyberSec/Offensive/pth-winexe.md",
+    "Tools/CyberSec/Offensive/pwdump.md",
+    "Tools/CyberSec/Offensive/searchsploit.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",

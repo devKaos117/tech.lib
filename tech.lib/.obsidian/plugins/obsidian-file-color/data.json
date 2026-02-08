@@ -221,6 +221,90 @@
     {
       "path": "Networks/4. Application/RDAP.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/whois.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/wfuzz.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/wce.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/wafw00f.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/searchsploit.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/pwdump.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/pth-winexe.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/nmap.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/nikto.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/msfvenom.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/msfconsole.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/medusa.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/john.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/hydra.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/host.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/hashcat.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/fgdump.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/feroxbuster.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/dig.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/crackmapexec.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "Tools/CyberSec/Offensive/chntpw.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
     }
   ]
 }

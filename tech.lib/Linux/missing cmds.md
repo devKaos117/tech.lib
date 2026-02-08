@@ -188,6 +188,7 @@ usermod
 uuid
 vim
 vmstat
+vnstat
 w
 watch
 who

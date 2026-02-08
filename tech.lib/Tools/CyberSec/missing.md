@@ -21,10 +21,10 @@ sublist3r
 <https://github.com/Dheerajmadhukar/karma_v2>
 <https://github.com/cosad3s/postleaks>
 
-<https://github.com/laramies/theHarvester>
-<https://github.com/smicallef/spiderfoot>
-<https://github.com/lanmaster53/recon-ng>
-<https://github.com/thewhiteh4t/FinalRecon>
+<https://github.com/tomnomnom/httprobe>
+<https://github.com/projectdiscovery/httpx>
+<https://github.com/rbsec/sslscan>
+<https://github.com/santoru/shcheck>
 
 <https://github.com/bee-san/RustScan>
 <https://github.com/robertdavidgraham/masscan>
@@ -32,6 +32,11 @@ sublist3r
 <https://github.com/owasp-amass/amass>
 <https://github.com/michenriksen/gitrob>
 <https://github.com/gitleaks/gitleaks>
+<https://github.com/bhavsec/reconspider>
+<https://github.com/laramies/theHarvester>
+<https://github.com/smicallef/spiderfoot>
+<https://github.com/lanmaster53/recon-ng>
+<https://github.com/thewhiteh4t/FinalRecon>
 
 nbtscan
 evil-winrm
@@ -54,15 +59,18 @@ dirb
 dirbuster
 <https://github.com/OJ/gobuster>
 ffuf
-<https://github.com/bhavsec/reconspider>
 cmseek
 <https://github.com/assetnote/kiterunner>
 
 <https://github.com/cerberauth/vulnapi>
 <https://github.com/cldrn/davtest>
 
-<https://github.com/tomnomnom/httprobe>
-<https://github.com/projectdiscovery/httpx>
+<https://github.com/s0md3v/Photon>
+<https://github.com/jaeles-project/gospider>
+<https://github.com/hakluke/hakrawler>
+<https://github.com/projectdiscovery/katana>
+
+<https://github.com/projectdiscovery/nuclei>
 
 <https://github.com/wpscanteam/wpscan/>
 
@@ -76,8 +84,6 @@ sqlsus
 
 <https://github.com/commixproject/commix>
 
-<https://github.com/projectdiscovery/nuclei>
-
 <https://github.com/google/osv-scanner>
 
 <https://github.com/andresriancho/w3af>
@@ -86,6 +92,9 @@ legion
 maltego
 burpsuite
 <https://github.com/zaproxy/zaproxy>
+
+nessus
+<https://github.com/greenbone/openvas-scanner>
 
 <https://github.com/trustedsec/spoonmap>
 
@@ -141,3 +150,4 @@ zphisher
 <https://github.com/Nicocha30/ligolo-ng>
 
 <https://github.com/flameshot-org/flameshot>
+<https://github.com/RedSiege/EyeWitness>

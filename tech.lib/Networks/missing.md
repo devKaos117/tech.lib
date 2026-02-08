@@ -24,3 +24,5 @@ LLMNR
 mDNS
 
 HTTP -> WebDAV
+
+demilitarized zone

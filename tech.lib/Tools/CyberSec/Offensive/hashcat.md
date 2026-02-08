@@ -12,13 +12,15 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] hashcat
 
 > [!info] Advanced password recovery utility
 
-The world's fastest and most advanced password recovery utility, supporting  CPUs and GPUs  hardware accelerators and has facilities to enable distributed password cracking
+The world's fastest and most advanced password recovery utility, supporting CPUs and GPUs hardware accelerators and has facilities to enable distributed password cracking
 
 ## Favorite Uses
+
 ```sh
 hashcat --benchmark-all --example-hashes
 hashcat --speed-only -m HASH_ID
@@ -27,6 +29,7 @@ hashcat -O -o hashcat -a 3 --increment -m HASH_ID TARGET
 ```
 
 ## Command
+
 ```txt
 hashcat [OPTION]... [PATH] [ARGUMENT]...
 
@@ -288,6 +291,7 @@ OUTPUT
 ```
 
 ## Built-In Charsets
+
 ```txt
 ?l	-	abcdefghijklmnopqrstuvwxyz
 ?u	-	ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -300,6 +304,7 @@ OUTPUT
 ```
 
 ## Rules
+
 ```txt
 :		Nothing					Do nothing (passthrough)
 l		Lowercase				Lowercase all letters
@@ -369,6 +374,7 @@ eX		Title w/separator		Lower case the whole line, then upper case the first lett
 ```
 
 ## Hash Types
+
 ```txt
 0		-	MD5
 10		-	md5($pass.$salt)
@@ -497,12 +503,11 @@ SPECIFIC HASH TYPES
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Exit Status
 - n - status

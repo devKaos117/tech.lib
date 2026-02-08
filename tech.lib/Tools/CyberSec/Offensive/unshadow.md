@@ -23,17 +23,6 @@ John utility designed to quickly combine passwd and shadow files.
 unshadow [PATH(passwd)] [PATH(shadow))]
 ```
 
-## Files
-
-
-## Environmental Variables
-```bash
-VAR=VAL # desc
-```
-
-## Relevant Reading
-- [[]]
-
 ## External Reference
 [github.com](https://github.com/openwall/john)
 [openwall.com](https://www.openwall.com/john/)
