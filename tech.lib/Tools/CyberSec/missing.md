@@ -73,6 +73,7 @@ cmseek
 <https://github.com/projectdiscovery/nuclei>
 
 <https://github.com/wpscanteam/wpscan/>
+<https://github.com/p0dalirius/Wordpress-webshell-plugin/tree/master>
 
 <https://github.com/s0md3v/XSStrike>
 
