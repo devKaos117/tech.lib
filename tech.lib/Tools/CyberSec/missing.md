@@ -123,6 +123,8 @@ BadSuccessor
 responder
 <https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master>
 
+<https://github.com/itm4n/PrintSpoofer>
+
 samdump2
 mimikatz
 

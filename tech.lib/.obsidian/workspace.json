@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Techniques/testing.md",
+                "file": "Windows/missing.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "missing"
             }
           }
         ]
@@ -209,10 +209,16 @@
   "active": "bda1b79fba8a923c",
   "lastOpenFiles": [
     "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Techniques/testing.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
     "Windows/missing.md",
-    "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
+    "Networks/missing.md",
     "Tools/CyberSec/missing.md",
+    "CyberSecurity/Attack/Astaroth.md",
+    "attachments/cybersec_attack_astaroth.png",
+    "CyberSecurity/Attack/Untitled 1.base",
+    "CyberSecurity/Attack/Untitled.base",
+    "CyberSecurity/Attack/testing.md",
+    "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
     "CyberSecurity/Methodology/5. Reporting.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
     "Tools/CyberSec/Offensive/hydra.md",
@@ -231,9 +237,6 @@
     "Tools/CyberSec/Offensive/msfconsole.md",
     "Tools/CyberSec/Offensive/msfvenom.md",
     "Tools/CyberSec/Offensive/msfdb.md",
-    "Tools/CyberSec/Offensive/nikto.md",
-    "Tools/CyberSec/Offensive/nmap.md",
-    "Tools/CyberSec/Offensive/proxychains.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",
@@ -245,15 +248,12 @@
     "attachments/icon/gnome.svg",
     "attachments/icon/archlinux.svg",
     "attachments/icon/fedora.svg",
-    "attachments/icon/debian.svg",
     "Linux/PATH.json~",
     "Linux/PATH.json",
     "OffSec",
     "Networks/1. Interface",
     "Networks/2. Internet",
     "Networks/3. Transport",
-    "Networks/4. Application",
-    "CyberSecurity/Methodology",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]

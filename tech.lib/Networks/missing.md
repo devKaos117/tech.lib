@@ -23,6 +23,7 @@ NBT-NS
 LLMNR
 mDNS
 
-HTTP -> WebDAV
+HTTP
+WebDAV
 
 demilitarized zone
