@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/missing.md",
-                "mode": "source",
+                "file": "CyberSecurity/Theory/Vulnerability.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "missing"
+              "title": "Vulnerability"
             }
           }
         ]
@@ -208,16 +208,25 @@
   },
   "active": "bda1b79fba8a923c",
   "lastOpenFiles": [
-    "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
-    "Windows/missing.md",
-    "Networks/missing.md",
+    "Foundations/IANA.md",
+    "Foundations/ITSM.md",
+    "CyberSecurity/Theory/Vulnerability.md",
+    "Networks/3. Transport/UDP.md",
+    "Networks/OSI Model.md",
+    "Networks/Internet Protocol Suite.md",
+    "CyberSecurity/Theory/IAM.md",
+    "CyberSecurity/Theory/Security Model.md",
+    "LLM Prompts/Notes.md",
     "Tools/CyberSec/missing.md",
+    "Windows/missing.md",
+    "CyberSecurity/Theory/Attack Techniques.md",
+    "CyberSecurity/Attack/testing.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "Networks/missing.md",
     "CyberSecurity/Attack/Astaroth.md",
     "attachments/cybersec_attack_astaroth.png",
     "CyberSecurity/Attack/Untitled 1.base",
     "CyberSecurity/Attack/Untitled.base",
-    "CyberSecurity/Attack/testing.md",
     "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
     "CyberSecurity/Methodology/5. Reporting.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
@@ -228,15 +237,6 @@
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "Tools/CyberSec/Offensive/fgdump.md",
     "Tools/CyberSec/Offensive/hash-identifier.md",
-    "Tools/CyberSec/Offensive/hashcat.md",
-    "Tools/CyberSec/Offensive/hashid.md",
-    "Tools/CyberSec/Offensive/host.md",
-    "Tools/CyberSec/Offensive/john.md",
-    "Tools/CyberSec/Offensive/medusa.md",
-    "Tools/CyberSec/Offensive/mimikatz.md",
-    "Tools/CyberSec/Offensive/msfconsole.md",
-    "Tools/CyberSec/Offensive/msfvenom.md",
-    "Tools/CyberSec/Offensive/msfdb.md",
     "Tools/Development",
     "attachments/icon/xfce4.svg",
     "attachments",

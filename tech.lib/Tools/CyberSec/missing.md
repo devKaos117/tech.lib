@@ -125,8 +125,9 @@ responder
 
 <https://github.com/itm4n/PrintSpoofer>
 
+<https://github.com/besimorhino/powercat>
+
 samdump2
-mimikatz
 
 <https://github.com/corelan/mona>
 

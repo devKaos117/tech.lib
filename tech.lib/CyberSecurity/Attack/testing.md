@@ -17,6 +17,7 @@ let u="/wp-admin/user-new.php";let r=new XMLHttpRequest();r.open("GET",u,!1);r.s
 
 ## Path Traversal
 Abusing file inclusion set in the request to perform arbitrary read
+- change the char encoding, as by replacing the `.` with `%2e`
 
 ### Notes
 - executed in server-side
@@ -52,9 +53,13 @@ Process of exploiting and leveraging existing file upload capabilities
 
 ### Server Executed File
 The first category consists of vulnerabilities enabling us to upload files that are executable by the web application
+- altering the file extension to a less common one, as from `.php` to `.php7` or `.phtml`
+- altering the file extension case to bypass case-sensitive string checks, as from `.php` to `.pHp`
 
 ### Common Upload
 The second category consists of vulnerabilities that require us to combine the file upload mechanism with another vulnerability, such as Directory Traversal, XXE, XSS, or overwriting files
+- always test what happens when we try to upload the same file twice
+- if it is possible to know if a file uploaded already exists, it might be possible to brute force the contents of the web server
 
 ### Malicious File
 The third category relies on user interaction, uploading a `.docx` with malicious macros integrated
@@ -64,6 +69,7 @@ The third category relies on user interaction, uploading a `.docx` with maliciou
 - web
 - used to include files in the web server
 - typically occurs when a web application is not sanitizing the file input
+- easy to bypass when based on blacklisting
 
 ## Log Poisoning
 Injection of payloads into specific fields for inclusion into the logging and metric systems
@@ -74,6 +80,16 @@ Injection of payloads into specific fields for inclusion into the logging and me
 - web?
 - used to potentiate [LFI]{Local File Inclusion}
 
-## Encoding of Characters
-For certain exploits, it becomes necessary to use specific char encoding to bypass WAFs and filters, as:
-- `%2e` during path traversal, file inclusion or log poisoning
+## OS Command Injection
+Exploiting inputs that execute os commands
+- oneliner to identify if it's the CMD or PowerShell:
+
+### Notes
+- typically occurs when a web application is not sanitizing the input
+
+## Notes
+
+```powershell
+# Identify if it is CMD or PowerShell
+(dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell
+```
