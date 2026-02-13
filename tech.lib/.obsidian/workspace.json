@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Theory/Vulnerability.md",
+                "file": "Tools/CyberSec/missing.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Vulnerability"
+              "title": "missing"
             }
           }
         ]
@@ -208,22 +208,22 @@
   },
   "active": "bda1b79fba8a923c",
   "lastOpenFiles": [
+    "CyberSecurity/Theory/Attack Techniques.md",
+    "Tools/CyberSec/missing.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "CyberSecurity/Attack/Astaroth.md",
+    "Windows/missing.md",
+    "CyberSecurity/Theory/Vulnerability.md",
     "Foundations/IANA.md",
     "Foundations/ITSM.md",
-    "CyberSecurity/Theory/Vulnerability.md",
     "Networks/3. Transport/UDP.md",
     "Networks/OSI Model.md",
     "Networks/Internet Protocol Suite.md",
     "CyberSecurity/Theory/IAM.md",
     "CyberSecurity/Theory/Security Model.md",
     "LLM Prompts/Notes.md",
-    "Tools/CyberSec/missing.md",
-    "Windows/missing.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
     "CyberSecurity/Attack/testing.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
     "Networks/missing.md",
-    "CyberSecurity/Attack/Astaroth.md",
     "attachments/cybersec_attack_astaroth.png",
     "CyberSecurity/Attack/Untitled 1.base",
     "CyberSecurity/Attack/Untitled.base",

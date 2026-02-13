@@ -73,7 +73,10 @@ cmseek
 <https://github.com/projectdiscovery/nuclei>
 
 <https://github.com/wpscanteam/wpscan/>
-<https://github.com/p0dalirius/Wordpress-webshell-plugin/tree/master>
+<https://github.com/p0dalirius/Wordpress-webshell-plugin/>
+
+<https://github.com/jbarcia/Web-Shells/>
+<https://github.com/WhiteWinterWolf/wwwolf-php-webshell>
 
 <https://github.com/s0md3v/XSStrike>
 
@@ -121,7 +124,12 @@ nessus
 <https://github.com/SpecterOps/SharpHound>
 BadSuccessor
 responder
-<https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master>
+
+<https://github.com/bats3c/darkarmour>
+<https://github.com/bats3c/shad0w>
+
+<https://github.com/swisskyrepo/PayloadsAllTheThings>
+<https://github.com/samratashok/nishang>
 
 <https://github.com/itm4n/PrintSpoofer>
 
@@ -155,3 +163,4 @@ zphisher
 
 <https://github.com/flameshot-org/flameshot>
 <https://github.com/RedSiege/EyeWitness>
+<https://github.com/its-a-feature/Mythic>

@@ -21,9 +21,12 @@ cscript.exe
 mshta
 certreq.exe
 
+psexec
+
 <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/bitsadmin>
 BITSadmin-tool
 System.Net.WebClient
+Set-MpPreference
 
 `[Microsoft.PowerShell.Commands.PSUserAgent]`
 
