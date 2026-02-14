@@ -32,6 +32,10 @@ By default runs as NT SERVICE\MSSQLSERVER and encryption is not enforced when at
 May be configured to windows autentication, delegating this task to the OS (therefore, using either the SAM or the domain controller)
 TCP port 1433
 Uses T-SQL
+[[TDS]]
+
+## Oracle
+[[TNS]]
 
 ## Relevant Reading
 - []()

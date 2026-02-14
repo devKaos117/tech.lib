@@ -8,10 +8,11 @@ package: bind9
 os:
   - linux
 tags:
-  - cybersec/offensive/osint/general
+  - cybersec/offensive/osint/infraestructure
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] bind9
 
 > [!info] Simple utility for performing DNS lookups
@@ -19,31 +20,35 @@ tags:
 Simple utility for performing DNS lookups, normally used to convert names to IP addresses and vice versa.
 
 ## Favorite Uses
+
 ```sh
 host -v -a -l URL
 ```
 
 ## Command
+
 ```txt
 host [OPTION]... [HOST] [SERVER]...
 
 CONNECTION
 
 	-4
-		Specifies the use of IPv4
+		Specify the use of IPv4
 	-6
-		Specifies the use of IPv6
+		Specify the use of IPv6
 	-T
 		Specify the use of TCP
 	-U
 		Specify the use of UDP
+
 	-p [PORT]
-		This option specifies the port to query on the server
+		Specify the port to query on the server
 
 	-R [NUMBER]
 		Specifies the number of retries for UDP queries
 	-s
-		Tells named not to send the query to the next nameserver if any server responds with a SERVFAIL response
+		Do not to send the query to the next nameserver if any server responds with a SERVFAIL response
+
 	-w
 		Sets the query timeout to the maximum possible
 	-W [NUMBER]
@@ -83,6 +88,7 @@ HELP
 ```
 
 ## Files
+
 ```bash
 /etc/resolv.conf # 
 ```

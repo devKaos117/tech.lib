@@ -11,7 +11,8 @@ subjects:
 LIST WITHOUT ID category GROUP BY category
 ```
 
-## Tags
+## Tools
+### Hierarchy Structure
 -  [cybersec]{} !!!
 	- [cryptography]{} !!!
 		- [hash]{} !!!
@@ -35,8 +36,8 @@ LIST WITHOUT ID category GROUP BY category
 		- [rev_eng]{Reverse engineering tools}
 	- [offensive]{} !!!
 		- [osint]{Open source intelligence}
-			- [socmint]{Social media intelligence}
-			- [general]{DNS, google dorking and other general OSINT}
+			- [social]{Collection targeting human data}
+			- [infraestructure]{Collection of the targets network presence and services}
 		- [reconnaissance]{Target reconnaissance process}
 			- [scanning]{Target or network scanning and analysis}
 			- [enumerating]{Protocol, directory, addresses and other enumeration}
@@ -54,16 +55,20 @@ LIST WITHOUT ID category GROUP BY category
 			- [C2]{Command & Control}
 			- [dumping]{Obtaining sensitive information}
 			- [exfiltration]{Stealing data from the compromised system}
+			- [infiltration]{Inserting data in the compromised system}
 		- [reporting]{Report generation tools}
 - [cli]{} !!!
 	- [shell]{Shell interpreters}
 	- [terminal]{Terminal emulators}
 	- [environment]{Environment changes}
-	- [text]{Text related}
 	- [help]{Manuals and help commands}
-	- [development]{Development related}
 	- [utilities]{Utilities}
 	- [random]{Random shit}
+- [dev]{Development related}
+	- [compiler]{Code compiler}
+	- [interpreter]{Code interpreter}
+	- [dbms]{Database Management System}
+	- [manager]{Local installation manager}
 - [file]{} !!!
 	- [write]{Writing to the contents of a file}
 	- [manage]{Creation, deletion, relocation and property alteration of a file}
@@ -78,8 +83,7 @@ LIST WITHOUT ID category GROUP BY category
 	- [local]{Local network management (wifi, bt)}
 	- [monitoring]{Network monitoring}
 	- [configuration]{Network and interfaces configuration}
-	- [sending]{Information sending}
-	- [recieving]{Information recieving}
+	- [transferring]{Data and file transferring, sending and receiving information}
 	- [tunneling]{Network tunneling with VPN's and proxies}
 - [system]{} !!!
 	- [user]{Users, groups and privileges management}
@@ -91,7 +95,7 @@ LIST WITHOUT ID category GROUP BY category
 	- [disk]{Filesystem, disk and storage devices management}
 	- [hardware]{Hardware related}
 	- [package]{Package management}
-- [operation]{} !!!
+- [text]{Text related}
 	- [comparison]{Finding differences and similarities}
 	- [conversion]{Converting or translating}
 	- [transformation]{Transforming in a largely irreversible way}
@@ -99,10 +103,9 @@ LIST WITHOUT ID category GROUP BY category
 	- [encoding]{Converting data into code}
 	- [decoding]{Converting code into data}
 	- [manipulation]{Modifying and altering}
-	- [transfering]{Relocating}
 	- [analysis]{Analyzing and inspecting}
 
-## Notations
+### Notations
 
 ```txt
 [BYTES] = (\d+)([cw]|[KMGTPEZYRQ]?(?:b|B|iB))?

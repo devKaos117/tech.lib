@@ -10,7 +10,7 @@ os:
   - windows
   - mac
 tags:
-  - dev/
+  - dev/manager
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

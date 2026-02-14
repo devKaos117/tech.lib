@@ -4,12 +4,14 @@ subjects:
   - binary
 language: c
 package: coreutils
+os:
+  - linux
 tags:
-  - linux/cmds/file/read
-  - linux/cmds/cli/text
+  - text/analysis
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] coreutils
 
 > [!info] Concatenate and print files
@@ -17,29 +19,34 @@ tags:
 Concatenate files or standard input into standard output
 
 ## Command
+
 ```txt
 cat [OPTION]... [PATH]...
 
--v, --show-nonprinting
-	Use ^ and M- notation, except for LFD and TAB
--E, --show-ends
-	Display $ at end of each line
--T, --show-tabs
-	Display TAB characters as ^I
--A, --show-all
-	Equivalent to -vET
+OUTPUT
 
--n, --number
-	Number all output lines
--b, --number-nonblank
-	Number nonempty output lines
--s, --squeeze-blank
-	Suppress repeated empty output lines
+	-v, --show-nonprinting
+		Display non-printable characters using ^ and M- notation, except for LFD and TAB
+	-E, --show-ends
+		Display $ at end of each line
+	-T, --show-tabs
+		Display TAB characters as ^I
+	-A, --show-all
+		Equivalent to -vET
+	
+	-n, --number
+		Number all output lines
+	-b, --number-nonblank
+		Number nonempty output lines
+	-s, --squeeze-blank
+		Suppress repeated empty output lines
 
---help
-	Display the help information and exit 
---version
-	Output version information and exit
+HELP
+
+	--help
+		Display the help information and exit 
+	--version
+		Output version information and exit
 ```
 
 ## Relevant Reading

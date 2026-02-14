@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bda1b79fba8a923c",
+            "id": "a9052ef8f406b114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/sqlmap.md",
+                "file": "CyberSecurity/Attack/testing.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sqlmap"
+              "title": "testing"
             }
           }
         ]
@@ -206,33 +206,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bda1b79fba8a923c",
+  "active": "a9052ef8f406b114",
   "lastOpenFiles": [
     "tech.lib.md",
+    "CyberSecurity/Attack/testing.md",
+    "Foundations/DBMS.md",
+    "Networks/4. Application/TDS.md",
+    "Networks/4. Application/TNS.md",
     "templates/TOOL_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/wfuzz.md",
-    "Tools/CyberSec/Offensive/dig.md",
-    "Tools/CyberSec/Offensive/hashid.md",
-    "Tools/CyberSec/Offensive/sqlmap.md",
-    "Tools/CyberSec/Offensive/hashcat.md",
-    "Tools/CyberSec/Offensive/chntpw.md",
-    "Tools/CyberSec/Offensive/crackmapexec.md",
-    "Tools/CyberSec/Offensive/fgdump.md",
-    "Tools/CyberSec/Offensive/msfvenom.md",
-    "Tools/CyberSec/Offensive/searchsploit.md",
-    "Tools/CyberSec/Offensive/whois.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
-    "Tools/CyberSec/Offensive/msfdb.md",
-    "Tools/CyberSec/Offensive/proxychains.md",
-    "Tools/CyberSec/Offensive/john.md",
-    "Tools/CyberSec/Offensive/hash-identifier.md",
-    "Networks/4. Application/DNS.md",
-    "Linux/Commands/7z.md",
-    "Linux/Commands/locate.md",
+    "Tools/File/rm.md",
+    "Tools/File",
     "Linux/Commands/rsync.md",
-    "Linux/Commands/touch.md",
-    "CyberSecurity/Theory/Vulnerability.md",
-    "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/ssh.md",
+    "Tools/Text/cat.md",
+    "Tools/Text",
+    "Tools/Development/rustup.md",
+    "Tools/Development/rustc.md",
+    "Tools/Development/cargo.md",
+    "Tools/CyberSec/Offensive/whois.md",
+    "Tools/CyberSec/Offensive/host.md",
+    "Tools/Network/missing.md",
+    "Tools/CyberSec/Offensive/hashid.md",
+    "Tools/CyberSec/Offensive/hash-identifier.md",
+    "Tools/CyberSec/Offensive/msfdb.md",
+    "Tools/CyberSec/Offensive/msfvenom.md",
+    "Tools/CyberSec/Offensive/proxychains.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
+    "Tools/CyberSec/Offensive/unshadow.md",
+    "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
     "attachments/cybersec_attack_astaroth.png",
     "CyberSecurity/Attack/Untitled 1.base",
@@ -252,8 +254,6 @@
     "Linux/PATH.json",
     "OffSec",
     "Networks/1. Interface",
-    "Networks/2. Internet",
-    "Networks/3. Transport",
     "Notion/Culinária/Receitas/Untitled.canvas",
     "Untitled.canvas"
   ]

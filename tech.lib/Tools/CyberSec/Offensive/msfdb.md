@@ -12,47 +12,47 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] metasploit-framework
 
 > [!info] Manage the metasploit framework database
 
-Metasploit script that allows you to easily setup and control both a database and a web service for [[msfconsole]].
-
-## Favorite Uses
-```sh
-command options arguments
-```
+Metasploit script that allows you to easily setup and control both a database and a web service for [[msfconsole]]
 
 ## Command
+
 ```txt
 msfdb [OPTION]... [ACTION]...
 
-status
-	Displays service status
+BEHAVIOUR
 
-init
-	Creates and begins execution of a database and web service
-delete
-	Deletes the web service and database configuration files
-reinit
-	Same as delete and init in sequence
+	init
+		Creates and begins execution of a database and web service
+	delete
+		Deletes the web service and database configuration files
+	reinit
+		Same as delete and init in sequence
+	
+	start
+		Start the database and web service
+	stop
+		Stop the database and web service
+	restart
+		Same as stop and start in sequence
 
-start
-	Start the database and web service
-stop
-	Stop the database and web service
-restart
-	Same as stop and start in sequence
+OUTPUT
+
+	status
+		Displays service status
 ```
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[]]

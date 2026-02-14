@@ -13,6 +13,7 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] windows-binaries
 
 > [!info] Extract plaintexts passwords and kerberos tickets from memory
@@ -20,36 +21,45 @@ tags:
 Mimikatz uses admin rights on Windows to extract plaintexts passwords, hash, PIN code and kerberos tickets of currently logged in users from memory.
 
 ## Favorite Uses
+
 ```sh
 command options arguments
 ```
 
 ## Command
+
 ```txt
 command [OPTION]... [ARGUMENT]...
 
-SPECIFIC
-
 CONNECTION
-
+	PROTOCOL
+	ADDRESSING
+	AUTHENTICATION
 OPTIMIZATION
-
+	PARALLELISM
+	TIME
+	RESOURCES
 MODE
-
-INTERACTION
-
+BEHAVIOUR
 INPUT
-
+	SOURCE
+	FORMAT
+	FILTER
 OUTPUT
-
-ENCODING
-
-FILES
-
+	DESTINATION
+	FORMAT
+	FILTER
+	VERBOSITY
+CONFIGURATION
+	FILE
+	ENVIRONMENT
 MODULES
-
+	MANAGING
+	USING
+INTERACTION
+	INTERFACE
+	CONTROL
 OTHERS
-
 HELP
 
 	-h, --help
@@ -59,15 +69,16 @@ HELP
 ```
 
 ## Files
+
 ```bash
 / # desc
 ```
 
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Exit Status
 - n - status

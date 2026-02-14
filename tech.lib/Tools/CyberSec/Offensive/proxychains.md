@@ -8,10 +8,11 @@ package: proxychains-ng
 os:
   - linux
 tags:
-  - cybersec/offensive/post_exploit/exfiltration
+  - cybersec/offensive/post_exploit/lateralization
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] proxychains-ng
 
 > [!info] Forces any TCP connection to follow through proxy
@@ -19,19 +20,27 @@ tags:
 A preloader which that hooks network-related libc functions in dynamically linked programs via a preloaded DLL and redirects the connections through SOCKS4a/5 or HTTP(S) proxies. It supports exclusively [[TCP]].
 
 ## Command
+
 ```txt
-proxychains [OPTION]... [command [OPTION]... [ARGUMENT]...]
+proxychains [OPTION]... [COMMAND [ARGUMENT]...]
 
--q
-	Makes proxychain quiet
--f [PATH]
-	Manually specify a configuration file
+OUTPUT
+	-q
+		Makes proxychain quiet
 
---help
-	Display the help information and exit
+CONFIGURATION
+
+	-f [PATH]
+		Manually specify a configuration file
+
+HELP
+
+	--help
+		Display the help information and exit
 ```
 
 ## Files
+
 ```bash
 # proxychains searches for proxychains.conf sequentially through:
 $PROXYCHAINS_CONF_FILE | -f .../proxychains.conf
@@ -41,6 +50,7 @@ $HOME/.proxychains/proxychains.conf
 ```
 
 ## Environmental Variables
+
 ```bash
 $PROXYCHAINS_CONF_FILE # Configuration file path
 ```

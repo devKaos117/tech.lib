@@ -22,7 +22,7 @@ Synopsis
 
 ## Favorite Uses
 ```sh
-command options arguments
+# (\t| )\n| {2,}
 ```
 
 ## Command
