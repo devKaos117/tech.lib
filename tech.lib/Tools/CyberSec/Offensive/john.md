@@ -12,6 +12,7 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] john
 
 > [!info] Advanced offline password cracker
@@ -19,11 +20,13 @@ tags:
 John the Ripper is a fast password cracker, currently available for Unix, macOS, Windows, DOS, BeOS, and OpenVMS systems. Its primary purpose is to detect weak Unix passwords, but it also supports Kerberos/AFS and Windows LM hashes, as well as DES-based tripcodes, plus hundreds of additional hashes and ciphers.
 
 ## Favorite Uses
+
 ```sh
 john --wordlist=WORDLIST HASHES
 ```
 
 ## Command
+
 ```txt
 john [OPTION]... [PATH]...
 
@@ -40,7 +43,7 @@ OPTIMIZATION
 
 	--fork=[NUMBER]
 		Use multiprocessing parallelism for optimization
-	--node=[MIN[-MAX]/TOTAL]
+	--node=[MIN[-MAX]/SIZE]
 		Manually configure parallel and distributed processing throughout nodes (machine, CPU, process...)
 	
 	--test[=NUMBER]
@@ -216,6 +219,7 @@ HELP
 ```
 
 ## Rules
+
 ```txt
 REJECT FLAGS
 
@@ -363,26 +367,33 @@ SINGLE CRACK MODE COMMANDS
 	+			the concatenation of both (can only be used after a "1" or "2")
 ```
 
-
 ## Modes
 ### Wordlist
 Read a wordlist and apply the rules, generating multiple candidates from each word
+
 ### Single Crack
 Use the login and home directory names, GECOS and full name fields with a set of rules, efficiently cracking each passwd entry
+
 ### Incremental
 Try all the possible character combinations
+
 ### External
 Custom modes written in C and located in `[List.External:MODE]`
+
 ### Markov
 Complex probabilistic incremental algorithm
+
 ### Mask
 Custom masks of characters for candidates building
+
 ### Subsets
 Divides the keyspace into many subsets of increasing length and start the attempts based on entropy
+
 ### Regex
 Similar to mask mode, but with RegEx instead of masks (making it slower)
 
 ## Files
+
 ```bash
 /etc/john/john.conf # john general configuration
 ~/.john/john.ini # local configuration

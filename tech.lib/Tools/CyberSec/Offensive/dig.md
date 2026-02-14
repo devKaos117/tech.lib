@@ -153,7 +153,7 @@ QUERY OPTIONS
 	
 	+[no]trace
 		Traces the delegation path from the root name servers for the name being looked up
-	+[no]subnet=[SUBNET|SUBNET-SIZE]
+	+[no]subnet=[SUBNET|SIZE]
 		Sends an EDNS CLIENT-SUBNET option with the specified IP address or network prefix
 	+[no]header-only
 		Sends a query with a DNS header without a question section

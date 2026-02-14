@@ -12,286 +12,464 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] sqlmap
 
 > [!info] Automatic SQLi and DB takeover tool
 
 Automation for the process of detecting and exploiting SQL injection flaws and taking over of database servers. It provides a custom detection engine, many niche features and a broad range of switches, supporting five different SQL injection types:
-
 - Boolean-based blind
-- Time-based blind
 - Error-based
-- UNION query-based
+- Union query-based
 - Stacked queries
+- Time-based blind
+- Inline queries
 
 ## Favorite Uses
+
 ```sh
 command options arguments
 ```
 
 ## Command
+
 ```txt
 sqlmap [OPTION]... [ARGUMENT]...
 
 CONNECTION
 	PROTOCOL
-		--force-ssl		Force usage of SSL/HTTPS
+		--force-ssl
+			Force the usage of SSL/TLS
 
-		--proxy=PROXY			Use a proxy to connect to the target URL
-		--proxy-cred=PRO..		Proxy authentication credentials (name:password)
-		--proxy-file=PRO..		Load proxy list from a file
-		--proxy-freq=PRO..		Requests between change of proxy from a given list
+		--proxy=[URL]
+			Use the given proxy
+		--proxy-cred=[USR:PWD]
+			Provide proxy credentials
+		--proxy-file=[PATH]
+			Load proxy list from a file
+		--proxy-freq=[NUMBER]
+			Specify the amount of request before rotating the proxy
+		--ignore-proxy
+			Ignore system default proxy settings
 
-		--tor					 Tor anonymity network
-		--tor-port=TORPORT		Set Tor proxy port other than default
-		--tor-type=TORTYPE		Set Tor proxy type (HTTP, SOCKS4 or SOCKS5 (default))
-		--check-tor				Check to see if Tor is used properly
+		--tor
+			Use the TOR network
+		--tor-port=[PORT]
+			Specify the port for TOR
+		--tor-type=[PROTOCOL]
+			Specify TOR proxy protocol
+		--check-tor
+			Check to see if TOR working properly
 
 	ADDRESSING
 		-u, --url=[URL]
-			Define the target URL
-		--web-root=WEBROOT	Web server document root directory (e.g. "/var/www")
+			Provide the target URL
+		--web-root=[PATH]
+			Specify the web server root directory
 		-d [URL]
 			Provide a connection string for direct database connection
 
 	AUTHENTICATION
-		--auth-type=[basic|digest|ntlm|pki]		HTTP authentication type (Basic, Digest, NTLM or PKI)
-		--auth-cred=[USR:PWD]					HTTP authentication credentials (name:password)
-		--auth-file=AUTH..						HTTP authentication PEM cert/private key file
+		--auth-type=[basic|digest|ntlm|pki]
+			Specify the HTTP authentication type
+		--auth-cred=[USR:PWD]
+			Provide HTTP authentication credentials
+		--auth-file=[PATH]
+			Load HTTP authentication PEM key file
 
 OPTIMIZATION
 	GENERAL
-		-o						Turn on all optimization switches
-		--test-filter=TE..	Select tests by payloads and/or titles (e.g. ROW)
-		--test-skip=TEST..	Skip tests by payloads and/or titles (e.g. BENCHMARK)
+		-o
+			Turn on all optimization switches
+		--test-filter=[PATTERN]
+			Enable tests by matching keywords
+		--test-skip=[PATTERN]
+			Skip tests by matching keywords
 
 	PARALLELISM
-		--threads=THREADS		Max number of concurrent HTTP(s) requests (default 1)
+		--threads=[MAX]
+			Specify the max number of concurrent threads
 
 	TIME
-		--delay=DELAY			Delay in seconds between each HTTP request
-		--timeout=TIMEOUT		Seconds to wait before timeout connection (default 30)
-		--retries=RETRIES		Retries when the connection timeouts (default 3)
+		--delay=[NUMBER]
+			Specify a delay between each request in seconds
+		--timeout=[NUMBER]
+			Specify the connection timeout in seconds
+		--retries=[NUMBER]
+			Specify the amount of retries for connection timeouts
 
 	RESOURCES
-		--predict-output		Predict common queries output
-		--keep-alive			Use persistent HTTP(s) connections
-		--null-connection		Retrieve page length without actual HTTP response body
-		--check-internet	Check Internet connection before assessing the target
-		--unstable			Adjust options for unstable connections
+		--predict-output
+			Predict common queries output
+		--keep-alive
+			Use persistent connections
+		--null-connection
+			Retrieve page length without actual HTTP response body
+		--check-internet
+			Check Internet connection before assessing the target
+		--unstable
+			Adjust options for unstable connections
 
 MODE
-	--smart					Perform thorough tests only if positive heuristic(s)
-	--technique=TECH..		SQL injection techniques to use (default "BEUSTQ")
-	--level=LEVEL			Level of tests to perform (1-5, default 1)
-	--risk=RISK				Risk of tests to perform (1-3, default 1)
-
-	--udf-inject			Inject custom user-defined functions
-	--second-url=SEC..	Resulting page URL searched for second-order response
+	--smart
+		Perform thorough tests only if positive heuristic(s)
+	--technique=[B|E|U|S|T|Q]...
+		Specify the SQL injection techniques to use
+			B	-	Boolean-based blind
+			E	-	Error-based
+			U	-	Union query-based
+			S	-	Stacked queries
+			T	-	Time-based blind
+			Q	-	Inline queries
+	--level=[1-5]
+		Specify the level of the tests to perform, increasing the number of payloads and boundaries
+	--risk=[1-3]
+		Specify the risk of the tests to perform, increasing the probability of damage
 
 BEHAVIOUR
 	HTTP
-		-r [PATH]				Load HTTP request from a file
-		--method=[METHOD]		Specify an HTTP method
+		-r [PATH]
+			Load the HTTP request from a file
+		--method=[METHOD]
+			Specify an HTTP method
 
-		-H, --header [STRING]	Provide an additional HTTP header
-		--headers=HEADERS		Extra headers (e.g. "Accept-Language: fr\nETag: 123")
-		--host=HOST				HTTP Host header value
-		--referer=REFERER		HTTP Referer header value
+		-H, --header [VAR:VAL]
+			Provide an additional header
+		--headers=[VAR:VAL]...
+			Provide additional headers
+		--host=[STRING]
+			Provide the Host header value
+		--referer=[STRING]
+			Provide the Referer header value
+		-A, --user [STRING]
+			Provide the User-Agent
+		--random-agent
+			Use randomly selected User-Agents
+		--mobile
+			Use randomly selected smartphone User-Agents
 
-		-A, --user [STRING]		Specify the HTTP User-Agent
-		--random-agent			Use randomly selected HTTP User-Agent header value
-		--mobile				Imitate smartphone through HTTP User-Agent header
+		--data=[VAR=VAL]...
+			Provide data to be sent in the request body
+		--skip-urlencode
+			Skip URL encoding of payload data
+		--chunked
+			Use HTTP chunked transfer encoded POST requests
+		--param-del=[CHAR]
+			Specify a character used for splitting parameter values
 
-		--data=[STRING]			Provide data to be sent through the request
-		--skip-urlencode		Skip URL encoding of payload data
-		--chunked				Use HTTP chunked transfer encoded (POST) requests
-		--param-del=[CHAR]		Specify a character used for splitting parameter values
+		--cookie=[VAR=VAL]...
+			Provide a Cookie
+		--cookie-del=[CHAR]
+			Character used for splitting cookie values
+		--drop-set-cookie
+			Ignore the Set-Cookie header from response
+		--live-cookies=[PATH]
+			Provide a cookie-jar with live cookies
+		--load-cookies=[PATH]
+			Provide a cookie-jar in netscape/wget format
 
-		--cookie=COOKIE				HTTP Cookie header value (e.g. "PHPSESSID=a8d127e..")
-		--cookie-del=COO			Character used for splitting cookie values (e.g. ;)
-		--drop-set-cookie			Ignore Set-Cookie header from response
-		--live-cookies=[PATH]		Live cookies file used for loading up-to-date values
-		--load-cookies=[PATH]		File containing cookies in Netscape/wget format
-
-		--crawl=CRAWLDEPTH	Crawl the website starting from the target URL
-		--crawl-exclude=..	Regexp to exclude pages from crawling (e.g. "logout")
-		--forms				Parse and test forms on target URL
+		--crawl=[NUMBER]
+			Crawl the website starting from the target URL
+		--crawl-exclude=[PATTERN]
+			Exclude pages matching the regexp from crawling
 
 	MATCHING
-		--string=STRING			String to match when query is evaluated to True
-		--not-string=NOT..		String to match when query is evaluated to False
-		--regexp=REGEXP			Regexp to match when query is evaluated to True
-		--code=CODE				HTTP code to match when query is evaluated to True
-		--text-only				Compare pages based only on the textual content
-		--titles				Compare pages based only on their titles
+		--string=[PATTERN]
+			Specify a string to match when a query is evaluated to true
+		--not-string=[PATTERN]
+			Specify a string to match when a query is evaluated to false
+		--regexp=[PATTERN]
+			Specify a regexp to match when a query is evaluated to true
+		--code=[100-599]
+			Specify a response code to match when a query is evaluated to true
+
+		--text-only
+			Compare pages based only on the textual content
+		--titles
+			Compare pages based only on their titles
 
 	INJECTION
-		--skip-heuristics	Skip heuristic detection of SQLi/XSS vulnerabilities
+		--skip-heuristics
+			Skip heuristic detection of SQLi/XSS vulnerabilities
 
-		-p TESTPARAMETER		Testable parameter(s)
-		--skip=SKIP				Skip testing for given parameter(s)
-		--skip-static			Skip testing parameters that not appear to be dynamic
-		--param-exclude=..		Regexp to exclude parameters from testing (e.g. "ses")
-		--param-filter=P..		Select testable parameter(s) by place (e.g. "POST")
+		-p [NAME]...
+			Specify testable parameters
+		--skip=[NAME]...
+			Skip testing the given parameters
+		--skip-static
+			Skip testing parameters that not appear to be dynamic
+		--param-exclude=[PATTERN]
+			Exclude parameters from testing based on a regexp
+		--param-filter=[GET|POST]
+			Select testable parameters by place
+		--forms
+			Parse and test forms on target URL
 
-		--dbms=DBMS				Force back-end DBMS to provided value
-		--dbms-cred=DBMS..		DBMS authentication credentials (user:password)
-		--os=OS					Force back-end DBMS operating system to provided value
+		--second-req=[PATH]
+			Load second-order HTTP request from file
+		--second-url=[URL]
+			Provide a resulting page URL searched for second-order response
 
-		--invalid-bignum		Use big numbers for invalidating values
-		--invalid-logical		Use logical operations for invalidating values
-		--invalid-string		Use random strings for invalidating values
-		--no-cast				Turn off payload casting mechanism
-		--no-escape				Turn off string escaping mechanism
-		--charset=CHARSET	Blind SQL injection charset (e.g. "0123456789abcdef")
+		--dbms=[NAME]
+			Specify the back-end DBMS
+		--dbms-cred=[USR:PWD]
+			Provide the DBMS credentials
+		--os=[NAME]
+			Specify the back-end DBMS operating system
 
-		--union-cols=UCOLS	Range of columns to test for UNION query SQL injection
-		--union-char=UCHAR	Character to use for bruteforcing number of columns
-		--union-from=UFROM	Table to use in FROM part of UNION query SQL injection
-		--time-sec=TIMESEC	Seconds to delay the DBMS response (default 5)
+		--invalid-bignum
+			Use big numbers for invalidating values
+		--invalid-logical
+			Use logical operations for invalidating values
+		--invalid-string
+			Use random strings for invalidating values
+		--no-cast
+			Turn off payload casting mechanism
+		--no-escape
+			Turn off string escaping mechanism
+		--charset=[CHARSET]
+			Specify the charset for Blind SQL injection
+
+		--union-cols=[NUMBER]
+			Specify the range of columns to test for UNION query SQL injection
+		--union-char=[CHAR]
+			Specify the character to use for bruteforcing number of columns
+		--union-from=[NAME]
+			Specify the table to use in FROM part of UNION query SQL injection
+		--time-sec=[NUMBER]
+			Specify the DBMS response delay in seconds
 
 	PILLAGING
-		-a, --all			Retrieve everything
-		--encoding=ENCOD..	Character encoding used for data retrieval (e.g. GBK)
+		-a, --all
+			Retrieve everything
+		--encoding=[ENCODING]
+			Specify the character encoding used for data retrieval
 
-		-U USER				DBMS user to enumerate
-		-D DB				DBMS database to enumerate
-		-T TBL				DBMS database table(s) to enumerate
-		-C COL				DBMS database table column(s) to enumerate
-		-X EXCLUDE			DBMS database identifier(s) to not enumerate
+		-U [USER]
+			Specify the DBMS user to enumerate
+		-D [NAME]
+			Specify the DBMS database to enumerate
+		-T [NAME]
+			Specify the DBMS database table to enumerate
+		-C [NAME]
+			Specify the DBMS database table column to enumerate
+		-X [NAME]
+			Specify the DBMS database identifier to not enumerate
 
-		-f, --fingerprint	Perform an extensive DBMS version fingerprint
-		-b, --banner		Retrieve DBMS banner
-		--hostname			Retrieve DBMS server hostname
-		--current-db		Retrieve DBMS current database
-		--current-user		Retrieve DBMS current user
-		--is-dba			Detect if the DBMS current user is DBA
+		-f, --fingerprint
+			Perform an extensive DBMS version fingerprint
+		-b, --banner
+			Retrieve the DBMS banner
+		--hostname
+			Retrieve the DBMS server hostname
+		--current-db
+			Retrieve the DBMS current database
+		--current-user
+			Retrieve the DBMS current user
+		--is-dba
+			Detect if the DBMS current user is DBA
 
-		--users				Enumerate DBMS users
-		--passwords			Enumerate DBMS users password hashes
-		--privileges		Enumerate DBMS users privileges
-		--roles				Enumerate DBMS users roles
-		--dbs				Enumerate DBMS databases
-		--tables			Enumerate DBMS database tables
-		--exclude-sysdbs	Exclude DBMS system databases when enumerating tables
-		--columns			Enumerate DBMS database table columns
-		--schema			Enumerate DBMS schema
-		--comments			Check for DBMS comments during enumeration
-		--statements		Retrieve SQL statements being run on DBMS
+		--users
+			Enumerate DBMS users
+		--passwords
+			Enumerate DBMS users password hashes
+		--privileges
+			Enumerate DBMS users privileges
+		--roles
+			Enumerate DBMS users roles
+		--dbs
+			Enumerate DBMS databases
+		--tables
+			Enumerate DBMS database tables
+		--exclude-sysdbs
+			Exclude DBMS system databases when enumerating tables
+		--columns
+			Enumerate DBMS database table columns
+		--schema
+			Enumerate DBMS schema
+		--comments
+			Check for DBMS comments during enumeration
+		--statements
+			Retrieve SQL statements being run on DBMS
 
-		--common-tables		Check existence of common tables
-		--common-columns	Check existence of common columns
-		--common-files		Check existence of common files
+		--common-tables
+			Check for existence of common tables
+		--common-columns
+			Check for existence of common columns
+		--common-files
+			Check for existence of common files
 
-		--dump				Dump DBMS database table entries
-		--dump-all			Dump all DBMS databases tables entries
-		--where=DUMPWHERE	Use WHERE condition while table dumping
+		--dump
+			Dump DBMS database table entries
+		--dump-all
+			Dump all DBMS databases tables entries
+		--where=[EXPRESSION]
+			Specify a WHERE condition while table dumping
+		--start=[MIN]
+			Provide a lower bound for entry dumping
+		--stop=[MAX]
+			Provide an upper bound for entry dumping
+		--first=[MIN]
+			Provide a lower bound for cutting the values of each dumped entry
+		--last=[MAX]
+			Provide an upper bound for cutting the values of each dumped entry
 
-		--search			Search column(s), table(s) and/or database name(s)
-		--count				Retrieve number of entries for table(s)
-		--pivot-column=P..	Pivot column name
-		--dns-domain=DNS..	Domain name used for DNS exfiltration attack
-		--table-prefix=T..	Prefix used for temporary tables (default: "sqlmap")
+		--search
+			Search columns, tables and/or database names
+		--count
+			Retrieve number of entries for each table
+		--pivot-column=[NAME]
+			Specify the pivot column
+		--dns-domain=[NAME]
+			Provide the domain name used for DNS exfiltration attack
+		--table-prefix=[STRING]
+			Provide a prefix for temporary tables
 
-		--start=LIMITSTART	First dump table entry to retrieve
-		--stop=LIMITSTOP	Last dump table entry to retrieve
-		--first=FIRSTCHAR	First query output word character to retrieve
-		--last=LASTCHAR		Last query output word character to retrieve
+		--binary-fields=[NAME]...
+			Specify binary fields for a special data handling
+		--hex
+			Use hex conversion during data retrieval
+		--repair
+			Redump entries having unknown character marker
 
-		--binary-fields=..	Result fields having binary values (e.g. "digest")
-		--hex				Use hex conversion during data retrieval
-		--repair			Redump entries having unknown character marker (?)
-
-		--sql-query=SQLQ..	SQL statement to be executed
-		--sql-shell			Prompt for an interactive SQL shell
-		--sql-file=SQLFILE	Execute SQL statements from given file(s)
+		--sql-shell
+			Prompt for an interactive SQL shell
+		--sql-query=[EXPRESSION]
+			Provide an SQL statement to be executed
+		--sql-file=[PATH]...
+			Load SQL statements for execution
 
 	INFILTRATION
-		--tmp-dir=TMPDIR	Local directory for storing temporary files
-		--file-read=FILE..		Read a file from the back-end DBMS file system
-		--file-write=FIL..		Write a local file on the back-end DBMS file system
-		--file-dest=FILE..		Back-end DBMS absolute filepath to write to
+		--file-read=[PATH]
+			Read a file from the DBMS file system
+		--file-write=[PATH]
+			Load a local file to upload on the DBMS file system
+		--file-dest=[PATH]
+			Specify the absolute path where to write in the DBMS file system
 
-		--shell				Prompt for an interactive sqlmap shell
-		--os-cmd=OSCMD			Execute an operating system command
-		--os-shell				Prompt for an interactive operating system shell
-		--os-pwn				Prompt for an OOB shell, Meterpreter or VNC
-		--os-smbrelay			One click prompt for an OOB shell, Meterpreter or VNC
-		--os-bof				Stored procedure buffer overflow exploitation
-		--priv-esc				Database process user privilege escalation
-		--msf-path=MSFPATH		Local path where Metasploit Framework is installed
-		--tmp-path=TMPPATH		Remote absolute path of temporary files directory
+		--udf-inject
+			Inject custom user-defined functions
+		--shared-lib=[PATH]
+			Provide the shared library
 
-		--reg-read			Read a Windows registry key value
-		--reg-add			Write a Windows registry key value data
-		--reg-del			Delete a Windows registry key value
-		--reg-key=REGKEY	Windows registry key
-		--reg-value=REGVAL	Windows registry key value
-		--reg-data=REGDATA	Windows registry key value data
-		--reg-type=REGTYPE	Windows registry key value type
+		--shell
+			Prompt for an interactive sqlmap shell
+		--os-cmd=[COMMAND]
+			Execute an operating system command
+		--os-shell
+			Prompt for an interactive operating system shell
+		--os-pwn
+			Prompt for an OOB shell, Meterpreter or VNC
+		--os-smbrelay
+			One click prompt for an OOB shell, Meterpreter or VNC
+		--os-bof
+			Stored procedure buffer overflow exploitation
+		--priv-esc
+			Database process user privilege escalation
+		--msf-path=[PATH]
+			Specify the path where Metasploit Framework is installed
+		--tmp-path=[PATH]
+			Specify the absolute path of temporary files in the DBMS file system
 
-		--cleanup			Clean up the DBMS from sqlmap specific UDF and tables
+		--reg-read
+			Read a Windows registry key value
+		--reg-add
+			Write a Windows registry key value data
+		--reg-del
+			Delete a Windows registry key value
+		--reg-key=[VAR]
+			Provide the Windows registry key
+		--reg-value=[VAL]
+			Provide the Windows registry key value
+		--reg-data=[STRING]
+			Provide the Windows registry key value data
+		--reg-type=[NAME]
+			Provide the Windows registry key value type
 
-	WAF/IDS EVASION
-		--skip-waf			Skip heuristic detection of WAF/IPS protection
+		--cleanup
+			Clean up the DBMS from sqlmap specific UDF and tables
 
-		--prefix=PREFIX			Injection payload prefix string
-		--suffix=SUFFIX			Injection payload suffix string
-		--list-tampers		Display list of available tamper scripts
-		--tamper=TAMPER			Use given script(s) for tampering injection data
-		--eval=EVALCODE			Evaluate provided Python code before the request
+	EVASION
+		--skip-waf
+			Skip heuristic detection of WAF/IPS protection
 
-		--ignore-code=IG..		Ignore (problematic) HTTP error code (e.g. 401)
-		--ignore-proxy			Ignore system default proxy settings
-		--ignore-redirects		Ignore redirection attempts
-		--ignore-timeouts		Ignore connection timeouts
+		--prefix=[STRING]
+			Specify the injection payload prefix string
+		--suffix=[STRING]
+			Specify the injection payload suffix string
+		--list-tampers
+			Display a list of available tamper scripts
+		--tamper=[NAME]...
+			Use the given script for tampering injection data
+		--eval=[EXPRESSION]
+			Evaluate the given Python code before the request
 
-		--safe-url=SAFEURL		URL address to visit frequently during testing
-		--safe-post=SAFE..		POST data to send to a safe URL
-		--safe-req=SAFER..		Load safe HTTP request from a file
-		--safe-freq=SAFE..		Regular requests between visits to a safe URL
+		--ignore-code=[100-599]...
+			Ignore problematic HTTP error codes
+		--ignore-redirects
+			Ignore redirection attempts
+		--ignore-timeouts
+			Ignore connection timeouts
 
-		--csrf-token=CSR..		Parameter used to hold anti-CSRF token
-		--csrf-url=CSRFURL		URL address to visit for extraction of anti-CSRF token
-		--csrf-method=CS..		HTTP method to use during anti-CSRF token page visit
-		--csrf-retries=C..		Retries for anti-CSRF token retrieval (default 0)
+		--safe-url=[URL]
+			Provide a URL address to visit frequently during testing
+		--safe-post=[VAR=VAL]
+			Provide data to send in the safe request body
+		--safe-req=[PATH]
+			Load the safe request from a file
+		--safe-freq=[NUMBER]
+			Specify the interval between safe requests
 
-		--hpp					Use HTTP parameter pollution method
-		--randomize=RPARAM		Randomly change value for given parameter(s)
+		--csrf-token=[NAME]
+			Provide the parameter used to hold anti-CSRF token
+		--csrf-url=[URL]
+			Provide the URL address to visit for extraction of anti-CSRF token
+		--csrf-method=[METHOD]
+			Specify the HTTP method to use during anti-CSRF token page visit
+		--csrf-retries=[NUMBEr]
+			Specify the amount of retries for anti-CSRF token retrieval
+
+		--hpp
+			Use HTTP parameter pollution method
+		--randomize=[NAME]...
+			Randomly change value for the given parameter
 
 INPUT
 	SOURCE
-		--scope=SCOPE		Regexp for filtering targets
-		-l [PATH]		Parse target(s) from Burp or WebScarab proxy log file
-		-m [PATH]		Scan multiple targets given in a textual file
-		-g [STRING]		Process Google dork results as target URLs
-		--gpage=GOOGLEPAGE	Use Google dork results from specified page number
-
-		--shared-lib=SHLIB	Local path of the shared library
-		--second-req=SEC..	Load second-order HTTP request from file
-
-		--preprocess=PRE..	Use given script(s) for preprocessing (request)
-		--postprocess=PO..	Use given script(s) for postprocessing (response)
+		--scope=[PATTERN]
+			Filter targets with the given regexp
+		-l [PATH]
+			Load targets from Burp or WebScarab proxy log file
+		-m [PATH]
+			Load multiple targets from a textual file
+		-g [STRING]
+			Load targets from the results of a Google dork query
+		--gpage=[NUMBER]
+			Specify the Google dork results page from wich to load targets
 
 	FORMAT
-		--base64=BASE64P..	Parameter(s) containing Base64 encoded data
-		--base64-safe		Use URL and filename safe Base64 alphabet (RFC 4648)
+		--base64=[NAME]...
+			Specify the parameter containing base64 encoded data
+		--base64-safe
+			Use URL and filename safe base64 alphabet
 
 	FILTER
 
 OUTPUT
 
 	DESTINATION
-		-t TRAFFICFILE		Log all HTTP traffic into a textual file
-		--output-dir=OUT..	Custom output directory path
-		--results-file=R..	Location of CSV results file in multiple targets mode
+		--output-dir=[PATH]
+			Specify a path to store session and result files
+		--tmp-dir=[PATH]
+			Specify a path to store temporary files
+		--results-file=[PATH]
+			Specify the location for CSV results file in multiple targets mode
 
 	FORMAT
-		--dump-format=DU..	Format of dumped data (CSV (default), HTML or SQLITE)
-		--csv-del=CSVDEL	Delimiting character used in CSV output (default ",")
-
-	FILTER
+		--dump-format=[CSV|HTML|SQLITE]
+			Specify the format for dumped data
+		--csv-del=[CHAR]
+			Specify the delimiting character used in CSV output
 
 	VERBOSITY
 		-v [0-6]
@@ -303,45 +481,65 @@ OUTPUT
 				4	-	HTTP requests
 				5	-	HTTP responses' headers
 				6	-	HTTP responses' page content
-		--parse-errors		Parse and display DBMS error messages from responses
-		--eta				Display for each output the estimated time of arrival
-		--har=HARFILE		Log all HTTP traffic into a HAR file
+		--parse-errors
+			Parse and display DBMS error messages from responses
+		--eta
+			Display the estimated time of arrival for each output
 
-		--alert=ALERT		Run host OS command(s) when SQL injection is found
-		--beep				Beep on question and/or when SQLi/XSS/FI is found
-		--disable-coloring	Disable console output coloring
+		-t [PATH]
+			Log all HTTP traffic into a textual file
+		--har=[PATH]
+			Log all HTTP traffic into a HAR file
+
+		--alert=[COMMAND]
+			Run a command locally when an SQL injection is found
+		--beep
+			Beep on question and/or when SQLi/XSS/FI is found
+		--disable-coloring
+			Disable console output coloring
 
 CONFIGURATION
 	FILE
 		-c [PATH]
 			Load options from a configuration INI file
-		--save=SAVECONFIG	Save options to a configuration INI file
+		--save=[PATH]
+			Save options to a configuration INI file
 
 	ENVIRONMENT
-		-s SESSIONFILE		Load session from a stored (.sqlite) file
-		--flush-session		Flush session files for current target
-		--fresh-queries		Ignore query results stored in session file
-		--offline			Work in offline mode (only use session data)
-		--dependencies		Check for missing (optional) sqlmap dependencies
-		--update			Update sqlmap
-		--purge				Safely remove all content from sqlmap data directory
+		-s [PATH]
+			Load session from a stored file
+		--flush-session
+			Flush session files for current target
+		--fresh-queries
+			Ignore query results stored in session file
+		--offline
+			Work in offline mode, using session data only
+		--dependencies
+			Check for missing sqlmap dependencies
+		--update
+			Update sqlmap
+		--purge
+			Safely remove all content from sqlmap data directory
 
 MODULES
-	MANAGING
-
-	USING
+	--preprocess=[PATH]...
+		Provide a script for preprocessing the request
+	--postprocess=[PATH]...
+		Provide a script for postprocessing the response
 
 INTERACTION
 	INTERFACE
-		--answers=ANSWERS	Set predefined answers (e.g. "quit=N,follow=N")
-		--batch				Never ask for user input, use the default behavior
-		--wizard			Simple wizard interface for beginner users
-
-	CONTROL
+		--answers=[NAME=[Y|N]]...
+			Set predefined answers for specific prompts
+		--batch
+			Never ask for user input, using the default behavior
+		--wizard
+			Simple wizard interface for beginner users
 
 OTHERS
 
-	-z MNEMONICS		Use short mnemonics (e.g. "flu,bat,ban,tec=EU")
+	-z [PATTERN]...
+		Use short mnemonics, allowing for a faster way of triggering multiple switches
 
 HELP
 
@@ -354,15 +552,16 @@ HELP
 ```
 
 ## Files
+
 ```bash
-/ # desc
+xml/payloads.xml # payloads used by sqlmap
 ```
 
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Exit Status
 - n - status

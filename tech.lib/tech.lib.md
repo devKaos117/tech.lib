@@ -6,6 +6,7 @@ subjects:
 [RFC4949 - Internet Security Glossary v2](https://datatracker.ietf.org/doc/html/rfc4949)
 
 ## Categories
+
 ```dataview
 LIST WITHOUT ID category GROUP BY category
 ```
@@ -103,40 +104,41 @@ LIST WITHOUT ID category GROUP BY category
 
 ## Notations
 
-```
+```txt
 [BYTES] = (\d+)([cw]|[KMGTPEZYRQ]?(?:b|B|iB))?
 [OCTAL] = [0-7]+
 [NUMBER] = \d+
-[MIN]
-[MAX]
-[START]
-[END]
-[TOTAL]
+[MIN] = Minimum value
+[MAX] = Maximum value
+[START] = Lower bound of a sequence
+[END] = Upper bound of a sequence
+[SIZE] = Total count of existing elements in a given set
 [HEX] = ([\\0]x)?([0-9a-fA-F]+)
 [CHAR] = .{1}
-[TIME] = 
-[POSIX_TIME] = 
-[STRING] = 
-[INTERFACE] = 
-[ADDRESS] = 
-[SUBNET] = 
-[SUBNET-SIZE] = 
-[PROTOCOL] = 
-[METHOD] = 
-[HOST] = 
+[STRING] = Pure text
+[CHARSET] = Set of text characters
+[ENCODING] = Data encoding algorithm
+[PATTERN] = String filtering pattern
+[MASK] = Template to format, conform, isolate or include data
+[NAME] = Name used to identify a given resource
+[TGE] = Time Since Epoch (Posix Epoch time)
+[INTERFACE] = Target interface for a connection
+[ADDRESS] = Target network address
+[SUBNET] = Subnet mask
+[PROTOCOL] = Network protocol
+[METHOD] = Request method
+[HOST] = Network address or FQDN
 [PORT] = {1..65535}
 [URL] = [PROTOCOL://][USR[:PWD]@]HOST[:PORT][/PATH[?QUERY][#FRAGMENT]]
-[USR] = username
-[PWD] = password
-[USER]
-[GROUP]
-[PATTERN] = string filtering pattern
-[MASK]
-[CHARSET]
-[ENCODING]
-[COMMAND]
-[HASH]
-[EXPRESSION]
+[USR] = Username
+[PWD] = Password
+[USER] = UID, RID or username
+[GROUP] = GID, RID or groupname
+[VAR] = The name of a variable
+[VAL] = The value to be assigned to a variable
+[COMMAND] = Command instruction
+[EXPRESSION] = String to be evaluated as an expression
+[HASH] = Hashing algorithm
 ```
 
 ## Plugins

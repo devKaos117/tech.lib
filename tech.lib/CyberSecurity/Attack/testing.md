@@ -86,10 +86,3 @@ Exploiting inputs that execute os commands
 
 ### Notes
 - typically occurs when a web application is not sanitizing the input
-
-## Notes
-
-```powershell
-# Identify if it is CMD or PowerShell
-(dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell
-```
