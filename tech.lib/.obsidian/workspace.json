@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CyberSecurity/Attack/testing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -208,8 +208,9 @@
   },
   "active": "a9052ef8f406b114",
   "lastOpenFiles": [
-    "tech.lib.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
     "CyberSecurity/Attack/testing.md",
+    "tech.lib.md",
     "Foundations/DBMS.md",
     "Networks/4. Application/TDS.md",
     "Networks/4. Application/TNS.md",
@@ -232,7 +233,6 @@
     "Tools/CyberSec/Offensive/msfdb.md",
     "Tools/CyberSec/Offensive/msfvenom.md",
     "Tools/CyberSec/Offensive/proxychains.md",
-    "Tools/CyberSec/Offensive/sqlmap.md",
     "Tools/CyberSec/Offensive/unshadow.md",
     "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",

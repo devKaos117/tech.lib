@@ -28,7 +28,8 @@ Automation for the process of detecting and exploiting SQL injection flaws and t
 ## Favorite Uses
 
 ```sh
-command options arguments
+sqlmap -u URL -p PARAMETER --dump
+sqlmap -r PATH -p PARAMETER --os-shell --web-root PATH
 ```
 
 ## Command
