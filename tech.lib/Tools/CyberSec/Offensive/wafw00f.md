@@ -9,7 +9,7 @@ os:
   - linux
   - windows
 tags:
-  - cybersec/offensive/reconnaissance/web
+  - cybersec/offensive/reconnaissance/fingerprinting
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

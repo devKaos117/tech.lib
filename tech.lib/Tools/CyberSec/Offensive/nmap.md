@@ -9,6 +9,8 @@ os:
   - linux
 tags:
   - cybersec/offensive/reconnaissance/scanning
+  - cybersec/offensive/reconnaissance/enumeration
+  - cybersec/offensive/reconnaissance/fingerprinting
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

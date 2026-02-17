@@ -8,8 +8,8 @@ package: metasploit-framework
 os:
   - linux
 tags:
-  - cybersec/offensive/reconnaissance/scanning
-  - cybersec/offensive/reconnaissance/enumerating
+  - cybersec/offensive/reconnaissance/enumeration
+  - cybersec/offensive/reconnaissance/fingerprinting
   - cybersec/offensive/spoofing/
   - cybersec/offensive/exploitation/web
   - cybersec/offensive/exploitation/network
@@ -17,6 +17,7 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] metasploit-framework
 
 > [!info] Console for the Metasploit Framework
@@ -24,11 +25,13 @@ tags:
 The Metasploit Framework is an open-source tool developed for pentesting. It's better used when in conjunction with [[msfdb]].
 
 ## Favorite Uses
+
 ```sh
 command options arguments
 ```
 
 ## Command
+
 ```txt
 msfconsole [OPTION]...
 
@@ -203,10 +206,10 @@ COMMANDS
 ## Files
 
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[]]

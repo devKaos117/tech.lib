@@ -8,7 +8,7 @@ package: feroxbuster
 os:
   - linux
 tags:
-  - cybersec/offensive/reconnaissance/enumerating
+  - cybersec/offensive/reconnaissance/enumeration
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`

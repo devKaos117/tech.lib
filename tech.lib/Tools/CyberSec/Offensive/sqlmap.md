@@ -30,7 +30,7 @@ Automation for the process of detecting and exploiting SQL injection flaws and t
 ```sh
 sqlmap -u URL --crawl 6 --forms --batch -t log/sqlmap_traffic.txt
 sqlmap -u URL --crawl 6 --forms --batch --proxy 'http://127.0.0.1:8080/'
-sqlmap -u URL -p PARAMETER --fingerprint --parse-errors
+sqlmap -u URL -p PARAMETER --fingerprint --banner --current-user --current-db --is-dba --parse-errors
 sqlmap -r PATH -p PARAMETER --os-shell --web-root PATH
 ```
 
@@ -155,8 +155,6 @@ BEHAVIOUR
 			Provide data to be sent in the request body
 		--skip-urlencode
 			Skip URL encoding of payload data
-		--chunked
-			Use HTTP chunked transfer encoded POST requests
 		--param-del=[CHAR]
 			Specify a character used for splitting parameter values
 
@@ -393,9 +391,12 @@ BEHAVIOUR
 			Clean up the DBMS from sqlmap specific UDF and tables
 
 	EVASION
+
 		--skip-waf
 			Skip heuristic detection of WAF/IPS protection
 
+		--chunked
+			Use HTTP chunked transfer encoded POST requests
 		--prefix=[STRING]
 			Specify the injection payload prefix string
 		--suffix=[STRING]

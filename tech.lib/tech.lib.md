@@ -40,8 +40,8 @@ LIST WITHOUT ID category GROUP BY category
 			- [infraestructure]{Collection of the targets network presence and services}
 		- [reconnaissance]{Target reconnaissance process}
 			- [scanning]{Target or network scanning and analysis}
-			- [enumerating]{Protocol, directory, addresses and other enumeration}
-			- [web]{Web application analysis}
+			- [enumeration]{Protocol, directory, addresses and other enumeration}
+			- [fingerprinting]{Extraction of technical details about the technologies powering a specific application}
 		- [spoofing]{Creating deceptive imitations}
 		- [exploitation]{} !!!
 			- [web]{Web applications vulnerabilities exploitation}

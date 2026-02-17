@@ -8,11 +8,12 @@ package: nikto
 os:
   - linux
 tags:
-  - cybersec/offensive/reconnaissance/web
-  - cybersec/offensive/reconnaissance/enumerating
+  - cybersec/offensive/reconnaissance/enumeration
+  - cybersec/offensive/reconnaissance/fingerprinting
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] nikto
 
 > [!info] Web server scanner
@@ -20,11 +21,13 @@ tags:
 Nikto is a pluggable web server and CGI scanner written in Perl, using rfp's LibWhisker to perform fast security or informational checks.
 
 ## Favorite Uses
+
 ```sh
 command options arguments
 ```
 
 ## Command
+
 ```txt
 nikto [OPTION]... [HOST]...
 
@@ -176,12 +179,11 @@ nikto [OPTION]... [HOST]...
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[]]

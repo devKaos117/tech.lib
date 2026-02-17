@@ -8,24 +8,28 @@ package: crackmapexec
 os:
   - linux
 tags:
-  - cybersec/offensive/reconnaissance/enumerating
+  - cybersec/offensive/reconnaissance/scanning
+  - cybersec/offensive/reconnaissance/enumeration
   - cybersec/offensive/exploitation/network
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] crackmapexec
 
 > [!info] Swiss army knife for pentesting Windows/Active Directory environments
 
-From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL’s into memory using Powershell, dumping the NTDS.dit and more.
+From enumerating logged on users and spidering SMB shares to executing psexec style attacks, auto-injecting Mimikatz/Shellcode/DLL's into memory using Powershell, dumping the NTDS.dit and more.
 
 ## Favorite Uses
+
 ```sh
 command options arguments
 ```
 
 ## Command
 ### Common Options
+
 ```txt
 crackmapexec [ldap|ssh|ftp|winrm|smb|mssql|rdp] [HOST] [OPTION]...
 
@@ -107,6 +111,7 @@ HELP
 ```
 
 ### Protocol Specific
+
 ```txt
 LDAP
 
