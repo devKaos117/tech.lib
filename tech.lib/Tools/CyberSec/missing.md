@@ -4,12 +4,14 @@ ncat
 snmpset
 socat
 
+<https://github.com/projectdiscovery/cvemap>
+
 nslookup
 dnsrecon
 fierce
 dnsenum
 dnsmap
-subfinder
+<https://github.com/projectdiscovery/subfinder>
 <https://github.com/d3mondev/puredns>
 <https://github.com/tomnomnom/assetfinder>
 
@@ -82,6 +84,7 @@ cmseek
 
 whatweb
 <https://github.com/Ekultek/WhatWaf>
+<https://github.com/projectdiscovery/wappalyzergo>
 
 sqlninja
 sqlsus
@@ -124,16 +127,27 @@ nessus
 <https://github.com/SpecterOps/SharpHound>
 BadSuccessor
 responder
-
-<https://github.com/bats3c/darkarmour>
-<https://github.com/bats3c/shad0w>
+<https://github.com/GhostPack/Rubeus>
+<https://github.com/GhostPack/SharpUp>
 
 <https://github.com/swisskyrepo/PayloadsAllTheThings>
 <https://github.com/samratashok/nishang>
 
+<https://github.com/besimorhino/powercat>
+
 <https://github.com/itm4n/PrintSpoofer>
 
-<https://github.com/besimorhino/powercat>
+<https://github.com/GhostPack/SafetyKatz>
+
+<https://github.com/bats3c/darkarmour>
+<https://github.com/bats3c/shad0w>
+
+<https://github.com/its-a-feature/Mythic>
+<https://github.com/SpecterOps/Nemesis>
+<https://github.com/DragoQCC/Cruciblec2>
+<https://github.com/Ne0nd0g/merlin>
+
+<https://github.com/fkasler/cuddlephish>
 
 samdump2
 
@@ -161,6 +175,11 @@ zphisher
 <https://github.com/jpillora/chisel>
 <https://github.com/Nicocha30/ligolo-ng>
 
+<https://github.com/GhostPack/>
+<https://github.com/SpecterOps>
+
 <https://github.com/flameshot-org/flameshot>
 <https://github.com/RedSiege/EyeWitness>
-<https://github.com/its-a-feature/Mythic>
+<https://github.com/sensepost/gowitness>
+<https://github.com/dradis/dradis-ce>
+<https://github.com/GhostManager/Ghostwriter>

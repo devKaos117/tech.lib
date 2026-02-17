@@ -28,7 +28,9 @@ Automation for the process of detecting and exploiting SQL injection flaws and t
 ## Favorite Uses
 
 ```sh
-sqlmap -u URL -p PARAMETER --dump
+sqlmap -u URL --crawl 6 --forms --batch -t log/sqlmap_traffic.txt
+sqlmap -u URL --crawl 6 --forms --batch --proxy 'http://127.0.0.1:8080/'
+sqlmap -u URL -p PARAMETER --fingerprint --parse-errors
 sqlmap -r PATH -p PARAMETER --os-shell --web-root PATH
 ```
 
@@ -246,15 +248,15 @@ BEHAVIOUR
 		--encoding=[ENCODING]
 			Specify the character encoding used for data retrieval
 
-		-U [USER]
+		-U [USER]...
 			Specify the DBMS user to enumerate
-		-D [NAME]
+		-D [NAME]...
 			Specify the DBMS database to enumerate
-		-T [NAME]
+		-T [NAME]...
 			Specify the DBMS database table to enumerate
-		-C [NAME]
+		-C [NAME]...
 			Specify the DBMS database table column to enumerate
-		-X [NAME]
+		-X [NAME]...
 			Specify the DBMS database identifier to not enumerate
 
 		-f, --fingerprint
@@ -427,7 +429,7 @@ BEHAVIOUR
 			Provide the URL address to visit for extraction of anti-CSRF token
 		--csrf-method=[METHOD]
 			Specify the HTTP method to use during anti-CSRF token page visit
-		--csrf-retries=[NUMBEr]
+		--csrf-retries=[NUMBER]
 			Specify the amount of retries for anti-CSRF token retrieval
 
 		--hpp
@@ -453,8 +455,6 @@ INPUT
 			Specify the parameter containing base64 encoded data
 		--base64-safe
 			Use URL and filename safe base64 alphabet
-
-	FILTER
 
 OUTPUT
 
