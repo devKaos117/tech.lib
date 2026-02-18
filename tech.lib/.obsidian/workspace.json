@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/sqlmap.md",
+                "file": "Linux/Commands/ss.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sqlmap"
+              "title": "ss"
+            }
+          },
+          {
+            "id": "729c4a6aa167d7f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tech.lib.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tech.lib"
+            }
+          },
+          {
+            "id": "a8b939bed2bf11d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/TOOL_TEMPLATE.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TOOL_TEMPLATE"
             }
           }
         ]
@@ -208,20 +256,25 @@
   },
   "active": "c56cf34c041e20be",
   "lastOpenFiles": [
-    "templates/TOOL_TEMPLATE.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
+    "Linux/Commands/ss.md",
+    "Linux/Commands/touch.md",
+    "Tools/Network/missing.md",
+    "tech.lib.md",
+    "Linux/Commands/bash.md",
+    "templates/TOOL_TEMPLATE.md",
+    "templates/NOTE_TEMPLATE.md",
+    "templates/ATTACK_TEMPLATE.md",
     "Tools/CyberSec/missing.md",
     "Tools/CyberSec/Offensive/nikto.md",
     "Tools/CyberSec/Offensive/nmap.md",
     "Tools/CyberSec/Offensive/msfconsole.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "Tools/CyberSec/Offensive/crackmapexec.md",
-    "tech.lib.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
     "LLM Prompts/Notes.md",
     "LLM Prompts/PowerShell Ping-Pong.md",
-    "templates/NOTE_TEMPLATE.md",
     "templates/PROMPT_TEMPLATE.md",
     "Tools/CyberSec/Forensics/missing.md",
     "CyberSecurity/Methodology/5. Reporting.md",
@@ -229,11 +282,6 @@
     "Tools/CyberSec/Offensive/msfdb.md",
     "Devices.md",
     "Missing.md",
-    "To-Do.md",
-    "Tools/CyberSec/Cryptography/missing.md",
-    "Tools/CyberSec/Defensive/missing.md",
-    "Windows/missing.md",
-    "Tools/File/rm.md",
     "Tools/File",
     "Tools/Text",
     "attachments/cybersec_attack_astaroth.png",

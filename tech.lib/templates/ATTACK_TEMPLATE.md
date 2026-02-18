@@ -10,6 +10,11 @@ cwe:
 
 ## Definition
 
+## Mitigation
+
+## Execution
+
+## Evasion
 
 ## Relevant Reading
 - []()
