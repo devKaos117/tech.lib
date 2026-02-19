@@ -61,6 +61,7 @@ dirb
 dirbuster
 <https://github.com/OJ/gobuster>
 ffuf
+<https://github.com/maurosoria/dirsearch>
 cmseek
 <https://github.com/assetnote/kiterunner>
 
@@ -73,6 +74,8 @@ cmseek
 <https://github.com/projectdiscovery/katana>
 
 <https://github.com/projectdiscovery/nuclei>
+
+<https://github.com/r0oth3x49/ghauri>
 
 <https://github.com/wpscanteam/wpscan/>
 <https://github.com/p0dalirius/Wordpress-webshell-plugin/>

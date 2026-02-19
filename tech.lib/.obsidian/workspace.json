@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Commands/ss.md",
+                "file": "Tools/CyberSec/Offensive/sqlmap.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ss"
+              "title": "sqlmap"
             }
           },
           {
@@ -136,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 259.5
   },
   "right": {
     "id": "b20849d32e86033d",
@@ -256,7 +256,11 @@
   },
   "active": "c56cf34c041e20be",
   "lastOpenFiles": [
+    "CyberSecurity/Theory/Attack Techniques.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "Tools/CyberSec/missing.md",
+    "CyberSecurity/Attack/testing.md",
     "Linux/Commands/ss.md",
     "Linux/Commands/touch.md",
     "Tools/Network/missing.md",
@@ -265,11 +269,9 @@
     "templates/TOOL_TEMPLATE.md",
     "templates/NOTE_TEMPLATE.md",
     "templates/ATTACK_TEMPLATE.md",
-    "Tools/CyberSec/missing.md",
     "Tools/CyberSec/Offensive/nikto.md",
     "Tools/CyberSec/Offensive/nmap.md",
     "Tools/CyberSec/Offensive/msfconsole.md",
-    "Tools/CyberSec/Offensive/feroxbuster.md",
     "Tools/CyberSec/Offensive/crackmapexec.md",
     "Tools/CyberSec/Offensive/wafw00f.md",
     "CyberSecurity/Methodology/1. Information Gathering.md",
@@ -278,10 +280,8 @@
     "templates/PROMPT_TEMPLATE.md",
     "Tools/CyberSec/Forensics/missing.md",
     "CyberSecurity/Methodology/5. Reporting.md",
-    "CyberSecurity/Attack/testing.md",
     "Tools/CyberSec/Offensive/msfdb.md",
     "Devices.md",
-    "Missing.md",
     "Tools/File",
     "Tools/Text",
     "attachments/cybersec_attack_astaroth.png",
