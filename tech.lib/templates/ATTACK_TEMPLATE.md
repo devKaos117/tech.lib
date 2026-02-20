@@ -1,16 +1,24 @@
 ---
-category: NULL
+category: technique
 subjects:
-  - NULL
+  - cybersec
 full_form: NULL
 acronym: NULL
 cwe: 
   - NULL
+vector: remote/adjacent network/local/client-side
+privileges: unauthenticated/authenticated/root
+target: NULL
+platform: NULL
+intent:
+  -  NULL
 ---
 
 ## Definition
 
 ## Mitigation
+
+## Discovery
 
 ## Execution
 
@@ -20,5 +28,6 @@ cwe:
 - []()
 
 ## External Reference
-[en.wikipedia.org]()
-[RFCNNNN - NAME](https://datatracker.ietf.org/doc/html/rfcNNNN)
+[attack.mitre.org](https://attack.mitre.org/techniques/)
+[Payload All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/)
+[EDB-ID XXXXXX](https://www.exploit-db.com/)

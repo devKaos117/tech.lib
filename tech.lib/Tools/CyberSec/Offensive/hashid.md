@@ -24,20 +24,27 @@ Tool designed to identify hashes, parse a file or read files in a directory and 
 ```txt
 hashid [OPTION]... [INPUT]
 
--e, --extended
-	list all possible hash algorithms including salted passwords
+OUTPUT
+	DESTINATION
+		-o, --outfile [PATH]
+			Redirect the output to a file
 
--m, --mode
-	Include corresponding hashcat mode in output
--j, --john
-	Include corresponding JohnTheRipper format in the output
--o, --outfile [PATH]
-	Redirect the output to a file
+	FORMAT
+		-m, --mode
+			Include corresponding hashcat mode in output
+		-j, --john
+			Include corresponding JohnTheRipper format in the output
 
--h, --help
-	Display the help information and exit
---version
-	Output version information and exit
+	VERBOSITY
+		-e, --extended
+			list all possible hash algorithms including salted passwords
+
+HELP
+
+	-h, --help
+		Display the help information and exit
+	--version
+		Output version information and exit
 ```
 
 ## Relevant Reading

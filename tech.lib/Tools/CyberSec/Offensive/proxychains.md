@@ -25,6 +25,7 @@ A preloader which that hooks network-related libc functions in dynamically linke
 proxychains [OPTION]... [COMMAND [ARGUMENT]...]
 
 OUTPUT
+
 	-q
 		Makes proxychain quiet
 

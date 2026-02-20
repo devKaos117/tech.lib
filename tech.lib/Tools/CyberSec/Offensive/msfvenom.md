@@ -32,7 +32,7 @@ msfvenom [OPTION]... [PATH]
 
 BEHAVIOUR
 
-	-p, --payload [ARGUMENT]
+	-p, --payload [NAME]
 		Payload to use
 	-c, --add-code [PATH]
 		Specify an additional win32 shellcode file to include
@@ -50,14 +50,14 @@ OUTPUT
 
 	-o, --out [PATH]
 		Save the payload
-	-f, --format [ARGUMENT]
+	-f, --format [NAME]
 		Output format
-	-a, --arch [ARGUMENT]
+	-a, --arch [NAME]
 		The architecture to use
-	--platform [ARGUMENT]
+	--platform [NAME]
 		The platform of the payload
 
-	-e, --encoder [ARGUMENT]
+	-e, --encoder [NAME]
 		The encoder to use
 	-i, --iterations [NUMBER]
 		The number of times to encode the payload

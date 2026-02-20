@@ -12,67 +12,81 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] exploitdb
 
 > [!info] Command line search tool for Exploit-DB exploits and shellcodes
 
 Perform detailed off-line searches through your locally checked-out copy of the Exploit-DB repository. Particularly useful for security assessments on segregated or air-gapped networks without Internet access.
 
-## Favorite Uses
-```sh
-command options arguments
-```
-
 ## Command
+
 ```txt
 searchsploit [OPTION]... [ARGMUENT]...
 
--c, --case
-	Enable case-sensitive search
--e, --exact
-	Perform an exact and in order match on exploit title
--s, --strict
-	In strict search the input values must exist, disabling fuzzy search for version range
--t, --title
-	Match only the exploit title
---exclude=[STRING]...
-	Remove values from results
---cve [STRING]
-	Search for CVE value
+INPUT
+	SOURCE
+		--nmap [PATH]
+			Checks all results in Nmap's XML output with service version
 
--j, --json
-	Show result in JSON format
---id
-	Display the EDB-ID value rather than local path
--p, --path
-	Show the full path to an exploit
--w, --www
-	Show URLs to Exploit-DB rather than the local path
--v, --verbose
-	Increases verbosity
+	FILTER
+		-c, --case
+		Enable case-sensitive search
+		-e, --exact
+			Perform an exact and in order match on exploit title
+		-s, --strict
+			In strict search the input values must exist, disabling fuzzy search for version range
+		-t, --title
+			Match only the exploit title
+		--cve [STRING]
+			Search for CVE value
 
---nmap [PATH]
-	Checks all results in Nmap's XML output with service version
+OUTPUT
+	DESTINATION
+		-m, --mirror [NAME]
+			Mirror an exploit to the current working directory
 
--m, --mirror [ID]
-	Mirror an exploit to the current working directory
--x, --examine [ID]
-	Examine the exploit using the default paginator
+	FORMAT
+		-j, --json
+			Show result in JSON format
+		--id
+			Display the EDB-ID value rather than local path
+		-p, --path
+			Show the full path to an exploit
+		-w, --www
+			Show URLs to Exploit-DB rather than the local path
 
--u
-	Check for and install any exploitdb package updates
--h, --help
-	Display the help information and exit
+	FILTER
+		--exclude=[STRING]...
+			Remove values from results
+
+	VERBOSITY
+		-v, --verbose
+			Increases verbosity
+
+MODULES
+
+	-u
+		Check for and install any exploitdb package updates
+
+INTERACTION
+
+	-x, --examine [ID]
+		Examine the exploit using the default paginator
+
+HELP
+
+	-h, --help
+		Display the help information and exit
 ```
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[]]

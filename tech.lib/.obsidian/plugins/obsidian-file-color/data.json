@@ -231,10 +231,6 @@
       "color": "pv2L5x3kobWSdBJry0yLM"
     },
     {
-      "path": "Tools/CyberSec/Offensive/searchsploit.md",
-      "color": "pv2L5x3kobWSdBJry0yLM"
-    },
-    {
       "path": "Tools/CyberSec/Offensive/pwdump.md",
       "color": "pv2L5x3kobWSdBJry0yLM"
     },
@@ -292,10 +288,6 @@
     },
     {
       "path": "Networks/4. Application/TDS.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "templates/ATTACK_TEMPLATE.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]
