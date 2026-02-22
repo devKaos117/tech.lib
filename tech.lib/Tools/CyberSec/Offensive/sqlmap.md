@@ -147,7 +147,7 @@ BEHAVIOUR
 		--referer=[STRING]
 			Provide the Referer header value
 		-A, --user [STRING]
-			Provide the User-Agent
+			Specify the User-Agent
 		--random-agent
 			Use randomly selected User-Agents
 		--mobile

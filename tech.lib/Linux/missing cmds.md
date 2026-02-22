@@ -95,6 +95,7 @@ lvm
 lynx
 magick
 mcrypt
+mingw-w64
 mkfifo
 mkfs
 mkfs.exfat

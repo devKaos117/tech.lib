@@ -9,9 +9,10 @@ cwe:
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
 target: NULL
-platform: NULL
+platform:
+  - NULL
 intent:
-  -  NULL
+  - NULL
 ---
 
 ## Definition

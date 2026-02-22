@@ -161,6 +161,7 @@ crunch
 <https://github.com/Mebus/cupp>
 <https://github.com/danielmiessler/SecLists>
 <https://github.com/fuzzdb-project/fuzzdb>
+<https://github.com/soffensive/windowsblindread/>
 
 msf-pattern_create
 msf-pattern_offset
@@ -173,6 +174,7 @@ zphisher
 <https://github.com/trustedsec/social-engineer-toolkit>
 
 <https://github.com/upx/upx>
+<https://github.com/astral-sh/uv>
 
 <https://github.com/rofl0r/proxychains-ng>
 <https://github.com/jpillora/chisel>

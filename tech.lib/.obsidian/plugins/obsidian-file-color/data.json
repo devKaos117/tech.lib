@@ -289,6 +289,14 @@
     {
       "path": "Networks/4. Application/TDS.md",
       "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Tools/Network/curl.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
+    },
+    {
+      "path": "CyberSecurity/Attack/XSS.md",
+      "color": "pv2L5x3kobWSdBJry0yLM"
     }
   ]
 }

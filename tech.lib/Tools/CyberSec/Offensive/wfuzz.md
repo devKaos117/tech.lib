@@ -12,6 +12,7 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] wfuzz
 
 > [!info] Web application bruteforcer
@@ -19,6 +20,7 @@ tags:
 WFuzz is a web application security fuzzer tool and library for Python, providing a framework to automate web applications security assessments.
 
 ## Favorite Uses
+
 ```sh
 wfuzz -Z -R 1 -t 16 --hc 404,501 --field timer --field r.method --field code --field url -z list,GET-HEAD-OPTIONS -z file,WORDLIST -X FUZ1Z URL/FUZ2Z
 wfuzz -Z -t 16 --hc 404,501 --field timer --field r.method --field code --field url -z file,WORDLIST -z list,html-php-pdf-txt URL/FUZ2Z.FUZ2Z
@@ -26,8 +28,8 @@ wfuzz -t 16 --hc CODE -X METHOD --field timer --field r.method --field code --fi
 wfuzz -t 16 --hc 404 -X POST --field timer --field r.method --field code --field url -z file,WORDLIST -d "username=USERNAME&password=FUZZ" URL
 ```
 
-
 ## Command
+
 ```txt
 wfuzz [OPTION]... [ARGUMENT]... [URL]
 
@@ -55,7 +57,7 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 	Prints current options as a recipe
 
 --filter [EXPRESSION]
-	Filter	responses  using the specified expression
+	Filter responses  using the specified expression
 --prefilter [EXPRESSION]
 	Filter items before fuzzing using the specified expression
 
@@ -143,12 +145,11 @@ wfuzz [OPTION]... [ARGUMENT]... [URL]
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 VAR=VAL # desc
 ```
-
 
 ## Relevant Reading
 - [[]]
