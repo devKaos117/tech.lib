@@ -172,6 +172,7 @@ zphisher
 <https://github.com/gophish/gophish>
 <https://github.com/urbanadventurer/urlcrazy>
 <https://github.com/trustedsec/social-engineer-toolkit>
+<https://github.com/joke2k/faker>
 
 <https://github.com/upx/upx>
 <https://github.com/astral-sh/uv>

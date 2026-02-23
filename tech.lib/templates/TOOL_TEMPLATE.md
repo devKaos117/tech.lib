@@ -104,9 +104,6 @@ HELP
 VAR=VAL # desc
 ```
 
-## Exit Status
-- n - status
-
 ## Relevant Reading
 - [[]]
 

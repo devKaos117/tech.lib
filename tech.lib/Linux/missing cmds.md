@@ -1,5 +1,6 @@
 arp
 ascii
+asciinema
 base32
 base64
 basenc

@@ -34,3 +34,5 @@ mstsc.exe
 
 api monitor
 <https://learn.microsoft.com/en-us/windows/win32/amsi/antimalware-scan-interface-portal>
+
+Mark of the Web (MotW)

@@ -14,7 +14,7 @@ tags:
 
 > [!info] Transfers data from or to a server
 
-Transfer data from or to a server using URLs ([[Foundations/RFC|RFC]] 3986). Supported protocols: [[Networks/DICT|DICT]], [[Networks/FILE|FILE]], [[Networks/FTP|FTP]], [[Networks/FTP#FTPS|FTPS]], [[Networks/GOPHER|GOPHER]], [[Networks/GOPHER#GOPHERS|GOPHERS]], [[Networks/HTTP|HTTP]], [[Networks/HTTP#HTTPS|HTTPS]], [[Networks/IMAP|IMAP]], [[Networks/IMAP#IMAPS|IMAPS]], [[Networks/LDAP|LDAP]], [[Networks/LDAP#LDAPS|LDAPS]], [[Networks/MQTT|MQTT]], [[Networks/POP3|POP3]], [[Networks/POP3#POP3S|POP3S]], [[Networks/RTMP|RTMP]], [[Networks/RTMP#RTMPS|RTMPS]], [[Networks/RTSP|RTSP]], [[Networks/SCP|SCP]], [[Networks/SSH#SFTP|SFTP]], [[Networks/SMB|SMB]], [[Networks/SMB#SMBS|SMBS]], [[Networks/SMTP|SMTP]], [[Networks/SMTP#SMTPS|SMTPS]], [[Networks/TELNET|TELNET]], [[Networks/Telnet#TFTP|TFTP]], [[Networks/WS|WS]] and [[Networks/WS#WSS|WSS]]
+Transfer data from or to a server using URLs ([RFC3986 - URI](https://datatracker.ietf.org/doc/html/rfc3986)). Supported protocols: [[Networks/DICT|DICT]], [[Networks/FILE|FILE]], [[Networks/FTP|FTP]], [[Networks/FTP#FTPS|FTPS]], [[Networks/GOPHER|GOPHER]], [[Networks/GOPHER#GOPHERS|GOPHERS]], [[Networks/HTTP|HTTP]], [[Networks/HTTP#HTTPS|HTTPS]], [[Networks/IMAP|IMAP]], [[Networks/IMAP#IMAPS|IMAPS]], [[Networks/LDAP|LDAP]], [[Networks/LDAP#LDAPS|LDAPS]], [[Networks/MQTT|MQTT]], [[Networks/POP3|POP3]], [[Networks/POP3#POP3S|POP3S]], [[Networks/RTMP|RTMP]], [[Networks/RTMP#RTMPS|RTMPS]], [[Networks/RTSP|RTSP]], [[Networks/SCP|SCP]], [[Networks/SSH#SFTP|SFTP]], [[Networks/SMB|SMB]], [[Networks/SMB#SMBS|SMBS]], [[Networks/SMTP|SMTP]], [[Networks/SMTP#SMTPS|SMTPS]], [[Networks/TELNET|TELNET]], [[Networks/Telnet#TFTP|TFTP]], [[Networks/WS|WS]] and [[Networks/WS#WSS|WSS]]
 
 ## Favorite Uses
 
@@ -234,29 +234,42 @@ HELP
 ## Files
 
 ```bash
-/ # desc
-1) "$CURL_HOME/.curlrc"
+# Configuration file in order of recognition
+$CURL_HOME/.curlrc
+$XDG_CONFIG_HOME/curlrc
+$HOME/.curlrc
+```
 
-              2) "$XDG_CONFIG_HOME/curlrc" (Added in 7.73.0)
-
-              3) "$HOME/.curlrc"
-
-              4) Windows: "%USERPROFILE%\.curlrc"
-
-              5) Windows: "%APPDATA%\.curlrc"
-
-              6) Windows: "%USERPROFILE%\Application Data\.curlrc"
-
-              7) Non-Windows: use getpwuid to find the home directory
-
-              8)  On  Windows, if it finds no .curlrc file in the sequence described above, it checks for one in the same directory the curl executable is
-              placed.
+```powershell
+# Windows configuration files
+%USERPROFILE%\.curlrc
+%APPDATA%\.curlrc
+%USERPROFILE%\Application Data\.curlrc
+./
 ```
 
 ## Environmental Variables
 
 ```bash
-VAR=VAL # desc
+[PROTOCOL]_PROXY=[URL] # Provide a proxy server for the specified protocol
+ALL_PROXY=[URL] # Provide a proxy server
+NO_PROXY=[URL]... # Hostnames that should not go through any proxy
+COLUMNS=[NUMBER] # Define the terminal width for the alternative progress-bar
+CURL_HOME=[PATH] # Specify the curl home directory
+HOME=[PATH] # Specify the home directory
+XDG_CONFIG_HOME=[PATH] # Specify the configurations home directory
+NETRC=[PATH] # Specify the path to look for .netrc file
+QLOGDIR=[PATH] # Specify the path for HTTP3 qlogs
+SSLKEYLOGFILE=[PATH] # Provide a file to store TLS secrets
+SSL_CERT_DIR=[PATH] #Specify the SSL/TLS certificate file
+SSL_CERT_FILE=[PATH] # Specify the SSL/TLS certificates dir
+CURL_CA_BUNDLE=[PATH] # Provide the SSL/TLS certificate similar to --cacert
+CURL_SSL_BACKEND=[gnutls|mbedtls|openssl|rustls|schannel|wolfssl] # Specify the SSL backend for curl
+```
+
+```powershell
+APPDATA = [PATH] # Sets the curl home directory
+USERPROFILE = [PATH] # Sets the user home directory
 ```
 
 ## Relevant Reading
@@ -265,4 +278,5 @@ VAR=VAL # desc
 ## External Reference
 [github.com](https://github.com/curl/curl)
 [curl.se](https://curl.se/)
+[curl.se/docs](https://curl.se/docs)
 [linux.die.net](https://linux.die.net/man/1/curl)

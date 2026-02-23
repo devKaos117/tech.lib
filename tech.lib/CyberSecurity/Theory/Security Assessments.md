@@ -16,6 +16,8 @@ A penetration test is an authorized simulated cyberattack, impersonating a [[Vul
 - **Gray Box:** The tester has partial knowledge of the system, simulating a compromised user or insider threat
 - **White Box:** The tester has full access to source code, architecture, and configuration, effectively working as an audit
 
+### Assumed Breach Pentest
+
 ## Red Teaming
 A red team campaign is an evasive and objective driven [[Security Assessments#Penetration Testing|black box pentest]], simulating an external [[Vulnerability#Threat|threat]] in the most realistic way possible
 
