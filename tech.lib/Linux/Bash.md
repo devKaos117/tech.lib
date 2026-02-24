@@ -6,6 +6,7 @@ full_form: NULL
 acronym: NULL
 ---
 ## Definition
+CHARSET
 
 ## Environmental Variables
 ### Declaration

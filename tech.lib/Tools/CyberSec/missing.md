@@ -84,6 +84,8 @@ cmseek
 <https://github.com/WhiteWinterWolf/wwwolf-php-webshell>
 
 <https://github.com/s0md3v/XSStrike>
+<https://github.com/rajeshmajumdar/BruteXSS>
+<https://github.com/epsylon/xsser>
 
 whatweb
 <https://github.com/Ekultek/WhatWaf>

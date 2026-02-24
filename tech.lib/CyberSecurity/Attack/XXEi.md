@@ -2,9 +2,9 @@
 category: technique
 subjects:
   - cybersec
-full_form: NULL
-acronym: NULL
-cwe: 
+full_form: XML External Entity Injection
+acronym: XXEi
+cwe:
   - NULL
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
@@ -14,8 +14,8 @@ platform:
 intent:
   - NULL
 ---
-
 ## Definition
+Exploitation of outdated XML libraries used for parsing user input
 
 ## Discovery
 

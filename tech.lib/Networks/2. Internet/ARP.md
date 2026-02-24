@@ -5,12 +5,25 @@ subjects:
 full_form: Address Resolution Protocol
 acronym: ARP
 ---
-
 ## Definition
 The ARP is a network protocol used by devices on a [LAN]{Local Area Network} to resolve [[IP#IPv4|IPv4]] addresses to their corresponding [[Ethernet]] [[Low Level/MAC|MAC]] addresses. ARP operates at the [[OSI Model#3. Network|Network Layer]] in conjunction with the [[OSI Model#2. Data Link|Data Link Layer]].
 
 ## ARP Frame
 The size of the ARP frame depends on the link layer and network layer address sizes
+
+```mermaid
+packet-beta
+0-2: "1"
+3-5: "2"
+6: "3"
+7: "4"
+8-10: "5"
+11-17: "6"
+18-22: "7"
+23-29: "8"
+30-34: "9"
+```
+
 1. **[HTYPE](https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml#arp-parameters-2) \[0x00: 2B\]:** Specifies the [[OSI Model#2. Data Link|Data Link]] protocol type
 	- `0x01`: [[Ethernet]]
 	- `0x1E`: [[ARP#ARPSec|ARPSec]]

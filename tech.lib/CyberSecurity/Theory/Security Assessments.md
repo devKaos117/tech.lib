@@ -25,10 +25,15 @@ A red team campaign is an evasive and objective driven [[Security Assessments#Pe
 A purple team assessment is conducted by both offensive and defensive security specialists, working together during each phase to find and fix [[Vulnerability#Definition|vulnerabilities]]
 
 ## Vulnerability Scan
-This assessment is based on automated tools based built on top of checklists, scanning targets for low hanging vulnerabilities, often matching them against [[GRC#Laws and Regulations|regulatory policies]] to assure compliance
+This assessment is based on automated tools based built on top of checklists, scanning targets for low hanging vulnerabilities, often matching them against [[Security Governance#Laws and Regulations|regulatory policies]] to assure compliance
 
 ## Security Audit
-Security assessments mandated and performed by an organization outside of the target, usually by government agencies or industry associations, to ensure compliance with specific [[GRC#Laws and Regulations|regulations]]
+Security assessments mandated and performed by an organization outside of the target, usually by government agencies or industry associations, to ensure compliance with specific [[Security Governance#Laws and Regulations|regulations]]
+
+## Application Testing
+[SAST]{Static Application Security Testing}
+[DAST]{Dynamic Application Security Testing}
+[IAST]{Interactive Application Security Testing}
 
 ## Bug Bounty
 Bug bounty programs invite individuals from the general public to find [[Vulnerability#Definition|vulnerabilities]] in their resources, rewarding them based on the severity of the finding

@@ -4,7 +4,7 @@ subjects:
   - cybersec
 full_form: NULL
 acronym: NULL
-cwe: 
+cwe:
   - NULL
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
@@ -14,8 +14,12 @@ platform:
 intent:
   - NULL
 ---
-
 ## Definition
+Exploiting inputs that execute os commands
+- oneliner to identify if it's the CMD or PowerShell:
+
+### Notes
+- typically occurs when a web application is not sanitizing the input
 
 ## Discovery
 
@@ -24,6 +28,7 @@ intent:
 ## Mitigation
 
 ## Evasion
+HTTP Verb Tampering
 
 ## Relevant Reading
 - [TNNNN - NAME](https://attack.mitre.org/techniques/TNNNN)

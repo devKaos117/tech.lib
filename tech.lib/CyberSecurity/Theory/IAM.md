@@ -49,7 +49,7 @@ The systematic and independent process of evaluating the [IAM]{Identity and Acce
 
 - **Risk Management:** Detecting security weaknesses to counter urgent risks
 - **Accountability and Traceability:** Providing a comprehensive record of all actions taken within the system
-- **Compliance:** Generating evidence to prove adherence to [[CyberSecurity/Theory/GRC|GRC]]
+- **Compliance:** Generating evidence to prove adherence to [[Security Governance|Security Architecture]]
 
 ### Processes
 - **Logging:** Registering events and securely storing them in persistence, allowing for posterior tracking and debugging

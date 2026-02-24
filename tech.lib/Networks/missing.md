@@ -27,3 +27,11 @@ HTTP
 WebDAV
 
 demilitarized zone
+
+- Network Segmentation
+	- Bastion
+	- Tri-homed
+	- DMZ
+	- Multi-tiered
+- Point-to-Point Tunneling Protocol
+- Layer 2 Tunneling Protocol

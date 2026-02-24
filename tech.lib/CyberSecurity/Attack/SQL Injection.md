@@ -1,77 +1,21 @@
-## Path Traversal
-Abusing file inclusion set in the request to perform arbitrary read
-- change the char encoding, as by replacing the `.` with `%2e`
-
-### Notes
-- executed in server-side
-- web
-- used to perform arbitrary read
-- typically occurs when a web application is not sanitizing user input
-- bypass filters by encoding the payload
-
-## File Inclusion
-Similar to the path traversal, but it allows for the inclusion of file a in the application execution
-
-### Local File Inclusion
-Allows for the inclusion of a file local to the server. PHP Wrappers:
-- `php://filter`: displays the content of files, with or without encodings
-	- `php://filter/resource=_PATH_`
-	- `php://filter/convert.base64-encode/resource=_PATH_`
-- `data://`: embed data elements as plaintext or base64-encoded data in the running web application's code (requires `allow_url_include` to be enabled)
-	- `data://text/plain,<?php%20system("id");?>`
-	- `data://text/plain;base64,PD9waHAgc3lzdGVtKCJpZCIpOz8+`
-
-### Remote File Inclusion
-allow us to include files from a remote system over [[HTTP]] or [[SMB]] (requires `allow_url_include` to be enabled)
-
-### Notes
-- executed in server-side
-- web
-- used to execute arbitrary code
-- typically occurs when a web application is not sanitizing user input
-- Severity increased when used in conjunction with file upload or log poisoning
-
-## File Upload
-Process of exploiting and leveraging existing file upload capabilities
-
-### Server Executed File
-The first category consists of vulnerabilities enabling us to upload files that are executable by the web application
-- altering the file extension to a less common one, as from `.php` to `.php7` or `.phtml`
-- altering the file extension case to bypass case-sensitive string checks, as from `.php` to `.pHp`
-
-### Common Upload
-The second category consists of vulnerabilities that require us to combine the file upload mechanism with another vulnerability, such as Directory Traversal, XXE, XSS, or overwriting files
-- always test what happens when we try to upload the same file twice
-- if it is possible to know if a file uploaded already exists, it might be possible to brute force the contents of the web server
-
-### Malicious File
-The third category relies on user interaction, uploading a `.docx` with malicious macros integrated
-
-### Notes
-- executed in server-side
-- web
-- used to include files in the web server
-- typically occurs when a web application is not sanitizing the file input
-- easy to bypass when based on blacklisting
-
-## Log Poisoning
-Injection of payloads into specific fields for inclusion into the logging and metric systems
-- `/var/log/apache2/access.log`
-
-### Notes
-- executed in server-side
-- web?
-- used to potentiate [LFI]{Local File Inclusion}
-
-## OS Command Injection
-Exploiting inputs that execute os commands
-- oneliner to identify if it's the CMD or PowerShell:
-
-### Notes
-- typically occurs when a web application is not sanitizing the input
-
-## SQL Injection
-Injection of commands to subvert an SQL database query.
+---
+category: technique
+subjects:
+  - cybersec
+full_form: SQL Injection
+acronym: SQLi
+cwe:
+  - NULL
+vector: remote
+privileges: unauthenticated
+target: webapp
+platform:
+  - NULL
+intent:
+  - NULL
+---
+## Definition
+Injection of commands to subvert an SQL database query
 
 ```mysql
 select version(); -- retrieve DBMS version
@@ -140,3 +84,18 @@ In MySQL or other restrictive [[DBMS]] that does not allow for OS shell commands
 - typically occurs when a web application is not sanitizing the input
 - Aside from the time-based blind injection, SQLi targets the database itself, but the protection against it comes from the web application
 - Having the adequate permissions, it is possible to perform arbitrary read and write into files
+
+## Discovery
+
+## Execution
+
+## Mitigation
+
+## Evasion
+
+## Relevant Reading
+- [TNNNN - NAME](https://attack.mitre.org/techniques/TNNNN)
+- [TANNNN - NAME](https://attack.mitre.org/tactics/TANNNN)
+- [MNNNN - NAME](https://attack.mitre.org/mitigations/MNNNN)
+- [Payload All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/)
+- [EDB-ID XXXXXX](https://www.exploit-db.com/)

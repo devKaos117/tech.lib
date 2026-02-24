@@ -189,9 +189,6 @@ OUTPUT
 		--no-clobber
 			Avoids overwriting files that already exist by appending a dot and a number to the filename (up to 100)
 
-		-i, --show-headers
-			Include response headers in the output
-
 		-w, --write-out [PATTERN|PATH]
 			Make curl display information on stdout after a completed transfer
 		-N, --no-buffer
@@ -211,6 +208,8 @@ OUTPUT
 			Enable silent mode, not showing progress meter or error messages
 		-S, --show-error
 			Shows an error message in case of failure
+		-i, --show-headers
+			Include response headers in the output
 		-#, --progress-bar
 			Display transfer progress as a simple progress bar instead of the standard, more informational, meter
 		--styled-output

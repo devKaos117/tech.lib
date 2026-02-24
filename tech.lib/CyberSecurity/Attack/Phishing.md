@@ -57,6 +57,22 @@ SIM swapping
 	3. vishing (voice)
 	4. deepfake-enhanced
 
+## Discovery
+
+## Execution
+office macros
+exe, scr, hta, jscript files
+Library-ms file (link to webdav)
+exploits
+links that force NTLM handshakes or perform CSRF
+browser-in-the-middle
+target fingerprinting
+[[XSS]]
+
+```bash
+wget -E -k -K -p -e robots=off -H -D DOMAIN -nd URL
+```
+
 ## Mitigation
 email filtering
 reputation block lists
@@ -65,22 +81,9 @@ Mark of the Web (MotW)
 MFA
 OWASP CSRFGuard
 
-## Discovery
-
-## Execution
-office macros
-exe, scr, hta, jscript files
-exploits
-links that force NTLM handshakes or perform CSRF
-browser-in-the-middle
-target fingerprinting
-
-```bash
-wget -E -k -K -p -e robots=off -H -D DOMAIN -nd URL
-```
-
 ## Evasion
 MotW CVE-2022-41091
+alternative file formats, as ISO, img, zip, 7z...
 URL shortener
 homograph URL
 prompt bombing (mfa fatigue)

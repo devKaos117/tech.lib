@@ -6,6 +6,19 @@ full_form: Database Management System
 acronym: DBMS
 ---
 ## Definition
+- SQL
+	- Queries
+		- Data Definition Language
+			- Define the DB schema, interacting directly with structures instead of data (CREATE, ALTER, TRUNCATE, DROP)
+		- Data Management Language
+			- Access and manipulate data directly (INSERT, DELETE, UPDATE, DELETE)
+		- Dada Control Language
+			- Creates and modifies the structure of objects in the database (GRANT, REVOKE)
+- NoSQL
+	- Key-Value Store
+	- Document Based
+	- Column Based
+	- Graph Based
 
 ## Classification
 

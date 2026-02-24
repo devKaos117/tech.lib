@@ -2,9 +2,9 @@
 category: technique
 subjects:
   - cybersec
-full_form: NULL
-acronym: NULL
-cwe: 
+full_form: Insecure Direct Object References
+acronym: IDOR
+cwe:
   - NULL
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
@@ -14,8 +14,8 @@ platform:
 intent:
   - NULL
 ---
-
 ## Definition
+Originates from the lack of a solid access control system combined with the exposure of direct references to files and resources
 
 ## Discovery
 

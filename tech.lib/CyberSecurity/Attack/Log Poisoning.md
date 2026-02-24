@@ -4,7 +4,7 @@ subjects:
   - cybersec
 full_form: NULL
 acronym: NULL
-cwe: 
+cwe:
   - NULL
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
@@ -14,8 +14,14 @@ platform:
 intent:
   - NULL
 ---
-
 ## Definition
+Injection of payloads into specific fields for inclusion into the logging and metric systems
+- `/var/log/apache2/access.log`
+
+### Notes
+- executed in server-side
+- web?
+- used to potentiate [LFI]{Local File Inclusion}
 
 ## Discovery
 

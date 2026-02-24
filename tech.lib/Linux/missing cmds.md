@@ -128,6 +128,7 @@ ps -> ps axjf || ps -aux
 pstree
 pwgen
 python
+qpdf
 ranger
 reset
 rfkill

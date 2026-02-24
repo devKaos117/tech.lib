@@ -5,7 +5,6 @@ subjects:
 full_form: Unified Extensible Firmware Interface
 acronym: UEFI
 ---
-
 ## Definition
 UEFI is a open standard modern booting firmware architecture designed to supersede the [[MBR|MBR]], being faster, more flexible, modular, robust and supporting better functions. Although the [[MBR|MBR]] boot is not trusted anymore due to its numerous known security vulnerabilities and exploits, the UEFI supports a [[Plataform/CSM|CSM]] booting process for Legacy [[BIOS|BIOS]] [OS]{Operating System}
 

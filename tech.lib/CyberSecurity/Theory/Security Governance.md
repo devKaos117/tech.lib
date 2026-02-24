@@ -2,10 +2,10 @@
 category: concept
 subjects:
   - cybersec
-full_form: Governance, Risk Management and Compliance
-acronym: GRC
+full_form: Security Governance
+acronym: NULL
 ---
-## Definition
+## Governance, Risk Management and Compliance
 Orgatizational strategy aimed to eficiently manage governance and risks while maintaining [[CyberSecurity/Theory/Regulatory Compliance|Regulatory Compliance]]
 
 - **Governance** is the combination of processes established and executed by the directors, reflecting in the organization's structure and management.
@@ -16,20 +16,7 @@ Orgatizational strategy aimed to eficiently manage governance and risks while ma
 [_software bill of materials_](https://www.cisa.gov/sbom) (SBOM)
 Shamir's Secret Sharing (SSS)
 
-## Threat Modeling
-involves taking data from real-world adversaries and evaluating those attack patterns and techniques against our people, processes, systems, and software. It is important to consider how the compromise of one system in our network might impact others
-
-## Threat Intelligence
-is data that has been refined in the _context_ of the organization: actionable information that an organization has gathered via threat modeling about a valid threat to that organization's success. Information isn't considered threat intelligence unless it results in an _action item_ for the organization
-
-## Frameworks
-[[ITSM]]
-
-[[CSF]]
-[[ISO/IEC 27000]]
-[[CIS Controls]]
-
-## Laws and Regulations
+### Laws and Regulations
 
 |**Categories**|**USA**|**Europe**|**UK**|**India**|**China**|
 |---|---|---|---|---|---|
@@ -50,15 +37,32 @@ PEN-200 > 3.5
 [_General Data Protection Regulation_](https://gdpr.eu/what-is-gdpr/) (GDPR)
 
 [_Payment Card Industry Data Security Standard_](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Supporting%20Document/PCI_DSS-QRG-v3_2_1.pdf) (PCI DSS)
-[_CIS Controls_](https://www.cisecurity.org/controls/cis-controls-list)
-_National Institute for Standards and Technology_ (NIST) [_Cybersecurity Framework_](https://www.nist.gov/industry-impacts/cybersecurity-framework)
-[_MITRE ATT&CK_](https://attack.mitre.org/) framework
+
 [_ISA/IEC 62443_](https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards)
 [_Federal Risk and Authorization Management Program_](https://www.fedramp.gov/program-basics/) (FedRAMP)
 
 [**Key disclosure laws**](https://en.wikipedia.org/wiki/Key_disclosure_law)
 [_Regulation of Investigatory Powers Act 2000_](https://wiki.openrightsgroup.org/wiki/Regulation_of_Investigatory_Powers_Act_2000/Part_III) (RIPA)
 [_California Consumer Privacy Act of 2018_](https://oag.ca.gov/privacy/ccpa) (CCPA)
+
+- Lei Carolina Dieckmann
+- Marco Civil da Internet
+- LGPD
+
+## ?
+- OWASP
+	- OWASP Top 10
+	- OWASP Application Security Verification Standard (ASVS)
+	- Mobile Application Security Verification Standard (MASVS)
+	- OWASP Software Assurance Maturity Model (SAMM)
+	- OWASP Testing Guide
+	- OWASP Cheat Sheet Series
+
+## Security Frameworks
+ITSM
+CSF
+ISO/IEC 27000
+[_CIS Controls_](https://www.cisecurity.org/controls/cis-controls-list)
 
 ## Relevant Reading
 - [[]]

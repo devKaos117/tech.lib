@@ -20,6 +20,10 @@ Hash-based Message Authentication Code
 pk cryptography
 Hash LM, NTLM
 
+VeraCrypt Container
+
+MITRE ATT&CK ,PTES Framework
+
 [RFC9580 - OpenPGP](https://datatracker.ietf.org/doc/html/rfc9580)
 
 password entropy
@@ -43,3 +47,22 @@ Sleeper malware
 Control Flow Guard
 Data Execution Prevention
 Address Space Layout Randomization
+
+- Network Flow Analysis
+	- NetFlow
+	- IPFIX
+- SIEM
+	- User Behavior Analysis
+- IDS and IPS
+	- Network-based
+	- Host-based
+- Firewall
+	- Stateless Inspection
+	- Stateful Inspection
+	- Application-level
+- File Integrity Monitoring
+- Data Loss Prevention
+- Network Access Control
+- Endpoint Detection and Response
+- Extended Detection and Response
+- SASE (Security Access Service Edge)
