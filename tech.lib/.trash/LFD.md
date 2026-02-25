@@ -2,9 +2,9 @@
 category: technique
 subjects:
   - cybersec
-full_form: Insecure Direct Object References
-acronym: IDOR
-cwe:
+full_form: NULL
+acronym: NULL
+cwe: 
   - NULL
 vector: remote/adjacent network/local/client-side
 privileges: unauthenticated/authenticated/root
@@ -14,22 +14,14 @@ platform:
 intent:
   - NULL
 ---
+
 ## Definition
-Originates from the lack of a solid access control system combined with the exposure of direct references to resources
 
 ## Discovery
-request parameters that seem to specify a resource
-identify the id encoding (text,number,hash,b64)
 
 ## Execution
 
-```bash
-curl -v URL --url-query "id=1"
-```
-
 ## Mitigation
-object-level access control system
-secure references for storing and calling objects
 
 ## Evasion
 
