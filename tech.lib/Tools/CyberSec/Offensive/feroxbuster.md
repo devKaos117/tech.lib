@@ -20,8 +20,8 @@ Tool designed to perform forced browsing, the enumeration and access of resourc
 
 ## Favorite Uses
 ```sh
-feroxbuster -t 64 --thorough -C 404 -o TARGET.map --protocol http -m GET,OPTIONS -H referer:TARGET -b COOKIES -w WORDLIST -x FILE_EXTENSIONS -A -r -u TARGET
-feroxbuster -t 64 -C 404 -E -g --auto-tune -o TARGET.map --protocol http -m GET -H referer:TARGET -b COOKIES -w WORDLIST -x FILE_EXTENSIONS -A -r -u TARGET
+feroxbuster -t 64 --thorough -C 404 -o TARGET.map --protocol http -m GET -H referer:TARGET -b COOKIES -w WORDLIST -x FILE_EXTENSIONS -A -r -u TARGET
+feroxbuster -t 64 -C 404 -E -g --auto-tune -o TARGET.map --protocol http -m GET -H referer:TARGET -b COOKIES -w WORDLIST -x FILE_EXTENSIONS -A -n -r -u TARGET
 ```
 
 ## Command

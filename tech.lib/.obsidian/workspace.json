@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Attack/XXEi.md",
-                "mode": "source",
+                "file": "Tools/CyberSec/Offensive/sqlmap.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "XXEi"
+              "title": "sqlmap"
             }
           },
           {
@@ -256,8 +256,16 @@
   },
   "active": "c56cf34c041e20be",
   "lastOpenFiles": [
-    "CyberSecurity/Attack/File Inclusion.md",
+    "templates/NOTE_TEMPLATE.md",
+    "templates/TOOL_TEMPLATE.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
+    "CyberSecurity/Methodology/4. Post Exploitation.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "Tools/CyberSec/missing.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "CyberSecurity/Attack/XXEi.md",
+    "CyberSecurity/Attack/File Inclusion.md",
     "CyberSecurity/Attack/File Upload.md",
     "CyberSecurity/Attack/IDOR.md",
     "CyberSecurity/Attack/Log Poisoning.md",
@@ -266,22 +274,14 @@
     "CyberSecurity/Attack/Phishing.md",
     "CyberSecurity/Attack/SQL Injection.md",
     "CyberSecurity/Attack/XSS.md",
-    "CyberSecurity/Methodology/4. Post Exploitation.md",
     "CyberSecurity/Methodology/3. Exploitation.md",
     "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
-    "CyberSecurity/Methodology/1. Information Gathering.md",
     "CyberSecurity/Theory/Attack Techniques.md",
     "CyberSecurity/Attack/LFD.md",
     "Tools/Network/curl.md",
     "Platform/UEFI.md",
     "Platform/MBR.md",
     "Networks/2. Internet/IP.md",
-    "Networks/2. Internet/ARP.md",
-    "Platform/BIOS.md",
-    "Platform/Boot Loader.md",
-    "CyberSecurity/missing.md",
-    "Linux/missing cmds.md",
-    "Tools/CyberSec/missing.md",
     "CyberSecurity/Incursions",
     "Tools/File",
     "Tools/Text",

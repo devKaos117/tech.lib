@@ -87,6 +87,8 @@ cmseek
 <https://github.com/rajeshmajumdar/BruteXSS>
 <https://github.com/epsylon/xsser>
 
+<https://github.com/enjoiz/XXEinjector>
+
 whatweb
 <https://github.com/Ekultek/WhatWaf>
 <https://github.com/projectdiscovery/wappalyzergo>

