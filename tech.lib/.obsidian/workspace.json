@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/CyberSec/Offensive/sqlmap.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Methodology/5. Reporting.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sqlmap"
+              "title": "5. Reporting"
             }
           },
           {
@@ -256,12 +256,23 @@
   },
   "active": "c56cf34c041e20be",
   "lastOpenFiles": [
-    "templates/NOTE_TEMPLATE.md",
-    "templates/TOOL_TEMPLATE.md",
-    "Tools/CyberSec/Offensive/sqlmap.md",
     "CyberSecurity/Methodology/4. Post Exploitation.md",
-    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "CyberSecurity/Attack/_TEMP_.md",
+    "CyberSecurity/Incursions/missing.md",
+    "CyberSecurity/Methodology/3. Exploitation.md",
+    "Tools/Network/curl.md",
+    "tech.lib.md",
+    "templates/TOOL_TEMPLATE.md",
+    "CyberSecurity/Attack/XSS.md",
+    "CyberSecurity/Theory/Threat Management.md",
+    "CyberSecurity/Theory/Security Assessments.md",
+    "CyberSecurity/Theory/Security Governance.md",
+    "Networks/4. Application/RDP.md",
+    "Tools/CyberSec/Offensive/hashcat.md",
+    "Tools/CyberSec/Offensive/sqlmap.md",
     "Tools/CyberSec/missing.md",
+    "templates/NOTE_TEMPLATE.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
     "CyberSecurity/Methodology/0. Pre-Engagement.md",
     "CyberSecurity/Attack/XXEi.md",
@@ -271,17 +282,6 @@
     "CyberSecurity/Attack/Log Poisoning.md",
     "CyberSecurity/Attack/OS Command Injection.md",
     "CyberSecurity/Attack/Path Traversal.md",
-    "CyberSecurity/Attack/Phishing.md",
-    "CyberSecurity/Attack/SQL Injection.md",
-    "CyberSecurity/Attack/XSS.md",
-    "CyberSecurity/Methodology/3. Exploitation.md",
-    "CyberSecurity/Methodology/2. Vulnerability Analysis.md",
-    "CyberSecurity/Theory/Attack Techniques.md",
-    "CyberSecurity/Attack/LFD.md",
-    "Tools/Network/curl.md",
-    "Platform/UEFI.md",
-    "Platform/MBR.md",
-    "Networks/2. Internet/IP.md",
     "CyberSecurity/Incursions",
     "Tools/File",
     "Tools/Text",

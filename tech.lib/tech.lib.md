@@ -143,6 +143,7 @@ LIST WITHOUT ID category GROUP BY category
 [EXPRESSION] = String to be evaluated as an expression
 [HASH] = Hashing algorithm
 [CIPHER] = Cryptography cipher
+[ALGORITHM] = Algorithm name
 ```
 
 ## Plugins

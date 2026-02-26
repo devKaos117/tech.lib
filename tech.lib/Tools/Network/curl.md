@@ -43,6 +43,9 @@ CONNECTION
 			Provide a URL to fetch
 		--interface [INTERFACE]
 			Specify the interface to use
+		-abstract-unix-socket [PATH]
+			Connect to the server through an abstract Unix domain socket
+
 		-4, --ipv4
 			Use IPv4 addresses when resolving hostnames
 		-6, --ipv6
@@ -50,15 +53,24 @@ CONNECTION
 		--dns-servers [URL]...
 			Provide a DNS server to be used
 
+		--connect-to [HOST:PORT:HOST:PORT]
+			Redirect the requests addressed to the first host, to the second one. Only applies to the connection establishment
+
 	AUTHENTICATION
 		-u, --user [USR]:[PWD]
 			Provide credentials for server authentication
 		-U, --proxy-user [USR]:[PWD]
 			Provide credentials for proxy authentication
+
 		-n, --netrc
 			Scan the .netrc file in the user's home directory for login name and password
 		--netrc-file [PATH]
 			Specify the netrc file to use
+
+		--basic
+			Use HTTP Basic authentication with the remote host
+		--digest
+			Enable HTTP Digest authentication
 		--krb [clear|safe|confidential|private]
 			Enable Kerberos authentication
 		--anyauth
@@ -82,17 +94,30 @@ OPTIMIZATION
 			Specify the maximum transfer rate for both downloads and uploads
 		--compressed
 			Request a compressed response using one of the algorithms curl supports, and automatically decompress the content
+		--compressed-ssh
+			Enable SSH compression
 		--raw
 			Disable all internal HTTP decoding of content or transfer encodings and instead makes them passed on unaltered, raw
 
 BEHAVIOUR
 	SSL/TLS
+		--ciphers [CIPHER]...
+			Specify which cipher suites to use in the TLS negotiation
+		--curves [ALGORITHM]...
+			Specify the curves to use during SSL session establishment
+
 		--cert-status
 			Verify the status of the server certificate by using the Certificate Status Request TLS extension
 		--cacert [PATH]
 			Use the specified certificate file to verify the peer. The file may contain multiple CA certificates. The certificates must be in PEM format
+		--cert-type [PEM|DER|ENG|PROV|P12]
+			Specify the type of the provided client certificate
+		--ca-native
+			Use the operating system's native CA store for certificate verification
 		--capath [PATH]
 			Use the specified certificate directory to verify the peer. Multiple paths can be provided in a colon separated list. The certificates must be in PEM format
+		--crlfile [PATH]
+			Provide a PEM file with a Certificate Revocation List
 
 		-E, --cert [PATH[:PWD]]
 			Use the specified client certificate file when getting a file with an SSL-based protocol. The certificate must be in PKCS#12 or PEMengine
@@ -154,6 +179,8 @@ BEHAVIOUR
 			Provide a Cookie
 		-c, --cookie-jar [PATH]
 			Provide a cookie-jar to be used
+		--alt-svc [PATH]
+			Enable the alt-svc parser
 
 		--url-query [VAR=VAL]...
 			Provide the URL query values
@@ -169,11 +196,19 @@ BEHAVIOUR
 			Sends the given JSON data
 		-G, --get
 			Send all of the given data through the URL query
+		-C, --continue-at [BYTES]
+			Resume a previous transfer from the given byte offset
 
 		-F, --form [VAR=[VAL|PATH]]
 			Emulate a filled-in form in which a user has pressed the submit button
 		--form-string [VAR=STRING]
 			Emulate a filled-in form in which a user has pressed the submit button, but the value string for the named parameter is used literally
+
+		--delegation [none|policy|always]
+			Specify to what level curl is allowed to delegate when it comes to user credentials
+				none	-	Do not allow any delegation
+				policy	-	Delegates only if the OK-AS-DELEGATE flag is set in the Kerberos service ticket
+				always	-	Unconditionally allow the server to delegate
 
 		-l, --list-only
 			Force a name-only view when listing an FTP directory
@@ -186,6 +221,10 @@ OUTPUT
 			Write output to the given file instead of stdout
 		--output-dir [PATH]
 			Specify the directory in which files should be stored
+		--create-dirs
+			Create the necessary local directory hierarchy as needed for the output
+		-a, --append
+			Append the upload to the target file instead of overwriting it
 		--no-clobber
 			Avoids overwriting files that already exist by appending a dot and a number to the filename (up to 100)
 
@@ -195,8 +234,12 @@ OUTPUT
 			Disables the buffering of the output stream
 
 	FORMAT
+		--create-file-mode [OCTAL]
+			Specify the permissions for the files created at the remote target
 		--xattr
 			Store file metadata in extended file attributes
+		--crlf
+			Convert line feeds to carriage return plus line feeds during upload
 
 	VERBOSITY
 		--trace [PATH]
@@ -219,6 +262,8 @@ CONFIGURATION
 	FILE
 		-K, --config [PATH]
 			Provide a text file to read curl arguments from
+		-q, --disable
+			Ignore the curlrc config file
 
 HELP
 
