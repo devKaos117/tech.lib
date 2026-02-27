@@ -5,7 +5,6 @@ subjects:
 full_form: Internet Protocol
 acronym: IP
 ---
-
 ## Definition
 The internet protocol is the principal communication protocol in the Internet Protocol suite for relaying datagrams across network boundaries, implementing the basic functions of addressing and fragmentation. In more modern networks, the [[IP#DS Field|DiffServ]] and [[IP#ECN|ECN]] are implemented.
 
@@ -23,6 +22,7 @@ REMEMBER TO READ: Classless Inter-Domain Routing
 
 ## IP Packet
 ### IPv4
+
 ```mermaid
 packet-beta
 0-3: "1"
@@ -65,6 +65,7 @@ packet-beta
 14. **Padding \[0xA0 + Options: 0~31b\]:** A 0-padding to ensure that the header ends on a 32-bit boundary
 
 ### IPv6
+
 ```mermaid
 packet-beta
 0-3: "1"
@@ -108,6 +109,7 @@ The [DiffServ]{Differentiated Services} are intended to enable the deployment of
 The [ECN]{Explicit Congestion Notification} consists of two bits destined for for [AQM]{Active Queue Management}, Notifying endpoints of network congestion, effectivelly solving the need of [RED]{Random Early Detection} (droped-packets probbing)
 
 ### Header
+
 ```mermaid
 packet-beta
 0-5: "1"

@@ -34,35 +34,6 @@ OpenID
 JWT
 PKCE
 
-SIEM
-SOAR
-EDR
-Antivirus
-Firewall
-WAF
 
 malware
 Sleeper malware
-
-Control Flow Guard
-Data Execution Prevention
-Address Space Layout Randomization
-
-- Network Flow Analysis
-	- NetFlow
-	- IPFIX
-- SIEM
-	- User Behavior Analysis
-- IDS and IPS
-	- Network-based
-	- Host-based
-- Firewall
-	- Stateless Inspection
-	- Stateful Inspection
-	- Application-level
-- File Integrity Monitoring
-- Data Loss Prevention
-- Network Access Control
-- Endpoint Detection and Response
-- Extended Detection and Response
-- SASE (Security Access Service Edge)

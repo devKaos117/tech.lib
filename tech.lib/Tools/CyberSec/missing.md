@@ -110,6 +110,9 @@ burpsuite
 nessus
 <https://github.com/greenbone/openvas-scanner>
 
+<https://www.kali.org/tools/shellter/>
+<https://github.com/Veil-Framework/Veil>
+
 <https://github.com/trustedsec/spoonmap>
 
 <https://www.netexec.wiki/>
