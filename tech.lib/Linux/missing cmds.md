@@ -105,6 +105,7 @@ mkfs.fat
 mkfs.ntfs
 mknod
 mkpasswd
+<https://github.com/mlcommons/mlperf_client/>
 mongosh
 mount
 mpstat

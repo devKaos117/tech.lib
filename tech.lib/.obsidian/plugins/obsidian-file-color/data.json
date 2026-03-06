@@ -323,7 +323,7 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Attack/SQL Injection.md",
+      "path": "CyberSecurity/Attack/SQLi.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -336,6 +336,14 @@
     },
     {
       "path": "CyberSecurity/Theory/Evasion.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Windows/PowerShell.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "Windows/Command Prompt.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

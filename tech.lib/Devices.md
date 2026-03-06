@@ -16,7 +16,7 @@ M.2_1 2280 (PCIe 5.0 x4), 2x M.2 2242/2260/2280 (PCIe 4.0 x4)
 3xUSB 10Gbps, 4x 5Gbps, 4x 2.0
 
 #### Wireless
-2x2 Wi-Fi 6E (802.11ax)	 
+2x2 Wi-Fi 6E (802.11ax)
 Supports 2.4/5/6GHz
 Bluetooth v5.3
 
@@ -30,10 +30,6 @@ Zen 5, 8 cores 16 threads
 640 KB L1, 8 MB L2, 96 MB L3
 120W (95°C Max)
 
-#### Benchmark
-- CPU-z Multi Thread: 8656
-- [UserBenchmark](https://cpu.userbenchmark.com/)
-
 ### GPU
 [**ASUS TUF RX 9060XT OC 16GB**](https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rx9060xt-o16g-gaming/)
 AMD Radeon RX 9060 XT (16GB GDDR6)
@@ -42,9 +38,6 @@ PCI Express 5.0, OpenGL4.6
 2048 Shading Units, 128 TMUS, 25.64 TFLOPS
 160W from 1x8-pin Power Connector
 1x HDMI 2.1b, 2x DisplayPort 2.1a
-
-#### Benchmark
-- [UserBenchmark](https://gpu.userbenchmark.com/)
 
 ### RAM
 - [2x Kingston FURY Beast DDR5 RGB 16GB 5600MT/s](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr5-rgb-memory)
@@ -76,6 +69,17 @@ Mid tower, 420x285x385mm
 - [MasterLiquid 360L Core ARGB CPU Cooler](https://www.coolermaster.com/en-global/products/masterliquid-360l-core-argb/)
 - [SickleFlow Edge 360 ARGB](https://www.coolermaster.com/en-global/products/sickleflow-edge-360-argb/)
 - [MasterFan MF120 Halo 3in1](https://www.coolermaster.com/en-global/products/masterfan-mf120-halo-3in1/)
+
+### Benchmark
+- [CPU-z](https://www.cpuid.com/softwares/cpu-z.html) Multi Thread: 8656
+- [UserBenchmark](https://www.userbenchmark.com/UserRun/71197909)
+- [3DMark](https://www.3dmark.com/)
+- [hashcat](https://hashcat.net/):
+	- **[SHA-512]{1800 (sha512crypt \$6\$, SHA512 (Unix)) [Iterations: 5000]}:** [217.6 kH/s]{100.94ms @ Accel:31 Loops:250 Thr:896 Vec:1} / [11226 H/s]{90.26ms @ Accel:10 Loops:1000 Thr:512 Vec:1}
+	- **[PBKDF2]{12100 (PBKDF2-HMAC-SHA512) [Iterations: 999]}:** [614.7 kH/s]{91.94ms @ Accel:112 Loops:125 Thr:256 Vec:1} / [29743 H/s]{94.07ms @ Accel:44 Loops:125 Thr:512 Vec:1}
+	- **[NTLMv2]{5600 (NetNTLMv2)}:** [2172.1 MH/s]{94.36ms @ Accel:25 Loops:512 Thr:1024 Vec:1} / [101.6 MH/s]{91.11ms @ Accel:18 Loops:512 Thr:1024 Vec:1}
+	- **[Kerberos]{13100 (Kerberos 5, etype 23, TGS-REP)}:** [571.3 MH/s]{94.15ms @ Accel:825 Loops:128 Thr:32 Vec:1} / [24046.3 kH/s]{98.28ms @ Accel:289 Loops:256 Thr:32 Vec:1}
+- [MLPerf Client](https://github.com/mlcommons/mlperf_client/)
 
 ## Peripherals
 - [Logitech G502 Hero](https://www.logitechg.com/pt-br/products/gaming-mice/g502-hero-gaming-mouse.html)
