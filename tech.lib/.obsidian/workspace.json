@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Methodology/3. Exploitation.md",
-                "mode": "preview",
+                "file": "CyberSecurity/Theory/Crptography.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. Exploitation"
+              "title": "Crptography"
             }
           },
           {
@@ -256,11 +256,16 @@
   },
   "active": "df767d5f71670904",
   "lastOpenFiles": [
-    "Devices.md",
     "Tools/CyberSec/Offensive/hydra.md",
+    "CyberSecurity/Theory/Crptography.md",
+    "templates/TOOL_TEMPLATE.md",
+    "tech.lib.md",
+    "Tools/CyberSec/Defensive/missing.md",
+    "Tools/CyberSec/missing.md",
+    "Devices.md",
+    "CyberSecurity/Methodology/3. Exploitation.md",
     "Tools/CyberSec/Offensive/hashcat.md",
     "Linux/missing cmds.md",
-    "CyberSecurity/Methodology/3. Exploitation.md",
     "Tools/CyberSec/Offensive/sqlmap.md",
     "CyberSecurity/Methodology/4. Post Exploitation.md",
     "Tools/CyberSec/Offensive/feroxbuster.md",
@@ -270,18 +275,13 @@
     "Windows/PowerShell.md",
     "Windows/Azure.md",
     "Foundations/Cloud Computing.md",
-    "tech.lib.md",
     "CyberSecurity/Attack/Phishing.md",
-    "templates/TOOL_TEMPLATE.md",
     "CyberSecurity/Attack/webdav?winlib.md",
     "CyberSecurity/Attack/CSRF.md",
-    "Tools/CyberSec/Defensive/missing.md",
     "CyberSecurity/Attack/_TEMP_.md",
-    "Tools/CyberSec/missing.md",
     "CyberSecurity/Theory/Evasion.md",
     "CyberSecurity/Theory/Hardening.md",
     "CyberSecurity/Theory/Threat Management.md",
-    "CyberSecurity/missing.md",
     "attachments/netfilter.png",
     "CyberSecurity/Incursions",
     "Tools/File",

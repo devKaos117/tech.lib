@@ -13,6 +13,7 @@ tags:
 ---
 
 `$= dv.el('span',dv.current().file.mtime)`
+
 > [!package] hydra
 
 > [!info] Fast network logon cracker
@@ -20,12 +21,15 @@ tags:
 Parallelized, modular and flexible login cracker which supports numerous protocols to attack.
 
 ## Favorite Uses
+
 ```sh
-hydra -v -l USERNAME -P WORDLIST HOST PROTOCOL
-hydra -v -C WORDLIST -f -M TARGET_LIST PROTOCOL 
+hydra -v -l USR -P WORDLIST HOST PROTOCOL
+hydra -v -C WORDLIST -f -M HOSTS PROTOCOL
+hydra -v -l USR -P WORDLIST HOST http-post-form "PATH:usr=^USER^&pwd=^PASS^:F=STRING"
 ```
 
 ## Command
+
 ```txt
 hydra [OPTION]... [TARGET] [PROTOCOL] [MODULE [OPTION]...]
 
@@ -123,12 +127,26 @@ HELP
 ```
 
 ## Modules
+- **http-post-form** bruteforces HTTP post requests
 
+```txt
+[PATH]:[[VAR=VAL]...[:OPTIONAL]:[[F|S=]STRING]
+
+optionals:
+	1 - 401 error response identify a failed attempt
+	2 - 302 return codes identify a successful attempt
+	M - attack forms that use multipart format
+	(c|C) - Provide a different page to gather initial cookies from
+	(g|G) - skip pre-requests (no pre-cookies are required)
+	(h|H) - Provide user defined HTTP headers
+```
+
+- **http-get**
 
 ## Files
 
-
 ## Environmental Variables
+
 ```bash
 # defines the proxy endpoint
 HYDRA_PROXY=[connect|socks4|socks5]://[USER:PASSWORD@][ADDRESS]
@@ -145,7 +163,7 @@ HYDRA_PROXY_HTTP=[PATH]
 - [[]]
 
 ## External Reference
-[github.com](https://github.com/vanhauser-thc/thc-hydra)  
-[](site)  
-[](man)  
+[github.com](https://github.com/vanhauser-thc/thc-hydra)
+[](site)
+[](man)
 [gnu.org](GNU)
