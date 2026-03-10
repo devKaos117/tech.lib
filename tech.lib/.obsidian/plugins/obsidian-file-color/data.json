@@ -43,19 +43,11 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "Foundations/IANA.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
       "path": "Foundations/API.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
       "path": "Tools/CyberSec/Offensive/mimikatz.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Foundations/Assembly.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -68,10 +60,6 @@
     },
     {
       "path": "Foundations/firmware.md",
-      "color": "1V1_EHArlneT-3ql99AWX"
-    },
-    {
-      "path": "Foundations/Compilation.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
@@ -347,7 +335,11 @@
       "color": "1V1_EHArlneT-3ql99AWX"
     },
     {
-      "path": "CyberSecurity/Theory/Crptography.md",
+      "path": "CyberSecurity/Theory/Cryptography.md",
+      "color": "1V1_EHArlneT-3ql99AWX"
+    },
+    {
+      "path": "CyberSecurity/Attack/Password Attacks.md",
       "color": "1V1_EHArlneT-3ql99AWX"
     }
   ]

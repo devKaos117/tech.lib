@@ -25,6 +25,30 @@ Extremely rare _hash collision_ in which two input values result in the same ha
 list algorithms that fit better the CPU, and those that fit better the GPU
 breaking estimation (exponencial vs polynomial time)
 
+data entropy entropy
+
+ephemeral encryption
+MD4|5|6
+SHA1|2-256,512|3-256,512
+AES-128,256
+rsa
+[ECC]{Elliptic-Curve Cryptography}
+[DES]{Data Encryption Standard}
+[3DES]{Triple Data Encryption Algorithm}
+bcrypt
+blowfish
+yescrypt
+PBKDF
+[RFC9580 - OpenPGP](https://datatracker.ietf.org/doc/html/rfc9580)
+GPG
+Hash-based Message Authentication Code
+Hash LM, NTLM
+
+Storage encryption
+Memory encryption
+BitLocker
+VeraCrypt Container
+
 ## Relevant Reading
 - []()
 

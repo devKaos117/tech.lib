@@ -7,7 +7,7 @@ acronym: IANA
 ---
 
 ## Definition
-[Protocol Registries](https://www.iana.org/protocols)
+
 
 ## Relevant Reading
 - [[]]

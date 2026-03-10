@@ -1,10 +1,17 @@
+CRC32
+programming languages:
+- Assembly
+- compilation
+- interpretation
+- Data types
 - PHP
 	- Wrappers
 	- Content Management System
-- backups
-	- Full
-	- Differential
-	- Incremental
-	- hot
-	- cold
-	- [3-2-1 rule](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf)
+
+backups:
+- Full
+- Differential
+- Incremental
+- hot
+- cold
+- [3-2-1 rule](https://www.cisa.gov/sites/default/files/publications/data_backup_options.pdf)
