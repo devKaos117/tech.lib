@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CyberSecurity/Attack/Password Attacks.md",
+                "file": "OSCP.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Password Attacks"
+              "title": "OSCP"
             }
           },
           {
@@ -256,8 +256,22 @@
   },
   "active": "df767d5f71670904",
   "lastOpenFiles": [
-    "CyberSecurity/Incursions/missing.md",
+    "Tools/CyberSec/Offensive/mimikatz.md",
+    "OSCP.md",
+    "templates/TOOL_TEMPLATE.md",
+    "Windows/missing.md",
     "CyberSecurity/Attack/Password Attacks.md",
+    "CyberSecurity/missing.md",
+    "CyberSecurity/Theory/Cryptography.md",
+    "Windows/SAM.md",
+    "Tools/CyberSec/Offensive/crackmapexec.md",
+    "Tools/CyberSec/Offensive/feroxbuster.md",
+    "Tools/CyberSec/Offensive/john.md",
+    "Devices.md",
+    "CyberSecurity/Methodology/1.2 Private.md",
+    "CyberSecurity/Methodology/1.1 Exposed.md",
+    "CyberSecurity/Methodology/1. Information Gathering.md",
+    "CyberSecurity/Incursions/missing.md",
     "Tools/CyberSec/Offensive/hashcat.md",
     "Foundations/missing.md",
     "CyberSecurity/Attack/_TEMP_.md",
@@ -268,20 +282,6 @@
     "Foundations/Boolean Algebra.md",
     "Foundations/API.md",
     "Foundations/DBMS.md",
-    "Foundations/Compilation.md",
-    "Foundations/firmware.md",
-    "Foundations/ITSM.md",
-    "Foundations/IANA.md",
-    "Networks/missing.md",
-    "Foundations/Assembly.md",
-    "CyberSecurity/missing.md",
-    "CyberSecurity/Theory/Cryptography.md",
-    "Tools/CyberSec/Offensive/hydra.md",
-    "templates/TOOL_TEMPLATE.md",
-    "tech.lib.md",
-    "Tools/CyberSec/Defensive/missing.md",
-    "Tools/CyberSec/missing.md",
-    "Devices.md",
     "attachments/netfilter.png",
     "CyberSecurity/Incursions",
     "Tools/File",

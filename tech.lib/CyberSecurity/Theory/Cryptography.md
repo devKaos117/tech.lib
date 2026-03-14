@@ -42,7 +42,7 @@ PBKDF
 [RFC9580 - OpenPGP](https://datatracker.ietf.org/doc/html/rfc9580)
 GPG
 Hash-based Message Authentication Code
-Hash LM, NTLM
+Hash LM, NTLM, NTLMv2
 
 Storage encryption
 Memory encryption
